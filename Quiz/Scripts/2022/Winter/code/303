@@ -1,0 +1,30 @@
+echo
+echo =303_1.py 
+python3.10 ./303_1.py 
+echo
+echo =303_2.py 
+python3.10 ./303_2.py 
+echo
+echo =303_3.py 
+python3.10 ./303_3.py 
+echo
+echo =303_4.py 
+python3.10 ./303_4.py 
+echo
+echo =303_5.py 
+python3.10 ./303_5.py 
+echo
+echo =303_6.py 
+python3.10 ./303_6.py 
+echo
+echo =303_7.py 
+python3.10 ./303_7.py 
+echo
+echo =303_8.py 
+python3.10 ./303_8.py 
+echo
+echo =303_9.py 
+python3.10 ./303_9.py 
+echo
+echo =303_10.py 
+python3.10 ./303_10.py 

@@ -1,0 +1,18 @@
+echo
+echo =111_1.py 
+python3.11 -W "ignore" ./111_1.py 
+echo
+echo =111_2.py 
+python3.11 -W "ignore" ./111_2.py 
+echo
+echo =111_3.py 
+python3.11 -W "ignore" ./111_3.py 
+echo
+echo =111_5.py 
+echo -7
+echo
+echo =111_7.py 
+echo 3 1 4 5 0 9 7 2 10 6 8
+echo
+echo =111_8.py 
+echo 5 6

@@ -1,0 +1,30 @@
+echo
+echo =973_1.py 
+python3.10 ./973_1.py 
+echo
+echo =973_2.py 
+python3.10 ./973_2.py 
+echo
+echo =973_3.py 
+python3.10 ./973_3.py 
+echo
+echo =973_4.py 
+python3.10 ./973_4.py 
+echo
+echo =973_5.py 
+python3.10 ./973_5.py 
+echo
+echo =973_6.py 
+python3.10 ./973_6.py 
+echo
+echo =973_7.py 
+python3.10 ./973_7.py 
+echo
+echo =973_8.py 
+python3.10 ./973_8.py 
+echo
+echo =973_9.py 
+python3.10 ./973_9.py 
+echo
+echo =973_10.py 
+python3.10 ./973_10.py 

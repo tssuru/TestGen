@@ -1,0 +1,30 @@
+echo
+echo =939_1.py 
+python3.10 ./939_1.py 
+echo
+echo =939_2.py 
+python3.10 ./939_2.py 
+echo
+echo =939_3.py 
+python3.10 ./939_3.py 
+echo
+echo =939_4.py 
+python3.10 ./939_4.py 
+echo
+echo =939_5.py 
+python3.10 ./939_5.py 
+echo
+echo =939_6.py 
+python3.10 ./939_6.py 
+echo
+echo =939_7.py 
+python3.10 ./939_7.py 
+echo
+echo =939_8.py 
+python3.10 ./939_8.py 
+echo
+echo =939_9.py 
+python3.10 ./939_9.py 
+echo
+echo =939_10.py 
+python3.10 ./939_10.py 

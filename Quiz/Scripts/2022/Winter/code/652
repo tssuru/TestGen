@@ -1,0 +1,30 @@
+echo
+echo =652_1.py 
+python3.10 ./652_1.py 
+echo
+echo =652_2.py 
+python3.10 ./652_2.py 
+echo
+echo =652_3.py 
+python3.10 ./652_3.py 
+echo
+echo =652_4.py 
+python3.10 ./652_4.py 
+echo
+echo =652_5.py 
+python3.10 ./652_5.py 
+echo
+echo =652_6.py 
+python3.10 ./652_6.py 
+echo
+echo =652_7.py 
+python3.10 ./652_7.py 
+echo
+echo =652_8.py 
+python3.10 ./652_8.py 
+echo
+echo =652_9.py 
+python3.10 ./652_9.py 
+echo
+echo =652_10.py 
+python3.10 ./652_10.py 

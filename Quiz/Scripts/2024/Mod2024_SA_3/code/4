@@ -1,0 +1,18 @@
+echo
+echo =4_1.py 
+python3.11 -W "ignore" ./4_1.py 
+echo
+echo =4_2.py 
+python3.11 -W "ignore" ./4_2.py 
+echo
+echo =4_3.py 
+python3.11 -W "ignore" ./4_3.py 
+echo
+echo =4_5.py 
+echo 6
+echo
+echo =4_7.py 
+echo 5 0 3 8 10 4 9 7 6 1 2
+echo
+echo =4_8.py 
+echo 5 6

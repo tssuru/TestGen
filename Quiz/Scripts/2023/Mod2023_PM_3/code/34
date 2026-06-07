@@ -1,0 +1,18 @@
+echo
+echo =34_1.py 
+python3.11 -W "ignore" ./34_1.py 
+echo
+echo =34_2.py 
+python3.11 -W "ignore" ./34_2.py 
+echo
+echo =34_3.py 
+python3.11 -W "ignore" ./34_3.py 
+echo
+echo =34_5.py 
+echo -5
+echo
+echo =34_7.py 
+echo 5 6 8 4 0 1 9 3 7 10 2
+echo
+echo =34_8.py 
+echo 1 2 4

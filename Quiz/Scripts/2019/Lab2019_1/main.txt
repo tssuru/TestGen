@@ -1,0 +1,43 @@
+<document>
+<header>
+\documentclass[11pt, russian]{article}{ENDL}
+\setlength\textwidth{190mm} \setlength\textheight{237mm}{ENDL}
+\setlength\voffset{-18mm} \setlength\hoffset{-23mm}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[cp1251]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\begin{document}{ENDL}
+{\Large \center  Варіанти завдань до контрольної лабораторної роботи №1
+\par 2019/20 н.р., перший семестр\par \bigskip}{ENDL}
+<\header>
+<footer>
+\end{document}
+<\footer>
+<from>
+1
+<\from>
+<to>
+130
+<\to>
+<\document>
+<variant>
+
+<before>
+#No#) \space {ENDL}
+<\before>
+
+<after>
+\smallskip\par{ENDL}
+<\after>
+
+<\variant>
+
+<item>
+  <fabric>
+     template answer
+     <fname>
+         script_lab.txt
+     <\fname>
+   <\fabric>
+<\item>
+

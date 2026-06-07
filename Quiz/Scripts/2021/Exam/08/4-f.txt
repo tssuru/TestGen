@@ -1,0 +1,28 @@
+//source for question about dict operations
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+a=[3 08\4-print.txt]
+//a=[3 4-print.txt]
+
+0text={<file> 08\4-task.txt}
+//0text={<file> 4-task.txt}
+var=s;d;t 
+val={<int> 3 7}
+val1=-2;-3;2;3
+op=+=;-=;*=
+
+<\declarations>
+
+<template>
+#0text#
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

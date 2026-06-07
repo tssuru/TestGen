@@ -1,0 +1,178 @@
+<document>
+  <header>
+  <\header>
+  <footer>
+  <\footer>
+
+  <onNextVariant>
+{ENDL}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+{ENDL}=========================={ENDL}
+//NEWPAGE
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     13
+  <\to>
+
+  <onPage>
+    1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+xx.05.2020 Mod Варіант № #No# К1__ ПІБ ________ {ENDL}
+//Що буде надруковано за виконання (завдання 1-7)?{SPACE}
+//Повідомлення інтерпретатора про виняток позначати ERROR.{SPACE}
+//Повідомлення інтерпретатора про синтаксичну помилку позначати SYNTAX.{ENDL}
+//Якщо нічого не буде виведено, то писати, що нічого не буде виведено.{ENDL}
+<\before>
+
+<after>
+{ENDL}{ENDL}{ENDL}
+<\after>
+
+<\variant>
+
+
+//Containers
+<item>
+   include SetOperations/01-q.txt
+<delim>
+{ENDL}{ENDL}
+<\delim>
+
+<\item>
+
+<item>
+   include SetOperations/02-q.txt
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item>
+   include SetOperations/03-q.txt
+<delim>
+{ENDL}{ENDL}
+<\delim>
+<\item>
+
+<item>
+   include SetOperations/04-q.txt
+<delim>
+{ENDL}{ENDL}
+<\delim>
+
+<\item>
+
+<item> 
+include Lists/05-q.txt 
+<delim>
+{ENDL}{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include BinTree/06-q.txt 
+<delim>
+{ENDL}{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include Graphs/07-q.txt 
+<delim>
+{ENDL}{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include Graphs/08-q.txt 
+<delim>
+{ENDL}{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include Graphs/09-q.txt 
+<delim>
+{ENDL}{ENDL}{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include Classes/01-q.txt 
+<delim>
+{ENDL}{ENDL}{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include Classes/02-q.txt 
+<delim>
+{ENDL}{ENDL}{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include Classes/03-q.txt 
+<delim>
+{ENDL}{ENDL}{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include Classes/04-q.txt 
+<delim>
+{ENDL}{ENDL}{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include Classes/05-q.txt 
+<delim>
+{ENDL}{ENDL}{ENDL}
+<\delim>
+<\item>
+
+
+
+//Indexing and slicing
+//<item>
+//   include Indexing/01-q.txt
+
+//<\item>
+
+//<item>
+ //  include Indexing/02-q.txt
+//<delim>
+//{ENDL}{ENDL}
+//<\delim>
+
+//<\item>
+
+
+//<delim>
+//{ENDL}{ENDL}
+//  {ENDL}{TAB}По наступних задачах враховується економнiсть обчислень, використання пам'яті та якiсть коду.{ENDL}
+//  <\delim>
+
+
+
+//<item>
+//  include task-q.txt
+//  <delim>
+//  <\delim>
+//<\item>
+
+

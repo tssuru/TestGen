@@ -1,0 +1,30 @@
+<fabric>
+  collate
+  <fabric>
+     file answer
+     <fname>
+         01-01.txt
+     <\fname>
+   <before>
+(Питання за частиною Карнаух Т.О.){SPACE}
+   <\before>
+  <\fabric>
+
+  <fabric>
+     file answer
+     <fname>
+         01-02.txt
+     <\fname>
+   <before>
+(Питання за частиною Пашка А.О.){SPACE}
+   <\before>
+   <\fabric>
+   <n1>
+       19
+   <\n1>
+   <n2>
+       19
+   <\n2>
+
+
+<\fabric>

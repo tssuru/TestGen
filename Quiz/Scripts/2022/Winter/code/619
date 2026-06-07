@@ -1,0 +1,30 @@
+echo
+echo =619_1.py 
+python3.10 ./619_1.py 
+echo
+echo =619_2.py 
+python3.10 ./619_2.py 
+echo
+echo =619_3.py 
+python3.10 ./619_3.py 
+echo
+echo =619_4.py 
+python3.10 ./619_4.py 
+echo
+echo =619_5.py 
+python3.10 ./619_5.py 
+echo
+echo =619_6.py 
+python3.10 ./619_6.py 
+echo
+echo =619_7.py 
+python3.10 ./619_7.py 
+echo
+echo =619_8.py 
+python3.10 ./619_8.py 
+echo
+echo =619_9.py 
+python3.10 ./619_9.py 
+echo
+echo =619_10.py 
+python3.10 ./619_10.py 

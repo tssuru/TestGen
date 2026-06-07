@@ -1,0 +1,3896 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}{/app/Quiz/Scripts/2021/Mod2021_3/BinTree/}{/app/Quiz/Scripts/2020/Mod2020_4/BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\emergencystretch=3em
+\pagestyle{empty}
+\begin{document}
+%begin
+{\centering\Large\bfseries Контрольна робота\par}
+\medskip
+\noindent\rule{\linewidth}{0.5pt}
+\smallskip
+\noindent\textbf{Варіант \No\,1}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+a,b,c=7,8,5
+def g(b):
+    a=2
+    b=3
+    c=1
+    return a+b+c
+
+a,b,c=3,6,2
+print(g(b),a,b,c)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+2. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) int x,y;
+
+( 2 ) bool r=('N'>'5');
+
+( 3 ) "a"=6;
+
+( 4 ) int f(int a, int 4);
+\par\vspace{5mm}
+%enditem
+%beginitem
+3. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+4**-0.5*True
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+4. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+x,y,z=4,0,5
+y,x,z,x=y,7,z,x
+print(x,y,z)
+\par\vspace{5mm}
+%enditem
+%beginitem
+5. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    m = 10
+    while m>=7:
+        m += -2
+    print(m, end=';')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+6. 
+Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-63$ до~$22$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$-4$.
+Яке значення зберігається у вузлі \kw{p.next.next.next.next.next} ?
+\par\vspace{5mm}
+%enditem
+%beginitem
+7. \textbf{Що буде виведено за виконання фрагменту коду?}
+def f(n):
+    print('f', end=';')
+    return n==1
+
+try:
+    print(f(-4) or f(0))
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+8. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+if (7 == 7)
+    cout << "h";
+else
+    cout << "y";
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+9. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 4**-0.5*True
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+10. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h = ('a','b','c','d','e',0,1,2)
+print(h[-8])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+11. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+
+int g(int b){
+    int y = 78;
+    if (b) 
+        y = 7;
+    else if (b == 0)
+         return 8;
+    else
+         y = 5;
+    return y;
+}
+
+int main(){
+    std::cout << g(-4);
+    return 0;
+}
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+12. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+def g(b):
+    y=78
+    if b: 
+        y=7
+    elif b==0:
+         return 8
+    else:
+         y=5
+    return y
+
+print(g(-4))
+\par\vspace{5mm}
+%enditem
+%beginitem
+13. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h = (0,1,2,3,4,5,6,7,8,9)
+print(h[11::-2])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+14. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+using namespace std;
+
+int g(int b){
+    int y = 78;
+    if (b) 
+        y = 7;
+    else if (b == 0)
+         return 8;
+    else
+         y = 5;
+    return y;
+}
+
+int main(){
+    cout << g(-4);
+    return 0;
+}
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+15. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    print(7, end=';')
+    print(8//0.0, end=';')
+    print(5, end=';')
+except ValueError:
+    print(3, end=';')
+except TypeError:
+    print(6, end=';')
+except:
+    print('Z', end=';')
+else:
+    print(2, end=';')
+finally:
+    print(1)
+\par\vspace{5mm}
+%enditem
+%beginitem
+16. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+if (7 == 7)
+    cout << "h";
+else
+    cout << "h";
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+17. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+h=['0','1','2','3']
+h[-2:]='11'
+print(h)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+18. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = not9==2 or notFalse<9.0 or 2.0!=7
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+19. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+m=10
+while m>=7:
+    m+=-2
+print(m)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+20. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+m=10
+while m>=7:
+    m+=-2
+print(m)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+21. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(9!=2!=False!=9.0)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+22. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+a,b,c=7,8,5
+def g(b):
+    a-=2
+    b=3
+    c=1
+    return a+b+c
+
+a,b,c=3,6,2
+print(g(b),a,b,c)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+23. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+m=7
+while m<=10:
+    m+=2
+print(m, end=' ')
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+24. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = not9==2 or notFalse<9.0 or 2.0!=7
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+25. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+
+a,b,c=7,6,8
+def g(a,b,c=9):
+    print(a,b,c,end="")
+
+g(b=4,c=0,a=5)
+print(a,b,c)
+
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+26. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+m=7
+while m<=10:
+    m+=2
+print(m)
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+27. 
+Записати ВИРАЗ, значенням якого є множина, що складається з цілих чисел від 15 до 2005 (включно), що діляться на 3.\par\vspace{5mm}
+%enditem
+%beginitem
+28. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/68.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Обхід дерева починається з кореня (на рис. це верхня вершина).
+%answer:68 оберненому
+\par\vspace{5mm}
+%enditem
+%beginitem
+29. 
+Записати ВИРАЗ, значенням якого є список, що складається з цілих чисел від 15 до 2005 (включно), причому спочатку за спаданням записано всі, що діляться на 3, а потім решту за спаданням.\par\vspace{5mm}
+%enditem
+%beginitem
+30. 
+Кожен рядок текстового файлу містить по два дійсних числа, розділені білими символами.
+Написати функцію, що для заданого текстового файлу будує новий текстовий файл, рядки якого крім зображень дйсних чисел ще містять результат обчислення на них функції $f$. У вихідному файлі зображення чисел мають розділятися пробілами. 
+$$f(x, y) =\frac{\log_{10} x - 96}{(\arccos x - 0.6) (y - 99)}$$ 
+Якість коду також оцінюється.
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+31. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+try:
+    m = 10
+    while m>=7:
+        m += -2
+    print(m, end=';')
+except:
+    print('Z')
+
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+32. 
+Вкажіть значення та тип виразу:
+4**-0.5*True
+\par\vspace{5mm}
+%enditem
+%beginitem
+33. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+a,b,c=7,6,8
+def g(a,b,c=9):
+    print(a,b,c,end=" ")
+
+g(b=4,c=0,a=5)
+print(a,b,c)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+34. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/68.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:68 оберненому
+\par\vspace{5mm}
+%enditem
+%beginitem
+35. \textbf{Що буде виведено за виконання фрагменту коду?}
+def f(arg, n):
+    n = 7
+    tmp = arg
+    tmp[:-2] = 'bd'
+    return len(tmp)>3
+
+try:
+    h = ['0','1','2','3','4']
+    n = 8
+    f(h, n)
+    print(n, end=';')
+    for el in h:
+        print(el, end=';')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+36. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+h=(0,1,2,3,4,5,6,7,8,9)
+print(h[11::-2])
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+37. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+
+bool f(int n){
+    std::cout<<"f";
+    return n==1;
+}
+
+int main(){
+    std::cout<<(f(-4) or f(0));
+    return 0;
+}
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+38. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 4**-0.5*True
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+39. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 8//8/8*8
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+40. 
+Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-63$ до~$22$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$-4$.
+Яке число зберігається у вузлі \kw{p.next.next.next.next.next} ?
+\par\vspace{5mm}
+%enditem
+%beginitem
+41. \textbf{Що буде виведено за виконання фрагменту коду?}
+def f(arg, n):
+    n = 7
+    tmp = arg
+    tmp[:-2] = 'bd'
+    return len(tmp)>3
+
+try:
+    h = ['0','1','2','3','4']
+    n = 8
+    f(h, n)
+    print(n, end=';')
+    for el in h:
+        print(el, end=';')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+42. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+8//8/8*8
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+43. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+\textbf{Відмітити всі коректні оператори Python:}
+( 1 ) print(3,2, end="2")
+
+( 2 ) x=2.3; x=int(x)
+
+( 3 ) return +
+
+( 4 ) (2+2j)//2
+\par\vspace{5mm}
+%enditem
+%beginitem
+44. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(4**-0.5*True)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+45. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << 9 / 9 / 9 / 9;
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+46. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+try:
+    m = 7
+    while m<=10:
+        m += 2
+    print(m, end=';')
+except:
+    print('Z')
+
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+47. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(9 != 2 > False < 9.0)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+48. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+
+def f(n):
+    print("f", end="");
+    return n==1
+
+print(f(-4) or f(0))
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+49. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+h = ('a','b','c','d','e',0,1,2)
+print(h[-8])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+50. 
+Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу 
+$$\frac{\log_{10} x - 96}{(\arccos x - 0.6) (y - 99)}$$ 
+та повiдомляє введенi данi та результат обчислення.
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+51. 
+Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу та повiдомляє введенi данi та результат обчислення.
+$$\frac{\log_{10} x - 96}{(\arccos x - 0.6) (y - 99)}$$ 
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+52. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+h = (0,1,2,3,4,5,6,7,8,9)
+print(h[11::-2])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+53. 
+$a$ є цілочисловим масивом типу $numpy.ndarray$ розмірів $3{\times}3$. Сума елементів масиву $a$ дорівнює 46. Чому дорівнює сума елементів масиву $a$ після виконання 
+\begin{verbatim}
+a -= 46
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+54. 
+Задано тип вузла списку
+struct Node \{int n; Node *prev, *next;\};
+У списку зберігаються послідовні цілі числа від -63 до 22. Вказівник p встановлено на вузол, в якому зберігається число -4.
+Чому дорівнює значення p->next->next->next->next->next->n ?\par\vspace{5mm}
+%enditem
+%beginitem
+55. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+not9==2 or notFalse<9.0 or 2.0!=7
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+56. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    print(7, end=';')
+    print(8//0.0, end=';')
+    print(5, end=';')
+except ValueError:
+    print(3, end=';')
+except TypeError:
+    print(6, end=';')
+except:
+    print('ERR', end=';')
+else:
+    print(2, end=';')
+finally:
+    print(1)
+\par\vspace{5mm}
+%enditem
+%beginitem
+57. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[:-2]='13'
+print(h)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+58. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) """q""q"""
+
+( 2 ) *
+
+( 3 ) a1.3
+
+( 4 ) [1]
+\par\vspace{5mm}
+%enditem
+%beginitem
+59. 
+В умовах попередньої задачі було виконано p->next=p->prev->next;
+
+Чому дорівнює значення p->next->next->next->next->n ?\par\vspace{5mm}
+%enditem
+%beginitem
+60. 
+Значенням змінної \kw{a} є цілочисловий масив типу $numpy.ndarray$ розмірів $4{\times}4$. На скільки збільшиться сума елементів масиву \kw{a} після виконання
+\begin{verbatim}
+a.T[1] += 2
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+61. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(not9==2 or notFalse<9.0 or 2.0!=7)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+62. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (!9==2 or !false< 9.0 or 2.0!=7);
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+63. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) x_1
+
+( 2 ) +
+
+( 3 ) a1.3
+
+( 4 ) x*y
+\par\vspace{5mm}
+%enditem
+%beginitem
+64. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    for e in range(11, 11, -2):
+        if e<=7:
+            continue
+        print(e, end=';');e = -5
+        if e<=7:
+            break
+    else:
+        print(e,end=';')
+    print(e)
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+65. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print("6.0j" == 6)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+66. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+a,b,c=7,6,8
+def g(a,b,c=9):
+    print(a,b,c,end="")
+
+g(b=4,c=0,a=5)
+print(a,b,c)
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+67. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2)
+print(h[-8])
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+68. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = "6.0j"==6j
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+69. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+"6.0j"==6
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+70. 
+Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу 
+$$\frac{\log_{10} x - 96}{(\arccos x - 0.6) (y - 99)}$$ 
+та повiдомляє введенi данi та результат обчислення.
+ Оцінюється правильність та якість коду.
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+71. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 8//8/8*8
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+72. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+
+x,y,z=4,0,5
+y,x,z,x=y,7,z,x
+print(x,y,z)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+73. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h.extend([1,2])
+print(h)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+74. \textbf{Що буде виведено за виконання фрагменту коду?}
+%Оригинал был утерян. Требует отладки!
+%code
+__b = 0
+
+class B:
+    __b = 1
+    
+    def __init__(self):
+        self.__b = 2
+        __b = 3
+        B.__b = 4
+
+obj = B()
+B.__b = 5
+try:
+    print(__b, end=' ')
+    print(obj.__b, end=' ')
+    print(B.__b, end=' ')
+    print(obj.__b, end=' ')
+    print(obj._B__b)
+except:
+    print('ERR')
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+75. 
+Вкажіть значення та тип виразу:
+8//8/8*8
+\par\vspace{5mm}
+%enditem
+%beginitem
+76. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = "6.0j"==6j
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+77. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (!9 == 2 or !false < 9.0 or 2.0 != 7);
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+78. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h=(0,1,2,3,4,5,6,7,8,9)
+print(h[11::-2])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+79. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+using namespace std;
+
+bool f(int n){
+    cout<<"f";
+    return n==1;
+}
+
+int main(){
+    cout<<(f(-4) or f(0));
+    return 0;
+}
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+80. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+m=10
+while m>=7:
+    m+=-2
+print(m)
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+81. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+m=10
+while m>=7:
+    m+=-2
+print(m, end=' ')
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+82. 
+Записати ВИРАЗ, значенням якого є словник, ключами якого є цілі числа від 15 до 2005 (включно), що діляться на 3, а ключам відповідають їх куби \par\vspace{5mm}
+%enditem
+%beginitem
+83. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+def g(b):
+    y=78
+    if b: 
+        y=7
+    elif b==0:
+         return 8
+    else:
+         y=5
+    return y
+
+print(g(-4))
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+84. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (9 == 2 < false != 9.0);
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+85. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+
+int g(int a, int b){
+    int c = 78;
+    if (b)
+        c = 7;
+    else if (a == 0)
+         return 8;
+    else 
+        c = 5;
+    return c;
+}
+
+int main(){
+    std::cout << g(-4, -4);
+    return 0;
+}
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+86. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << 8 / 8 / 8 / 8;
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+87. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[:-2]='13'
+print(h)
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+88. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+a, b, c = 7, 6, 8
+def g(a, b, c=9):
+    print(a, b, c, end=" ")
+
+g(b=4, c=0, a=5)
+print(a, b, c)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+89. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+def g(a,b):
+    c=78
+    if b:
+        c=7
+    elif a==0:
+         return 8
+    else: 
+        c=5
+    return c
+
+print(g(-4,-4))
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+90. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (9 / 9 / 9 / 9);
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+91. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    m = 7
+    while m<=10:
+        m += 2
+    print(m, end=';')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+92. 
+Вкажіть значення та тип виразу:
+not9==2 or notFalse<9.0 or 2.0!=7
+\par\vspace{5mm}
+%enditem
+%beginitem
+93. 
+Змінні $next$ та $prev$ вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від $-63$ до $22$. Нехай змінна $p$ позначає вузол, що зберігає значення $-4$.
+Яке значення зберігається у вузлі $p.next.next.next.next.next$ ?
+\par\vspace{5mm}
+%enditem
+%beginitem
+94. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+m=7
+while m<=10:
+    m+=2
+print(m)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+95. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+def f(n):
+    print("f", end="");
+    return n==1
+
+print(f(-4) or f(0))
+\par\vspace{5mm}
+%enditem
+%beginitem
+96. 
+Вкажіть значення та тип виразу:
+"6.0j"==6
+\par\vspace{5mm}
+%enditem
+%beginitem
+97. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    m = 7
+    while m<=10:
+        m += 2
+    print(m, end=';')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+98. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+def g(a,b):
+    c=78
+    if b:
+        c=7
+    elif a==0:
+         return 8
+    else: 
+        c=5
+    return c
+
+print(g(-4,-4))\par\vspace{5mm}
+%enditem
+%beginitem
+99. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../15BinTree/trees_exp/68.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:68 оберненому
+\par\vspace{5mm}
+%enditem
+%beginitem
+100. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print("6.0j"==6)
+%code
+\par\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+
+\newpage
+
+%begin
+{\centering\Large\bfseries Контрольна робота\par}
+\medskip
+\noindent\rule{\linewidth}{0.5pt}
+\smallskip
+\noindent\textbf{Варіант \No\,2}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+try:
+    m = 7
+    while m<=10:
+        m += 2
+    print(m, end=';')
+except:
+    print('Z')
+
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+2. 
+Записати ВИРАЗ, значенням якого є словник, ключами якого є цілі числа від 15 до 2005 (включно), що діляться на 3, а ключам відповідають їх куби \par\vspace{5mm}
+%enditem
+%beginitem
+3. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+
+int g(int b){
+    int y = 78;
+    if (b) 
+        y = 7;
+    else if (b == 0)
+         return 8;
+    else
+         y = 5;
+    return y;
+}
+
+int main(){
+    std::cout << g(-4);
+    return 0;
+}
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+4. 
+Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-63$ до~$22$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$-4$.
+Яке значення зберігається у вузлі \kw{p.next.next.next.next.next} ?
+\par\vspace{5mm}
+%enditem
+%beginitem
+5. 
+Значенням змінної \kw{a} є цілочисловий масив типу $numpy.ndarray$ розмірів $4{\times}4$. На скільки збільшиться сума елементів масиву \kw{a} після виконання
+\begin{verbatim}
+a.T[1] += 2
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+6. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print("6.0j" == 6)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+7. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    for e in range(11, 11, -2):
+        if e<=7:
+            continue
+        print(e, end=';');e = -5
+        if e<=7:
+            break
+    else:
+        print(e,end=';')
+    print(e)
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+8. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (!9==2 or !false< 9.0 or 2.0!=7);
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+9. 
+$a$ є цілочисловим масивом типу $numpy.ndarray$ розмірів $3{\times}3$. Сума елементів масиву $a$ дорівнює 46. Чому дорівнює сума елементів масиву $a$ після виконання 
+\begin{verbatim}
+a -= 46
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+10. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+if (7 == 7)
+    cout << "h";
+else
+    cout << "h";
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+11. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+"6.0j"==6
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+12. \textbf{Що буде виведено за виконання фрагменту коду?}
+h=['0','1','2','3','4']; h.extend([1,2]); print(h)\par\vspace{5mm}
+%enditem
+%beginitem
+13. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    print(7, end=';')
+    print(8//0.0, end=';')
+    print(5, end=';')
+except ValueError:
+    print(3, end=';')
+except TypeError:
+    print(6, end=';')
+except:
+    print('ERR', end=';')
+else:
+    print(2, end=';')
+finally:
+    print(1)
+\par\vspace{5mm}
+%enditem
+%beginitem
+14. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h=(0,1,2,3,4,5,6,7,8,9)
+print(h[11::-2])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+15. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+
+int g(int a, int b){
+    int c = 78;
+    if (b)
+        c = 7;
+    else if (a == 0)
+         return 8;
+    else 
+        c = 5;
+    return c;
+}
+
+int main(){
+    std::cout << g(-4, -4);
+    return 0;
+}
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+16. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+a,b,c=7,6,8
+def g(a,b,c=9):
+    print(a,b,c,end=" ")
+
+g(b=4,c=0,a=5)
+print(a,b,c)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+17. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    m = 10
+    while m>=7:
+        m += -2
+    print(m, end=';')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+18. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[:-2]='13'
+print(h)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+19. 
+Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу та повiдомляє введенi данi та результат обчислення.
+$$\frac{\log_{10} x - 96}{(\arccos x - 0.6) (y - 99)}$$ 
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+20. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+a, b, c = 7, 6, 8
+def g(a, b, c=9):
+    print(a, b, c, end=" ")
+
+g(b=4, c=0, a=5)
+print(a, b, c)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+21. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+m=7
+while m<=10:
+    m+=2
+print(m)
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+22. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+not9==2 or notFalse<9.0 or 2.0!=7
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+23. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+using namespace std;
+
+bool f(int n){
+    cout<<"f";
+    return n==1;
+}
+
+int main(){
+    cout<<(f(-4) or f(0));
+    return 0;
+}
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+24. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    m = 7
+    while m<=10:
+        m += 2
+    print(m, end=';')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+25. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[:-2]='13'
+print(h)
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+26. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2)
+print(h[-8])
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+27. 
+Задано тип вузла списку
+struct Node \{int n; Node *prev, *next;\};
+У списку зберігаються послідовні цілі числа від -63 до 22. Вказівник p встановлено на вузол, в якому зберігається число -4.
+Чому дорівнює значення p->next->next->next->next->next->n ?\par\vspace{5mm}
+%enditem
+%beginitem
+28. 
+Записати ВИРАЗ, значенням якого є множина, що складається з цілих чисел від 15 до 2005 (включно), що діляться на 3.\par\vspace{5mm}
+%enditem
+%beginitem
+29. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << 8 / 8 / 8 / 8;
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+30. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h.extend([1,2])
+print(h)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+31. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+
+x,y,z=4,0,5
+y,x,z,x=y,7,z,x
+print(x,y,z)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+32. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+m=7
+while m<=10:
+    m+=2
+print(m)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+33. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(4**-0.5*True)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+34. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(9!=2!=False!=9.0)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+35. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) int x,y;
+
+( 2 ) bool r=('N'>'5');
+
+( 3 ) "a"=6;
+
+( 4 ) int f(int a, int 4);
+\par\vspace{5mm}
+%enditem
+%beginitem
+36. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+h=(0,1,2,3,4,5,6,7,8,9)
+print(h[11::-2])
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+37. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+a,b,c=7,8,5
+def g(b):
+    a=2
+    b=3
+    c=1
+    return a+b+c
+
+a,b,c=3,6,2
+print(g(b),a,b,c)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+38. 
+Вкажіть значення та тип виразу:
+8//8/8*8
+\par\vspace{5mm}
+%enditem
+%beginitem
+39. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    m = 7
+    while m<=10:
+        m += 2
+    print(m, end=';')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+40. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+8//8/8*8
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+41. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(8//8/8*8)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+42. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) x_1
+
+( 2 ) +
+
+( 3 ) a1.3
+
+( 4 ) x*y
+\par\vspace{5mm}
+%enditem
+%beginitem
+43. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+try:
+    m = 10
+    while m>=7:
+        m += -2
+    print(m, end=';')
+except:
+    print('Z')
+
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+44. 
+Кожен рядок текстового файлу містить по два дійсних числа, розділені білими символами.
+Написати функцію, що для заданого текстового файлу будує новий текстовий файл, рядки якого крім зображень дйсних чисел ще містять результат обчислення на них функції $f$. У вихідному файлі зображення чисел мають розділятися пробілами. 
+$$f(x, y) =\frac{\log_{10} x - 96}{(\arccos x - 0.6) (y - 99)}$$ 
+Якість коду також оцінюється.
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+45. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+def g(a,b):
+    c=78
+    if b:
+        c=7
+    elif a==0:
+         return 8
+    else: 
+        c=5
+    return c
+
+print(g(-4,-4))
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+46. 
+Записати ВИРАЗ, значенням якого є список, що складається з цілих чисел від 15 до 2005 (включно), причому спочатку за спаданням записано всі, що діляться на 3, а потім решту за спаданням.\par\vspace{5mm}
+%enditem
+%beginitem
+47. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+a,b,c=7,8,5
+def g(b):
+    a-=2
+    b=3
+    c=1
+    return a+b+c
+
+a,b,c=3,6,2
+print(g(b),a,b,c)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+48. 
+Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу 
+$$\frac{\log_{10} x - 96}{(\arccos x - 0.6) (y - 99)}$$ 
+та повiдомляє введенi данi та результат обчислення.
+ Оцінюється правильність та якість коду.
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+49. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+def g(a,b):
+    c=78
+    if b:
+        c=7
+    elif a==0:
+         return 8
+    else: 
+        c=5
+    return c
+
+print(g(-4,-4))\par\vspace{5mm}
+%enditem
+%beginitem
+50. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (8 / 8 / 8 / 8);
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+51. \textbf{Що буде виведено за виконання фрагменту коду?}
+def f(arg, n):
+    n = 7
+    tmp = arg
+    tmp[:-2] = 'bd'
+    return len(tmp)>3
+
+try:
+    h = ['0','1','2','3','4']
+    n = 8
+    f(h, n)
+    print(n, end=';')
+    for el in h:
+        print(el, end=';')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+52. \textbf{Що буде виведено за виконання фрагменту коду?}
+def f(n):
+    print('f', end='')
+    return n==1
+
+try:
+    print(f(-4) or f(0))
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+53. 
+Рядки журналу через = містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад
+\begin{verbatim}
+s="username = 2022-05-05 13:26 = ERROR = 404"
+\end{verbatim}
+у коді 
+\begin{verbatim}
+res = re.fullmatch('???', s) 
+s = ''
+code_str = ??? 
+\end{verbatim}
+чим треба замінити кожен з ???, щоб значенням code\_str був код події? 
+
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+54. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+
+a,b,c=7,6,8
+def g(a,b,c=9):
+    print(a,b,c,end="")
+
+g(b=4,c=0,a=5)
+print(a,b,c)
+
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+55. 
+Змінні $next$ та $prev$ вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від $-63$ до $22$. Нехай змінна $p$ позначає вузол, що зберігає значення $-4$.
+Яке значення зберігається у вузлі $p.next.next.next.next.next$ ?
+\par\vspace{5mm}
+%enditem
+%beginitem
+56. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 4**-0.5*True
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+57. 
+Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу 
+$$\frac{\log_{10} x - 96}{(\arccos x - 0.6) (y - 99)}$$ 
+та повiдомляє введенi данi та результат обчислення.
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+58. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+\textbf{Відмітити всі коректні оператори Python:}
+( 1 ) print(3,2, end="2")
+
+( 2 ) x=2.3; x=int(x)
+
+( 3 ) return +
+
+( 4 ) (2+2j)//2
+\par\vspace{5mm}
+%enditem
+%beginitem
+59. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+def g(b):
+    y=78
+    if b: 
+        y=7
+    elif b==0:
+         return 8
+    else:
+         y=5
+    return y
+
+print(g(-4))
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+60. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+using namespace std;
+
+int g(int b){
+    int y = 78;
+    if (b) 
+        y = 7;
+    else if (b == 0)
+         return 8;
+    else
+         y = 5;
+    return y;
+}
+
+int main(){
+    cout << g(-4);
+    return 0;
+}
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+61. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h = ('a','b','c','d','e',0,1,2)
+print(h[-8])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+62. 
+Вкажіть значення та тип виразу:
+"6.0j"==6
+\par\vspace{5mm}
+%enditem
+%beginitem
+63. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    for e in range(11, 11, -2):
+        if e<=7:
+            continue
+        print(e, end=';');e = -5
+        if e<=7:
+            break
+    else:
+        print(e,end=';')
+    print(e)
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+64. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << 9 / 9 / 9 / 9;
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+65. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+using namespace std;
+
+int g(int a, int b){
+    int c = 78;
+    if (b)
+        c = 7;
+    else if (a == 0)
+         return 8;
+    else 
+        c = 5;
+    return c;
+}
+
+int main(){
+    cout << g(-4, -4);
+    return 0;
+}
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+66. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+m=10
+while m>=7:
+    m+=-2
+print(m)
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+67. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+m=7
+while m<=10:
+    m+=2
+print(m)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+68. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = "6.0j"==6j
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+69. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) """q""q"""
+
+( 2 ) *
+
+( 3 ) a1.3
+
+( 4 ) [1]
+\par\vspace{5mm}
+%enditem
+%beginitem
+70. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    m = 10
+    while m>=7:
+        m += -2
+    print(m, end=';')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+71. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+h=['0','1','2','3','4']
+h.extend([1,2])
+print(h)
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+72. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (!9 == 2 or !false < 9.0 or 2.0 != 7);
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+73. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+h = ('a','b','c','d','e',0,1,2)
+print(h[-8])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+74. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 8//8/8*8
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+75. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+try:
+    print(7,end="")
+    print(8//0.0,end="")
+    print(5,end="")
+except ZeroDivisionError: print(3,end="")
+except Exception: print(6,end="")
+else: print(2,end="")
+finally: print(1,end="")
+\par\vspace{5mm}
+%enditem
+%beginitem
+76. \textbf{Що буде виведено за виконання фрагменту коду?}
+code
+__b = 0
+
+class B:
+    __b = 1
+    
+    def __init__(self):
+        self.__b = 2
+        __b = 3
+        B.__b = 4
+
+obj = B()
+try:
+    print(__b, end=' ')
+    print(obj.__b, end=' ')
+    print(B.__b, end=' ')
+    print(obj.__b, end=' ')
+    print(obj._B__b, end=' ')
+except:
+    print('ERR')
+code
+\par\vspace{5mm}
+%enditem
+%beginitem
+77. \textbf{Що буде виведено за виконання фрагменту коду?}
+h=['0','1','2','3','4']; h[:-2]='13'; print(h)\par\vspace{5mm}
+%enditem
+%beginitem
+78. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(9 != 2 > False < 9.0)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+79. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../15BinTree/trees_exp/68.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:68 оберненому
+\par\vspace{5mm}
+%enditem
+%beginitem
+80. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (9 / 9 / 9 / 9);
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+81. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+m=10
+while m>=7:
+    m+=-2
+print(m, end=' ')
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+82. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2)
+print(h[-8])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+83. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+x,y,z=4,0,5
+y,x,z,x=y,7,z,x
+print(x,y,z)
+\par\vspace{5mm}
+%enditem
+%beginitem
+84. \textbf{Що буде виведено за виконання фрагменту коду?}
+def f(arg, n):
+    n = 7
+    tmp = arg
+    tmp[:-2] = 'bd'
+    return len(tmp)>3
+
+try:
+    h = ['0','1','2','3','4']
+    n = 8
+    f(h, n)
+    print(n, end=';')
+    for el in h:
+        print(el, end=';')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+85. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 8//8/8*8
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+86. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+h=['0','1','2','3']
+h.extend([1,2])
+print(h)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+87. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+h = (0,1,2,3,4,5,6,7,8,9)
+print(h[11::-2])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+88. 
+Вкажіть значення та тип виразу:
+4**-0.5*True
+\par\vspace{5mm}
+%enditem
+%beginitem
+89. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = not9==2 or notFalse<9.0 or 2.0!=7
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+90. 
+Вкажіть значення та тип виразу:
+not9==2 or notFalse<9.0 or 2.0!=7
+\par\vspace{5mm}
+%enditem
+%beginitem
+91. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+m=10
+while m>=7:
+    m+=-2
+print(m)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+92. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+4**-0.5*True
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+93. \textbf{Що буде виведено за виконання фрагменту коду?}
+%Оригинал был утерян. Требует отладки!
+%code
+__b = 0
+
+class B:
+    __b = 1
+    
+    def __init__(self):
+        self.__b = 2
+        __b = 3
+        B.__b = 4
+
+obj = B()
+B.__b = 5
+try:
+    print(__b, end=' ')
+    print(obj.__b, end=' ')
+    print(B.__b, end=' ')
+    print(obj.__b, end=' ')
+    print(obj._B__b)
+except:
+    print('ERR')
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+94. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h = (0,1,2,3,4,5,6,7,8,9)
+print(h[11::-2])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+95. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = not9==2 or notFalse<9.0 or 2.0!=7
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+96. 
+Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-63$ до~$22$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$-4$.
+Яке число зберігається у вузлі \kw{p.next.next.next.next.next} ?
+\par\vspace{5mm}
+%enditem
+%beginitem
+97. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+if (7 == 7)
+    cout << "h";
+else
+    cout << "y";
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+98. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+
+def f(n):
+    print("f", end="");
+    return n==1
+
+print(f(-4) or f(0))
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+99. 
+В умовах попередньої задачі було виконано p->next=p->prev->next;
+
+Чому дорівнює значення p->next->next->next->next->n ?\par\vspace{5mm}
+%enditem
+%beginitem
+100. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 4**-0.5*True
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+
+\newpage
+
+%begin
+{\centering\Large\bfseries Контрольна робота\par}
+\medskip
+\noindent\rule{\linewidth}{0.5pt}
+\smallskip
+\noindent\textbf{Варіант \No\,3}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. 
+Змінні $next$ та $prev$ вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від $-63$ до $22$. Нехай змінна $p$ позначає вузол, що зберігає значення $-4$.
+Яке значення зберігається у вузлі $p.next.next.next.next.next$ ?
+\par\vspace{5mm}
+%enditem
+%beginitem
+2. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = not9==2 or notFalse<9.0 or 2.0!=7
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+3. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (9 == 2 < false != 9.0);
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+4. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2)
+print(h[-8])
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+5. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print("6.0j" == 6)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+6. \textbf{Що буде виведено за виконання фрагменту коду?}
+def f(n):
+    print('f', end=';')
+    return n==1
+
+try:
+    print(f(-4) or f(0))
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+7. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = "6.0j"==6j
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+8. 
+Вкажіть значення та тип виразу:
+8//8/8*8
+\par\vspace{5mm}
+%enditem
+%beginitem
+9. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+try:
+    m = 7
+    while m<=10:
+        m += 2
+    print(m, end=';')
+except:
+    print('Z')
+
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+10. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(9 != 2 > False < 9.0)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+11. \textbf{Що буде виведено за виконання фрагменту коду?}
+h=['0','1','2','3','4']; h.extend([1,2]); print(h)\par\vspace{5mm}
+%enditem
+%beginitem
+12. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    m = 7
+    while m<=10:
+        m += 2
+    print(m, end=';')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+13. 
+Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу 
+$$\frac{\log_{10} x - 96}{(\arccos x - 0.6) (y - 99)}$$ 
+та повiдомляє введенi данi та результат обчислення.
+ Оцінюється правильність та якість коду.
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+14. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+x,y,z=4,0,5
+y,x,z,x=y,7,z,x
+print(x,y,z)
+\par\vspace{5mm}
+%enditem
+%beginitem
+15. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h.extend([1,2])
+print(h)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+16. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+h = (0,1,2,3,4,5,6,7,8,9)
+print(h[11::-2])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+17. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    for e in range(11, 11, -2):
+        if e<=7:
+            continue
+        print(e, end=';');e = -5
+        if e<=7:
+            break
+    else:
+        print(e,end=';')
+    print(e)
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+18. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+m=7
+while m<=10:
+    m+=2
+print(m)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+19. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h=(0,1,2,3,4,5,6,7,8,9)
+print(h[11::-2])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+20. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+try:
+    m = 10
+    while m>=7:
+        m += -2
+    print(m, end=';')
+except:
+    print('Z')
+
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+21. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    print(7, end=';')
+    print(8//0.0, end=';')
+    print(5, end=';')
+except ValueError:
+    print(3, end=';')
+except TypeError:
+    print(6, end=';')
+except:
+    print('ERR', end=';')
+else:
+    print(2, end=';')
+finally:
+    print(1)
+\par\vspace{5mm}
+%enditem
+%beginitem
+22. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    m = 10
+    while m>=7:
+        m += -2
+    print(m, end=';')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+23. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+
+int g(int b){
+    int y = 78;
+    if (b) 
+        y = 7;
+    else if (b == 0)
+         return 8;
+    else
+         y = 5;
+    return y;
+}
+
+int main(){
+    std::cout << g(-4);
+    return 0;
+}
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+24. 
+Кожен рядок текстового файлу містить по два дійсних числа, розділені білими символами.
+Написати функцію, що для заданого текстового файлу будує новий текстовий файл, рядки якого крім зображень дйсних чисел ще містять результат обчислення на них функції $f$. У вихідному файлі зображення чисел мають розділятися пробілами. 
+$$f(x, y) =\frac{\log_{10} x - 96}{(\arccos x - 0.6) (y - 99)}$$ 
+Якість коду також оцінюється.
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+25. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+
+bool f(int n){
+    std::cout<<"f";
+    return n==1;
+}
+
+int main(){
+    std::cout<<(f(-4) or f(0));
+    return 0;
+}
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+26. 
+Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу та повiдомляє введенi данi та результат обчислення.
+$$\frac{\log_{10} x - 96}{(\arccos x - 0.6) (y - 99)}$$ 
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+27. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2)
+print(h[-8])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+28. \textbf{Що буде виведено за виконання фрагменту коду?}
+%Оригинал был утерян. Требует отладки!
+%code
+__b = 0
+
+class B:
+    __b = 1
+    
+    def __init__(self):
+        self.__b = 2
+        __b = 3
+        B.__b = 4
+
+obj = B()
+B.__b = 5
+try:
+    print(__b, end=' ')
+    print(obj.__b, end=' ')
+    print(B.__b, end=' ')
+    print(obj.__b, end=' ')
+    print(obj._B__b)
+except:
+    print('ERR')
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+29. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+def g(b):
+    y=78
+    if b: 
+        y=7
+    elif b==0:
+         return 8
+    else:
+         y=5
+    return y
+
+print(g(-4))
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+30. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+m=10
+while m>=7:
+    m+=-2
+print(m, end=' ')
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+31. 
+Записати ВИРАЗ, значенням якого є множина, що складається з цілих чисел від 15 до 2005 (включно), що діляться на 3.\par\vspace{5mm}
+%enditem
+%beginitem
+32. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+m=10
+while m>=7:
+    m+=-2
+print(m)
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+33. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+m=10
+while m>=7:
+    m+=-2
+print(m)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+34. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(8//8/8*8)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+35. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (!9 == 2 or !false < 9.0 or 2.0 != 7);
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+36. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+h = ('a','b','c','d','e',0,1,2)
+print(h[-8])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+37. 
+Вкажіть значення та тип виразу:
+"6.0j"==6
+\par\vspace{5mm}
+%enditem
+%beginitem
+38. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) """q""q"""
+
+( 2 ) *
+
+( 3 ) a1.3
+
+( 4 ) [1]
+\par\vspace{5mm}
+%enditem
+%beginitem
+39. \textbf{Що буде виведено за виконання фрагменту коду?}
+def f(arg, n):
+    n = 7
+    tmp = arg
+    tmp[:-2] = 'bd'
+    return len(tmp)>3
+
+try:
+    h = ['0','1','2','3','4']
+    n = 8
+    f(h, n)
+    print(n, end=';')
+    for el in h:
+        print(el, end=';')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+40. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(not9==2 or notFalse<9.0 or 2.0!=7)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+41. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+try:
+    print(7,end="")
+    print(8//0.0,end="")
+    print(5,end="")
+except ZeroDivisionError: print(3,end="")
+except Exception: print(6,end="")
+else: print(2,end="")
+finally: print(1,end="")
+\par\vspace{5mm}
+%enditem
+%beginitem
+42. 
+В умовах попередньої задачі було виконано p->next=p->prev->next;
+
+Чому дорівнює значення p->next->next->next->next->n ?\par\vspace{5mm}
+%enditem
+%beginitem
+43. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 4**-0.5*True
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+44. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+def f(n):
+    print("f", end="");
+    return n==1
+
+print(f(-4) or f(0))
+\par\vspace{5mm}
+%enditem
+%beginitem
+45. 
+Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу 
+$$\frac{\log_{10} x - 96}{(\arccos x - 0.6) (y - 99)}$$ 
+та повiдомляє введенi данi та результат обчислення.
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+46. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+"6.0j"==6
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+47. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h = (0,1,2,3,4,5,6,7,8,9)
+print(h[11::-2])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+48. \textbf{Що буде виведено за виконання фрагменту коду?}
+h=['0','1','2','3','4']; h[:-2]='13'; print(h)\par\vspace{5mm}
+%enditem
+%beginitem
+49. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/68.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:68 оберненому
+\par\vspace{5mm}
+%enditem
+%beginitem
+50. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+
+def f(n):
+    print("f", end="");
+    return n==1
+
+print(f(-4) or f(0))
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+51. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/68.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Обхід дерева починається з кореня (на рис. це верхня вершина).
+%answer:68 оберненому
+\par\vspace{5mm}
+%enditem
+%beginitem
+52. 
+Записати ВИРАЗ, значенням якого є список, що складається з цілих чисел від 15 до 2005 (включно), причому спочатку за спаданням записано всі, що діляться на 3, а потім решту за спаданням.\par\vspace{5mm}
+%enditem
+%beginitem
+53. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+4**-0.5*True
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+54. \textbf{Що буде виведено за виконання фрагменту коду?}
+code
+__b = 0
+
+class B:
+    __b = 1
+    
+    def __init__(self):
+        self.__b = 2
+        __b = 3
+        B.__b = 4
+
+obj = B()
+try:
+    print(__b, end=' ')
+    print(obj.__b, end=' ')
+    print(B.__b, end=' ')
+    print(obj.__b, end=' ')
+    print(obj._B__b, end=' ')
+except:
+    print('ERR')
+code
+\par\vspace{5mm}
+%enditem
+%beginitem
+55. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+if (7 == 7)
+    cout << "h";
+else
+    cout << "h";
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+56. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (9 / 9 / 9 / 9);
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+57. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[:-2]='13'
+print(h)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+58. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+m=7
+while m<=10:
+    m+=2
+print(m, end=' ')
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+59. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+h = ('a','b','c','d','e',0,1,2)
+print(h[-8])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+60. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 8//8/8*8
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+61. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+h=['0','1','2','3','4']
+h.extend([1,2])
+print(h)
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+62. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    print(7, end=';')
+    print(8//0.0, end=';')
+    print(5, end=';')
+except ValueError:
+    print(3, end=';')
+except TypeError:
+    print(6, end=';')
+except:
+    print('Z', end=';')
+else:
+    print(2, end=';')
+finally:
+    print(1)
+\par\vspace{5mm}
+%enditem
+%beginitem
+63. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+a, b, c = 7, 6, 8
+def g(a, b, c=9):
+    print(a, b, c, end=" ")
+
+g(b=4, c=0, a=5)
+print(a, b, c)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+64. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+using namespace std;
+
+int g(int a, int b){
+    int c = 78;
+    if (b)
+        c = 7;
+    else if (a == 0)
+         return 8;
+    else 
+        c = 5;
+    return c;
+}
+
+int main(){
+    cout << g(-4, -4);
+    return 0;
+}
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+65. \textbf{Що буде виведено за виконання фрагменту коду?}
+def f(arg, n):
+    n = 7
+    tmp = arg
+    tmp[:-2] = 'bd'
+    return len(tmp)>3
+
+try:
+    h = ['0','1','2','3','4']
+    n = 8
+    f(h, n)
+    print(n, end=';')
+    for el in h:
+        print(el, end=';')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+66. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print("6.0j"==6)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+67. 
+Вкажіть значення та тип виразу:
+4**-0.5*True
+\par\vspace{5mm}
+%enditem
+%beginitem
+68. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+m=7
+while m<=10:
+    m+=2
+print(m)
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+69. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = not9==2 or notFalse<9.0 or 2.0!=7
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+70. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+h=['0','1','2','3']
+h.extend([1,2])
+print(h)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+71. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 8//8/8*8
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+72. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+h=(0,1,2,3,4,5,6,7,8,9)
+print(h[11::-2])
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+73. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (8 / 8 / 8 / 8);
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+74. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+def g(b):
+    y=78
+    if b: 
+        y=7
+    elif b==0:
+         return 8
+    else:
+         y=5
+    return y
+
+print(g(-4))
+\par\vspace{5mm}
+%enditem
+%beginitem
+75. 
+Задано тип вузла списку
+struct Node \{int n; Node *prev, *next;\};
+У списку зберігаються послідовні цілі числа від -63 до 22. Вказівник p встановлено на вузол, в якому зберігається число -4.
+Чому дорівнює значення p->next->next->next->next->next->n ?\par\vspace{5mm}
+%enditem
+%beginitem
+76. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+a,b,c=7,8,5
+def g(b):
+    a-=2
+    b=3
+    c=1
+    return a+b+c
+
+a,b,c=3,6,2
+print(g(b),a,b,c)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+77. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) x_1
+
+( 2 ) +
+
+( 3 ) a1.3
+
+( 4 ) x*y
+\par\vspace{5mm}
+%enditem
+%beginitem
+78. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+a,b,c=7,6,8
+def g(a,b,c=9):
+    print(a,b,c,end=" ")
+
+g(b=4,c=0,a=5)
+print(a,b,c)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+79. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(9!=2!=False!=9.0)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+80. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) int x,y;
+
+( 2 ) bool r=('N'>'5');
+
+( 3 ) "a"=6;
+
+( 4 ) int f(int a, int 4);
+\par\vspace{5mm}
+%enditem
+%beginitem
+81. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+h=['0','1','2','3']
+h[-2:]='11'
+print(h)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+82. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+def g(a,b):
+    c=78
+    if b:
+        c=7
+    elif a==0:
+         return 8
+    else: 
+        c=5
+    return c
+
+print(g(-4,-4))
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+83. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+m=10
+while m>=7:
+    m+=-2
+print(m)
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+84. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+a,b,c=7,8,5
+def g(b):
+    a=2
+    b=3
+    c=1
+    return a+b+c
+
+a,b,c=3,6,2
+print(g(b),a,b,c)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+85. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+\textbf{Відмітити всі коректні оператори Python:}
+( 1 ) print(3,2, end="2")
+
+( 2 ) x=2.3; x=int(x)
+
+( 3 ) return +
+
+( 4 ) (2+2j)//2
+\par\vspace{5mm}
+%enditem
+%beginitem
+86. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (!9==2 or !false< 9.0 or 2.0!=7);
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+87. 
+Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-63$ до~$22$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$-4$.
+Яке значення зберігається у вузлі \kw{p.next.next.next.next.next} ?
+\par\vspace{5mm}
+%enditem
+%beginitem
+88. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+
+x,y,z=4,0,5
+y,x,z,x=y,7,z,x
+print(x,y,z)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+89. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+8//8/8*8
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+90. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+def g(a,b):
+    c=78
+    if b:
+        c=7
+    elif a==0:
+         return 8
+    else: 
+        c=5
+    return c
+
+print(g(-4,-4))\par\vspace{5mm}
+%enditem
+%beginitem
+91. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+a,b,c=7,6,8
+def g(a,b,c=9):
+    print(a,b,c,end="")
+
+g(b=4,c=0,a=5)
+print(a,b,c)
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+92. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = "6.0j"==6j
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+%beginitem
+93. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+
+a,b,c=7,6,8
+def g(a,b,c=9):
+    print(a,b,c,end="")
+
+g(b=4,c=0,a=5)
+print(a,b,c)
+
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+94. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << 8 / 8 / 8 / 8;
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+95. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+not9==2 or notFalse<9.0 or 2.0!=7
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+96. 
+Вкажіть значення та тип виразу:
+not9==2 or notFalse<9.0 or 2.0!=7
+\par\vspace{5mm}
+%enditem
+%beginitem
+97. 
+Рядки журналу через = містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад
+\begin{verbatim}
+s="username = 2022-05-05 13:26 = ERROR = 404"
+\end{verbatim}
+у коді 
+\begin{verbatim}
+res = re.fullmatch('???', s) 
+s = ''
+code_str = ??? 
+\end{verbatim}
+чим треба замінити кожен з ???, щоб значенням code\_str був код події? 
+
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+98. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+using namespace std;
+
+int g(int b){
+    int y = 78;
+    if (b) 
+        y = 7;
+    else if (b == 0)
+         return 8;
+    else
+         y = 5;
+    return y;
+}
+
+int main(){
+    cout << g(-4);
+    return 0;
+}
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+99. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+if (7 == 7)
+    cout << "h";
+else
+    cout << "y";
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+100. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    m = 7
+    while m<=10:
+        m += 2
+    print(m, end=';')
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+\end{document}
+
+

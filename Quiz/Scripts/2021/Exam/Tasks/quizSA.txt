@@ -1,0 +1,164 @@
+<document>
+  <header>
+\documentclass[10pt, ukrainian]{article}{ENDL}
+\setlength\textwidth{190mm} \setlength\textheight{277mm}{ENDL}
+\setlength\voffset{-38mm} \setlength\hoffset{-38mm}{ENDL}
+%\setlength\parindent{0mm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage{caption}{ENDL}
+\usepackage{multicol}{ENDL}
+\usepackage{verbatim}{ENDL}
+\DeclareCaptionFormat{nocaption}{}{ENDL}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}{ENDL}
+
+\usepackage[Export]{adjustbox} {ENDL}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}
+
+\begin{document}{ENDL}
+  <\header>
+  <footer>
+\end{document}
+  <\footer>
+
+  <onNextVariant>
+{ENDL}\newpage{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+//NEWPAGE
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     5
+  <\to>
+
+  <onPage>
+    1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+{
+ {\begin {small}\par{ENDL}
+  { \center  Київський національний університет імені Тараса Шевченка \par}{ENDL} 
+  {\parbox {5 cm}{Освітня програма \hfill}{\parbox {7 cm}{Системний аналіз \hfill}}
+   \parbox {6 cm}{\hfill Семестр 2}
+  }\par{ENDL}
+  {\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}
+   {Програмування \hfill}\parbox {6cm}{\hfill}\par
+  }
+  \vspace{-7pt} \end{small}
+ }
+ {\center Екзаменаційний білет \No \textbf {ENDL}
+  { #No# }\par
+ }
+}{ENDL}
+{
+ {ENDL}\begin {large}{ENDL}
+<\before>
+
+<after>
+ {ENDL}\end {large}{ENDL}
+}{ENDL}
+
+{\smallskip \begin {small} Затверджено на засіданні кафедри{SPACE}
+ теоретичної кібернетики, протокол \No 6 від   29.01.2022{SPACE}
+ р.\par\smallskip\smallskip{ENDL}
+ {\parbox {6.5 cm} 
+  {Зав. кафедри \dotfill{SPACE}
+   Ю.В.~Крак
+  }
+ }\hspace {0.7cm} 
+ {\hbox to 6.5 cm 
+  { Екзаменатор \dotfill{SPACE}
+    Т.О.~Карнаух
+  }
+ }{SPACE}
+\end{small}}{ENDL}
+<\after>
+
+<\variant>
+
+<item>
+ include expr.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+<item>
+ include 07_assign/q.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+<item>
+ include 09_scope/q.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+<item>
+ include 13_cycles/q.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+<item>
+ include 15_indexing/q.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+<item>
+ include 17_listop/q.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+<item>
+ include 20+21.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+<item>
+ include 24+25.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+<item>
+ include 14_recursion/q.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+
+<item>
+ include search.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+

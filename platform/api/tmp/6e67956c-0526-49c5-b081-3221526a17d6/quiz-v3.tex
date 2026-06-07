@@ -1,0 +1,177 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}{/app/Quiz/Scripts/2021/Mod2021_3/BinTree/}{/app/Quiz/Scripts/2020/Mod2020_4/BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,3}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+i=6
+while i<12:
+    i+=1
+print(i)
+%code
+
+\vspace{5mm}
+%enditem
+
+%beginitem
+2. 
+Вкажіть значення та тип виразу:
+8<True
+\vspace{5mm}
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+try:
+    res = 5/5*5*5
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\vspace{5mm}
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+try:
+    res = 9**0.5*-2
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\vspace{5mm}
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання фрагменту коду?
+try:
+    for a in range(6, 6, -3):
+        if a<3:
+            break
+        print(a, end=';')
+        if a<3:
+            break
+    else:
+        print('end',end=';')
+    print(a)
+except:
+    print('Z')
+\vspace{5mm}
+%enditem
+
+%beginitem
+6. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) 3.14%2
+
+( 2 ) if a<b: a=0 else: b=0
+
+( 3 ) i,j=j,j
+
+( 4 ) x+3=5
+\vspace{5mm}
+%enditem
+
+%beginitem
+7. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) False
+
+( 2 ) '\'
+
+( 3 ) py
+
+( 4 ) 8,3
+\vspace{5mm}
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << 12 % 12 % 12 % 12;
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+9. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) Switch
+
+( 2 ) 0,5
+
+( 3 ) 8.3
+
+( 4 ) 8,3
+\vspace{5mm}
+%enditem
+
+%beginitem
+10. Що буде виведено за виконання фрагменту коду?
+%code
+#include <iostream>
+using namespace std;
+
+int f(int &x, int &y){
+    x = 8;
+    y+= 2;
+    return x;
+}
+
+int main(){
+    int a = 9, b = 5;
+    a = f(a, a);
+    cout << a << ":" << b <<':';
+    {
+        int a = 1, b = 6;
+        cout << ((a<5) && ((b+=1) < 5))
+             << a << ":" << b << ":";
+    }
+    {
+        inta = 4;
+        cout << a << ':';
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+\vspace{5mm}
+%enditem
+
+%end
+\newpage
+\end{document}
+

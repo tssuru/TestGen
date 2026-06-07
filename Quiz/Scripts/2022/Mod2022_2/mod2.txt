@@ -1,0 +1,1324 @@
+\documentclass[10pt, ukrainian]{article}
+\setlength\textwidth{170mm} \setlength\hoffset{-25mm}
+%\setlength\textheight{277mm} \setlength\voffset{-38mm}
+%\setlength\parindent{0mm}
+\pagestyle{empty}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\DeclareCaptionFormat{nocaption}{}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+\usepackage[Export]{adjustbox} 
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+\begin{document}
+%begin
+{06-11.12.2022 Модульна контрольна \No 2, варіант  \No \textbf { 1 }\par}
+{
+\begin {large}
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=6,4,2
+def g(b):
+    a-=5
+    b=3
+    c=1
+    return a+b+c
+
+a,b,c=0,7,5
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(1,end="")
+    print(3==0,end="")
+    print(4,end="")
+except ValueError: print(8,end="")
+except ZeroDivisionError: print(7,end="")
+else: print(9,end="")
+finally: print(0,end="")
+
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+print('R', end=' ')
+k=6
+while k<=7:
+    k+=1
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+for b in range(8,-5,3):
+    if b<6:
+        break
+        print(b, end=' ')
+        b=7
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 2:
+        f(n // 2)
+    print(n % 2, end=' ')
+    
+
+
+print('R', end=' ')
+f(16)
+%code
+
+
+%enditem
+\end {large}}
+%end
+%begin
+{06-11.12.2022 Модульна контрольна \No 2, варіант  \No \textbf { 2 }\par}
+{
+\begin {large}
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,3,1
+def h(a):
+    global c
+    a+=4
+    b=2
+    c=3
+    return a+b+c
+
+a,b,c=9,5,3
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(2,end="")
+    print(int(6/0),end="")
+    print(5,end="")
+except BaseException: print(8,end="")
+except Exception: print(1,end="")
+else: print(4,end="")
+finally: print(3,end="")
+
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+print('R', end=' ')
+n=5
+while n>=1:
+    n+=-2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+for a in range(10,-6,-2):
+    if a>=8:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+print('R', end=' ')
+f(543216)
+%code
+
+
+%enditem
+\end {large}}
+%end
+%begin
+{06-11.12.2022 Модульна контрольна \No 2, варіант  \No \textbf { 3 }\par}
+{
+\begin {large}
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,9,4
+def f(a):
+    global c
+    a=2
+    b=5
+    c=1
+    return a+b+c
+
+a,b,c=6,7,5
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(2,end="")
+    print(int("a9"),end="")
+    print(6,end="")
+except KeyboardInterrupt: print(5,end="")
+except TypeError: print(7,end="")
+else: print(0,end="")
+finally: print(5,end="")
+
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+print('R', end=' ')
+i=5
+while i<8:
+    i+=2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+for d in range(6,0,-1):
+    if d>5:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+           f(n // 100)
+    
+
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+\end {large}}
+%end
+%begin
+{06-11.12.2022 Модульна контрольна \No 2, варіант  \No \textbf { 4 }\par}
+{
+\begin {large}
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=1,8,2
+def f(a):
+    a*=4
+    b=5
+    c=1
+    return a+b+c
+
+a,b,c=4,6,0
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(8,end="")
+    print(int(2%3),end="")
+    print(7,end="")
+except ZeroDivisionError: print(9,end="")
+except KeyboardInterrupt: print(1,end="")
+else: print(3,end="")
+finally: print(0,end="")
+
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+print('R', end=' ')
+j=3
+while j<=6:
+    j+=1
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+for f in range(0,-1,2):
+    if f<=3:
+        continue
+        print(f, end=' ')
+        f=1
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+
+print('R', end=' ')
+f(543216)
+%code
+
+
+%enditem
+\end {large}}
+%end
+%begin
+{06-11.12.2022 Модульна контрольна \No 2, варіант  \No \textbf { 5 }\par}
+{
+\begin {large}
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,7,1
+def g(b):
+    global c
+    a-=2
+    b=1
+    c=4
+    return a+b+c
+
+a,b,c=6,3,7
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(6,end="")
+    print(int("4"),end="")
+    print(0,end="")
+except TypeError: print(9,end="")
+except ValueError: print(2,end="")
+else: print(4,end="")
+finally: print(3,end="")
+
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+print('R', end=' ')
+t=1
+while t<11:
+    t+=2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+for c in range(-5,7,-1):
+    if c<=7:
+        break
+        print(c, end=' ')
+    else:
+        print('end', end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+print('R', end=' ')
+f(543216)
+%code
+
+
+%enditem
+\end {large}}
+%end
+%begin
+{06-11.12.2022 Модульна контрольна \No 2, варіант  \No \textbf { 6 }\par}
+{
+\begin {large}
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,0,5
+def f(b):
+    global c
+    a+=3
+    b=2
+    c=5
+    return a+b+c
+
+a,b,c=2,4,8
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(7,end="")
+    print(5>9,end="")
+    print(1,end="")
+except BaseException: print(6,end="")
+except Exception: print(8,end="")
+else: print(8,end="")
+finally: print(5,end="")
+
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+print('R', end=' ')
+j=9
+while j>2:
+    j+=-3
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+for e in range(-7,-10,3):
+    if e>4:
+        continue
+        print(e, end=' ')
+    if e<=8:
+        break
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+print('R', end=' ')
+f(987654)
+%code
+
+
+%enditem
+\end {large}}
+%end
+%begin
+{06-11.12.2022 Модульна контрольна \No 2, варіант  \No \textbf { 7 }\par}
+{
+\begin {large}
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,8,3
+def h(a):
+    a*=3
+    b=4
+    c=1
+    return a+b+c
+
+a,b,c=9,2,4
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(2,end="")
+    print(int("b1"),end="")
+    print(7,end="")
+except BaseException: print(6,end="")
+except ValueError: print(3,end="")
+else: print(0,end="")
+finally: print(9,end="")
+
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+print('R', end=' ')
+n=7
+while n<=12:
+    n+=2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+for a in range(-3,4,2):
+    if a>=4:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+\end {large}}
+%end
+%begin
+{06-11.12.2022 Модульна контрольна \No 2, варіант  \No \textbf { 8 }\par}
+{
+\begin {large}
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,1,7
+def f(a):
+    global c
+    a*=2
+    b=5
+    c=5
+    return a+b+c
+
+a,b,c=6,5,4
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(4,end="")
+    print(int(3//0.0),end="")
+    print(2,end="")
+except TypeError: print(0,end="")
+except Exception: print(7,end="")
+else: print(9,end="")
+finally: print(8,end="")
+
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+print('R', end=' ')
+m=8
+while m<9:
+    m+=1
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+for d in range(-1,9,-2):
+    if d<8:
+        break
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    print(n % 10, end=' ')
+    
+
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+\end {large}}
+%end
+%begin
+{06-11.12.2022 Модульна контрольна \No 2, варіант  \No \textbf { 9 }\par}
+{
+\begin {large}
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=3,8,0
+def h(b):
+    a=3
+    b=4
+    c=1
+    return a+b+c
+
+a,b,c=1,7,2
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(4,end="")
+    print(int(6//2),end="")
+    print(1,end="")
+except KeyboardInterrupt: print(5,end="")
+except ZeroDivisionError: print(6,end="")
+else: print(1,end="")
+finally: print(7,end="")
+
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+print('R', end=' ')
+m=15
+while m>3:
+    m+=-3
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+for f in range(1,8,3):
+    if f>=6:
+        continue
+        print(f, end=' ')
+        f=-8
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+\end {large}}
+%end
+%begin
+{06-11.12.2022 Модульна контрольна \No 2, варіант  \No \textbf { 10 }\par}
+{
+\begin {large}
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,9,3
+def g(b):
+    a-=2
+    b=1
+    c=4
+    return a+b+c
+
+a,b,c=1,8,6
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(0,end="")
+    print(int("5"),end="")
+    print(8,end="")
+except KeyboardInterrupt: print(3,end="")
+except Exception: print(9,end="")
+else: print(4,end="")
+finally: print(2,end="")
+
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+print('R', end=' ')
+k=12
+while k>=0:
+    k+=-2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+for e in range(-4,-7,2):
+    if e<=7:
+        continue
+        print(e, end=' ')
+    else:
+        print('end', end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+\end {large}}
+%end
+%begin
+{06-11.12.2022 Модульна контрольна \No 2, варіант  \No \textbf { 11 }\par}
+{
+\begin {large}
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,7,3
+def h(a):
+    global c
+    a=3
+    b+=1
+    c=4
+    return a+b+c
+
+a,b,c=9,7,4
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(4,end="")
+    print(int(9/1),end="")
+    print(8,end="")
+except ZeroDivisionError: print(1,end="")
+except ValueError: print(5,end="")
+else: print(2,end="")
+finally: print(6,end="")
+
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+print('R', end=' ')
+t=0
+while t<=13:
+    t+=1
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+for b in range(-8,6,-1):
+    if b>5:
+        continue
+        print(b, end=' ')
+    if b<4:
+        break
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 2, end=' ')
+    if n > 2:
+        f(n // 2)
+    
+
+
+print('R', end=' ')
+f(16)
+%code
+
+
+%enditem
+\end {large}}
+%end
+%begin
+{06-11.12.2022 Модульна контрольна \No 2, варіант  \No \textbf { 12 }\par}
+{
+\begin {large}
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=6,5,2
+def f(b):
+    a-=3
+    b=2
+    c=5
+    return a+b+c
+
+a,b,c=1,0,8
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(7,end="")
+    print(int("0"),end="")
+    print(3,end="")
+except BaseException: print(3,end="")
+except TypeError: print(5,end="")
+else: print(9,end="")
+finally: print(2,end="")
+
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+print('R', end=' ')
+j=9
+while j<10:
+    j+=2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+for c in range(7,-4,-2):
+    if c<3:
+        break
+        print(c, end=' ')
+        c=4
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+\end {large}}
+%end
+%begin
+{06-11.12.2022 Модульна контрольна \No 2, варіант  \No \textbf { 13 }\par}
+{
+\begin {large}
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,5,6
+def g(b):
+    a+=2
+    b=3
+    c=5
+    return a+b+c
+
+a,b,c=3,0,4
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(1,end="")
+    print(int("c6"),end="")
+    print(4,end="")
+except Exception: print(8,end="")
+except TypeError: print(0,end="")
+else: print(7,end="")
+finally: print(0,end="")
+
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+print('R', end=' ')
+i=14
+while i>7:
+    i+=-3
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+for c in range(-9,-8,-1):
+    if c<6:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        return f(n // 10) + 1
+    else:
+        return 1
+
+print('R', end=' ')
+print(f(123456))
+%code
+
+
+%enditem
+\end {large}}
+%end
+%begin
+{06-11.12.2022 Модульна контрольна \No 2, варіант  \No \textbf { 14 }\par}
+{
+\begin {large}
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,7,8
+def h(a):
+    global c
+    a=4
+    b*=1
+    c=5
+    return a+b+c
+
+a,b,c=1,7,5
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(9,end="")
+    print(7<=1,end="")
+    print(2,end="")
+except BaseException: print(4,end="")
+except ValueError: print(1,end="")
+else: print(8,end="")
+finally: print(6,end="")
+
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+print('R', end=' ')
+k=2
+while k<5:
+    k+=2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+for d in range(4,1,-2):
+    if d>=3:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+
+print('R', end=' ')
+f(543216)
+%code
+
+
+%enditem
+\end {large}}
+%end
+%begin
+{06-11.12.2022 Модульна контрольна \No 2, варіант  \No \textbf { 15 }\par}
+{
+\begin {large}
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,0,4
+def h(a):
+    a=4
+    b-=3
+    c=1
+    return a+b+c
+
+a,b,c=3,8,6
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(3,end="")
+    print(int(5%0.0),end="")
+    print(8,end="")
+except KeyboardInterrupt: print(7,end="")
+except ZeroDivisionError: print(3,end="")
+else: print(9,end="")
+finally: print(0,end="")
+
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+print('R', end=' ')
+n=4
+while n<=10:
+    n+=1
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+for f in range(9,10,3):
+    if f<=7:
+        break
+        print(f, end=' ')
+        f=10
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+            f(n // 100)
+    print(n % 10, end=' ')
+    
+
+
+print('R', end=' ')
+f(987654)
+%code
+
+
+%enditem
+\end {large}}
+%end
+%begin
+{06-11.12.2022 Модульна контрольна \No 2, варіант  \No \textbf { 16 }\par}
+{
+\begin {large}
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=1,9,1
+def g(b):
+    global c
+    a+=2
+    b=1
+    c=3
+    return a+b+c
+
+a,b,c=2,6,7
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(2,end="")
+    print(int("4"),end="")
+    print(6,end="")
+except KeyboardInterrupt: print(1,end="")
+except TypeError: print(5,end="")
+else: print(0,end="")
+finally: print(1,end="")
+
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+print('R', end=' ')
+t=7
+while t>=8:
+    t+=-2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+for e in range(-6,-3,2):
+    if e>5:
+        continue
+        print(e, end=' ')
+        e=-5
+    else:
+        print('end', end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+print('R', end=' ')
+f(987651)
+%code
+
+
+%enditem
+\end {large}}
+%end
+\end{document}
+

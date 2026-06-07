@@ -1,0 +1,180 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\emergencystretch=3em
+\pagestyle{empty}
+\begin{document}
+%begin
+{\centering\Large\bfseries Контрольна робота\par}
+\medskip
+\noindent\rule{\linewidth}{0.5pt}
+\smallskip
+\noindent\textbf{Варіант \No\,3}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+m=4
+while m<=10:
+    m+=2
+print(m)
+%code
+
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+2. 
+Вкажіть значення та тип виразу:
+"6.0j"==6
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+3. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 8//8/8*8
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+4. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 4**-0.5*True
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+5. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    for e in range(7, 7, -2):
+        if e<=7:
+            continue
+        print(e, end=';');e = -5
+        if e<=7:
+            break
+    else:
+        print(e,end=';')
+    print(e)
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+6. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) x=y=z
+
+( 2 ) ++n
+
+( 3 ) True=1
+
+( 4 ) n=1; n++
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+7. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) 0.5
+
+( 2 ) or
+
+( 3 ) -3J
+
+( 4 ) "abc"""
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+8. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << 9 / 9 / 9 / 9;
+%code
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+9. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) False
+
+( 2 ) fop
+
+( 3 ) <>
+
+( 4 ) '123'
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+10. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+#include <iostream>
+using namespace std;
+
+int f(int &x, int &y){
+    x = 6;
+    y-= 3;
+    return y;
+}
+
+int main(){
+    int a = 1, b = 4;
+    b = f(b, b);
+    cout << a << ":" << b <<':';
+    {
+        int a = 7, b = 2;
+        cout << ((b<=4) || ((a-=2) <= 4))
+             << a << ":" << b << ":";
+    }
+    {
+        inta = 8;
+        cout << a << ':';
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+\par\vspace{5mm}
+%enditem
+
+%end
+\newpage
+\end{document}
+

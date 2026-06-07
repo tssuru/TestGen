@@ -1,0 +1,10 @@
+{
+  "title": "mixed-30",
+  "variantCount": 1,
+  "questionsPerVariant": 30,
+  "questionTypeFilter": "mixed",
+  "shuffleQuestions": true,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print"
+}

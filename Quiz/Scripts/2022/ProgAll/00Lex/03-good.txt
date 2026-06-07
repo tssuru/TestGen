@@ -1,0 +1,50 @@
+i=2; i=2.4
+j=i=13
+i,j=j,j
+x,x=x,x
+x,y,z=z,z,y
+print(3.2, sep="4")
+print(3,2, sep="2")
+print(3,2, end="2")
+print(3,2, end="2", sep="1")
+print(3,2, sep="2", end='1')
+F"1={x:5.2f};"
+f"]={x:5.2f}{"
+x=int(4)
+x=float(4)
+x=float("inf")
+x=float("INF")
+x=float("nan")
+x=float("+inf")
+y=13
+input()
+input("all done")
+x=1//3
+x=1%3
+x=3**1
+x=2.3; x=int(x)
+print(3%50)
+"\n" is not '\n'
+def f(n:int) -> int:
+def f(n:float) -> int:
+r=('N'>'5')
+if ('x'<'y'): a=6
+x+=y
+x-=2
+float(2)/87
+if (1>2): x=10;
+return 'a'<'c'
+return x<=2
+x<y and y>0
+x<3 or y<7
+x<y<z
+x=y=z
+x==y==z
+x is y is z
+return None
+n=10; --n
+--n
+++n
+1.5//0.2
+3.14%2
+3**-1

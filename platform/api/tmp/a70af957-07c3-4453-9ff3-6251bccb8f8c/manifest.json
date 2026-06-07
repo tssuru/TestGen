@@ -1,0 +1,45 @@
+{
+  "jobId": "a70af957-07c3-4453-9ff3-6251bccb8f8c",
+  "createdAt": "2026-03-04T18:39:19.503Z",
+  "inputConfigHash": "pending",
+  "engineVersion": "pending",
+  "artifacts": [
+    {
+      "name": "config.json",
+      "path": "/app/platform/api/tmp/a70af957-07c3-4453-9ff3-6251bccb8f8c/config.json",
+      "size": 533,
+      "sha256": "aa705fa1475ea7cc16ca13531955a40f0a497c8e1dcffee9ac79f9a871255f6b"
+    },
+    {
+      "name": "answers.json",
+      "path": "/app/platform/api/tmp/a70af957-07c3-4453-9ff3-6251bccb8f8c/answers.json",
+      "size": 20165,
+      "sha256": "038363b799dcf5939236cd95b0b31fa92489f30bcedccc12b70c2f79fe768558"
+    },
+    {
+      "name": "answers.md",
+      "path": "/app/platform/api/tmp/a70af957-07c3-4453-9ff3-6251bccb8f8c/answers.md",
+      "size": 10535,
+      "sha256": "536b3f03cd81ac8018da0902a0ac1663f556428d40b6d3922e5612c334c6fb7e"
+    },
+    {
+      "name": "test.md",
+      "path": "/app/platform/api/tmp/a70af957-07c3-4453-9ff3-6251bccb8f8c/test.md",
+      "size": 9190,
+      "sha256": "3d9d41e4616f8ed020385b3c8366258786c7023f1b3a4a688ae4457051be26b3"
+    },
+    {
+      "name": "quiz.pdf",
+      "path": "/app/platform/api/tmp/a70af957-07c3-4453-9ff3-6251bccb8f8c/quiz.pdf",
+      "size": 100111,
+      "sha256": "be93cbaa69a17970e6fcb12daa80e21a984b0f52317b78ced7ab11f7ea5b8fff"
+    },
+    {
+      "name": "test.docx",
+      "path": "/app/platform/api/tmp/a70af957-07c3-4453-9ff3-6251bccb8f8c/test.docx",
+      "size": 13522,
+      "sha256": "1977ea2ce26b0c47b4e3f14740c6ae6bbc46900c81e6dc2a95f6090b8938faac"
+    }
+  ],
+  "status": "completed"
+}

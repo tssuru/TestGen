@@ -1,0 +1,33 @@
+{
+  "jobId": "7d1bf970-2094-4423-a713-65405608333c",
+  "createdAt": "2026-03-05T11:08:38.614Z",
+  "inputConfigHash": "pending",
+  "engineVersion": "pending",
+  "artifacts": [
+    {
+      "name": "config.json",
+      "path": "/app/platform/api/tmp/7d1bf970-2094-4423-a713-65405608333c/config.json",
+      "size": 509,
+      "sha256": "a7746996b2cd49fe3c6679af9baaaffb611aa588927c084a75c777a304fed994"
+    },
+    {
+      "name": "test.md",
+      "path": "/app/platform/api/tmp/7d1bf970-2094-4423-a713-65405608333c/test.md",
+      "size": 24159,
+      "sha256": "c0f5d301e33189176bec6a464aa2bad11e38d4c9aa7314cedf72423bfecb6ee3"
+    },
+    {
+      "name": "quiz.pdf",
+      "path": "/app/platform/api/tmp/7d1bf970-2094-4423-a713-65405608333c/quiz.pdf",
+      "size": 138494,
+      "sha256": "ee7b1433b8648b7136774a393d510660774a709f646a41fce1819a1ba8158457"
+    },
+    {
+      "name": "test.docx",
+      "path": "/app/platform/api/tmp/7d1bf970-2094-4423-a713-65405608333c/test.docx",
+      "size": 14758,
+      "sha256": "0366d29ea840a8bc416d4b61783f3f789377e5dbbbfd5fae758a2fe38269e98e"
+    }
+  ],
+  "status": "completed"
+}

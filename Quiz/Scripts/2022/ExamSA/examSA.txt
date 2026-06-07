@@ -1,0 +1,218 @@
+<document>
+  <header>
+\documentclass[12pt, ukrainian]{article}{ENDL}
+\setlength\textwidth{190mm} \setlength\hoffset{-25mm} {ENDL}
+\setlength\textheight{277mm} \setlength\voffset{-28mm} {ENDL}
+%\setlength\textwidth{190mm} 
+%\setlength\voffset{-38mm} \setlength\hoffset{-38mm}{ENDL}
+%\setlength\parindent{0mm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage{caption}{ENDL}
+\usepackage{verbatim, listings, clrscode3e}{ENDL}
+\usepackage{fancyvrb}{ENDL}
+\DeclareCaptionFormat{nocaption}{}{ENDL}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}{ENDL}
+
+\usepackage[Export]{adjustbox} {ENDL}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}
+\def\code#1{\Verb!#1!}{ENDL}
+
+\begin{document}{ENDL}
+  <\header>
+  <footer>
+\end{document}
+  <\footer>
+
+  <onNextVariant>
+{ENDL}\newpage{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+//NEWPAGE
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+    75
+  <\to>
+
+  <onPage>
+    1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+{
+ {\begin {small}\par{ENDL}
+  { \center  Київський національний університет імені Тараса Шевченка \par}{ENDL} 
+  {\parbox {5 cm}{Освітня програма \hfill}{\parbox {7 cm}{Системний аналіз \hfill}}
+   \parbox {6 cm}{\hfill Семестр 2}
+  }\par{ENDL}
+  {\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}
+   {Програмування \hfill}\parbox {6cm}{\hfill}\par
+  }
+  \vspace{-7pt} \end{small}
+ }
+ {\center Екзаменаційний білет \No \textbf {ENDL}
+  { #No# }\par
+ }
+}{ENDL}
+{
+ {ENDL}\begin {large}{ENDL}
+ 
+УВАГА! {ENDL}{ENDL}
+
+У письмовій роботі мають зазначатися всі відповіді, а також проміжні міркування, що передували їх отриманню.{ENDL}{ENDL}
+Проміжні міркування можуть бути якоюсь арифметикою, відслідковуванням зна\-чень змінних для деяких завдань,{ENDL} 
+короткими поясненнями, допоміжною інформацією, що виникає під час обходу графів, робочею чернеткою, {ENDL}
+тобто тим, що відображає хід розв’язання або пояснює отриману відповідь. {ENDL}
+Це є ОБОВ’ЯЗКОВИМ для кожного запитання. {ENDL}{ENDL}
+Без наявності доречних проміжних міркувань відповіді зараховуватись як правиль\-ні не будуть.{ENDL}
+Писати багато та красиво оформлено не треба. Коротко, але по темі. Можли\-во, навіть чернетка.{ENDL}{ENDL}
+Якщо на аркуші буде чернетка разом з відповідями --- це ОК. 
+{ENDL}
+{ENDL}
+\newpage{ENDL}{ENDL}
+ 
+ 
+<\before>
+
+<after>
+ {ENDL}\end {large}{ENDL}
+}{ENDL}
+
+{\smallskip \begin {small} Затверджено на засіданні кафедри{SPACE}
+ теоретичної кібернетики, протокол \No 7 від   23.01.2023{SPACE}
+ р.\par\smallskip\smallskip{ENDL}
+ {\parbox {6.5 cm} 
+  {Зав. кафедри \dotfill{SPACE}
+   Ю.В.~Крак
+  }
+ }\hspace {0.7cm} 
+ {\hbox to 6.5 cm 
+  { Екзаменатор \dotfill{SPACE}
+    Т.О.~Карнаух
+  }
+ }{SPACE}
+\end{small}}{ENDL}
+<\after>
+
+<\variant>
+
+<item>
+  <fabric>
+    collate 
+    <fabric>
+    collate 
+    include 01Ar/01-q.txt
+    include 01Ar/02-q.txt
+    <n1>
+        40
+    <\n1>
+    <n2>
+        40
+    <\n2>
+  <\fabric>
+    include 02Log/01-q.txt
+    <n1>
+        80
+    <\n1>
+    <n2>
+        40
+    <\n2>
+  <\fabric>
+<\item>
+
+<item>
+  include 02Log/04-q.txt
+<\item>
+
+<item>
+<fabric>
+    collate 
+    include 03If/1+2-q.txt
+    include 05Invoke/01-q.txt
+    <n1>
+        40
+    <\n1>
+    <n2>
+        40
+    <\n2>
+<\fabric>
+<\item>
+  
+<item>
+  include 07Except/01-q.txt
+<\item>
+
+<item>
+  include 06Scope/1+2-q.txt
+<\item>
+
+<item>
+<fabric>
+    collate 
+    include 08Cycles/01-q.txt
+    include 08Cycles/02-q.txt
+    <n1>
+        40
+    <\n1>
+    <n2>
+        40
+    <\n2>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+    collate 
+    include 11ListOperations/01-q.txt
+    include 11ListOperations/02-q.txt
+    <n1>
+        40
+    <\n1>
+    <n2>
+        40
+    <\n2>
+<\fabric>
+<\item>
+
+<item> 
+ <fabric>
+  collate
+     include 13Classes/04-q.txt
+     include 13Classes/03-q.txt
+  <n1>
+    30
+  <\n1>
+  <n2>
+    30
+  <\n2>
+  <\fabric>
+<\item>
+
+
+<item> 
+include 16Graphs/02-01-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include 17Numpy/01-02-q.txt 
+<\item>
+
+
+
+

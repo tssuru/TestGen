@@ -1,0 +1,30 @@
+echo
+echo =435_1.py 
+python3.10 ./435_1.py 
+echo
+echo =435_2.py 
+python3.10 ./435_2.py 
+echo
+echo =435_3.py 
+python3.10 ./435_3.py 
+echo
+echo =435_4.py 
+python3.10 ./435_4.py 
+echo
+echo =435_5.py 
+python3.10 ./435_5.py 
+echo
+echo =435_6.py 
+python3.10 ./435_6.py 
+echo
+echo =435_7.py 
+python3.10 ./435_7.py 
+echo
+echo =435_8.py 
+python3.10 ./435_8.py 
+echo
+echo =435_9.py 
+python3.10 ./435_9.py 
+echo
+echo =435_10.py 
+python3.10 ./435_10.py 

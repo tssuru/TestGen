@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1536569400 source:f:\projects\quiz\mod\main.cpp
+	<cstdlib>
+	<iostream>
+
+1558593315 source:f:\projects\quiz\mod\mod.cpp
+	<iostream>
+	<sstream>
+	<fstream>
+

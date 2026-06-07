@@ -1,0 +1,25 @@
+//source for question like
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+x1=стек;черга
+arg={<file> 02Linked/10-s.txt}
+
+<\declarations>
+
+<template>
+На початку структура даних #x1# порожня. Далі над нею було виконано операції: {ENDL}{ENDL}
+#arg# 
+
+{ENDL}{ENDL}
+Який елемент було вилучено останнім?{ENDL}{ENDL}
+
+
+<\template>
+
+<restrictions>
+<\restrictions>

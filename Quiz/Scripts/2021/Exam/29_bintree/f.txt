@@ -1,0 +1,27 @@
+//source for question like
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+n={<int> 0 179}
+travers=прямому;оберненому
+
+<\declarations>
+
+<template>
+{ENDL}
+\begin{center}{ENDL}
+{TAB}\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}{ENDL}
+{TAB}{../Graphs/trees/#n#.png}{ENDL}
+\end{center}{ENDL}
+Указати послідовність міток вершин дерева, зображеного на рис.,{SPACE} 
+що утвориться в результаті обходу дерева в #travers# порядку.{SPACE} 
+Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).{ENDL}
+%answer:#n# #travers#{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>

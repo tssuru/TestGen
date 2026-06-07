@@ -1,0 +1,11 @@
+{
+  "title": "Test open small",
+  "variantCount": 1,
+  "questionsPerVariant": 5,
+  "questionTypeFilter": "open",
+  "shuffleQuestions": false,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print",
+  "seed": 42
+}

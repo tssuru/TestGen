@@ -1,0 +1,30 @@
+echo
+echo =558_1.py 
+python3.10 ./558_1.py 
+echo
+echo =558_2.py 
+python3.10 ./558_2.py 
+echo
+echo =558_3.py 
+python3.10 ./558_3.py 
+echo
+echo =558_4.py 
+python3.10 ./558_4.py 
+echo
+echo =558_5.py 
+python3.10 ./558_5.py 
+echo
+echo =558_6.py 
+python3.10 ./558_6.py 
+echo
+echo =558_7.py 
+python3.10 ./558_7.py 
+echo
+echo =558_8.py 
+python3.10 ./558_8.py 
+echo
+echo =558_9.py 
+python3.10 ./558_9.py 
+echo
+echo =558_10.py 
+python3.10 ./558_10.py 

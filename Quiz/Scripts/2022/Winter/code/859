@@ -1,0 +1,30 @@
+echo
+echo =859_1.py 
+python3.10 ./859_1.py 
+echo
+echo =859_2.py 
+python3.10 ./859_2.py 
+echo
+echo =859_3.py 
+python3.10 ./859_3.py 
+echo
+echo =859_4.py 
+python3.10 ./859_4.py 
+echo
+echo =859_5.py 
+python3.10 ./859_5.py 
+echo
+echo =859_6.py 
+python3.10 ./859_6.py 
+echo
+echo =859_7.py 
+python3.10 ./859_7.py 
+echo
+echo =859_8.py 
+python3.10 ./859_8.py 
+echo
+echo =859_9.py 
+python3.10 ./859_9.py 
+echo
+echo =859_10.py 
+python3.10 ./859_10.py 

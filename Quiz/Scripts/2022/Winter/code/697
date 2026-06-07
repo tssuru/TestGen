@@ -1,0 +1,30 @@
+echo
+echo =697_1.py 
+python3.10 ./697_1.py 
+echo
+echo =697_2.py 
+python3.10 ./697_2.py 
+echo
+echo =697_3.py 
+python3.10 ./697_3.py 
+echo
+echo =697_4.py 
+python3.10 ./697_4.py 
+echo
+echo =697_5.py 
+python3.10 ./697_5.py 
+echo
+echo =697_6.py 
+python3.10 ./697_6.py 
+echo
+echo =697_7.py 
+python3.10 ./697_7.py 
+echo
+echo =697_8.py 
+python3.10 ./697_8.py 
+echo
+echo =697_9.py 
+python3.10 ./697_9.py 
+echo
+echo =697_10.py 
+python3.10 ./697_10.py 

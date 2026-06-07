@@ -1,0 +1,1622 @@
+[
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 3,
+        "left": {
+          "__BinTree__": true,
+          "data": 4,
+          "left": {
+            "__BinTree__": true,
+            "data": 5
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 6
+          }
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 7,
+      "left": {
+        "__BinTree__": true,
+        "data": 8,
+        "left": {
+          "__BinTree__": true,
+          "data": 9
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 10
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 4
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 5,
+      "left": {
+        "__BinTree__": true,
+        "data": 6,
+        "left": {
+          "__BinTree__": true,
+          "data": 7
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 8,
+          "left": {
+            "__BinTree__": true,
+            "data": 9
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 10
+          }
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 11
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3,
+          "left": {
+            "__BinTree__": true,
+            "data": 4
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 5
+          }
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 6
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 7,
+      "left": {
+        "__BinTree__": true,
+        "data": 8,
+        "left": {
+          "__BinTree__": true,
+          "data": 9
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 10
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 4,
+          "left": {
+            "__BinTree__": true,
+            "data": 5
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 6
+          }
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 7,
+      "left": {
+        "__BinTree__": true,
+        "data": 8,
+        "left": {
+          "__BinTree__": true,
+          "data": 9
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 10
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 11
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 4
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 5,
+      "left": {
+        "__BinTree__": true,
+        "data": 6,
+        "left": {
+          "__BinTree__": true,
+          "data": 7
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 8,
+          "left": {
+            "__BinTree__": true,
+            "data": 9
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 10
+          }
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 3
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 4,
+      "left": {
+        "__BinTree__": true,
+        "data": 5,
+        "left": {
+          "__BinTree__": true,
+          "data": 6,
+          "left": {
+            "__BinTree__": true,
+            "data": 7
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 8
+          }
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 9,
+          "left": {
+            "__BinTree__": true,
+            "data": 10
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 11
+          }
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3,
+          "left": {
+            "__BinTree__": true,
+            "data": 4
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 5
+          }
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 6,
+          "left": {
+            "__BinTree__": true,
+            "data": 7
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 8
+          }
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 9,
+      "left": {
+        "__BinTree__": true,
+        "data": 10
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 11
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 4,
+          "left": {
+            "__BinTree__": true,
+            "data": 5
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 6
+          }
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 7,
+      "left": {
+        "__BinTree__": true,
+        "data": 8,
+        "left": {
+          "__BinTree__": true,
+          "data": 9
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 10
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3,
+          "left": {
+            "__BinTree__": true,
+            "data": 4
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 5
+          }
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 6
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 7,
+      "left": {
+        "__BinTree__": true,
+        "data": 8,
+        "left": {
+          "__BinTree__": true,
+          "data": 9
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 10
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 11
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 3,
+        "left": {
+          "__BinTree__": true,
+          "data": 4
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 5,
+          "left": {
+            "__BinTree__": true,
+            "data": 6
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 7
+          }
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 8,
+      "left": {
+        "__BinTree__": true,
+        "data": 9
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 10
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 4
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 5
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 6,
+      "left": {
+        "__BinTree__": true,
+        "data": 7,
+        "left": {
+          "__BinTree__": true,
+          "data": 8,
+          "left": {
+            "__BinTree__": true,
+            "data": 9
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 10
+          }
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 11
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 3
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 4,
+      "left": {
+        "__BinTree__": true,
+        "data": 5,
+        "left": {
+          "__BinTree__": true,
+          "data": 6
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 7,
+          "left": {
+            "__BinTree__": true,
+            "data": 8
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 9
+          }
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 10
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3,
+          "left": {
+            "__BinTree__": true,
+            "data": 4
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 5
+          }
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 6
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 7,
+      "left": {
+        "__BinTree__": true,
+        "data": 8,
+        "left": {
+          "__BinTree__": true,
+          "data": 9
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 10
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 4
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 5,
+        "left": {
+          "__BinTree__": true,
+          "data": 6,
+          "left": {
+            "__BinTree__": true,
+            "data": 7
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 8
+          }
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 9,
+      "left": {
+        "__BinTree__": true,
+        "data": 10
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 11
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 3
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 4,
+      "left": {
+        "__BinTree__": true,
+        "data": 5
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 6,
+        "left": {
+          "__BinTree__": true,
+          "data": 7
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 8,
+          "left": {
+            "__BinTree__": true,
+            "data": 9
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 10
+          }
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3,
+          "left": {
+            "__BinTree__": true,
+            "data": 4
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 5
+          }
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 6
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 7,
+      "left": {
+        "__BinTree__": true,
+        "data": 8,
+        "left": {
+          "__BinTree__": true,
+          "data": 9
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 10
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 11
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 4
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 5,
+      "left": {
+        "__BinTree__": true,
+        "data": 6,
+        "left": {
+          "__BinTree__": true,
+          "data": 7,
+          "left": {
+            "__BinTree__": true,
+            "data": 8
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 9
+          }
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 10
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 4
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 5,
+      "left": {
+        "__BinTree__": true,
+        "data": 6
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 7,
+        "left": {
+          "__BinTree__": true,
+          "data": 8,
+          "left": {
+            "__BinTree__": true,
+            "data": 9
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 10
+          }
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 3
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 4,
+      "left": {
+        "__BinTree__": true,
+        "data": 5
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 6,
+        "left": {
+          "__BinTree__": true,
+          "data": 7,
+          "left": {
+            "__BinTree__": true,
+            "data": 8
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 9
+          }
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 10
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 3,
+        "left": {
+          "__BinTree__": true,
+          "data": 4
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 5
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 6,
+      "left": {
+        "__BinTree__": true,
+        "data": 7,
+        "left": {
+          "__BinTree__": true,
+          "data": 8
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 9,
+          "left": {
+            "__BinTree__": true,
+            "data": 10
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 11
+          }
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 4
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 5,
+      "left": {
+        "__BinTree__": true,
+        "data": 6,
+        "left": {
+          "__BinTree__": true,
+          "data": 7,
+          "left": {
+            "__BinTree__": true,
+            "data": 8
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 9
+          }
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 10
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 4
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 5
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 6,
+      "left": {
+        "__BinTree__": true,
+        "data": 7
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 8,
+        "left": {
+          "__BinTree__": true,
+          "data": 9,
+          "left": {
+            "__BinTree__": true,
+            "data": 10
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 11
+          }
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 3,
+        "left": {
+          "__BinTree__": true,
+          "data": 4
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 5
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 6,
+      "left": {
+        "__BinTree__": true,
+        "data": 7,
+        "left": {
+          "__BinTree__": true,
+          "data": 8,
+          "left": {
+            "__BinTree__": true,
+            "data": 9
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 10
+          }
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 11
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 4,
+          "left": {
+            "__BinTree__": true,
+            "data": 5
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 6
+          }
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 7
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 8,
+      "left": {
+        "__BinTree__": true,
+        "data": 9
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 10
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 3,
+        "left": {
+          "__BinTree__": true,
+          "data": 4
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 5,
+          "left": {
+            "__BinTree__": true,
+            "data": 6
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 7
+          }
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 8,
+      "left": {
+        "__BinTree__": true,
+        "data": 9,
+        "left": {
+          "__BinTree__": true,
+          "data": 10
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 11
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3,
+          "left": {
+            "__BinTree__": true,
+            "data": 4
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 5
+          }
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 6
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 7
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 8,
+      "left": {
+        "__BinTree__": true,
+        "data": 9
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 10
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 3,
+        "left": {
+          "__BinTree__": true,
+          "data": 4,
+          "left": {
+            "__BinTree__": true,
+            "data": 5
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 6
+          }
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 7,
+      "left": {
+        "__BinTree__": true,
+        "data": 8,
+        "left": {
+          "__BinTree__": true,
+          "data": 9
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 10
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 11
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 4
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 5,
+      "left": {
+        "__BinTree__": true,
+        "data": 6
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 7,
+        "left": {
+          "__BinTree__": true,
+          "data": 8
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 9,
+          "left": {
+            "__BinTree__": true,
+            "data": 10
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 11
+          }
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 3
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 4,
+      "left": {
+        "__BinTree__": true,
+        "data": 5,
+        "left": {
+          "__BinTree__": true,
+          "data": 6,
+          "left": {
+            "__BinTree__": true,
+            "data": 7
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 8
+          }
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 9,
+        "left": {
+          "__BinTree__": true,
+          "data": 10
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 11
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 4,
+          "left": {
+            "__BinTree__": true,
+            "data": 5
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 6
+          }
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 7
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 8,
+      "left": {
+        "__BinTree__": true,
+        "data": 9,
+        "left": {
+          "__BinTree__": true,
+          "data": 10
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 11
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 3
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 4,
+      "left": {
+        "__BinTree__": true,
+        "data": 5,
+        "left": {
+          "__BinTree__": true,
+          "data": 6
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 7
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 8,
+        "left": {
+          "__BinTree__": true,
+          "data": 9
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 10
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 3,
+        "left": {
+          "__BinTree__": true,
+          "data": 4,
+          "left": {
+            "__BinTree__": true,
+            "data": 5
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 6
+          }
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 7
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 8,
+      "left": {
+        "__BinTree__": true,
+        "data": 9,
+        "left": {
+          "__BinTree__": true,
+          "data": 10
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 11
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 4,
+          "left": {
+            "__BinTree__": true,
+            "data": 5
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 6
+          }
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 7,
+      "left": {
+        "__BinTree__": true,
+        "data": 8
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 9,
+        "left": {
+          "__BinTree__": true,
+          "data": 10
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 11
+        }
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 3,
+        "left": {
+          "__BinTree__": true,
+          "data": 4
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 5
+        }
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 6,
+      "left": {
+        "__BinTree__": true,
+        "data": 7,
+        "left": {
+          "__BinTree__": true,
+          "data": 8,
+          "left": {
+            "__BinTree__": true,
+            "data": 9
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 10
+          }
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 11
+      }
+    }
+  },
+  {
+    "__BinTree__": true,
+    "data": 0,
+    "left": {
+      "__BinTree__": true,
+      "data": 1,
+      "left": {
+        "__BinTree__": true,
+        "data": 2,
+        "left": {
+          "__BinTree__": true,
+          "data": 3,
+          "left": {
+            "__BinTree__": true,
+            "data": 4
+          },
+          "right": {
+            "__BinTree__": true,
+            "data": 5
+          }
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 6
+        }
+      },
+      "right": {
+        "__BinTree__": true,
+        "data": 7
+      }
+    },
+    "right": {
+      "__BinTree__": true,
+      "data": 8,
+      "left": {
+        "__BinTree__": true,
+        "data": 9,
+        "left": {
+          "__BinTree__": true,
+          "data": 10
+        },
+        "right": {
+          "__BinTree__": true,
+          "data": 11
+        }
+      }
+    }
+  }
+]

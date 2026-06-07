@@ -1,0 +1,17 @@
+<fabric>
+       collate 
+        include 16Graphs/02-01-q.txt
+        include 16Graphs/02-02-q.txt
+        <n1>
+         69
+        <\n1>
+        <n2>
+         131
+        <\n2>
+  <\fabric>
+
+
+
+
+
+

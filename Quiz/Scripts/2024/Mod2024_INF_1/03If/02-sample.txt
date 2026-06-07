@@ -1,0 +1,220 @@
+
+За наявності означення
+%code
+int g(int a, int b){
+    c = 90;
+    if (a)
+        return 2;
+    else if (b < 4)
+         c = 5;
+    else 
+        return 8;
+    return c;
+}
+%code
+
+що буде виведено за виконання
+
+%code
+cout << g(-9, -9);
+%code
+
+
+
+За наявності означення
+%code
+int f(int a, int b){
+    c = 53;
+    if (b == 5)
+        c = 6;
+    if (a <= -3)
+         return 9;
+    else 
+        c = 0;
+    return c;
+}
+%code
+
+що буде виведено за виконання
+
+%code
+cout << f(9, 7);
+%code
+
+
+
+За наявності означення
+%code
+int h(int a, int b){
+    c = 51;
+    if (a != 0)
+        return 1;
+    else if (b >= 3)
+         c = 3;
+    else 
+        c = 4;
+    return c;
+}
+%code
+
+що буде виведено за виконання
+
+%code
+cout << h(-8, 0);
+%code
+
+
+
+За наявності означення
+%code
+int h(int a, int b){
+    c = 37;
+    if (a > 1)
+        return 7;
+    if (b != -5)
+         c = 9;
+    else 
+        return 0;
+    return c;
+}
+%code
+
+що буде виведено за виконання
+
+%code
+cout << h(-5, -5);
+%code
+
+
+
+За наявності означення
+%code
+int f(int a, int b){
+    c = 61;
+    if (a)
+        c = 4;
+    if (a <= -2)
+         return 1;
+    else 
+        c = 8;
+    return c;
+}
+%code
+
+що буде виведено за виконання
+
+%code
+cout << f(8, -7);
+%code
+
+
+
+За наявності означення
+%code
+int g(int a, int b){
+    c = 54;
+    if (b == 2)
+        return 2;
+    else if (b >= -4)
+         c = 6;
+    else 
+        return 7;
+    return c;
+}
+%code
+
+що буде виведено за виконання
+
+%code
+cout << g(3, 9);
+%code
+
+
+
+За наявності означення
+%code
+int g(int a, int b){
+    c = 93;
+    if (b)
+        c = 5;
+    else if (a > -1)
+         return 3;
+    else 
+        return 7;
+    return c;
+}
+%code
+
+що буде виведено за виконання
+
+%code
+cout << g(-6, -8);
+%code
+
+
+
+За наявності означення
+%code
+int h(int a, int b){
+    c = 62;
+    if (b < 4)
+        c = 2;
+    if (a > 0)
+         c = 1;
+    else 
+        return 3;
+    return c;
+}
+%code
+
+що буде виведено за виконання
+
+%code
+cout << h(5, 8);
+%code
+
+
+
+За наявності означення
+%code
+int f(int a, int b){
+    c = 35;
+    if (b == -4)
+        c = 4;
+    else if (a < 5)
+         return 8;
+    else 
+        c = 5;
+    return c;
+}
+%code
+
+що буде виведено за виконання
+
+%code
+cout << f(0, 2);
+%code
+
+
+
+За наявності означення
+%code
+int g(int a, int b){
+    c = 14;
+    if (a)
+        return 9;
+    if (b != 2)
+         c = 0;
+    else 
+        return 6;
+    return c;
+}
+%code
+
+що буде виведено за виконання
+
+%code
+cout << g(-2, 1);
+%code
+
+

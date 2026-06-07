@@ -1,0 +1,30 @@
+echo
+echo =446_1.py 
+python3.10 ./446_1.py 
+echo
+echo =446_2.py 
+python3.10 ./446_2.py 
+echo
+echo =446_3.py 
+python3.10 ./446_3.py 
+echo
+echo =446_4.py 
+python3.10 ./446_4.py 
+echo
+echo =446_5.py 
+python3.10 ./446_5.py 
+echo
+echo =446_6.py 
+python3.10 ./446_6.py 
+echo
+echo =446_7.py 
+python3.10 ./446_7.py 
+echo
+echo =446_8.py 
+python3.10 ./446_8.py 
+echo
+echo =446_9.py 
+python3.10 ./446_9.py 
+echo
+echo =446_10.py 
+python3.10 ./446_10.py 

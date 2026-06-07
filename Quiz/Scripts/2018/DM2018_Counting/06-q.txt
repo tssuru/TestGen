@@ -1,0 +1,9 @@
+<fabric>
+    template answer
+    <fname>
+        06-f.txt
+    <\fname>
+    <after>
+        \par{ENDL}
+    <\after>
+<\fabric>

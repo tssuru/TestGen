@@ -1,0 +1,12 @@
+ <fabric>
+     template answer
+     <fname>
+         V03\script_lab.txt
+     <\fname>
+
+     <before>
+     <\before>
+
+     <after>
+     <\after>
+   <\fabric>

@@ -1,0 +1,57 @@
+{
+  "jobId": "3aa76cfc-a046-4a98-b912-5b6cfe715aa9",
+  "createdAt": "2026-03-03T13:16:10.893Z",
+  "inputConfigHash": "pending",
+  "engineVersion": "pending",
+  "artifacts": [
+    {
+      "name": "config.json",
+      "path": "/app/platform/api/tmp/3aa76cfc-a046-4a98-b912-5b6cfe715aa9/config.json",
+      "size": 381,
+      "sha256": "75f9525d5d277302803ec20b8ae86808bf6d3663358862aa15a40ea2e15ecd70"
+    },
+    {
+      "name": "answers.json",
+      "path": "/app/platform/api/tmp/3aa76cfc-a046-4a98-b912-5b6cfe715aa9/answers.json",
+      "size": 127,
+      "sha256": "0ca9cb803f2e6139c7ced98e501955835e16308217f572b405b74602cdfdb001"
+    },
+    {
+      "name": "answers.md",
+      "path": "/app/platform/api/tmp/3aa76cfc-a046-4a98-b912-5b6cfe715aa9/answers.md",
+      "size": 151,
+      "sha256": "2d360f2dbf0c97268aa97e4ebed810f0e090741988cc82deb387f2e7f1734580"
+    },
+    {
+      "name": "test.print.md",
+      "path": "/app/platform/api/tmp/3aa76cfc-a046-4a98-b912-5b6cfe715aa9/test.print.md",
+      "size": 204,
+      "sha256": "feb12f86a9909429bcdee32bc8f1d3ae8386635302cfbaee221a6e6035308159"
+    },
+    {
+      "name": "test.lms.md",
+      "path": "/app/platform/api/tmp/3aa76cfc-a046-4a98-b912-5b6cfe715aa9/test.lms.md",
+      "size": 264,
+      "sha256": "03dbdbbacc041e35fddffbb053422ecd9d9a8f47cca7e92220435d75c4c5532b"
+    },
+    {
+      "name": "test.md",
+      "path": "/app/platform/api/tmp/3aa76cfc-a046-4a98-b912-5b6cfe715aa9/test.md",
+      "size": 204,
+      "sha256": "feb12f86a9909429bcdee32bc8f1d3ae8386635302cfbaee221a6e6035308159"
+    },
+    {
+      "name": "quiz.pdf",
+      "path": "/app/platform/api/tmp/3aa76cfc-a046-4a98-b912-5b6cfe715aa9/quiz.pdf",
+      "size": 35602,
+      "sha256": "db52e7d0d3382c8e19c8bf4a2c98bee2ffd03ec45d2899212d93ba5d6694986a"
+    },
+    {
+      "name": "test.docx",
+      "path": "/app/platform/api/tmp/3aa76cfc-a046-4a98-b912-5b6cfe715aa9/test.docx",
+      "size": 10058,
+      "sha256": "4476f8b8be388f9da6a54e82c082936479831c384ded191d833664919153c134"
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,1288 @@
+{
+  "title": "Контрольна робота",
+  "generatedAt": "2026-03-05T15:53:44.396Z",
+  "profile": "print",
+  "variantCount": 10,
+  "variants": [
+    {
+      "variantNumber": 1,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "bool f(int a);",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "int f(int a,b);",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<3.4;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int n; bool n;",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду? 9**0.5*-2",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(8 > 4 <= 8.0 is True)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "False",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "'\\'",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "py",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "8,3",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=6,2,7 def h(a): global c    a=3 b*=2 c=4 return a+b+c a,b,c=9,4,3 print(h(a),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (12 % 12 % 12 % 12);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл. Алгоритм починає роботу з кореня (на рис. це верхня вершина).",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "3.14%2",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "if a<b: a=0 else: b=0",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x+3=5",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a, b, c = 6, 8, 7 def h(a, b, c): print(a, b, c, end=\" \") h(b=0, c=2, 1) print(a, b, c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') g=[10,11,12,13,14] print(g.pop(1), end=' ') print(g)",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 2,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=6,2,7 def h(a): global c    a=3 b*=2 c=4 return a+b+c a,b,c=9,4,3 print(h(a),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') g = ('a','b','c','d','e',0,1,2,3) print(g[2])",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "bool f(int a);",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "int f(int a,b);",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<3.4;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int n; bool n;",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (!8<4 and !8.0> true and 9<=4.0);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=6,8,7 def h(a,b,c): print(a,b,c,end=\"\") h(b=0,c=2,1) print(a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? x,y,z=0,2,1 x,z,y,z=6,z,y,x print(x,y,z)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "3.14%2",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "if a<b: a=0 else: b=0",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x+3=5",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "Switch",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "0,5",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "8.3",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "8,3",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(9**0.5*-2)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int h(int a) int u = 58; if (a < 2) return 6; if (a > 5) u = 2; else return 7; return u; int main() cout << h(-2); return 0;",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 3,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 12 % 12 % 12 % 12;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "False",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "'\\'",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "py",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "8,3",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: res = 9**0.5*-2 if isinstance(res, bool): print(f'bool;') elif isinstance(res, int): print(f'int;') elif isinstance(res, float): print(f'float;') else: print('???') except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: res = 5/5*5*5 if isinstance(res, bool): print(f'bool;') elif isinstance(res, int): print(f'int;') elif isinstance(res, float): print(f'float;') else: print('???') except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Вкажіть значення та тип виразу: 8<True",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "3.14%2",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "if a<b: a=0 else: b=0",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x+3=5",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: for a in range(6, 6, -3): if a<3: break print(a, end=';') if a<3: break else: print('end',end=';') print(a) except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int f(int &x, int &y) x = 8; y+= 2; return x; int main() int a = 9, b = 5; a = f(a, a); cout << a << \":\" << b <<':'; int a = 1, b = 6; cout << ((a<5) && ((b+=1) < 5)) << a << \":\" << b << \":\"; inta = 4; cout << a << ':'; cout << a << \":\" << b << endl; return 0;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "Switch",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "0,5",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "8.3",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "8,3",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') i=6 while i<12: i+=1 print(i)",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 4,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a = 6 b = 2 c = 7 def h(a): global c    a = 3 b *= 2 c = 4 return a + b + c a = 9 b = 4 c = 3 try: print(h(a), a, b, c, sep=';') except: print('Z', a, b, c, sep=';')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Записати ВИРАЗ, значенням якого є множина, що складається з цілих чисел від 17 до 2020 (включно), що не діляться на 2.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "3.14%2",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "if a<b: a=0 else: b=0",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x+3=5",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Записати ВИРАЗ, значенням якого є список, що складається з кубів цілих чисел від 17 до 2020 (включно), що не діляться на жодне з чисел 2, 3, записаних в оберненому порядку.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "Switch",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "0,5",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "8.3",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "8,3",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Написати програму, що запитує у користувача значення дійсних параметрів x та y, обчислює для них значення виразу та повiдомляє введенi данi та результат обчислення. Оцінюється правильність та якість коду.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "False",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "'\\'",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "py",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "8,3",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') for a in range(6,6,-3): if a<3: break print(a, end=' ') if a<3: break else: print('end', end=' ') print(a)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? g=[10,11,12,13,14]; print(g.pop(1),end=' '); print(g)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл. Алгоритм починає роботу з кореня (на рис. це верхня вершина).",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 5,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(9**0.5*-2)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "False",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "'\\'",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "py",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "8,3",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл. Алгоритм починає роботу з кореня (на рис. це верхня вершина).",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') i=6 while i<12: i+=1 print(i)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Записати ВИРАЗ, значенням якого є множина, що складається з кубів цілих чисел від 17 до 2020 (включно), що не діляться на жодне з чисел 2, 3.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "3.14%2",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "if a<b: a=0 else: b=0",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x+3=5",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: i = 6 while i<12: i += 1 print(i, end=';') except: print('ERR')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "Switch",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "0,5",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "8.3",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "8,3",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int a = 6, b = 2, c = 7; int h() inta = 6; intb = 9; intc = 4; return a + b + c; int main() inta = 3; intb = 0; intc = 8; cout << h() << ':'; cout << a << ':' << b << ':' << c; return 0;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=6,2,7 def h(a): global c    a=3 b*=2 c=4 return a+b+c a,b,c=9,4,3 print(h(a),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 6,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=6,2,7 def h(a): global c    a=3 b*=2 c=4 return a+b+c a,b,c=9,4,3 print(h(a),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "3.14%2",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "if a<b: a=0 else: b=0",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x+3=5",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? for a in range(10,10+4,-3): if a<3: continue print(a, end=' ') a=10 if a<3: break else: print(13, end=' ') print(a, end=' ')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(8>4>8.0>True)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a = 6 b = 2 c = 7 def h(a): global c    a=3 b=2 c=4 return a+b+c a, b, c = 9,4,3 try: print(h(a), a, b, c, sep=';') except: print('Z', a, b, c, sep=';')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') i=12 while i>6: i+=-3 print(i)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def h(a): u=58 if a<2: return 6 if a>5: u=2 else: return 7 return u print(h(-2))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? not8<4 and not8.0>True and 9<=4.0",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "bool f(int a);",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "int f(int a,b);",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<3.4;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int n; bool n;",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "False",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "'\\'",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "py",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "8,3",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        }
+      ]
+    },
+    {
+      "variantNumber": 7,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def h(a): u=58 if a<2: return 6 if a>5: u=2 else: return 7 return u print(h(-2))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "3.14%2",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "if a<b: a=0 else: b=0",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x+3=5",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=6,2,7 def h(a): a=3 b=2 c=4 return a+b+c a,b,c=9,4,3 print(h(a),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Написати програму, що запитує у користувача значення дійсних параметрів x та y, обчислює для них значення виразу та повiдомляє введенi данi та результат обчислення.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "Switch",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "0,5",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "8.3",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "8,3",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? i=6 while i<12: i+=1 print(i)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def h(a,b): c=58 if a<2: return 6 if a>5: c=2 else: return 7 return c print(h(-2,-2))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "bool f(int a);",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "int f(int a,b);",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<3.4;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int n; bool n;",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(n): print(\"f\", end=\"\"); return n print(f(-2) and f(1))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (10 % 10 % 10 % 10);",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 8,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a, b, c = 6, 8, 7 def h(a, b, c): print(a, b, c, end=\" \") h(b=0, c=2, 1) print(a, b, c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду? i=6 while i<12: i+=1 print(i)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(n): print(\"f\", end=\"\"); return n print(f(-2) and f(1))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "False",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "'\\'",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "py",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "8,3",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int f(int &x, int &y) x = 8; y+= 2; return x; int main() int a = 9, b = 5; a = f(a, a); cout << a << \":\" << b <<':'; int a = 1, b = 6; cout << ((a<5) && ((b+=1) < 5)) << ':'; cout << a << \":\" << b << ':'; inta = 4; cout << a << ':'; cout << a << \":\" << b << endl; return 0;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(5/5*5*5)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "3.14%2",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "if a<b: a=0 else: b=0",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x+3=5",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') g=[10,11,12,13,14] del g[6:] print(g)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Вкажіть значення та тип виразу: not8<4 and not8.0>True and 9<=4.0",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "Switch",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "0,5",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "8.3",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "8,3",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        }
+      ]
+    },
+    {
+      "variantNumber": 9,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? if (15 < 15) cout << \"x\"; else cout << \"c\";",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду? _a = 0 class A: _a = 1 def __init__(self): self._a = 2 _a = 3 A._a = 4 obj = A() try: print(_a, end=' ') print(obj._a, end=' ') print(A._a, end=' ') print(obj._a, end=' ') print(obj._A__a, end=' ') except: print('ERR')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "3.14%2",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "if a<b: a=0 else: b=0",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x+3=5",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "bool f(int a);",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "int f(int a,b);",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<3.4;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int n; bool n;",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') g=[10,11,12,13,14] del g[6:] print(g)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def h(a,b): c=58 if a<2: return 6 if a>5: c=2 else: return 7 return c print(h(-2,-2))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? i=6 while i<12: i+=1 print(i)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "False",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "'\\'",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "py",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "8,3",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') i=12 while i>6: i+=-3 print(i)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') i=6 while i<12: i+=1 print(i)",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 10,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? g=[10,11,12,13,14]; del g[6:]; print(g)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл. Обхід дерева починається з кореня (на рис. це верхня вершина).",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "Switch",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "0,5",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "8.3",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "8,3",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: print(6, end=';') print(2j<6j, end=';') print(7, end=';') except TypeError: print(9, end=';') except ValueError: print(4, end=';') except: print('Z', end=';') else: print(3, end=';') finally: print(0)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "bool f(int a);",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "int f(int a,b);",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<3.4;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int n; bool n;",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(5/5*5*5)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "3.14%2",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "if a<b: a=0 else: b=0",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x+3=5",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> int h(int a, int b) int c = 58; if (a < 2) return 6; if (a > 5) c = 2; else return 7; return c; int main() std::cout << h(-2, -2); return 0;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: res = 8<True if isinstance(res, bool): print(f'bool;') elif isinstance(res, int): print(f'int;') elif isinstance(res, float): print(f'float;') else: print('???') except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(n): print('f', end='') return n try: print(f(-2) and f(1)) except: print('ERR')",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+echo
+echo =784_1.py 
+python3.10 ./784_1.py 
+echo
+echo =784_2.py 
+python3.10 ./784_2.py 
+echo
+echo =784_3.py 
+python3.10 ./784_3.py 
+echo
+echo =784_4.py 
+python3.10 ./784_4.py 
+echo
+echo =784_5.py 
+python3.10 ./784_5.py 
+echo
+echo =784_6.py 
+python3.10 ./784_6.py 
+echo
+echo =784_7.py 
+python3.10 ./784_7.py 
+echo
+echo =784_8.py 
+python3.10 ./784_8.py 
+echo
+echo =784_9.py 
+python3.10 ./784_9.py 
+echo
+echo =784_10.py 
+python3.10 ./784_10.py 

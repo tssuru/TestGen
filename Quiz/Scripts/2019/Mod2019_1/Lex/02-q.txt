@@ -1,0 +1,10 @@
+<fabric>
+     file answer
+     <fname>
+         Lex/02.txt
+     <\fname>
+
+     <before>
+	 —кiльки тут лексем  ___ :{SPACE}
+     <\before>
+  <\fabric>

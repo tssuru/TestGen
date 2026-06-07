@@ -1,0 +1,21 @@
+{
+  "title": "T",
+  "variantCount": 1,
+  "questionsPerVariant": 5,
+  "questionTypeFilter": "open",
+  "shuffleQuestions": true,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print",
+  "selection": {
+    "balancingStrategy": "ratio",
+    "closedShare": 0.25,
+    "uniquenessRule": "withinVariant",
+    "duplicatePolicy": "forbid",
+    "maxReusePercent": 0,
+    "seedStability": "variant",
+    "sourcePolicy": "all",
+    "sourceAllowlist": [],
+    "outputOrder": "random"
+  }
+}

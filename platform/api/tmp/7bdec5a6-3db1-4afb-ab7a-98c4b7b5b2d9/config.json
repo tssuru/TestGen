@@ -1,0 +1,10 @@
+{
+  "title": "pool-open-100",
+  "variantCount": 1,
+  "questionsPerVariant": 100,
+  "questionTypeFilter": "open",
+  "shuffleQuestions": true,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print"
+}

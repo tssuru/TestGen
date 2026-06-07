@@ -1,0 +1,30 @@
+echo
+echo =213_1.py 
+python3.11 -W "ignore" ./213_1.py 
+echo
+echo =213_2.py 
+python3.11 -W "ignore" ./213_2.py 
+echo
+echo =213_3.py 
+python3.11 -W "ignore" ./213_3.py 
+echo
+echo =213_4.py 
+python3.11 -W "ignore" ./213_4.py 
+echo
+echo =213_5.py 
+python3.11 -W "ignore" ./213_5.py 
+echo
+echo =213_6.py 
+python3.11 -W "ignore" ./213_6.py 
+echo
+echo =213_7.py 
+python3.11 -W "ignore" ./213_7.py 
+echo
+echo =213_8.py 
+python3.11 -W "ignore" ./213_8.py 
+echo
+echo =213_10.py 
+python3.11 -W "ignore" ./213_10.py 
+echo
+echo =213_11.py 
+python3.11 -W "ignore" ./213_11.py 

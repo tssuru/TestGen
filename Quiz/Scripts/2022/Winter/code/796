@@ -1,0 +1,30 @@
+echo
+echo =796_1.py 
+python3.10 ./796_1.py 
+echo
+echo =796_2.py 
+python3.10 ./796_2.py 
+echo
+echo =796_3.py 
+python3.10 ./796_3.py 
+echo
+echo =796_4.py 
+python3.10 ./796_4.py 
+echo
+echo =796_5.py 
+python3.10 ./796_5.py 
+echo
+echo =796_6.py 
+python3.10 ./796_6.py 
+echo
+echo =796_7.py 
+python3.10 ./796_7.py 
+echo
+echo =796_8.py 
+python3.10 ./796_8.py 
+echo
+echo =796_9.py 
+python3.10 ./796_9.py 
+echo
+echo =796_10.py 
+python3.10 ./796_10.py 

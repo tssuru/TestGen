@@ -1,0 +1,30 @@
+echo
+echo =312_1.py 
+python3.10 ./312_1.py 
+echo
+echo =312_2.py 
+python3.10 ./312_2.py 
+echo
+echo =312_3.py 
+python3.10 ./312_3.py 
+echo
+echo =312_4.py 
+python3.10 ./312_4.py 
+echo
+echo =312_5.py 
+python3.10 ./312_5.py 
+echo
+echo =312_6.py 
+python3.10 ./312_6.py 
+echo
+echo =312_7.py 
+python3.10 ./312_7.py 
+echo
+echo =312_8.py 
+python3.10 ./312_8.py 
+echo
+echo =312_9.py 
+python3.10 ./312_9.py 
+echo
+echo =312_10.py 
+python3.10 ./312_10.py 

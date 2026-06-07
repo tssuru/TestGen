@@ -1,0 +1,18 @@
+<fabric>
+     file answer
+     <fname>
+         q1/2.txt
+     <\fname>
+
+     <before>
+Що з наведеного переліку (якщо таке в переліку є):{ENDL}{ENDL}\vspace{4mm}{ENDL}\qquad
+     <\before>
+     <after>
+{ENDL}{ENDL}\vspace{4mm}{ENDL}
+має найслабший логічний зв’язок з більшістю понять (відноситься до іншої парадигми та/або виривається з контексту чи не дуже сумісне)? Відповідь пояснити.  
+{ENDL}{ENDL}    
+     <\after>
+     
+  <\fabric>
+  
+

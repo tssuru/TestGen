@@ -1,0 +1,30 @@
+echo
+echo =667_1.py 
+python3.10 ./667_1.py 
+echo
+echo =667_2.py 
+python3.10 ./667_2.py 
+echo
+echo =667_3.py 
+python3.10 ./667_3.py 
+echo
+echo =667_4.py 
+python3.10 ./667_4.py 
+echo
+echo =667_5.py 
+python3.10 ./667_5.py 
+echo
+echo =667_6.py 
+python3.10 ./667_6.py 
+echo
+echo =667_7.py 
+python3.10 ./667_7.py 
+echo
+echo =667_8.py 
+python3.10 ./667_8.py 
+echo
+echo =667_9.py 
+python3.10 ./667_9.py 
+echo
+echo =667_10.py 
+python3.10 ./667_10.py 

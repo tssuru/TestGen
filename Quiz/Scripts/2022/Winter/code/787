@@ -1,0 +1,30 @@
+echo
+echo =787_1.py 
+python3.10 ./787_1.py 
+echo
+echo =787_2.py 
+python3.10 ./787_2.py 
+echo
+echo =787_3.py 
+python3.10 ./787_3.py 
+echo
+echo =787_4.py 
+python3.10 ./787_4.py 
+echo
+echo =787_5.py 
+python3.10 ./787_5.py 
+echo
+echo =787_6.py 
+python3.10 ./787_6.py 
+echo
+echo =787_7.py 
+python3.10 ./787_7.py 
+echo
+echo =787_8.py 
+python3.10 ./787_8.py 
+echo
+echo =787_9.py 
+python3.10 ./787_9.py 
+echo
+echo =787_10.py 
+python3.10 ./787_10.py 

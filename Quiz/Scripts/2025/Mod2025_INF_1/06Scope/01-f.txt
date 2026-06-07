@@ -1,0 +1,68 @@
+//source for question like
+//1622400 questions
+//Що буде надруковано за виконання:\n
+
+//scope
+
+<sample>
+
+
+
+<\sample>
+
+<declarations>
+var=a;a;a;b;b;b
+param={<char> a b}
+fname={<char> f h}
+
+init={<int> 0 9}
+
+
+op=+=;-=;*=;=;=;=
+arg={<int> 1 5}
+
+xArg={<int> -5 5}
+
+val={<int> 0 9}
+const z=;
+global=;{SPACE4}int c#z#{ENDL}
+global2=;int{SPACE}
+
+ref=;&
+const tab={SPACE}{SPACE}{SPACE}{SPACE}{SPACE}{SPACE}
+const tab_main={SPACE}{SPACE}{SPACE}{SPACE}
+
+
+<\declarations>
+
+<template>
+{ENDL}
+%code{ENDL}
+#include <iostream>{ENDL}
+using namespace std;{ENDL}
+{ENDL}
+int a = #init#, b = #init new#, c = #init new#;{ENDL}
+{ENDL}
+int #fname#(int #ref##param#){{ENDL}
+#global#
+{SPACE4}a #op# #arg#;{ENDL}
+{SPACE4}b #op new# #arg new#;{ENDL}
+{SPACE4}c = #arg new#;{ENDL}
+{SPACE4}return a + b + c;{ENDL}
+}{ENDL}
+{ENDL}
+int main(){{ENDL}
+{SPACE4}#global2#a = #init new#;{ENDL}
+{SPACE4}#global2 new#b = #init new#;{ENDL}
+{SPACE4}#global2 new#c = #init new#;{ENDL}
+{SPACE4}cout << #fname#(#var#) << ':';{ENDL}
+{SPACE4}cout << a << ':' << b << ':' << c;{ENDL}
+{SPACE4}return 0; {ENDL}
+}{ENDL}
+%code{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+//после того, как будет проверка условий, можно будет использовать += и другие (сейчас это приводит к ошибкам времени вполнения)
+

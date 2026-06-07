@@ -1,0 +1,24 @@
+//lab 2-1 script
+//138 variants
+//Алгоритми обробки масивів
+//TemplateAnswerQuestFabric
+
+<declarations>
+//what = [2 what.txt]
+route = [2 route.txt]
+wf = [4 parts_from.txt]
+kind = [2 kind.txt]
+rk = [4 kind_route.txt]
+
+<\declarations>
+
+<template>
+За квадратною матрицею, заданою об'єктом типу numpy.ndarray, надрукувати послідовність її елементів обходом #wf[1]# матриці{SPACE}
+#rk[3]# від #wf[3]# #rk[1]#.{ENDL}
+%#wf[0]# #rk[2]# #wf[2]# #rk[0]#{ENDL}{ENDL}
+
+{ENDL}{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>

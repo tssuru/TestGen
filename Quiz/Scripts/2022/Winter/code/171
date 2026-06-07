@@ -1,0 +1,30 @@
+echo
+echo =171_1.py 
+python3.10 ./171_1.py 
+echo
+echo =171_2.py 
+python3.10 ./171_2.py 
+echo
+echo =171_3.py 
+python3.10 ./171_3.py 
+echo
+echo =171_4.py 
+python3.10 ./171_4.py 
+echo
+echo =171_5.py 
+python3.10 ./171_5.py 
+echo
+echo =171_6.py 
+python3.10 ./171_6.py 
+echo
+echo =171_7.py 
+python3.10 ./171_7.py 
+echo
+echo =171_8.py 
+python3.10 ./171_8.py 
+echo
+echo =171_9.py 
+python3.10 ./171_9.py 
+echo
+echo =171_10.py 
+python3.10 ./171_10.py 

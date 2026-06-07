@@ -1,0 +1,30 @@
+echo
+echo =815_1.py 
+python3.10 ./815_1.py 
+echo
+echo =815_2.py 
+python3.10 ./815_2.py 
+echo
+echo =815_3.py 
+python3.10 ./815_3.py 
+echo
+echo =815_4.py 
+python3.10 ./815_4.py 
+echo
+echo =815_5.py 
+python3.10 ./815_5.py 
+echo
+echo =815_6.py 
+python3.10 ./815_6.py 
+echo
+echo =815_7.py 
+python3.10 ./815_7.py 
+echo
+echo =815_8.py 
+python3.10 ./815_8.py 
+echo
+echo =815_9.py 
+python3.10 ./815_9.py 
+echo
+echo =815_10.py 
+python3.10 ./815_10.py 

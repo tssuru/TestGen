@@ -1,0 +1,11 @@
+<fabric>
+       collate 
+        include 17Numpy/01-01-q.txt 
+        include 17Numpy/01-02-q.txt 
+        <n1>
+         5
+        <\n1>
+        <n2>
+         20
+        <\n2>
+<\fabric>

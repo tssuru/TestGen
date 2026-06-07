@@ -1,0 +1,24 @@
+echo
+echo =24_1.py 
+python3.11 -W "ignore" ./24_1.py 
+echo
+echo =24_2.py 
+python3.11 -W "ignore" ./24_2.py 
+echo
+echo =24_3.py 
+python3.11 -W "ignore" ./24_3.py 
+echo
+echo =24_4.py 
+python3.11 -W "ignore" ./24_4.py 
+echo
+echo =24_5.py 
+python3.11 -W "ignore" ./24_5.py 
+echo
+echo =24_6.py 
+python3.11 -W "ignore" ./24_6.py 
+echo
+echo =24_7.py 
+python3.11 -W "ignore" ./24_7.py 
+echo
+echo =24_8.py 
+echo -3

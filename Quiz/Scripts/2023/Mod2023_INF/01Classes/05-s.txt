@@ -1,0 +1,97 @@
+struct A{
+{SPACE} int work(){return #n#;}};//#n new# //*
+struct B:public A{int relax(){return #n new#;}};
+struct C:public A{int relax(){return #n new#;}};
+void test(){ B *a0=new A, *a1=new B; 
+{SPACE} cout<<a0->work()<<a1->relax();}
+{ENDL}
+
+struct A{
+{SPACE} int work(){return #n#;}};//#n new#
+struct B:public A{int relax(){return #n new#;}};
+struct C:public A{int relax(){return #n new#;}};
+void test(){ A *a0=new A, *a1=new B, *a2=new C;
+{SPACE} cout<<a0->work()<<((B*)a1)->relax(){ENDL}{SPACE4}<<((C*)a2)->relax();}
+{ENDL}
+
+struct A{
+{SPACE} int work(){return #n#;}
+{SPACE} int relax(){return #n new#;}};
+struct B:public A{int relax(){return #n new#;}};
+struct C:public A{int relax(){return #n new#;}};
+void test(){ A *a0=new A, *a1=new B, *a2=new C;
+{SPACE} cout<<a0->work()<<a1->relax()<<a2->relax();}
+
+struct A{
+{SPACE} int work(){return #n#;}
+{SPACE} virtual int relax(){return #n new#;}};
+struct B:public A{int relax(){return #n new#;}};
+struct C:public A{int relax(){return #n new#;}};
+void test(){ A *a0=new A, *a1=new B, *a2=new C;
+{SPACE} cout<<a0->work()<<a1->relax()<<a2->relax();}
+
+struct A{
+{SPACE} int work(){return #n#;}
+{SPACE} int relax(){return #n new#;}};
+struct B:public A{int relax(){return #n new#;}};
+struct C:public A{int relax(){return #n new#;}};
+void test(){ A *a0=new A, *a1=new B, *a2=new C;
+{SPACE} cout<<a0->work()<<((B*)a1)->relax(){ENDL}{SPACE4}<<((C*)a2)->relax();}
+
+struct A{
+{SPACE} int work(){return #n#;}};//#n new#
+struct B:public A{int relax(){return #n new#;}};
+struct C:public A{int relax(){return #n new#;}};
+void test(){ A *a0=new A, *a1=new B, *a2=new C;
+{SPACE} cout<<a2->work()<<((B*)a1)->relax(){ENDL}{SPACE4}<<((B*)a0)->relax();}
+{ENDL}
+
+struct A{
+{SPACE} int work(){return #n#;}
+{SPACE} int relax(){return #n new#;}};
+struct B:public A{virtual int relax(){return #n new#;}};
+struct C:public B{int relax(){return #n new#;}};
+void test(){ A *a1=new B, *a2=new C;
+{SPACE} cout<<a1->work()<<a2->relax()<<a1->relax();}
+
+struct A{
+{SPACE} int work(){return #n#;}
+{SPACE} virtual int relax(){return #n new#;}};
+struct B:public A{int relax(){return #n new#;}};
+struct C:public B{int relax(){return #n new#;}};
+void test(){ A *a1=new B, *a2=new C;
+{SPACE} cout<<a2->relax()<<a1->relax();}
+
+struct A{
+{SPACE}int work (){return #n#;}
+{SPACE} virtual int relax(){return #n new#;}};
+struct B:public A{int relax(){return #n new#;}};
+struct C:public B{int relax(){return #n new#;}};//*
+void test(){ A *a1=new B, *a2=new C;
+{SPACE} cout<<a2->B::relax()<<a1->relax();}
+
+
+struct A{
+{SPACE} int work(){return #n#;}
+{SPACE} virtual int relax(){return #n new#;}};
+struct B:public A{int relax(){return #n new#;}};
+struct C:public B{int relax(){return #n new#;}};
+void test(){ A *a1=new B, *a2=new C;
+{SPACE} cout<<((C*)a2)->B::relax()<<a1->relax();}
+
+struct A{
+{SPACE} int work(){return #n#;}
+{SPACE} virtual int relax(){return #n new#;}};
+struct B:public A{int relax(){return #n new#;}};
+struct C:public B{int relax(){return #n new#;}};
+void test(){ A *a1=new B, *a2=new C;
+{SPACE} cout<<a2->relax()<<a1->A::relax();}
+
+struct A{
+{SPACE} int work(){return #n#;}
+{SPACE} virtual int relax(){return #n new#;}};
+struct B:public A{int relax(){return #n new#;}};
+struct C:public B{int relax(){return #n new#;}};
+void test(){ A a; B b; C c;
+{SPACE} cout<<((B&)c).relax()<<c.B::relax();}
+

@@ -1,0 +1,30 @@
+echo
+echo =548_1.py 
+python3.10 ./548_1.py 
+echo
+echo =548_2.py 
+python3.10 ./548_2.py 
+echo
+echo =548_3.py 
+python3.10 ./548_3.py 
+echo
+echo =548_4.py 
+python3.10 ./548_4.py 
+echo
+echo =548_5.py 
+python3.10 ./548_5.py 
+echo
+echo =548_6.py 
+python3.10 ./548_6.py 
+echo
+echo =548_7.py 
+python3.10 ./548_7.py 
+echo
+echo =548_8.py 
+python3.10 ./548_8.py 
+echo
+echo =548_9.py 
+python3.10 ./548_9.py 
+echo
+echo =548_10.py 
+python3.10 ./548_10.py 

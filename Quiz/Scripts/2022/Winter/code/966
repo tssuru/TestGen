@@ -1,0 +1,30 @@
+echo
+echo =966_1.py 
+python3.10 ./966_1.py 
+echo
+echo =966_2.py 
+python3.10 ./966_2.py 
+echo
+echo =966_3.py 
+python3.10 ./966_3.py 
+echo
+echo =966_4.py 
+python3.10 ./966_4.py 
+echo
+echo =966_5.py 
+python3.10 ./966_5.py 
+echo
+echo =966_6.py 
+python3.10 ./966_6.py 
+echo
+echo =966_7.py 
+python3.10 ./966_7.py 
+echo
+echo =966_8.py 
+python3.10 ./966_8.py 
+echo
+echo =966_9.py 
+python3.10 ./966_9.py 
+echo
+echo =966_10.py 
+python3.10 ./966_10.py 

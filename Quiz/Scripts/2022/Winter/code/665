@@ -1,0 +1,30 @@
+echo
+echo =665_1.py 
+python3.10 ./665_1.py 
+echo
+echo =665_2.py 
+python3.10 ./665_2.py 
+echo
+echo =665_3.py 
+python3.10 ./665_3.py 
+echo
+echo =665_4.py 
+python3.10 ./665_4.py 
+echo
+echo =665_5.py 
+python3.10 ./665_5.py 
+echo
+echo =665_6.py 
+python3.10 ./665_6.py 
+echo
+echo =665_7.py 
+python3.10 ./665_7.py 
+echo
+echo =665_8.py 
+python3.10 ./665_8.py 
+echo
+echo =665_9.py 
+python3.10 ./665_9.py 
+echo
+echo =665_10.py 
+python3.10 ./665_10.py 

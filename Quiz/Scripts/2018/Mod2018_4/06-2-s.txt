@@ -1,0 +1,12 @@
+void test(){ int *pi=new int; cout<<*pi;}
+
+void test(){ int **ppi=new int*(new int(13)); cout<<**ppi; delete ppi; delete *ppi; cout<<".";}
+
+void test(){ int **ppi=new int*(new int(13)); cout<<**ppi; delete *ppi; delete ppi; cout<<".";}
+
+void test(){ int *pi=new int(13), *pi2; pi2=pi; cout<<*pi; delete *pi; cout<<*pi2; cout<<".";}
+
+void test(){ int *pi=new int(13), *pi2; pi2=pi; cout<<*pi; delete pi; cout<<*pi2; cout<<".";}
+
+void test(){ int *pi=new int(13), *pi2; pi2=pi; cout<<*pi; delete pi; delete pi2; cout<<".";}
+

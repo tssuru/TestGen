@@ -1,0 +1,162 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\emergencystretch=3em
+\pagestyle{empty}
+\begin{document}
+%begin
+{\centering\Large\bfseries Контрольна робота\par}
+\medskip
+\noindent\rule{\linewidth}{0.5pt}
+\smallskip
+\noindent\textbf{Варіант \No\,2}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+a,b,c=4,2,1
+def h(a):
+global c    a=3
+    b*=4
+    c=5
+    return a+b+c
+
+a,b,c=5,6,0
+print(h(b),a,b,c)
+\vspace{5mm}
+%enditem
+
+%beginitem
+2. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (!6==4 || !6.0> true || 4.0<=3);
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+3. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+
+a,b,c=9,8,7
+def h(a,b=6,c=6):
+    print(a,b,c,end="")
+
+h(a=4,2,c=1)
+print(a,b,c)
+
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+4. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+using namespace std;
+
+int h(int d){
+    int y = 50;
+    if (d == 0) 
+        return 4;
+    if (d > -2)
+         y = 2;
+    else
+         y = 1;
+    return y;
+}
+
+int main(){
+    cout << h(-4);
+    return 0;
+}
+%code
+
+\vspace{5mm}
+%enditem
+
+%beginitem
+5. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) (2+2j)//2
+
+( 2 ) if a<b: a=0 else: b=0
+
+( 3 ) x=y=z
+
+( 4 ) x==y==z
+\vspace{5mm}
+%enditem
+
+%beginitem
+6. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+e = ('a','b','c','d','e',0,1,2,3)
+print(e[-8])
+%code
+
+\vspace{5mm}
+%enditem
+
+%beginitem
+7. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+x,y,z=4,2,1
+y,z,y,z=9,z,y,x
+print(x,y,z)
+\vspace{5mm}
+%enditem
+
+%beginitem
+8. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) 'a'=3;
+
+( 2 ) cout>>3;
+
+( 3 ) bool r=('N'>'5');
+
+( 4 ) x+=y;
+\vspace{5mm}
+%enditem
+
+%beginitem
+9. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(9**-1.0*True)
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+10. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) x*y
+
+( 2 ) (1)
+
+( 3 ) False
+
+( 4 ) For
+\vspace{5mm}
+%enditem
+
+%end
+\newpage
+\end{document}
+

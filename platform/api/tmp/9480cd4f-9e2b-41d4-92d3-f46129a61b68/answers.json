@@ -1,0 +1,697 @@
+{
+  "title": "Контрольна робота",
+  "generatedAt": "2026-03-05T12:38:42.414Z",
+  "profile": "print",
+  "variantCount": 1,
+  "variants": [
+    {
+      "variantNumber": 1,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: m = 4 while m<10: m += 1 print(m, end=';') except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "%goodpath:Scripts/2018/Mod2018_1/03-good.txt Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "int 3a=2;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "return 'a'<'c';",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "x=2'*'7;",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "j=i;",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є множина, що складається з квадратівцілих чисел від 15 до 2005 (включно), що не діляться на 5.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=4,1,9 def f(a): global c    a=4 b=3 c=2 return a+b+c a,b,c=0,8,7 print(f(b),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? {0.8}} {../BinTree/trees_exp/45.png} Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл. Обхід дерева починається з кореня (на рис. це верхня вершина).",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є список, що складається з квадратівцілих чисел від 15 до 2005 (включно), що не діляться на 5, записаних в обернено\\-му порядку.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(a,b): c=55 if b==0: return 4 if a<=-3: c=1 else: c=9 return c print(f(-4,-4))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? e=[10,11,12,13] e[-5:-5]='11' print(e)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Задано тип вузла списку struct Node \\{int n; Node *prev, *next;\\}; У списку зберігаються послідовні цілі числа від -25 до 49. Вказівник p встановлено на вузол, в якому зберігається число -4. Чому дорівнює значення p->prev->prev->prev->prev->prev->n ?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(6 != 6.0 > True <= 3)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 11,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') m=10 while m>4: m+=-3 print(m)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 12,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=8,7,9 def f(a,b=6,c): print(a,b,c,end=\"\") f(a=4,1,a=5) print(a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 13,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=4,1,9 def f(a): global c    a=4 b=3 c=2 return a+b+c a,b,c=0,8,7 print(f(b),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 14,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу $${( x + 0.6) (y + 73)}$$ та повiдомляє введенi данi та результат обчислення.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 15,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a = 4 b = 1 c = 9 def f(a): global c    a = 4 b += 3 c = 2 return a + b + c a = 0 b = 8 c = 7 try: print(f(b), a, b, c, sep=';') except: print('Z', a, b, c, sep=';')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 16,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(n): print(\"f\", end=\"\"); return n print(f(-4) and f(7))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 17,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: m = 4 while m<10: m += 1 print(m, end=';') except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 18,
+          "questionText": "Що буде виведено за виконання фрагменту коду? \"6.0\"==3.0",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 19,
+          "questionText": "Що буде виведено за виконання фрагменту коду? not6==6.0 and notTrue<=3 and 7!=3.0",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 20,
+          "questionText": "Що буде виведено за виконання фрагменту коду? e=[10,11,12,13] e.extend([1,2]) print(e)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 21,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') e=('0','1','2','3','4','5','6','7','8','9') print(e[-10:-10:2])",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 22,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> int f(int a, int b){ int c = 55; if (b == 0) return 4; if (a <= -3) c = 1; else c = 9; return c; } int main(){ std::cout << f(-4, -4); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 23,
+          "questionText": "Що буде виведено за виконання фрагменту коду? for e in range(-10,-10,2): if e>7: continue print(e,end=' ') if e>7: break else: print(e, end=' ') print(e, end=' ')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 24,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є список, що складається з цілих чисел від 15 до 2005 (включно), причому спочатку за зростанням записано всі, що не діляться на 5, а потім решту за зростанням.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 25,
+          "questionText": "Що буде виведено за виконання фрагменту коду? {0.8}} {../BinTree/trees_exp/45.png} Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл. Алгоритм починає роботу з кореня (на рис. це верхня вершина).",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 26,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int f(int &x, int &y){ x = 6; y+= 3; return x; } int main(){ int a = 2, b = 9; a = f(a, a); cout << a << \":\" << b <<':'; { int a = 1, b = 4; cout << ((a>6) && ((b+=1) > 6)) << ':'; cout << a << \":\" << b << ':'; } { inta = 8; cout << a << ':'; } cout << a << \":\" << b << endl; return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 27,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: for e in range(-10, -10, 2): if e>7: continue print(e, end=';') if e>7: break else: print(e,end=';') print(e) except: print('ERR')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 28,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(n): print('f', end='') return n try: print(f(-4) and f(7)) except: print('ERR')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 29,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(8/8//8*8)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 30,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (!6==6.0 && !true<= 3 && 7!=3.0);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 31,
+          "questionText": "Що буде виведено за виконання фрагменту коду? e=('a','b','c','d','e',0,1,2,4); print(e[11])",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 32,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Задано тип вузла списку struct Node {int n; Node *prev, *next;}; У списку зберігаються послідовні цілі числа від -25 до 49. Вказівник p встановлено на вузол, в якому зберігається число -4. Чому дорівнює значення p->prev->prev->prev->prev->prev->n ?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 33,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a = 4 b = 1 c = 9 def f(a): global c    a=4 b=3 c=2 return a+b+c a, b, c = 0,8,7 try: print(f(b), a, b, c, sep=';') except: print('Z', a, b, c, sep=';')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 34,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') m=4 while m<10: m+=1 print(m)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 35,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: m = 10 while m>4: m += -3 print(m, end=';') except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 36,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (8 * 8 * 8 * 8);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 37,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') m=10 while m>4: m+=-3 print(m)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 38,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') e=[10,11,12,13,14] e[:-5]='13' print(e)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 39,
+          "questionText": "Що буде виведено за виконання фрагменту коду? if (4 == 4) cout << \"x\"; else cout << \"b\";",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 40,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Рядки журналу через двокрапку містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад s=\"username : 2022-05-05 13:26 : ERROR : 404\" у коді res = re.fullmatch('???', s) s = '' code_str = ??? чим треба замінити кожен з ???, щоб значенням code\\_str був код події?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 41,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a = 4 b = 1 c = 9 def f(a): global c    a=4 b+=3 c=2 return a+b+c a, b, c = 0, 8, 7 try: print(f(b), a, b, c, sep=';') except: print('Z', a, b, c, sep=';')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 42,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: res = \"6.0\"==3.0j if isinstance(res, bool): print(f'bool;{res}') elif isinstance(res, int): print(f'int;{res}') elif isinstance(res, float): print(f'float;{res:.2f}') else: print('???') except: print('ERR')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 43,
+          "questionText": "%goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "if a<b: a=0 else: b=0",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "--n",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "if ('x'><'y'): a=6",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "j=i=13",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 44,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Знайти кількість відношень на n-елементній множині, які нерефлексивні та несиметричні",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 45,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Скільки 2017-елементних підмножин множини натуральних від 1 до 20172017 містять рівно одне число, що більше 172004",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 46,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: print(4, end=';') print(int('c1'), end=';') print(9, end=';') except ZeroDivisionError: print(0, end=';') except TypeError: print(8, end=';') except: print('ERR', end=';') else: print(7, end=';') finally: print(3)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 47,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(1**1.0*True)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 48,
+          "questionText": "Що буде виведено за виконання фрагменту коду? В умовах попередньої задачі було виконано p->prev=p->prev->prev; Чому дорівнює значення p->prev->prev->prev->prev->n ?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 49,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') m=4 while m<10: m+=1 print(m)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 50,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(n): print(\"f\", end=\"\"); return n print(f(-4) and f(7))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 51,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є множина, що складається з цілих чисел від 15 до 2005 (включно), що не діляться на 5.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 52,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') e=[10,11,12,13,14] e[:-5]='13' print(e)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 53,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Рядки журналу через = містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад s=\"username = 2022-05-05 13:26 = ERROR = 404\" у коді res = re.fullmatch('???', s) s = '' code_str = ??? чим треба замінити кожен з ???, щоб значенням code\\_str був код події?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 54,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(\"6.0\"==3.0)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 55,
+          "questionText": "Що буде виведено за виконання фрагменту коду? e = ('a','b','c','d','e',0,1,2,4) print(e[11])",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 56,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int a = 4, b = 1, c = 9; int f(int &a){ int c;    a = 4; b -= 3; c = 2; return a + b + c; } int main(){ inta = 0; intb = 8; intc = 7; cout << f(b) << ':'; cout << a << ':' << b << ':' << c; return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 57,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') e=[10,11,12,13,14] e.extend([1,2]) print(e)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 58,
+          "questionText": "%goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "\"abc'",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "0x1a",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "x+23",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "\"a\\na\"",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 59,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Змінні  та  вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-25$ до~$49$. Нехай змінна  позначає вузол, що зберігає значення~$-4$. Яке число зберігається у вузлі  ?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 60,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(6!=6.0!=True!=3)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 61,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') e=('0','1','2','3','4','5','6','7','8','9') print(e[-10:-10:2])",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 62,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') for e in range(-5,-5,2): if e>7: continue print(e, end=' ') if e>7: break else: print(e, end=' ') print(e, end=' ')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 63,
+          "questionText": "%goodpath:Scripts/2018/Mod2018_1/01-good.txt Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "0,5",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "false",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "x+23",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "x23",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 64,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є множина, що складається з цілих чисел від 15 до 2005 (включно), що не діляться на 5.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 65,
+          "questionText": "Що буде виведено за виконання фрагменту коду? for e in range(-10,-10,2): if e>7: continue print(e,end=' ') if e>7: break else: print(e, end=' ') print(e, end=' ')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 66,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=4,1,9 def f(a): global c    a=4 b+=3 c=2 return a+b+c a,b,c=0,8,7 print(f(b),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 67,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: res = 8/8//8*8 if isinstance(res, bool): print(f'bool;{res}') elif isinstance(res, int): print(f'int;{res}') elif isinstance(res, float): print(f'float;{res:.2f}') else: print('???') except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 68,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є словник, ключами якого є цілі числа від 15 до 2005 (включно), що не діляться на 5, а ключам відповідають їх квадрати",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 69,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є список, що складається з квадратівцілих чисел від 15 до 2005 (включно), що не діляться на 5, записаних в оберненому порядку.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 70,
+          "questionText": "Що буде виведено за виконання фрагменту коду? for e in range(-5,-5+5,2): if e>7: break print(e, end=' ') e=-5 if e>7: break else: print(e, end=' ') print(e, end=' ')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 71,
+          "questionText": "Що буде виведено за виконання фрагменту коду? 8/8//8*8",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 72,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: res = 1**1.0*True if isinstance(res, bool): print(f'bool;{res}') elif isinstance(res, int): print(f'int;{res}') elif isinstance(res, float): print(f'float;{res:.2f}') else: print('???') except: print('ERR')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 73,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') e = ('a','b','c','d','e',0,1,2,4) print(e[11])",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 74,
+          "questionText": "Що буде виведено за виконання фрагменту коду? \"6.0\"==3.0",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 75,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; bool f(int n){ cout<<\"f\"; return n; } int main(){ cout<<(f(-4) && f(7)); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 76,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> int f(int c){ int y = 55; if (c == 0) return 4; if (c <= -3) y = 1; else y = 9; return y; } int main(){ std::cout << f(-4); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 77,
+          "questionText": "Що буде виведено за виконання фрагменту коду? {0.8}} {../BinTree/trees_exp/45.png} Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. ̳тки записувати через пробіл. Обхід дерева починається з кореня (на рис. це верхня вершина).",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 78,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') for e in range(-10,-10,2): if e>7: continue print(e, end=' ') if e>7: break else: print(e, end=' ') print(e)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 79,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є множина, що складається з квадратівцілих чисел від 15 до 2005 (включно), що не діляться на 5.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 80,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=4,1,9 def f(a): global c     a=4 b=3 c=2 return a+b+c a,b,c=0,8,7 print(f(b),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 81,
+          "questionText": "Що буде виведено за виконання фрагменту коду? for e in range(-10,-10,2): if e>7: continue print(e,end=' ') if e>7: break else: print(e,end=' ') print(e)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 82,
+          "questionText": "Що буде виведено за виконання фрагменту коду? _c = 0 class C: _c = 1 def __init__(self): self._c = 2 _c = 3 C._c = 4 obj = C() obj._c = 5 try: print(_c, end=' ') print(obj._c, end=' ') print(C._c, end=' ') print(obj._c, end=' ') print(obj._C__c) except: print('ERR')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 83,
+          "questionText": "Що буде виведено за виконання фрагменту коду? {0.8}} {../15BinTree/trees_exp/45.png} Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл. Алгоритм починає роботу з кореня (на рис. це верхня вершина).",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 84,
+          "questionText": "Що буде виведено за виконання фрагменту коду? $a$ є цілочисловим масивом типу $numpy.ndarray$ розмірів $4{}4$. Сума елементів масиву $a$ дорівнює 25. Чому дорівнює сума елементів масиву $a$ після виконання a += 25 Якщо код некоректний, то в якості відповіді зазначити ERROR.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 85,
+          "questionText": "Що буде виведено за виконання фрагменту коду? e=[10,11,12,13,14]; e[:-5]='13'; print(e)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 86,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Рядки журналу через = містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад s=\"username = 2022-05-05 13:26 = ERROR = 404\" у коді res = re.fullmatch('???', s) s = '' code_str = ??? чим треба замінити кожен з ???, щоб значенням code\\_str був код події?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 87,
+          "questionText": "Що буде виведено за виконання фрагменту коду? 1**1.0*True",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 88,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int f(int a, int b){ int c = 55; if (b == 0) return 4; if (a <= -3) c = 1; else c = 9; return c; } int main(){ cout << f(-4, -4); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 89,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу та повiдомляє введенi данi та результат обчислення. $${( x + 0.6) (y + 73)}$$",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 90,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є список, що складається з цілих чисел від 15 до 2005 (включно), причому спочатку за зростанням записано всі, що не діляться на 5, а потім решту за зростанням.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 91,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=4,1,9 def f(a): a=4 b+=3 c=2 return a+b+c a,b,c=0,8,7 print(f(b),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 92,
+          "questionText": "Що буде виведено за виконання фрагменту коду? \"6.0\"==3.0j",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 93,
+          "questionText": "Що буде виведено за виконання фрагменту коду? e=[10,11,12,13,14]; e[:-5]='13'; print(e)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 94,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(c): y=55 if c==0: return 4 if c<=-3: y=1 else: y=9 return y print(f(-4))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 95,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: m = 10 while m>4: m += -3 print(m, end=';') except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 96,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (6 == 6.0 <= true != 3);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 97,
+          "questionText": "Що буде виведено за виконання фрагменту коду? m=10 while m>4: m+=-3 print(m)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 98,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 9 * 9 * 9 * 9;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 99,
+          "questionText": "Що буде виведено за виконання фрагменту коду? e=[10,11,12,13,14]; e.extend([1,2]); print(e)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 100,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є список, що складається з цілих чисел від 15 до 2005 (включно), причому спочатку за зростанням записано всі, що не діляться на 5, а потім решту за зростанням.",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    }
+  ]
+}

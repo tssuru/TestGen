@@ -1,0 +1,40 @@
+//source for question like
+//32768 questions
+//Вкажіть значення та його тип:\n
+
+//for, local for variable
+
+<sample>
+
+True/7/8*True
+
+<\sample>
+
+<declarations>
+//arg1=3;4;5;6;7;8;9;True
+arg1=3;4;5;6;7;8;9
+arg2=#arg1
+arg3=#arg1
+arg4=#arg1
+op1=/;//
+op2=*;/;//;%
+
+Expr1={#arg1##op1##arg2##op2##arg3#*#arg4#}
+<\declarations>
+
+<template>
+{ENDL}
+%code{ENDL}
+print(#Expr1#)
+{ENDL}
+%code{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+
+
+
+
+

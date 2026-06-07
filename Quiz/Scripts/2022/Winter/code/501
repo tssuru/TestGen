@@ -1,0 +1,30 @@
+echo
+echo =501_1.py 
+python3.10 ./501_1.py 
+echo
+echo =501_2.py 
+python3.10 ./501_2.py 
+echo
+echo =501_3.py 
+python3.10 ./501_3.py 
+echo
+echo =501_4.py 
+python3.10 ./501_4.py 
+echo
+echo =501_5.py 
+python3.10 ./501_5.py 
+echo
+echo =501_6.py 
+python3.10 ./501_6.py 
+echo
+echo =501_7.py 
+python3.10 ./501_7.py 
+echo
+echo =501_8.py 
+python3.10 ./501_8.py 
+echo
+echo =501_9.py 
+python3.10 ./501_9.py 
+echo
+echo =501_10.py 
+python3.10 ./501_10.py 

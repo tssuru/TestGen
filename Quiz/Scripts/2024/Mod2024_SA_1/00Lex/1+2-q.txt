@@ -1,0 +1,12 @@
+  <fabric>
+  collate 
+  include 00Lex/01-q.txt
+  include 00Lex/02-q.txt
+      <n1>
+         10
+      <\n1>
+      <n2>
+         2
+      <\n2>
+  <\fabric>
+

@@ -1,0 +1,30 @@
+echo
+echo =715_1.py 
+python3.10 ./715_1.py 
+echo
+echo =715_2.py 
+python3.10 ./715_2.py 
+echo
+echo =715_3.py 
+python3.10 ./715_3.py 
+echo
+echo =715_4.py 
+python3.10 ./715_4.py 
+echo
+echo =715_5.py 
+python3.10 ./715_5.py 
+echo
+echo =715_6.py 
+python3.10 ./715_6.py 
+echo
+echo =715_7.py 
+python3.10 ./715_7.py 
+echo
+echo =715_8.py 
+python3.10 ./715_8.py 
+echo
+echo =715_9.py 
+python3.10 ./715_9.py 
+echo
+echo =715_10.py 
+python3.10 ./715_10.py 

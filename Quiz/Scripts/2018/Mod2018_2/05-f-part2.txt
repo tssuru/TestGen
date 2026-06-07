@@ -1,0 +1,29 @@
+//source for question like
+//2640 questions
+//Що буде надруковано за виконання:\n
+
+//while
+
+<sample>
+
+int k=9; while (k>3) k+=-3; cout<<k;
+
+<\sample>
+
+<declarations>
+0=i;j;k;n;m;t
+1={<int> 5 15}
+2=>;>=
+3={<int> 0 9}
+4={<int> -3 -2}
+
+<\declarations>
+
+<template>
+
+int #0#=#1#; while (#0##2##3#) #0#+=#4#; cout<<#0#;
+
+<\template>
+
+<restrictions>
+<\restrictions>

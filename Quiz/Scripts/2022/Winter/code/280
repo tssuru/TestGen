@@ -1,0 +1,30 @@
+echo
+echo =280_1.py 
+python3.10 ./280_1.py 
+echo
+echo =280_2.py 
+python3.10 ./280_2.py 
+echo
+echo =280_3.py 
+python3.10 ./280_3.py 
+echo
+echo =280_4.py 
+python3.10 ./280_4.py 
+echo
+echo =280_5.py 
+python3.10 ./280_5.py 
+echo
+echo =280_6.py 
+python3.10 ./280_6.py 
+echo
+echo =280_7.py 
+python3.10 ./280_7.py 
+echo
+echo =280_8.py 
+python3.10 ./280_8.py 
+echo
+echo =280_9.py 
+python3.10 ./280_9.py 
+echo
+echo =280_10.py 
+python3.10 ./280_10.py 

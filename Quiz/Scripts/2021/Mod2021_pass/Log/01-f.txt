@@ -1,0 +1,39 @@
+//source for question like
+//26127360 questions
+//Вкажіть значення та його тип:\n
+
+//**
+
+<sample>
+
+
+
+<\sample>
+
+<declarations>
+arg={#x1 new#}{#x2 new#}{#x1 new#}{#x2 new#}{#x1 new#}{#x3 new#}
+x1={<int> 2 9}
+x2={<double> 2 9 1 1}
+x3=True;False
+
+comp=<;<=;>;>=;==;!=
+op1=and;or
+op2=#op1
+
+not=not{SPACE};
+
+
+<\declarations>
+
+<template>
+{ENDL}
+%code{ENDL}
+#not##arg##comp##arg new# #op1# #not new##arg new##comp new##arg new# #op2# #arg new##comp new##arg new#
+{ENDL}%code{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+
+

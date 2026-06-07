@@ -1,0 +1,4 @@
+try:
+    print(6/7*9*6)
+    
+except: print('error')

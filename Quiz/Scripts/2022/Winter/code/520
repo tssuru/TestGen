@@ -1,0 +1,30 @@
+echo
+echo =520_1.py 
+python3.10 ./520_1.py 
+echo
+echo =520_2.py 
+python3.10 ./520_2.py 
+echo
+echo =520_3.py 
+python3.10 ./520_3.py 
+echo
+echo =520_4.py 
+python3.10 ./520_4.py 
+echo
+echo =520_5.py 
+python3.10 ./520_5.py 
+echo
+echo =520_6.py 
+python3.10 ./520_6.py 
+echo
+echo =520_7.py 
+python3.10 ./520_7.py 
+echo
+echo =520_8.py 
+python3.10 ./520_8.py 
+echo
+echo =520_9.py 
+python3.10 ./520_9.py 
+echo
+echo =520_10.py 
+python3.10 ./520_10.py 

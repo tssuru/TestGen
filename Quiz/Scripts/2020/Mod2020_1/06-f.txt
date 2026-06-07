@@ -1,0 +1,52 @@
+//source for question like
+//1622400 questions
+//Що буде надруковано за виконання:\n
+
+//function call
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+tab={SPACE}{SPACE}{SPACE}{SPACE}
+fname={<char> f h}
+vars={<char> a c}
+
+val={<int> 6 9}
+arg={<int> 0 5}
+Arg={#arg new#}
+
+
+params=b,c;b,c=#val new#;b=#val new#,c;b=#val new#,c=#val new#
+
+Acall={#Arg#,#Arg#} {#Arg#,#Arg#,#Arg#} {#Arg#,#vars#=#Arg#} {#Arg#,#Arg#,#vars#=#Arg#} {a=#Arg#,#Arg#,#vars#=#Arg#} {#Arg#,c=#Arg#,b=#Arg#} {b=#Arg#,c=#Arg#,#Arg#} {#vars new#=#Arg#,#vars new#=#Arg#,#vars new#=#Arg#}
+
+<\declarations>
+
+<template>
+{ENDL}
+a,b,c=#val new#,#val new#,#val new#{ENDL}
+def #fname#(a,#params#):{ENDL} 
+{SPACE4}print(a,b,c,end=""){ENDL}
+{ENDL}
+#fname#(#Acall#){ENDL}
+print(a,b,c)
+{ENDL}
+{ENDL}
+
+<\template>
+
+<restrictions>
+<\restrictions>
+
+
+//{#Arg#,#Arg#} 
+//{#Arg#,#Arg#,#Arg#} 
+//{#Arg#,#vars#=#Arg#} 
+//{#Arg#,#Arg#,#vars#=#Arg#} 
+//{a=#Arg#,#Arg#,#vars#=#Arg#} 
+//{#Arg#,c=#Arg#,b=#Arg#} 
+//{b=#Arg#,c=#Arg#,#Arg#} 
+//{#vars new#=#Arg#,#vars new#=#Arg#,#vars new#=#Arg#}

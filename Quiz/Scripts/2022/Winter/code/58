@@ -1,0 +1,30 @@
+echo
+echo =58_1.py 
+python3.10 ./58_1.py 
+echo
+echo =58_2.py 
+python3.10 ./58_2.py 
+echo
+echo =58_3.py 
+python3.10 ./58_3.py 
+echo
+echo =58_4.py 
+python3.10 ./58_4.py 
+echo
+echo =58_5.py 
+python3.10 ./58_5.py 
+echo
+echo =58_6.py 
+python3.10 ./58_6.py 
+echo
+echo =58_7.py 
+python3.10 ./58_7.py 
+echo
+echo =58_8.py 
+python3.10 ./58_8.py 
+echo
+echo =58_9.py 
+python3.10 ./58_9.py 
+echo
+echo =58_10.py 
+python3.10 ./58_10.py 

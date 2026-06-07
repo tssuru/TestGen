@@ -1,0 +1,30 @@
+echo
+echo =462_1.py 
+python3.10 ./462_1.py 
+echo
+echo =462_2.py 
+python3.10 ./462_2.py 
+echo
+echo =462_3.py 
+python3.10 ./462_3.py 
+echo
+echo =462_4.py 
+python3.10 ./462_4.py 
+echo
+echo =462_5.py 
+python3.10 ./462_5.py 
+echo
+echo =462_6.py 
+python3.10 ./462_6.py 
+echo
+echo =462_7.py 
+python3.10 ./462_7.py 
+echo
+echo =462_8.py 
+python3.10 ./462_8.py 
+echo
+echo =462_9.py 
+python3.10 ./462_9.py 
+echo
+echo =462_10.py 
+python3.10 ./462_10.py 

@@ -1,0 +1,22 @@
+{
+  "title": "Test Alpha",
+  "disciplineId": "informatics",
+  "languageId": "cpp",
+  "variantCount": 2,
+  "questionsPerVariant": 3,
+  "difficultyProfile": {
+    "easy": 4,
+    "medium": 4,
+    "hard": 2
+  },
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportFormats": [
+    "pdf",
+    "docx",
+    "md",
+    "zip"
+  ],
+  "exportProfile": "both",
+  "questionPoolFilters": []
+}

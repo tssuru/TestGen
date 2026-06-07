@@ -1,0 +1,28 @@
+  <fabric>
+     collate
+    <fabric>
+     file answer
+     <fname>
+         02-01-t.txt
+     <\fname>
+	<before>
+(Задача за частиною Карнаух Т.О.)\par{ENDL}
+	<\before>
+    <\fabric>
+
+    <fabric>
+        template answer
+        <fname>
+          02-02-f.txt
+        <\fname>
+      <\fabric>
+
+      <n1>
+         9
+      <\n1>
+      <n2>
+         6
+      <\n2>
+
+
+   <\fabric>

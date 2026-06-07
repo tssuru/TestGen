@@ -1,0 +1,7 @@
+try:
+    m=8
+    while m>0:
+        m+=-3
+    print(m, end=' ')
+    
+except: print('error')

@@ -1,0 +1,30 @@
+echo
+echo =421_1.py 
+python3.10 ./421_1.py 
+echo
+echo =421_2.py 
+python3.10 ./421_2.py 
+echo
+echo =421_3.py 
+python3.10 ./421_3.py 
+echo
+echo =421_4.py 
+python3.10 ./421_4.py 
+echo
+echo =421_5.py 
+python3.10 ./421_5.py 
+echo
+echo =421_6.py 
+python3.10 ./421_6.py 
+echo
+echo =421_7.py 
+python3.10 ./421_7.py 
+echo
+echo =421_8.py 
+python3.10 ./421_8.py 
+echo
+echo =421_9.py 
+python3.10 ./421_9.py 
+echo
+echo =421_10.py 
+python3.10 ./421_10.py 

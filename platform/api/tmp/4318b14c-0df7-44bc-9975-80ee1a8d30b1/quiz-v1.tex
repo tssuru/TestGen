@@ -1,0 +1,148 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\emergencystretch=3em
+\pagestyle{empty}
+\begin{document}
+%begin
+{\centering\Large\bfseries Контрольна робота\par}
+\medskip
+\noindent\rule{\linewidth}{0.5pt}
+\smallskip
+\noindent\textbf{Варіант \No\,1}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+d=['0','1','2','3','4']
+d.insert(1, [1,0])
+print(d)
+
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+2. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+a,b,c=3,4,8
+def h(b):
+global c    a*=4
+    b=5
+    c=2
+    return a+b+c
+
+a,b,c=6,7,1
+print(h(b),a,b,c)
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+3. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../15BinTree/trees_exp/79.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:79 оберненому
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+4. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+for d in range(-7,-7,2):
+    if d>=6:
+        break
+        print(d,end=' ')
+    if d>=6:
+        break
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+5. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(5.0 >= 5 != False <= 6)
+%code
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+6. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) 1__23
+
+( 2 ) 2j
+
+( 3 ) True
+
+( 4 ) 0123
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+7. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+a, b, c = 9, 6, 7
+def h(a, b=8, c=6):
+    print(a, b, c, end=" ")
+
+h(3, 4, c=5)
+print(a, b, c)
+%code
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+8. 
+Значенням змінної \kw{a} є цілочисловий масив типу $numpy.ndarray$ розмірів $6{\times}6$. На скільки збільшиться сума елементів масиву \kw{a} після виконання
+\begin{verbatim}
+a.T[0] += 3
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+9. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+4**1.0-2
+%code
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+10. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (15 % 15 % 15 % 15);
+%code
+\par\vspace{5mm}
+%enditem
+
+%end
+\newpage
+\end{document}
+

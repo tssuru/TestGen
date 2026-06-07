@@ -1,0 +1,30 @@
+echo
+echo =726_1.py 
+python3.10 ./726_1.py 
+echo
+echo =726_2.py 
+python3.10 ./726_2.py 
+echo
+echo =726_3.py 
+python3.10 ./726_3.py 
+echo
+echo =726_4.py 
+python3.10 ./726_4.py 
+echo
+echo =726_5.py 
+python3.10 ./726_5.py 
+echo
+echo =726_6.py 
+python3.10 ./726_6.py 
+echo
+echo =726_7.py 
+python3.10 ./726_7.py 
+echo
+echo =726_8.py 
+python3.10 ./726_8.py 
+echo
+echo =726_9.py 
+python3.10 ./726_9.py 
+echo
+echo =726_10.py 
+python3.10 ./726_10.py 

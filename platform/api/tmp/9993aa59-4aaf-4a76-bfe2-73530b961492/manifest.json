@@ -1,0 +1,51 @@
+{
+  "jobId": "9993aa59-4aaf-4a76-bfe2-73530b961492",
+  "createdAt": "2026-03-03T14:22:57.181Z",
+  "inputConfigHash": "pending",
+  "engineVersion": "pending",
+  "artifacts": [
+    {
+      "name": "config.json",
+      "path": "/app/platform/api/tmp/9993aa59-4aaf-4a76-bfe2-73530b961492/config.json",
+      "size": 407,
+      "sha256": "2a57472a4731c964cac118bf137abfc95d652e27a458228243de16317c70b485"
+    },
+    {
+      "name": "answers.json",
+      "path": "/app/platform/api/tmp/9993aa59-4aaf-4a76-bfe2-73530b961492/answers.json",
+      "size": 7063,
+      "sha256": "d44794dc34cdcc2f80a8614f5c94b8b981d2cdc6bceaf789ac814fdefa49eda0"
+    },
+    {
+      "name": "answers.md",
+      "path": "/app/platform/api/tmp/9993aa59-4aaf-4a76-bfe2-73530b961492/answers.md",
+      "size": 1921,
+      "sha256": "2eda15fe52caaa57143925b5e6feabea89defd7f4e185a0f45f3aa8c25e65faa"
+    },
+    {
+      "name": "test.print.md",
+      "path": "/app/platform/api/tmp/9993aa59-4aaf-4a76-bfe2-73530b961492/test.print.md",
+      "size": 1867,
+      "sha256": "f71f3e9bce7d6e07329282efc10b130e55944b3d30bb42afd695ca03af0f2bab"
+    },
+    {
+      "name": "test.lms.md",
+      "path": "/app/platform/api/tmp/9993aa59-4aaf-4a76-bfe2-73530b961492/test.lms.md",
+      "size": 1825,
+      "sha256": "a5c16d9dab01876cc0eb028f73ef5ba51b4f46154547ea94e4a5286e5dbb4c2d"
+    },
+    {
+      "name": "test.md",
+      "path": "/app/platform/api/tmp/9993aa59-4aaf-4a76-bfe2-73530b961492/test.md",
+      "size": 1867,
+      "sha256": "f71f3e9bce7d6e07329282efc10b130e55944b3d30bb42afd695ca03af0f2bab"
+    },
+    {
+      "name": "test.docx",
+      "path": "/app/platform/api/tmp/9993aa59-4aaf-4a76-bfe2-73530b961492/test.docx",
+      "size": 10833,
+      "sha256": "78b8c72c541fbf2646f9849b1a12df423f47c759ef7e21417eedf15c549e7c5c"
+    }
+  ],
+  "status": "completed"
+}

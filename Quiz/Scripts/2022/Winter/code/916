@@ -1,0 +1,30 @@
+echo
+echo =916_1.py 
+python3.10 ./916_1.py 
+echo
+echo =916_2.py 
+python3.10 ./916_2.py 
+echo
+echo =916_3.py 
+python3.10 ./916_3.py 
+echo
+echo =916_4.py 
+python3.10 ./916_4.py 
+echo
+echo =916_5.py 
+python3.10 ./916_5.py 
+echo
+echo =916_6.py 
+python3.10 ./916_6.py 
+echo
+echo =916_7.py 
+python3.10 ./916_7.py 
+echo
+echo =916_8.py 
+python3.10 ./916_8.py 
+echo
+echo =916_9.py 
+python3.10 ./916_9.py 
+echo
+echo =916_10.py 
+python3.10 ./916_10.py 

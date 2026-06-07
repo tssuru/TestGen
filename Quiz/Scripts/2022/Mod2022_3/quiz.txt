@@ -1,0 +1,306 @@
+<document>
+  <header>
+\documentclass[12pt, ukrainian]{article}{ENDL}
+\setlength\textwidth{190mm} \setlength\hoffset{-25mm} {ENDL}
+\setlength\textheight{277mm} \setlength\voffset{-28mm} {ENDL}
+%\setlength\textwidth{190mm} 
+%\setlength\voffset{-38mm} \setlength\hoffset{-38mm}{ENDL}
+%\setlength\parindent{0mm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage{caption}{ENDL}
+\usepackage{verbatim, listings, clrscode3e}{ENDL}
+\usepackage{fancyvrb}{ENDL}
+\DeclareCaptionFormat{nocaption}{}{ENDL}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}{ENDL}
+
+\usepackage[Export]{adjustbox} {ENDL}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}
+\def\code#1{\Verb!#1!}{ENDL}
+
+\begin{document}{ENDL}
+  <\header>
+  <footer>
+\end{document}
+  <\footer>
+
+  <onNextVariant>
+{ENDL}\newpage{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+//NEWPAGE
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+    17
+  <\to>
+
+  <onPage>
+    1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+//%begin
+{ENDL}
+{{\begin {small}\par{ENDL}
+{ \center  Київський національний університет імені Тараса Шевченка \par}{ENDL} 
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}
+\parbox {5 cm}{\hfill Семестр 2}}\par{ENDL}
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}
+{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}
+{\center Контрольна робота, варіант  \No \textbf {ENDL}
+{ #No# }\par}}{ENDL}
+{{ENDL}\begin {large}{ENDL}
+<\before>
+
+<after>
+{ENDL}\end {large}}{ENDL}
+//%end
+{ENDL}
+<\after>
+
+<\variant>
+
+
+
+//Indexing and slicing
+//<item>
+//   include Indexing/01-q.txt
+//<\item>
+//<item>
+//   include Indexing/02-q.txt
+//<delim>
+//{ENDL}{ENDL}
+//<\delim>
+//<\item>
+
+
+<item> 
+ <fabric>
+  collate
+     include Indexing/01-q.txt 
+     include Indexing/02-q.txt 
+  <n1>
+    30
+  <\n1>
+  <n2>
+    30
+  <\n2>
+  <\fabric>
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+//List operations
+<item> 
+ <fabric>
+  collate
+     include ListOperations/01-q.txt 
+     include ListOperations/02-q.txt 
+  <n1>
+    30
+  <\n1>
+  <n2>
+    30
+  <\n2>
+  <\fabric>
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+//<item> 
+//include ListOperations/01-q.txt 
+//<delim>
+//{ENDL}{ENDL}
+//<\delim>
+//<\item>
+
+//<item> 
+//include ListOperations/02-q.txt 
+//<delim>
+//{ENDL}{ENDL}
+//<\delim>
+//<\item>
+
+
+//Containers
+//<item>
+//   include SetOperations/01-q.txt
+//<delim>
+//{ENDL}
+//<\delim>
+//<\item>
+
+<item>
+   include SetOperations/02-q.txt
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item>
+<fabric>
+  collate
+  <fabric>
+  collate
+     include SetOperations/03-q.txt
+     include ListOperations/03-q.txt
+  <n1>
+    32
+  <\n1>
+  <n2>
+    32
+  <\n2>
+  <\fabric>
+  
+  include SetOperations/04-q.txt
+  <n1>
+   64
+  <\n1>
+  <n2>
+    26
+  <\n2>
+<\fabric>
+
+<delim>
+{ENDL}
+
+<\delim>
+<\item>
+
+
+<item> 
+ <fabric>
+  collate
+     include Classes/01-q.txt
+     include Classes/02-q.txt
+  <n1>
+    30
+  <\n1>
+  <n2>
+    30
+  <\n2>
+  <\fabric>
+<delim>
+{ENDL}
+<\delim>
+<\item>
+  
+
+//<item> 
+//include Classes/01-q.txt 
+//<delim>
+//{ENDL}
+//<\delim>
+//<\item>
+
+//<item> 
+//include Classes/02-q.txt 
+//<delim>
+//{ENDL}
+//<\delim>
+//<\item>
+
+//delete
+<item> 
+include Classes/03-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+//<item> 
+//include Classes/04-q.txt 
+//<delim>
+//{ENDL}
+//<\delim>
+//<\item>
+
+//<item> 
+//include Classes/05-q.txt 
+//<delim>
+//{ENDL}
+//<\delim>
+//<\item>
+
+<item> 
+ <fabric>
+  collate
+     include Classes/04-q.txt
+     include Classes/05-q.txt
+  <n1>
+    30
+  <\n1>
+  <n2>
+    30
+  <\n2>
+  <\fabric>
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include Lists/05-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include BinTree/06-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+//delete
+//<item> 
+//include Graphs/07-q.txt 
+//<delim>
+//{ENDL}
+//<\delim>
+//<\item>
+
+<item> 
+include Graphs/08-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include Graphs/09-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include numpy/01-02-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item>
+   include Adds/01-q.txt
+<delim>
+{ENDL}
+<\delim>
+<\item>
+

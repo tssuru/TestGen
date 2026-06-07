@@ -1,0 +1,67 @@
+{
+  "title": "Test Beta",
+  "generatedAt": "2026-03-03T14:12:31.968Z",
+  "profile": "print",
+  "variantCount": 1,
+  "variants": [
+    {
+      "variantNumber": 1,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "<>",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "8.3",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "FIFO",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cout>>3;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int x+y=z;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<3.4;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int f(int n);",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        }
+      ]
+    }
+  ]
+}

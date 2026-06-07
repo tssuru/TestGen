@@ -1,0 +1,30 @@
+echo
+echo =508_1.py 
+python3.10 ./508_1.py 
+echo
+echo =508_2.py 
+python3.10 ./508_2.py 
+echo
+echo =508_3.py 
+python3.10 ./508_3.py 
+echo
+echo =508_4.py 
+python3.10 ./508_4.py 
+echo
+echo =508_5.py 
+python3.10 ./508_5.py 
+echo
+echo =508_6.py 
+python3.10 ./508_6.py 
+echo
+echo =508_7.py 
+python3.10 ./508_7.py 
+echo
+echo =508_8.py 
+python3.10 ./508_8.py 
+echo
+echo =508_9.py 
+python3.10 ./508_9.py 
+echo
+echo =508_10.py 
+python3.10 ./508_10.py 

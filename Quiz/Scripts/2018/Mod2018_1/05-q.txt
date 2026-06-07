@@ -1,0 +1,14 @@
+<fabric>
+     file answer
+     <fname>
+         05.txt
+//	05_beta.txt
+     <\fname>
+
+     <before>
+	 Написати функцiю f, що отримує{SPACE} 
+     <\before>
+     <after>
+	.{ENDL}{ENDL}{ENDL}
+     <\after>
+  <\fabric>

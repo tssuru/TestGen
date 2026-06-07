@@ -1,0 +1,30 @@
+echo
+echo =680_1.py 
+python3.10 ./680_1.py 
+echo
+echo =680_2.py 
+python3.10 ./680_2.py 
+echo
+echo =680_3.py 
+python3.10 ./680_3.py 
+echo
+echo =680_4.py 
+python3.10 ./680_4.py 
+echo
+echo =680_5.py 
+python3.10 ./680_5.py 
+echo
+echo =680_6.py 
+python3.10 ./680_6.py 
+echo
+echo =680_7.py 
+python3.10 ./680_7.py 
+echo
+echo =680_8.py 
+python3.10 ./680_8.py 
+echo
+echo =680_9.py 
+python3.10 ./680_9.py 
+echo
+echo =680_10.py 
+python3.10 ./680_10.py 

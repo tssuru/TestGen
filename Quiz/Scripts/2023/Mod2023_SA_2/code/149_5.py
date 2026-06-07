@@ -1,0 +1,11 @@
+try:
+    for e in range(-8,-8+4,3):
+        if e>7:
+            pass
+        print(e, end=' ')
+        e=-6
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+    
+except: print('error')

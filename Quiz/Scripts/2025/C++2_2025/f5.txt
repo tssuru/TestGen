@@ -1,0 +1,20 @@
+<fabric>
+check
+  <fname>
+   task5.txt
+  <\fname>
+  <ncase>
+	4
+<\ncase>
+//<nGood>
+//2
+//<\nGood>
+//  <ncase> - коичество пунктов в вопросе, обязательный
+//  <AfterForEachInFile> - наличие индивидуальной концовки вопроса в файле (если есть, то true)
+//  <before> - текст, добавляемый перед каждым вопросом
+//  <after> - текст, добавляемый после каждого вопроса
+//  <mode> - режим вывода пунктов (TabBetween, TwoOnLine, SpaceBetween, OneOnLine - по умолчанию)
+//  <delimBeforeCases> - текст-разделитель, выводимый перед первым пунктом вопроса
+
+
+<\fabric>

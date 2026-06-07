@@ -1,0 +1,12 @@
+ <fabric>
+     template answer
+     <fname>
+         12SetOperations/03-04-f.txt
+     <\fname>
+
+     <before>
+     <\before>
+
+     <after>
+     <\after>
+   <\fabric>

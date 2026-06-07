@@ -1,0 +1,21 @@
+{
+  "title": "Generated Test",
+  "disciplineId": "informatics",
+  "languageId": "cpp",
+  "variantCount": 1,
+  "questionsPerVariant": 10,
+  "difficultyProfile": {
+    "easy": 4,
+    "medium": 4,
+    "hard": 2
+  },
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportFormats": [
+    "pdf",
+    "docx",
+    "md",
+    "zip"
+  ],
+  "questionPoolFilters": []
+}

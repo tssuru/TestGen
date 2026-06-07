@@ -1,0 +1,10 @@
+{
+  "title": "Test mixed",
+  "variantCount": 2,
+  "questionsPerVariant": 10,
+  "questionTypeFilter": "mixed",
+  "shuffleQuestions": true,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print"
+}

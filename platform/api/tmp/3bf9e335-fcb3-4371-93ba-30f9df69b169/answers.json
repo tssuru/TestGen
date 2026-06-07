@@ -1,0 +1,121 @@
+{
+  "title": "T",
+  "generatedAt": "2026-03-04T18:44:44.149Z",
+  "profile": "print",
+  "variantCount": 1,
+  "variants": [
+    {
+      "variantNumber": 1,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "%goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "++",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "'c'",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "\"\"\"1\"2\"\"\"",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "-1.5",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "%goodpath:Scripts/2018/Mod2018_1/01-good.txt Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "**",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "/",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "<=",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "3a",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "%goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x=*2",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x,y,z=z,z,y",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "r=('N'>'5')",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "'a'a'",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "%goodpath:Scripts/2018/Mod2018_1/03-good.txt Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "double n.m;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x=int(4);",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "char c=13;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "cout<<(3<>5);",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        }
+      ]
+    }
+  ]
+}

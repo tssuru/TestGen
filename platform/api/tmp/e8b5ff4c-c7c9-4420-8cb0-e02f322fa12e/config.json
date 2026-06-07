@@ -1,0 +1,11 @@
+{
+  "title": "T15b",
+  "variantCount": 1,
+  "questionsPerVariant": 15,
+  "questionTypeFilter": "open",
+  "shuffleQuestions": false,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print",
+  "seed": 100
+}

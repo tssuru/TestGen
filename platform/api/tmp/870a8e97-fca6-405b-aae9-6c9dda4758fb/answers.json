@@ -1,0 +1,455 @@
+{
+  "title": "T-mixed-10",
+  "generatedAt": "2026-03-04T10:26:18.822Z",
+  "profile": "print",
+  "variantCount": 3,
+  "variants": [
+    {
+      "variantNumber": 1,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x*y",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "0X2b",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "cpp",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(n): print(\"f\", end=\"\"); return n print(f(-6) and f(0))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int a = 2, b = 9, c = 0; int f(int &a){ int c;    a *= 4; b = 3; c = 5; return a + b + c; } int main(){ inta = 5; intb = 4; intc = 6; cout << f(a) << ':'; cout << a << ':' << b << ':' << c; return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Рядки журналу через двокрапку містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад s=\"username : 2022-05-05 13:26 : ERROR : 404\" у коді res = re.fullmatch('???', s) s = '' code_str = ??? чим треба замінити кожен з ???, щоб значенням code\\_str був код події?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x+3=5",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "n=2; n--",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x=1//3",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? ������ 2017-���������� �������� ������� ����������� �� 1 �� 20172017 ������ ���� ���� �����, �� ����� 172002",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=2,9,0 def f(a): global c    a=4 b=3 c=5 return a+b+c a,b,c=5,4,6 print(f(a),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(4>=4.0>=5>=True)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cout>>3;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int x+y=z;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<3.4;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int f(int n);",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "<>",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "8.3",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "FIFO",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        }
+      ]
+    },
+    {
+      "variantNumber": 2,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "do",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "=>",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "=",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "\"1e3\"",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Рядки журналу через двокрапку містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад s=\"username : 2022-05-05 13:26 : ERROR : 404\" у коді res = re.fullmatch('???', s) s = '' code_str = ??? чим треба замінити кожен з ???, щоб значенням code\\_str був код події?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(n): print(\"f\", end=\"\"); return n>-1 print(f(1) or f(6))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? ������ 2017-���������� �������� ������� ����������� �� 1 �� 20172017 ������ ��������� ���� �����, �� ����� 172009",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "n=1; n++",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "False=0",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "def f(n:int) -> int:",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x=float(\"inf\")",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "[1]",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "=<",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "z13",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": ">",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "int f(int a,b);",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "if a<b a=0;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "x-=2;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int x='a'-'c';",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(2>5.0>7>False)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=7,1,3 def h(b): global c    a=1 b=2 c=4 return a+b+c a,b,c=8,6,4 print(h(b),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int a = 7, b = 1, c = 3; int h(int &b){ int c;    a += 1; b = 2; c = 4; return a + b + c; } int main(){ inta = 8; intb = 6; intc = 4; cout << h(b) << ':'; cout << a << ':' << b << ':' << c; return 0; }",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 3,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(n): print(\"f\", end=\"\"); return n>=-2 print(f(-8) or f(-4))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "**",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "(1)",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "/",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "\"1.1.1\"",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int a = 3, b = 1, c = 7; int g(int &b){ int c;    a = 2; b -= 5; c = 1; return a + b + c; } int main(){ inta = 2; intb = 9; intc = 8; cout << g(a) << ':'; cout << a << ':' << b << ':' << c; return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x=*2",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "print(end=\"1\",\"qwe\")",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "x,y,z=z,z,y",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "1.5//0.2",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? ������ 2017-���������� �������� ������� ����������� �� 1 �� 20172017 ������ ���� ��� �����, �� ����� 172000",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Рядки журналу через двокрапку містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад s=\"username : 2022-05-05 13:26 : ERROR : 404\" у коді res = re.fullmatch('???', s) s = '' code_str = ??? чим треба замінити кожен з ???, щоб значенням code\\_str був код події?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cin<<x;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int 3a=2;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "x=int(4);",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x+=y;",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(6==2.0==8==7.0)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=3,1,7 def g(b): global c    a=2 b=5 c=1 return a+b+c a,b,c=2,9,8 print(g(a),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "++",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "'''abc'",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "'a\"a'",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "While",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        }
+      ]
+    }
+  ]
+}

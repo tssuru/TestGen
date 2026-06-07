@@ -1,0 +1,13 @@
+  <fabric>
+  collate 
+  include If/1+2-q.txt
+  include Cycles/01-q.txt
+  
+      <n1>
+         10
+      <\n1>
+      <n2>
+         10
+      <\n2>
+  <\fabric>
+

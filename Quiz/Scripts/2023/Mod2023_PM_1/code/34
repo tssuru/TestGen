@@ -1,0 +1,27 @@
+echo
+echo =34_1.py 
+python3.10 ./34_1.py 
+echo
+echo =34_2.py 
+python3.10 ./34_2.py 
+echo
+echo =34_3.py 
+python3.10 ./34_3.py 
+echo
+echo =34_4.py 
+python3.10 ./34_4.py 
+echo
+echo =34_5.py 
+python3.10 ./34_5.py 
+echo
+echo =34_6.py 
+python3.10 ./34_6.py 
+echo
+echo =34_7.py 
+python3.10 ./34_7.py 
+echo
+echo =34_8.py 
+python3.10 ./34_8.py 
+echo
+echo =34_9.py 
+python3.10 ./34_9.py 

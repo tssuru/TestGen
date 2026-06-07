@@ -1,0 +1,38 @@
+//source for question like
+//26127360 questions
+//Вкажіть значення та його тип:\n
+
+//**
+
+<sample>
+
+
+
+<\sample>
+
+<declarations>
+arg1={<file> 02Log/02-s1.txt}
+arg2={<file> 02Log/02-s2.txt}
+op=in;not in;in not
+
+const ar1=123456789
+ar2=12;23;34;45;56;67;78;89;21;32;43;54;65;76;87;98;13;25;76;345;673
+
+Expr={"#arg2#" #op# "#arg1#"}{"#ar2#" #op# "#ar1#"}
+
+
+<\declarations>
+
+<template>
+{ENDL}
+%code{ENDL}
+print(#Expr#)
+{ENDL}
+%code{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+
+

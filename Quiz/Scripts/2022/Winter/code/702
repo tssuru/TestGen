@@ -1,0 +1,30 @@
+echo
+echo =702_1.py 
+python3.10 ./702_1.py 
+echo
+echo =702_2.py 
+python3.10 ./702_2.py 
+echo
+echo =702_3.py 
+python3.10 ./702_3.py 
+echo
+echo =702_4.py 
+python3.10 ./702_4.py 
+echo
+echo =702_5.py 
+python3.10 ./702_5.py 
+echo
+echo =702_6.py 
+python3.10 ./702_6.py 
+echo
+echo =702_7.py 
+python3.10 ./702_7.py 
+echo
+echo =702_8.py 
+python3.10 ./702_8.py 
+echo
+echo =702_9.py 
+python3.10 ./702_9.py 
+echo
+echo =702_10.py 
+python3.10 ./702_10.py 

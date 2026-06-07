@@ -1,0 +1,30 @@
+echo
+echo =334_1.py 
+python3.10 ./334_1.py 
+echo
+echo =334_2.py 
+python3.10 ./334_2.py 
+echo
+echo =334_3.py 
+python3.10 ./334_3.py 
+echo
+echo =334_4.py 
+python3.10 ./334_4.py 
+echo
+echo =334_5.py 
+python3.10 ./334_5.py 
+echo
+echo =334_6.py 
+python3.10 ./334_6.py 
+echo
+echo =334_7.py 
+python3.10 ./334_7.py 
+echo
+echo =334_8.py 
+python3.10 ./334_8.py 
+echo
+echo =334_9.py 
+python3.10 ./334_9.py 
+echo
+echo =334_10.py 
+python3.10 ./334_10.py 

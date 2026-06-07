@@ -1,0 +1,20 @@
+<fabric>
+check auto
+  <good>
+   task8.txt
+  <\good>
+  <bad>
+   task8.txt
+  <\bad>
+  <ncase>
+	4
+  <\ncase>
+<nGood>
+4
+<\nGood>
+<before>
+Що з наступного не має відношення до Scrum або не виконується/не використовується за використання оригінального Scrum?\par{ENDL}
+\vspace{2mm}{ENDL}{ENDL}
+<\before>
+
+<\fabric>

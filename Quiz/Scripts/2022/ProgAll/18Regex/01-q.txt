@@ -1,0 +1,11 @@
+ <fabric>
+     file answer
+     <fname>
+         18Regex/parts.txt
+     <\fname>
+     <before>
+     <\before>
+<after>
+<\after>
+
+   <\fabric>

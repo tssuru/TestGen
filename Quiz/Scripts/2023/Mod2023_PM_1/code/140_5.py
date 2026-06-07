@@ -1,0 +1,4 @@
+try:
+    print(8.0==True==2.0==False)
+    
+except: print('error')

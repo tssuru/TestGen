@@ -1,0 +1,30 @@
+echo
+echo =340_1.py 
+python3.10 ./340_1.py 
+echo
+echo =340_2.py 
+python3.10 ./340_2.py 
+echo
+echo =340_3.py 
+python3.10 ./340_3.py 
+echo
+echo =340_4.py 
+python3.10 ./340_4.py 
+echo
+echo =340_5.py 
+python3.10 ./340_5.py 
+echo
+echo =340_6.py 
+python3.10 ./340_6.py 
+echo
+echo =340_7.py 
+python3.10 ./340_7.py 
+echo
+echo =340_8.py 
+python3.10 ./340_8.py 
+echo
+echo =340_9.py 
+python3.10 ./340_9.py 
+echo
+echo =340_10.py 
+python3.10 ./340_10.py 

@@ -1,0 +1,31 @@
+//source for question like
+//1622400 questions
+//Що буде надруковано за виконання:\n
+
+//if, relations
+
+<sample>
+
+Що буде надруковано за виконання:
+if (12 > 7) cout<<"r"; else cout<<"w";
+
+<\sample>
+
+<declarations>
+0={<int> 0 19}
+1=<;<=;>;>=;==;!=
+2=#0
+3={<char> a z}
+4=#3
+
+<\declarations>
+
+<template>
+
+if (#0# #1# #2#) cout<<"#3#"; else cout<<"#4#";
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

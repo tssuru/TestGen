@@ -1,0 +1,30 @@
+echo
+echo =917_1.py 
+python3.10 ./917_1.py 
+echo
+echo =917_2.py 
+python3.10 ./917_2.py 
+echo
+echo =917_3.py 
+python3.10 ./917_3.py 
+echo
+echo =917_4.py 
+python3.10 ./917_4.py 
+echo
+echo =917_5.py 
+python3.10 ./917_5.py 
+echo
+echo =917_6.py 
+python3.10 ./917_6.py 
+echo
+echo =917_7.py 
+python3.10 ./917_7.py 
+echo
+echo =917_8.py 
+python3.10 ./917_8.py 
+echo
+echo =917_9.py 
+python3.10 ./917_9.py 
+echo
+echo =917_10.py 
+python3.10 ./917_10.py 

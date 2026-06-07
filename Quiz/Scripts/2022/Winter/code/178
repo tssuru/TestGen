@@ -1,0 +1,30 @@
+echo
+echo =178_1.py 
+python3.10 ./178_1.py 
+echo
+echo =178_2.py 
+python3.10 ./178_2.py 
+echo
+echo =178_3.py 
+python3.10 ./178_3.py 
+echo
+echo =178_4.py 
+python3.10 ./178_4.py 
+echo
+echo =178_5.py 
+python3.10 ./178_5.py 
+echo
+echo =178_6.py 
+python3.10 ./178_6.py 
+echo
+echo =178_7.py 
+python3.10 ./178_7.py 
+echo
+echo =178_8.py 
+python3.10 ./178_8.py 
+echo
+echo =178_9.py 
+python3.10 ./178_9.py 
+echo
+echo =178_10.py 
+python3.10 ./178_10.py 

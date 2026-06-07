@@ -1,0 +1,22 @@
+{
+  "name": "quiz-platform",
+  "private": true,
+  "workspaces": [
+    "contracts",
+    "api",
+    "web"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "build:contracts": "npm run build -w contracts",
+    "build:api": "npm run build -w api",
+    "build:web": "npm run build -w web",
+    "dev": "npm run dev -w api",
+    "start": "npm run start -w api"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.1",
+    "typescript": "^5.9.2",
+    "tsx": "^4.20.5"
+  }
+}

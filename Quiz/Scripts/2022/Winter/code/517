@@ -1,0 +1,30 @@
+echo
+echo =517_1.py 
+python3.10 ./517_1.py 
+echo
+echo =517_2.py 
+python3.10 ./517_2.py 
+echo
+echo =517_3.py 
+python3.10 ./517_3.py 
+echo
+echo =517_4.py 
+python3.10 ./517_4.py 
+echo
+echo =517_5.py 
+python3.10 ./517_5.py 
+echo
+echo =517_6.py 
+python3.10 ./517_6.py 
+echo
+echo =517_7.py 
+python3.10 ./517_7.py 
+echo
+echo =517_8.py 
+python3.10 ./517_8.py 
+echo
+echo =517_9.py 
+python3.10 ./517_9.py 
+echo
+echo =517_10.py 
+python3.10 ./517_10.py 

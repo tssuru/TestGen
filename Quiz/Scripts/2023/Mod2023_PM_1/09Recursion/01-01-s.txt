@@ -1,0 +1,7 @@
+{ENDL}%code{ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print(s){ENDL}%code{ENDL}{ENDL}
+
+{ENDL}%code{ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}%code{ENDL}{ENDL}
+
+{ENDL}%code{ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}%code{ENDL}{ENDL}
+
+{ENDL}%code{ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}%code{ENDL}{ENDL}

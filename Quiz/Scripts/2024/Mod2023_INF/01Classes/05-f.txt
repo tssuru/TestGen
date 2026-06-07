@@ -1,0 +1,23 @@
+//source for question like
+//the number of n should be dividable on 4
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+n={<int> 0 7}
+arg={<file:7> 01Classes/05-s.txt}
+
+<\declarations>
+
+<template>
+{ENDL}%code{ENDL}
+#arg#
+
+{ENDL}%code{ENDL}{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>

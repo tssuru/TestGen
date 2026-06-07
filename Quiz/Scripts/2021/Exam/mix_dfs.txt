@@ -1,0 +1,19 @@
+не реалізовано поки!!!
+дописати імена папок
+<fabric>
+       collate 
+        include 32_dfs/q.txt
+        include 33_dfs/q.txt
+        <n1>
+         69
+        <\n1>
+        <n2>
+         131
+        <\n2>
+  <\fabric>
+
+
+
+
+
+

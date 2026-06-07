@@ -1,0 +1,12 @@
+ <fabric>
+     template answer
+     <fname>
+         numpy/01-02-f.txt
+     <\fname>
+
+     <before>
+     <\before>
+
+     <after>
+     <\after>
+   <\fabric>

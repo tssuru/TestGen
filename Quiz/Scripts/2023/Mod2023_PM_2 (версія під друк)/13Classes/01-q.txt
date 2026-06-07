@@ -1,0 +1,14 @@
+ <fabric>
+     template answer
+     <fname>
+         13Classes/01-f.txt
+     <\fname>
+
+     <before>
+Що буде надруковано за виконання?{ENDL}
+     <\before>
+
+     <after>
+     {ENDL}
+     <\after>
+   <\fabric>

@@ -1,0 +1,33 @@
+//source for question like
+//840 questions
+//Що буде надруковано за виконання:\n
+
+//indexing in sequence container
+
+<sample>
+g=("a","b","c","d","e",0,1); print(g[-4])
+
+<\sample>
+
+<declarations>
+
+name={<char> a h}
+source=0,1;0,1,2;0,1,2,3;0,1,2,4;0,1,2,3,4
+index={<int> 0 4}
+0={#pos#}{#neg#}{#bad#}{#neg#}
+pos={<int> 0 6}
+neg={<int> -13 -1}
+bad={#bad1#}{#bad2#}
+bad1={<int> 7 14}
+bad2={<int> -14 -7}
+
+<\declarations>
+
+<template>
+#name#=('a','b','c','d','e',#source#); print(#name#[#0#]) 
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

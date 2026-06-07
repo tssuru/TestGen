@@ -1,0 +1,60 @@
+
+%code
+print(8 <= 4 != 9 > 4.0)
+%code
+
+
+
+%code
+print(8.0  is  False < 5.0 == 7)
+%code
+
+
+
+%code
+print(5 >= True > 2  is  7.0)
+%code
+
+
+
+%code
+print(3 != 6 < False == 9)
+%code
+
+
+
+%code
+print(2.0 >= 9.0 <= 3 < True)
+%code
+
+
+
+%code
+print(6.0 <= 3.0 >= 4 == 8)
+%code
+
+
+
+%code
+print(5  is  5.0 > 2 != 2.0)
+%code
+
+
+
+%code
+print(6  is  False >= 8.0 < True)
+%code
+
+
+
+%code
+print(7 != 6.0 > 6 == 7)
+%code
+
+
+
+%code
+print(4 <= 2 >= False > 7.0)
+%code
+
+

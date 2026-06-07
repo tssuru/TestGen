@@ -1,0 +1,57 @@
+//source for question like
+//1622400 questions
+//Що буде надруковано за виконання:\n
+
+//exceptions
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+tab={SPACE}{SPACE}{SPACE}{SPACE}{SPACE}{SPACE}
+tab_main={SPACE}{SPACE}{SPACE}{SPACE}
+
+x={<int> 0 9}
+y=#x
+op=/;//;%
+xgood={<int> 1 2}
+x1={<int> 20 25}
+x2={<int> 30 35}
+x3={<int> 40 45}
+xbad=0;0.0
+xcomp=<;<=;>;>=;==;!=
+xchar={<char> a d}
+return0=;{SPACE4}{SPACE4}return #x3#{ENDL}
+finally=;{SPACE4}finally: return #x1#{ENDL}
+else=;{SPACE4}else: return #x2#{ENDL}
+
+guarded={int(#x new##op##xgood#)}{int(#x new##op##xbad#)}{int("#xchar##x new#")}{int("#x new#")}{#x new##xcomp##y#}
+
+exc=Exception;BaseException;ValueError;TypeError;ZeroDivisionError;KeyboardInterrupt
+
+<\declarations>
+
+<template>
+%code{ENDL}
+//{ENDL}
+def f():{ENDL}
+{SPACE4}try:{ENDL}
+{SPACE4}{SPACE4}res = #guarded#{ENDL}
+#return0#
+{SPACE4}except #exc#: return #x new#{ENDL}
+{SPACE4}except #exc new#: return #x new#{ENDL}
+#else#
+#finally#
+{SPACE4}return res
+{ENDL}{ENDL}
+ 
+print(f()){ENDL}
+%code{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

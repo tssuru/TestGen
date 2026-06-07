@@ -1,0 +1,30 @@
+echo
+echo =933_1.py 
+python3.10 ./933_1.py 
+echo
+echo =933_2.py 
+python3.10 ./933_2.py 
+echo
+echo =933_3.py 
+python3.10 ./933_3.py 
+echo
+echo =933_4.py 
+python3.10 ./933_4.py 
+echo
+echo =933_5.py 
+python3.10 ./933_5.py 
+echo
+echo =933_6.py 
+python3.10 ./933_6.py 
+echo
+echo =933_7.py 
+python3.10 ./933_7.py 
+echo
+echo =933_8.py 
+python3.10 ./933_8.py 
+echo
+echo =933_9.py 
+python3.10 ./933_9.py 
+echo
+echo =933_10.py 
+python3.10 ./933_10.py 

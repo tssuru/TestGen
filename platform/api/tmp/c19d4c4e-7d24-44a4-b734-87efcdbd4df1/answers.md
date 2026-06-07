@@ -1,0 +1,60 @@
+# Ключ відповідей
+
+**Контрольна робота**
+Створено: 2026-03-03T16:14:04.168Z
+
+## Варіант 1
+
+1. Відмітити все, що є коректним оператором С++:
+   Правильні: (3) cout<<3.4;, (4) int f(int n);
+
+2. Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int a = 2, b = 9, c = 0; int f(int &a){ int c;    a *= 4; b = 3; c = 5; return a + b + c; } int main(){ inta = 5; intb = 4; intc = 6; cout << f(a) << ':'; cout << a << ':' << b << ':' << c; return 0; }
+   Тип: відкрита відповідь
+
+3. Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int f(int c){ int w = 72; if (c > -2) return 2; if (c >= 4) w = 9; else w = 0; return w; } int main(){ cout << f(-6); return 0; }
+   Тип: відкрита відповідь
+
+4. Відмітити все, що є однією правильною лексемою:
+   Правильні: (3) 8.3, (4) FIFO
+
+## Варіант 2
+
+1. Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int a = 7, b = 1, c = 3; int h(int &b){ int c;    a += 1; b = 2; c = 4; return a + b + c; } int main(){ inta = 8; intb = 6; intc = 4; cout << h(b) << ':'; cout << a << ':' << b << ':' << c; return 0; }
+   Тип: відкрита відповідь
+
+2. Відмітити все, що є коректним оператором С++:
+   Правильні: (3) x-=2;, (4) int x='a'-'c';
+
+3. Відмітити все, що є однією правильною лексемою:
+   Правильні: (3) z13, (4) >
+
+4. Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int h(int d){ int x = 31; if (d < 5) return 5; else if (d != 1) x = 4; else return 6; return x; } int main(){ cout << h(0); return 0; }
+   Тип: відкрита відповідь
+
+## Варіант 3
+
+1. Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int g(int a){ int u = 37; if (a) u = 7; else if (a == -4) return 1; else return 3; return u; } int main(){ cout << g(1); return 0; }
+   Тип: відкрита відповідь
+
+2. Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int a = 3, b = 1, c = 7; int g(int &b){ int c;    a = 2; b -= 5; c = 1; return a + b + c; } int main(){ inta = 2; intb = 9; intc = 8; cout << g(a) << ':'; cout << a << ':' << b << ':' << c; return 0; }
+   Тип: відкрита відповідь
+
+3. Відмітити все, що є однією правильною лексемою:
+   Правильні: (3) /, (4) "1.1.1"
+
+4. Відмітити все, що є коректним оператором С++:
+   Правильні: (3) x=int(4);, (4) x+=y;
+
+## Варіант 4
+
+1. Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int a = 5, b = 0, c = 4; int g(int &a){ int c;    a += 3; b = 5; c = 4; return a + b + c; } int main(){ inta = 9; intb = 8; intc = 6; cout << g(b) << ':'; cout << a << ':' << b << ':' << c; return 0; }
+   Тип: відкрита відповідь
+
+2. Відмітити все, що є коректним оператором С++:
+   Правильні: (1) bool r=('N'>'5');, (3) cout<<"\n";
+
+3. Відмітити все, що є однією правильною лексемою:
+   Правильні: (1) False, (3) 'c'
+
+4. Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int g(int b){ int z = 95; if (b) z = 8; if (b <= 0) return 6; else z = 4; return z; } int main(){ cout << g(6); return 0; }
+   Тип: відкрита відповідь

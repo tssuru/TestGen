@@ -1,0 +1,268 @@
+{
+  "title": "Контрольна робота",
+  "generatedAt": "2026-03-03T14:28:59.125Z",
+  "profile": "both",
+  "variantCount": 4,
+  "variants": [
+    {
+      "variantNumber": 1,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "<>",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "8.3",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "FIFO",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cout>>3;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int x+y=z;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<3.4;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int f(int n);",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 6 * 6 * 6 * 6;",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 2,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "[1]",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "=<",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "z13",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": ">",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "int f(int a,b);",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "if a<b a=0;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "x-=2;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int x='a'-'c';",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 5 % 5 % 5 % 5;",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 3,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "**",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "(1)",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "/",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "\"1.1.1\"",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cin<<x;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int 3a=2;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "x=int(4);",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x+=y;",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 8 / 8 / 8 / 8;",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 4,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "False",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "x*y",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "'c'",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "+>",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "bool r=('N'>'5');",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "\"a\"=6;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<\"\\n\";",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "'a'=3;",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 10 / 10 / 10 / 10;",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+echo
+echo =393_1.py 
+python3.10 ./393_1.py 
+echo
+echo =393_2.py 
+python3.10 ./393_2.py 
+echo
+echo =393_3.py 
+python3.10 ./393_3.py 
+echo
+echo =393_4.py 
+python3.10 ./393_4.py 
+echo
+echo =393_5.py 
+python3.10 ./393_5.py 
+echo
+echo =393_6.py 
+python3.10 ./393_6.py 
+echo
+echo =393_7.py 
+python3.10 ./393_7.py 
+echo
+echo =393_8.py 
+python3.10 ./393_8.py 
+echo
+echo =393_9.py 
+python3.10 ./393_9.py 
+echo
+echo =393_10.py 
+python3.10 ./393_10.py 

@@ -1,0 +1,520 @@
+{
+  "title": "Контрольна робота",
+  "generatedAt": "2026-03-04T18:39:19.265Z",
+  "profile": "print",
+  "variantCount": 4,
+  "variants": [
+    {
+      "variantNumber": 1,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "%goodpath:Scripts/2018/Mod2018_1/03-good.txt Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x=2'*'7;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int f(int n);",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "\"a\"=6;",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "x=y=z",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду? d=['0','1','2','3'] print(d.index(3), end=' ')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(5.0<=5<=8<=8.0)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "%goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x*y",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "2j",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "1+1j",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "+",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Рядки журналу через двокрапку містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад s=\"username : 2022-05-05 13:26 : ERROR : 404\" у коді res = re.fullmatch('???', s) s = '' code_str = ??? чим треба замінити кожен з ???, щоб значенням code\\_str був код події?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? ������ 2017-���������� �������� ������� ����������� �� 1 �� 20172017 ������ ���� ��� �����, �� ����� 172003",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=3,6,7 def g(b): global c    a=2 b=1 c=4 return a+b+c a,b,c=1,8,4 print(g(b),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "%goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "n=2; n--",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x=1//3",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "x in not y",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "x<y<z",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(n): print(\"f\", end=\"\"); return n>=-3 print(f(7) or f(-2))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int a = 3, b = 6, c = 7; int g(int &b){ int c;    a = 2; b += 1; c = 4; return a + b + c; } int main(){ inta = 1; intb = 8; intc = 4; cout << g(b) << ':'; cout << a << ':' << b << ':' << c; return 0; }",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 2,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: print(3, end=\"\") print(int(6//0.0), end=\"\") print(7, end=\"\") except TypeError: print(1, end=\"\") except Exception: print(8, end=\"\") else: print(4, end=\"\") finally: print(0, end=\"\")",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є список, що складається з цілих чисел від 11 до 2016 (включно), причому спочатку за спаданням записано всі, що діляться на 7, а потім решту за спаданням.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "%goodpath:Scripts/2018/Mod2018_1/03-good.txt Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x=2'*'7;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int f(int n);",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "\"a\"=6;",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "x=y=z",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: res = 3**False-2 if isinstance(res, bool): print(f'bool;{res}') elif isinstance(res, int): print(f'int;{res}') elif isinstance(res, float): print(f'float;{res:.2f}') else: print('???') except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=3,6,7 def g(b): global c      a=2 b=1 c=4 return a+b+c a,b,c=1,8,4 print(g(b),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Рядки журналу через = містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад s=\"username = 2022-05-05 13:26 = ERROR = 404\" у коді res = re.fullmatch('???', s) s = '' code_str = ??? чим треба замінити кожен з ???, щоб значенням code\\_str був код події?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "%goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "n=2; n--",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x=1//3",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "x in not y",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "x<y<z",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "%goodpath:Scripts/2018/Mod2018_1/01-good.txt Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "<>",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "FIFO",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "2*6",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "True",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є множина, що складається з цілих чисел від 11 до 2016 (включно), що діляться на 7.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: print(3,end=\"\") print(int(6//0.0),end=\"\") print(7,end=\"\") except TypeError: print(1,end=\"\") except Exception: print(8,end=\"\") else: print(4,end=\"\") finally: print(0,end=\"\")",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 3,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') d = (0,1,2,3,4,5,6,7,8,9) print(d[1:1:-2])",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "%goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x*y",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "2j",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "1+1j",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "+",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: res = 4//4%4*4 if isinstance(res, bool): print(f'bool;{res}') elif isinstance(res, int): print(f'int;{res}') elif isinstance(res, float): print(f'float;{res:.2f}') else: print('???') except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: print(3,end=\"\") print(6//0.0,end=\"\") print(7,end=\"\") except TypeError: print(1,end=\"\") except Exception: print(8,end=\"\") else: print(4,end=\"\") finally: print(0,end=\"\")",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: n = 3 while n<=6: n += 2 print(n, end=';') except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "%goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "n=2; n--",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x=1//3",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "x in not y",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "x<y<z",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є список, що складається з цілих чисел від 11 до 2016 (включно), причому спочатку за спаданням записано всі, що діляться на 7, а потім решту за спаданням.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(n): print('f', end=';') return n>=-3 try: print(f(7) or f(-2)) except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "%goodpath:Scripts/2018/Mod2018_1/01-good.txt Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "<>",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "FIFO",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "2*6",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "True",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> bool f(int n){ std::cout<<\"f\"; return n>=-3; } int main(){ std::cout<<(f(7) || f(-2)); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 4,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(5.0 <= 5 < 8 >= 8.0)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') d=('a','b','c','d','e',0,1,2) print(d[-1])",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "%goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "n=2; n--",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x=1//3",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "x in not y",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "x<y<z",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> int g(int d){ int x = 64; if (d) x = 3; else if (d >= -4) return 6; else x = 7; return x; } int main(){ std::cout << g(7); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "%goodpath:Scripts/2018/Mod2018_1/01-good.txt Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "<>",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "FIFO",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "2*6",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "True",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') d=['0','1','2','3','4'] d[-6:-6]=(15) print(d)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "%goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x*y",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "2j",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "1+1j",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "+",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? code __d = 0 class D: __d = 1 def __init__(self): self.__d = 2 __d = 3 D.__d = 4 obj = D() try: print(__d, end=' ') print(obj.__d, end=' ') print(D.__d, end=' ') print(obj.__d, end=' ') print(obj._D__d, end=' ') except: print('ERR') code",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') n=3 while n<=6: n+=2 print(n)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? 3**False-2",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    }
+  ]
+}

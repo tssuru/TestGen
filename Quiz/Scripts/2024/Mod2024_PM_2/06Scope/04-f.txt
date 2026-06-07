@@ -1,0 +1,53 @@
+//source for question like
+//1622400 questions
+//Що буде надруковано за виконання:\n
+
+//scope
+
+<sample>
+
+
+
+<\sample>
+
+<declarations>
+var=a;a;a;b;b;b
+param={<char> a b}
+fname={<char> f h}
+
+init={<int> 0 9}
+
+
+op=+=;-=;*=;=
+arg={<int> 1 5}
+
+xArg={<int> -5 5}
+
+val={<int> 0 9}
+
+
+const tab={SPACE}{SPACE}{SPACE}{SPACE}{SPACE}{SPACE}
+const tab_main={SPACE}{SPACE}{SPACE}{SPACE}
+
+
+<\declarations>
+
+<template>
+{ENDL}
+%code{ENDL}
+a,b,c=#init#,#init new#,#init new#{ENDL}
+def #fname#(#param#):{ENDL}
+{SPACE4}a=#arg#{ENDL}
+{SPACE4}b=#arg new#{ENDL}
+{SPACE4}c=#arg new#{ENDL}
+{SPACE4}return a+b+c{ENDL}
+{ENDL}
+a,b,c=#init new#,#init new#,#init new#{ENDL}
+print(#fname#(#var#),a,b,c){ENDL}
+%code{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+//после того, как будет проверка условий, можно будет использовать += и другие (сейчас это приводит к ошибкам времени вполнения)
+

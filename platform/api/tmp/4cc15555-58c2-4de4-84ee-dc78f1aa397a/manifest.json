@@ -1,0 +1,57 @@
+{
+  "jobId": "4cc15555-58c2-4de4-84ee-dc78f1aa397a",
+  "createdAt": "2026-03-03T13:14:51.661Z",
+  "inputConfigHash": "pending",
+  "engineVersion": "pending",
+  "artifacts": [
+    {
+      "name": "config.json",
+      "path": "/app/platform/api/tmp/4cc15555-58c2-4de4-84ee-dc78f1aa397a/config.json",
+      "size": 389,
+      "sha256": "b45245426c3cf959dc80b02955777ad8790270d95ef6a48e64cc8ab5fdbac66a"
+    },
+    {
+      "name": "answers.json",
+      "path": "/app/platform/api/tmp/4cc15555-58c2-4de4-84ee-dc78f1aa397a/answers.json",
+      "size": 115,
+      "sha256": "7c8df8b865cc6d2cec2e2e93d057418da0296abf26641a15227caa1b3d64a192"
+    },
+    {
+      "name": "answers.md",
+      "path": "/app/platform/api/tmp/4cc15555-58c2-4de4-84ee-dc78f1aa397a/answers.md",
+      "size": 139,
+      "sha256": "c8aded512596abfd2b5c55555c9ae7521d0e37e89c8e8d9a43c50f0bd60c6ca0"
+    },
+    {
+      "name": "test.print.md",
+      "path": "/app/platform/api/tmp/4cc15555-58c2-4de4-84ee-dc78f1aa397a/test.print.md",
+      "size": 204,
+      "sha256": "feb12f86a9909429bcdee32bc8f1d3ae8386635302cfbaee221a6e6035308159"
+    },
+    {
+      "name": "test.lms.md",
+      "path": "/app/platform/api/tmp/4cc15555-58c2-4de4-84ee-dc78f1aa397a/test.lms.md",
+      "size": 264,
+      "sha256": "03dbdbbacc041e35fddffbb053422ecd9d9a8f47cca7e92220435d75c4c5532b"
+    },
+    {
+      "name": "test.md",
+      "path": "/app/platform/api/tmp/4cc15555-58c2-4de4-84ee-dc78f1aa397a/test.md",
+      "size": 204,
+      "sha256": "feb12f86a9909429bcdee32bc8f1d3ae8386635302cfbaee221a6e6035308159"
+    },
+    {
+      "name": "quiz.pdf",
+      "path": "/app/platform/api/tmp/4cc15555-58c2-4de4-84ee-dc78f1aa397a/quiz.pdf",
+      "size": 33056,
+      "sha256": "8da7a1702acad6aa824f87b302646103789fbf258f5f28492c57e00cdf5a8daf"
+    },
+    {
+      "name": "test.docx",
+      "path": "/app/platform/api/tmp/4cc15555-58c2-4de4-84ee-dc78f1aa397a/test.docx",
+      "size": 10059,
+      "sha256": "d406816d56e2f97fcc8b914358074684731bd242910f5c92f39888cc4c4aa425"
+    }
+  ],
+  "status": "completed"
+}

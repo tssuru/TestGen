@@ -1,0 +1,89 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{T}}
+
+\textbf{Варіант \No\,1}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+try:
+    for e in range(-3, -3, -3):
+        if e>7:
+            break
+        print(e, end=';')
+        if e>7:
+            break
+    else:
+        print(e,end=';')
+    print(e)
+except:
+    print('Z')
+
+%enditem
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+try:
+    print(4, end=';')
+    print(5j==4j, end=';')
+    print(7, end=';')
+except TypeError:
+    print(8, end=';')
+except KeyboardInterrupt:
+    print(9, end=';')
+except:
+    print('ERR', end=';')
+else:
+    print(6, end=';')
+finally:
+    print(1)
+
+%enditem
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+� ������ ���������� ������ ���� �������� p->prev=p->next->next;
+���� ������� �������� p->prev->prev->prev->prev->n ?
+%enditem
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+
+%code
+m=4
+while m<13:
+    m+=1
+print(m)
+%code
+
+
+%enditem
+%beginitem
+5. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e.extend([1,0])
+print(e)
+%code
+
+
+%enditem
+
+
+
+
+
+%end
+\newpage
+\end{document}
+
+

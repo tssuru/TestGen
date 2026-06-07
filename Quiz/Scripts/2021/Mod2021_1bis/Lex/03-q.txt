@@ -1,0 +1,23 @@
+  <fabric>
+     check auto
+     <good>
+         Lex/03-good.txt
+     <\good>
+
+     <bad> 
+         Lex/03-bad.txt
+     <\bad>
+	<ncase>
+	   4
+	<\ncase>
+	<nGood>
+	   2
+	<\nGood>
+	<mode>
+	   SpaceBetween
+	<\mode>
+     <before>
+         Вiдмiтити все, де нема помилок (необхідні змінні вважати означеними):{ENDL}
+     <\before>
+
+   <\fabric>

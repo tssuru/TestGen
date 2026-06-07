@@ -1,0 +1,6394 @@
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 1.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>1_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>1_2.py  
+72
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>1_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>1_4.py  
+2.04
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>1_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>1_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>1_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>1_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>1_9.py  
+Af8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>1_10.py  
+A4 9 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>1_11.py  
+A9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>1_12.py  
+A10 1 7 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>1_13.py  
+A5 1 29 7 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>1_14.py  
+A34569
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 2.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>2_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>2_2.py  
+1.29
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>2_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>2_4.py  
+-0.50
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>2_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>2_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>2_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>2_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>2_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>2_10.py  
+A3 1 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>2_11.py  
+A2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>2_12.py  
+A6 3 0 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>2_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>2_14.py  
+A115
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 3.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>3_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>3_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>3_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>3_4.py  
+2.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>3_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>3_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>3_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>3_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>3_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>3_10.py  
+A0 7 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>3_11.py  
+A1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>3_12.py  
+A12 6 7 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>3_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>3_14.py  
+A80971
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 4.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>4_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>4_2.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>4_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>4_4.py  
+-0.11
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>4_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>4_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>4_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>4_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>4_9.py  
+Aff4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>4_10.py  
+A2 5 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>4_11.py  
+A8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>4_12.py  
+A11 7 5 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>4_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>4_14.py  
+A629
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 5.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>5_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>5_2.py  
+12.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>5_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>5_4.py  
+-2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>5_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>5_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>5_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>5_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>5_9.py  
+Aff-3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>5_10.py  
+A0 6 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>5_11.py  
+A1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>5_12.py  
+A6 3 2 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>5_13.py  
+A1 0 36 8 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>5_14.py  
+A357
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 6.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>6_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>6_2.py  
+0.86
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>6_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>6_4.py  
+9.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>6_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>6_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>6_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>6_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>6_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>6_10.py  
+A1 1 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>6_11.py  
+A2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>6_12.py  
+A12 9 1 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>6_13.py  
+A5 2 98 6 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>6_14.py  
+A432
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 7.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>7_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>7_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>7_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>7_4.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>7_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>7_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>7_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>7_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>7_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>7_10.py  
+A9 5 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>7_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>7_12.py  
+A6 6 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>7_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>7_14.py  
+A93.0135
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 8.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>8_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>8_2.py  
+20.25
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>8_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>8_4.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>8_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>8_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>8_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>8_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>8_9.py  
+Af3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>8_10.py  
+A3 4 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>8_11.py  
+A8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>8_12.py  
+A16 8 2 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>8_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>8_14.py  
+A80126
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 9.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>9_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>9_2.py  
+30
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>9_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>9_4.py  
+4.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>9_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>9_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>9_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>9_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>9_9.py  
+Af0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>9_10.py  
+A0 6 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>9_11.py  
+A1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>9_12.py  
+A7 9 2 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>9_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>9_14.py  
+A353
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 10.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>10_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>10_2.py  
+5.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>10_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>10_4.py  
+-1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>10_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>10_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>10_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>10_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>10_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>10_10.py  
+A8 1 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>10_11.py  
+A0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>10_12.py  
+A13 9 3 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>10_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>10_14.py  
+A178
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 11.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>11_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>11_2.py  
+1.56
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>11_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>11_4.py  
+7.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>11_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>11_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>11_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>11_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>11_9.py  
+Af-8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>11_10.py  
+A4 9 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>11_11.py  
+A7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>11_12.py  
+A7 0 1 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>11_13.py  
+A0 3 57 8 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>11_14.py  
+A913
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 12.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>12_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>12_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>12_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>12_4.py  
+0.33
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>12_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>12_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>12_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>12_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>12_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>12_10.py  
+A3 3 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>12_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>12_12.py  
+A7 0 2 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>12_13.py  
+A0 4 27 6 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>12_14.py  
+A78624
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 13.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>13_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>13_2.py  
+0.56
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>13_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>13_4.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>13_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>13_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>13_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>13_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>13_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>13_10.py  
+A2 7 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>13_11.py  
+A7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>13_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>13_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>13_14.py  
+A35ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 14.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>14_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>14_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>14_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>14_4.py  
+-1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>14_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>14_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>14_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>14_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>14_9.py  
+Aff-7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>14_10.py  
+A1 4 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>14_11.py  
+A9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>14_12.py  
+A13 8 9 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>14_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>14_14.py  
+A38102
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 15.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>15_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>15_2.py  
+126.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>15_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>15_4.py  
+3.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>15_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>15_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>15_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>15_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>15_9.py  
+Aff-1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>15_10.py  
+A9 2 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>15_11.py  
+A6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>15_12.py  
+A12 7 4 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>15_13.py  
+A0 4 99 6 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>15_14.py  
+A9True486
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 16.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>16_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>16_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>16_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>16_4.py  
+-1.75
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>16_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>16_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>16_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>16_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>16_9.py  
+AffFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>16_10.py  
+A1 3 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>16_11.py  
+A2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>16_12.py  
+A10 9 0 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>16_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>16_14.py  
+A30976
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 17.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>17_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>17_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>17_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>17_4.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>17_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>17_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>17_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>17_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>17_9.py  
+AffFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>17_10.py  
+A8 0 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>17_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>17_12.py  
+A8 8 3 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>17_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>17_14.py  
+A158
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 18.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>18_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>18_2.py  
+2.67
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>18_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>18_4.py  
+0.50
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>18_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>18_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>18_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>18_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>18_9.py  
+Af-3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>18_10.py  
+A2 4 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>18_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>18_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>18_13.py  
+A1 1 46 7 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>18_14.py  
+A224
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 19.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>19_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>19_2.py  
+29.40
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>19_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>19_4.py  
+2.25
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>19_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>19_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>19_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>19_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>19_9.py  
+Aff7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>19_10.py  
+A2 7 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>19_11.py  
+A6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>19_12.py  
+A7 8 1 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>19_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>19_14.py  
+A06502
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 20.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>20_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>20_2.py  
+4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>20_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>20_4.py  
+-18.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>20_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>20_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>20_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>20_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>20_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>20_10.py  
+A3 4 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>20_11.py  
+A7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>20_12.py  
+A8 9 5 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>20_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>20_14.py  
+A769
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 21.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>21_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>21_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>21_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>21_4.py  
+4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>21_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>21_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>21_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>21_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>21_9.py  
+Aff-6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>21_10.py  
+A5 4 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>21_11.py  
+A1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>21_12.py  
+A10 1 2 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>21_13.py  
+A1 3 69 7 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>21_14.py  
+A476
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 22.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>22_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>22_2.py  
+72.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>22_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>22_4.py  
+-0.50
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>22_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>22_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>22_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>22_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>22_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>22_10.py  
+A0 1 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>22_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>22_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>22_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>22_14.py  
+A51.5293
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 23.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>23_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>23_2.py  
+0.90
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>23_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>23_4.py  
+-10.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>23_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>23_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>23_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>23_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>23_9.py  
+Af-7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>23_10.py  
+A0 0 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>23_11.py  
+A6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>23_12.py  
+A8 9 0 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>23_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>23_14.py  
+A179
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 24.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>24_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>24_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>24_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>24_4.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>24_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>24_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>24_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>24_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>24_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>24_10.py  
+A6 2 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>24_11.py  
+A9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>24_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>24_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>24_14.py  
+A35487
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 25.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>25_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>25_2.py  
+63
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>25_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>25_4.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>25_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>25_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>25_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>25_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>25_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>25_10.py  
+A5 6 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>25_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>25_12.py  
+A21 8 7 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>25_13.py  
+A2 1 57 8 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>25_14.py  
+A104
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 26.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>26_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>26_2.py  
+2.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>26_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>26_4.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>26_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>26_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>26_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>26_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>26_9.py  
+Af0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>26_10.py  
+A3 1 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>26_11.py  
+A2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>26_12.py  
+A11 3 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>26_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>26_14.py  
+A5False715
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 27.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>27_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>27_2.py  
+1.94
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>27_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>27_4.py  
+-1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>27_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>27_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>27_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>27_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>27_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>27_10.py  
+A7 2 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>27_11.py  
+A9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>27_12.py  
+A10 3 6 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>27_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>27_14.py  
+A06ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 28.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>28_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>28_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>28_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>28_4.py  
+-1.50
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>28_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>28_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>28_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>28_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>28_9.py  
+Aff3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>28_10.py  
+A7 5 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>28_11.py  
+A8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>28_12.py  
+A6 7 0 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>28_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>28_14.py  
+A905
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 29.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>29_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>29_2.py  
+9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>29_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>29_4.py  
+0.25
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>29_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>29_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>29_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>29_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>29_9.py  
+AffFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>29_10.py  
+A8 2 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>29_11.py  
+A1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>29_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>29_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>29_14.py  
+A11.3333333333333333270
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 30.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>30_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>30_2.py  
+1.75
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>30_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>30_4.py  
+0.67
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>30_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>30_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>30_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>30_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>30_9.py  
+Af6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>30_10.py  
+A1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>30_11.py  
+A3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>30_12.py  
+A8 3 1 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>30_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>30_14.py  
+A96543
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 31.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>31_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>31_2.py  
+50.40
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>31_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>31_4.py  
+-3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>31_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>31_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>31_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>31_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>31_9.py  
+Af-3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>31_10.py  
+A0 5 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>31_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>31_12.py  
+A11 2 0 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>31_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>31_14.py  
+A280
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 32.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>32_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>32_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>32_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>32_4.py  
+1.94
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>32_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>32_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>32_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>32_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>32_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>32_10.py  
+A6 4 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>32_11.py  
+A8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>32_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>32_13.py  
+A1 4 38 7 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>32_14.py  
+A748
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 33.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>33_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>33_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>33_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>33_4.py  
+-3.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>33_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>33_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>33_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>33_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>33_9.py  
+Af4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>33_10.py  
+A1 8 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>33_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>33_12.py  
+A6 6 5 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>33_13.py  
+A0 2 69 8 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>33_14.py  
+A33259
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 34.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>34_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>34_2.py  
+6.67
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>34_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>34_4.py  
+257
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>34_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>34_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>34_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>34_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>34_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>34_10.py  
+A0 3 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>34_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>34_12.py  
+A9 3 7 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>34_13.py  
+A2 5 36 9 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>34_14.py  
+A34716
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 35.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>35_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>35_2.py  
+0.33
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>35_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>35_4.py  
+0.25
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>35_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>35_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>35_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>35_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>35_9.py  
+Aff-2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>35_10.py  
+A1 2 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>35_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>35_12.py  
+A11 4 5 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>35_13.py  
+A4 1 07 9 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>35_14.py  
+A812
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 36.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>36_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>36_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>36_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>36_4.py  
+-1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>36_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>36_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>36_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>36_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>36_9.py  
+AffFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>36_10.py  
+A3 4 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>36_11.py  
+A2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>36_12.py  
+A10 3 6 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>36_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>36_14.py  
+A302
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 37.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>37_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>37_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>37_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>37_4.py  
+-1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>37_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>37_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>37_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>37_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>37_9.py  
+Af-5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>37_10.py  
+A6 4 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>37_11.py  
+A6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>37_12.py  
+A6 2 4 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>37_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>37_14.py  
+A93718
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 38.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>38_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>38_2.py  
+0.67
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>38_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>38_4.py  
+-1.89
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>38_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>38_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>38_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>38_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>38_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>38_10.py  
+A7 0 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>38_11.py  
+A2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>38_12.py  
+A12 6 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>38_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>38_14.py  
+A42.5926
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 39.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>39_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>39_2.py  
+12.25
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>39_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>39_4.py  
+-1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>39_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>39_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>39_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>39_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>39_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>39_10.py  
+A2 8 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>39_11.py  
+A0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>39_12.py  
+A7 8 2 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>39_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>39_14.py  
+A81ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 40.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>40_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>40_2.py  
+36
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>40_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>40_4.py  
+-0.25
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>40_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>40_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>40_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>40_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>40_9.py  
+Aff-4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>40_10.py  
+A4 0 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>40_11.py  
+A7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>40_12.py  
+A10 0 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>40_13.py  
+A4 0 36 7 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>40_14.py  
+A86ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 41.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>41_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>41_2.py  
+2.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>41_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>41_4.py  
+-1.01
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>41_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>41_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>41_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>41_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>41_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>41_10.py  
+A3 3 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>41_11.py  
+A7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>41_12.py  
+A7 6 0 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>41_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>41_14.py  
+A03.0917
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 42.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>42_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>42_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>42_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>42_4.py  
+9.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>42_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>42_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>42_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>42_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>42_9.py  
+Aff4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>42_10.py  
+A1 1 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>42_11.py  
+A7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>42_12.py  
+A3 9 4 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>42_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>42_14.py  
+A62813
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 43.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>43_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>43_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>43_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>43_4.py  
+0.50
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>43_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>43_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>43_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>43_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>43_9.py  
+Aff-5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>43_10.py  
+A6 1 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>43_11.py  
+A3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>43_12.py  
+A12 8 3 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>43_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>43_14.py  
+A8False201
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 44.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>44_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>44_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>44_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>44_4.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>44_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>44_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>44_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>44_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>44_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>44_10.py  
+A3 0 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>44_11.py  
+A6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>44_12.py  
+A21 7 8 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>44_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>44_14.py  
+A789
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 45.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>45_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>45_2.py  
+2.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>45_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>45_4.py  
+0.02
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>45_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>45_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>45_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>45_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>45_9.py  
+Af1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>45_10.py  
+A4 4 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>45_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>45_12.py  
+A6 6 8 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>45_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>45_14.py  
+A380
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 46.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>46_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>46_2.py  
+36.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>46_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>46_4.py  
+6.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>46_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>46_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>46_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>46_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>46_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>46_10.py  
+A2 3 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>46_11.py  
+A3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>46_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>46_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>46_14.py  
+A72ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 47.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>47_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>47_2.py  
+8.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>47_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>47_4.py  
+-6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>47_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>47_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>47_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>47_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>47_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>47_10.py  
+A8 7 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>47_11.py  
+A3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>47_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>47_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>47_14.py  
+A50093
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 48.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>48_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>48_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>48_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>48_4.py  
+4.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>48_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>48_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>48_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>48_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>48_9.py  
+Af5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>48_10.py  
+A3 0 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>48_11.py  
+A8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>48_12.py  
+A10 1 8 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>48_13.py  
+A5 1 46 9 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>48_14.py  
+A63468
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 49.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>49_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>49_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>49_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>49_4.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>49_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>49_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>49_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>49_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>49_9.py  
+Aff-8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>49_10.py  
+A7 9 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>49_11.py  
+A1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>49_12.py  
+A10 7 6 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>49_13.py  
+A2 3 46 9 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>49_14.py  
+A756
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 50.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>50_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>50_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>50_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>50_4.py  
+6.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>50_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>50_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>50_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>50_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>50_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>50_10.py  
+A5 8 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>50_11.py  
+A2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>50_12.py  
+A7 2 8 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>50_13.py  
+A1 5 08 9 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>50_14.py  
+A53ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 51.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>51_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>51_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>51_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>51_4.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>51_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>51_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>51_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>51_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>51_9.py  
+Aff-4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>51_10.py  
+A6 2 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>51_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>51_12.py  
+A11 6 0 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>51_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>51_14.py  
+A790
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 52.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>52_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>52_2.py  
+0.38
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>52_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>52_4.py  
+0.33
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>52_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>52_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>52_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>52_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>52_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>52_10.py  
+A5 9 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>52_11.py  
+A9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>52_12.py  
+A10 6 3 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>52_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>52_14.py  
+A54638
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 53.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>53_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>53_2.py  
+32.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>53_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>53_4.py  
+1.12
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>53_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>53_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>53_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>53_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>53_9.py  
+Aff-5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>53_10.py  
+A3 7 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>53_11.py  
+A8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>53_12.py  
+A9 9 6 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>53_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>53_14.py  
+A10053
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 54.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>54_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>54_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>54_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>54_4.py  
+2.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>54_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>54_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>54_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>54_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>54_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>54_10.py  
+A1 8 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>54_11.py  
+A3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>54_12.py  
+A8 1 3 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>54_13.py  
+A4 1 36 7 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>54_14.py  
+A754
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 55.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>55_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>55_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>55_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>55_4.py  
+4.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>55_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>55_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>55_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>55_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>55_9.py  
+Aff-7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>55_10.py  
+A0 7 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>55_11.py  
+A3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>55_12.py  
+A9 8 6 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>55_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>55_14.py  
+A0True827
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 56.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>56_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>56_2.py  
+2.80
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>56_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>56_4.py  
+-10
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>56_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>56_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>56_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>56_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>56_9.py  
+AffFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>56_10.py  
+A6 4 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>56_11.py  
+A1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>56_12.py  
+A12 7 4 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>56_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>56_14.py  
+A34.5503
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 57.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>57_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>57_2.py  
+0.56
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>57_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>57_4.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>57_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>57_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>57_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>57_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>57_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>57_10.py  
+A5 3 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>57_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>57_12.py  
+A4 6 6 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>57_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>57_14.py  
+A857
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 58.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>58_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>58_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>58_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>58_4.py  
+1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>58_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>58_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>58_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>58_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>58_9.py  
+Af7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>58_10.py  
+A4 1 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>58_11.py  
+A9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>58_12.py  
+A12 5 7 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>58_13.py  
+A5 2 07 8 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>58_14.py  
+A252
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 59.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>59_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>59_2.py  
+6.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>59_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>59_4.py  
+0.11
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>59_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>59_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>59_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>59_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>59_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>59_10.py  
+A8 0 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>59_11.py  
+A7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>59_12.py  
+A7 3 1 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>59_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>59_14.py  
+A74946
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 60.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>60_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>60_2.py  
+20
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>60_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>60_4.py  
+1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>60_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>60_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>60_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>60_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>60_9.py  
+Af-3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>60_10.py  
+A2 3 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>60_11.py  
+A9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>60_12.py  
+A10 7 5 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>60_13.py  
+A4 0 19 6 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>60_14.py  
+A395
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 61.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>61_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>61_2.py  
+9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>61_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>61_4.py  
+9.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>61_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>61_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>61_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>61_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>61_9.py  
+Aff-6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>61_10.py  
+A6 3 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>61_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>61_12.py  
+A9 8 3 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>61_13.py  
+A3 2 58 7 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>61_14.py  
+A492
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 62.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>62_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>62_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>62_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>62_4.py  
+2.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>62_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>62_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>62_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>62_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>62_9.py  
+AffFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>62_10.py  
+A7 2 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>62_11.py  
+A0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>62_12.py  
+A7 5 9 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>62_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>62_14.py  
+A07541
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 63.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>63_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>63_2.py  
+1.11
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>63_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>63_4.py  
+-0.67
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>63_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>63_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>63_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>63_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>63_9.py  
+Af6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>63_10.py  
+A4 0 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>63_11.py  
+A3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>63_12.py  
+A11 2 8 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>63_13.py  
+A0 2 38 6 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>63_14.py  
+A383
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 64.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>64_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>64_2.py  
+48
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>64_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>64_4.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>64_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>64_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>64_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>64_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>64_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>64_10.py  
+A7 2 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>64_11.py  
+A3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>64_12.py  
+A6 5 9 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>64_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>64_14.py  
+A02.5194
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 65.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>65_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>65_2.py  
+4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>65_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>65_4.py  
+-0.25
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>65_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>65_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>65_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>65_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>65_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>65_10.py  
+A0 9 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>65_11.py  
+A0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>65_12.py  
+A12 1 2 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>65_13.py  
+A4 1 98 6 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>65_14.py  
+A887
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 66.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>66_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>66_2.py  
+23.62
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>66_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>66_4.py  
+-8.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>66_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>66_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>66_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>66_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>66_9.py  
+Af4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>66_10.py  
+A1 2 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>66_11.py  
+A8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>66_12.py  
+A8 0 2 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>66_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>66_14.py  
+A90608
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 67.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>67_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>67_2.py  
+0.63
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>67_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>67_4.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>67_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>67_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>67_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>67_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>67_9.py  
+Aff3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>67_10.py  
+A2 3 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>67_11.py  
+A1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>67_12.py  
+A8 3 5 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>67_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>67_14.py  
+A139
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 68.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>68_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>68_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>68_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>68_4.py  
+6.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>68_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>68_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>68_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>68_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>68_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>68_10.py  
+A1 4 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>68_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>68_12.py  
+A9 4 9 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>68_13.py  
+A2 4 38 7 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>68_14.py  
+A470
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 69.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>69_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>69_2.py  
+0.78
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>69_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>69_4.py  
+-17
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>69_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>69_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>69_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>69_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>69_9.py  
+Af5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>69_10.py  
+A4 0 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>69_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>69_12.py  
+A13 8 9 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>69_13.py  
+A0 2 47 8 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>69_14.py  
+A17ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 70.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>70_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>70_2.py  
+30
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>70_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>70_4.py  
+2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>70_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>70_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>70_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>70_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>70_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>70_10.py  
+A7 2 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>70_11.py  
+A1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>70_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>70_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>70_14.py  
+A84206
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 71.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>71_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>71_2.py  
+2.78
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>71_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>71_4.py  
+0.06
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>71_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>71_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>71_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>71_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>71_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>71_10.py  
+A8 1 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>71_11.py  
+A8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>71_12.py  
+A7 7 2 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>71_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>71_14.py  
+A490
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 72.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>72_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>72_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>72_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>72_4.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>72_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>72_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>72_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>72_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>72_9.py  
+Aff8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>72_10.py  
+A6 0 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>72_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>72_12.py  
+A9 4 9 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>72_13.py  
+A5 4 17 8 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>72_14.py  
+A149
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 73.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>73_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>73_2.py  
+1.12
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>73_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>73_4.py  
+-1.98
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>73_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>73_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>73_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>73_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>73_9.py  
+Aff-7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>73_10.py  
+A4 2 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>73_11.py  
+A0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>73_12.py  
+A8 7 1 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>73_13.py  
+A1 2 99 7 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>73_14.py  
+A67823
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 74.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>74_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>74_2.py  
+8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>74_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>74_4.py  
+-1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>74_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>74_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>74_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>74_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>74_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>74_10.py  
+A8 7 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>74_11.py  
+A9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>74_12.py  
+A10 8 9 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>74_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>74_14.py  
+A00856
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 75.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>75_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>75_2.py  
+28
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>75_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>75_4.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>75_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>75_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>75_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>75_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>75_9.py  
+Af2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>75_10.py  
+A5 9 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>75_11.py  
+A7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>75_12.py  
+A7 0 3 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>75_13.py  
+A2 5 09 6 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>75_14.py  
+A765
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 76.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>76_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>76_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>76_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>76_4.py  
+-3.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>76_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>76_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>76_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>76_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>76_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>76_10.py  
+A3 7 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>76_11.py  
+A3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>76_12.py  
+A11 8 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>76_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>76_14.py  
+A31934
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 77.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>77_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>77_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>77_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>77_4.py  
+6.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>77_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>77_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>77_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>77_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>77_9.py  
+Af6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>77_10.py  
+A5 5 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>77_11.py  
+A2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>77_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>77_13.py  
+A0 1 19 8 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>77_14.py  
+A90ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 78.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>78_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>78_2.py  
+15.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>78_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>78_4.py  
+257
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>78_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>78_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>78_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>78_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>78_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>78_10.py  
+A1 6 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>78_11.py  
+A6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>78_12.py  
+A7 2 4 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>78_13.py  
+A3 0 56 7 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>78_14.py  
+A73.5231
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 79.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>79_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>79_2.py  
+3.33
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>79_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>79_4.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>79_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>79_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>79_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>79_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>79_9.py  
+Af5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>79_10.py  
+A3 3 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>79_11.py  
+A9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>79_12.py  
+A7 3 1 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>79_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>79_14.py  
+A875
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 80.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>80_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>80_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>80_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>80_4.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>80_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>80_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>80_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>80_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>80_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>80_10.py  
+A7 2 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>80_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>80_12.py  
+A11 2 7 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>80_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>80_14.py  
+A4True682
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 81.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>81_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>81_2.py  
+1.05
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>81_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>81_4.py  
+-1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>81_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>81_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>81_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>81_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>81_9.py  
+Aff1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>81_10.py  
+A6 2 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>81_11.py  
+A2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>81_12.py  
+A10 5 1 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>81_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>81_14.py  
+A81615
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 82.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>82_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>82_2.py  
+3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>82_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>82_4.py  
+0.22
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>82_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>82_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>82_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>82_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>82_9.py  
+AffFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>82_10.py  
+A0 6 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>82_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>82_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>82_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>82_14.py  
+A29738
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 83.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>83_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>83_2.py  
+64.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>83_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>83_4.py  
+-1.01
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>83_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>83_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>83_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>83_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>83_9.py  
+Aff9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>83_10.py  
+A9 4 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>83_11.py  
+A7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>83_12.py  
+A7 6 3 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>83_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>83_14.py  
+A293
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 84.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>84_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>84_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>84_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>84_4.py  
+-8.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>84_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>84_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>84_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>84_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>84_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>84_10.py  
+A5 2 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>84_11.py  
+A3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>84_12.py  
+A10 0 4 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>84_13.py  
+A2 3 16 8 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>84_14.py  
+A719
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 85.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>85_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>85_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>85_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>85_4.py  
+2.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>85_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>85_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>85_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>85_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>85_9.py  
+AffFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>85_10.py  
+A9 0 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>85_11.py  
+A3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>85_12.py  
+A10 5 6 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>85_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>85_14.py  
+A671
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 86.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>86_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>86_2.py  
+0.66
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>86_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>86_4.py  
+0.50
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>86_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>86_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>86_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>86_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>86_9.py  
+Aff6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>86_10.py  
+A3 2 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>86_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>86_12.py  
+A7 6 5 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>86_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>86_14.py  
+A06976
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 87.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>87_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>87_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>87_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>87_4.py  
+2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>87_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>87_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>87_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>87_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>87_9.py  
+Af2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>87_10.py  
+A6 3 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>87_11.py  
+A9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>87_12.py  
+A11 9 8 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>87_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>87_14.py  
+A231
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 88.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>88_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>88_2.py  
+3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>88_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>88_4.py  
+-0.33
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>88_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>88_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>88_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>88_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>88_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>88_10.py  
+A8 6 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>88_11.py  
+A6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>88_12.py  
+A8 5 1 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>88_13.py  
+A2 5 26 8 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>88_14.py  
+A9False704
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 89.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>89_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>89_2.py  
+168
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>89_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>89_4.py  
+-4.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>89_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>89_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>89_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>89_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>89_9.py  
+Af-7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>89_10.py  
+A5 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>89_11.py  
+A7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>89_12.py  
+A9 3 7 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>89_13.py  
+A4 3 16 9 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>89_14.py  
+A85.0251
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 90.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>90_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>90_2.py  
+0.89
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>90_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>90_4.py  
+0.33
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>90_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>90_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>90_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>90_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>90_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>90_10.py  
+A2 1 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>90_11.py  
+A8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>90_12.py  
+A11 0 7 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>90_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>90_14.py  
+A709
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 91.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>91_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>91_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>91_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>91_4.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>91_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>91_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>91_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>91_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>91_9.py  
+Aff3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>91_10.py  
+A1 0 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>91_11.py  
+A3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>91_12.py  
+A7 9 5 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>91_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>91_14.py  
+A0True583
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 92.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>92_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>92_2.py  
+7.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>92_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>92_4.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>92_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>92_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>92_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>92_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>92_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>92_10.py  
+A5 2 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>92_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>92_12.py  
+A6 2 0 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>92_13.py  
+A2 3 66 7 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>92_14.py  
+A42.0739
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 93.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>93_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>93_2.py  
+4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>93_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>93_4.py  
+1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>93_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>93_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>93_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>93_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>93_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>93_10.py  
+A7 1 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>93_11.py  
+A6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>93_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>93_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>93_14.py  
+A64852
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 94.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>94_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>94_2.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>94_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>94_4.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>94_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>94_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>94_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>94_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>94_9.py  
+Af8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>94_10.py  
+A5 9 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>94_11.py  
+A9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>94_12.py  
+A12 6 4 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>94_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>94_14.py  
+A85ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 95.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>95_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>95_2.py  
+15.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>95_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>95_4.py  
+2.11
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>95_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>95_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>95_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>95_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>95_9.py  
+Af1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>95_10.py  
+A6 4 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>95_11.py  
+A1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>95_12.py  
+A11 8 4 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>95_13.py  
+A2 1 47 6 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>95_14.py  
+A683
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 96.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>96_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>96_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>96_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>96_4.py  
+-1.25
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>96_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>96_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>96_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>96_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>96_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>96_10.py  
+A3 8 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>96_11.py  
+A0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>96_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>96_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>96_14.py  
+A10518
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 97.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>97_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>97_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>97_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>97_4.py  
+0.33
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>97_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>97_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>97_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>97_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>97_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>97_10.py  
+A5 1 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>97_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>97_12.py  
+A8 1 3 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>97_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>97_14.py  
+A295
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 98.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>98_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>98_2.py  
+1.75
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>98_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>98_4.py  
+-0.25
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>98_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>98_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>98_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>98_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>98_9.py  
+Aff-4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>98_10.py  
+A3 6 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>98_11.py  
+A2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>98_12.py  
+A8 4 9 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>98_13.py  
+A5 2 36 8 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>98_14.py  
+A36ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 99.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>99_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>99_2.py  
+3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>99_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>99_4.py  
+0.99
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>99_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>99_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>99_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>99_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>99_9.py  
+Af8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>99_10.py  
+A3 7 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>99_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>99_12.py  
+A10 2 0 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>99_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>99_14.py  
+A24565
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 100.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>100_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>100_2.py  
+37.33
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>100_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>100_4.py  
+-2.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>100_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>100_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>100_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>100_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>100_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>100_10.py  
+A1 2 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>100_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>100_12.py  
+A8 3 4 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>100_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>100_14.py  
+A184
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 101.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>101_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>101_2.py  
+26.25
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>101_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>101_4.py  
+6.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>101_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>101_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>101_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>101_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>101_9.py  
+Af9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>101_10.py  
+A4 0 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>101_11.py  
+A6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>101_12.py  
+A10 9 4 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>101_13.py  
+A5 2 36 8 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>101_14.py  
+A29713
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 102.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>102_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>102_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>102_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>102_4.py  
+0.12
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>102_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>102_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>102_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>102_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>102_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>102_10.py  
+A3 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>102_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>102_12.py  
+A8 1 2 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>102_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>102_14.py  
+A44.0574
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 103.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>103_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>103_2.py  
+8.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>103_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>103_4.py  
+2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>103_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>103_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>103_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>103_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>103_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>103_10.py  
+A3 1 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>103_11.py  
+A9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>103_12.py  
+A6 5 7 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>103_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>103_14.py  
+A067
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 104.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>104_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>104_2.py  
+0.44
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>104_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>104_4.py  
+-1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>104_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>104_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>104_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>104_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>104_9.py  
+Af-5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>104_10.py  
+A4 0 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>104_11.py  
+A0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>104_12.py  
+A12 3 4 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>104_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>104_14.py  
+A650
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 105.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>105_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>105_2.py  
+3.75
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>105_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>105_4.py  
+0.33
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>105_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>105_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>105_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>105_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>105_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>105_10.py  
+A8 2 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>105_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>105_12.py  
+A22 7 5 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>105_13.py  
+A5 3 39 8 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>105_14.py  
+A880
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 106.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>106_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>106_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>106_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>106_4.py  
+17
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>106_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>106_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>106_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>106_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>106_9.py  
+Aff4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>106_10.py  
+A8 3 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>106_11.py  
+A7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>106_12.py  
+A7 3 6 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>106_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>106_14.py  
+A66ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 107.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>107_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>107_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>107_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>107_4.py  
+2.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>107_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>107_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>107_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>107_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>107_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>107_10.py  
+A4 1 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>107_11.py  
+A3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>107_12.py  
+A10 2 5 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>107_13.py  
+A2 5 06 7 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>107_14.py  
+A50.5904
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 108.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>108_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>108_2.py  
+24
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>108_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>108_4.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>108_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>108_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>108_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>108_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>108_9.py  
+Aff2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>108_10.py  
+A7 3 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>108_11.py  
+A9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>108_12.py  
+A7 7 4 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>108_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>108_14.py  
+A203
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 109.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>109_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>109_2.py  
+4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>109_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>109_4.py  
+-3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>109_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>109_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>109_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>109_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>109_9.py  
+Af-5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>109_10.py  
+A7 3 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>109_11.py  
+A8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>109_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>109_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>109_14.py  
+A612
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 110.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>110_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>110_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>110_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>110_4.py  
+0.50
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>110_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>110_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>110_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>110_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>110_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>110_10.py  
+A0 0 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>110_11.py  
+A7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>110_12.py  
+A10 5 4 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>110_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>110_14.py  
+A07536
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 111.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>111_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>111_2.py  
+42.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>111_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>111_4.py  
+0.22
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>111_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>111_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>111_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>111_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>111_9.py  
+AffFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>111_10.py  
+A8 0 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>111_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>111_12.py  
+A12 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>111_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>111_14.py  
+A041
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 112.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>112_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>112_2.py  
+2.25
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>112_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>112_4.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>112_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>112_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>112_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>112_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>112_9.py  
+Af-9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>112_10.py  
+A4 7 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>112_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>112_12.py  
+A7 9 2 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>112_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>112_14.py  
+A93741
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 113.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>113_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>113_2.py  
+64
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>113_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>113_4.py  
+17.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>113_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>113_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>113_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>113_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>113_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>113_10.py  
+A0 0 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>113_11.py  
+A6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>113_12.py  
+A9 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>113_13.py  
+A2 0 36 8 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>113_14.py  
+A023
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 114.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>114_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>114_2.py  
+1.19
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>114_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>114_4.py  
+-0.25
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>114_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>114_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>114_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>114_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>114_9.py  
+Aff6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>114_10.py  
+A5 8 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>114_11.py  
+A3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>114_12.py  
+A9 2 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>114_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>114_14.py  
+A970
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 115.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>115_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>115_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>115_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>115_4.py  
+2.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>115_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>115_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>115_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>115_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>115_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>115_10.py  
+A7 4 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>115_11.py  
+A6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>115_12.py  
+A10 1 5 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>115_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>115_14.py  
+A22042
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 116.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>116_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>116_2.py  
+9.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>116_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>116_4.py  
+9.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>116_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>116_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>116_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>116_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>116_9.py  
+Aff-8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>116_10.py  
+A6 3 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>116_11.py  
+A1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>116_12.py  
+A8 7 6 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>116_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>116_14.py  
+A197
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 117.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>117_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>117_2.py  
+28.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>117_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>117_4.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>117_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>117_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>117_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>117_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>117_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>117_10.py  
+A3 8 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>117_11.py  
+A0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>117_12.py  
+A8 9 3 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>117_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>117_14.py  
+A215
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 118.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>118_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>118_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>118_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>118_4.py  
+-0.25
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>118_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>118_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>118_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>118_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>118_9.py  
+Af9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>118_10.py  
+A8 6 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>118_11.py  
+A8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>118_12.py  
+A10 7 4 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>118_13.py  
+A0 4 37 8 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>118_14.py  
+A63.0975
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 119.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>119_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>119_2.py  
+1.40
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>119_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>119_4.py  
+2.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>119_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>119_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>119_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>119_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>119_9.py  
+Aff3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>119_10.py  
+A0 3 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>119_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>119_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>119_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>119_14.py  
+A68292
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 120.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>120_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>120_2.py  
+5.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>120_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>120_4.py  
+1.06
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>120_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>120_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>120_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>120_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>120_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>120_10.py  
+A9 1 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>120_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>120_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>120_13.py  
+A1 2 49 6 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>120_14.py  
+A5False374
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 121.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>121_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>121_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>121_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>121_4.py  
+-1.98
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>121_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>121_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>121_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>121_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>121_9.py  
+Af-3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>121_10.py  
+A2 6 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>121_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>121_12.py  
+A6 6 8 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>121_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>121_14.py  
+A80103
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 122.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>122_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>122_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>122_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>122_4.py  
+-1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>122_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>122_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>122_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>122_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>122_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>122_10.py  
+A3 5 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>122_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>122_12.py  
+A12 4 2 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>122_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>122_14.py  
+A286
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 123.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>123_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>123_2.py  
+3.11
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>123_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>123_4.py  
+2.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>123_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>123_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>123_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>123_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>123_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>123_10.py  
+A1 2 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>123_11.py  
+A8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>123_12.py  
+A10 0 9 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>123_13.py  
+A2 1 06 8 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>123_14.py  
+A4True394
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 124.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>124_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>124_2.py  
+56
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>124_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>124_4.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>124_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>124_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>124_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>124_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>124_9.py  
+Aff-2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>124_10.py  
+A0 0 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>124_11.py  
+A3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>124_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>124_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>124_14.py  
+A82735
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 125.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>125_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>125_2.py  
+6.75
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>125_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>125_4.py  
+3.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>125_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>125_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>125_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>125_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>125_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>125_10.py  
+A7 2 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>125_11.py  
+A2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>125_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>125_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>125_14.py  
+A963
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 126.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>126_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>126_2.py  
+15
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>126_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>126_4.py  
+-17
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>126_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>126_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>126_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>126_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>126_9.py  
+Af-1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>126_10.py  
+A0 5 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>126_11.py  
+A1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>126_12.py  
+A9 7 5 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>126_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>126_14.py  
+A974
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 127.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>127_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>127_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>127_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>127_4.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>127_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>127_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>127_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>127_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>127_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>127_10.py  
+A6 5 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>127_11.py  
+A1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>127_12.py  
+A8 4 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>127_13.py  
+A4 1 96 7 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>127_14.py  
+A12326
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 128.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>128_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>128_2.py  
+2.33
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>128_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>128_4.py  
+2.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>128_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>128_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>128_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>128_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>128_9.py  
+Aff4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>128_10.py  
+A2 2 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>128_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>128_12.py  
+A6 5 9 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>128_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>128_14.py  
+A98620
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 129.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>129_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>129_2.py  
+63.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>129_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>129_4.py  
+0.22
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>129_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>129_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>129_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>129_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>129_9.py  
+Aff6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>129_10.py  
+A5 1 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>129_11.py  
+A8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>129_12.py  
+A11 4 9 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>129_13.py  
+A4 2 59 6 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>129_14.py  
+A362
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 130.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>130_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>130_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>130_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>130_4.py  
+-4.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>130_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>130_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>130_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>130_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>130_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>130_10.py  
+A0 7 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>130_11.py  
+A1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>130_12.py  
+A12 3 5 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>130_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>130_14.py  
+A783
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 131.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>131_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>131_2.py  
+0.60
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>131_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>131_4.py  
+3.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>131_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>131_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>131_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>131_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>131_9.py  
+AffFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>131_10.py  
+A9 0 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>131_11.py  
+A6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>131_12.py  
+A10 7 3 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>131_13.py  
+A0 4 29 8 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>131_14.py  
+A62897
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 132.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>132_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>132_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>132_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>132_4.py  
+-0.33
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>132_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>132_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>132_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>132_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>132_9.py  
+Aff-3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>132_10.py  
+A4 4 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>132_11.py  
+A2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>132_12.py  
+A9 0 9 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>132_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>132_14.py  
+A40156
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 133.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>133_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>133_2.py  
+3.57
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>133_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>133_4.py  
+-1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>133_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>133_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>133_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>133_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>133_9.py  
+Af-9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>133_10.py  
+A8 5 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>133_11.py  
+A7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>133_12.py  
+A20 8 6 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>133_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>133_14.py  
+A240
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 134.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>134_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>134_2.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>134_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>134_4.py  
+-3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>134_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>134_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>134_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>134_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>134_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>134_10.py  
+A3 0 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>134_11.py  
+A2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>134_12.py  
+A11 3 5 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>134_13.py  
+A4 3 59 6 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>134_14.py  
+A983
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 135.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>135_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>135_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>135_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>135_4.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>135_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>135_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>135_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>135_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>135_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>135_10.py  
+A7 1 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>135_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>135_12.py  
+A7 4 8 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>135_13.py  
+A2 1 88 6 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>135_14.py  
+A29ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 136.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>136_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>136_2.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>136_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>136_4.py  
+1.33
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>136_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>136_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>136_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>136_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>136_9.py  
+Af-3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>136_10.py  
+A3 2 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>136_11.py  
+A6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>136_12.py  
+A12 7 2 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>136_13.py  
+A0 2 06 9 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>136_14.py  
+A39ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 137.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>137_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>137_2.py  
+18
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>137_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>137_4.py  
+0.50
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>137_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>137_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>137_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>137_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>137_9.py  
+Aff5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>137_10.py  
+A5 3 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>137_11.py  
+A3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>137_12.py  
+A7 9 0 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>137_13.py  
+A5 3 16 9 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>137_14.py  
+A215
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 138.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>138_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>138_2.py  
+0.62
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>138_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>138_4.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>138_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>138_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>138_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>138_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>138_9.py  
+AfTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>138_10.py  
+A9 6 0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>138_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>138_12.py  
+A8 2 8 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>138_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>138_14.py  
+A48956
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 139.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>139_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>139_2.py  
+9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>139_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>139_4.py  
+-4.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>139_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>139_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>139_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>139_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>139_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>139_10.py  
+A7 3 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>139_11.py  
+A7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>139_12.py  
+A12 3 9 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>139_13.py  
+A5 3 29 6 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>139_14.py  
+A71.3333333333333333323
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 140.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>140_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>140_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>140_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>140_4.py  
+-1.01
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>140_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>140_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>140_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>140_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>140_9.py  
+Af-1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>140_10.py  
+A9 5 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>140_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>140_12.py  
+A6 2 8 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>140_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>140_14.py  
+A109
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 141.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>141_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>141_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>141_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>141_4.py  
+4.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>141_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>141_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>141_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>141_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>141_9.py  
+Af-5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>141_10.py  
+A0 3 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>141_11.py  
+A9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>141_12.py  
+A8 2 8 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>141_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>141_14.py  
+A178
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 142.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>142_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>142_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>142_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>142_4.py  
+3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>142_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>142_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>142_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>142_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>142_9.py  
+AfFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>142_10.py  
+A2 7 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>142_11.py  
+A5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>142_12.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>142_13.py  
+A4 3 86 9 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>142_14.py  
+A95664
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 143.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>143_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>143_2.py  
+5.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>143_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>143_4.py  
+2.25
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>143_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>143_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>143_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>143_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>143_9.py  
+AffFalse
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>143_10.py  
+A8 4 4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>143_11.py  
+A7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>143_12.py  
+A8 4 9 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>143_13.py  
+A4 5 16 9 7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>143_14.py  
+A91805
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 144.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>144_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>144_2.py  
+56
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>144_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>144_4.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>144_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>144_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>144_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>144_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>144_9.py  
+Aff3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>144_10.py  
+A3 1 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>144_11.py  
+A8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>144_12.py  
+A9 2 8 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>144_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>144_14.py  
+A298
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 145.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>145_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>145_2.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>145_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>145_4.py  
+1.25
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>145_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>145_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>145_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>145_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>145_9.py  
+Aff0
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>145_10.py  
+A2 3 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>145_11.py  
+A9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>145_12.py  
+A11 9 4 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>145_13.py  
+A5 3 09 6 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>145_14.py  
+A023
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 146.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>146_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>146_2.py  
+0.43
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>146_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>146_4.py  
+-2.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>146_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>146_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>146_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>146_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>146_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>146_10.py  
+A1 4 8
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>146_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>146_12.py  
+A9 0 7 6
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>146_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>146_14.py  
+A85179
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 147.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>147_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>147_2.py  
+45.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>147_3.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>147_4.py  
+15
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>147_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>147_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>147_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>147_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>147_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>147_10.py  
+A1 6 9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>147_11.py  
+A2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>147_12.py  
+A7 4 2 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>147_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>147_14.py  
+A6False405
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 148.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>148_1.py  
+<class 'int'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>148_2.py  
+7
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>148_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>148_4.py  
+18.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>148_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>148_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>148_7.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>148_8.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>148_9.py  
+Af4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>148_10.py  
+A2 3 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>148_11.py  
+A4
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>148_12.py  
+A11 1 1 3
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>148_13.py  
+AERROR
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>148_14.py  
+A195
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 149.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>149_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>149_2.py  
+1.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>149_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>149_4.py  
+0.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>149_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>149_6.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>149_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>149_8.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>149_9.py  
+Af2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>149_10.py  
+A9 3 5
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>149_11.py  
+A1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>149_12.py  
+A12 5 3 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>149_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>149_14.py  
+A40161
+D:\Projects\Quiz\Scripts\Mod2020_1\code>call 150.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>150_1.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>150_2.py  
+7.50
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>150_3.py  
+<class 'float'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>150_4.py  
+2.00
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>150_5.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>150_6.py  
+False
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>150_7.py  
+<class 'bool'>
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>150_8.py  
+True
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>150_9.py  
+AffTrue
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>150_10.py  
+A6 0 1
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>150_11.py  
+A9
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>150_12.py  
+A10 5 6 2
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>150_13.py  
+
+D:\Projects\Quiz\Scripts\Mod2020_1\code>150_14.py  
+A803

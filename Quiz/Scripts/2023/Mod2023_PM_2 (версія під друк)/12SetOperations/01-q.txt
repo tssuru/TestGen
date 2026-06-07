@@ -1,0 +1,14 @@
+ <fabric>
+     file answer
+     <fname>
+         12SetOperations/01-s.txt
+     <\fname>
+     <before>
+Укажіть ТИП значення виразу.\par{ENDL} 
+%code{ENDL} 
+     <\before>
+<after>
+{ENDL}%code{ENDL}
+<\after>
+
+   <\fabric>

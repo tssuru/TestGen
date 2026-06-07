@@ -1,0 +1,30 @@
+echo
+echo =512_1.py 
+python3.10 ./512_1.py 
+echo
+echo =512_2.py 
+python3.10 ./512_2.py 
+echo
+echo =512_3.py 
+python3.10 ./512_3.py 
+echo
+echo =512_4.py 
+python3.10 ./512_4.py 
+echo
+echo =512_5.py 
+python3.10 ./512_5.py 
+echo
+echo =512_6.py 
+python3.10 ./512_6.py 
+echo
+echo =512_7.py 
+python3.10 ./512_7.py 
+echo
+echo =512_8.py 
+python3.10 ./512_8.py 
+echo
+echo =512_9.py 
+python3.10 ./512_9.py 
+echo
+echo =512_10.py 
+python3.10 ./512_10.py 

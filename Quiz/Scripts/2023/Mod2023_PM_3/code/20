@@ -1,0 +1,18 @@
+echo
+echo =20_1.py 
+python3.11 -W "ignore" ./20_1.py 
+echo
+echo =20_2.py 
+python3.11 -W "ignore" ./20_2.py 
+echo
+echo =20_3.py 
+python3.11 -W "ignore" ./20_3.py 
+echo
+echo =20_5.py 
+echo -1
+echo
+echo =20_7.py 
+echo 6 4 11 9 10 2 5 3 7 8 0 1
+echo
+echo =20_8.py 
+echo 1 2

@@ -1,0 +1,10 @@
+{
+  "title": "T-mixed-10",
+  "variantCount": 3,
+  "questionsPerVariant": 10,
+  "questionTypeFilter": "mixed",
+  "shuffleQuestions": true,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print"
+}

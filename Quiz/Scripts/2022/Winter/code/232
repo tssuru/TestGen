@@ -1,0 +1,30 @@
+echo
+echo =232_1.py 
+python3.10 ./232_1.py 
+echo
+echo =232_2.py 
+python3.10 ./232_2.py 
+echo
+echo =232_3.py 
+python3.10 ./232_3.py 
+echo
+echo =232_4.py 
+python3.10 ./232_4.py 
+echo
+echo =232_5.py 
+python3.10 ./232_5.py 
+echo
+echo =232_6.py 
+python3.10 ./232_6.py 
+echo
+echo =232_7.py 
+python3.10 ./232_7.py 
+echo
+echo =232_8.py 
+python3.10 ./232_8.py 
+echo
+echo =232_9.py 
+python3.10 ./232_9.py 
+echo
+echo =232_10.py 
+python3.10 ./232_10.py 

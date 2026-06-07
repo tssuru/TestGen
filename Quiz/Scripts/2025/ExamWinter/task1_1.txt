@@ -1,0 +1,11 @@
+bool, char, int, unsigned
+double, int, long, unsigned char
+bool, int, long, long long, unsigned char
+char, double, int, float, unsigned
+int, signed char, unsigned long, string
+bool*, char, int, unsigned
+double, int, long*, unsigned char
+bool, int, long, long long, unsigned char
+char, double, int, float, unsigned*
+int*, signed char, unsigned long, string
+

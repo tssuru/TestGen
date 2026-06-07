@@ -1,0 +1,27 @@
+echo
+echo =53_1.py 
+python3.10 ./53_1.py 
+echo
+echo =53_2.py 
+python3.10 ./53_2.py 
+echo
+echo =53_3.py 
+python3.10 ./53_3.py 
+echo
+echo =53_4.py 
+python3.10 ./53_4.py 
+echo
+echo =53_5.py 
+python3.10 ./53_5.py 
+echo
+echo =53_6.py 
+python3.10 ./53_6.py 
+echo
+echo =53_7.py 
+python3.10 ./53_7.py 
+echo
+echo =53_8.py 
+python3.10 ./53_8.py 
+echo
+echo =53_9.py 
+python3.10 ./53_9.py 

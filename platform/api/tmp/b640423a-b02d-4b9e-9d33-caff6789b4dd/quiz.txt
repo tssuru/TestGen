@@ -1,0 +1,801 @@
+<document>
+
+<header>
+\documentclass[11pt]{article}{ENDL}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\setlength{\parindent}{0pt}{ENDL}
+\setlength{\parskip}{4pt}{ENDL}
+\pagestyle{empty}{ENDL}
+\begin{document}{ENDL}
+<\header>
+
+<footer>
+\end{document}{ENDL}
+<\footer>
+
+<onNextVariant>
+\vspace{10mm}{ENDL}
+\noindent\rule{\textwidth}{0.3pt}{ENDL}
+\vspace{8mm}{ENDL}
+<\onNextVariant>
+
+<onNextPage>
+\newpage{ENDL}
+<\onNextPage>
+
+<from>
+1
+<\from>
+<to>
+1
+<\to>
+<onPage>
+1
+<\onPage>
+
+<\document>
+
+<variant>
+<before>
+{\large\textbf{open-50}}{ENDL}{ENDL}
+\textbf{Варіант \No\,#No#}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}{ENDL}
+\vspace{4mm}{ENDL}{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\variant>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2022/ProgAll/08Cycles/01-01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2022/Mod2022_3/ListOperations/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2019/Mod2019_3/Cycles/01-02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2019/Pass2019_Re/Log/03-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2019/ExamProgSummer2020/03/2-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2021/Mod2021_1bis/Log/03-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2020/ExamProgSummer2021/04/1-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2021/Exam/Tasks/ListOperations/03-03-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2019/Mod2019_1/Ar/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2021/Mod2021_1/Ar/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2021/Exam/Tasks/ListOperations/03-01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2021/Mod2021_1/If/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2021/Mod2021_1/05-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2023/ProgAll/06Scope/04-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2020/Mod2020_2/ListOperations/03-01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2023/ProgAll/12SetOperations/03-04-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2019/ExamProgSummer2020/04/1-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2022/ProgAll/05Invoke/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2024/ProgAll/06Scope/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2019/Mod2019_2/ListOperations/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2019/Pass2019/Cycles/01-01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2023/ProgAll/11ListOperations/03-03-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2019/Pass2019/Scope/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2022/ProgAll/06Scope/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2019/ExamProgSummer2020/03/1-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2021/Mod2020_3/SetOperations/x02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2025/Mod2025_INF_1/02Log/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2022/Mod2022_1/Log/03-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2021/Mod2021_1/Except/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2020/Mod2020_2/Cycles/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2019/ExamProgSummer2020/02/1-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2025/Mod2025_INF_1/03If/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2024/ProgAll/02Log/05-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2022/Mod2022_2/Cycles/s02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2019/Pass2019/Cycles/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2022/ProgAll/02Log/03-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2022/ProgAll/18Regex/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2022/Mod2022_3/Indexing/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2020/Mod2020_4/Lists/05-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2024/ProgAll/08Cycles/s02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2018/Mod2018_1LR/3-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2022/ProgAll/07Except/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2020/ExamProgSummer2021/02/1-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2021/Mod2021_3/SetOperations/03-04-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2020/ExamProgSummer2021_all/04/1-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2022/Winter/Ar/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2021/Mod2021_1bis/Ar/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2024/Mod2024_INF_1/01Ar/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2021/Mod2021_pass/ListOperations/03-01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2021/Mod2021_pass/Scope/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>

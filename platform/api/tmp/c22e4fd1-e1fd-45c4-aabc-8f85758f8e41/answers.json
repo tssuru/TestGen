@@ -1,0 +1,306 @@
+{
+  "title": "pdf-check-mixed",
+  "generatedAt": "2026-03-04T08:56:16.282Z",
+  "profile": "print",
+  "variantCount": 2,
+  "variants": [
+    {
+      "variantNumber": 1,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити всі правильні варіанти:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "<>",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "8.3",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "FIFO",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (6 * 6 * 6 * 6);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(-2**-2+1)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? � ������ ���������� ������ ���� �������� p->prev=p->prev->prev; ���� ������� �������� p->prev->prev->prev->prev->n ?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cout>>3;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int x+y=z;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<3.4;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int f(int n);",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; bool f(int n){ cout<<\"f\"; return n; } int main(){ cout<<(f(-6) && f(0)); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? В умовах попередньої задачі було виконано p->prev=p->prev->prev; Чому дорівнює значення p->prev->prev->prev->prev->n ?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int a = 2, b = 9, c = 0; int f(){ inta = 2; intb = 5; intc = 4; return a + b + c; } int main(){ inta = 6; intb = 7; intc = 1; cout << f() << ':'; cout << a << ':' << b << ':' << c; return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cout>>3;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int x+y=z;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<3.4;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int f(int n);",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Відмітити всі правильні варіанти:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "<>",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "8.3",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "FIFO",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        }
+      ]
+    },
+    {
+      "variantNumber": 2,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити всі правильні варіанти:",
+          "options": [
+            {
+              "number": 1,
+              "text": "[1]",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "=<",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "z13",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": ">",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду? � ������ ���������� ������ ���� �������� p->next=p->prev->prev; ���� ������� �������� p->next->next->next->next->n ?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (5 % 5 % 5 % 5);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; bool f(int n){ cout<<\"f\"; return n>-1; } int main(){ cout<<(f(1) || f(6)); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "int f(int a,b);",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "if a<b a=0;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "x-=2;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int x='a'-'c';",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Відмітити всі правильні варіанти:",
+          "options": [
+            {
+              "number": 1,
+              "text": "[1]",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "=<",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "z13",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": ">",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "int f(int a,b);",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "if a<b a=0;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "x-=2;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int x='a'-'c';",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int a = 3, b = 8, c = 6; int h(){ inta = 3; intb = 4; intc = 3; return a + b + c; } int main(){ inta = 1; intb = 7; intc = 2; cout << h() << ':'; cout << a << ':' << b << ':' << c; return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? В умовах попередньої задачі було виконано p->next=p->prev->prev; Чому дорівнює значення p->next->next->next->next->n ?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(2**1.0-2)",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    }
+  ]
+}

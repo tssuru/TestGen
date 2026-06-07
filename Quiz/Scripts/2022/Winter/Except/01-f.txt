@@ -1,0 +1,53 @@
+//source for question like
+//1622400 questions
+//Що буде надруковано за виконання:\n
+
+//exceptions
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+tab={SPACE}{SPACE}{SPACE}{SPACE}{SPACE}{SPACE}
+tab_main={SPACE}{SPACE}{SPACE}{SPACE}
+
+x={<int> 0 9}
+y=#x
+op=/;//;%
+xgood={<int> 1 3}
+xbad=0;0.0
+xcomp=<;<=;>;>=;==;!=
+xchar={<char> a d}
+
+guarded={int(#x new##op##xgood#)}{int(#x new##op##xbad#)}{int("#xchar##x new#")}{int("#x new#")}{#x new##xcomp##y#}
+//guarded={#x new##op##xgood#}{#x new##op##xbad#}{#x new#j#xcomp##y#j}{int("#xchar##x new#")}{int("#x new#")}
+
+exc=Exception;BaseException;ValueError;TypeError;ZeroDivisionError;KeyboardInterrupt
+
+<\declarations>
+
+<template>
+%code{ENDL}
+{ENDL}
+try:{ENDL}
+{SPACE4}print(#x#, end=""){ENDL}
+{SPACE4}print(#guarded#, end=""){ENDL}
+{SPACE4}print(#x new#, end=""){ENDL}
+except #exc#: {ENDL}
+{SPACE4}print(#x new#, end=""){ENDL}
+except #exc new#: {ENDL}
+{SPACE4}print(#x new#, end=""){ENDL}
+else:{ENDL} 
+{SPACE4}print(#x new#, end=""){ENDL}
+finally:{ENDL} 
+{SPACE4}print(#x new#, end=""){ENDL}
+{ENDL}
+%code{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

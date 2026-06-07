@@ -1,0 +1,28 @@
+//source for question like
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+n={<int> 0 7}
+arg={<file:7> 01Classes/07-s.txt}
+
+<\declarations>
+
+<template>
+{ENDL}%code{ENDL}
+#arg#{ENDL}
+public:{ENDL} 
+{SPACE} C(){cout<<"C";}{ENDL}
+{SPACE} ~C(){cout<<"~C";}};{ENDL}
+void test(){{ENDL}
+{SPACE} try{C c;} {ENDL}
+{SPACE} catch(...){} {ENDL}
+{SPACE} cout<<"=";}{ENDL}
+{ENDL}%code{ENDL}{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>

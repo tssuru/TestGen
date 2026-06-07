@@ -1,0 +1,13 @@
+ <fabric>
+     template answer
+     <fname>
+         If/01-f.txt
+     <\fname>
+
+     <before>
+Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?{ENDL}
+     <\before>
+
+     <after>
+     <\after>
+   <\fabric>

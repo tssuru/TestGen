@@ -1,0 +1,20 @@
+ <fabric>
+     file answer
+     <fname>
+         task1_2.txt
+     <\fname>
+     <num>
+     4
+     <\num>
+
+     <before>
+Максимально змістовно повно сформулюйте назву оголошеного в наведеному фрагменті методу класу.{ENDL}
+\vspace{-3mm}{ENDL}
+\begin{verbatim}
+     <\before>
+
+     <after>
+\end{verbatim}{ENDL}
+\vspace{-3mm}{ENDL}
+     <\after>
+   <\fabric>

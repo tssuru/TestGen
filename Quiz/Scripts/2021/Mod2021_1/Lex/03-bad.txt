@@ -1,0 +1,28 @@
+y=3^^2;
+if ('x'><'y'): a=6
+x+3=5
+y=/x
+x=*2
+x not is y
+x in not y
+return +
+def f(a, 4): pass
+if a<b a=0
+'a'=3
+"a"=6
+a=1;b=2;a+b=13
+True=1
+False=0
+"a"d"
+'a'a'
+None=0
+print(end="1","qwe")
+print(sep=":","qwe")
+n=1; n++
+n=2; n--
+input()*1.2
+if a<b: a=0 else: b=0
+(2+2j)//2
+(2+2j)%2
+
+

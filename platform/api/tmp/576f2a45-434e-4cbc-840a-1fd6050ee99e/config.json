@@ -1,0 +1,22 @@
+{
+  "title": "Acceptance print",
+  "disciplineId": "informatics",
+  "languageId": "cpp",
+  "variantCount": 1,
+  "questionsPerVariant": 2,
+  "difficultyProfile": {
+    "easy": 1,
+    "medium": 1,
+    "hard": 1
+  },
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportFormats": [
+    "pdf",
+    "docx",
+    "md",
+    "zip"
+  ],
+  "exportProfile": "print",
+  "questionPoolFilters": []
+}

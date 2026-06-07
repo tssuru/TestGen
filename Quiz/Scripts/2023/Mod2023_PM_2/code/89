@@ -1,0 +1,18 @@
+echo
+echo =89_1.py 
+python3.11 -W "ignore" ./89_1.py 
+echo
+echo =89_2.py 
+python3.11 -W "ignore" ./89_2.py 
+echo
+echo =89_3.py 
+python3.11 -W "ignore" ./89_3.py 
+echo
+echo =89_4.py 
+python3.11 -W "ignore" ./89_4.py 
+echo
+echo =89_5.py 
+python3.11 -W "ignore" ./89_5.py 
+echo
+echo =89_6.py 
+python3.11 -W "ignore" ./89_6.py 

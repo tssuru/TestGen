@@ -1,0 +1,57 @@
+{
+  "jobId": "3a472b28-4a95-4e14-84d7-026250e949d4",
+  "createdAt": "2026-03-03T14:04:31.216Z",
+  "inputConfigHash": "pending",
+  "engineVersion": "pending",
+  "artifacts": [
+    {
+      "name": "config.json",
+      "path": "/app/platform/api/tmp/3a472b28-4a95-4e14-84d7-026250e949d4/config.json",
+      "size": 389,
+      "sha256": "1d010f34e8bfc632bf37461a5248110ed0f46e6fb15fc2f72f625afe65c6351d"
+    },
+    {
+      "name": "answers.json",
+      "path": "/app/platform/api/tmp/3a472b28-4a95-4e14-84d7-026250e949d4/answers.json",
+      "size": 137,
+      "sha256": "e6c7926092da72459b658080cdf74d4b910039ab0473de438fb82cd948a5a695"
+    },
+    {
+      "name": "answers.md",
+      "path": "/app/platform/api/tmp/3a472b28-4a95-4e14-84d7-026250e949d4/answers.md",
+      "size": 96,
+      "sha256": "9cfe4e8ebaf4d36479dfe8d9ce4bd3641b24fbfe481162143d083cc16427672b"
+    },
+    {
+      "name": "test.print.md",
+      "path": "/app/platform/api/tmp/3a472b28-4a95-4e14-84d7-026250e949d4/test.print.md",
+      "size": 18,
+      "sha256": "c5d71fd65a176a370ded75afd1daa0ef488a347956ff6179d5c256c8721def06"
+    },
+    {
+      "name": "test.lms.md",
+      "path": "/app/platform/api/tmp/3a472b28-4a95-4e14-84d7-026250e949d4/test.lms.md",
+      "size": 99,
+      "sha256": "7a511963a4e2744490abf417b0e9acb8afb21b17c47ea77d069a3068c8e6db5b"
+    },
+    {
+      "name": "test.md",
+      "path": "/app/platform/api/tmp/3a472b28-4a95-4e14-84d7-026250e949d4/test.md",
+      "size": 18,
+      "sha256": "c5d71fd65a176a370ded75afd1daa0ef488a347956ff6179d5c256c8721def06"
+    },
+    {
+      "name": "quiz.pdf",
+      "path": "/app/platform/api/tmp/3a472b28-4a95-4e14-84d7-026250e949d4/quiz.pdf",
+      "size": 26993,
+      "sha256": "e192cfbd4c748d5856b4392adc8a346c8fa241b4e37d063d492faa36c22cc6a7"
+    },
+    {
+      "name": "test.docx",
+      "path": "/app/platform/api/tmp/3a472b28-4a95-4e14-84d7-026250e949d4/test.docx",
+      "size": 9754,
+      "sha256": "3d204c4da50ee363953764e558b60d1eac3cdffe37a99ea923490b943c5c8033"
+    }
+  ],
+  "status": "completed"
+}

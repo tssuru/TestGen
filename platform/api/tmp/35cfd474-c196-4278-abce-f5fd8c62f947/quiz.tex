@@ -1,0 +1,1295 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}{/app/Quiz/Scripts/2021/Mod2021_3/BinTree/}{/app/Quiz/Scripts/2019/Mod2019_3/BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,1}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+%code
+a,b,c=8,4,5
+def g(b):
+    a=5
+    b=1
+    c=3
+    return a+b+c
+
+a,b,c=7,9,6
+print(g(b),a,b,c)
+%code
+
+%enditem
+%beginitem
+2. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) int n,n;
+
+( 2 ) int f(int n);
+
+( 3 ) int x='a'-'c';
+
+( 4 ) x=*2;
+
+%enditem
+%beginitem
+3. 
+Знайти кількість відношень на n-елементній множині, які неантирефлексивні або неантисиметричні
+%enditem
+%beginitem
+4. 
+Записати ВИРАЗ, значенням якого є словник, ключами якого є цілі числа від 19 до 2011 (включно), що діляться на 7, а ключам відповідають їх куби 
+
+%enditem
+%beginitem
+5. Що буде виведено за виконання фрагменту коду?
+
+%code
+"5j">="5.0j"
+%code
+
+%enditem
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+
+%code
+print("5j">="5.0j")
+%code
+
+%enditem
+%beginitem
+7. Що буде виведено за виконання фрагменту коду?
+
+%code
+n=8
+while n<=9:
+    n+=2
+print(n, end=' ')
+%code
+
+
+%enditem
+%beginitem
+8. Що буде виведено за виконання фрагменту коду?
+
+%code
+d = ('a','b','c','d','e',0,1,2,3,4)
+print(d[-2])
+%code
+
+
+%enditem
+%beginitem
+9. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(5.0 == 5 != False > 6)
+%code
+
+%enditem
+%beginitem
+10. 
+
+print('R', end=' ')
+d=['0','1','2','3','4']
+d.append('13')
+print(d)
+
+
+%enditem
+%beginitem
+11. Що буде виведено за виконання фрагменту коду?
+%Оригинал был утерян. Требует отладки!
+%code
+__d = 0
+
+class D:
+    __d = 1
+    
+    def __init__(self):
+        self.__d = 2
+        __d = 3
+        D.__d = 4
+
+obj = D()
+D.__d = 5
+try:
+    print(__d, end=' ')
+    print(obj.__d, end=' ')
+    print(D.__d, end=' ')
+    print(obj.__d, end=' ')
+    print(obj._D__d)
+except:
+    print('ERR')
+%code
+
+%enditem
+%beginitem
+12. 
+code
+d = 0
+m = 1
+
+class D:
+    m = 2
+    
+    def __init__(self):
+global m        self.m = 3
+        m = 4
+        D.m = 5
+
+obj = D()
+print(d, m, D.m, obj.m, sep=' ')
+code
+
+%enditem
+%beginitem
+13. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+n=14
+while n>=8:
+    n+=-2
+print(n)
+%code
+
+
+%enditem
+%beginitem
+14. 
+char d[]="abcde0124"; cout<<sizeof(d)<<','<<d<<endl;
+   d[4]='\0'; cout<<sizeof(d)<<','<<d<<'*';
+%enditem
+%beginitem
+15. 
+try:
+    n = 14
+    while n>=8:
+        n += -2
+    print(n, end=';')
+except:
+    print('ERR')
+
+%enditem
+%beginitem
+16. 
+n=14
+   while n>=8: n+=-2
+   print(n)
+%enditem
+%beginitem
+17. Що буде виведено за виконання фрагменту коду?
+
+%code
+def g(d):
+    x=59
+    if d: 
+        x=8
+    elif d>=4:
+         return 4
+    else:
+         return 5
+    return x
+
+print(g(2))
+%code
+
+%enditem
+%beginitem
+18. 
+for d in range(-4,-4,3):
+     if d>=6: continue
+     print(d,end=' ');d=1
+     if d>=6: break
+   else: print(d,end=' ')
+   print(d)
+%enditem
+%beginitem
+19. 
+Записати ВИРАЗ, значенням якого є список, що складається з цілих чисел від 19 до 2011 (включно), причому спочатку за спаданням записано всі, що діляться на 7, а потім решту за спаданням.
+
+%enditem
+%beginitem
+20. 
+try:
+    for d in range(-4, -4, 3):
+        if d>=6:
+            continue
+        print(d, end=';');d = 1
+        if d>=6:
+            break
+    else:
+        print(d,end=';')
+    print(d)
+except:
+    print('Z')
+
+%enditem
+%beginitem
+21. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3,4)
+print(d[-2])
+%code
+
+
+%enditem
+%beginitem
+22. 
+Записати ВИРАЗ, значенням якого є список, що складається з цілих чисел від 19 до 2011 (включно), причому спочатку за спаданням записано всі, що діляться на 7, а потім решту за спаданням.
+%enditem
+%beginitem
+23. 
+for d in range(-4,-4,3):
+    if d>=6:
+        continue
+        print(d,end=' ')
+        d=1
+    if d>=6:
+        break
+else:
+    print(d, end=' ')
+print(d, end=' ')
+
+%enditem
+%beginitem
+24. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/155.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:155 оберненому
+
+%enditem
+%beginitem
+25. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+d = ('a','b','c','d','e',0,1,2,3,4)
+print(d[-2])
+%code
+
+
+%enditem
+%beginitem
+26. Що буде виведено за виконання фрагменту коду?
+%code
+
+def f(n):
+    print("f", end="");
+    return n>=0
+
+print(f(2) or f(6))
+%code
+
+%enditem
+%beginitem
+27. 
+7//7%7*7
+%enditem
+%beginitem
+28. Що буде виведено за виконання фрагменту коду?
+
+%code
+try:
+    n = 8
+    while n<=9:
+        n += 2
+    print(n, end=';')
+except:
+    print('Z')
+
+%code
+
+%enditem
+%beginitem
+29. Що буде виведено за виконання фрагменту коду?
+%code
+
+a,b,c=9,6,7
+def g(a,b=8,c=6):
+    print(a,b,c,end="")
+
+g(3,4,b=5)
+print(a,b,c)
+
+%code
+
+%enditem
+%beginitem
+30. 
+Кожен рядок текстового файлу містить по два дійсних числа, розділені білими символами.
+Написати функцію, що для заданого текстового файлу будує новий текстовий файл, рядки якого крім зображень дйсних чисел ще містять результат обчислення на них функції $f$. У вихідному файлі зображення чисел мають розділятися пробілами. 
+$$f(x, y) =\frac{\pi x - 26}{(\arcsin x - 0.5) (y - 22)}$$ 
+Якість коду також оцінюється.
+
+
+%enditem
+%beginitem
+31. 
+Записати ВИРАЗ, значенням якого є множина, що складається з квадратних коренівцілих чисел від 19 до 2011 (включно), що діляться на 7.
+%enditem
+%beginitem
+32. 
+a = 8
+b = 4
+c = 5
+
+def g(b):
+global c    a = 5
+    b = 1
+    c = 3
+    return a + b + c
+
+a = 7
+b = 9
+c = 6
+
+try:
+    print(g(b), a, b, c, sep=';')
+except:
+    print('ERR', a, b, c, sep=';')
+
+%enditem
+%beginitem
+33. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../15BinTree/trees_exp/155.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:155 оберненому
+
+%enditem
+%beginitem
+34. 
+У папці X31 розташовано проект, до якого входить синаксично правильна одиниця трансляції 1.cpp з рядком\par
+{\#}include "2.h"
+\parФайла 2.h у папці X31 нема, але він є в папці Y7. Що треба зробити, щоб одиниця трансляції 1.cpp, могла успішно відкомпілюватися?Переміщувати, копіювати та змінювати файли з кодом заборонено.\par\vspace{1.5cm}
+%enditem
+%beginitem
+35. 
+try:
+    res = not5.0>=5 or notFalse==6 or 7!=6.0
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+%enditem
+%beginitem
+36. 
+
+print('R', end=' ')
+d=['0','1','2','3','4','5','6','7','8','9']
+print(d[-4::3])
+
+
+%enditem
+%beginitem
+37. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/49.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. ̳тки записувати через пробіл.\par Обхід дерева починається з кореня (на рис. це верхня вершина).
+%answer:49 оберненому
+%enditem
+%beginitem
+38. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(7//7%7*7)
+%code
+
+%enditem
+%beginitem
+39. Що буде виведено за виконання фрагменту коду?
+
+%code
+a = 8
+b = 4
+c = 5
+
+def g(b):
+global c    a-=5
+    b=1
+    c=3
+    return a+b+c
+
+a, b, c = 7, 9, 6
+try:
+    print(g(b), a, b, c, sep=';')
+except:
+    print('Z', a, b, c, sep=';')
+%code
+
+%enditem
+%beginitem
+40. 
+d=('a','b','c','d','e',0,1,2,3,4); print(d[-2])
+%enditem
+%beginitem
+41. 
+
+print('R', end=' ')
+for d in range(-4,-4,3):
+    if d>=6:
+        continue
+        print(d, end=' ')
+        d=1
+    if d>=6:
+        break
+    else:
+        print(d, end=' ')
+    print(d)
+
+%enditem
+%beginitem
+42. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+d = ['0','1','2','3','4','5','6','7','8','9']
+print(d[-4::3])
+%code
+
+
+%enditem
+%beginitem
+43. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) n=2; n--
+
+( 2 ) 3**-1
+
+( 3 ) x=float("inf")
+
+( 4 ) False=0
+
+%enditem
+%beginitem
+44. 
+Рядки журналу через двокрапку містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад
+\begin{verbatim}
+s="username : 2022-05-05 13:26 : ERROR : 404"
+\end{verbatim}
+у коді 
+\begin{verbatim}
+res = re.fullmatch('???', s) 
+s = ''
+code_str = ??? 
+\end{verbatim}
+чим треба замінити кожен з ???, щоб значенням code\_str був код події? 
+
+
+
+%enditem
+%beginitem
+45. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (5.0 >= 5 == false != 6);
+%code
+
+%enditem
+%beginitem
+46. 
+
+def f(n):
+    print("f", end="");
+    return n>=0
+
+print(f(2) or f(6))
+
+%enditem
+%beginitem
+47. 
+n=8
+   while n<=9: n+=2
+   print(n)
+%enditem
+%beginitem
+48. 
+try:
+    n = 8
+    while n<=9:
+        n += 2
+    print(n, end=';')
+except:
+    print('ERR')
+
+%enditem
+%beginitem
+49. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+int a = 8, b = 4, c = 5;
+
+int g(int &b){
+int c;    a = 5;
+    b = 1;
+    c = 3;
+    return a + b + c;
+}
+
+int main(){
+    inta = 7;
+    intb = 9;
+    intc = 6;
+    cout << g(b) << ':';
+    cout << a << ':' << b << ':' << c;
+    return 0; 
+}
+%code
+
+%enditem
+%beginitem
+50. 
+d=['0','1','2','3','4']; d.append('13'); print(d)
+%enditem
+%beginitem
+51. 
+a = 8
+b = 4
+c = 5
+
+def g(b):
+global c    a -= 5
+    b = 1
+    c = 3
+    return a + b + c
+
+a = 7
+b = 9
+c = 6
+
+try:
+    print(g(b), a, b, c, sep=';')
+except:
+    print('Z', a, b, c, sep=';')
+
+%enditem
+%beginitem
+52. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(3**4-2)
+%code
+
+%enditem
+%beginitem
+53. 
+try:
+    res = 7//7%7*7
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+%enditem
+%beginitem
+54. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+int g(int a, int b){
+    int c = 59;
+    if (b)
+        c = 8;
+    else if (b >= 4)
+         return 4;
+    else 
+        return 5;
+    return c;
+}
+
+int main(){
+    cout << g(2, 2);
+    return 0;
+}
+%code
+
+%enditem
+%beginitem
+55. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+
+bool f(int n){
+    std::cout<<"f";
+    return n>=0;
+}
+
+int main(){
+    std::cout<<(f(2) || f(6));
+    return 0;
+}
+%code
+
+%enditem
+%beginitem
+56. 
+Записати ВИРАЗ, значенням якого є множина, що складається з квадратних коренівцілих чисел від 19 до 2011 (включно), що діляться на 7.
+%enditem
+%beginitem
+57. 
+
+def g(a,b):
+    c=59
+    if b:
+        c=8
+    elif b>=4:
+         return 4
+    else: 
+        return 5
+    return c
+
+print(g(2,2))
+%enditem
+%beginitem
+58. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) x*y
+
+( 2 ) {
+
+( 3 ) "a\"a"
+
+( 4 ) =>
+
+%enditem
+%beginitem
+59. Що буде виведено за виконання фрагменту коду?
+%code
+if (10 >= 10)
+    cout << "v";
+else
+    cout << "v";
+%code
+
+
+%enditem
+%beginitem
+60. Що буде виведено за виконання фрагменту коду?
+%code
+for d in range(-4,-4,3):
+    if d>=6:
+        continue
+        print(d,end=' ')
+        d=1
+    if d>=6:
+        break
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+
+%enditem
+%beginitem
+61. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+d=['0','1','2','3','4','5','6','7','8','9']
+print(d[-4::3])
+%code
+
+
+%enditem
+%beginitem
+62. 
+Скільки 2017-елементних підмножин множини натуральних від 1 до 20172017 містять рівно два числа, що менше 172010
+%enditem
+%beginitem
+63. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) <>
+
+( 2 ) FIFO
+
+( 3 ) >
+
+( 4 ) =<
+
+%enditem
+%beginitem
+64. 
+Записати ВИРАЗ, значенням якого є список, що складається з квадратних коренівцілих чисел від 19 до 2011 (включно), що діляться на 7, записаних в оберненому порядку.
+%enditem
+%beginitem
+65. 
+
+x,y,z=3,4,5
+x,y,z,z=y,x,9,6
+print(x,y,z)
+
+%enditem
+%beginitem
+66. 
+Записати ВИРАЗ, значенням якого є список, що складається з цілих чисел від 19 до 2011 (включно), причому спочатку за спаданням записано всі, що діляться на 7, а потім решту за спаданням.
+%enditem
+%beginitem
+67. 
+Записати ВИРАЗ, значенням якого є множина, що складається з цілих чисел від 19 до 2011 (включно), що діляться на 7.
+%enditem
+%beginitem
+68. 
+
+def g(d):
+    x=59
+    if d: 
+        x=8
+    elif d>=4:
+         return 4
+    else:
+         return 5
+    return x
+
+print(g(2))
+
+%enditem
+%beginitem
+69. Що буде виведено за виконання фрагменту коду?
+%code
+#include <iostream>
+using namespace std;
+
+int f(int &x, int &y){
+    x = 5;
+    y-= 9;
+    return y;
+}
+
+int main(){
+    int a = 3, b = 2;
+    b = f(b, b);
+    cout << a << ":" << b <<':';
+    {
+        int a = 4, b = 7;
+        cout << ((b>=7) || ((a-=2) >= 7)) << ':';
+        cout << a << ":" << b << ':';
+    }
+    {
+        inta = 8;
+        cout << a << ':';
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+
+%enditem
+%beginitem
+70. 
+try:
+    print(8, end=';')
+    print(int('4'), end=';')
+    print(5, end=';')
+except KeyboardInterrupt:
+    print(7, end=';')
+except Exception:
+    print(9, end=';')
+except:
+    print('ERR', end=';')
+else:
+    print(6, end=';')
+finally:
+    print(1)
+
+%enditem
+%beginitem
+71. 
+Записати ВИРАЗ, значенням якого є множина, що складається з цілих чисел від 19 до 2011 (включно), що діляться на 7.
+%enditem
+%beginitem
+72. Що буде виведено за виконання фрагменту коду?
+
+%code
+a = 8
+b = 4
+c = 5
+
+def g(b):
+global c    a=5
+    b=1
+    c=3
+    return a+b+c
+
+a, b, c = 7,9,6
+try:
+    print(g(b), a, b, c, sep=';')
+except:
+    print('Z', a, b, c, sep=';')
+%code
+
+%enditem
+%beginitem
+73. Що буде виведено за виконання фрагменту коду?
+
+%code
+d=['0','1','2','3']
+d.append('13')
+print(d)
+%code
+
+
+%enditem
+%beginitem
+74. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+bool f(int n){
+    cout<<"f";
+    return n>=0;
+}
+
+int main(){
+    cout<<(f(2) || f(6));
+    return 0;
+}
+%code
+
+%enditem
+%beginitem
+75. Що буде виведено за виконання фрагменту коду?
+
+%code
+a,b,c=8,4,5
+def g(b):
+global c    a-=5
+    b=1
+    c=3
+    return a+b+c
+
+a,b,c=7,9,6
+print(g(b),a,b,c)
+%code
+
+%enditem
+%beginitem
+76. Що буде виведено за виконання фрагменту коду?
+%code
+#include <iostream>
+using namespace std;
+
+int f(int &x, int &y){
+    x = 5;
+    y-= 9;
+    return y;
+}
+
+int main(){
+    int a = 3, b = 2;
+    b = f(b, b);
+    cout << a << ":" << b <<':';
+    {
+        int a = 4, b = 7;
+        cout << ((b>=7) || ((a-=2) >= 7))
+             << a << ":" << b << ":";
+    }
+    {
+        inta = 8;
+        cout << a << ':';
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+
+%enditem
+%beginitem
+77. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+d[1:1]=[1,0]
+print(d)
+%code
+
+
+%enditem
+%beginitem
+78. 
+Рядки журналу через = містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад
+\begin{verbatim}
+s="username = 2022-05-05 13:26 = ERROR = 404"
+\end{verbatim}
+у коді 
+\begin{verbatim}
+res = re.fullmatch('???', s) 
+s = ''
+code_str = ??? 
+\end{verbatim}
+чим треба замінити кожен з ???, щоб значенням code\_str був код події? 
+
+
+
+%enditem
+%beginitem
+79. 
+Записати ВИРАЗ, значенням якого є список, що складається з квадратних коренівцілих чисел від 19 до 2011 (включно), що діляться на 7, записаних в обернено\-му порядку.
+
+%enditem
+%beginitem
+80. 
+Задано тип вузла списку
+struct Node \{int n; Node *prev, *next;\};
+У списку зберігаються послідовні цілі числа від -21 до 36. Вказівник p встановлено на вузол, в якому зберігається число 2.
+Чому дорівнює значення p->next->next->next->next->next->n ?
+%enditem
+%beginitem
+81. Що буде виведено за виконання фрагменту коду?
+
+%code
+def g(a,b):
+    c=59
+    if b:
+        c=8
+    elif b>=4:
+         return 4
+    else: 
+        return 5
+    return c
+
+print(g(2,2))
+%code
+
+%enditem
+%beginitem
+82. 
+try:
+    res = 3**4-2
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+
+%enditem
+%beginitem
+83. 
+
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3,4)
+print(d[-2])
+
+
+%enditem
+%beginitem
+84. 
+"5j">="5.0j"
+%enditem
+%beginitem
+85. 
+a,b,c=8,4,5
+    def g(b):
+      global c      a=5
+      b=1
+      c=3
+      return a+b+c
+    a,b,c=7,9,6
+    print(g(b),a,b,c)
+%enditem
+%beginitem
+86. Що буде виведено за виконання фрагменту коду?
+%code
+if (10 >= 10)
+    cout << "v";
+else
+    cout << "o";
+%code
+
+
+%enditem
+%beginitem
+87. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+d.append('13')
+print(d)
+%code
+
+
+%enditem
+%beginitem
+88. 
+
+try:
+    print(8,end="")
+    print(int("4"),end="")
+    print(5,end="")
+except TypeError: print(7,end="")
+except ZeroDivisionError: print(9,end="")
+else: print(6,end="")
+finally: print(1,end="")
+
+%enditem
+%beginitem
+89. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << 14 / 14 / 14 / 14;
+%code
+
+%enditem
+%beginitem
+90. 
+Змінні $next$ та $prev$ вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від $-21$ до $36$. Нехай змінна $p$ позначає вузол, що зберігає значення $2$.
+Яке значення зберігається у вузлі $p.next.next.next.next.next$ ?
+
+%enditem
+%beginitem
+91. 
+Записати ВИРАЗ, значенням якого є словник, ключами якого є цілі числа від 19 до 2011 (включно), що діляться на 7, а ключам відповідають їх куби 
+%enditem
+%beginitem
+92. 
+def f(arg, n):
+    n = 8
+    tmp = arg
+    tmp[1:1] = [1,0]
+    return len(tmp)>3
+
+try:
+    d = ['0','1','2','3','4']
+    n = 4
+    f(d, n)
+    print(n, end=';')
+    for el in d:
+        print(el, end=';')
+except:
+    print('ERR')
+
+%enditem
+%beginitem
+93. 
+def f(n):
+    print('f', end='')
+    return n>=0
+
+try:
+    print(f(2) or f(6))
+except:
+    print('ERR')
+
+%enditem
+%beginitem
+94. 
+Змінні next та prev вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови у список записано послідовні цілі числа від -21 до 36. Нехай змінна p позначає вузол, що зберігає значення 2.
+Яке значення зберігається у вузлі p.next.next.next.next.next ?
+%enditem
+%beginitem
+95. 
+Записати ВИРАЗ, значенням якого є множина, що складається з цілих чисел від 19 до 2011 (включно), що діляться на 7.
+
+%enditem
+%beginitem
+96. 
+
+a,b,c=8,4,5
+def g(b):
+global c    a-=5
+    b=1
+    c=3
+    return a+b+c
+
+a,b,c=7,9,6
+print(g(b),a,b,c)
+
+%enditem
+%beginitem
+97. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (14 / 14 / 14 / 14);
+%code
+
+%enditem
+%beginitem
+98. 
+Проект складається з од���ї одиниці трансляції 1.cpp, яка починається таким фрагментом\par
+long g(){ return myFunc();}\par
+Функція myFunc(); означена в 2.cpp.\par
+Що треба зробити для того, щоб 1.cpp успішно відкомпілювався?\par\vspace{1.5cm}
+Що треба зробити для того, щоб за проектом зібрався виконуваний код?\par
+
+%enditem
+%beginitem
+99. Що буде виведено за виконання фрагменту коду?
+
+%code
+n=14
+while n>=8:
+    n+=-2
+print(n)
+%code
+
+
+%enditem
+%beginitem
+100. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(not5.0>=5 or notFalse==6 or 7!=6.0)
+%code
+
+%enditem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+\end{document}
+
+

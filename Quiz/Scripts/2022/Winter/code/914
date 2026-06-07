@@ -1,0 +1,30 @@
+echo
+echo =914_1.py 
+python3.10 ./914_1.py 
+echo
+echo =914_2.py 
+python3.10 ./914_2.py 
+echo
+echo =914_3.py 
+python3.10 ./914_3.py 
+echo
+echo =914_4.py 
+python3.10 ./914_4.py 
+echo
+echo =914_5.py 
+python3.10 ./914_5.py 
+echo
+echo =914_6.py 
+python3.10 ./914_6.py 
+echo
+echo =914_7.py 
+python3.10 ./914_7.py 
+echo
+echo =914_8.py 
+python3.10 ./914_8.py 
+echo
+echo =914_9.py 
+python3.10 ./914_9.py 
+echo
+echo =914_10.py 
+python3.10 ./914_10.py 

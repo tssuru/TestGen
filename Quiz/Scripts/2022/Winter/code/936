@@ -1,0 +1,30 @@
+echo
+echo =936_1.py 
+python3.10 ./936_1.py 
+echo
+echo =936_2.py 
+python3.10 ./936_2.py 
+echo
+echo =936_3.py 
+python3.10 ./936_3.py 
+echo
+echo =936_4.py 
+python3.10 ./936_4.py 
+echo
+echo =936_5.py 
+python3.10 ./936_5.py 
+echo
+echo =936_6.py 
+python3.10 ./936_6.py 
+echo
+echo =936_7.py 
+python3.10 ./936_7.py 
+echo
+echo =936_8.py 
+python3.10 ./936_8.py 
+echo
+echo =936_9.py 
+python3.10 ./936_9.py 
+echo
+echo =936_10.py 
+python3.10 ./936_10.py 

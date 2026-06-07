@@ -1,0 +1,15 @@
+водоспадна модель%bad
+V-модель%bad
+спіральна модель%bad
+XP%bad
+Scrum%bad
+Scrum of scrums%bad
+RUP%bad
+RAD%bad
+TDD%bad
+BDD%bad
+DSDM%bad
+FDD%bad
+BDUF%bad
+модель хаосу%bad
+Cleanroom%bad

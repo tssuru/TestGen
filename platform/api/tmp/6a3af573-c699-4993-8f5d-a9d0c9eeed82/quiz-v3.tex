@@ -1,0 +1,61 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,3}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+try:
+    res = 8//8%8*8
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+
+%enditem
+
+%beginitem
+2. Відмітити все, що є коректним оператором С++:
+( 1 ) n=1; n++
+
+( 2 ) False=0
+
+( 3 ) n=10; --n
+
+( 4 ) x=float("inf")
+
+%enditem
+
+%beginitem
+3. Відмітити все, що є однією правильною лексемою:
+( 1 ) '123'
+
+( 2 ) =<
+
+( 3 ) fop
+
+( 4 ) >
+
+%enditem
+
+%end
+\newpage
+\end{document}
+

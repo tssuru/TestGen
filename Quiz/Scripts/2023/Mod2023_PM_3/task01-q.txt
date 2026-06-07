@@ -1,0 +1,14 @@
+<fabric>
+     file answer
+     <fname>
+    task1.txt
+     <\fname>
+
+     <before>
+	 {ENDL}Написати функцію $f$, яка для файлу, заданого шляхом, розв’язує задачу:\\{SPACE} 
+     <\before>
+     <after>
+	{ENDL}{ENDL}В усіх випадках розміри файлів такі, що їх вміст повністю завантажений у пам'ять бути не може. Якість коду також оцінюється. {ENDL}{ENDL}
+{ENDL}{ENDL}\vspace{10mm}{ENDL}{ENDL}
+     <\after>
+  <\fabric>

@@ -1,0 +1,2181 @@
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 1.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>1_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>1_2.py  
+3 3 8 7 5 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>1_5.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>1_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 2.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>2_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>2_2.py  
+(28, 1) (51, 6) (20, 7) (53, 6) (12, 8) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>2_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>2_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 3.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>3_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>3_2.py  
+55 71 73 12 18 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>3_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>3_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 4.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>4_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>4_2.py  
+34 7 45 0 52 1 20 3 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>4_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>4_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 5.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>5_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>5_2.py  
+82 1 41 4 34 9 66 6 39 0 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>5_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>5_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 6.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>6_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>6_2.py  
+25 47 13 12 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>6_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>6_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 7.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>7_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>7_2.py  
+58 35 76 24 55 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>7_5.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>7_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 8.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>8_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>8_2.py  
+(28, 2) (34, 3) (44, 2) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>8_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>8_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 9.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>9_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>9_2.py  
+2 9 0 1 6 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>9_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>9_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 10.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>10_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>10_2.py  
+71 4 57 1 87 8 81 9 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>10_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>10_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 11.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>11_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>11_2.py  
+46 28 88 14 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>11_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>11_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 12.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>12_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>12_2.py  
+53 2 19 8 13 8 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>12_5.py  
+4 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>12_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 13.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>13_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>13_2.py  
+10 9 31 9 28 9 67 8 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>13_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>13_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 14.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>14_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>14_2.py  
+11 88 40 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>14_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>14_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 15.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>15_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>15_2.py  
+88 5 81 6 84 2 42 3 39 3 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>15_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>15_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 16.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>16_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>16_2.py  
+(75, 4) (53, 4) (71, 4) (85, 8) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>16_5.py  
+0 4 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>16_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 17.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>17_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>17_2.py  
+0 8 4 1 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>17_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>17_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 18.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>18_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>18_2.py  
+32 43 26 38 35 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>18_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>18_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 19.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>19_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>19_2.py  
+10 51 55 33 85 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>19_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>19_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 20.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>20_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>20_2.py  
+9 7 5 7 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>20_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>20_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 21.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>21_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>21_2.py  
+10 2 32 8 74 0 20 7 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>21_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>21_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 22.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>22_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>22_2.py  
+63 3 82 6 48 6 58 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>22_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>22_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 23.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>23_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>23_2.py  
+(37, 4) (39, 7) (75, 1) (72, 6) (77, 4) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>23_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>23_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 24.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>24_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>24_2.py  
+57 39 30 55 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>24_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>24_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 25.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>25_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>25_2.py  
+52 0 55 9 21 9 36 5 67 5 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>25_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>25_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 26.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>26_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>26_2.py  
+55 19 22 53 11 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>26_5.py  
+4 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>26_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 27.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>27_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>27_2.py  
+(68, 9) (31, 4) (11, 6) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>27_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>27_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 28.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>28_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>28_2.py  
+3 1 5 4 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>28_5.py  
+0 4 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>28_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 29.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>29_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>29_2.py  
+87 35 54 39 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>29_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>29_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 30.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>30_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>30_2.py  
+30 1 71 2 10 6 37 4 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>30_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>30_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 31.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>31_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>31_2.py  
+6 5 7 9 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>31_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>31_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 32.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>32_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>32_2.py  
+34 8 13 9 22 0 69 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>32_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>32_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 33.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>33_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>33_2.py  
+(25, 0) (37, 4) (69, 3) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>33_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>33_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 34.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>34_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>34_2.py  
+75 69 43 41 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>34_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>34_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 35.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>35_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>35_2.py  
+52 37 70 31 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>35_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>35_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 36.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>36_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>36_2.py  
+25 6 44 3 55 3 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>36_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>36_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 37.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>37_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>37_2.py  
+0 6 0 4 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>37_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>37_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 38.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>38_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>38_2.py  
+14 34 84 31 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>38_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>38_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 39.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>39_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>39_2.py  
+89 53 80 30 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>39_5.py  
+0 4 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>39_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 40.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>40_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>40_2.py  
+68 3 38 2 27 9 87 8 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>40_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>40_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 41.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>41_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>41_2.py  
+(63, 3) (57, 0) (65, 0) (46, 3) (18, 4) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>41_5.py  
+4 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>41_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 42.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>42_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>42_2.py  
+77 4 81 3 83 1 70 1 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>42_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>42_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 43.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>43_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>43_2.py  
+10 41 58 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>43_5.py  
+0 4 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>43_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 44.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>44_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>44_2.py  
+(38, 2) (40, 9) (48, 4) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>44_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>44_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 45.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>45_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>45_2.py  
+29 7 53 3 63 7 66 2 55 9 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>45_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>45_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 46.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>46_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>46_2.py  
+2 0 5 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>46_5.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>46_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 47.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>47_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>47_2.py  
+43 70 48 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>47_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>47_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 48.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>48_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>48_2.py  
+47 1 20 1 87 3 50 8 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>48_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>48_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 49.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>49_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>49_2.py  
+42 6 89 4 64 2 84 4 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>49_5.py  
+4 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>49_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 50.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>50_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>50_2.py  
+(32, 5) (59, 8) (68, 9) (38, 8) (84, 0) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>50_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>50_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 51.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>51_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>51_2.py  
+48 71 21 25 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>51_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>51_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 52.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>52_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>52_2.py  
+7 5 9 6 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>52_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>52_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 53.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>53_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>53_2.py  
+12 3 71 9 22 6 35 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>53_5.py  
+0 4 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>53_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 54.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>54_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>54_2.py  
+90 82 72 46 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>54_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>54_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 55.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>55_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>55_2.py  
+81 72 48 55 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>55_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>55_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 56.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>56_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>56_2.py  
+0 6 8 8 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>56_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>56_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 57.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>57_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>57_2.py  
+(32, 4) (11, 4) (14, 8) (21, 1) (86, 3) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>57_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>57_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 58.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>58_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>58_2.py  
+56 1 28 2 27 8 76 4 80 4 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>58_5.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>58_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 59.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>59_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>59_2.py  
+38 7 63 0 45 0 82 0 18 0 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>59_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>59_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 60.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>60_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>60_2.py  
+31 41 10 40 83 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>60_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>60_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 61.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>61_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>61_2.py  
+(65, 0) (27, 4) (88, 6) (85, 8) (31, 8) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>61_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>61_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 62.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>62_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>62_2.py  
+16 68 43 40 72 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>62_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>62_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 63.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>63_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>63_2.py  
+75 1 56 1 63 1 47 9 64 1 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>63_5.py  
+0 4 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>63_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 64.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>64_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>64_2.py  
+28 83 71 45 72 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>64_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>64_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 65.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>65_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>65_2.py  
+64 0 50 3 62 3 14 8 76 9 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>65_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>65_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 66.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>66_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>66_2.py  
+3 4 2 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>66_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>66_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 67.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>67_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>67_2.py  
+5 7 1 1 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>67_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>67_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 68.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>68_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>68_2.py  
+90 1 55 9 46 5 26 4 41 1 75 6 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>68_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>68_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 69.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>69_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>69_2.py  
+56 6 21 2 42 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>69_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>69_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 70.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>70_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>70_2.py  
+(80, 0) (47, 1) (35, 8) (88, 5) (77, 9) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>70_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>70_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 71.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>71_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>71_2.py  
+83 66 34 29 25 21 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>71_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>71_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 72.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>72_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>72_2.py  
+81 42 32 67 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>72_5.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>72_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 73.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>73_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>73_2.py  
+62 9 88 9 78 9 47 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>73_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>73_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 74.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>74_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>74_2.py  
+85 3 79 9 29 7 18 0 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>74_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>74_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 75.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>75_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>75_2.py  
+19 41 27 61 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>75_5.py  
+4 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>75_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 76.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>76_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>76_2.py  
+31 20 10 29 72 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>76_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>76_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 77.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>77_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>77_2.py  
+8 6 9 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>77_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>77_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 78.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>78_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>78_2.py  
+(15, 6) (23, 0) (22, 3) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>78_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>78_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 79.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>79_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>79_2.py  
+85 73 33 12 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>79_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>79_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 80.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>80_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>80_2.py  
+36 5 19 9 73 5 85 4 33 5 18 4 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>80_5.py  
+0 4 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>80_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 81.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>81_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>81_2.py  
+3 4 2 1 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>81_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>81_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 82.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>82_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>82_2.py  
+18 55 30 26 50 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>82_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>82_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 83.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>83_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>83_2.py  
+65 4 74 8 10 5 46 9 51 1 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>83_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>83_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 84.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>84_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>84_2.py  
+(26, 4) (54, 3) (27, 3) (51, 6) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>84_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>84_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 85.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>85_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>85_2.py  
+37 6 59 0 55 1 86 5 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>85_5.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>85_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 86.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>86_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>86_2.py  
+(10, 4) (48, 0) (64, 4) (35, 3) (76, 9) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>86_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>86_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 87.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>87_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>87_2.py  
+79 90 27 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>87_5.py  
+4 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>87_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 88.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>88_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>88_2.py  
+7 8 9 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>88_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>88_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 89.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>89_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>89_2.py  
+14 1 63 9 17 5 87 3 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>89_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>89_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 90.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>90_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>90_2.py  
+58 69 78 85 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>90_5.py  
+0 4 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>90_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 91.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>91_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>91_2.py  
+55 7 41 1 68 7 52 9 17 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>91_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>91_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 92.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>92_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>92_2.py  
+53 0 66 0 58 9 19 0 22 9 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>92_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>92_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 93.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>93_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>93_2.py  
+18 73 67 46 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>93_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>93_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 94.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>94_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>94_2.py  
+72 36 44 49 47 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>94_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>94_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 95.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>95_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>95_2.py  
+4 7 3 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>95_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>95_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 96.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>96_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>96_2.py  
+(65, 9) (75, 1) (52, 4) (68, 6) (42, 2) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>96_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>96_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 97.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>97_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>97_2.py  
+50 7 80 5 62 6 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>97_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>97_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 98.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>98_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>98_2.py  
+(15, 3) (69, 9) (30, 8) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>98_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>98_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 99.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>99_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>99_2.py  
+39 55 30 70 58 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>99_5.py  
+0 4 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>99_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 100.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>100_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>100_2.py  
+58 5 60 3 72 4 11 7 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>100_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>100_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 101.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>101_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>101_2.py  
+59 61 48 34 27 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>101_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>101_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 102.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>102_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>102_2.py  
+1 4 7 6 9 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>102_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>102_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 103.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>103_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>103_2.py  
+9 6 8 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>103_5.py  
+0 4 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>103_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 104.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>104_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>104_2.py  
+69 22 52 65 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>104_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>104_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 105.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>105_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>105_2.py  
+(80, 1) (52, 9) (38, 3) (23, 1) (89, 4) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>105_5.py  
+4 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>105_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 106.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>106_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>106_2.py  
+23 71 17 18 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>106_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>106_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 107.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>107_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>107_2.py  
+41 0 73 6 32 4 11 4 51 5 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>107_5.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>107_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 108.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>108_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>108_2.py  
+32 3 70 2 67 7 83 7 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>108_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>108_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 109.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>109_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>109_2.py  
+(87, 9) (26, 1) (34, 9) (59, 5) (46, 8) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>109_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>109_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 110.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>110_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>110_2.py  
+55 7 84 6 38 7 58 8 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>110_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>110_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 111.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>111_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>111_2.py  
+90 64 86 37 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>111_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>111_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 112.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>112_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>112_2.py  
+8 5 9 0 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>112_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>112_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 113.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>113_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>113_2.py  
+79 68 41 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>113_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>113_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 114.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>114_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>114_2.py  
+31 4 58 8 46 2 28 1 24 6 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>114_5.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>114_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 115.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>115_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>115_2.py  
+45 13 27 41 22 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>115_5.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>115_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 116.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>116_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>116_2.py  
+6 6 9 1 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>116_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>116_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 117.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>117_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>117_2.py  
+(23, 3) (74, 8) (44, 6) (29, 1) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>117_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>117_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 118.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>118_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>118_2.py  
+65 8 62 8 79 9 15 7 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>118_5.py  
+4 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>118_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 119.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>119_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>119_2.py  
+39 5 22 5 70 1 66 8 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>119_5.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>119_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 120.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>120_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>120_2.py  
+65 81 72 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>120_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>120_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 121.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>121_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>121_2.py  
+4 8 5 8 7 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>121_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>121_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 122.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>122_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>122_2.py  
+(87, 3) (26, 8) (63, 7) (43, 4) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>122_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>122_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 123.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>123_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>123_2.py  
+85 65 57 11 40 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>123_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>123_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 124.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>124_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>124_2.py  
+50 7 18 8 77 1 80 8 31 1 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>124_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>124_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 125.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>125_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>125_2.py  
+58 9 31 2 90 9 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>125_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>125_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 126.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>126_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>126_2.py  
+72 84 73 28 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>126_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>126_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 127.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>127_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>127_2.py  
+2 9 9 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>127_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>127_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 128.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>128_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>128_2.py  
+47 82 75 50 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>128_5.py  
+0 4 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>128_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 129.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>129_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>129_2.py  
+54 1 33 0 69 5 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>129_5.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>129_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 130.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>130_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>130_2.py  
+80 74 71 55 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>130_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>130_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 131.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>131_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>131_2.py  
+(77, 8) (65, 5) (30, 1) (50, 8) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>131_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>131_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 132.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>132_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>132_2.py  
+37 4 84 8 46 1 59 8 17 5 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>132_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>132_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 133.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>133_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>133_2.py  
+34 2 21 6 67 7 68 2 24 5 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>133_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>133_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 134.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>134_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>134_2.py  
+5 6 5 2 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>134_5.py  
+4 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>134_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 135.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>135_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>135_2.py  
+40 7 61 7 47 5 36 7 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>135_5.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>135_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 136.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>136_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>136_2.py  
+83 34 35 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>136_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>136_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 137.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>137_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>137_2.py  
+(19, 3) (35, 6) (57, 0) (32, 4) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>137_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>137_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 138.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>138_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>138_2.py  
+68 39 89 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>138_5.py  
+4 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>138_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 139.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>139_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>139_2.py  
+60 54 15 42 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>139_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>139_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 140.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>140_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>140_2.py  
+23 6 89 8 55 8 21 9 54 7 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>140_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>140_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 141.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>141_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>141_2.py  
+26 5 39 3 76 3 43 6 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>141_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>141_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 142.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>142_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>142_2.py  
+4 2 3 9 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>142_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>142_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 143.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>143_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>143_2.py  
+(53, 0) (90, 0) (36, 6) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>143_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>143_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 144.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>144_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>144_2.py  
+82 31 13 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>144_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>144_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 145.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>145_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>145_2.py  
+15 53 16 80 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>145_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>145_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 146.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>146_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>146_2.py  
+15 53 29 34 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>146_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>146_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 147.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>147_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>147_2.py  
+(26, 1) (30, 9) (24, 6) (41, 6) (70, 6) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>147_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>147_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 148.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>148_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>148_2.py  
+6 4 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>148_5.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>148_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 149.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>149_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>149_2.py  
+43 9 88 6 83 6 80 1 46 8 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>149_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>149_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 150.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>150_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>150_2.py  
+16 1 51 1 41 8 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>150_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>150_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 151.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>151_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>151_2.py  
+38 5 41 5 80 5 46 4 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>151_5.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>151_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 152.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>152_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>152_2.py  
+1 7 9 4 5 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>152_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>152_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 153.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>153_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>153_2.py  
+46 1 11 6 34 9 12 7 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>153_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>153_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 154.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>154_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>154_2.py  
+46 48 74 79 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>154_5.py  
+4 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>154_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 155.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>155_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>155_2.py  
+23 82 77 43 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>155_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>155_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 156.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>156_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>156_2.py  
+(30, 1) (47, 9) (82, 6) (73, 9) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>156_5.py  
+4 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>156_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 157.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>157_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>157_2.py  
+7 0 8 9 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>157_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>157_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 158.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>158_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>158_2.py  
+(51, 6) (18, 2) (56, 6) (36, 3) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>158_5.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>158_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 159.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>159_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>159_2.py  
+16 8 18 8 25 5 20 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>159_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>159_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 160.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>160_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>160_2.py  
+33 25 12 70 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>160_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>160_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 161.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>161_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>161_2.py  
+79 9 87 7 83 3 47 7 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>161_5.py  
+0 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>161_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 162.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>162_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>162_2.py  
+21 57 89 32 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>162_5.py  
+0 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>162_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 163.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>163_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>163_2.py  
+54 24 80 42 39 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>163_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>163_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 164.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>164_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>164_2.py  
+62 35 54 84 67 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>164_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>164_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 165.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>165_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>165_2.py  
+28 3 34 5 37 2 66 1 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>165_5.py  
+4 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>165_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 166.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>166_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>166_2.py  
+45 4 20 3 24 9 59 1 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>166_5.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>166_6.py  
+0 2 5 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 167.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>167_1.py  
+set
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>167_2.py  
+(19, 4) (16, 0) (65, 4) (77, 6) (48, 7) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>167_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>167_6.py  
+0 5 4 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 168.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>168_1.py  
+list
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>168_2.py  
+2 8 9 1 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>168_5.py  
+4 1 6 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>168_6.py  
+0 5 5 5 2 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 169.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>169_1.py  
+tuple
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>169_2.py  
+(51, 5) (44, 5) (35, 8) 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>169_5.py  
+0 1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>169_6.py  
+0 5 ERR
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>call 170.bat 
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>170_1.py  
+dict
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>170_2.py  
+1 1 7 
+D:\Projects\Quiz\Scripts\Mod2020_3\code>170_5.py  
+4 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2020_3\code>170_6.py  
+0 2 5 2 ERR

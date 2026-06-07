@@ -1,0 +1,6 @@
+try:
+    d=['0','1','2','3']
+    del d[2:0]
+    print(d)
+    
+except: print('error')

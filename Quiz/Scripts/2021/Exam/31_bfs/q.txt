@@ -1,0 +1,19 @@
+<fabric>
+     file answer
+     <fname>
+         Graphs/bfs-s.txt
+     <\fname>
+     <num>
+        1	
+     <\num>
+
+
+     <before>
+     <\before>
+<after>
+{ENDL}
+{ENDL}
+//Якщо заповнюєте текстовий файл, а не гугл-форму, то потрібно через пробіл записа\-ти вибрані номери.{ENDL}{ENDL}
+<\after>
+
+  <\fabric>

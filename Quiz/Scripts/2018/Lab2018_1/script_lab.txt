@@ -1,0 +1,35 @@
+//lab 1 script
+//expression and functions
+//TemplateAnswerQuestFabric1
+
+<declarations>
+sign=+;-
+N={<int> 2 30}
+M={<int> 45 70}
+A={<int> 3 15}
+B=#A
+5argA=x #sign new# #A new#
+
+2op = {\cdot};#sign#
+1PiE=\frac{#N new#{\pi}}{#M new# e};\frac{#N new# e}{#M new#{\pi}};#N new#{\pi} #sign new# #M new# e;#N new#{\pi} #sign new# #M new# e
+
+const 1part1=\#4a#\frac{#N#}{#M#}
+const 1part2=\frac{#A#}{(#5argA#)(#5argA#)}
+
+4a=sin;cos;tg;ctg
+4b=arcsin;arccos;arctg;arcctg
+3trigonom={#4a new#}{#4b#}
+const 1part3=#A new#\#3trigonom#{(#5argA#)}
+
+4power=\sqrt{#5argA#};\frac{1}{\sqrt{#5argA#}};\frac{#A new# #sign new# \sqrt{#5argA#}}{#5argA#};\log_{#B#}(#5argA#); \frac{#B#}{#5argA#}
+const 1part4=#4power#
+
+<\declarations>
+
+<template>
+
+{ ${#1part1#} #sign# #1PiE#\cdot {#1part2#} #sign new# {#1part3#} #sign new# {#1part4#}$}
+
+<\template>
+<restrictions>
+<\restrictions>

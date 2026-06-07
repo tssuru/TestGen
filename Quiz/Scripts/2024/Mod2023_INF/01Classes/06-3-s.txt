@@ -1,0 +1,17 @@
+class A{};
+void test(){{ENDL}{SPACE} A *a=new A[#n#]; {ENDL}{SPACE} delete a; cout<<"=";} //u
+
+class A{};
+void test(){{ENDL}{SPACE} A *a=new A[#n#]; {ENDL}{SPACE} ++a; delete a; cout<<"=";} //u
+
+class A{};
+void test(){{ENDL}{SPACE} A *a=new A[#n#]; {ENDL}{SPACE} delete [] a; cout<<"=";} 
+
+struct A{ A(const A&){}};
+void test(){{ENDL}{SPACE} A *a=new A[#n#]; {ENDL}{SPACE} delete [] a; cout<<"=";} //*
+
+class A{};
+void test(){{ENDL}{SPACE} A *a=new A[#n#]; {ENDL}{SPACE} delete [#n#] a; cout<<"=";}//*
+
+struct A{ int n=1; };
+void test(){{ENDL}{SPACE} A *a=new A[#n#]; {ENDL}{SPACE} delete [#n#] a; cout<<"=";}//*

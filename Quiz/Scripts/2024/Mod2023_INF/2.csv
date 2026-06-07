@@ -1,0 +1,116 @@
+var,1,2,3,4,5,6,7,8
+1,-2,BAAC,768,64,166,undefined behaviour,B~B=,4
+2,-7,ABBBC,4190,30,syntax,=,BA~A~B=,-2
+3,6,CBBBBA,727739,11,365,0,BB~B~B=,4
+4,-1,BBBAC,105,64,214,undefined behaviour,BBAC~C~A~B~B=,10
+5,-1,CBAA,74772,41,syntax,syntax,A~A=,3
+6,10,AAAABC,0119,11,03,undefined behaviour,=,-1
+7,2,CABBB,787709,11,32,syntax,B~B=,-11
+8,8,CAAB,1223,30,577,syntax,B~B=,11
+9,-1,CBAAAA,9287,30,51,undefined behaviour,A~A=,-12
+10,18,BBBAC,165,11,624,=,=,10
+11,-3,CBBBBA,87883,64,122,1,BBAC~C~A~B~B=,-6
+12,2,AABC,461,3,00,syntax,BB~B~B=,-6
+13,19,ABBBBC,4556,46,322,undefined behaviour,BA~A~B=,-4
+14,4,CABBB,272298,41,syntax,undefined behaviour,B~B=,5
+15,-2,CAAB,19118,30,61,undefined behaviour,BBAC~C~A~B~B=,-5
+16,3,BAAC,0647,11,35,syntax,B~B=,1
+17,11,CABBB,809,3,625,undefined behaviour,BB~B~B=,-1
+18,-1,ABBBBC,314,30,300,syntax,BA~A~B=,2
+19,-1,BAAAAC,63661,64,025,syntax,A~A=,-7
+20,2,CAAAB,707798,11,634,syntax,B~B=,1
+21,14,AABC,0663,11,422,syntax,=,5
+22,6,BBAC,712,30,33,undefined behaviour,A~A=,3
+23,8,CBAAA,583,64,30,=,B~B=,-6
+24,9,CBBBBA,0217,64,syntax,undefined behaviour,=,-3
+25,-1,CAAAAB,145,11,357,=,BA~A~B=,-10
+26,-1,ABBBC,7236,46,602,3=,B~B=,-2
+27,7,BAAC,646690,64,syntax,syntax,BBAC~C~A~B~B=,-9
+28,4,CBBA,7115,30,44,syntax,BB~B~B=,-5
+29,-8,BBBAC,46443,46,63,syntax,=,7
+30,11,CABBBB,251,30,40,undefined behaviour,BBAC~C~A~B~B=,6
+31,3,CBAAA,32336,64,15,undefined behaviour,B~B=,1
+32,10,AAAABC,050079,64,066,undefined behaviour,B~B=,-2
+33,8,BAAC,5248,11,024,syntax,BB~B~B=,2
+34,-1,CBBA,3776,3,677,undefined behaviour,BA~A~B=,-6
+35,1,CBAAAA,923,41,711,undefined behaviour,A~A=,5
+36,9,CAAAB,458,30,syntax,undefined behaviour,BB~B~B=,6
+37,-5,CABBBB,41443,11,166,undefined behaviour,B~B=,14
+38,-1,AABC,820,11,033,syntax,B~B=,-2
+39,4,ABBBC,262238,11,00,undefined behaviour,=,9
+40,1,BBAC,0779,64,23,syntax,BA~A~B=,2
+41,-1,CAAAAB,3561,11,syntax,undefined behaviour,A~A=,-10
+42,18,CBAAA,724,11,247,syntax,BBAC~C~A~B~B=,1
+43,2,CABB,8661,11,73,syntax,A~A=,-9
+44,-1,AAABC,470,30,261,=,BA~A~B=,8
+45,19,BAAAAC,30334,11,576,undefined behaviour,=,-11
+46,9,ABBBBC,179,3,34,undefined behaviour,B~B=,14
+47,-3,BBAC,5069,41,377,undefined behaviour,BBAC~C~A~B~B=,2
+48,8,CBBBA,414428,30,syntax,3=,B~B=,-8
+49,8,CBBBBA,494403,64,52,1,BB~B~B=,-2
+50,1,CBAAA,87881,46,733,=,BBAC~C~A~B~B=,0
+51,-5,CABB,1209,64,05,syntax,BB~B~B=,3
+52,-4,AAAABC,368,30,14,syntax,A~A=,4
+53,16,BAAC,5779,64,200,undefined behaviour,BA~A~B=,-8
+54,-1,ABBBC,610,11,syntax,syntax,=,-3
+55,-1,CAAAAB,494413,30,syntax,undefined behaviour,B~B=,-3
+56,8,BBAC,082,30,00,0,B~B=,5
+57,-1,BBBAC,317,46,475,undefined behaviour,BB~B~B=,3
+58,7,CAAB,6225,11,120,undefined behaviour,B~B=,-1
+59,-1,CBAAAA,20224,3,633,=,BBAC~C~A~B~B=,0
+60,11,AAABC,5736,11,150,undefined behaviour,B~B=,0
+61,-1,CBBBA,81886,41,66,syntax,A~A=,-6
+62,6,ABBC,974,64,35,undefined behaviour,=,7
+63,-4,BAAAAC,2663,30,12,syntax,BA~A~B=,3
+64,-3,CABBBB,585590,11,syntax,syntax,A~A=,-12
+65,10,CABBB,5296,64,622,=,BB~B~B=,-1
+66,-1,AABC,483,11,syntax,undefined behaviour,=,7
+67,-2,CAAAB,923,46,622,syntax,B~B=,-7
+68,15,BAAC,0864,30,144,syntax,B~B=,-7
+69,7,CBBBBA,9770,11,130,undefined behaviour,BBAC~C~A~B~B=,1
+70,-1,ABBBC,323354,11,246,undefined behaviour,BA~A~B=,5
+71,10,BBBBAC,482,64,420,undefined behaviour,BA~A~B=,4
+72,3,CBAA,53557,3,51,undefined behaviour,BBAC~C~A~B~B=,10
+73,-1,CBAAAA,636619,64,35,syntax,B~B=,6
+74,0,CABB,42448,64,724,syntax,B~B=,-2
+75,2,BBBAC,9558,30,03,syntax,A~A=,-6
+76,11,AABC,7043,41,657,=,=,2
+77,5,CBBBBA,607,30,syntax,syntax,BB~B~B=,-7
+78,-2,BAAAC,549,11,syntax,syntax,A~A=,5
+79,3,CAAB,9331,11,22,undefined behaviour,BBAC~C~A~B~B=,-3
+80,-1,ABBBC,787742,11,433,undefined behaviour,BA~A~B=,10
+81,-8,BAAAAC,42446,64,46,=,B~B=,-9
+82,10,AABC,130,11,077,undefined behaviour,B~B=,-2
+83,-1,CABBBB,1934,11,511,syntax,=,6
+84,8,ABBBC,782,46,734,undefined behaviour,BB~B~B=,-7
+85,-4,BBAC,249,30,340,undefined behaviour,BA~A~B=,0
+86,3,CBAAA,757783,30,57,undefined behaviour,B~B=,0
+87,12,CBBBBA,65667,64,265,undefined behaviour,A~A=,-8
+88,15,CAAB,9008,64,103,3=,BBAC~C~A~B~B=,-1
+89,6,AAABC,9815,30,36,syntax,=,-10
+90,-1,BAAAAC,723,41,syntax,undefined behaviour,BB~B~B=,4
+91,12,CABB,405,3,77,syntax,B~B=,5
+92,13,CBAAAA,279,11,311,undefined behaviour,=,-6
+93,2,BBBAC,5660,3,syntax,undefined behaviour,A~A=,9
+94,-1,ABBBBC,47442,64,566,undefined behaviour,BB~B~B=,8
+95,14,CAAB,242265,41,31,=,BA~A~B=,9
+96,6,CBBBA,9703,46,055,undefined behaviour,BBAC~C~A~B~B=,-3
+97,4,CABBBB,6778,11,60,undefined behaviour,B~B=,9
+98,1,AABC,04002,11,53,syntax,B~B=,-9
+99,-1,BAAAC,847,11,syntax,syntax,B~B=,-4
+100,11,CAAAAB,539,30,54,undefined behaviour,B~B=,12
+101,-9,CBAA,424450,30,300,syntax,BBAC~C~A~B~B=,7
+102,-2,CBBBA,9837,64,55,undefined behaviour,=,2
+103,-2,ABBC,709,30,724,syntax,A~A=,2
+104,15,BBBBAC,642,64,603,syntax,BB~B~B=,-2
+105,2,CAAAB,858836,64,syntax,undefined behaviour,BA~A~B=,1
+106,-1,CABBB,01009,11,511,syntax,B~B=,-1
+107,3,ABBC,6113,30,655,undefined behaviour,BA~A~B=,-5
+108,1,AAAABC,0592,11,102,undefined behaviour,BB~B~B=,-5
+109,4,CBAA,161142,11,55,undefined behaviour,B~B=,-2
+110,6,BBBBAC,853,30,320,=,A~A=,2
+111,6,BAAAC,3665,64,10,syntax,BBAC~C~A~B~B=,-10
+112,-1,CBBA,781,64,25,undefined behaviour,=,8
+113,2,CABBBB,05008,3,533,undefined behaviour,B~B=,5
+114,13,CBAAA,7439,11,460,syntax,BBAC~C~A~B~B=,-10
+115,8,BBBBAC,954,46,syntax,undefined behaviour,BA~A~B=,-8

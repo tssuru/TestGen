@@ -1,0 +1,30 @@
+echo
+echo =971_1.py 
+python3.10 ./971_1.py 
+echo
+echo =971_2.py 
+python3.10 ./971_2.py 
+echo
+echo =971_3.py 
+python3.10 ./971_3.py 
+echo
+echo =971_4.py 
+python3.10 ./971_4.py 
+echo
+echo =971_5.py 
+python3.10 ./971_5.py 
+echo
+echo =971_6.py 
+python3.10 ./971_6.py 
+echo
+echo =971_7.py 
+python3.10 ./971_7.py 
+echo
+echo =971_8.py 
+python3.10 ./971_8.py 
+echo
+echo =971_9.py 
+python3.10 ./971_9.py 
+echo
+echo =971_10.py 
+python3.10 ./971_10.py 

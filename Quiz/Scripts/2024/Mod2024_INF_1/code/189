@@ -1,0 +1,30 @@
+echo
+echo =189_1.py 
+python3.11 -W "ignore" ./189_1.py 
+echo
+echo =189_2.py 
+python3.11 -W "ignore" ./189_2.py 
+echo
+echo =189_3.py 
+python3.11 -W "ignore" ./189_3.py 
+echo
+echo =189_4.py 
+python3.11 -W "ignore" ./189_4.py 
+echo
+echo =189_5.py 
+python3.11 -W "ignore" ./189_5.py 
+echo
+echo =189_6.py 
+python3.11 -W "ignore" ./189_6.py 
+echo
+echo =189_7.py 
+python3.11 -W "ignore" ./189_7.py 
+echo
+echo =189_8.py 
+python3.11 -W "ignore" ./189_8.py 
+echo
+echo =189_10.py 
+python3.11 -W "ignore" ./189_10.py 
+echo
+echo =189_11.py 
+python3.11 -W "ignore" ./189_11.py 

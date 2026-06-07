@@ -1,0 +1,123 @@
+<document>
+
+  <header>
+\documentclass[12pt, ukrainian]{article}{ENDL}
+\usepackage[a4paper]{geometry}{ENDL}
+\setlength\parindent{0mm}{ENDL}
+\geometry{top=1.1cm,bottom=1.1cm,left=1.1cm,right=1.1cm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage{caption}{ENDL}
+
+\DeclareCaptionFormat{nocaption}{}{ENDL}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}{ENDL}
+\usepackage[Export]{adjustbox} {ENDL}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}
+\begin{document}{ENDL}
+
+  <\header>
+
+  <footer>
+\end{document}{ENDL}
+
+  <\footer>
+
+  <onNextVariant>
+
+{ENDL}{ENDL}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+
+  <\onNextPage>
+
+<from>
+101
+<\from>
+<to>
+160
+<\to>
+
+  <onPage>
+    1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+
+{{30.11.2023 Контрольна робота \No 2, варіант  \No \textbf { #No# }\par}}{ENDL}
+{{ENDL}
+%\begin {large}{ENDL}{ENDL}
+%{Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?{ENDL}{ENDL}
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.{ENDL}{ENDL}
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,{ENDL}
+%обробка списків та рядків.{ENDL}{ENDL}
+<\before>
+
+<after>
+%\end {large}{ENDL}
+}{ENDL}
+%end{ENDL}
+<\after>
+
+<\variant>
+
+
+<item>
+  include 05Invoke/01-q.txt
+<\item>
+
+<item>
+  include 06Scope/1+2-q.txt
+<\item>
+
+//<item>
+//  include 06Scope/3+4-q.txt
+//<\item>
+
+
+<item>
+  include 07Except/02-q.txt
+<\item>
+
+<item>
+  include 08Cycles/01-q.txt
+<\item>
+
+<item>
+  include 08Cycles/02-q.txt
+<\item>
+
+<item>
+  include 09Recursion/01-q.txt
+<\item>
+
+<item>
+  include 10Indexing/01-q.txt
+<\item>
+
+<item>
+  include 10Indexing/02-q.txt
+<\item>
+
+<item>
+  include 11ListOperations/01-q.txt
+<\item>
+
+<item>
+  include 11ListOperations/02-q.txt
+<\item>
+
+//<item>
+//  include task1-q.txt
+//<\item>
+
+//<item>
+//  include task1-q.txt
+//<\item>

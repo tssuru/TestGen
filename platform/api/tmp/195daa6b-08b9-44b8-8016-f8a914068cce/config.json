@@ -1,0 +1,10 @@
+{
+  "title": "open-20",
+  "variantCount": 1,
+  "questionsPerVariant": 20,
+  "questionTypeFilter": "open",
+  "shuffleQuestions": true,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print"
+}

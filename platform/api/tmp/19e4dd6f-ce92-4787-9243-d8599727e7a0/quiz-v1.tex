@@ -1,0 +1,1440 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}{/app/Quiz/Scripts/2020/Mod2020_4/BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,1}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+%code
+4**-1.0*True
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+%code
+
+x,y,z=4,5,2
+y,z,z,y=y,x,9,z
+print(x,y,z)
+%code
+
+%enditem
+
+%beginitem
+3. 
+try:
+    print(4, end=';')
+    print(5//0.0, end=';')
+    print(2, end=';')
+except ValueError:
+    print(9, end=';')
+except Exception:
+    print(8, end=';')
+except:
+    print('ERR', end=';')
+else:
+    print(7, end=';')
+finally:
+    print(3)
+
+%enditem
+
+%beginitem
+4. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) **
+
+( 2 ) /
+
+( 3 ) (1)
+
+( 4 ) "1.1.1"
+
+%enditem
+
+%beginitem
+5. 
+4**-1.0*True
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+
+%code
+m=4
+while m<=10:
+    m+=2
+print(m, end=' ')
+%code
+
+
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.extend([1,2])
+print(e)
+%code
+
+
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << 8 / 8 / 8 / 8;
+%code
+
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання фрагменту коду?
+
+%code
+try:
+    m = 10
+    while m>=4:
+        m += -2
+    print(m, end=';')
+except:
+    print('Z')
+
+%code
+
+%enditem
+
+%beginitem
+10. 
+try:
+    res = "6.0j"=="False"
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+
+%enditem
+
+%beginitem
+11. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+e = ('a','b','c','d','e',0,1,2)
+print(e[-8])
+%code
+
+
+%enditem
+
+%beginitem
+12. Що буде виведено за виконання фрагменту коду?
+%code
+if (4 == 4)
+    cout << "e";
+else
+    cout << "f";
+%code
+
+
+%enditem
+
+%beginitem
+13. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (9 / 9 / 9 / 9);
+%code
+
+%enditem
+
+%beginitem
+14. 
+Записати ВИРАЗ, значенням якого є множина, що складається з квадратних коренівцілих чисел від 15 до 2018 (включно), що діляться на 7.
+%enditem
+
+%beginitem
+15. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(not6==False or not7!=6.0 or 7.0>4)
+%code
+
+%enditem
+
+%beginitem
+16. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+e = (0,1,2,3,4,5,6,7,8,9)
+print(e[13:13:-2])
+%code
+
+
+%enditem
+
+%beginitem
+17. 
+try:
+    for e in range(13, 13, -2):
+        if e>=7:
+            continue
+        print(e, end=';');e = 8
+        if e>=7:
+            break
+    else:
+        print(e,end=';')
+    print(e)
+except:
+    print('Z')
+
+%enditem
+
+%beginitem
+18. Що буде виведено за виконання фрагменту коду?
+%Оригинал был утерян. Требует отладки!
+%code
+__d = 0
+
+class D:
+    __d = 1
+    
+    def __init__(self):
+        self.__d = 2
+        __d = 3
+        D.__d = 4
+
+obj = D()
+D.__d = 5
+try:
+    print(__d, end=' ')
+    print(obj.__d, end=' ')
+    print(D.__d, end=' ')
+    print(obj.__d, end=' ')
+    print(obj._D__d)
+except:
+    print('ERR')
+%code
+
+%enditem
+
+%beginitem
+19. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) x=*2
+
+( 2 ) x,y,z=z,z,y
+
+( 3 ) x not is y
+
+( 4 ) "\n" is not '\n'
+
+%enditem
+
+%beginitem
+20. 
+
+print('R', end=' ')
+e=(0,1,2,3,4,5,6,7,8,9)
+print(e[13:13:-2])
+
+
+%enditem
+
+%beginitem
+21. 
+try:
+    res = "6.0j"=="False"
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+%enditem
+
+%beginitem
+22. Що буде виведено за виконання фрагменту коду?
+
+%code
+try:
+    m = 4
+    while m<=10:
+        m += 2
+    print(m, end=';')
+except:
+    print('Z')
+
+%code
+
+%enditem
+
+%beginitem
+23. 
+Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-66$ до~$19$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$9$.
+Яке число зберігається у вузлі \kw{p.next.next.next.next.next} ?
+
+%enditem
+
+%beginitem
+24. 
+a = 4
+b = 5
+c = 2
+
+def g(b):
+global c    a = 2
+    b = 1
+    c = 4
+    return a + b + c
+
+a = 9
+b = 8
+c = 7
+
+try:
+    print(g(b), a, b, c, sep=';')
+except:
+    print('Z', a, b, c, sep=';')
+
+%enditem
+
+%beginitem
+25. Що буде виведено за виконання фрагменту коду?
+
+%code
+m=10
+while m>=4:
+    m+=-2
+print(m, end=' ')
+%code
+
+
+%enditem
+
+%beginitem
+26. 
+В умовах попередньої задачі було виконано p->next=p->prev->next;
+
+Чому дорівнює значення p->next->next->next->next->n ?
+%enditem
+
+%beginitem
+27. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << 9 / 9 / 9 / 9;
+%code
+
+%enditem
+
+%beginitem
+28. Що буде виведено за виконання фрагменту коду?
+
+%code
+e=['0','1','2','3']
+e.extend([1,2])
+print(e)
+%code
+
+
+%enditem
+
+%beginitem
+29. 
+Значенням змінної \kw{a} є цілочисловий масив типу $numpy.ndarray$ розмірів $4{\times}4$. На скільки збільшиться сума елементів масиву \kw{a} після виконання
+\begin{verbatim}
+a.T[1] += 2
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+
+%enditem
+
+%beginitem
+30. Що буде виведено за виконання фрагменту коду?
+%code
+if (4 == 4)
+    cout << "e";
+else
+    cout << "e";
+%code
+
+
+%enditem
+
+%beginitem
+31. 
+
+def f(n):
+    print("f", end="");
+    return n==1
+
+print(f(9) or f(-3))
+
+%enditem
+
+%beginitem
+32. 
+try:
+    print(4, end=';')
+    print(5//0.0, end=';')
+    print(2, end=';')
+except ValueError:
+    print(9, end=';')
+except Exception:
+    print(8, end=';')
+except:
+    print('Z', end=';')
+else:
+    print(7, end=';')
+finally:
+    print(3)
+
+%enditem
+
+%beginitem
+33. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+e=(0,1,2,3,4,5,6,7,8,9)
+print(e[13:13:-2])
+%code
+
+
+%enditem
+
+%beginitem
+34. Що буде виведено за виконання фрагменту коду?
+code
+d = 0
+j = 1
+
+class D:
+    j = 2
+    
+    def __init__(self):
+global j        self.j = 3
+        j = 4
+        D.j = 5
+
+obj = D()
+print(d, j, D.j, obj.j, sep=' ')
+code
+
+%enditem
+
+%beginitem
+35. 
+Записати ВИРАЗ, значенням якого є список, що складається з цілих чисел від 15 до 2018 (включно), причому спочатку за спаданням записано всі, що діляться на 7, а потім решту за спаданням.
+%enditem
+
+%beginitem
+36. 
+not6==False or not7!=6.0 or 7.0>4
+%enditem
+
+%beginitem
+37. 
+a = 4
+b = 5
+c = 2
+
+def g(b):
+global c    a = 2
+    b = 1
+    c = 4
+    return a + b + c
+
+a = 9
+b = 8
+c = 7
+
+try:
+    print(g(b), a, b, c, sep=';')
+except:
+    print('ERR', a, b, c, sep=';')
+
+%enditem
+
+%beginitem
+38. Що буде виведено за виконання фрагменту коду?
+
+%code
+for e in range(8,8+3,3):
+    if e>=7:
+        pass
+    print(e, end=' ')
+    e=8
+    if e>=7:
+        break
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+
+%enditem
+
+%beginitem
+39. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../15BinTree/trees_exp/168.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:168 оберненому
+
+%enditem
+
+%beginitem
+40. Що буде виведено за виконання фрагменту коду?
+
+%code
+m=10
+while m>=4:
+    m+=-2
+print(m)
+%code
+
+
+%enditem
+
+%beginitem
+41. 
+
+x,y,z=4,5,2
+y,z,z,y=y,x,9,z
+print(x,y,z)
+
+%enditem
+
+%beginitem
+42. 
+8//8%8*8
+%enditem
+
+%beginitem
+43. Що буде виведено за виконання фрагменту коду?
+%code
+a, b, c = 9, 6, 8
+def g(a, b=7, c=6):
+    print(a, b, c, end=" ")
+
+g(a=4, 5, b=2)
+print(a, b, c)
+%code
+
+%enditem
+
+%beginitem
+44. 
+Записати ВИРАЗ, значенням якого є словник, ключами якого є цілі числа від 15 до 2018 (включно), що діляться на 7, а ключам відповідають їх куби 
+%enditem
+
+%beginitem
+45. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(8//8%8*8)
+%code
+
+%enditem
+
+%beginitem
+46. 
+def f(arg, n):
+    n = 4
+    tmp = arg
+    tmp[:-5] = 'bd'
+    return len(tmp)>3
+
+try:
+    e = ['0','1','2','3','4']
+    n = 5
+    f(e, n)
+    print(n, end=';')
+    for el in e:
+        print(el, end=';')
+except:
+    print('Z')
+
+%enditem
+
+%beginitem
+47. Що буде виведено за виконання фрагменту коду?
+
+%code
+not6==False or not7!=6.0 or 7.0>4
+%code
+
+%enditem
+
+%beginitem
+48. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+int g(int a, int b){
+    int c = 14;
+    if (b)
+        c = 4;
+    else if (b == 0)
+         return 5;
+    else 
+        c = 2;
+    return c;
+}
+
+int main(){
+    cout << g(9, 9);
+    return 0;
+}
+%code
+
+%enditem
+
+%beginitem
+49. Що буде виведено за виконання фрагменту коду?
+
+%code
+8//8%8*8
+%code
+
+%enditem
+
+%beginitem
+50. Що буде виведено за виконання фрагменту коду?
+
+%code
+a,b,c=4,5,2
+def g(b):
+    a-=2
+    b=1
+    c=4
+    return a+b+c
+
+a,b,c=9,8,7
+print(g(b),a,b,c)
+%code
+
+%enditem
+
+%beginitem
+51. 
+def f(n):
+    print('f', end=';')
+    return n==1
+
+try:
+    print(f(9) or f(-3))
+except:
+    print('Z')
+
+%enditem
+
+%beginitem
+52. 
+try:
+    res = not6==False or not7!=6.0 or 7.0>4
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+%enditem
+
+%beginitem
+53. 
+Рядки журналу через двокрапку містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад
+\begin{verbatim}
+s="username : 2022-05-05 13:26 : ERROR : 404"
+\end{verbatim}
+у коді 
+\begin{verbatim}
+res = re.fullmatch('???', s) 
+s = ''
+code_str = ??? 
+\end{verbatim}
+чим треба замінити кожен з ???, щоб значенням code\_str був код події? 
+
+
+
+%enditem
+
+%beginitem
+54. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) cout<<(3=!5);
+
+( 2 ) x=int(4);
+
+( 3 ) if ('x'<>'y') a=6;
+
+( 4 ) x+=y;
+
+%enditem
+
+%beginitem
+55. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+bool f(int n){
+    cout<<"f";
+    return n==1;
+}
+
+int main(){
+    cout<<(f(9) || f(-3));
+    return 0;
+}
+%code
+
+%enditem
+
+%beginitem
+56. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/168.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Обхід дерева починається з кореня (на рис. це верхня вершина).
+%answer:168 оберненому
+
+%enditem
+
+%beginitem
+57. 
+def f(n):
+    print('f', end='')
+    return n==1
+
+try:
+    print(f(9) or f(-3))
+except:
+    print('ERR')
+
+%enditem
+
+%beginitem
+58. Що буде виведено за виконання фрагменту коду?
+
+%code
+"6.0j"=="False"
+%code
+
+%enditem
+
+%beginitem
+59. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+
+int g(int a, int b){
+    int c = 14;
+    if (b)
+        c = 4;
+    else if (b == 0)
+         return 5;
+    else 
+        c = 2;
+    return c;
+}
+
+int main(){
+    std::cout << g(9, 9);
+    return 0;
+}
+%code
+
+%enditem
+
+%beginitem
+60. 
+Кожен рядок текстового файлу містить по два дійсних числа, розділені білими символами.
+Написати функцію, що для заданого текстового файлу будує новий текстовий файл, рядки якого крім зображень дйсних чисел ще містять результат обчислення на них функції $f$. У вихідному файлі зображення чисел мають розділятися пробілами. 
+$$f(x, y) =\frac{\log_{10} x - 53}{(\arccos x - 0.6) (y - 97)}$$ 
+Якість коду також оцінюється.
+
+
+%enditem
+
+%beginitem
+61. Що буде виведено за виконання фрагменту коду?
+
+%code
+print("6.0j" == "False")
+%code
+
+%enditem
+
+%beginitem
+62. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+
+bool f(int n){
+    std::cout<<"f";
+    return n==1;
+}
+
+int main(){
+    std::cout<<(f(9) || f(-3));
+    return 0;
+}
+%code
+
+%enditem
+
+%beginitem
+63. 
+
+print('R', end=' ')
+e=['0','1','2','3','4']
+e[:-5]='13'
+print(e)
+
+
+%enditem
+
+%beginitem
+64. Що буде виведено за виконання фрагменту коду?
+
+%code
+e = ('a','b','c','d','e',0,1,2)
+print(e[-8])
+%code
+
+
+%enditem
+
+%beginitem
+65. 
+
+print('R', end=' ')
+for e in range(13,13,-2):
+    if e>=7:
+        continue
+        print(e, end=' ')
+        e=8
+    if e>=7:
+        break
+    else:
+        print(e, end=' ')
+    print(e)
+
+%enditem
+
+%beginitem
+66. Що буде виведено за виконання фрагменту коду?
+%code
+d = 0
+j = 1
+
+class D:
+    j = 2
+    
+    def __init__(self):
+global j        self.j = 3
+        j = 4
+        D.j = 5
+
+obj = D()
+try:
+    print(d, end=' ')
+    print(j, end=' ')
+    print(D.j, end=' ')
+    print(obj.j)
+except:
+    print('ERR')
+%code
+
+%enditem
+
+%beginitem
+67. 
+try:
+    res = not6==False or not7!=6.0 or 7.0>4
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+
+%enditem
+
+%beginitem
+68. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+for e in range(8,8,3):
+    if e>=7:
+        continue
+        print(e, end=' ')
+        e=8
+    if e>=7:
+        break
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+
+%enditem
+
+%beginitem
+69. Що буде виведено за виконання фрагменту коду?
+%code
+a,b,c=9,6,8
+def g(a,b=7,c=6):
+    print(a,b,c,end=" ")
+
+g(a=4,5,b=2)
+print(a,b,c)
+%code
+
+%enditem
+
+%beginitem
+70. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) ++
+
+( 2 ) fop
+
+( 3 ) throw
+
+( 4 ) true
+
+%enditem
+
+%beginitem
+71. Що буде виведено за виконання фрагменту коду?
+
+%code
+def g(a,b):
+    c=14
+    if b:
+        c=4
+    elif b==0:
+         return 5
+    else: 
+        c=2
+    return c
+
+print(g(9,9))
+%code
+
+%enditem
+
+%beginitem
+72. Що буде виведено за виконання фрагменту коду?
+%code
+#include <iostream>
+using namespace std;
+
+int f(int &x, int &y){
+    x = 6;
+    y-= 7;
+    return y;
+}
+
+int main(){
+    int a = 9, b = 3;
+    b = f(b, b);
+    cout << a << ":" << b <<':';
+    {
+        int a = 5, b = 8;
+        cout << ((b>=4) || ((a-=2) >= 4))
+             << a << ":" << b << ":";
+    }
+    {
+        inta = 1;
+        cout << a << ':';
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+
+%enditem
+
+%beginitem
+73. Що буде виведено за виконання фрагменту коду?
+%code
+#include <iostream>
+using namespace std;
+
+int f(int &x, int &y){
+    x = 6;
+    y-= 7;
+    return y;
+}
+
+int main(){
+    int a = 9, b = 3;
+    b = f(b, b);
+    cout << a << ":" << b <<':';
+    {
+        int a = 5, b = 8;
+        cout << ((b>=4) || ((a-=2) >= 4)) << ':';
+        cout << a << ":" << b << ':';
+    }
+    {
+        inta = 1;
+        cout << a << ':';
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+
+%enditem
+
+%beginitem
+74. 
+$a$ є цілочисловим масивом типу $numpy.ndarray$ розмірів $5{\times}5$. Сума елементів масиву $a$ дорівнює 48. Чому дорівнює сума елементів масиву $a$ після виконання 
+\begin{verbatim}
+a -= 48
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+
+%enditem
+
+%beginitem
+75. 
+Задано тип вузла списку
+struct Node \{int n; Node *prev, *next;\};
+У списку зберігаються послідовні цілі числа від -66 до 19. Вказівник p встановлено на вузол, в якому зберігається число 9.
+Чому дорівнює значення p->next->next->next->next->next->n ?
+%enditem
+
+%beginitem
+76. 
+
+def g(a,b):
+    c=14
+    if b:
+        c=4
+    elif b==0:
+         return 5
+    else: 
+        c=2
+    return c
+
+print(g(9,9))
+%enditem
+
+%beginitem
+77. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (8 / 8 / 8 / 8);
+%code
+
+%enditem
+
+%beginitem
+78. 
+
+a,b,c=4,5,2
+def g(b):
+global c    a-=2
+    b=1
+    c=4
+    return a+b+c
+
+a,b,c=9,8,7
+print(g(b),a,b,c)
+
+%enditem
+
+%beginitem
+79. Що буде виведено за виконання фрагменту коду?
+%code
+for e in range(13,13,-2):
+    if e>=7:
+        continue
+        print(e,end=' ')
+        e=8
+    if e>=7:
+        break
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+
+%enditem
+
+%beginitem
+80. 
+Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу 
+$$\frac{\log_{10} x - 53}{(\arccos x - 0.6) (y - 97)}$$ 
+та повiдомляє введенi данi та результат обчислення.
+
+
+%enditem
+
+%beginitem
+81. 
+try:
+    res = 8//8%8*8
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+%enditem
+
+%beginitem
+82. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+int g(int d){
+    int y = 14;
+    if (d) 
+        y = 4;
+    else if (d == 0)
+         return 5;
+    else
+         y = 2;
+    return y;
+}
+
+int main(){
+    cout << g(9);
+    return 0;
+}
+%code
+
+
+%enditem
+
+%beginitem
+83. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+m=10
+while m>=4:
+    m+=-2
+print(m)
+%code
+
+
+%enditem
+
+%beginitem
+84. 
+try:
+    m = 4
+    while m<=10:
+        m += 2
+    print(m, end=';')
+except:
+    print('Z')
+
+%enditem
+
+%beginitem
+85. 
+
+a,b,c=9,6,8
+def g(a,b=7,c=6):
+    print(a,b,c,end="")
+
+g(a=4,5,b=2)
+print(a,b,c)
+
+
+%enditem
+
+%beginitem
+86. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+m=4
+while m<=10:
+    m+=2
+print(m)
+%code
+
+
+%enditem
+
+%beginitem
+87. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+int a = 4, b = 5, c = 2;
+
+int g(int &b){
+int c;    a = 2;
+    b = 1;
+    c = 4;
+    return a + b + c;
+}
+
+int main(){
+    inta = 9;
+    intb = 8;
+    intc = 7;
+    cout << g(b) << ':';
+    cout << a << ':' << b << ':' << c;
+    return 0; 
+}
+%code
+
+%enditem
+
+%beginitem
+88. 
+
+def g(d):
+    y=14
+    if d: 
+        y=4
+    elif d==0:
+         return 5
+    else:
+         y=2
+    return y
+
+print(g(9))
+
+%enditem
+
+%beginitem
+89. 
+
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.extend([1,2])
+print(e)
+
+
+%enditem
+
+%beginitem
+90. 
+
+print('R', end=' ')
+m=10
+while m>=4:
+    m+=-2
+print(m)
+
+
+%enditem
+
+%beginitem
+91. 
+e=['0','1','2','3','4']; e[:-5]='13'; print(e)
+%enditem
+
+%beginitem
+92. 
+
+print('R', end=' ')
+m=4
+while m<=10:
+    m+=2
+print(m)
+
+
+%enditem
+
+%beginitem
+93. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+
+int g(int d){
+    int y = 14;
+    if (d) 
+        y = 4;
+    else if (d == 0)
+         return 5;
+    else
+         y = 2;
+    return y;
+}
+
+int main(){
+    std::cout << g(9);
+    return 0;
+}
+%code
+
+
+%enditem
+
+%beginitem
+94. 
+Змінні $next$ та $prev$ вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від $-66$ до $19$. Нехай змінна $p$ позначає вузол, що зберігає значення $9$.
+Яке значення зберігається у вузлі $p.next.next.next.next.next$ ?
+
+%enditem
+
+%beginitem
+95. 
+try:
+    res = 4**-1.0*True
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+
+%enditem
+
+%beginitem
+96. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(6 != False is 7 >= 6.0)
+%code
+
+%enditem
+
+%beginitem
+97. 
+Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу 
+$$\frac{\log_{10} x - 53}{(\arccos x - 0.6) (y - 97)}$$ 
+та повiдомляє введенi данi та результат обчислення.
+ Оцінюється правильність та якість коду.
+
+
+%enditem
+
+%beginitem
+98. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (!6==false || !7!= 6.0 || 7.0>4);
+%code
+
+%enditem
+
+%beginitem
+99. Що буде виведено за виконання фрагменту коду?
+%code
+
+def f(n):
+    print("f", end="");
+    return n==1
+
+print(f(9) or f(-3))
+%code
+
+%enditem
+
+%beginitem
+100. Що буде виведено за виконання фрагменту коду?
+
+%code
+a = 4
+b = 5
+c = 2
+
+def g(b):
+global c    a-=2
+    b=1
+    c=4
+    return a+b+c
+
+a, b, c = 9, 8, 7
+try:
+    print(g(b), a, b, c, sep=';')
+except:
+    print('Z', a, b, c, sep=';')
+%code
+
+%enditem
+
+%end
+\newpage
+\end{document}
+

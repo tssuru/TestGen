@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1645224576 source:/media/tatiana/DATA/gits/Projects/Quiz/LexStream/LexStream.cpp
+	"LexStream.h"
+	<iostream>
+
+1645224576 /media/tatiana/DATA/gits/Projects/Quiz/LexStream/LexStream.h
+	<string>
+	<vector>
+
+1645224576 source:/media/tatiana/DATA/gits/Projects/Quiz/LexStream/LexStreams.cpp
+	"LexStreams.h"
+
+1645224576 /media/tatiana/DATA/gits/Projects/Quiz/LexStream/LexStreams.h
+	<string>
+	<vector>
+	"LexStream.h"
+	"StreamOfBracedElems.h"
+
+1645224576 /media/tatiana/DATA/gits/Projects/Quiz/LexStream/StreamOfBracedElems.h
+	<string>
+
+1645224576 source:/media/tatiana/DATA/gits/Projects/Quiz/LexStream/StreamOfBracedElems.cpp
+	"StreamOfBracedElems.h"
+
+1639945579 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/LexStream/LexStream.cpp
+	"LexStream.h"
+	<iostream>
+
+1639945579 /media/tatiana/Apacer PHD/gits/Projects/Quiz/LexStream/LexStream.h
+	<string>
+	<vector>
+
+1639945579 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/LexStream/LexStreams.cpp
+	"LexStreams.h"
+
+1639945579 /media/tatiana/Apacer PHD/gits/Projects/Quiz/LexStream/LexStreams.h
+	<string>
+	<vector>
+	"LexStream.h"
+	"StreamOfBracedElems.h"
+
+1639945579 /media/tatiana/Apacer PHD/gits/Projects/Quiz/LexStream/StreamOfBracedElems.h
+	<string>
+
+1639945579 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/LexStream/StreamOfBracedElems.cpp
+	"StreamOfBracedElems.h"
+

@@ -1,0 +1,226 @@
+{
+  "title": "Контрольна робота",
+  "generatedAt": "2026-03-04T12:45:55.020Z",
+  "profile": "print",
+  "variantCount": 4,
+  "variants": [
+    {
+      "variantNumber": 1,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "3a",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "While",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "2j",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "[1]",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду? ������ 2017-���������� �������� ������� ����������� �� 1 �� 20172017 ������ ���� ���� �����, �� ����� 172015",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "\"a\"d\"",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x=float(\"INF\")",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "x=2.3; x=int(x)",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "(2+2j)//2",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        }
+      ]
+    },
+    {
+      "variantNumber": 2,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: res = 1**1.0*True if isinstance(res, bool): print(f'bool;{res}') elif isinstance(res, int): print(f'int;{res}') elif isinstance(res, float): print(f'float;{res:.2f}') else: print('???') except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "double x.0;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int x='a'+'c';",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "bool r=('N'>'5');",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "'a'=3;",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Рядки журналу через = містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад s=\"username = 2022-05-05 13:26 = ERROR = 404\" у коді res = re.fullmatch('???', s) s = '' code_str = ??? чим треба замінити кожен з ???, щоб значенням code\\_str був код події?",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 3,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "'123'",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "=<",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "fop",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": ">",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "n=1; n++",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "False=0",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "n=10; --n",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x=float(\"inf\")",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: res = 8//8%8*8 if isinstance(res, bool): print(f'bool;{res}') elif isinstance(res, int): print(f'int;{res}') elif isinstance(res, float): print(f'float;{res:.2f}') else: print('???') except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 4,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "n=1; n++",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "False=0",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "n=10; --n",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "x=float(\"inf\")",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду? 4**-1.0*True",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(9 != 4 >= 2 < False)",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    }
+  ]
+}

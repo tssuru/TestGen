@@ -1,0 +1,30 @@
+echo
+echo =472_1.py 
+python3.10 ./472_1.py 
+echo
+echo =472_2.py 
+python3.10 ./472_2.py 
+echo
+echo =472_3.py 
+python3.10 ./472_3.py 
+echo
+echo =472_4.py 
+python3.10 ./472_4.py 
+echo
+echo =472_5.py 
+python3.10 ./472_5.py 
+echo
+echo =472_6.py 
+python3.10 ./472_6.py 
+echo
+echo =472_7.py 
+python3.10 ./472_7.py 
+echo
+echo =472_8.py 
+python3.10 ./472_8.py 
+echo
+echo =472_9.py 
+python3.10 ./472_9.py 
+echo
+echo =472_10.py 
+python3.10 ./472_10.py 

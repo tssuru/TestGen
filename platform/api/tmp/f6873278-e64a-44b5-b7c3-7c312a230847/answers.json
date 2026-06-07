@@ -1,0 +1,133 @@
+{
+  "title": "open-20",
+  "generatedAt": "2026-03-04T09:14:46.593Z",
+  "profile": "print",
+  "variantCount": 1,
+  "variants": [
+    {
+      "variantNumber": 1,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=2,9,0 def f(a): a=4 b=3 c=5 return a+b+c a,b,c=5,4,6 print(f(a),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') k=2 while k<8: k+=1 print(k)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? c=[10,11,12,13,14]; c[-7:-7]='11'; print(c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: k = 8 while k>2: k += -3 print(k, end=';') except: print('ERR')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: for c in range(-12, -12, 2): if c>5: continue print(c, end=';') if c>5: break else: print(c,end=';') print(c) except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') c=[10,11,12,13,14] c[-7:-7]='11' print(c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? 6/6//6*6",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: for c in range(-12, -12, 2): if c>5: continue print(c, end=';') if c>5: break else: print(c,end=';') print(c) except: print('ERR')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є список, що складається з квадратівцілих чисел від 13 до 2003 (включно), що не діляться на 5, записаних в оберненому порядку.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=8,9,6 def f(a,b=7,c): print(a,b,c,end=\"\") f(2,a=3) print(a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 11,
+          "questionText": "Що буде виведено за виконання фрагменту коду? True>\"4\"",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 12,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є список, що складається з квадратівцілих чисел від 13 до 2003 (включно), що не діляться на 5, записаних в обернено\\-му порядку.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 13,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=2,9,0 def f(a): global c    a=4 b+=3 c=5 return a+b+c a,b,c=5,4,6 print(f(a),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 14,
+          "questionText": "Що буде виведено за виконання фрагменту коду? True>\"4\"",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 15,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є список, що складається з цілих чисел від 13 до 2003 (включно), причому спочатку за зростанням записано всі, що не діляться на 5, а потім решту за зростанням.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 16,
+          "questionText": "Що буде виведено за виконання фрагменту коду? k=8 while k>2: k+=-3 print(k)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 17,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(a,b): c=72 if a>-2: return 2 if b>=4: c=9 else: c=0 return c print(f(-6,-6))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 18,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є словник, ключами якого є цілі числа від 13 до 2003 (включно), що не діляться на 5, а ключам відповідають їх квадрати",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 19,
+          "questionText": "Що буде виведено за виконання фрагменту коду? -2**-2+1",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 20,
+          "questionText": "Що буде виведено за виконання фрагменту коду? x,y,z=2,3,0 z,x,x,z=x,8,z,y print(x,y,z)",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    }
+  ]
+}

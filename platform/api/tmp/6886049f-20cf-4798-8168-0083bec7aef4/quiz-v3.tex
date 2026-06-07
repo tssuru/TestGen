@@ -1,0 +1,53 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,3}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) "\n" is not '\n'
+
+( 2 ) x in not y
+
+( 3 ) (2+2j)%2
+
+( 4 ) print(3%50)
+
+%enditem
+
+%beginitem
+2. 
+try:
+    res = 4**-0.5*-1
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+
+%enditem
+
+%end
+\newpage
+\end{document}
+

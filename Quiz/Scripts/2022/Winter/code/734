@@ -1,0 +1,30 @@
+echo
+echo =734_1.py 
+python3.10 ./734_1.py 
+echo
+echo =734_2.py 
+python3.10 ./734_2.py 
+echo
+echo =734_3.py 
+python3.10 ./734_3.py 
+echo
+echo =734_4.py 
+python3.10 ./734_4.py 
+echo
+echo =734_5.py 
+python3.10 ./734_5.py 
+echo
+echo =734_6.py 
+python3.10 ./734_6.py 
+echo
+echo =734_7.py 
+python3.10 ./734_7.py 
+echo
+echo =734_8.py 
+python3.10 ./734_8.py 
+echo
+echo =734_9.py 
+python3.10 ./734_9.py 
+echo
+echo =734_10.py 
+python3.10 ./734_10.py 

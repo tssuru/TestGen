@@ -1,0 +1,30 @@
+echo
+echo =649_1.py 
+python3.10 ./649_1.py 
+echo
+echo =649_2.py 
+python3.10 ./649_2.py 
+echo
+echo =649_3.py 
+python3.10 ./649_3.py 
+echo
+echo =649_4.py 
+python3.10 ./649_4.py 
+echo
+echo =649_5.py 
+python3.10 ./649_5.py 
+echo
+echo =649_6.py 
+python3.10 ./649_6.py 
+echo
+echo =649_7.py 
+python3.10 ./649_7.py 
+echo
+echo =649_8.py 
+python3.10 ./649_8.py 
+echo
+echo =649_9.py 
+python3.10 ./649_9.py 
+echo
+echo =649_10.py 
+python3.10 ./649_10.py 

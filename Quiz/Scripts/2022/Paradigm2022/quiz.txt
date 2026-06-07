@@ -1,0 +1,81 @@
+<document>
+
+  <header>
+\documentclass[11pt, ukrainian]{article}{ENDL}
+\setlength\textwidth{170mm} \setlength\hoffset{-25mm}{ENDL}
+\setlength\textheight{237mm}{ENDL} \setlength\voffset{-18mm} 
+%\setlength\textheight{277mm} \setlength\voffset{-38mm}{ENDL}
+%\setlength\parindent{0mm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage{caption}{ENDL}
+\DeclareCaptionFormat{nocaption}{}{ENDL}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}{ENDL}
+\usepackage[Export]{adjustbox} {ENDL}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}
+\begin{document}{ENDL}
+
+  <\header>
+
+  <footer>
+\end{document}{ENDL}
+
+  <\footer>
+
+  <onNextVariant>
+
+{ENDL}{ENDL}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+\newpage{ENDL}
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+    36
+  <\to>
+
+  <onPage>
+   4
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+{29.11-02.12.2022 Контрольна робота, варіант  \No \textbf { #No# }\par}{ENDL}
+Увага! Відповіді мають бути розгорнутими і при цьому обидві вміщуватись на одну сторону аркушу формату А4.{ENDL}{ENDL}
+{{ENDL}
+\begin {large}{ENDL}{ENDL}
+
+<\before>
+
+<after>
+\end {large}}{ENDL}{ENDL}
+\vspace{4mm}{ENDL}
+<\after>
+
+<\variant>
+
+
+<item>
+  include q1/1+2-q.txt
+  <delim>
+  <\delim>
+<\item>
+
+<item>
+  include q2/1-q.txt
+  <delim>
+  <\delim>
+<\item>
+
+

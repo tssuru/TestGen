@@ -1,0 +1,22 @@
+<fabric>
+collate
+  <fabric>
+  collate 
+  include Ar/01-q.txt
+  include Ar/02-q.txt
+      <n1>
+         10
+      <\n1>
+      <n2>
+         10
+      <\n2>
+  <\fabric>
+
+  include Log/03-q.txt
+  <n1>
+     20
+  <\n1>
+  <n2>
+    10
+  <\n2>
+<\fabric>

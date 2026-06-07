@@ -1,0 +1,39 @@
+//source for question like
+// questions
+//Що буде надруковано за виконання:\n
+
+//list operations
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+
+var=s;d;t 
+
+<\declarations>
+
+<template>
+Задача про обробку текстової інформації за допомогою регулярних виразів.{ENDL}{ENDL}
+Рядки журналу через двокрапку містять ім'я користувача (ідентифікатор), час події,
+тип події, код події, наприклад{ENDL}
+\begin{verbatim}{ENDL}
+s="username : 2022-05-05 13:26 : ERROR : 404"{ENDL}
+\end{verbatim}{ENDL}
+у коді {ENDL}
+\begin{verbatim}{ENDL}
+res = re.fullmatch('???', s) {ENDL}
+s = ''{ENDL}
+code_str = ??? {ENDL}
+\end{verbatim}{ENDL}
+чим треба замінити кожен з ??? (не обов'язково однаково), щоб значенням code\_str був код події? {ENDL}{ENDL}
+Можливі завдання не тільки про пошук чи зіставлення, але і про заміну деяких частин.{ENDL}{ENDL}
+{ENDL}{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

@@ -1,0 +1,67 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,2}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+try:
+    res = 1**1.0*True
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+Рядки журналу через = містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад
+\begin{verbatim}
+s="username = 2022-05-05 13:26 = ERROR = 404"
+\end{verbatim}
+у коді 
+\begin{verbatim}
+res = re.fullmatch('???', s) 
+s = ''
+code_str = ??? 
+\end{verbatim}
+чим треба замінити кожен з ???, щоб значенням code\_str був код події? 
+
+
+
+%enditem
+
+%beginitem
+3. Відмітити все, що є коректним оператором С++:
+( 1 ) double x.0;
+
+( 2 ) int x='a'+'c';
+
+( 3 ) bool r=('N'>'5');
+
+( 4 ) 'a'=3;
+
+%enditem
+
+%end
+\newpage
+\end{document}
+

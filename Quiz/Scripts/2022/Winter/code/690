@@ -1,0 +1,30 @@
+echo
+echo =690_1.py 
+python3.10 ./690_1.py 
+echo
+echo =690_2.py 
+python3.10 ./690_2.py 
+echo
+echo =690_3.py 
+python3.10 ./690_3.py 
+echo
+echo =690_4.py 
+python3.10 ./690_4.py 
+echo
+echo =690_5.py 
+python3.10 ./690_5.py 
+echo
+echo =690_6.py 
+python3.10 ./690_6.py 
+echo
+echo =690_7.py 
+python3.10 ./690_7.py 
+echo
+echo =690_8.py 
+python3.10 ./690_8.py 
+echo
+echo =690_9.py 
+python3.10 ./690_9.py 
+echo
+echo =690_10.py 
+python3.10 ./690_10.py 

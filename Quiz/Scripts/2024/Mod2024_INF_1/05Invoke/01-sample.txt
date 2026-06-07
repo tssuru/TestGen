@@ -1,0 +1,280 @@
+%code
+int f(int &x, int &y){
+    x = 4;
+    y-= 2;
+    return y;
+}
+
+int main(){
+    int a = 9, b = 8;
+    cout << a << ":" << b << endl;
+    b = f(a, a);
+    cout << a << ":" << b << endl;
+    {
+        int a = 7, b = 1;
+        cout << ((b<=6) && ((a-=2) <= 4));
+        cout << a << ":" << b << endl;
+    }
+    {
+        int a = 5;
+        cout << a << endl;
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+
+
+%code
+int f(int &x, int &y){
+    x = 3;
+    y+= 6;
+    return x;
+}
+
+int main(){
+    int a = 7, b = 2;
+    cout << a << ":" << b << endl;
+    a = f(b, b);
+    cout << a << ":" << b << endl;
+    {
+        int a = 3, b = 9;
+        cout << ((a>5) || ((b+=1) > 5));
+        cout << a << ":" << b << endl;
+    }
+    {
+        a = 1;
+        cout << a << endl;
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+
+
+%code
+int f(int &x, int &y){
+    x = 6;
+    y-= 5;
+    return y;
+}
+
+int main(){
+    int a = 8, b = 4;
+    cout << a << ":" << b << endl;
+    b = f(a, a);
+    cout << a << ":" << b << endl;
+    {
+        int a = 3, b = 1;
+        cout << ((a<3) || ((b+=1) < 7));
+        cout << a << ":" << b << endl;
+    }
+    {
+        a = 9;
+        cout << a << endl;
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+
+
+%code
+int f(int &x, int &y){
+    x = 8;
+    y+= 4;
+    return x;
+}
+
+int main(){
+    int a = 6, b = 7;
+    cout << a << ":" << b << endl;
+    a = f(b, b);
+    cout << a << ":" << b << endl;
+    {
+        int a = 2, b = 5;
+        cout << ((a>=4) && ((b-=2) >= 3));
+        cout << a << ":" << b << endl;
+    }
+    {
+        int a = 7;
+        cout << a << endl;
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+
+
+%code
+int f(int &x, int &y){
+    x = 2;
+    y-= 9;
+    return x;
+}
+
+int main(){
+    int a = 8, b = 1;
+    cout << a << ":" << b << endl;
+    b = f(b, b);
+    cout << a << ":" << b << endl;
+    {
+        int a = 5, b = 4;
+        cout << ((b<7) || ((a+=1) > 6));
+        cout << a << ":" << b << endl;
+    }
+    {
+        a = 6;
+        cout << a << endl;
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+
+
+%code
+int f(int &x, int &y){
+    x = 3;
+    y+= 6;
+    return y;
+}
+
+int main(){
+    int a = 9, b = 8;
+    cout << a << ":" << b << endl;
+    a = f(a, a);
+    cout << a << ":" << b << endl;
+    {
+        int a = 5, b = 4;
+        cout << ((a>7) && ((b-=2) <= 5));
+        cout << a << ":" << b << endl;
+    }
+    {
+        int a = 7;
+        cout << a << endl;
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+
+
+%code
+int f(int &x, int &y){
+    x = 2;
+    y-= 3;
+    return x;
+}
+
+int main(){
+    int a = 1, b = 1;
+    cout << a << ":" << b << endl;
+    b = f(b, a);
+    cout << a << ":" << b << endl;
+    {
+        int a = 2, b = 5;
+        cout << ((a>=5) && ((b+=1) >= 3));
+        cout << a << ":" << b << endl;
+    }
+    {
+        a = 3;
+        cout << a << endl;
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+
+
+%code
+int f(int &x, int &y){
+    x = 6;
+    y+= 7;
+    return y;
+}
+
+int main(){
+    int a = 8, b = 9;
+    cout << a << ":" << b << endl;
+    a = f(a, b);
+    cout << a << ":" << b << endl;
+    {
+        int a = 4, b = 7;
+        cout << ((a<=3) || ((b-=2) < 4));
+        cout << a << ":" << b << endl;
+    }
+    {
+        int a = 8;
+        cout << a << endl;
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+
+
+%code
+int f(int &x, int &y){
+    x = 1;
+    y-= 5;
+    return y;
+}
+
+int main(){
+    int a = 6, b = 4;
+    cout << a << ":" << b << endl;
+    a = f(a, b);
+    cout << a << ":" << b << endl;
+    {
+        int a = 9, b = 2;
+        cout << ((b>=6) || ((a+=1) > 6));
+        cout << a << ":" << b << endl;
+    }
+    {
+        a = 3;
+        cout << a << endl;
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+
+
+%code
+int f(int &x, int &y){
+    x = 4;
+    y+= 8;
+    return x;
+}
+
+int main(){
+    int a = 7, b = 3;
+    cout << a << ":" << b << endl;
+    b = f(b, a);
+    cout << a << ":" << b << endl;
+    {
+        int a = 5, b = 6;
+        cout << ((b<4) && ((a-=2) < 7));
+        cout << a << ":" << b << endl;
+    }
+    {
+        int a = 2;
+        cout << a << endl;
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+
+

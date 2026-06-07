@@ -1,0 +1,40 @@
+<document>
+  <header>
+  <\header>
+  <footer>
+  <\footer>
+  <onNextVariant>
+  <\onNextVariant>
+
+  <onNextPage>
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+  <to>
+     6
+  <\to>
+
+  <onPage>
+     
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+#No#:  {ENDL}
+<\before>
+<after>
+<\after>
+<\variant>
+
+<item>
+  include distr_f.txt
+  <delim>
+
+  <\delim>
+<\item>
+

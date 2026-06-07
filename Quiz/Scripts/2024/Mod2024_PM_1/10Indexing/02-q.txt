@@ -1,0 +1,13 @@
+ <fabric>
+     template answer
+     <fname>
+         10Indexing/02-f.txt
+     <\fname>
+
+     <before>
+Що буде надруковано за виконання?{ENDL}     
+     <\before>
+
+     <after>
+     <\after>
+   <\fabric>

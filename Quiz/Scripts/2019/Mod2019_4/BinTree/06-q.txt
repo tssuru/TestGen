@@ -1,0 +1,12 @@
+ <fabric>
+     template answer
+     <fname>
+         BinTree\06-f.txt
+     <\fname>
+
+     <before>
+     <\before>
+
+     <after>
+     <\after>
+   <\fabric>

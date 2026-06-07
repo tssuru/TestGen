@@ -1,0 +1,30 @@
+echo
+echo =549_1.py 
+python3.10 ./549_1.py 
+echo
+echo =549_2.py 
+python3.10 ./549_2.py 
+echo
+echo =549_3.py 
+python3.10 ./549_3.py 
+echo
+echo =549_4.py 
+python3.10 ./549_4.py 
+echo
+echo =549_5.py 
+python3.10 ./549_5.py 
+echo
+echo =549_6.py 
+python3.10 ./549_6.py 
+echo
+echo =549_7.py 
+python3.10 ./549_7.py 
+echo
+echo =549_8.py 
+python3.10 ./549_8.py 
+echo
+echo =549_9.py 
+python3.10 ./549_9.py 
+echo
+echo =549_10.py 
+python3.10 ./549_10.py 

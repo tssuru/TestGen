@@ -1,0 +1,21 @@
+//source for question like
+//construction, destruction
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+n={<int> 2 5}
+arg={<file:4> 02-s.txt}
+
+<\declarations>
+
+<template>
+#arg#
+
+<\template>
+
+<restrictions>
+<\restrictions>

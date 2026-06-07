@@ -1,0 +1,20 @@
+//lab 2 script
+//cycles and recurrencies
+//TemplateAnswerQuestFabric1
+// now 121+22 functions
+
+<declarations>
+var=[8 lab2.txt]
+
+<\declarations>
+
+<template>
+{
+%5.2.#var[0]# \par {ENDL}
+{$S(x)=\sum\limits_{n=#var[7]#}^{\infty}{\frac{#var[4]#}{#var[5]#}}{x^{#var[6]#}}$},\space 
+{$D_S=[a;b]$},\space {$a=#var[1]#$},\space {$b=#var[2]#$} \par \smallskip  {ENDL}
+%{$f(x)=#var[3]#$}\par {ENDL}
+}
+<\template>
+<restrictions>
+<\restrictions>

@@ -1,0 +1,14 @@
+ <fabric>
+     template answer
+     <fname>
+         07\1-f.txt
+     <\fname>
+
+<before>
+Що буде виведено за виконання?{ENDL}
+code{ENDL}
+<\before>
+<after>
+code{ENDL}
+<\after>
+   <\fabric>

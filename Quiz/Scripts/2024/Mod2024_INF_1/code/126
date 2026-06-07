@@ -1,0 +1,30 @@
+echo
+echo =126_1.py 
+python3.11 -W "ignore" ./126_1.py 
+echo
+echo =126_2.py 
+python3.11 -W "ignore" ./126_2.py 
+echo
+echo =126_3.py 
+python3.11 -W "ignore" ./126_3.py 
+echo
+echo =126_4.py 
+python3.11 -W "ignore" ./126_4.py 
+echo
+echo =126_5.py 
+python3.11 -W "ignore" ./126_5.py 
+echo
+echo =126_6.py 
+python3.11 -W "ignore" ./126_6.py 
+echo
+echo =126_7.py 
+python3.11 -W "ignore" ./126_7.py 
+echo
+echo =126_8.py 
+python3.11 -W "ignore" ./126_8.py 
+echo
+echo =126_10.py 
+python3.11 -W "ignore" ./126_10.py 
+echo
+echo =126_11.py 
+python3.11 -W "ignore" ./126_11.py 

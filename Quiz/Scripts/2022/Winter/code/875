@@ -1,0 +1,30 @@
+echo
+echo =875_1.py 
+python3.10 ./875_1.py 
+echo
+echo =875_2.py 
+python3.10 ./875_2.py 
+echo
+echo =875_3.py 
+python3.10 ./875_3.py 
+echo
+echo =875_4.py 
+python3.10 ./875_4.py 
+echo
+echo =875_5.py 
+python3.10 ./875_5.py 
+echo
+echo =875_6.py 
+python3.10 ./875_6.py 
+echo
+echo =875_7.py 
+python3.10 ./875_7.py 
+echo
+echo =875_8.py 
+python3.10 ./875_8.py 
+echo
+echo =875_9.py 
+python3.10 ./875_9.py 
+echo
+echo =875_10.py 
+python3.10 ./875_10.py 

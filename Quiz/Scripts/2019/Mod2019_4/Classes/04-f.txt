@@ -1,0 +1,60 @@
+//source for question like
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+x=[3 Classes\04-s.txt]
+
+Xi1=0;1
+Xi2=#Xi1
+const Xab1=#x[#Xi1#]#
+const Xab2=#x[#Xi2#]#
+
+abc=a;b;c
+
+
+<\declarations>
+
+<template>
+
+code{ENDL}
+class A:{ENDL}
+{SPACE4}#x[0]# = 1{ENDL}
+{SPACE4}#x[1]# = 2{ENDL}{ENDL}
+{SPACE4}def __init__(self):{ENDL}
+{SPACE4}{SPACE4}#Xab1# = 3{ENDL}{ENDL}
+
+class B(A):{ENDL}
+{SPACE4}#Xab2# = 4{ENDL}{ENDL}
+{SPACE4}def __init__(self):{ENDL}
+{SPACE4}{SPACE4}super().__init__(){ENDL}
+{SPACE4}{SPACE4}self.#x[2]# = 7{ENDL}{ENDL}
+
+obj = B(){ENDL}
+obj.#abc# = obj.#abc new# + 10{ENDL}
+B.#abc# = 13{ENDL}{ENDL}
+
+try: print(obj.#abc#, end= ' '){ENDL}
+except: print('ERR', end=' '){ENDL}{ENDL}
+try: print(A.#abc#, end= ' '){ENDL}
+except: print('ERR', end=' '){ENDL}{ENDL}
+try: print(B.#abc#, end= ' '){ENDL}
+except: print('ERR', end=' '){ENDL}
+
+
+//try:{ENDL}{SPACE4}print(obj.#abc#, end= ' '){ENDL}
+//except:{ENDL}{SPACE4}print('ERR', end=' '){ENDL}{ENDL}
+//try:{ENDL}{SPACE4}print(A.#abc#, end= ' '){ENDL}
+//except:{ENDL}{SPACE4}print('ERR', end=' '){ENDL}{ENDL}
+//try:{ENDL}{SPACE4}print(B.#abc#, end= ' '){ENDL}
+//except:{ENDL}{SPACE4}print('ERR', end=' '){ENDL}
+
+code{ENDL}
+
+<\template>
+
+<restrictions>
+<\restrictions>

@@ -1,0 +1,30 @@
+echo
+echo =259_1.py 
+python3.10 ./259_1.py 
+echo
+echo =259_2.py 
+python3.10 ./259_2.py 
+echo
+echo =259_3.py 
+python3.10 ./259_3.py 
+echo
+echo =259_4.py 
+python3.10 ./259_4.py 
+echo
+echo =259_5.py 
+python3.10 ./259_5.py 
+echo
+echo =259_6.py 
+python3.10 ./259_6.py 
+echo
+echo =259_7.py 
+python3.10 ./259_7.py 
+echo
+echo =259_8.py 
+python3.10 ./259_8.py 
+echo
+echo =259_9.py 
+python3.10 ./259_9.py 
+echo
+echo =259_10.py 
+python3.10 ./259_10.py 

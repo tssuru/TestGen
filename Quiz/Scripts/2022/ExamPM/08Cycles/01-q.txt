@@ -1,0 +1,24 @@
+  <fabric>
+     collate
+     <fabric>
+        template answer
+        <fname>
+          08Cycles/01-01-f.txt
+        <\fname>
+     <\fabric>
+
+     <fabric>
+        template answer
+        <fname>
+          08Cycles/01-02-f.txt
+        <\fname>
+      <\fabric>
+
+      <n1>
+         30
+      <\n1>
+      <n2>
+         30
+      <\n2>
+  <\fabric>
+

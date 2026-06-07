@@ -1,0 +1,30 @@
+echo
+echo =583_1.py 
+python3.10 ./583_1.py 
+echo
+echo =583_2.py 
+python3.10 ./583_2.py 
+echo
+echo =583_3.py 
+python3.10 ./583_3.py 
+echo
+echo =583_4.py 
+python3.10 ./583_4.py 
+echo
+echo =583_5.py 
+python3.10 ./583_5.py 
+echo
+echo =583_6.py 
+python3.10 ./583_6.py 
+echo
+echo =583_7.py 
+python3.10 ./583_7.py 
+echo
+echo =583_8.py 
+python3.10 ./583_8.py 
+echo
+echo =583_9.py 
+python3.10 ./583_9.py 
+echo
+echo =583_10.py 
+python3.10 ./583_10.py 

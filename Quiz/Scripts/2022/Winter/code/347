@@ -1,0 +1,30 @@
+echo
+echo =347_1.py 
+python3.10 ./347_1.py 
+echo
+echo =347_2.py 
+python3.10 ./347_2.py 
+echo
+echo =347_3.py 
+python3.10 ./347_3.py 
+echo
+echo =347_4.py 
+python3.10 ./347_4.py 
+echo
+echo =347_5.py 
+python3.10 ./347_5.py 
+echo
+echo =347_6.py 
+python3.10 ./347_6.py 
+echo
+echo =347_7.py 
+python3.10 ./347_7.py 
+echo
+echo =347_8.py 
+python3.10 ./347_8.py 
+echo
+echo =347_9.py 
+python3.10 ./347_9.py 
+echo
+echo =347_10.py 
+python3.10 ./347_10.py 

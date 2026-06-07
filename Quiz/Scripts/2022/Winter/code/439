@@ -1,0 +1,30 @@
+echo
+echo =439_1.py 
+python3.10 ./439_1.py 
+echo
+echo =439_2.py 
+python3.10 ./439_2.py 
+echo
+echo =439_3.py 
+python3.10 ./439_3.py 
+echo
+echo =439_4.py 
+python3.10 ./439_4.py 
+echo
+echo =439_5.py 
+python3.10 ./439_5.py 
+echo
+echo =439_6.py 
+python3.10 ./439_6.py 
+echo
+echo =439_7.py 
+python3.10 ./439_7.py 
+echo
+echo =439_8.py 
+python3.10 ./439_8.py 
+echo
+echo =439_9.py 
+python3.10 ./439_9.py 
+echo
+echo =439_10.py 
+python3.10 ./439_10.py 

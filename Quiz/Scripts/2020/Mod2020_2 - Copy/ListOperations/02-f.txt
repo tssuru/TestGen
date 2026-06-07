@@ -1,0 +1,53 @@
+//source for question like
+// questions
+//Що буде надруковано за виконання:\n
+
+//slice operations
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+id={<char> a h}
+const data1=[10,11,12,13,14]
+const data2=['0','1','2','3','4']
+XDNUM=1;2
+const DATA=#data#XDNUM##
+const EL=#xel#XDNUM##
+
+xel3={<int> 12 15}
+smth={[#xel3#]}{(#xel3#)}{'10'}{'11'}{'12'}{'13'}{[1,2]}{[2,3]}{[4,5]}{[1,0]}{()}
+
+ACT={#ACTxASSIGN#}{#ACTxASSIGN#}{#ACTxDEL#}
+const ACTxDEL=del #id##SLICE#
+const ACTxASSIGN=#id##SLICE#=#smth#
+
+const AACTION=#ACT#
+
+
+slice_from={<int> -9 8}
+slice_to={<int> -9 8}
+const slice1=#slice_from#:#slice_to#
+const slice2=:#slice_to#
+const slice3=#slice_from#:
+slice0=1;1;1;1;1;2;2;3;3
+const SLICE0=#
+const SLICE=[#SLICE0#slice#slice0##SLICE0#]
+
+<\declarations>
+
+<template>
+{ENDL}
+print('R', end=' '){ENDL}
+#id#=#DATA#{ENDL}
+#AACTION#{ENDL}
+print(#id#){ENDL}
+{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

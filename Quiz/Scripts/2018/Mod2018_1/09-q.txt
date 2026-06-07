@@ -1,0 +1,10 @@
+<fabric>
+     file answer
+     <fname>
+         09.txt
+     <\fname>
+
+     <before>
+	 Що буде надруковано за виконання:{ENDL}
+     <\before>
+  <\fabric>

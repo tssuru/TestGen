@@ -1,0 +1,23 @@
+  <fabric>
+     check auto
+     <good>
+         03-good.txt
+     <\good>
+
+     <bad> 
+         03-bad.txt
+     <\bad>
+	<ncase>
+	   4
+	<\ncase>
+	<nGood>
+	   2
+	<\nGood>
+	<mode>
+	   SpaceBetween
+	<\mode>
+     <before>
+         Вiдмiтити все, де нема синтаксичних помилок:{ENDL}
+     <\before>
+
+   <\fabric>

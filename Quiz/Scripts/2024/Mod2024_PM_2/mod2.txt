@@ -1,0 +1,8441 @@
+\documentclass[12pt, ukrainian]{article}
+\usepackage[a4paper]{geometry}
+\setlength\parindent{0mm}
+\geometry{top=1.1cm,bottom=1.1cm,left=1.1cm,right=1.1cm}
+\pagestyle{empty}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\DeclareCaptionFormat{nocaption}{}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+\usepackage[Export]{adjustbox} 
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+\begin{document}
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 1 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,5,9
+def g(b):
+    global c
+    a=2
+    b*=4
+    c=3
+    return a+b+c
+
+a,b,c=1,8,0
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(8//2)
+        return 43
+    except TypeError: return 9
+    except Exception: return 3
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+j=8
+while j<=10:
+    j+=1
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(2,2+4,-2):
+    if a>=6:
+        break
+    print(a, end=' ')
+    a=4
+else:
+    print(13, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        return f(n // 100) + 1
+    else:
+        return 1
+
+print(f(123456))
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 2 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,0,5
+def h(b):
+    a=3
+    b=4
+    c=1
+    return a+b+c
+
+a,b,c=1,3,7
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 7>=7
+    except KeyboardInterrupt: return 4
+    except ValueError: return 0
+    else: return 33
+    finally: return 22
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=3
+while i<12:
+    i+=2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(-10,-10+5,-3):
+    if c<=5:
+        pass
+    print(c, end=' ')
+    c=6
+    if c<=6:
+        break
+else:
+    print(c, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 3 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=3,7,6
+def f(a):
+    a=1
+    b-=5
+    c=3
+    return a+b+c
+
+a,b,c=2,9,3
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("d1")
+        return 41
+    except BaseException: return 2
+    except ZeroDivisionError: return 5
+    finally: return 24
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+k=15
+while k>5:
+    k+=-2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(-7,-7+3,2):
+    if d>8:
+        continue
+    print(d, end=' ')
+    d=-5
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    print(n % 10, end=' ')
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 4 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,2,6
+def h(b):
+    a+=2
+    b=1
+    c=4
+    return a+b+c
+
+a,b,c=0,7,1
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(6/0.0)
+    except KeyboardInterrupt: return 2
+    except TypeError: return 0
+    else: return 30
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=11
+while n>=4:
+    n+=-3
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for f in range(8,8+6,3):
+    if f<4:
+        continue
+    print(f, end=' ')
+    f=5
+else:
+    print(f, end=' ')
+print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 5 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,8,9
+def g(a):
+    global c
+    a=5
+    b+=3
+    c=5
+    return a+b+c
+
+a,b,c=6,2,3
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("9")
+    except ValueError: return 1
+    except ZeroDivisionError: return 4
+    else: return 32
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=7
+while m>=3:
+    m+=-3
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(5,5+2,-3):
+    if e>7:
+        break
+    print(e, end=' ')
+    e=-6
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+            f(n // 100)
+    print(n % 10, end=' ')
+    
+
+f(987654)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 6 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,2,8
+def f(a):
+    global c
+    a=5
+    b=2
+    c=5
+    return a+b+c
+
+a,b,c=6,0,6
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(6%0)
+        return 44
+    except BaseException: return 7
+    except Exception: return 3
+    finally: return 23
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=7
+while m<7:
+    m+=2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for b in range(3,3+5,-2):
+    if b<3:
+        continue
+    print(b, end=' ')
+    b=9
+else:
+    print(b, end=' ')
+print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 7 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,5,1
+def h(b):
+    a=4
+    b-=2
+    c=1
+    return a+b+c
+
+a,b,c=4,7,8
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("5")
+    except Exception: return 8
+    except BaseException: return 5
+    finally: return 21
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=12
+while t>2:
+    t+=-2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(9,9+6,3):
+    if c<=4:
+        pass
+    print(c, end=' ')
+    c=2
+else:
+    print(c, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 8 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,9,1
+def f(a):
+    global c
+    a*=2
+    b=4
+    c=5
+    return a+b+c
+
+a,b,c=0,5,2
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 8<0
+        return 42
+    except ValueError: return 6
+    except KeyboardInterrupt: return 3
+    else: return 31
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+j=8
+while j>0:
+    j+=-2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for b in range(-1,-1+2,2):
+    if b>=6:
+        continue
+    print(b, end=' ')
+    b=-2
+else:
+    print(b, end=' ')
+print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 2:
+        f(n // 2)
+    else:
+        print(n % 2, end=' ')
+
+f(16)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 9 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=7,6,3
+def f(b):
+    a-=3
+    b=1
+    c=2
+    return a+b+c
+
+a,b,c=8,6,2
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(1%1)
+        return 40
+    except ZeroDivisionError: return 2
+    except TypeError: return 9
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=13
+while i>=9:
+    i+=-3
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for f in range(-2,-2+4,-3):
+    if f>=8:
+        continue
+    print(f, end=' ')
+    f=-1
+else:
+    print(f, end=' ')
+print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        return f(n // 10) + 1
+    else:
+        return 1
+
+print(f(123456))
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 10 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=7,9,0
+def g(a):
+    global c
+    a=4
+    b+=1
+    c=3
+    return a+b+c
+
+a,b,c=1,5,8
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("a0")
+    except BaseException: return 4
+    except TypeError: return 7
+    else: return 34
+    finally: return 20
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+k=4
+while k<=5:
+    k+=1
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(6,6+3,3):
+    if a<7:
+        pass
+    print(a, end=' ')
+    a=-3
+else:
+    print(13, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 2, end=' ')
+    if n > 2:
+        f(n // 2)
+    
+
+f(16)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 11 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,3,0
+def h(a):
+    a=5
+    b*=5
+    c=2
+    return a+b+c
+
+a,b,c=1,8,3
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("9")
+        return 45
+    except KeyboardInterrupt: return 8
+    except ValueError: return 2
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=2
+while t<6:
+    t+=1
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(-4,-4+5,-2):
+    if d<=5:
+        break
+    print(d, end=' ')
+    d=0
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 2:
+        f(n // 2)
+    print(n % 2, end=' ')
+    
+
+f(16)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 12 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=3,8,1
+def g(a):
+    a=1
+    b=2
+    c=3
+    return a+b+c
+
+a,b,c=5,7,4
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(0/0.0)
+    except Exception: return 5
+    except ZeroDivisionError: return 4
+    else: return 35
+    finally: return 25
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=14
+while m>=6:
+    m+=-2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(0,0+3,2):
+    if e>3:
+        continue
+    print(e, end=' ')
+    e=-7
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+f(987651)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 13 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=7,2,4
+def h(b):
+    global c
+    a*=1
+    b=4
+    c=3
+    return a+b+c
+
+a,b,c=5,6,9
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(7//2)
+    except KeyboardInterrupt: return 3
+    except Exception: return 6
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=1
+while n<=13:
+    n+=2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for b in range(-8,-8+6,-3):
+    if b>=7:
+        continue
+    print(b, end=' ')
+    b=-10
+else:
+    print(b, end=' ')
+print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+f(987654)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 14 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,7,6
+def g(b):
+    global c
+    a-=4
+    b=3
+    c=2
+    return a+b+c
+
+a,b,c=1,5,8
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("b1")
+        return 42
+    except BaseException: return 5
+    except ValueError: return 4
+    else: return 33
+    finally: return 24
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=9
+while i>1:
+    i+=-3
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(1,1+4,-2):
+    if e>8:
+        continue
+    print(e, end=' ')
+    e=1
+    if e>8:
+        break
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 15 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=3,9,0
+def f(a):
+    a+=1
+    b=5
+    c=4
+    return a+b+c
+
+a,b,c=4,4,2
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 7==3
+    except TypeError: return 0
+    except ZeroDivisionError: return 2
+    else: return 34
+    finally: return 21
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+j=6
+while j>7:
+    j+=-2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(10,10+2,3):
+    if d<=5:
+        pass
+    print(d, end=' ')
+    d=-4
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 16 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,9,9
+def f(b):
+    global c
+    a=4
+    b=2
+    c=4
+    return a+b+c
+
+a,b,c=0,5,8
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 3<=5
+        return 44
+    except KeyboardInterrupt: return 8
+    except ValueError: return 9
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+k=0
+while k<8:
+    k+=1
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(7,7+2,2):
+    if c<3:
+        break
+    print(c, end=' ')
+    c=-9
+else:
+    print(c, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+           f(n // 100)
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 17 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=1,2,3
+def g(a):
+    global c
+    a=5
+    b=3
+    c=1
+    return a+b+c
+
+a,b,c=6,7,4
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("c6")
+    except Exception: return 1
+    except ZeroDivisionError: return 7
+    else: return 32
+    finally: return 20
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=6
+while m<=9:
+    m+=2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for f in range(-5,-5+4,-2):
+    if f<=6:
+        continue
+    print(f, end=' ')
+    f=7
+else:
+    print(13, end=' ')
+print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 18 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,8,3
+def h(a):
+    global c
+    a=5
+    b+=1
+    c=3
+    return a+b+c
+
+a,b,c=1,5,0
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("1")
+        return 41
+    except BaseException: return 6
+    except TypeError: return 9
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=5
+while t<11:
+    t+=1
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(-6,-6+3,2):
+    if a>4:
+        pass
+    print(a, end=' ')
+    a=3
+else:
+    print(a, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 100)
+    
+
+f(987654)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 19 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=6,7,3
+def g(b):
+    a*=2
+    b=3
+    c=5
+    return a+b+c
+
+a,b,c=7,4,2
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(5//1)
+        return 40
+    except BaseException: return 4
+    except KeyboardInterrupt: return 0
+    else: return 35
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=9
+while n<=11:
+    n+=2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(4,4+5,3):
+    if c<8:
+        break
+    print(c, end=' ')
+    c=10
+else:
+    print(c, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 20 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,8,0
+def f(b):
+    global c
+    a=2
+    b-=1
+    c=4
+    return a+b+c
+
+a,b,c=5,6,1
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(8/0)
+    except ZeroDivisionError: return 3
+    except ValueError: return 2
+    finally: return 23
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=8
+while i<=5:
+    i+=2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(-9,-9+6,-3):
+    if d>=6:
+        continue
+    print(d, end=' ')
+    d=-8
+else:
+    print(13, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 21 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,4,1
+def f(a):
+    a=5
+    b*=1
+    c=3
+    return a+b+c
+
+a,b,c=3,0,5
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(4%1)
+    except Exception: return 8
+    except TypeError: return 2
+    else: return 31
+    finally: return 22
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+j=0
+while j<7:
+    j+=1
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(-3,-3+6,2):
+    if e>=3:
+        continue
+    print(e, end=' ')
+    e=8
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 22 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,3,1
+def h(b):
+    a=3
+    b=5
+    c=2
+    return a+b+c
+
+a,b,c=8,7,4
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 6!=8
+        return 43
+    except ZeroDivisionError: return 7
+    except KeyboardInterrupt: return 3
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=10
+while n>=8:
+    n+=-3
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for b in range(-1,-1+5,3):
+    if b>4:
+        continue
+    print(b, end=' ')
+    b=-2
+else:
+    print(b, end=' ')
+print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 23 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,6,5
+def h(a):
+    global c
+    a=4
+    b=1
+    c=4
+    return a+b+c
+
+a,b,c=9,3,8
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(9%0)
+        return 45
+    except Exception: return 5
+    except BaseException: return 1
+    finally: return 25
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+k=5
+while k>6:
+    k+=-3
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(1,1+2,-3):
+    if a<=7:
+        pass
+    print(a, end=' ')
+    a=-5
+    if a>=3:
+        break
+else:
+    print(a, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 24 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,9,6
+def h(b):
+    global c
+    a-=2
+    b=4
+    c=1
+    return a+b+c
+
+a,b,c=7,3,2
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("0")
+    except ValueError: return 0
+    except TypeError: return 7
+    else: return 30
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=8
+while t>=5:
+    t+=-2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for f in range(-4,-4+3,-2):
+    if f<5:
+        break
+    print(f, end=' ')
+    f=10
+else:
+    print(f, end=' ')
+print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 2, end=' ')
+    if n > 2:
+        f(n // 2)
+    
+
+f(16)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 25 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,5,0
+def g(a):
+    a=5
+    b+=4
+    c=3
+    return a+b+c
+
+a,b,c=6,7,4
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("b3")
+        return 45
+    except KeyboardInterrupt: return 1
+    except Exception: return 6
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+j=6
+while j>=1:
+    j+=-3
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(-2,-2+4,-3):
+    if a<6:
+        break
+    print(a, end=' ')
+    a=-4
+else:
+    print(a, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        return f(n // 10) + 1
+    else:
+        return 1
+
+print(f(123456))
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 26 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,1,8
+def h(a):
+    a=2
+    b*=1
+    c=2
+    return a+b+c
+
+a,b,c=3,1,9
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("d5")
+    except ValueError: return 4
+    except TypeError: return 8
+    else: return 30
+    finally: return 23
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=2
+while m<8:
+    m+=2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for f in range(-5,-5+2,3):
+    if f>4:
+        continue
+    print(f, end=' ')
+    f=-10
+else:
+    print(13, end=' ')
+print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 27 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=7,0,5
+def g(b):
+    global c
+    a-=5
+    b=3
+    c=4
+    return a+b+c
+
+a,b,c=6,2,4
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 2>9
+        return 41
+    except ZeroDivisionError: return 9
+    except BaseException: return 2
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=10
+while m>0:
+    m+=-2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(6,6+5,-2):
+    if e<=8:
+        continue
+    print(e, end=' ')
+    e=-8
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 2:
+        f(n // 2)
+    print(n % 2, end=' ')
+    
+
+f(16)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 28 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,2,6
+def f(b):
+    a+=4
+    b=5
+    c=2
+    return a+b+c
+
+a,b,c=8,0,9
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(7//2)
+    except ValueError: return 5
+    except TypeError: return 4
+    else: return 34
+    finally: return 20
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+k=5
+while k<=12:
+    k+=1
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(4,4+3,2):
+    if d>=3:
+        pass
+    print(d, end=' ')
+    d=1
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 2:
+        f(n // 2)
+    else:
+        print(n % 2, end=' ')
+
+f(16)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 29 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,4,2
+def g(b):
+    a=3
+    b=1
+    c=5
+    return a+b+c
+
+a,b,c=7,5,1
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("3")
+        return 43
+    except KeyboardInterrupt: return 9
+    except BaseException: return 0
+    else: return 35
+    finally: return 21
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=9
+while t>7:
+    t+=-3
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(9,9+6,2):
+    if c>=7:
+        continue
+    print(c, end=' ')
+    c=5
+else:
+    print(c, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+            f(n // 100)
+    print(n % 10, end=' ')
+    
+
+f(987654)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 30 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=7,1,3
+def h(a):
+    global c
+    a=3
+    b*=1
+    c=4
+    return a+b+c
+
+a,b,c=4,8,3
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(8/0.0)
+    except ZeroDivisionError: return 6
+    except Exception: return 1
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+j=6
+while j<9:
+    j+=2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for b in range(10,10+4,3):
+    if b<5:
+        break
+    print(b, end=' ')
+    b=8
+else:
+    print(b, end=' ')
+print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    print(n % 10, end=' ')
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 31 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=6,9,4
+def f(b):
+    a=2
+    b=1
+    c=4
+    return a+b+c
+
+a,b,c=0,8,7
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 9<=6
+    except ZeroDivisionError: return 0
+    except Exception: return 8
+    else: return 33
+    finally: return 24
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=4
+while i<=6:
+    i+=1
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(-10,-10+6,-2):
+    if e<=4:
+        pass
+    print(e, end=' ')
+    e=9
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 32 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=1,6,2
+def h(a):
+    global c
+    a=3
+    b=5
+    c=2
+    return a+b+c
+
+a,b,c=3,9,5
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("2")
+        return 40
+    except ValueError: return 6
+    except TypeError: return 7
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=7
+while n<=10:
+    n+=1
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(0,0+2,-3):
+    if a>8:
+        continue
+    print(a, end=' ')
+    a=-3
+    if a<5:
+        break
+else:
+    print(a, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+f(987651)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 33 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,1,0
+def f(b):
+    global c
+    a-=2
+    b=5
+    c=3
+    return a+b+c
+
+a,b,c=7,6,5
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(5%2)
+    except BaseException: return 1
+    except KeyboardInterrupt: return 3
+    else: return 31
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=14
+while n>=4:
+    n+=-2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(-7,-7+5,-3):
+    if c>5:
+        continue
+    print(c, end=' ')
+    c=-6
+else:
+    print(13, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 34 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,9,2
+def g(a):
+    a+=1
+    b=3
+    c=4
+    return a+b+c
+
+a,b,c=0,4,3
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(4/0)
+        return 42
+    except ZeroDivisionError: return 5
+    except ValueError: return 6
+    finally: return 25
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=15
+while i>=2:
+    i+=-2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for f in range(-9,-9+3,2):
+    if f>=3:
+        break
+    print(f, end=' ')
+    f=4
+else:
+    print(f, end=' ')
+print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 100)
+    
+
+f(987654)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 35 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=1,8,5
+def f(a):
+    global c
+    a+=1
+    b=5
+    c=2
+    return a+b+c
+
+a,b,c=6,7,9
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("a0")
+    except Exception: return 8
+    except TypeError: return 2
+    else: return 32
+    finally: return 22
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+k=13
+while k>8:
+    k+=-3
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(8,8+4,-2):
+    if d<7:
+        pass
+    print(d, end=' ')
+    d=-7
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 36 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,4,1
+def h(b):
+    a=3
+    b*=1
+    c=2
+    return a+b+c
+
+a,b,c=5,2,6
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("c3")
+        return 44
+    except KeyboardInterrupt: return 7
+    except BaseException: return 1
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+k=11
+while k>3:
+    k+=-3
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for b in range(-8,-8+5,3):
+    if b<=6:
+        continue
+    print(b, end=' ')
+    b=-9
+else:
+    print(b, end=' ')
+print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+           f(n // 100)
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 37 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,7,3
+def g(b):
+    a=5
+    b-=4
+    c=1
+    return a+b+c
+
+a,b,c=8,7,4
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("9")
+        return 42
+    except KeyboardInterrupt: return 4
+    except ValueError: return 2
+    else: return 35
+    finally: return 22
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=1
+while t<13:
+    t+=2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for b in range(2,2+3,2):
+    if b<6:
+        continue
+    print(b, end=' ')
+    b=7
+    if b<=4:
+        break
+else:
+    print(b, end=' ')
+print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        return f(n // 100) + 1
+    else:
+        return 1
+
+print(f(123456))
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 38 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=6,8,0
+def f(a):
+    global c
+    a*=4
+    b=2
+    c=5
+    return a+b+c
+
+a,b,c=2,3,1
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(0//1)
+    except ZeroDivisionError: return 8
+    except BaseException: return 6
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=12
+while m>=9:
+    m+=-2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for f in range(-6,-6+2,-2):
+    if f>=5:
+        pass
+    print(f, end=' ')
+    f=3
+else:
+    print(f, end=' ')
+print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 39 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,5,3
+def g(b):
+    global c
+    a=3
+    b+=1
+    c=3
+    return a+b+c
+
+a,b,c=8,6,7
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 7>=2
+    except TypeError: return 3
+    except Exception: return 4
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+k=3
+while k<6:
+    k+=2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(3,3+4,-3):
+    if c>3:
+        break
+    print(c, end=' ')
+    c=2
+else:
+    print(13, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 40 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,1,9
+def h(a):
+    a=2
+    b-=5
+    c=4
+    return a+b+c
+
+a,b,c=5,0,2
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(5/0.0)
+        return 45
+    except TypeError: return 9
+    except ValueError: return 1
+    else: return 33
+    finally: return 23
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=9
+while i<=13:
+    i+=1
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(-3,-3+6,3):
+    if e<=8:
+        continue
+    print(e, end=' ')
+    e=-1
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+f(987654)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 41 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=6,1,0
+def g(b):
+    a=2
+    b=4
+    c=1
+    return a+b+c
+
+a,b,c=2,3,5
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(7%0.0)
+        return 40
+    except Exception: return 9
+    except KeyboardInterrupt: return 5
+    finally: return 24
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=5
+while t>=2:
+    t+=-2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(7,7+2,2):
+    if d>=7:
+        pass
+    print(d, end=' ')
+    d=6
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+           f(n // 100)
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 42 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=1,3,7
+def g(b):
+    a*=1
+    b=2
+    c=5
+    return a+b+c
+
+a,b,c=9,5,8
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(4//1)
+    except BaseException: return 3
+    except ZeroDivisionError: return 8
+    else: return 34
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+j=7
+while j>6:
+    j+=-3
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(5,5+3,3):
+    if a<=4:
+        continue
+    print(a, end=' ')
+    a=0
+else:
+    print(a, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 100)
+    
+
+f(987654)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 43 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,0,6
+def f(a):
+    global c
+    a=4
+    b+=3
+    c=2
+    return a+b+c
+
+a,b,c=2,7,5
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 6<4
+    except KeyboardInterrupt: return 2
+    except Exception: return 0
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=6
+while t<=9:
+    t+=2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(-2,-2+6,-2):
+    if a<3:
+        break
+    print(a, end=' ')
+    a=-10
+else:
+    print(13, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        return f(n // 100) + 1
+    else:
+        return 1
+
+print(f(123456))
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 44 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,9,4
+def h(b):
+    a-=3
+    b=4
+    c=5
+    return a+b+c
+
+a,b,c=6,3,8
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("1")
+        return 41
+    except TypeError: return 2
+    except ValueError: return 7
+    else: return 31
+    finally: return 21
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=14
+while n>=1:
+    n+=-3
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for b in range(-7,-7+5,-3):
+    if b>4:
+        continue
+    print(b, end=' ')
+    b=2
+    if b<7:
+        break
+else:
+    print(b, end=' ')
+print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 45 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,9,8
+def f(a):
+    global c
+    a=3
+    b=5
+    c=1
+    return a+b+c
+
+a,b,c=7,7,2
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("d4")
+        return 43
+    except ZeroDivisionError: return 0
+    except BaseException: return 9
+    else: return 30
+    finally: return 25
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+j=8
+while j<5:
+    j+=1
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for f in range(1,1+4,3):
+    if f<=8:
+        pass
+    print(f, end=' ')
+    f=4
+else:
+    print(f, end=' ')
+print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 46 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,1,7
+def g(a):
+    global c
+    a-=1
+    b=4
+    c=3
+    return a+b+c
+
+a,b,c=6,1,0
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(1%0)
+    except TypeError: return 5
+    except ZeroDivisionError: return 6
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=6
+while i>5:
+    i+=-2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(-4,-4+2,-3):
+    if d<7:
+        continue
+    print(d, end=' ')
+    d=-1
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 2:
+        f(n // 2)
+    print(n % 2, end=' ')
+    
+
+f(16)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 47 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,8,3
+def f(b):
+    global c
+    a=1
+    b+=5
+    c=2
+    return a+b+c
+
+a,b,c=5,4,9
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(3//2)
+        return 44
+    except ValueError: return 8
+    except BaseException: return 9
+    else: return 32
+    finally: return 20
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=10
+while m>=9:
+    m+=-3
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(0,0+4,2):
+    if e>=6:
+        continue
+    print(e, end=' ')
+    e=5
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 48 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,4,6
+def h(a):
+    a=1
+    b*=2
+    c=3
+    return a+b+c
+
+a,b,c=3,0,7
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("3")
+    except Exception: return 2
+    except KeyboardInterrupt: return 4
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=7
+while n>4:
+    n+=-2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(8,8+5,-2):
+    if c>5:
+        break
+    print(c, end=' ')
+    c=-4
+else:
+    print(c, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 49 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,8,5
+def g(b):
+    global c
+    a-=5
+    b=4
+    c=5
+    return a+b+c
+
+a,b,c=1,8,7
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 7>1
+    except ZeroDivisionError: return 8
+    except ValueError: return 0
+    else: return 31
+    finally: return 20
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=5
+while i>=3:
+    i+=-3
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(-3,-3+3,-2):
+    if a<=3:
+        break
+    print(a, end=' ')
+    a=-7
+else:
+    print(a, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 50 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,4,1
+def h(b):
+    a=4
+    b=2
+    c=3
+    return a+b+c
+
+a,b,c=8,9,6
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("b5")
+        return 43
+    except Exception: return 1
+    except BaseException: return 6
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=15
+while t>8:
+    t+=-2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(5,5+6,2):
+    if c>8:
+        continue
+    print(c, end=' ')
+    c=7
+else:
+    print(c, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 2:
+        f(n // 2)
+    else:
+        print(n % 2, end=' ')
+
+f(16)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 51 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,0,3
+def h(a):
+    a=4
+    b*=1
+    c=3
+    return a+b+c
+
+a,b,c=2,5,1
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(1/2)
+        return 40
+    except TypeError: return 6
+    except KeyboardInterrupt: return 9
+    else: return 35
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+k=11
+while k>=7:
+    k+=-2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(6,6+5,3):
+    if e<4:
+        continue
+    print(e, end=' ')
+    e=8
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        return f(n // 10) + 1
+    else:
+        return 1
+
+print(f(123456))
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 52 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=6,4,3
+def f(a):
+    global c
+    a=2
+    b+=2
+    c=1
+    return a+b+c
+
+a,b,c=8,1,6
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("c2")
+    except Exception: return 0
+    except ZeroDivisionError: return 3
+    finally: return 21
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=4
+while n<12:
+    n+=1
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for f in range(4,4+4,-3):
+    if f>=5:
+        pass
+    print(f, end=' ')
+    f=10
+else:
+    print(13, end=' ')
+print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 53 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,7,5
+def h(b):
+    a+=3
+    b=4
+    c=5
+    return a+b+c
+
+a,b,c=0,2,9
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 5!=2
+    except BaseException: return 4
+    except KeyboardInterrupt: return 7
+    finally: return 25
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=7
+while m<=11:
+    m+=2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(-6,-6+3,-2):
+    if d<=7:
+        continue
+    print(d, end=' ')
+    d=0
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+f(987651)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 54 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=3,5,2
+def f(a):
+    global c
+    a=5
+    b=5
+    c=4
+    return a+b+c
+
+a,b,c=1,7,3
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("8")
+        return 41
+    except TypeError: return 9
+    except ValueError: return 7
+    else: return 34
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=2
+while t<=10:
+    t+=2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for b in range(-8,-8+2,-3):
+    if b>6:
+        continue
+    print(b, end=' ')
+    b=9
+else:
+    print(b, end=' ')
+print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 55 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,8,6
+def g(b):
+    global c
+    a=3
+    b=2
+    c=1
+    return a+b+c
+
+a,b,c=9,4,5
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(2/0.0)
+    except TypeError: return 0
+    except BaseException: return 1
+    else: return 32
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=0
+while i<8:
+    i+=1
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for b in range(10,10+6,3):
+    if b>=6:
+        break
+    print(b, end=' ')
+    b=-5
+    if b>=4:
+        break
+else:
+    print(b, end=' ')
+print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+            f(n // 100)
+    print(n % 10, end=' ')
+    
+
+f(987654)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 56 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,7,8
+def g(a):
+    a*=3
+    b=1
+    c=2
+    return a+b+c
+
+a,b,c=1,9,5
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(4%1)
+        return 45
+    except ZeroDivisionError: return 8
+    except Exception: return 3
+    finally: return 22
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=9
+while m<=7:
+    m+=2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(-9,-9+5,2):
+    if d<7:
+        pass
+    print(d, end=' ')
+    d=-3
+else:
+    print(13, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    print(n % 10, end=' ')
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 57 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,6,3
+def f(b):
+    global c
+    a-=4
+    b=5
+    c=4
+    return a+b+c
+
+a,b,c=4,2,0
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("a5")
+        return 42
+    except ValueError: return 6
+    except KeyboardInterrupt: return 3
+    finally: return 23
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+j=3
+while j<7:
+    j+=1
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(-5,-5+2,2):
+    if a<5:
+        continue
+    print(a, end=' ')
+    a=6
+else:
+    print(a, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 58 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=1,9,5
+def f(b):
+    global c
+    a+=3
+    b=1
+    c=5
+    return a+b+c
+
+a,b,c=3,8,4
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(7//0)
+    except KeyboardInterrupt: return 5
+    except ValueError: return 6
+    else: return 30
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+k=5
+while k<11:
+    k+=2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(7,7+3,-2):
+    if e>=4:
+        pass
+    print(e, end=' ')
+    e=-2
+    if e>8:
+        break
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 59 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=6,7,7
+def h(a):
+    a=2
+    b*=3
+    c=4
+    return a+b+c
+
+a,b,c=8,9,0
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("2")
+        return 44
+    except ZeroDivisionError: return 9
+    except BaseException: return 8
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=1
+while n<=6:
+    n+=1
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(-1,-1+6,-3):
+    if c>8:
+        break
+    print(c, end=' ')
+    c=-8
+else:
+    print(c, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 2, end=' ')
+    if n > 2:
+        f(n // 2)
+    
+
+f(16)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 60 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,4,6
+def g(b):
+    global c
+    a=5
+    b-=2
+    c=1
+    return a+b+c
+
+a,b,c=5,3,1
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 4==9
+    except TypeError: return 0
+    except Exception: return 1
+    else: return 33
+    finally: return 24
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+j=8
+while j>0:
+    j+=-3
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for f in range(2,2+4,3):
+    if f<=3:
+        continue
+    print(f, end=' ')
+    f=-9
+else:
+    print(f, end=' ')
+print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+f(987654)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 61 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,2,4
+def f(a):
+    a+=5
+    b=4
+    c=1
+    return a+b+c
+
+a,b,c=9,1,0
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 0>8
+    except TypeError: return 2
+    except ZeroDivisionError: return 4
+    else: return 34
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=9
+while i<=13:
+    i+=1
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(-10,-10+3,-3):
+    if c>=4:
+        pass
+    print(c, end=' ')
+    c=-6
+else:
+    print(c, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 2:
+        f(n // 2)
+    print(n % 2, end=' ')
+    
+
+f(16)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 62 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=6,8,7
+def h(b):
+    global c
+    a=2
+    b-=3
+    c=5
+    return a+b+c
+
+a,b,c=3,7,4
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("c3")
+        return 43
+    except Exception: return 1
+    except ValueError: return 6
+    finally: return 20
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=6
+while m<8:
+    m+=2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(3,3+5,-2):
+    if d>5:
+        break
+    print(d, end=' ')
+    d=1
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 63 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=1,2,9
+def g(a):
+    a=1
+    b*=2
+    c=3
+    return a+b+c
+
+a,b,c=6,0,3
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(8/0.0)
+    except BaseException: return 7
+    except KeyboardInterrupt: return 5
+    finally: return 25
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=12
+while t>=7:
+    t+=-2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for b in range(9,9+6,2):
+    if b<7:
+        continue
+    print(b, end=' ')
+    b=3
+else:
+    print(b, end=' ')
+print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 64 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,5,3
+def h(b):
+    global c
+    a-=4
+    b=2
+    c=3
+    return a+b+c
+
+a,b,c=6,7,1
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(9//2)
+        return 45
+    except ZeroDivisionError: return 9
+    except BaseException: return 0
+    else: return 33
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+j=2
+while j<12:
+    j+=2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(5,5+4,3):
+    if a<=8:
+        continue
+    print(a, end=' ')
+    a=-1
+else:
+    print(13, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        return f(n // 100) + 1
+    else:
+        return 1
+
+print(f(123456))
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 65 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,4,3
+def h(a):
+    a=1
+    b=2
+    c=5
+    return a+b+c
+
+a,b,c=7,0,9
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("6")
+        return 44
+    except TypeError: return 3
+    except Exception: return 4
+    else: return 35
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=13
+while i>2:
+    i+=-3
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for f in range(-2,-2+2,-3):
+    if f>3:
+        continue
+    print(f, end=' ')
+    f=-9
+else:
+    print(f, end=' ')
+print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 66 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,2,5
+def f(a):
+    a=4
+    b*=1
+    c=5
+    return a+b+c
+
+a,b,c=0,4,8
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(8%1)
+    except ValueError: return 1
+    except KeyboardInterrupt: return 5
+    finally: return 23
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+k=7
+while k<=10:
+    k+=1
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(1,1+2,3):
+    if e<=6:
+        continue
+    print(e, end=' ')
+    e=-3
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 67 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,1,2
+def g(b):
+    a=3
+    b=4
+    c=1
+    return a+b+c
+
+a,b,c=6,4,7
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(2//0)
+    except BaseException: return 7
+    except TypeError: return 1
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=9
+while n>=3:
+    n+=-3
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(-3,-3+6,-2):
+    if d>=3:
+        break
+    print(d, end=' ')
+    d=7
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 68 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=3,9,4
+def g(a):
+    global c
+    a+=3
+    b=1
+    c=4
+    return a+b+c
+
+a,b,c=1,5,7
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("b9")
+        return 40
+    except ValueError: return 8
+    except ZeroDivisionError: return 4
+    else: return 30
+    finally: return 21
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=5
+while n<=5:
+    n+=1
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(0,0+4,2):
+    if a<8:
+        pass
+    print(a, end=' ')
+    a=-5
+else:
+    print(a, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 69 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,6,0
+def h(b):
+    a=2
+    b-=5
+    c=5
+    return a+b+c
+
+a,b,c=2,4,8
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 5!=0
+    except KeyboardInterrupt: return 6
+    except Exception: return 7
+    finally: return 24
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=4
+while t<9:
+    t+=2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(-7,-7+5,2):
+    if c<=5:
+        break
+    print(c, end=' ')
+    c=8
+    if c>=6:
+        break
+else:
+    print(c, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+           f(n // 100)
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 70 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,6,5
+def g(b):
+    global c
+    a=4
+    b*=3
+    c=1
+    return a+b+c
+
+a,b,c=7,9,3
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("0")
+        return 41
+    except BaseException: return 2
+    except Exception: return 3
+    else: return 32
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+j=0
+while j<=11:
+    j+=1
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(6,6+3,-3):
+    if e<7:
+        continue
+    print(e, end=' ')
+    e=-6
+else:
+    print(13, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 100)
+    
+
+f(987654)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 71 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=3,2,8
+def f(a):
+    global c
+    a=2
+    b=3
+    c=5
+    return a+b+c
+
+a,b,c=9,6,1
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(4/0.0)
+        return 42
+    except ZeroDivisionError: return 9
+    except TypeError: return 7
+    else: return 31
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+k=8
+while k<9:
+    k+=2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for b in range(-10,-10+6,-2):
+    if b>=6:
+        pass
+    print(b, end=' ')
+    b=-7
+else:
+    print(b, end=' ')
+print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    print(n % 10, end=' ')
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 72 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=1,0,6
+def f(a):
+    a=2
+    b+=1
+    c=3
+    return a+b+c
+
+a,b,c=2,1,7
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(5%2)
+    except KeyboardInterrupt: return 6
+    except ValueError: return 2
+    finally: return 22
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+j=10
+while j>8:
+    j+=-2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for f in range(-1,-1+2,3):
+    if f>4:
+        continue
+    print(f, end=' ')
+    f=1
+else:
+    print(f, end=' ')
+print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 2:
+        f(n // 2)
+    else:
+        print(n % 2, end=' ')
+
+f(16)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 73 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,3,8
+def g(b):
+    global c
+    a=4
+    b-=2
+    c=5
+    return a+b+c
+
+a,b,c=5,4,0
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("3")
+    except ZeroDivisionError: return 1
+    except Exception: return 8
+    finally: return 21
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=11
+while m>=0:
+    m+=-3
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for f in range(9,9+5,-2):
+    if f>8:
+        continue
+    print(f, end=' ')
+    f=-10
+else:
+    print(f, end=' ')
+print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        return f(n // 10) + 1
+    else:
+        return 1
+
+print(f(123456))
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 74 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,3,7
+def h(a):
+    a=4
+    b+=2
+    c=5
+    return a+b+c
+
+a,b,c=4,8,2
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("a0")
+        return 42
+    except ValueError: return 2
+    except TypeError: return 8
+    else: return 35
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=1
+while i<7:
+    i+=1
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for b in range(7,7+4,2):
+    if b<5:
+        pass
+    print(b, end=' ')
+    b=-8
+else:
+    print(b, end=' ')
+print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+f(987654)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 75 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,1,9
+def f(a):
+    global c
+    a*=3
+    b=1
+    c=5
+    return a+b+c
+
+a,b,c=6,9,1
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 6>=1
+        return 45
+    except KeyboardInterrupt: return 3
+    except BaseException: return 4
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=3
+while m<=10:
+    m+=2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(-9,-9+3,3):
+    if c<=6:
+        continue
+    print(c, end=' ')
+    c=0
+else:
+    print(c, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 2, end=' ')
+    if n > 2:
+        f(n // 2)
+    
+
+f(16)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 76 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=6,4,8
+def f(b):
+    a-=1
+    b=2
+    c=4
+    return a+b+c
+
+a,b,c=0,5,2
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 5<3
+    except ZeroDivisionError: return 1
+    except KeyboardInterrupt: return 0
+    else: return 31
+    finally: return 20
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=8
+while t<8:
+    t+=2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(-5,-5+6,-3):
+    if a>=4:
+        break
+    print(a, end=' ')
+    a=-4
+else:
+    print(a, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 77 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=3,7,7
+def h(a):
+    global c
+    a=3
+    b+=5
+    c=4
+    return a+b+c
+
+a,b,c=6,5,1
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(7%1)
+        return 44
+    except Exception: return 9
+    except ValueError: return 6
+    else: return 30
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+k=5
+while k>4:
+    k+=-2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(2,2+2,3):
+    if d>3:
+        continue
+    print(d, end=' ')
+    d=3
+else:
+    print(13, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 78 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,5,8
+def g(a):
+    global c
+    a=4
+    b=3
+    c=2
+    return a+b+c
+
+a,b,c=3,6,0
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("0")
+    except TypeError: return 2
+    except BaseException: return 3
+    finally: return 23
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=7
+while n<=13:
+    n+=1
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(-6,-6+5,2):
+    if e<7:
+        break
+    print(e, end=' ')
+    e=5
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+f(987651)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 79 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,7,5
+def f(b):
+    a=4
+    b=1
+    c=5
+    return a+b+c
+
+a,b,c=9,2,1
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(8//0)
+    except ValueError: return 9
+    except Exception: return 4
+    else: return 33
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=6
+while i>9:
+    i+=-2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for f in range(-4,-4+3,-3):
+    if f>=8:
+        continue
+    print(f, end=' ')
+    f=10
+    if f<=7:
+        break
+else:
+    print(13, end=' ')
+print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 80 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,8,3
+def g(b):
+    a=3
+    b*=1
+    c=2
+    return a+b+c
+
+a,b,c=4,9,2
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("d5")
+        return 41
+    except ZeroDivisionError: return 1
+    except BaseException: return 7
+    finally: return 22
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=5
+while t<=12:
+    t+=2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(8,8+4,-2):
+    if e<=5:
+        pass
+    print(e, end=' ')
+    e=4
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+            f(n // 100)
+    print(n % 10, end=' ')
+    
+
+f(987654)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 81 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=7,1,5
+def g(a):
+    global c
+    a=4
+    b*=3
+    c=5
+    return a+b+c
+
+a,b,c=0,9,8
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("d9")
+        return 40
+    except KeyboardInterrupt: return 7
+    except TypeError: return 2
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=12
+while t>=5:
+    t+=-3
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(3,3+5,2):
+    if d<4:
+        break
+    print(d, end=' ')
+    d=6
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 82 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,6,2
+def f(b):
+    a=1
+    b-=2
+    c=3
+    return a+b+c
+
+a,b,c=3,5,7
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 0==4
+    except ValueError: return 8
+    except TypeError: return 3
+    else: return 34
+    finally: return 25
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+j=15
+while j>=1:
+    j+=-3
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(4,4+3,-3):
+    if a>=7:
+        continue
+    print(a, end=' ')
+    a=9
+else:
+    print(a, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+            f(n // 100)
+    print(n % 10, end=' ')
+    
+
+f(987654)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 83 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=7,5,3
+def h(a):
+    global c
+    a=5
+    b=4
+    c=2
+    return a+b+c
+
+a,b,c=9,6,1
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(5/0.0)
+    except BaseException: return 4
+    except Exception: return 1
+    else: return 32
+    finally: return 24
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+k=13
+while k>6:
+    k+=-2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(10,10+6,3):
+    if c<=6:
+        pass
+    print(c, end=' ')
+    c=-2
+else:
+    print(c, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 84 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,3,8
+def h(a):
+    global c
+    a+=4
+    b=1
+    c=2
+    return a+b+c
+
+a,b,c=1,0,6
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(6/1)
+        return 43
+    except ZeroDivisionError: return 8
+    except KeyboardInterrupt: return 2
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=2
+while i<6:
+    i+=1
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for b in range(-8,-8+4,-2):
+    if b>3:
+        continue
+    print(b, end=' ')
+    b=2
+else:
+    print(b, end=' ')
+print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 85 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,4,0
+def f(b):
+    a=1
+    b=3
+    c=1
+    return a+b+c
+
+a,b,c=2,7,2
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("3")
+        return 43
+    except BaseException: return 4
+    except TypeError: return 9
+    finally: return 25
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=0
+while n<=5:
+    n+=2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(-5,-5+2,3):
+    if d>5:
+        break
+    print(d, end=' ')
+    d=4
+    if d>5:
+        break
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+           f(n // 100)
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 86 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,2,0
+def h(b):
+    a+=5
+    b=5
+    c=4
+    return a+b+c
+
+a,b,c=2,4,6
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 0<=7
+    except ValueError: return 1
+    except ZeroDivisionError: return 6
+    else: return 34
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+k=4
+while k<10:
+    k+=1
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for b in range(7,7+2,-3):
+    if b>=7:
+        pass
+    print(b, end=' ')
+    b=-8
+else:
+    print(13, end=' ')
+print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        return f(n // 100) + 1
+    else:
+        return 1
+
+print(f(123456))
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 87 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,9,7
+def f(a):
+    global c
+    a-=2
+    b=1
+    c=3
+    return a+b+c
+
+a,b,c=1,3,8
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(5//2)
+        return 40
+    except KeyboardInterrupt: return 7
+    except Exception: return 7
+    else: return 35
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=6
+while m<9:
+    m+=2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(4,4+5,-2):
+    if a<6:
+        continue
+    print(a, end=' ')
+    a=-10
+else:
+    print(a, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 88 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,8,0
+def g(b):
+    a=5
+    b*=2
+    c=3
+    return a+b+c
+
+a,b,c=3,6,4
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("0")
+    except TypeError: return 3
+    except ZeroDivisionError: return 2
+    finally: return 21
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=9
+while m>=7:
+    m+=-2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(10,10+6,2):
+    if c<=4:
+        continue
+    print(c, end=' ')
+    c=9
+else:
+    print(c, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+f(987651)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 89 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=7,1,2
+def g(a):
+    global c
+    a-=4
+    b=1
+    c=2
+    return a+b+c
+
+a,b,c=9,7,2
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(6%0)
+    except Exception: return 8
+    except KeyboardInterrupt: return 5
+    finally: return 22
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=8
+while n>9:
+    n+=-3
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(-9,-9+4,-3):
+    if e>8:
+        break
+    print(e, end=' ')
+    e=-3
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 90 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=3,5,9
+def g(a):
+    global c
+    a=2
+    b=3
+    c=4
+    return a+b+c
+
+a,b,c=4,1,8
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("b4")
+        return 45
+    except BaseException: return 1
+    except ValueError: return 9
+    else: return 33
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+j=3
+while j<=6:
+    j+=1
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for f in range(5,5+3,2):
+    if f>=3:
+        continue
+    print(f, end=' ')
+    f=3
+else:
+    print(f, end=' ')
+print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    print(n % 10, end=' ')
+    
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 91 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=1,3,6
+def f(b):
+    a+=4
+    b=3
+    c=1
+    return a+b+c
+
+a,b,c=8,9,4
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("c3")
+        return 41
+    except KeyboardInterrupt: return 4
+    except ValueError: return 2
+    else: return 32
+    finally: return 24
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=1
+while t<7:
+    t+=1
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(-7,-7+2,3):
+    if c<=8:
+        continue
+    print(c, end=' ')
+    c=2
+else:
+    print(c, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 92 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,5,0
+def h(a):
+    a*=5
+    b=3
+    c=2
+    return a+b+c
+
+a,b,c=1,4,3
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(9//0.0)
+    except BaseException: return 5
+    except Exception: return 1
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=7
+while i>0:
+    i+=-3
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(6,6+5,-2):
+    if e<5:
+        pass
+    print(e, end=' ')
+    e=-9
+    if e<3:
+        break
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 2:
+        f(n // 2)
+    print(n % 2, end=' ')
+    
+
+f(16)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 93 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=7,8,9
+def f(b):
+    global c
+    a=5
+    b-=4
+    c=1
+    return a+b+c
+
+a,b,c=5,6,2
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(0/2)
+        return 44
+    except ZeroDivisionError: return 8
+    except TypeError: return 7
+    else: return 31
+    finally: return 23
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+i=9
+while i<=12:
+    i+=2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(3,3+3,-3):
+    if d>=3:
+        break
+    print(d, end=' ')
+    d=-6
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+f(123456)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 94 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,6,6
+def h(b):
+    a=5
+    b=1
+    c=2
+    return a+b+c
+
+a,b,c=7,8,3
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 6<=5
+    except KeyboardInterrupt: return 9
+    except Exception: return 4
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+j=14
+while j>=2:
+    j+=-2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(-1,-1+6,2):
+    if a<4:
+        continue
+    print(a, end=' ')
+    a=-5
+else:
+    print(a, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 100)
+    
+
+f(987654)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 95 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,9,0
+def h(b):
+    global c
+    a=5
+    b=4
+    c=3
+    return a+b+c
+
+a,b,c=2,5,1
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("6")
+        return 42
+    except ZeroDivisionError: return 5
+    except TypeError: return 8
+    else: return 30
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+t=10
+while t>1:
+    t+=-3
+print(t)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for b in range(-2,-2+4,-2):
+    if b>7:
+        pass
+    print(b, end=' ')
+    b=-2
+else:
+    print(b, end=' ')
+print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 2:
+        f(n // 2)
+    else:
+        print(n % 2, end=' ')
+
+f(16)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 96 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=1,8,6
+def g(b):
+    global c
+    a+=3
+    b=5
+    c=2
+    return a+b+c
+
+a,b,c=2,9,4
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(3%0)
+    except ValueError: return 0
+    except BaseException: return 7
+    finally: return 20
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=6
+while n<=11:
+    n+=1
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for f in range(-3,-3+4,3):
+    if f<=6:
+        continue
+    print(f, end=' ')
+    f=6
+else:
+    print(13, end=' ')
+print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 97 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,3,7
+def h(a):
+    a*=4
+    b=1
+    c=4
+    return a+b+c
+
+a,b,c=5,6,1
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("a2")
+        return 44
+    except TypeError: return 1
+    except KeyboardInterrupt: return 7
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+k=7
+while k>=6:
+    k+=-2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for d in range(9,9+6,2):
+    if d<=3:
+        continue
+    print(d, end=' ')
+    d=8
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        return f(n // 10) + 1
+    else:
+        return 1
+
+print(f(123456))
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 98 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,0,3
+def f(a):
+    a+=2
+    b=3
+    c=1
+    return a+b+c
+
+a,b,c=8,5,7
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int(0%1)
+    except BaseException: return 8
+    except ZeroDivisionError: return 6
+    else: return 32
+    finally: return 21
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+n=12
+while n>8:
+    n+=-3
+print(n)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for e in range(0,0+3,3):
+    if e<7:
+        pass
+    print(e, end=' ')
+    e=1
+else:
+    print(e, end=' ')
+print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+f(987654)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 99 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,2,2
+def g(b):
+    global c
+    a*=5
+    b=5
+    c=4
+    return a+b+c
+
+a,b,c=7,1,6
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = 5<6
+    except Exception: return 3
+    except ValueError: return 9
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=14
+while m>=3:
+    m+=-2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for a in range(1,1+5,-3):
+    if a>8:
+        break
+    print(a, end=' ')
+    a=-1
+else:
+    print(13, end=' ')
+print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+f(543216)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+%begin
+{{22.11.2024 Контрольна робота \No 2, варіант  \No \textbf { 100 }\par}}
+{
+%\begin {large}
+
+Тестова частина. Завдання 1-5: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+Задачі (на звороті): написати функцію для розв'язання задачі.
+
+%beginitem
+1. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,9,8
+def h(b):
+    a=2
+    b-=1
+    c=3
+    return a+b+c
+
+a,b,c=3,4,0
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+def f():
+    try:
+        res = int("2")
+        return 42
+    except Exception: return 4
+    except KeyboardInterrupt: return 1
+    else: return 34
+    finally: return 22
+    return res
+
+print(f())
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+m=5
+while m>4:
+    m+=-3
+print(m)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+for c in range(-10,-10+2,-2):
+    if c>=4:
+        continue
+    print(c, end=' ')
+    c=7
+else:
+    print(c, end=' ')
+print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+5. 
+%code
+def f(n):
+    print(n % 2, end=' ')
+    if n > 2:
+        f(n // 2)
+    
+
+f(16)
+%code
+
+
+%enditem
+%\end {large}
+}
+%end
+%end
+\end{document}
+

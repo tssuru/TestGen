@@ -1,0 +1,30 @@
+echo
+echo =863_1.py 
+python3.10 ./863_1.py 
+echo
+echo =863_2.py 
+python3.10 ./863_2.py 
+echo
+echo =863_3.py 
+python3.10 ./863_3.py 
+echo
+echo =863_4.py 
+python3.10 ./863_4.py 
+echo
+echo =863_5.py 
+python3.10 ./863_5.py 
+echo
+echo =863_6.py 
+python3.10 ./863_6.py 
+echo
+echo =863_7.py 
+python3.10 ./863_7.py 
+echo
+echo =863_8.py 
+python3.10 ./863_8.py 
+echo
+echo =863_9.py 
+python3.10 ./863_9.py 
+echo
+echo =863_10.py 
+python3.10 ./863_10.py 

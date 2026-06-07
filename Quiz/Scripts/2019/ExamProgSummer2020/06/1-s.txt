@@ -1,0 +1,62 @@
+def f(s):
+{SPACE4}for el in s: 
+{SPACE4}{SPACE4}el += 1
+{SPACE4}{SPACE4}return s
+{SPACE}
+s = [1, 2, 3]
+s = f(s)
+print(s)
+
+def f(s):
+{SPACE4}for el in s: 
+{SPACE4}{SPACE4}el += 1
+{SPACE4}return s
+{SPACE}
+s = [1, 2, 3]
+s = f(s)
+print(s)
+
+def f(s):
+{SPACE4}for i in range(len(s)):
+{SPACE4}{SPACE4}s[i] += 1
+{SPACE4}{SPACE4}return
+{SPACE}
+s = [1, 2, 3]
+f(s)
+print(s)
+
+def f(s):
+{SPACE4}for i in range(len(s)):
+{SPACE4}{SPACE4}s[i] += 1
+{SPACE4}return
+{SPACE}
+s = [1, 2, 3]
+f(s)
+print(s)
+
+def f(s):
+{SPACE4}s1 = s
+{SPACE4}for i in range(len(s)):
+{SPACE4}{SPACE4}s1[i] += 1
+{SPACE4}return s1{ENDL}
+s = [1, 2, 3]
+f(s)
+print(s)
+
+def f(s):
+{SPACE4}s1 = s
+{SPACE4}for i in range(len(s)):
+{SPACE4}{SPACE4}s1[i] += 1
+{SPACE4}{SPACE4}return s1{ENDL}
+s = [1, 2, 3]
+f(s)
+print(s)
+
+def f(s1):
+{SPACE4}s = s1[:]
+{SPACE4}for i in range(len(s)):
+{SPACE4}{SPACE4}s[i] += 1
+{SPACE}
+s = [1, 2, 3]
+f(s)
+print(s)

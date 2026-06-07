@@ -1,0 +1,17 @@
+ <fabric>
+     file answer
+     <fname>
+         task1_3.txt
+     <\fname>
+
+     <before>
+Вкажіть, що не так з наведеним кодом.{ENDL}
+\vspace{-3mm}{ENDL}
+\begin{verbatim}
+     <\before>
+
+     <after>
+\end{verbatim}{ENDL}
+\vspace{-3mm}{ENDL}
+     <\after>
+   <\fabric>

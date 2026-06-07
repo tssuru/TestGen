@@ -1,0 +1,47 @@
+class A{public: A(){throw 1;cout<<"A";} ~A(){cout<<"~A";}};
+class B{public: B(){cout<<"B";} ~B(){cout<<"~B";}};
+class C{A a; B b; public: C(){cout<<"C";}~C(){cout<<"~C";}};
+void test(){try{C c;} catch(...){} cout<<".";}
+
+class A{public: A(){throw 1;cout<<"A";} ~A(){cout<<"~A";}};
+class B{public: B(){cout<<"B";} ~B(){cout<<"~B";}};
+class C{B b; A a; public: C(){cout<<"C";}~C(){cout<<"~C";}};
+void test(){try{C c;} catch(...){} cout<<".";}
+
+class A{public: A(){throw 1;cout<<"A";} ~A(){cout<<"~A";}};
+class B{public: B(){cout<<"B";} ~B(){cout<<"~B";}};
+class C{B b[2]; A a; public: C(){cout<<"C";}~C(){cout<<"~C";}};
+void test(){try{C c;} catch(...){} cout<<".";}
+
+
+class A{public: static int n; A(){++n; if(n>1) throw 1;cout<<"A";} ~A(){cout<<"~A";}};{ENDL}{SPACE}{SPACE}{SPACE}int A::n=0;
+class B{public: B(){cout<<"B";} ~B(){cout<<"~B";}};
+class C{B b[2]; A a; public: C(){cout<<"C";}~C(){cout<<"~C";}};
+void test(){try{C c;} catch(...){}cout<<".";}
+
+
+class A{public: static int n; A(){++n; if(n>1) throw 1;cout<<"A";} ~A(){cout<<"~A";}};{ENDL}{SPACE}{SPACE}{SPACE}int A::n=0;
+class B{public: B(){cout<<"B";} ~B(){cout<<"~B";}};
+class C{A a[2]; B b; public: C(){cout<<"C";}~C(){cout<<"~C";}};
+void test(){try{C c;} catch(...){} cout<<".";}
+
+class A{public: static int n; A(){++n; if(n>1) throw 1;cout<<"A";} ~A(){cout<<"~A";}};{ENDL}{SPACE}{SPACE}{SPACE}int A::n=0;
+class B{public: B(){cout<<"B";} ~B(){cout<<"~B";}};
+class C{B b; A a[2]; public: C(){cout<<"C";}~C(){cout<<"~C";}};
+void test(){try{C c;} catch(...){} cout<<".";}
+
+class A{public: A(){cout<<"A";} ~A(){cout<<"~A";}};
+class B{public: B(){cout<<"B";} ~B(){cout<<"~B";}};
+class C{B b; A a[2]; public: C(){cout<<"C";}~C(){cout<<"~C";throw 1;}};
+void test(){try{C c;} catch(...){} cout<<".";}
+
+class A{public: A(){cout<<"A";} ~A(){cout<<"~A";}};
+class B{public: B(){cout<<"B";} ~B(){cout<<"~B";}};
+class C{B b; A a[2]; public: C(){cout<<"C";}~C()noexcept(false){cout<<"~C";throw 1;}};
+void test(){try{C c;} catch(...){} cout<<".";}
+
+class A{public: A()noexcept {f(); cout<<"A";} ~A(){cout<<"~A";} void f(){throw 1;}};
+class B{public: B(){cout<<"B";} ~B(){cout<<"~B";}};
+class C{B b; A a[2]; public: C(){cout<<"C";}~C(){cout<<"~C";}};
+void test(){try{C c;} catch(...){} cout<<".";}
+

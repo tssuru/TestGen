@@ -1,0 +1,597 @@
+<document>
+
+<header>
+\documentclass[11pt]{article}{ENDL}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\setlength{\parindent}{0pt}{ENDL}
+\setlength{\parskip}{4pt}{ENDL}
+\pagestyle{empty}{ENDL}
+\begin{document}{ENDL}
+<\header>
+
+<footer>
+\end{document}{ENDL}
+<\footer>
+
+<onNextVariant>
+\vspace{10mm}{ENDL}
+\noindent\rule{\textwidth}{0.3pt}{ENDL}
+\vspace{8mm}{ENDL}
+<\onNextVariant>
+
+<onNextPage>
+\newpage{ENDL}
+<\onNextPage>
+
+<from>
+1
+<\from>
+<to>
+1
+<\to>
+<onPage>
+1
+<\onPage>
+
+<\document>
+
+<variant>
+<before>
+{\large\textbf{Контрольна робота}}{ENDL}{ENDL}
+\textbf{Варіант \No\,1}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}{ENDL}
+\vspace{4mm}{ENDL}{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\variant>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2023/ProgAll/11ListOperations/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2018/DM2018_Counting/03-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2021/Exam/Adds/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2020/Mod2020_3/SetOperations/03-01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2020/Mod2020_2/Cycles/s02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2022/Mod2022_3/numpy/01-02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2021/Mod2021_2/Indexing/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+check auto
+<good>
+Scripts/2019/Mod2019_1/Lex/01-good.txt
+<\good>
+<bad>
+Scripts/2019/Mod2019_1/Lex/01-bad.txt
+<\bad>
+<ncase>
+4
+<\ncase>
+<nGood>
+2
+<\nGood>
+<mode>
+OneOnLine
+<\mode>
+<before>
+Відмітити все, що є однією правильною лексемою:{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2024/Mod2024_INF_1/06Scope/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2021/ListOperations/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+check auto
+<good>
+Scripts/2018/Mod2018_1/01-good.txt
+<\good>
+<bad>
+Scripts/2018/Mod2018_1/01-bad.txt
+<\bad>
+<ncase>
+4
+<\ncase>
+<nGood>
+2
+<\nGood>
+<mode>
+OneOnLine
+<\mode>
+<before>
+Відмітити все, що є однією правильною лексемою:{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2023/ProgAll/11ListOperations/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2020/ExamProgSummer2021_all/01/2-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2024/Mod2024_INF_1/05Invoke/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2023/ProgAll/02Log/05-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2020/Mod2020_2/Indexing/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2020/Mod2020_1/Scope/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2023/ExamSummerSA/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+check auto
+<good>
+Scripts/2019/Mod2019_1/Lex/03-good.txt
+<\good>
+<bad>
+Scripts/2019/Mod2019_1/Lex/03-bad.txt
+<\bad>
+<ncase>
+4
+<\ncase>
+<nGood>
+2
+<\nGood>
+<mode>
+OneOnLine
+<\mode>
+<before>
+Відмітити все, що є коректним оператором С++:{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+check auto
+<good>
+Scripts/2018/Mod2018_1/01-good.txt
+<\good>
+<bad>
+Scripts/2018/Mod2018_1/01-bad.txt
+<\bad>
+<ncase>
+4
+<\ncase>
+<nGood>
+2
+<\nGood>
+<mode>
+OneOnLine
+<\mode>
+<before>
+Відмітити все, що є однією правильною лексемою:{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2020/ExamProgSummer2021_all/04/1-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2020/Mod2020_2/Cycles/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+check auto
+<good>
+Scripts/2018/Mod2018_1/03-good.txt
+<\good>
+<bad>
+Scripts/2018/Mod2018_1/03-bad.txt
+<\bad>
+<ncase>
+4
+<\ncase>
+<nGood>
+2
+<\nGood>
+<mode>
+OneOnLine
+<\mode>
+<before>
+Відмітити все, що є коректним оператором С++:{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2020/Mod2020_1/Log/04-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2024/Mod2024_INF_1/02Log/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+check auto
+<good>
+Scripts/2018/Mod2018_1/03-good.txt
+<\good>
+<bad>
+Scripts/2018/Mod2018_1/03-bad.txt
+<\bad>
+<ncase>
+4
+<\ncase>
+<nGood>
+2
+<\nGood>
+<mode>
+OneOnLine
+<\mode>
+<before>
+Відмітити все, що є коректним оператором С++:{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2019/ExamProgSummer2020/08/2-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+check auto
+<good>
+Scripts/2019/Mod2019_1/Lex/03-good.txt
+<\good>
+<bad>
+Scripts/2019/Mod2019_1/Lex/03-bad.txt
+<\bad>
+<ncase>
+4
+<\ncase>
+<nGood>
+2
+<\nGood>
+<mode>
+OneOnLine
+<\mode>
+<before>
+Відмітити все, що є коректним оператором С++:{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2025/Mod2025_INF_1/02Log/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+check auto
+<good>
+Scripts/2019/Mod2019_1/Lex/01-good.txt
+<\good>
+<bad>
+Scripts/2019/Mod2019_1/Lex/01-bad.txt
+<\bad>
+<ncase>
+4
+<\ncase>
+<nGood>
+2
+<\nGood>
+<mode>
+OneOnLine
+<\mode>
+<before>
+Відмітити все, що є однією правильною лексемою:{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>

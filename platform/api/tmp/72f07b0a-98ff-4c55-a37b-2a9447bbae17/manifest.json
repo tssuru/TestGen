@@ -1,0 +1,45 @@
+{
+  "jobId": "72f07b0a-98ff-4c55-a37b-2a9447bbae17",
+  "createdAt": "2026-03-03T14:23:38.324Z",
+  "inputConfigHash": "pending",
+  "engineVersion": "pending",
+  "artifacts": [
+    {
+      "name": "config.json",
+      "path": "/app/platform/api/tmp/72f07b0a-98ff-4c55-a37b-2a9447bbae17/config.json",
+      "size": 408,
+      "sha256": "7f284f18f1ff33df56f7fd4859bd3f53761e260e2649cfa57461a38aa412a647"
+    },
+    {
+      "name": "answers.json",
+      "path": "/app/platform/api/tmp/72f07b0a-98ff-4c55-a37b-2a9447bbae17/answers.json",
+      "size": 7064,
+      "sha256": "382d512987422640de8f03e2022c10bb0eefd2a596a5ceaaa66820f672fda96e"
+    },
+    {
+      "name": "answers.md",
+      "path": "/app/platform/api/tmp/72f07b0a-98ff-4c55-a37b-2a9447bbae17/answers.md",
+      "size": 1921,
+      "sha256": "33cce3129eb216e08f035bed27657ee7f013aed9d28bf8875441ad4272012fc7"
+    },
+    {
+      "name": "test.print.md",
+      "path": "/app/platform/api/tmp/72f07b0a-98ff-4c55-a37b-2a9447bbae17/test.print.md",
+      "size": 1867,
+      "sha256": "f71f3e9bce7d6e07329282efc10b130e55944b3d30bb42afd695ca03af0f2bab"
+    },
+    {
+      "name": "test.md",
+      "path": "/app/platform/api/tmp/72f07b0a-98ff-4c55-a37b-2a9447bbae17/test.md",
+      "size": 1867,
+      "sha256": "f71f3e9bce7d6e07329282efc10b130e55944b3d30bb42afd695ca03af0f2bab"
+    },
+    {
+      "name": "test.docx",
+      "path": "/app/platform/api/tmp/72f07b0a-98ff-4c55-a37b-2a9447bbae17/test.docx",
+      "size": 10832,
+      "sha256": "bda660fde6afc6294ac2c39e894350021515d502abdcbc440e08fee578cb1284"
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,30 @@
+echo
+echo =929_1.py 
+python3.10 ./929_1.py 
+echo
+echo =929_2.py 
+python3.10 ./929_2.py 
+echo
+echo =929_3.py 
+python3.10 ./929_3.py 
+echo
+echo =929_4.py 
+python3.10 ./929_4.py 
+echo
+echo =929_5.py 
+python3.10 ./929_5.py 
+echo
+echo =929_6.py 
+python3.10 ./929_6.py 
+echo
+echo =929_7.py 
+python3.10 ./929_7.py 
+echo
+echo =929_8.py 
+python3.10 ./929_8.py 
+echo
+echo =929_9.py 
+python3.10 ./929_9.py 
+echo
+echo =929_10.py 
+python3.10 ./929_10.py 

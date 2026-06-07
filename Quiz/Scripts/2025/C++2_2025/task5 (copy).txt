@@ -1,0 +1,52 @@
+У цьому фрагменті коду{ENDL}\begin{verbatim}{ENDL}template <class T> void f(T a1, T a2){}{ENDL}{ENDL}void g(){{ENDL}{SPACE4}f(unique_ptr<int>(new int(3)), unique_ptr<int>(new int(35)));{ENDL}\end{verbatim}{ENDL}
+
+є гонка даних%bad
+є стан гонки%bad
+є невизначена поведінка%bad
+можливий виток ресурсів%bad
+
+У цьому фрагменті коду{ENDL}\begin{verbatim}{ENDL}template <class T> void f(T a){}{ENDL}{ENDL}void g(){{ENDL}{SPACE4}f(unique_ptr<int>(new int(3)))+(unique_ptr<int>(new int(35)));{ENDL}\end{verbatim}{ENDL}
+
+є гонка даних%bad
+є стан гонки%bad
+є невизначена поведінка%bad
+можливий виток ресурсів%good
+
+У цьому фрагменті коду{ENDL}\begin{verbatim}{ENDL}template <class T> void f(T a){}{ENDL}{ENDL}void g(){{ENDL}{SPACE4}int i=5;{ENDL}{SPACE4}f(unique_ptr<int>(new int(i)))+(unique_ptr<int>(new int(35)));{ENDL}\end{verbatim}
+
+є гонка даних%bad
+є стан гонки%bad
+є невизначена поведінка%bad
+можливий виток ресурсів%good
+
+
+У цьому фрагменті коду{ENDL}\begin{verbatim}{ENDL}template <class T> void f(T a){}{ENDL}{ENDL}void g(){{ENDL}{SPACE4}int i=5;{ENDL}{SPACE4}f(unique_ptr<int>(new int(i)))+(unique_ptr<int>(new int(++i)));{ENDL}\end{verbatim}
+
+є гонка даних%bad
+є стан гонки%bad
+є невизначена поведінка%good
+можливий виток ресурсів%good
+
+
+У цьому фрагменті коду{ENDL}\begin{verbatim}{ENDL}template <class T> void f(T a1, T a2){}{ENDL}{ENDL}void g(){{ENDL}{SPACE4}int i=5;{ENDL}{SPACE4}f(unique_ptr<int>(new int(i++)), unique_ptr<int>(new int(++i)));{ENDL}\end{verbatim}{ENDL}
+
+є гонка даних%bad
+є стан гонки%bad
+є невизначена поведінка%good
+можливий виток ресурсів%bad
+
+
+У цьому фрагменті коду{ENDL}\begin{verbatim}{ENDL}template <class T> void f(T a1, T a2){}{ENDL}{ENDL}void g(){{ENDL}{SPACE4}int i=5;{ENDL}{SPACE4}f(unique_ptr<int>(new int(++i)), unique_ptr<int>(new int(++i)));{ENDL}\end{verbatim}{ENDL}
+
+є гонка даних%bad
+є стан гонки%bad
+є невизначена поведінка%good
+можливий виток ресурсів%bad
+
+
+У цьому фрагменті коду{ENDL}\begin{verbatim}{ENDL}template <class T> void f(T a1, T a2){}{ENDL}{ENDL}void g(){{ENDL}{SPACE4}int i=5;{ENDL}{SPACE4}f(unique_ptr<int>(new int(++i)), unique_ptr<int>(new int(++i)));{ENDL}\end{verbatim}{ENDL}
+
+є гонка даних%bad
+є стан гонки%bad
+є невизначена поведінка%good
+можливий виток ресурсів%bad

@@ -1,0 +1,30 @@
+echo
+echo =507_1.py 
+python3.10 ./507_1.py 
+echo
+echo =507_2.py 
+python3.10 ./507_2.py 
+echo
+echo =507_3.py 
+python3.10 ./507_3.py 
+echo
+echo =507_4.py 
+python3.10 ./507_4.py 
+echo
+echo =507_5.py 
+python3.10 ./507_5.py 
+echo
+echo =507_6.py 
+python3.10 ./507_6.py 
+echo
+echo =507_7.py 
+python3.10 ./507_7.py 
+echo
+echo =507_8.py 
+python3.10 ./507_8.py 
+echo
+echo =507_9.py 
+python3.10 ./507_9.py 
+echo
+echo =507_10.py 
+python3.10 ./507_10.py 

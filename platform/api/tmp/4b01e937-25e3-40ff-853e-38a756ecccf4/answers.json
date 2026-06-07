@@ -1,0 +1,560 @@
+{
+  "title": "Контрольна робота",
+  "generatedAt": "2026-03-10T10:10:00.269Z",
+  "profile": "print",
+  "variantCount": 4,
+  "variants": [
+    {
+      "variantNumber": 1,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "codeSnippet": null,
+          "options": [
+            {
+              "number": 1,
+              "text": "{a=5;}",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "char c='\\n';",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "int f(int a,9);",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "if a<b a=0;",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду?",
+          "codeSnippet": "4**-0.5*True",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду?",
+          "codeSnippet": "print(6 != 2 > 4 < False)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "codeSnippet": null,
+          "options": [
+            {
+              "number": 1,
+              "text": "0.5",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "or",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "-3J",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "\"abc\"\"\"",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=4,0,2 def g(b): global c    a-=2 b=3 c=1 return a+b+c a,b,c=5,1,6 print(g(b),a,b,c)",
+          "codeSnippet": null,
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду?",
+          "codeSnippet": "cout << (9 / 9 / 9 / 9);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл. Алгоритм починає роботу з кореня (на рис. це верхня вершина).",
+          "codeSnippet": null,
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "codeSnippet": null,
+          "options": [
+            {
+              "number": 1,
+              "text": "x=y=z",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "++n",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "True=1",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "n=1; n++",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду?",
+          "codeSnippet": "a, b, c = 7, 6, 8\ndef g(a, b, c=9):\n    print(a, b, c, end=\" \")\n\ng(a=4, 0, b=2)\nprint(a, b, c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') e=['0','1','2','3','4'] e.extend([1,2]) print(e)",
+          "codeSnippet": null,
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 2,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=4,0,2 def g(b): global c    a-=2 b=3 c=1 return a+b+c a,b,c=5,1,6 print(g(b),a,b,c)",
+          "codeSnippet": null,
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду?",
+          "codeSnippet": "print('R', end=' ')\ne = ('a','b','c','d','e',0,1,2)\nprint(e[-8])",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "codeSnippet": null,
+          "options": [
+            {
+              "number": 1,
+              "text": "{a=5;}",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "char c='\\n';",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "int f(int a,9);",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "if a<b a=0;",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду?",
+          "codeSnippet": "cout << (!6==2 or !4< false or 6.0>2.0);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду?",
+          "codeSnippet": "a,b,c=7,6,8\ndef g(a,b,c=9):\n    print(a,b,c,end=\"\")\n\ng(a=4,0,b=2)\nprint(a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? x,y,z=4,0,2 y,x,z,z=y,7,z,x print(x,y,z)",
+          "codeSnippet": null,
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "codeSnippet": null,
+          "options": [
+            {
+              "number": 1,
+              "text": "x=y=z",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "++n",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "True=1",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "n=1; n++",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "codeSnippet": null,
+          "options": [
+            {
+              "number": 1,
+              "text": "False",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "fop",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "<>",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "'123'",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду?",
+          "codeSnippet": "print(4**-0.5*True)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду?",
+          "codeSnippet": "#include <iostream>\nusing namespace std;\n\nint g(int b){\n    int y = 50;\n    if (b) \n        y = 4;\n    else if (b == 0)\n         return 0;\n    else\n         y = 2;\n    return y;\n}\n\nint main(){\n    cout << g(-4);\n    return 0;\n}",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 3,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду?",
+          "codeSnippet": "cout << 9 / 9 / 9 / 9;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "codeSnippet": null,
+          "options": [
+            {
+              "number": 1,
+              "text": "0.5",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "or",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "-3J",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "\"abc\"\"\"",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: res = 4**-0.5*True if isinstance(res, bool): print(f'bool;') elif isinstance(res, int): print(f'int;') elif isinstance(res, float): print(f'float;') else: print('???') except: print('Z')",
+          "codeSnippet": null,
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: res = 8//8/8*8 if isinstance(res, bool): print(f'bool;') elif isinstance(res, int): print(f'int;') elif isinstance(res, float): print(f'float;') else: print('???') except: print('Z')",
+          "codeSnippet": null,
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Вкажіть значення та тип виразу: \"6.0j\"==6",
+          "codeSnippet": null,
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "codeSnippet": null,
+          "options": [
+            {
+              "number": 1,
+              "text": "x=y=z",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "++n",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "True=1",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "n=1; n++",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: for e in range(7, 7, -2): if e<=7: continue print(e, end=';');e = -5 if e<=7: break else: print(e,end=';') print(e) except: print('Z')",
+          "codeSnippet": null,
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду?",
+          "codeSnippet": "#include <iostream>\nusing namespace std;\n\nint f(int &x, int &y){\n    x = 6;\n    y-= 3;\n    return y;\n}\n\nint main(){\n    int a = 1, b = 4;\n    b = f(b, b);\n    cout << a << \":\" << b <<':';\n    {\n        int a = 7, b = 2;\n        cout << ((b<=4) || ((a-=2) <= 4))\n             << a << \":\" << b << \":\";\n    }\n    {\n        inta = 8;\n        cout << a << ':';\n    }\n    cout << a << \":\" << b << endl;\n    return 0;\n}",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "codeSnippet": null,
+          "options": [
+            {
+              "number": 1,
+              "text": "False",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "fop",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "<>",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "'123'",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду?",
+          "codeSnippet": "print('R', end=' ')\nm=4\nwhile m<=10:\n    m+=2\nprint(m)",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 4,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a = 4 b = 0 c = 2 def g(b): global c    a -= 2 b = 3 c = 1 return a + b + c a = 5 b = 1 c = 6 try: print(g(b), a, b, c, sep=';') except: print('Z', a, b, c, sep=';')",
+          "codeSnippet": null,
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Записати ВИРАЗ, значенням якого є множина, що складається з цілих чисел від 15 до 2005 (включно), що діляться на 3.",
+          "codeSnippet": null,
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "codeSnippet": null,
+          "options": [
+            {
+              "number": 1,
+              "text": "x=y=z",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "++n",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "True=1",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "n=1; n++",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Записати ВИРАЗ, значенням якого є список, що складається з квадратних коренів цілих чисел від 15 до 2005 (включно), що діляться на 3, записаних в оберненому порядку.",
+          "codeSnippet": null,
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "codeSnippet": null,
+          "options": [
+            {
+              "number": 1,
+              "text": "False",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "fop",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "<>",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "'123'",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Написати програму, що запитує у користувача значення дійсних параметрів x та y, обчислює для них значення виразу та повiдомляє введенi данi та результат обчислення. Оцінюється правильність та якість коду.",
+          "codeSnippet": null,
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "codeSnippet": null,
+          "options": [
+            {
+              "number": 1,
+              "text": "0.5",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "or",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "-3J",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "\"abc\"\"\"",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') for e in range(7,7,-2): if e<=7: continue print(e, end=' ') e=-5 if e<=7: break else: print(e, end=' ') print(e)",
+          "codeSnippet": null,
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? e=['0','1','2','3','4']; e.extend([1,2]); print(e)",
+          "codeSnippet": null,
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл. Алгоритм починає роботу з кореня (на рис. це верхня вершина).",
+          "codeSnippet": null,
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    }
+  ]
+}

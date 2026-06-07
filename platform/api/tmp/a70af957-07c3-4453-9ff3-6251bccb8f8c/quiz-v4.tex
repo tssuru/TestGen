@@ -1,0 +1,160 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,4}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+code
+__d = 0
+
+class D:
+    __d = 1
+    
+    def __init__(self):
+        self.__d = 2
+        __d = 3
+        D.__d = 4
+
+obj = D()
+try:
+    print(__d, end=' ')
+    print(obj.__d, end=' ')
+    print(D.__d, end=' ')
+    print(obj.__d, end=' ')
+    print(obj._D__d, end=' ')
+except:
+    print('ERR')
+code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(5.0 <= 5 < 8 >= 8.0)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+3**False-2
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+
+int g(int d){
+    int x = 64;
+    if (d) 
+        x = 3;
+    else if (d >= -4)
+         return 6;
+    else
+         x = 7;
+    return x;
+}
+
+int main(){
+    std::cout << g(7);
+    return 0;
+}
+%code
+
+
+%enditem
+
+%beginitem
+5. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) x*y
+
+( 2 ) 2j
+
+( 3 ) 1+1j
+
+( 4 ) +
+
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+
+print('R', end=' ')
+d=['0','1','2','3','4']
+d[-6:-6]=(15)
+print(d)
+
+
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+n=3
+while n<=6:
+    n+=2
+print(n)
+%code
+
+
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання фрагменту коду?
+
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2)
+print(d[-1])
+
+
+%enditem
+
+%beginitem
+9. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) <>
+
+( 2 ) FIFO
+
+( 3 ) 2*6
+
+( 4 ) True
+
+%enditem
+
+%beginitem
+10. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) n=2; n--
+
+( 2 ) x=1//3
+
+( 3 ) x in not y
+
+( 4 ) x<y<z
+
+%enditem
+
+%end
+\newpage
+\end{document}
+

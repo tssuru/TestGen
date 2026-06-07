@@ -1,0 +1,13 @@
+<fabric>
+     file answer
+     <fname>
+     task1.txt
+     <\fname>
+
+     <before>
+
+     <\before>
+     <after>
+{ENDL}{ENDL}
+     <\after>
+  <\fabric>

@@ -1,0 +1,383 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,1}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+try:
+    res = 4**-3--1
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+
+%enditem
+%beginitem
+2. Відмітити все, що є коректним оператором С++:
+( 1 ) float(2)/87
+
+( 2 ) input()*1.2
+
+( 3 ) "a"=6
+
+( 4 ) f"]={x:5.2f}{"
+
+%enditem
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+Кожен рядок текстового файлу містить по два дійсних числа, розділені білими символами.
+Написати функцію, що для заданого текстового файлу будує новий текстовий файл, рядки якого крім зображень дйсних чисел ще містять результат обчислення на них функції $f$. У вихідному файлі зображення чисел мають розділятися пробілами. 
+$$f(x, y) =\frac{\pi x - 47}{(\arcsin x - 0.5) (y - 93)}$$ 
+Якість коду також оцінюється.
+
+
+%enditem
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b.append('13')
+print(b)
+%code
+
+
+%enditem
+%beginitem
+5. Відмітити все, що є однією правильною лексемою:
+( 1 ) true
+
+( 2 ) 83x
+
+( 3 ) +>
+
+( 4 ) 'c'
+
+%enditem
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (!3.0<=3 or !6== 4 or 6.0>false);
+%code
+
+%enditem
+%beginitem
+7. Що буде виведено за виконання фрагменту коду?
+%code
+#include <iostream>
+using namespace std;
+
+int f(int &x, int &y){
+    x = 5;
+    y-= 7;
+    return y;
+}
+
+int main(){
+    int a = 6, b = 4;
+    b = f(b, b);
+    cout << a << ":" << b <<':';
+    {
+        int a = 9, b = 2;
+        cout << ((b<=7) || ((a-=2) <= 7)) << ':';
+        cout << a << ":" << b << ':';
+    }
+    {
+        inta = 1;
+        cout << a << ':';
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+
+%enditem
+%beginitem
+8. Відмітити все, що є коректним оператором С++:
+( 1 ) float(2)/87
+
+( 2 ) input()*1.2
+
+( 3 ) "a"=6
+
+( 4 ) f"]={x:5.2f}{"
+
+%enditem
+%beginitem
+9. Відмітити все, що є однією правильною лексемою:
+( 1 ) *
+
+( 2 ) 0b23
+
+( 3 ) +>
+
+( 4 ) >=
+
+%enditem
+%beginitem
+10. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+int a = 9, b = 4, c = 8;
+
+int h(int &b){
+int c;    a -= 5;
+    b = 1;
+    c = 2;
+    return a + b + c;
+}
+
+int main(){
+    inta = 6;
+    intb = 3;
+    intc = 5;
+    cout << h(a) << ':';
+    cout << a << ':' << b << ':' << c;
+    return 0; 
+}
+%code
+
+%enditem
+%beginitem
+11. Що буде виведено за виконання фрагменту коду?
+Рядки журналу через двокрапку містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад
+\begin{verbatim}
+s="username : 2022-05-05 13:26 : ERROR : 404"
+\end{verbatim}
+у коді 
+\begin{verbatim}
+res = re.fullmatch('???', s) 
+s = ''
+code_str = ??? 
+\end{verbatim}
+чим треба замінити кожен з ???, щоб значенням code\_str був код події? 
+
+
+
+%enditem
+%beginitem
+12. Що буде виведено за виконання фрагменту коду?
+������ 2017-���������� �������� ������� ����������� �� 1 �� 20172017 ������ ��������� ���� �����, �� ����� 172014
+%enditem
+%beginitem
+13. Що буде виведено за виконання фрагменту коду?
+
+print('R', end=' ')
+for b in range(8,8,3):
+    if b<=4:
+        break
+        print(b, end=' ')
+    if b<=4:
+        break
+    else:
+        print(b, end=' ')
+    print(b)
+
+%enditem
+%beginitem
+14. Що буде виведено за виконання фрагменту коду?
+
+a,b,c=9,4,8
+def h(b):
+global c    a=5
+    b=1
+    c=2
+    return a+b+c
+
+a,b,c=6,3,5
+print(h(a),a,b,c)
+
+%enditem
+%beginitem
+15. Що буде виведено за виконання фрагменту коду?
+
+%code
+b=['0','1','2','3']
+b.append('13')
+print(b)
+%code
+
+
+%enditem
+%beginitem
+16. Відмітити все, що є коректним оператором С++:
+( 1 ) if (1>2) x=10;
+
+( 2 ) int f(int a, int 4);
+
+( 3 ) if ('x'<>'y') a=6;
+
+( 4 ) cout<<"\n";
+
+%enditem
+%beginitem
+17. Що буде виведено за виконання фрагменту коду?
+def f(arg, n):
+    n = 9
+    tmp = arg
+    del tmp[5:5]
+    return len(tmp)>3
+
+try:
+    b = ['0','1','2','3','4']
+    n = 4
+    f(b, n)
+    print(n, end=';')
+    for el in b:
+        print(el, end=';')
+except:
+    print('ERR')
+
+%enditem
+%beginitem
+18. Що буде виведено за виконання фрагменту коду?
+for b in range(8,8,3):
+    if b<=4:
+        break
+        print(b,end=' ')
+    if b<=4:
+        break
+else:
+    print(b, end=' ')
+print(b, end=' ')
+
+%enditem
+%beginitem
+19. Що буде виведено за виконання фрагменту коду?
+
+print('R', end=' ')
+b=['0','1','2','3','4','5','6','7','8','9']
+print(b[::3])
+
+
+%enditem
+%beginitem
+20. Що буде виведено за виконання фрагменту коду?
+
+def f(n):
+    print("f", end="");
+    return n<=0
+
+print(f(6) or f(-3))
+
+%enditem
+%beginitem
+21. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (!3.0 <= 3 or !6 == 4 or 6.0 > false);
+%code
+
+%enditem
+%beginitem
+22. Відмітити все, що є однією правильною лексемою:
+( 1 ) true
+
+( 2 ) 83x
+
+( 3 ) +>
+
+( 4 ) 'c'
+
+%enditem
+%beginitem
+23. Відмітити все, що є однією правильною лексемою:
+( 1 ) *
+
+( 2 ) 0b23
+
+( 3 ) +>
+
+( 4 ) >=
+
+%enditem
+%beginitem
+24. Що буде виведено за виконання фрагменту коду?
+try:
+    for b in range(8, 8, 3):
+        if b<=4:
+            break
+        print(b, end=';')
+        if b<=4:
+            break
+    else:
+        print(b,end=';')
+    print(b)
+except:
+    print('Z')
+
+%enditem
+%beginitem
+25. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(3.0==3==6==4)
+%code
+
+%enditem
+%beginitem
+26. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+b=['0','1','2','3','4','5','6','7','8','9']
+print(b[::3])
+%code
+
+
+%enditem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+\end{document}
+
+

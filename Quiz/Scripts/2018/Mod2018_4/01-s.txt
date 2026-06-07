@@ -1,0 +1,41 @@
+int z=#n#;
+class A{ public: A(){z+=2;}
+A(A &aa){z++;}
+~A(){z--;}
+};
+void test(){ {A a, b(a),c(b);} cout<<z;}
+
+int z=#n#;
+class A{ public: A(){z--;}
+A(const A &aa){z++;}
+~A(){z--;}
+};
+void test(){ {A a,b(a),c(b);} cout<<z;}
+
+int z=#n#;
+class A{ public: A(){z++;}
+~A(){z++;}
+A(const A &aa){z+=4;}
+};
+void test(){ {A a,b(a),c(b);} cout<<z;}
+
+int z=#n#;
+class A{ public: A(){z++;}
+A(const A &aa){z+=2;}
+A& f(){return *this;}
+};
+void test(){ {A a,b(a),c(A().f());} cout<<z;}
+
+int z=#n#;
+class A{ public: A(){++z;}
+A(const A &aa){z=3;}
+~A(){z--;}
+};
+void test(){ {A a,b(a),c,d(b);} cout<<z;}
+
+int z=#n#;
+class A{ public: A(){z++;}
+A(const A &aa){z+=2;}
+A(A &&aa){z+=4;}
+A& f(){return *this;}{ENDL}{SPACE}{SPACE}};
+void test(){ {A a,b(a),c(A().f());} cout<<z;}

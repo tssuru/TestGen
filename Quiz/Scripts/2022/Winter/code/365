@@ -1,0 +1,30 @@
+echo
+echo =365_1.py 
+python3.10 ./365_1.py 
+echo
+echo =365_2.py 
+python3.10 ./365_2.py 
+echo
+echo =365_3.py 
+python3.10 ./365_3.py 
+echo
+echo =365_4.py 
+python3.10 ./365_4.py 
+echo
+echo =365_5.py 
+python3.10 ./365_5.py 
+echo
+echo =365_6.py 
+python3.10 ./365_6.py 
+echo
+echo =365_7.py 
+python3.10 ./365_7.py 
+echo
+echo =365_8.py 
+python3.10 ./365_8.py 
+echo
+echo =365_9.py 
+python3.10 ./365_9.py 
+echo
+echo =365_10.py 
+python3.10 ./365_10.py 

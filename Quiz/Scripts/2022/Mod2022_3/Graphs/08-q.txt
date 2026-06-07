@@ -1,0 +1,17 @@
+<fabric>
+       collate 
+        include Graphs/08-01-q.txt
+        include Graphs/08-02-q.txt
+        <n1>
+         69
+        <\n1>
+        <n2>
+         131
+        <\n2>
+  <\fabric>
+
+
+
+
+
+

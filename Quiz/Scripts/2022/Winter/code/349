@@ -1,0 +1,30 @@
+echo
+echo =349_1.py 
+python3.10 ./349_1.py 
+echo
+echo =349_2.py 
+python3.10 ./349_2.py 
+echo
+echo =349_3.py 
+python3.10 ./349_3.py 
+echo
+echo =349_4.py 
+python3.10 ./349_4.py 
+echo
+echo =349_5.py 
+python3.10 ./349_5.py 
+echo
+echo =349_6.py 
+python3.10 ./349_6.py 
+echo
+echo =349_7.py 
+python3.10 ./349_7.py 
+echo
+echo =349_8.py 
+python3.10 ./349_8.py 
+echo
+echo =349_9.py 
+python3.10 ./349_9.py 
+echo
+echo =349_10.py 
+python3.10 ./349_10.py 

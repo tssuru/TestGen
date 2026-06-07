@@ -1,0 +1,1275 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.17)  23 MAY 2024 04:53
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**all.tex
+(./all.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-07>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks17
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2aenc.def
+File: t2aenc.def 2022/06/11 v1.0j Cyrillic encoding definition file
+Now handling font encoding T2A ...
+... processing UTF-8 mapping file for font encoding T2A
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/t2aenc.dfu
+File: t2aenc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+0400 (decimal 1024)
+   defining Unicode char U+0401 (decimal 1025)
+   defining Unicode char U+0402 (decimal 1026)
+   defining Unicode char U+0403 (decimal 1027)
+   defining Unicode char U+0404 (decimal 1028)
+   defining Unicode char U+0405 (decimal 1029)
+   defining Unicode char U+0406 (decimal 1030)
+   defining Unicode char U+0407 (decimal 1031)
+   defining Unicode char U+0408 (decimal 1032)
+   defining Unicode char U+0409 (decimal 1033)
+   defining Unicode char U+040A (decimal 1034)
+   defining Unicode char U+040B (decimal 1035)
+   defining Unicode char U+040C (decimal 1036)
+   defining Unicode char U+040D (decimal 1037)
+   defining Unicode char U+040E (decimal 1038)
+   defining Unicode char U+040F (decimal 1039)
+   defining Unicode char U+0410 (decimal 1040)
+   defining Unicode char U+0411 (decimal 1041)
+   defining Unicode char U+0412 (decimal 1042)
+   defining Unicode char U+0413 (decimal 1043)
+   defining Unicode char U+0414 (decimal 1044)
+   defining Unicode char U+0415 (decimal 1045)
+   defining Unicode char U+0416 (decimal 1046)
+   defining Unicode char U+0417 (decimal 1047)
+   defining Unicode char U+0418 (decimal 1048)
+   defining Unicode char U+0419 (decimal 1049)
+   defining Unicode char U+041A (decimal 1050)
+   defining Unicode char U+041B (decimal 1051)
+   defining Unicode char U+041C (decimal 1052)
+   defining Unicode char U+041D (decimal 1053)
+   defining Unicode char U+041E (decimal 1054)
+   defining Unicode char U+041F (decimal 1055)
+   defining Unicode char U+0420 (decimal 1056)
+   defining Unicode char U+0421 (decimal 1057)
+   defining Unicode char U+0422 (decimal 1058)
+   defining Unicode char U+0423 (decimal 1059)
+   defining Unicode char U+0424 (decimal 1060)
+   defining Unicode char U+0425 (decimal 1061)
+   defining Unicode char U+0426 (decimal 1062)
+   defining Unicode char U+0427 (decimal 1063)
+   defining Unicode char U+0428 (decimal 1064)
+   defining Unicode char U+0429 (decimal 1065)
+   defining Unicode char U+042A (decimal 1066)
+   defining Unicode char U+042B (decimal 1067)
+   defining Unicode char U+042C (decimal 1068)
+   defining Unicode char U+042D (decimal 1069)
+   defining Unicode char U+042E (decimal 1070)
+   defining Unicode char U+042F (decimal 1071)
+   defining Unicode char U+0430 (decimal 1072)
+   defining Unicode char U+0431 (decimal 1073)
+   defining Unicode char U+0432 (decimal 1074)
+   defining Unicode char U+0433 (decimal 1075)
+   defining Unicode char U+0434 (decimal 1076)
+   defining Unicode char U+0435 (decimal 1077)
+   defining Unicode char U+0436 (decimal 1078)
+   defining Unicode char U+0437 (decimal 1079)
+   defining Unicode char U+0438 (decimal 1080)
+   defining Unicode char U+0439 (decimal 1081)
+   defining Unicode char U+043A (decimal 1082)
+   defining Unicode char U+043B (decimal 1083)
+   defining Unicode char U+043C (decimal 1084)
+   defining Unicode char U+043D (decimal 1085)
+   defining Unicode char U+043E (decimal 1086)
+   defining Unicode char U+043F (decimal 1087)
+   defining Unicode char U+0440 (decimal 1088)
+   defining Unicode char U+0441 (decimal 1089)
+   defining Unicode char U+0442 (decimal 1090)
+   defining Unicode char U+0443 (decimal 1091)
+   defining Unicode char U+0444 (decimal 1092)
+   defining Unicode char U+0445 (decimal 1093)
+   defining Unicode char U+0446 (decimal 1094)
+   defining Unicode char U+0447 (decimal 1095)
+   defining Unicode char U+0448 (decimal 1096)
+   defining Unicode char U+0449 (decimal 1097)
+   defining Unicode char U+044A (decimal 1098)
+   defining Unicode char U+044B (decimal 1099)
+   defining Unicode char U+044C (decimal 1100)
+   defining Unicode char U+044D (decimal 1101)
+   defining Unicode char U+044E (decimal 1102)
+   defining Unicode char U+044F (decimal 1103)
+   defining Unicode char U+0450 (decimal 1104)
+   defining Unicode char U+0451 (decimal 1105)
+   defining Unicode char U+0452 (decimal 1106)
+   defining Unicode char U+0453 (decimal 1107)
+   defining Unicode char U+0454 (decimal 1108)
+   defining Unicode char U+0455 (decimal 1109)
+   defining Unicode char U+0456 (decimal 1110)
+   defining Unicode char U+0457 (decimal 1111)
+   defining Unicode char U+0458 (decimal 1112)
+   defining Unicode char U+0459 (decimal 1113)
+   defining Unicode char U+045A (decimal 1114)
+   defining Unicode char U+045B (decimal 1115)
+   defining Unicode char U+045C (decimal 1116)
+   defining Unicode char U+045D (decimal 1117)
+   defining Unicode char U+045E (decimal 1118)
+   defining Unicode char U+045F (decimal 1119)
+   defining Unicode char U+0490 (decimal 1168)
+   defining Unicode char U+0491 (decimal 1169)
+   defining Unicode char U+0492 (decimal 1170)
+   defining Unicode char U+0493 (decimal 1171)
+   defining Unicode char U+0496 (decimal 1174)
+   defining Unicode char U+0497 (decimal 1175)
+   defining Unicode char U+0498 (decimal 1176)
+   defining Unicode char U+0499 (decimal 1177)
+   defining Unicode char U+049A (decimal 1178)
+   defining Unicode char U+049B (decimal 1179)
+   defining Unicode char U+049C (decimal 1180)
+   defining Unicode char U+049D (decimal 1181)
+   defining Unicode char U+04A0 (decimal 1184)
+   defining Unicode char U+04A1 (decimal 1185)
+   defining Unicode char U+04A2 (decimal 1186)
+   defining Unicode char U+04A3 (decimal 1187)
+   defining Unicode char U+04A4 (decimal 1188)
+   defining Unicode char U+04A5 (decimal 1189)
+   defining Unicode char U+04AA (decimal 1194)
+   defining Unicode char U+04AB (decimal 1195)
+   defining Unicode char U+04AE (decimal 1198)
+   defining Unicode char U+04AF (decimal 1199)
+   defining Unicode char U+04B0 (decimal 1200)
+   defining Unicode char U+04B1 (decimal 1201)
+   defining Unicode char U+04B2 (decimal 1202)
+   defining Unicode char U+04B3 (decimal 1203)
+   defining Unicode char U+04B6 (decimal 1206)
+   defining Unicode char U+04B7 (decimal 1207)
+   defining Unicode char U+04B8 (decimal 1208)
+   defining Unicode char U+04B9 (decimal 1209)
+   defining Unicode char U+04BA (decimal 1210)
+   defining Unicode char U+04BB (decimal 1211)
+   defining Unicode char U+04C0 (decimal 1216)
+   defining Unicode char U+04C1 (decimal 1217)
+   defining Unicode char U+04C2 (decimal 1218)
+   defining Unicode char U+04D0 (decimal 1232)
+   defining Unicode char U+04D1 (decimal 1233)
+   defining Unicode char U+04D2 (decimal 1234)
+   defining Unicode char U+04D3 (decimal 1235)
+   defining Unicode char U+04D4 (decimal 1236)
+   defining Unicode char U+04D5 (decimal 1237)
+   defining Unicode char U+04D6 (decimal 1238)
+   defining Unicode char U+04D7 (decimal 1239)
+   defining Unicode char U+04D8 (decimal 1240)
+   defining Unicode char U+04D9 (decimal 1241)
+   defining Unicode char U+04DA (decimal 1242)
+   defining Unicode char U+04DB (decimal 1243)
+   defining Unicode char U+04DC (decimal 1244)
+   defining Unicode char U+04DD (decimal 1245)
+   defining Unicode char U+04DE (decimal 1246)
+   defining Unicode char U+04DF (decimal 1247)
+   defining Unicode char U+04E2 (decimal 1250)
+   defining Unicode char U+04E3 (decimal 1251)
+   defining Unicode char U+04E4 (decimal 1252)
+   defining Unicode char U+04E5 (decimal 1253)
+   defining Unicode char U+04E6 (decimal 1254)
+   defining Unicode char U+04E7 (decimal 1255)
+   defining Unicode char U+04E8 (decimal 1256)
+   defining Unicode char U+04E9 (decimal 1257)
+   defining Unicode char U+04EC (decimal 1260)
+   defining Unicode char U+04ED (decimal 1261)
+   defining Unicode char U+04EE (decimal 1262)
+   defining Unicode char U+04EF (decimal 1263)
+   defining Unicode char U+04F0 (decimal 1264)
+   defining Unicode char U+04F1 (decimal 1265)
+   defining Unicode char U+04F2 (decimal 1266)
+   defining Unicode char U+04F3 (decimal 1267)
+   defining Unicode char U+04F4 (decimal 1268)
+   defining Unicode char U+04F5 (decimal 1269)
+   defining Unicode char U+04F8 (decimal 1272)
+   defining Unicode char U+04F9 (decimal 1273)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+3008 (decimal 12296)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+3009 (decimal 12297)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+))
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
+12.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2023/02/13 3.86 The Babel package
+\babel@savecnt=\count196
+\U@D=\dimen149
+\l@unhyphenated=\language87
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count197
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel-ukrainian/ukraineb.ldf
+File: ukraineb.ldf 2020/10/14 1.4e Ukrainian support for the Babel system
+Package babel Info: Making " an active character on input line 97.
+Package babel Info: Default for \cyrdash is provided on input line 142.
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel/locale/uk/babel-ukrainian
+.tex
+Package babel Info: Importing font and identification data for ukrainian
+(babel)             from babel-uk.ini. Reported on input line 11.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen152
+\captionmargin=\dimen153
+\caption@leftmargin=\dimen154
+\caption@rightmargin=\dimen155
+\caption@width=\dimen156
+\caption@indent=\dimen157
+\caption@parindent=\dimen158
+\caption@hangindent=\dimen159
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count198
+\c@continuedfloat=\count199
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks20
+\verbatim@line=\toks21
+\verbatim@in@stream=\read3
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count266
+\lst@gtempboxa=\box51
+\lst@token=\toks22
+\lst@length=\count267
+\lst@currlwidth=\dimen160
+\lst@column=\count268
+\lst@pos=\count269
+\lst@lostspace=\dimen161
+\lst@width=\dimen162
+\lst@newlines=\count270
+\lst@lineno=\count271
+\lst@maxwidth=\dimen163
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count272
+\lst@skipnumbers=\count273
+\lst@framebox=\box52
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/clrscode3e/clrscode3e.sty
+Package: clrscode3e 
+\c@codelinenumber=\count274
+\c@indent=\count275
+\digitwidth=\skip50
+\savecode=\box53
+\codeboxwidth=\skip51
+\c@thisindent=\count276
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2023/01/19 4.5a verbatim text (tvz,hv)
+\FV@CodeLineNo=\count277
+\FV@InFile=\read4
+\FV@TabBox=\box54
+\c@FancyVerbLine=\count278
+\FV@StepNumber=\count279
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
+)
+\XKV@depth=\count280
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box55
+)
+\tc@llx=\dimen164
+\tc@lly=\dimen165
+\tc@urx=\dimen166
+\tc@ury=\dimen167
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen168
+\adjbox@Height=\dimen169
+\adjbox@Depth=\dimen170
+\adjbox@Totalheight=\dimen171
+\adjbox@pwidth=\dimen172
+\adjbox@pheight=\dimen173
+\adjbox@pdepth=\dimen174
+\adjbox@ptotalheight=\dimen175
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count281
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box56
+\sift@deathcycles=\count282
+\@vwid@loff=\dimen176
+\@vwid@roff=\dimen177
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count283
+\l__pdf_internal_box=\box57
+)
+(./all.aux)
+\openout1 = `all.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(31.2982pt, 534.91147pt, 31.2982pt)
+* v-part:(T,H,B)=(31.2982pt, 782.45044pt, 31.2982pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=534.91147pt
+* \textheight=782.45044pt
+* \oddsidemargin=-40.97179pt
+* \evensidemargin=-40.97179pt
+* \topmargin=-77.97179pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \th on input line 17.
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count284
+\scratchdimen=\dimen178
+\scratchbox=\box58
+\nofMPsegments=\count285
+\nofMParguments=\count286
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count287
+\MPscratchDim=\dimen179
+\MPnumerator=\count288
+\makeMPintoPDFobject=\count289
+\everyMPtoPDFconversion=\toks26
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count290
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 18.
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+29.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 21--142
+[] |  [] 
+ []
+
+[1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 192--319
+[] |  [] 
+ []
+
+[3] [4]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 367--492
+[] |  [] 
+ []
+
+[5] [6]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 530--657
+[] |  [] 
+ []
+
+[7] [8]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 707--833
+[] |  [] 
+ []
+
+[9] [10]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 871--991
+[] |  [] 
+ []
+
+[11] [12]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 1029--1151
+[] |  [] 
+ []
+
+[13] [14]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 1189--1310
+[] |  [] 
+ []
+
+[15] [16]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 1348--1475
+[] |  [] 
+ []
+
+[17] [18]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 1525--1646
+[] |  [] 
+ []
+
+[19] [20]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 1694--1824
+[] |  [] 
+ []
+
+[21] [22]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 1874--1994
+[] |  [] 
+ []
+
+[23] [24]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 2032--2161
+[] |  [] 
+ []
+
+[25] [26]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 2199--2321
+[] |  [] 
+ []
+
+[27] [28]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 2359--2488
+[] |  [] 
+ []
+
+[29] [30]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 2526--2648
+[] |  [] 
+ []
+
+[31] [32]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 2686--2807
+[] |  [] 
+ []
+
+[33] [34]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 2845--2972
+[] |  [] 
+ []
+
+[35] [36]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 3020--3148
+[] |  [] 
+ []
+
+[37] [38]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 3198--3320
+[] |  [] 
+ []
+
+[39] [40]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 3370--3490
+[] |  [] 
+ []
+
+[41] [42]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 3528--3655
+[] |  [] 
+ []
+
+[43] [44]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 3693--3815
+[] |  [] 
+ []
+
+[45] [46]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 3865--3987
+[] |  [] 
+ []
+
+[47] [48]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 4035--4163
+[] |  [] 
+ []
+
+[49] [50]
+Overfull \hbox (4.55597pt too wide) in paragraph at lines 4305--4305
+[]  \T2A/cmtt/m/n/12 int **ppi=new int*(new int(3));[] 
+ []
+
+
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 4213--4335
+[] |  [] 
+ []
+
+[51] [52]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 4373--4500
+[] |  [] 
+ []
+
+[53] [54]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 4538--4660
+[] |  [] 
+ []
+
+[55] [56]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 4698--4820
+[] |  [] 
+ []
+
+[57] [58]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 4858--4987
+[] |  [] 
+ []
+
+[59] [60]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 5025--5150
+[] |  [] 
+ []
+
+[61] [62]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 5198--5323
+[] |  [] 
+ []
+
+[63] [64]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 5373--5495
+[] |  [] 
+ []
+
+[65] [66]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 5533--5661
+[] |  [] 
+ []
+
+[67] [68]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 5699--5825
+[] |  [] 
+ []
+
+[69] [70]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 5875--5995
+[] |  [] 
+ []
+
+[71] [72]
+Overfull \hbox (4.55597pt too wide) in paragraph at lines 6136--6136
+[]  \T2A/cmtt/m/n/12 int **ppi=new int*(new int(3));[] 
+ []
+
+
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 6043--6166
+[] |  [] 
+ []
+
+[73] [74]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 6216--6337
+[] |  [] 
+ []
+
+[75] [76]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 6375--6501
+[] |  [] 
+ []
+
+[77] [78]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 6539--6665
+[] |  [] 
+ []
+
+[79] [80]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 6703--6829
+[] |  [] 
+ []
+
+[81] [82]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 6867--6993
+[] |  [] 
+ []
+
+[83] [84]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 7043--7171
+[] |  [] 
+ []
+
+[85] [86]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 7209--7337
+[] |  [] 
+ []
+
+[87] [88]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 7387--7508
+[] |  [] 
+ []
+
+[89] [90]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 7546--7668
+[] |  [] 
+ []
+
+[91] [92]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 7706--7832
+[] |  [] 
+ []
+
+[93] [94]
+Overfull \hbox (4.55597pt too wide) in paragraph at lines 7962--7962
+[]  \T2A/cmtt/m/n/12 int **ppi=new int*(new int(3));[] 
+ []
+
+
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 7870--7992
+[] |  [] 
+ []
+
+[95] [96]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 8040--8165
+[] |  [] 
+ []
+
+[97] [98]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 8215--8343
+[] |  [] 
+ []
+
+[99] [100]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 8393--8514
+[] |  [] 
+ []
+
+[101] [102]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 8552--8679
+[] |  [] 
+ []
+
+[103] [104]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 8717--8846
+[] |  [] 
+ []
+
+[105] [106]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 8894--9015
+[] |  [] 
+ []
+
+[107] [108]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 9065--9187
+[] |  [] 
+ []
+
+[109] [110]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 9225--9348
+[] |  [] 
+ []
+
+[111] [112]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 9386--9507
+[] |  [] 
+ []
+
+[113] [114]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 9555--9679
+[] |  [] 
+ []
+
+[115] [116]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 9729--9856
+[] |  [] 
+ []
+
+[117] [118]
+Overfull \hbox (4.55597pt too wide) in paragraph at lines 9987--9987
+[]  \T2A/cmtt/m/n/12 int **ppi=new int*(new int(3));[] 
+ []
+
+
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 9894--10017
+[] |  [] 
+ []
+
+[119] [120]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 10055--10182
+[] |  [] 
+ []
+
+[121] [122]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 10220--10342
+[] |  [] 
+ []
+
+[123] [124]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 10380--10505
+[] |  [] 
+ []
+
+[125] [126]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 10555--10682
+[] |  [] 
+ []
+
+[127] [128]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 10732--10853
+[] |  [] 
+ []
+
+[129] [130]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 10891--11010
+[] |  [] 
+ []
+
+[131] [132]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 11048--11170
+[] |  [] 
+ []
+
+[133] [134]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 11208--11328
+[] |  [] 
+ []
+
+[135] [136]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 11378--11505
+[] |  [] 
+ []
+
+[137] [138]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 11553--11683
+[] |  [] 
+ []
+
+[139] [140]
+Overfull \hbox (4.55597pt too wide) in paragraph at lines 11814--11814
+[]  \T2A/cmtt/m/n/12 int **ppi=new int*(new int(3));[] 
+ []
+
+
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 11721--11850
+[] |  [] 
+ []
+
+[141] [142]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 11898--12028
+[] |  [] 
+ []
+
+[143] [144]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 12078--12200
+[] |  [] 
+ []
+
+[145] [146]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 12238--12364
+[] |  [] 
+ []
+
+[147] [148]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 12402--12528
+[] |  [] 
+ []
+
+[149] [150]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 12566--12686
+[] |  [] 
+ []
+
+[151] [152]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 12724--12845
+[] |  [] 
+ []
+
+[153] [154]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 12895--13021
+[] |  [] 
+ []
+
+[155] [156]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 13059--13185
+[] |  [] 
+ []
+
+[157] [158]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 13223--13351
+[] |  [] 
+ []
+
+[159] [160]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 13399--13522
+[] |  [] 
+ []
+
+[161] [162]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 13560--13681
+[] |  [] 
+ []
+
+[163] [164]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 13731--13852
+[] |  [] 
+ []
+
+[165] [166]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 13902--14026
+[] |  [] 
+ []
+
+[167] [168]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 14064--14191
+[] |  [] 
+ []
+
+[169] [170]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 14229--14351
+[] |  [] 
+ []
+
+[171] [172]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 14399--14529
+[] |  [] 
+ []
+
+[173] [174]
+Overfull \hbox (4.55597pt too wide) in paragraph at lines 14670--14670
+[]  \T2A/cmtt/m/n/12 int **ppi=new int*(new int(3));[] 
+ []
+
+
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 14579--14706
+[] |  [] 
+ []
+
+[175] [176]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 14744--14866
+[] |  [] 
+ []
+
+[177] [178]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 14904--15026
+[] |  [] 
+ []
+
+[179] [180]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 15064--15184
+[] |  [] 
+ []
+
+[181] [182]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 15234--15358
+[] |  [] 
+ []
+
+[183] [184]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 15406--15533
+[] |  [] 
+ []
+
+[185] [186]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 15583--15707
+[] |  [] 
+ []
+
+[187] [188]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 15745--15872
+[] |  [] 
+ []
+
+[189] [190]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 15910--16037
+[] |  [] 
+ []
+
+[191] [192]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 16087--16210
+[] |  [] 
+ []
+
+[193] [194]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 16248--16371
+[] |  [] 
+ []
+
+[195] [196]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 16409--16530
+[] |  [] 
+ []
+
+[197] [198]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 16580--16701
+[] |  [] 
+ []
+
+[199] [200]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 16739--16867
+[] |  [] 
+ []
+
+[201] [202]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 16905--17029
+[] |  [] 
+ []
+
+[203] [204]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 17067--17193
+[] |  [] 
+ []
+
+[205] [206]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 17241--17362
+[] |  [] 
+ []
+
+[207] [208]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 17412--17539
+[] |  [] 
+ []
+
+[209] [210]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 17577--17700
+[] |  [] 
+ []
+
+[211] [212]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 17750--17879
+[] |  [] 
+ []
+
+[213] [214]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 17917--18039
+[] |  [] 
+ []
+
+[215] [216]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 18077--18198
+[] |  [] 
+ []
+
+[217] [218]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 18248--18375
+[] |  [] 
+ []
+
+[219] [220]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 18413--18540
+[] |  [] 
+ []
+
+[221] [222]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 18588--18709
+[] |  [] 
+ []
+
+[223] [224]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 18747--18871
+[] |  [] 
+ []
+
+[225] [226]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 18921--19047
+[] |  [] 
+ []
+
+[227] [228]
+Overfull \hbox (5.62128pt too wide) in paragraph at lines 19085--19211
+[] |  [] 
+ []
+
+[229] [230] (./all.aux) )
+(\end occurred inside a group at level 115)
+
+### simple group (level 115) entered at line 19083 ({)
+### simple group (level 114) entered at line 18919 ({)
+### simple group (level 113) entered at line 18745 ({)
+### simple group (level 112) entered at line 18586 ({)
+### simple group (level 111) entered at line 18411 ({)
+### simple group (level 110) entered at line 18246 ({)
+### simple group (level 109) entered at line 18075 ({)
+### simple group (level 108) entered at line 17915 ({)
+### simple group (level 107) entered at line 17748 ({)
+### simple group (level 106) entered at line 17575 ({)
+### simple group (level 105) entered at line 17410 ({)
+### simple group (level 104) entered at line 17239 ({)
+### simple group (level 103) entered at line 17065 ({)
+### simple group (level 102) entered at line 16903 ({)
+### simple group (level 101) entered at line 16737 ({)
+### simple group (level 100) entered at line 16578 ({)
+### simple group (level 99) entered at line 16407 ({)
+### simple group (level 98) entered at line 16246 ({)
+### simple group (level 97) entered at line 16085 ({)
+### simple group (level 96) entered at line 15908 ({)
+### simple group (level 95) entered at line 15743 ({)
+### simple group (level 94) entered at line 15581 ({)
+### simple group (level 93) entered at line 15404 ({)
+### simple group (level 92) entered at line 15232 ({)
+### simple group (level 91) entered at line 15062 ({)
+### simple group (level 90) entered at line 14902 ({)
+### simple group (level 89) entered at line 14742 ({)
+### simple group (level 88) entered at line 14577 ({)
+### simple group (level 87) entered at line 14397 ({)
+### simple group (level 86) entered at line 14227 ({)
+### simple group (level 85) entered at line 14062 ({)
+### simple group (level 84) entered at line 13900 ({)
+### simple group (level 83) entered at line 13729 ({)
+### simple group (level 82) entered at line 13558 ({)
+### simple group (level 81) entered at line 13397 ({)
+### simple group (level 80) entered at line 13221 ({)
+### simple group (level 79) entered at line 13057 ({)
+### simple group (level 78) entered at line 12893 ({)
+### simple group (level 77) entered at line 12722 ({)
+### simple group (level 76) entered at line 12564 ({)
+### simple group (level 75) entered at line 12400 ({)
+### simple group (level 74) entered at line 12236 ({)
+### simple group (level 73) entered at line 12076 ({)
+### simple group (level 72) entered at line 11896 ({)
+### simple group (level 71) entered at line 11719 ({)
+### simple group (level 70) entered at line 11551 ({)
+### simple group (level 69) entered at line 11376 ({)
+### simple group (level 68) entered at line 11206 ({)
+### simple group (level 67) entered at line 11046 ({)
+### simple group (level 66) entered at line 10889 ({)
+### simple group (level 65) entered at line 10730 ({)
+### simple group (level 64) entered at line 10553 ({)
+### simple group (level 63) entered at line 10378 ({)
+### simple group (level 62) entered at line 10218 ({)
+### simple group (level 61) entered at line 10053 ({)
+### simple group (level 60) entered at line 9892 ({)
+### simple group (level 59) entered at line 9727 ({)
+### simple group (level 58) entered at line 9553 ({)
+### simple group (level 57) entered at line 9384 ({)
+### simple group (level 56) entered at line 9223 ({)
+### simple group (level 55) entered at line 9063 ({)
+### simple group (level 54) entered at line 8892 ({)
+### simple group (level 53) entered at line 8715 ({)
+### simple group (level 52) entered at line 8550 ({)
+### simple group (level 51) entered at line 8391 ({)
+### simple group (level 50) entered at line 8213 ({)
+### simple group (level 49) entered at line 8038 ({)
+### simple group (level 48) entered at line 7868 ({)
+### simple group (level 47) entered at line 7704 ({)
+### simple group (level 46) entered at line 7544 ({)
+### simple group (level 45) entered at line 7385 ({)
+### simple group (level 44) entered at line 7207 ({)
+### simple group (level 43) entered at line 7041 ({)
+### simple group (level 42) entered at line 6865 ({)
+### simple group (level 41) entered at line 6701 ({)
+### simple group (level 40) entered at line 6537 ({)
+### simple group (level 39) entered at line 6373 ({)
+### simple group (level 38) entered at line 6214 ({)
+### simple group (level 37) entered at line 6041 ({)
+### simple group (level 36) entered at line 5873 ({)
+### simple group (level 35) entered at line 5697 ({)
+### simple group (level 34) entered at line 5531 ({)
+### simple group (level 33) entered at line 5371 ({)
+### simple group (level 32) entered at line 5196 ({)
+### simple group (level 31) entered at line 5023 ({)
+### simple group (level 30) entered at line 4856 ({)
+### simple group (level 29) entered at line 4696 ({)
+### simple group (level 28) entered at line 4536 ({)
+### simple group (level 27) entered at line 4371 ({)
+### simple group (level 26) entered at line 4211 ({)
+### simple group (level 25) entered at line 4033 ({)
+### simple group (level 24) entered at line 3863 ({)
+### simple group (level 23) entered at line 3691 ({)
+### simple group (level 22) entered at line 3526 ({)
+### simple group (level 21) entered at line 3368 ({)
+### simple group (level 20) entered at line 3196 ({)
+### simple group (level 19) entered at line 3018 ({)
+### simple group (level 18) entered at line 2843 ({)
+### simple group (level 17) entered at line 2684 ({)
+### simple group (level 16) entered at line 2524 ({)
+### simple group (level 15) entered at line 2357 ({)
+### simple group (level 14) entered at line 2197 ({)
+### simple group (level 13) entered at line 2030 ({)
+### simple group (level 12) entered at line 1872 ({)
+### simple group (level 11) entered at line 1692 ({)
+### simple group (level 10) entered at line 1523 ({)
+### simple group (level 9) entered at line 1346 ({)
+### simple group (level 8) entered at line 1187 ({)
+### simple group (level 7) entered at line 1027 ({)
+### simple group (level 6) entered at line 869 ({)
+### simple group (level 5) entered at line 705 ({)
+### simple group (level 4) entered at line 528 ({)
+### simple group (level 3) entered at line 365 ({)
+### simple group (level 2) entered at line 190 ({)
+### simple group (level 1) entered at line 19 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 8228 strings out of 476029
+ 138470 string characters out of 5790172
+ 1867346 words of memory out of 5000000
+ 28599 multiletter control sequences out of 15000+600000
+ 516954 words of font info for 44 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,5n,63p,815b,1610s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm
+-super-t2a.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/
+sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sf
+rm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt
+1200.pfb>
+Output written on all.pdf (230 pages, 411610 bytes).
+PDF statistics:
+ 764 PDF objects out of 1000 (max. 8388607)
+ 520 compressed objects within 6 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

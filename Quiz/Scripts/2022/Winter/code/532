@@ -1,0 +1,30 @@
+echo
+echo =532_1.py 
+python3.10 ./532_1.py 
+echo
+echo =532_2.py 
+python3.10 ./532_2.py 
+echo
+echo =532_3.py 
+python3.10 ./532_3.py 
+echo
+echo =532_4.py 
+python3.10 ./532_4.py 
+echo
+echo =532_5.py 
+python3.10 ./532_5.py 
+echo
+echo =532_6.py 
+python3.10 ./532_6.py 
+echo
+echo =532_7.py 
+python3.10 ./532_7.py 
+echo
+echo =532_8.py 
+python3.10 ./532_8.py 
+echo
+echo =532_9.py 
+python3.10 ./532_9.py 
+echo
+echo =532_10.py 
+python3.10 ./532_10.py 

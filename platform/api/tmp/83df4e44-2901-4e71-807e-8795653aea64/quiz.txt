@@ -1,0 +1,221 @@
+<document>
+
+<header>
+\documentclass[11pt, ukrainian]{article}{ENDL}
+\usepackage[a4paper]{geometry}{ENDL}
+\setlength\parindent{0mm}{ENDL}
+\geometry{top=1.1cm,bottom=1.1cm,left=1.0cm,right=1.0cm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\begin{document}{ENDL}
+<\header>
+
+<footer>
+\end{document}{ENDL}
+<\footer>
+
+<onNextVariant>
+\vspace{20mm}{ENDL}
+<\onNextVariant>
+
+<onNextPage>
+\newpage{ENDL}
+<\onNextPage>
+
+<from>
+1
+<\from>
+<to>
+1
+<\to>
+<onPage>
+1
+<\onPage>
+
+<\document>
+
+<variant>
+<before>
+\begin{large}{ENDL}\textbf{Check, варіант \No #No#}\par{ENDL}{ENDL}
+<\before>
+<after>
+\end{large}{ENDL}
+<\after>
+<\variant>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2025/Mod2025_INF_1/05Invoke/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2025/Mod2025_INF_1/01Ar/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2025/Mod2025_INF_1/02Log/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2025/Mod2025_INF_1/03If/03-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+check auto
+<good>
+Scripts/2025/Mod2025_INF_1/00Syntax/01-good.txt
+<\good>
+<bad>
+Scripts/2025/Mod2025_INF_1/00Syntax/01-bad.txt
+<\bad>
+<ncase>
+4
+<\ncase>
+<nGood>
+2
+<\nGood>
+<mode>
+OneOnLine
+<\mode>
+<before>
+Відмітити все, що є однією правильною лексемою:{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2025/Mod2025_INF_1/06Scope/01-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+check auto
+<good>
+Scripts/2025/Mod2025_INF_1/00Syntax/03-good.txt
+<\good>
+<bad>
+Scripts/2025/Mod2025_INF_1/00Syntax/03-bad.txt
+<\bad>
+<ncase>
+4
+<\ncase>
+<nGood>
+2
+<\nGood>
+<mode>
+OneOnLine
+<\mode>
+<before>
+Відмітити все, що є коректним оператором С++:{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2025/Mod2025_INF_1/02Log/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2025/Mod2025_INF_1/03If/02-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>
+
+<item>
+<fabric>
+template answer
+<fname>
+Scripts/2025/Mod2025_INF_1/02Log/03-f.txt
+<\fname>
+<before>
+Що буде виведено за виконання фрагменту коду?{ENDL}
+<\before>
+<after>
+{ENDL}
+<\after>
+<\fabric>
+<\item>

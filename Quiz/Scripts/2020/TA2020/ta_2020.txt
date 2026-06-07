@@ -1,0 +1,57 @@
+<document>
+  <header>
+  <\header>
+  <footer>
+  <\footer>
+
+  <onNextVariant>
+{ENDL}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+{ENDL}<newPage>{ENDL}
+//NEWPAGE
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     31
+  <\to>
+
+  <onPage>
+    1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+Варіант № #No# {ENDL}
+<\before>
+
+<after>
+{ENDL}{ENDL}{ENDL}
+<\after>
+
+<\variant>
+
+
+<item>
+   include 01-q.txt
+<delim>
+{ENDL}{ENDL}
+<\delim>
+
+<\item>
+
+<item>
+   include 02-q.txt
+<delim>
+{ENDL}{ENDL}
+<\delim>
+
+<\item>

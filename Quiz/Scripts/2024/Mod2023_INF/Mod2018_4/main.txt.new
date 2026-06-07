@@ -1,0 +1,109 @@
+<document>
+
+  <header>
+
+  <\header>
+
+  <footer>
+
+  <\footer>
+
+  <onNextVariant>
+{ENDL}{ENDL}{ENDL}{ENDL}{ENDL}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+{ENDL}NEWPAGE
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     115
+  <\to>
+
+  <onPage>
+     1
+  <\onPage>
+
+<\document>
+
+<variant>
+<first>
+0
+<\first>
+
+<before>
+22.05.2019 Mod2 Варіант № #No# {ENDL}
+<\before>
+
+<after>
+<\after>
+
+<\variant>
+
+<item>
+   include 01-q.txt
+<\item>
+
+<item>
+  include 02-q.txt
+<\item>
+
+<item>
+  include 03-q.txt
+  <delim>
+  
+  <\delim>
+<\item>
+
+<item>
+  include 04-q.txt
+  <delim>
+  
+  <\delim>
+<\item>
+<item>
+  include 05-q.txt
+  <delim>
+  
+  <\delim>
+<\item>
+
+<item>
+  include 06-q.txt
+  <delim>
+  
+  <\delim>
+<\item>
+
+<item>
+  include 07-q.txt
+  <delim>
+  
+  <\delim>
+<\item>
+
+<item>
+  include 08-q.txt
+  <delim>
+  
+  <\delim>
+<\item>
+
+<item>
+  include 09-q.txt
+  <delim>
+  
+  <\delim>
+<\item>
+
+<item>
+  include 10-q.txt
+  <delim>
+  
+  <\delim>
+<\item>
+

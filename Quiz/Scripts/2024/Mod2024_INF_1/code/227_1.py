@@ -1,0 +1,4 @@
+try:
+    cout << (8 / 10 / 9 / 15);
+    
+except: print('error')

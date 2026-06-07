@@ -1,0 +1,196 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\emergencystretch=3em
+\pagestyle{empty}
+\begin{document}
+%begin
+{\centering\Large\bfseries Контрольна робота\par}
+\medskip
+\noindent\rule{\linewidth}{0.5pt}
+\smallskip
+\noindent\textbf{Варіант \No\,3}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. \textbf{Що буде виведено за виконання фрагменту коду?}
+a = 3
+b = 4
+c = 8
+
+def h(b):
+global c    a *= 4
+    b = 5
+    c = 2
+    return a + b + c
+
+a = 6
+b = 7
+c = 1
+
+try:
+    print(h(b), a, b, c, sep=';')
+except:
+    print('Z', a, b, c, sep=';')
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+2. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    print(3, end=';')
+    print(int('d4'), end=';')
+    print(8, end=';')
+except ZeroDivisionError:
+    print(6, end=';')
+except KeyboardInterrupt:
+    print(7, end=';')
+except:
+    print('Z', end=';')
+else:
+    print(1, end=';')
+finally:
+    print(2)
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+3. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << 15 % 15 % 15 % 15;
+%code
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+4. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 6//6%6*6
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+5. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+#include <iostream>
+using namespace std;
+
+int f(int &x, int &y){
+    x = 9;
+    y-= 6;
+    return y;
+}
+
+int main(){
+    int a = 2, b = 3;
+    b = f(b, b);
+    cout << a << ":" << b <<':';
+    {
+        int a = 8, b = 5;
+        cout << ((b>=6) || ((a-=2) >= 6))
+             << a << ":" << b << ":";
+    }
+    {
+        inta = 1;
+        cout << a << ':';
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+6. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+\textbf{Відмітити всі коректні оператори Python:}
+( 1 ) "a"=6
+
+( 2 ) return x<=2
+
+( 3 ) return 'a'<'c'
+
+( 4 ) if a<b: a=0 else: b=0
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+7. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    for d in range(-7, -7, 2):
+        if d>=6:
+            break
+        print(d, end=';')
+        if d>=6:
+            break
+    else:
+        print(d,end=';')
+    print(d)
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+8. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+n=3
+while n<=13:
+    n+=2
+print(n)
+%code
+
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+9. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 4**1.0-2
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+10. 
+Вкажіть значення та тип виразу:
+"9j">="9.0j"
+\par\vspace{5mm}
+%enditem
+
+%end
+\newpage
+\end{document}
+

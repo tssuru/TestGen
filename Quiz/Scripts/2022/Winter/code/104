@@ -1,0 +1,30 @@
+echo
+echo =104_1.py 
+python3.10 ./104_1.py 
+echo
+echo =104_2.py 
+python3.10 ./104_2.py 
+echo
+echo =104_3.py 
+python3.10 ./104_3.py 
+echo
+echo =104_4.py 
+python3.10 ./104_4.py 
+echo
+echo =104_5.py 
+python3.10 ./104_5.py 
+echo
+echo =104_6.py 
+python3.10 ./104_6.py 
+echo
+echo =104_7.py 
+python3.10 ./104_7.py 
+echo
+echo =104_8.py 
+python3.10 ./104_8.py 
+echo
+echo =104_9.py 
+python3.10 ./104_9.py 
+echo
+echo =104_10.py 
+python3.10 ./104_10.py 

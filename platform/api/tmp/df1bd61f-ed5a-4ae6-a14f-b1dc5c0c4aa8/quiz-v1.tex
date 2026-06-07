@@ -1,0 +1,425 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,1}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+%code
+f=['0','1','2','3']
+print(f.pop(4), end=' ')
+print(f)
+%code
+
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+������ 2017-���������� �������� ������� ����������� �� 1 �� 20172017 ������ ��������� ���� �����, �� ����� 172008
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+Рядки журналу через двокрапку містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад
+\begin{verbatim}
+s="username : 2022-05-05 13:26 : ERROR : 404"
+\end{verbatim}
+у коді 
+\begin{verbatim}
+res = re.fullmatch('???', s) 
+s = ''
+code_str = ??? 
+\end{verbatim}
+чим треба замінити кожен з ???, щоб значенням code\_str був код події? 
+
+
+
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+Записати ВИРАЗ, значенням якого є множина, що складається з кубівцілих чисел від 19 до 2009 (включно), що не діляться на жодне з чисел 2, 3.
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання фрагменту коду?
+for f in range(-6,-6,-3):
+    if f<=8:
+        break
+        print(f,end=' ')
+    if f<=8:
+        break
+else:
+    print(f, end=' ')
+print(f, end=' ')
+
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+Значенням змінної \kw{a} є цілочисловий масив типу $numpy.ndarray$ розмірів $5{\times}5$. На скільки збільшиться сума елементів масиву \kw{a} після виконання
+\begin{verbatim}
+a.T[2] += 3
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+f=[0,1,2,3,4,5,6,7,8,9]
+print(f[-6::-3])
+%code
+
+
+%enditem
+
+%beginitem
+8. Відмітити все, що є однією правильною лексемою:
+( 1 ) a2f
+
+( 2 ) "a'a"
+
+( 3 ) 'a'a'
+
+( 4 ) do
+
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+int a = 8, b = 0, c = 6;
+
+int h(int &b){
+int c;    a = 3;
+    b += 1;
+    c = 2;
+    return a + b + c;
+}
+
+int main(){
+    inta = 2;
+    intb = 3;
+    intc = 1;
+    cout << h(b) << ':';
+    cout << a << ':' << b << ':' << c;
+    return 0; 
+}
+%code
+
+%enditem
+
+%beginitem
+10. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+print(f.pop(3), end=' ')
+print(f)
+%code
+
+
+%enditem
+
+%beginitem
+11. Відмітити все, що є однією правильною лексемою:
+( 1 ) While
+
+( 2 ) z13
+
+( 3 ) x-y
+
+( 4 ) [1]
+
+%enditem
+
+%beginitem
+12. Що буде виведено за виконання фрагменту коду?
+
+%code
+f=['0','1','2','3']
+del f[-1:]
+print(f)
+%code
+
+
+%enditem
+
+%beginitem
+13. Що буде виведено за виконання фрагменту коду?
+try:
+    res = 9**-0.5*False
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+
+%enditem
+
+%beginitem
+14. Що буде виведено за виконання фрагменту коду?
+%code
+#include <iostream>
+using namespace std;
+
+int f(int &x, int &y){
+    x = 3;
+    y-= 9;
+    return y;
+}
+
+int main(){
+    int a = 6, b = 8;
+    b = f(b, b);
+    cout << a << ":" << b <<':';
+    {
+        int a = 4, b = 2;
+        cout << ((b<=5) || ((a-=2) <= 5)) << ':';
+        cout << a << ":" << b << ':';
+    }
+    {
+        inta = 5;
+        cout << a << ':';
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+
+%enditem
+
+%beginitem
+15. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(False>7>2>8)
+%code
+
+%enditem
+
+%beginitem
+16. Що буде виведено за виконання фрагменту коду?
+
+print('R', end=' ')
+f=[0,1,2,3,4,5,6,7,8,9]
+print(f[-6::-3])
+
+
+%enditem
+
+%beginitem
+17. Що буде виведено за виконання фрагменту коду?
+
+a,b,c=8,0,6
+def h(b):
+global c    a=3
+    b=1
+    c=2
+    return a+b+c
+
+a,b,c=2,3,1
+print(h(b),a,b,c)
+
+%enditem
+
+%beginitem
+18. Що буде виведено за виконання фрагменту коду?
+Кожен рядок текстового файлу містить по два дійсних числа, розділені білими символами.
+Написати функцію, що для заданого текстового файлу будує новий текстовий файл, рядки якого крім зображень дйсних чисел ще містять результат обчислення на них функції $f$. У вихідному файлі зображення чисел мають розділятися пробілами. 
+$$f(x, y) =\frac{\log_{2} x - 82}{(\tg x - 0.3) (y - 55)}$$ 
+Якість коду також оцінюється.
+
+
+%enditem
+
+%beginitem
+19. Відмітити все, що є коректним оператором С++:
+( 1 ) x is y is z
+
+( 2 ) def f(n:int) -> int:
+
+( 3 ) def f(a, 4): pass
+
+( 4 ) False=0
+
+%enditem
+
+%beginitem
+20. Відмітити все, що є однією правильною лексемою:
+( 1 ) While
+
+( 2 ) z13
+
+( 3 ) x-y
+
+( 4 ) [1]
+
+%enditem
+
+%beginitem
+21. Що буде виведено за виконання фрагменту коду?
+try:
+    for f in range(-6, -6, -3):
+        if f<=8:
+            break
+        print(f, end=';')
+        if f<=8:
+            break
+    else:
+        print(f,end=';')
+    print(f)
+except:
+    print('Z')
+
+%enditem
+
+%beginitem
+22. Що буде виведено за виконання фрагменту коду?
+
+print('R', end=' ')
+for f in range(-6,-6,-3):
+    if f<=8:
+        break
+        print(f, end=' ')
+    if f<=8:
+        break
+    else:
+        print(f, end=' ')
+    print(f)
+
+%enditem
+
+%beginitem
+23. Відмітити все, що є коректним оператором С++:
+( 1 ) x<y<z
+
+( 2 ) x-=2;
+
+( 3 ) int x+y=z;
+
+( 4 ) return *;
+
+%enditem
+
+%beginitem
+24. Що буде виведено за виконання фрагменту коду?
+
+def f(n):
+    print("f", end="");
+    return n!=-2
+
+print(f(0) or f(6))
+
+%enditem
+
+%beginitem
+25. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (!false != 7 or !2 < 8 or 7.0 == 2.0);
+%code
+
+%enditem
+
+%beginitem
+26. Відмітити все, що є коректним оператором С++:
+( 1 ) x<y<z
+
+( 2 ) x-=2;
+
+( 3 ) int x+y=z;
+
+( 4 ) return *;
+
+%enditem
+
+%beginitem
+27. Що буде виведено за виконання фрагменту коду?
+def f(arg, n):
+    n = 8
+    tmp = arg
+    del tmp[-1:-1]
+    return len(tmp)>3
+
+try:
+    f = ['0','1','2','3','4']
+    n = 0
+    f(f, n)
+    print(n, end=';')
+    for el in f:
+        print(el, end=';')
+except:
+    print('ERR')
+
+%enditem
+
+%beginitem
+28. Відмітити все, що є коректним оператором С++:
+( 1 ) x is y is z
+
+( 2 ) def f(n:int) -> int:
+
+( 3 ) def f(a, 4): pass
+
+( 4 ) False=0
+
+%enditem
+
+%beginitem
+29. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (!false!=7 or !2< 8 or 7.0==2.0);
+%code
+
+%enditem
+
+%beginitem
+30. Відмітити все, що є однією правильною лексемою:
+( 1 ) a2f
+
+( 2 ) "a'a"
+
+( 3 ) 'a'a'
+
+( 4 ) do
+
+%enditem
+
+%end
+\newpage
+\end{document}
+

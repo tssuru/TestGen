@@ -1,0 +1,27 @@
+echo
+echo =62_1.py 
+python3.10 ./62_1.py 
+echo
+echo =62_2.py 
+python3.10 ./62_2.py 
+echo
+echo =62_3.py 
+python3.10 ./62_3.py 
+echo
+echo =62_4.py 
+python3.10 ./62_4.py 
+echo
+echo =62_5.py 
+python3.10 ./62_5.py 
+echo
+echo =62_6.py 
+python3.10 ./62_6.py 
+echo
+echo =62_7.py 
+python3.10 ./62_7.py 
+echo
+echo =62_8.py 
+python3.10 ./62_8.py 
+echo
+echo =62_9.py 
+python3.10 ./62_9.py 

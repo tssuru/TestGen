@@ -1,0 +1,30 @@
+echo
+echo =516_1.py 
+python3.10 ./516_1.py 
+echo
+echo =516_2.py 
+python3.10 ./516_2.py 
+echo
+echo =516_3.py 
+python3.10 ./516_3.py 
+echo
+echo =516_4.py 
+python3.10 ./516_4.py 
+echo
+echo =516_5.py 
+python3.10 ./516_5.py 
+echo
+echo =516_6.py 
+python3.10 ./516_6.py 
+echo
+echo =516_7.py 
+python3.10 ./516_7.py 
+echo
+echo =516_8.py 
+python3.10 ./516_8.py 
+echo
+echo =516_9.py 
+python3.10 ./516_9.py 
+echo
+echo =516_10.py 
+python3.10 ./516_10.py 

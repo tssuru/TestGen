@@ -1,0 +1,30 @@
+echo
+echo =865_1.py 
+python3.10 ./865_1.py 
+echo
+echo =865_2.py 
+python3.10 ./865_2.py 
+echo
+echo =865_3.py 
+python3.10 ./865_3.py 
+echo
+echo =865_4.py 
+python3.10 ./865_4.py 
+echo
+echo =865_5.py 
+python3.10 ./865_5.py 
+echo
+echo =865_6.py 
+python3.10 ./865_6.py 
+echo
+echo =865_7.py 
+python3.10 ./865_7.py 
+echo
+echo =865_8.py 
+python3.10 ./865_8.py 
+echo
+echo =865_9.py 
+python3.10 ./865_9.py 
+echo
+echo =865_10.py 
+python3.10 ./865_10.py 

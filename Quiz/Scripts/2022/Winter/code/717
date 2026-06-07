@@ -1,0 +1,30 @@
+echo
+echo =717_1.py 
+python3.10 ./717_1.py 
+echo
+echo =717_2.py 
+python3.10 ./717_2.py 
+echo
+echo =717_3.py 
+python3.10 ./717_3.py 
+echo
+echo =717_4.py 
+python3.10 ./717_4.py 
+echo
+echo =717_5.py 
+python3.10 ./717_5.py 
+echo
+echo =717_6.py 
+python3.10 ./717_6.py 
+echo
+echo =717_7.py 
+python3.10 ./717_7.py 
+echo
+echo =717_8.py 
+python3.10 ./717_8.py 
+echo
+echo =717_9.py 
+python3.10 ./717_9.py 
+echo
+echo =717_10.py 
+python3.10 ./717_10.py 

@@ -1,0 +1,28 @@
+  <fabric>
+     check auto
+     <good>
+         00Syntax/01-good.txt
+     <\good>
+
+     <bad> 
+         00Syntax/01-bad.txt
+     <\bad>
+	<ncase>
+	   4
+	<\ncase>
+	<nGood>
+	   3
+	<\nGood>
+	<mode>
+	   SpaceBetween
+	<\mode>
+     <before>
+         Вiдмiтити все, що є однiєю правильною лексемою:{ENDL}
+\begin{verbatim}{ENDL}
+     <\before>
+<after>
+\end{verbatim}{ENDL}
+
+<\after>
+   <\fabric>
+

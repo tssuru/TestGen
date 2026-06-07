@@ -1,0 +1,24 @@
+echo
+echo =94_1.py 
+python3.11 -W "ignore" ./94_1.py 
+echo
+echo =94_2.py 
+python3.11 -W "ignore" ./94_2.py 
+echo
+echo =94_3.py 
+python3.11 -W "ignore" ./94_3.py 
+echo
+echo =94_4.py 
+python3.11 -W "ignore" ./94_4.py 
+echo
+echo =94_5.py 
+python3.11 -W "ignore" ./94_5.py 
+echo
+echo =94_6.py 
+python3.11 -W "ignore" ./94_6.py 
+echo
+echo =94_7.py 
+python3.11 -W "ignore" ./94_7.py 
+echo
+echo =94_8.py 
+echo 8

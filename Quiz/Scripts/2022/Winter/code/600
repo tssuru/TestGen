@@ -1,0 +1,30 @@
+echo
+echo =600_1.py 
+python3.10 ./600_1.py 
+echo
+echo =600_2.py 
+python3.10 ./600_2.py 
+echo
+echo =600_3.py 
+python3.10 ./600_3.py 
+echo
+echo =600_4.py 
+python3.10 ./600_4.py 
+echo
+echo =600_5.py 
+python3.10 ./600_5.py 
+echo
+echo =600_6.py 
+python3.10 ./600_6.py 
+echo
+echo =600_7.py 
+python3.10 ./600_7.py 
+echo
+echo =600_8.py 
+python3.10 ./600_8.py 
+echo
+echo =600_9.py 
+python3.10 ./600_9.py 
+echo
+echo =600_10.py 
+python3.10 ./600_10.py 

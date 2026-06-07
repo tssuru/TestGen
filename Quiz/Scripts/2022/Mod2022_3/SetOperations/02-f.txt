@@ -1,0 +1,26 @@
+//source for question like
+// questions
+//Що буде надруковано за виконання:\n
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+
+a=[3 SetOperations/02-print.txt]
+0text={<file> SetOperations/02-task.txt}
+
+var=s;d;t 
+
+<\declarations>
+
+<template>
+#0text#
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

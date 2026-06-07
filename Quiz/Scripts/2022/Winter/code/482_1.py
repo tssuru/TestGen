@@ -1,0 +1,4 @@
+try:
+    print(8//9/8*8)
+    
+except: print('error')

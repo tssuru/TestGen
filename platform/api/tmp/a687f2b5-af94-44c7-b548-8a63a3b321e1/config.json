@@ -1,0 +1,22 @@
+{
+  "title": "React Vite Demo",
+  "disciplineId": "informatics",
+  "languageId": "cpp",
+  "variantCount": 1,
+  "questionsPerVariant": 5,
+  "difficultyProfile": {
+    "easy": 2,
+    "medium": 2,
+    "hard": 1
+  },
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportFormats": [
+    "pdf",
+    "docx",
+    "md",
+    "zip"
+  ],
+  "questionPoolFilters": [],
+  "seed": 42
+}

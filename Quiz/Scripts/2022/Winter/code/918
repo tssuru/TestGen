@@ -1,0 +1,30 @@
+echo
+echo =918_1.py 
+python3.10 ./918_1.py 
+echo
+echo =918_2.py 
+python3.10 ./918_2.py 
+echo
+echo =918_3.py 
+python3.10 ./918_3.py 
+echo
+echo =918_4.py 
+python3.10 ./918_4.py 
+echo
+echo =918_5.py 
+python3.10 ./918_5.py 
+echo
+echo =918_6.py 
+python3.10 ./918_6.py 
+echo
+echo =918_7.py 
+python3.10 ./918_7.py 
+echo
+echo =918_8.py 
+python3.10 ./918_8.py 
+echo
+echo =918_9.py 
+python3.10 ./918_9.py 
+echo
+echo =918_10.py 
+python3.10 ./918_10.py 

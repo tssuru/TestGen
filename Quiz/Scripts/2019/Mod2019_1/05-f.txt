@@ -1,0 +1,37 @@
+//source for question like
+//26127360 questions
+//¬каж≥ть значенн€ та його тип:\n
+
+//**
+
+<sample>
+
+
+
+<\sample>
+
+<declarations>
+val={<int> 0 5}
+val2={<int> 6 9}
+
+var=x;y;z
+var1=x;y;z;x;y;z
+Var2={#var new#}{#var new#}{#val2 new#}
+
+
+comp=<;<=;>;>=;==;!=
+Return=n; n#comp##x2#
+
+<\declarations>
+
+<template>
+
+x,y,z=#val#,#val new#,#val new#;{SPACE}{SPACE}
+#var1#,#var1 new#,#var1 new#,#var1 new#=#Var2 new#,#Var2 new#,#Var2 new#,#Var2 new#;{SPACE}{SPACE}
+print(x,y,z)
+
+
+<\template>
+
+<restrictions>
+<\restrictions>

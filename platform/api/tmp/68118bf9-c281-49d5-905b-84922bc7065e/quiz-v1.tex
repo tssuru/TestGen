@@ -1,0 +1,171 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,1}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) double n.m;
+
+( 2 ) if a<b a=0;
+
+( 3 ) {int x,y;}
+
+( 4 ) double(2)/87
+
+%enditem
+
+%beginitem
+2. 
+try:
+    print(5, end=';')
+    print(2j!=5j, end=';')
+    print(0, end=';')
+except TypeError:
+    print(9, end=';')
+except ZeroDivisionError:
+    print(6, end=';')
+except:
+    print('ERR', end=';')
+else:
+    print(8, end=';')
+finally:
+    print(1)
+
+%enditem
+
+%beginitem
+3. 
+code
+d = 0
+k = 1
+
+class D:
+    k = 2
+    
+    def __init__(self):
+global k        self.k = 3
+        k = 4
+        D.k = 5
+
+obj = D()
+print(d, k, D.k, obj.k, sep=' ')
+code
+
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+%code
+if (5 != 5)
+    cout << "f";
+else
+    cout << "s";
+%code
+
+
+%enditem
+
+%beginitem
+5. 
+Записати ВИРАЗ, значенням якого є словник, ключами якого є цілі числа від 12 до 2012 (включно), що не діляться на жодне з чисел 2, 3, а ключам відповідають їх квадратні корені 
+%enditem
+
+%beginitem
+6. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) 5_w
+
+( 2 ) 0x17
+
+( 3 ) 'c'
+
+( 4 ) "1,3,2"
+
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання фрагменту коду?
+
+%code
+a,b,c=5,2,0
+def h(b):
+global c    a*=3
+    b=4
+    c=2
+    return a+b+c
+
+a,b,c=9,6,8
+print(h(b),a,b,c)
+%code
+
+%enditem
+
+%beginitem
+8. 
+try:
+    res = 9**-1.0*False
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання фрагменту коду?
+
+%code
+def h(a,b):
+    c=84
+    if b!=-3:
+        c=5
+    elif a>-2:
+         return 2
+    else: 
+        return 0
+    return c
+
+print(h(3,3))
+%code
+
+%enditem
+
+%beginitem
+10. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) x not is y
+
+( 2 ) print(end="1","qwe")
+
+( 3 ) 3**-1
+
+( 4 ) x-=2
+
+%enditem
+
+%end
+\newpage
+\end{document}
+

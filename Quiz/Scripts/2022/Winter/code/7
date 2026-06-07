@@ -1,0 +1,30 @@
+echo
+echo =7_1.py 
+python3.10 ./7_1.py 
+echo
+echo =7_2.py 
+python3.10 ./7_2.py 
+echo
+echo =7_3.py 
+python3.10 ./7_3.py 
+echo
+echo =7_4.py 
+python3.10 ./7_4.py 
+echo
+echo =7_5.py 
+python3.10 ./7_5.py 
+echo
+echo =7_6.py 
+python3.10 ./7_6.py 
+echo
+echo =7_7.py 
+python3.10 ./7_7.py 
+echo
+echo =7_8.py 
+python3.10 ./7_8.py 
+echo
+echo =7_9.py 
+python3.10 ./7_9.py 
+echo
+echo =7_10.py 
+python3.10 ./7_10.py 

@@ -1,0 +1,14 @@
+ <fabric>
+     template answer
+     <fname>
+         fabric_10.txt
+     <\fname>
+
+     <before>
+         Що буде надруковано за виконання:{ENDL}
+     <\before>
+
+     <after>
+         {ENDL}
+     <\after>
+   <\fabric>

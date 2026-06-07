@@ -1,0 +1,63 @@
+<document>
+
+  <header>
+\documentclass[10pt, ukrainian]{article}{ENDL}
+\setlength\textwidth{190mm} \setlength\textheight{277mm}{ENDL}
+\setlength\voffset{-38mm} \setlength\hoffset{-38mm}{ENDL}
+\setlength\parindent{0mm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[cp1251]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\begin{document}{ENDL}
+%\large{ENDL}
+  <\header>
+
+  <footer>
+\end{document}
+  <\footer>
+
+  <onNextVariant>
+\vspace{9.0cm}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+\newpage{ENDL}
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     120
+  <\to>
+
+  <onPage>
+     2
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+<\before>
+
+<after>
+<\after>
+
+<\variant>
+
+<item>
+   include 1-q.txt
+<\item>
+
+<item>
+  include 2-q.txt
+<\item>
+
+<item>
+  include 3-q.txt
+<\item>
+

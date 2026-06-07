@@ -1,0 +1,30 @@
+echo
+echo =400_1.py 
+python3.10 ./400_1.py 
+echo
+echo =400_2.py 
+python3.10 ./400_2.py 
+echo
+echo =400_3.py 
+python3.10 ./400_3.py 
+echo
+echo =400_4.py 
+python3.10 ./400_4.py 
+echo
+echo =400_5.py 
+python3.10 ./400_5.py 
+echo
+echo =400_6.py 
+python3.10 ./400_6.py 
+echo
+echo =400_7.py 
+python3.10 ./400_7.py 
+echo
+echo =400_8.py 
+python3.10 ./400_8.py 
+echo
+echo =400_9.py 
+python3.10 ./400_9.py 
+echo
+echo =400_10.py 
+python3.10 ./400_10.py 

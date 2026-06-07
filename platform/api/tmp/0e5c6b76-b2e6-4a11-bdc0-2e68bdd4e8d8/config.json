@@ -1,0 +1,10 @@
+{
+  "title": "T-closed-4",
+  "variantCount": 2,
+  "questionsPerVariant": 4,
+  "questionTypeFilter": "closed",
+  "shuffleQuestions": true,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print"
+}

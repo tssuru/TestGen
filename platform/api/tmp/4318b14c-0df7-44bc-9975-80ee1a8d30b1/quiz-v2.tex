@@ -1,0 +1,165 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\emergencystretch=3em
+\pagestyle{empty}
+\begin{document}
+%begin
+{\centering\Large\bfseries Контрольна робота\par}
+\medskip
+\noindent\rule{\linewidth}{0.5pt}
+\smallskip
+\noindent\textbf{Варіант \No\,2}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+using namespace std;
+
+int h(int d){
+    int x = 89;
+    if (d >= 3) 
+        x = 3;
+    else if (d == 0)
+         return 4;
+    else
+         return 8;
+    return x;
+}
+
+int main(){
+    cout << h(-1);
+    return 0;
+}
+%code
+
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+2. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+d = ('a','b','c','d','e',0,1,2,4)
+print(d[-5])
+%code
+
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+3. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+d = ('0','1','2','3','4','5','6','7','8','9')
+print(d[-7:-7:2])
+%code
+
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+4. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+try:
+    n = 13
+    while n>=3:
+        n += -2
+    print(n, end=';')
+except:
+    print('Z')
+
+%code
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+5. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (!5.0>=5 || !false== 6 || 7!=6.0);
+%code
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+6. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(4**1.0-2)
+%code
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+7. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+
+a,b,c=9,6,7
+def h(a,b=8,c=6):
+    print(a,b,c,end="")
+
+h(3,4,c=5)
+print(a,b,c)
+
+%code
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+8. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) cin>>x+3;
+
+( 2 ) (x<y && y>0)
+
+( 3 ) return x<=2;
+
+( 4 ) return *;
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+9. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    for d in range(-7, -7, 2):
+        if d>=6:
+            break
+        print(d, end=';')
+        if d>=6:
+            break
+    else:
+        print(d,end=';')
+    print(d)
+except:
+    print('ERR')
+\par\vspace{5mm}
+%enditem
+
+%beginitem
+10. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+x,y,z=3,4,5
+x,y,z,z=9,z,x,y
+print(x,y,z)
+\par\vspace{5mm}
+%enditem
+
+%end
+\newpage
+\end{document}
+

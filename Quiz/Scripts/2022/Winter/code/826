@@ -1,0 +1,30 @@
+echo
+echo =826_1.py 
+python3.10 ./826_1.py 
+echo
+echo =826_2.py 
+python3.10 ./826_2.py 
+echo
+echo =826_3.py 
+python3.10 ./826_3.py 
+echo
+echo =826_4.py 
+python3.10 ./826_4.py 
+echo
+echo =826_5.py 
+python3.10 ./826_5.py 
+echo
+echo =826_6.py 
+python3.10 ./826_6.py 
+echo
+echo =826_7.py 
+python3.10 ./826_7.py 
+echo
+echo =826_8.py 
+python3.10 ./826_8.py 
+echo
+echo =826_9.py 
+python3.10 ./826_9.py 
+echo
+echo =826_10.py 
+python3.10 ./826_10.py 

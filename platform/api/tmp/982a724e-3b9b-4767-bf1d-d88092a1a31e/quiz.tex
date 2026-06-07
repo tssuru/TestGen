@@ -1,0 +1,1486 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}{/app/Quiz/Scripts/2021/Mod2021_3/BinTree/}{/app/Quiz/Scripts/2020/Mod2020_4/BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,1}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) cout<<(3=!5);
+
+( 2 ) bool f(int a);
+
+( 3 ) cin<<x;
+
+( 4 ) j=i;
+\vspace{5mm}
+%enditem
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+
+%code
+4**2.0+2
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(5.0 > 3.0 <= True != 5)
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+4. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) (1)
+
+( 2 ) 0.2E3
+
+( 3 ) "abc'
+
+( 4 ) x23
+\vspace{5mm}
+%enditem
+%beginitem
+5. Що буде виведено за виконання фрагменту коду?
+
+a,b,c=3,1,5
+def h(a):
+global c    a=3
+    b*=2
+    c=4
+    return a+b+c
+
+a,b,c=0,9,6
+print(h(b),a,b,c)
+\vspace{5mm}
+%enditem
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (5 % 5 % 5 % 5);
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+7. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../15BinTree/trees_exp/59.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:59 прямому
+\vspace{5mm}
+%enditem
+%beginitem
+8. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) if a<b: a=0 else: b=0
+
+( 2 ) x=3**1
+
+( 3 ) if ('x'><'y'): a=6
+
+( 4 ) --n
+\vspace{5mm}
+%enditem
+%beginitem
+9. Що буде виведено за виконання фрагменту коду?
+%code
+a, b, c = 9, 7, 8
+def h(a, b=6, c=7):
+    print(a, b, c, end=" ")
+
+h(3, 1, c=5)
+print(a, b, c)
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+10. Що буде виведено за виконання фрагменту коду?
+
+print('R', end=' ')
+d=[10,11,12,13,14]
+print(d.pop(-2), end=' ')
+print(d)
+
+\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+
+\newpage
+
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,2}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+a,b,c=3,1,5
+def h(a):
+global c    a=3
+    b*=2
+    c=4
+    return a+b+c
+
+a,b,c=0,9,6
+print(h(b),a,b,c)
+\vspace{5mm}
+%enditem
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+d = ('a','b','c','d','e',0,1,2,3)
+print(d[-11])
+%code
+
+\vspace{5mm}
+%enditem
+%beginitem
+3. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) cout<<(3=!5);
+
+( 2 ) bool f(int a);
+
+( 3 ) cin<<x;
+
+( 4 ) j=i;
+\vspace{5mm}
+%enditem
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (!5.0>=3.0 || !true<= 5 || 3!=7);
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+5. Що буде виведено за виконання фрагменту коду?
+%code
+
+a,b,c=9,7,8
+def h(a,b=6,c=7):
+    print(a,b,c,end="")
+
+h(3,1,c=5)
+print(a,b,c)
+
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+
+x,y,z=3,1,5
+x,y,z,x=9,z,y,7
+print(x,y,z)
+\vspace{5mm}
+%enditem
+%beginitem
+7. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) if a<b: a=0 else: b=0
+
+( 2 ) x=3**1
+
+( 3 ) if ('x'><'y'): a=6
+
+( 4 ) --n
+\vspace{5mm}
+%enditem
+%beginitem
+8. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) 0,5
+
+( 2 ) LIFO
+
+( 3 ) x+23
+
+( 4 ) x23
+\vspace{5mm}
+%enditem
+%beginitem
+9. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(4**2.0+2)
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+10. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+int h(int d){
+    int x = 69;
+    if (d >= -3) 
+        return 3;
+    if (d <= -4)
+         x = 1;
+    else
+         return 5;
+    return x;
+}
+
+int main(){
+    cout << h(9);
+    return 0;
+}
+%code
+
+\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+
+\newpage
+
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,3}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << 5 % 5 % 5 % 5;
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+2. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) (1)
+
+( 2 ) 0.2E3
+
+( 3 ) "abc'
+
+( 4 ) x23
+\vspace{5mm}
+%enditem
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+try:
+    res = 4**2.0+2
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\vspace{5mm}
+%enditem
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+try:
+    res = 5/5%5*5
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\vspace{5mm}
+%enditem
+%beginitem
+5. 
+Вкажіть значення та тип виразу:
+"3">=3.0
+\vspace{5mm}
+%enditem
+%beginitem
+6. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) if a<b: a=0 else: b=0
+
+( 2 ) x=3**1
+
+( 3 ) if ('x'><'y'): a=6
+
+( 4 ) --n
+\vspace{5mm}
+%enditem
+%beginitem
+7. Що буде виведено за виконання фрагменту коду?
+try:
+    for d in range(3, 3, -3):
+        if d>=6:
+            break
+        print(d, end=';')
+        if d>=6:
+            break
+    else:
+        print(d,end=';')
+    print(d)
+except:
+    print('Z')
+\vspace{5mm}
+%enditem
+%beginitem
+8. Що буде виведено за виконання фрагменту коду?
+%code
+#include <iostream>
+using namespace std;
+
+int f(int &x, int &y){
+    x = 3;
+    y+= 2;
+    return x;
+}
+
+int main(){
+    int a = 6, b = 5;
+    a = f(a, a);
+    cout << a << ":" << b <<':';
+    {
+        int a = 1, b = 4;
+        cout << ((a>=5) && ((b+=1) >= 5))
+             << a << ":" << b << ":";
+    }
+    {
+        inta = 8;
+        cout << a << ':';
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+\vspace{5mm}
+%enditem
+%beginitem
+9. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) 0,5
+
+( 2 ) LIFO
+
+( 3 ) x+23
+
+( 4 ) x23
+\vspace{5mm}
+%enditem
+%beginitem
+10. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+n=3
+while n<7:
+    n+=1
+print(n)
+%code
+
+\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+
+\newpage
+
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,4}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+a = 3
+b = 1
+c = 5
+
+def h(a):
+global c    a = 3
+    b *= 2
+    c = 4
+    return a + b + c
+
+a = 0
+b = 9
+c = 6
+
+try:
+    print(h(b), a, b, c, sep=';')
+except:
+    print('Z', a, b, c, sep=';')
+\vspace{5mm}
+%enditem
+%beginitem
+2. 
+Записати ВИРАЗ, значенням якого є множина, що складається з цілих чисел від 12 до 2018 (включно), що не діляться на 7.\vspace{5mm}
+%enditem
+%beginitem
+3. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) if a<b: a=0 else: b=0
+
+( 2 ) x=3**1
+
+( 3 ) if ('x'><'y'): a=6
+
+( 4 ) --n
+\vspace{5mm}
+%enditem
+%beginitem
+4. 
+Записати ВИРАЗ, значенням якого є список, що складається з кубів цілих чисел від 12 до 2018 (включно), що не діляться на жодне з чисел 2, 3, записаних в оберненому порядку.\vspace{5mm}
+%enditem
+%beginitem
+5. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) 0,5
+
+( 2 ) LIFO
+
+( 3 ) x+23
+
+( 4 ) x23
+\vspace{5mm}
+%enditem
+%beginitem
+6. 
+Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу 
+$$\frac{\log_{2} x + 12}{(\tg x + 0.3) (y + 68)}$$ 
+та повiдомляє введенi данi та результат обчислення.
+ Оцінюється правильність та якість коду.
+
+\vspace{5mm}
+%enditem
+%beginitem
+7. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) (1)
+
+( 2 ) 0.2E3
+
+( 3 ) "abc'
+
+( 4 ) x23
+\vspace{5mm}
+%enditem
+%beginitem
+8. Що буде виведено за виконання фрагменту коду?
+
+print('R', end=' ')
+for d in range(3,3,-3):
+    if d>=6:
+        break
+        print(d, end=' ')
+    if d>=6:
+        break
+    else:
+        print(d, end=' ')
+    print(d)
+\vspace{5mm}
+%enditem
+%beginitem
+9. Що буде виведено за виконання фрагменту коду?
+d=[10,11,12,13,14]; print(d.pop(-2),end=' '); print(d)\vspace{5mm}
+%enditem
+%beginitem
+10. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../15BinTree/trees_exp/59.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:59 прямому
+\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+
+\newpage
+
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,5}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(4**2.0+2)
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+2. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) (1)
+
+( 2 ) 0.2E3
+
+( 3 ) "abc'
+
+( 4 ) x23
+\vspace{5mm}
+%enditem
+%beginitem
+3. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/59.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:59 прямому
+\vspace{5mm}
+%enditem
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+
+print('R', end=' ')
+n=3
+while n<7:
+    n+=1
+print(n)
+
+\vspace{5mm}
+%enditem
+%beginitem
+5. 
+Записати ВИРАЗ, значенням якого є множина, що складається з кубів цілих чисел від 12 до 2018 (включно), що не діляться на жодне з чисел 2, 3.\vspace{5mm}
+%enditem
+%beginitem
+6. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) if a<b: a=0 else: b=0
+
+( 2 ) x=3**1
+
+( 3 ) if ('x'><'y'): a=6
+
+( 4 ) --n
+\vspace{5mm}
+%enditem
+%beginitem
+7. Що буде виведено за виконання фрагменту коду?
+try:
+    n = 3
+    while n<7:
+        n += 1
+    print(n, end=';')
+except:
+    print('ERR')
+\vspace{5mm}
+%enditem
+%beginitem
+8. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) 0,5
+
+( 2 ) LIFO
+
+( 3 ) x+23
+
+( 4 ) x23
+\vspace{5mm}
+%enditem
+%beginitem
+9. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+int a = 3, b = 1, c = 5;
+
+int h(){
+    inta = 3;
+    intb = 0;
+    intc = 9;
+    return a + b + c;
+}
+
+int main(){
+    inta = 6;
+    intb = 4;
+    intc = 8;
+    cout << h() << ':';
+    cout << a << ':' << b << ':' << c;
+    return 0;
+}
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+10. Що буде виведено за виконання фрагменту коду?
+
+%code
+a,b,c=3,1,5
+def h(a):
+global c    a=3
+    b*=2
+    c=4
+    return a+b+c
+
+a,b,c=0,9,6
+print(h(b),a,b,c)
+%code
+\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+
+\newpage
+
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,6}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+%code
+a,b,c=3,1,5
+def h(a):
+global c    a=3
+    b*=2
+    c=4
+    return a+b+c
+
+a,b,c=0,9,6
+print(h(b),a,b,c)
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+2. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) if a<b: a=0 else: b=0
+
+( 2 ) x=3**1
+
+( 3 ) if ('x'><'y'): a=6
+
+( 4 ) --n
+\vspace{5mm}
+%enditem
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+
+%code
+for d in range(8,8+4,3):
+    if d>=6:
+        pass
+    print(d, end=' ')
+    d=8
+    if d>=6:
+        break
+else:
+    print(d, end=' ')
+print(d, end=' ')
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(5.0>3.0>True>5)
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+5. Що буде виведено за виконання фрагменту коду?
+
+%code
+a = 3
+b = 1
+c = 5
+
+def h(a):
+global c    a=3
+    b=2
+    c=4
+    return a+b+c
+
+a, b, c = 0,9,6
+try:
+    print(h(b), a, b, c, sep=';')
+except:
+    print('Z', a, b, c, sep=';')
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+n=7
+while n>3:
+    n+=-3
+print(n)
+%code
+
+\vspace{5mm}
+%enditem
+%beginitem
+7. Що буде виведено за виконання фрагменту коду?
+
+%code
+def h(d):
+    x=69
+    if d>=-3: 
+        return 3
+    if d<=-4:
+         x=1
+    else:
+         return 5
+    return x
+
+print(h(9))
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+8. Що буде виведено за виконання фрагменту коду?
+
+%code
+not5.0>=3.0 and notTrue<=5 and 3!=7
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+9. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) cout<<(3=!5);
+
+( 2 ) bool f(int a);
+
+( 3 ) cin<<x;
+
+( 4 ) j=i;
+\vspace{5mm}
+%enditem
+%beginitem
+10. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) (1)
+
+( 2 ) 0.2E3
+
+( 3 ) "abc'
+
+( 4 ) x23
+\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+
+\newpage
+
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,7}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+def h(d):
+    x=69
+    if d>=-3: 
+        return 3
+    if d<=-4:
+         x=1
+    else:
+         return 5
+    return x
+
+print(h(9))
+\vspace{5mm}
+%enditem
+%beginitem
+2. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) if a<b: a=0 else: b=0
+
+( 2 ) x=3**1
+
+( 3 ) if ('x'><'y'): a=6
+
+( 4 ) --n
+\vspace{5mm}
+%enditem
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+
+%code
+a,b,c=3,1,5
+def h(a):
+    a=3
+    b=2
+    c=4
+    return a+b+c
+
+a,b,c=0,9,6
+print(h(b),a,b,c)
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+4. 
+Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу та повiдомляє введенi данi та результат обчислення.
+$$\frac{\log_{2} x + 12}{(\tg x + 0.3) (y + 68)}$$ 
+
+\vspace{5mm}
+%enditem
+%beginitem
+5. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) 0,5
+
+( 2 ) LIFO
+
+( 3 ) x+23
+
+( 4 ) x23
+\vspace{5mm}
+%enditem
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+
+%code
+n=3
+while n<7:
+    n+=1
+print(n)
+%code
+
+\vspace{5mm}
+%enditem
+%beginitem
+7. Що буде виведено за виконання фрагменту коду?
+
+%code
+def h(a,b):
+    c=69
+    if b>=-3:
+        return 3
+    if a<=-4:
+         c=1
+    else: 
+        return 5
+    return c
+
+print(h(9,9))
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+8. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) cout<<(3=!5);
+
+( 2 ) bool f(int a);
+
+( 3 ) cin<<x;
+
+( 4 ) j=i;
+\vspace{5mm}
+%enditem
+%beginitem
+9. Що буде виведено за виконання фрагменту коду?
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(9) and f(-8))
+\vspace{5mm}
+%enditem
+%beginitem
+10. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (5 % 5 % 5 % 5);
+%code
+\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+
+\newpage
+
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,8}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+%code
+a, b, c = 9, 7, 8
+def h(a, b=6, c=7):
+    print(a, b, c, end=" ")
+
+h(3, 1, c=5)
+print(a, b, c)
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+
+%code
+n=3
+while n<7:
+    n+=1
+print(n)
+%code
+
+\vspace{5mm}
+%enditem
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(9) and f(-8))
+\vspace{5mm}
+%enditem
+%beginitem
+4. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) (1)
+
+( 2 ) 0.2E3
+
+( 3 ) "abc'
+
+( 4 ) x23
+\vspace{5mm}
+%enditem
+%beginitem
+5. Що буде виведено за виконання фрагменту коду?
+%code
+#include <iostream>
+using namespace std;
+
+int f(int &x, int &y){
+    x = 3;
+    y+= 2;
+    return x;
+}
+
+int main(){
+    int a = 6, b = 5;
+    a = f(a, a);
+    cout << a << ":" << b <<':';
+    {
+        int a = 1, b = 4;
+        cout << ((a>=5) && ((b+=1) >= 5)) << ':';
+        cout << a << ":" << b << ':';
+    }
+    {
+        inta = 8;
+        cout << a << ':';
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+\vspace{5mm}
+%enditem
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(5/5%5*5)
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+7. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) if a<b: a=0 else: b=0
+
+( 2 ) x=3**1
+
+( 3 ) if ('x'><'y'): a=6
+
+( 4 ) --n
+\vspace{5mm}
+%enditem
+%beginitem
+8. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+del d[-6:-6]
+print(d)
+%code
+
+\vspace{5mm}
+%enditem
+%beginitem
+9. 
+Вкажіть значення та тип виразу:
+not5.0>=3.0 and notTrue<=5 and 3!=7
+\vspace{5mm}
+%enditem
+%beginitem
+10. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) 0,5
+
+( 2 ) LIFO
+
+( 3 ) x+23
+
+( 4 ) x23
+\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+
+\newpage
+
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,9}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+%code
+if (3 >= 3)
+    cout << "x";
+else
+    cout << "b";
+%code
+
+\vspace{5mm}
+%enditem
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+code
+_d = 0
+
+class D:
+    _d = 1
+    
+    def __init__(self):
+        self._d = 2
+        _d = 3
+        D._d = 4
+
+obj = D()
+try:
+    print(_d, end=' ')
+    print(obj._d, end=' ')
+    print(D._d, end=' ')
+    print(obj._d, end=' ')
+    print(obj._D__d, end=' ')
+except:
+    print('ERR')
+code
+\vspace{5mm}
+%enditem
+%beginitem
+3. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) if a<b: a=0 else: b=0
+
+( 2 ) x=3**1
+
+( 3 ) if ('x'><'y'): a=6
+
+( 4 ) --n
+\vspace{5mm}
+%enditem
+%beginitem
+4. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) cout<<(3=!5);
+
+( 2 ) bool f(int a);
+
+( 3 ) cin<<x;
+
+( 4 ) j=i;
+\vspace{5mm}
+%enditem
+%beginitem
+5. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+del d[-6:-6]
+print(d)
+%code
+
+\vspace{5mm}
+%enditem
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+
+%code
+def h(a,b):
+    c=69
+    if b>=-3:
+        return 3
+    if a<=-4:
+         c=1
+    else: 
+        return 5
+    return c
+
+print(h(9,9))
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+7. Що буде виведено за виконання фрагменту коду?
+
+%code
+n=3
+while n<7:
+    n+=1
+print(n)
+%code
+
+\vspace{5mm}
+%enditem
+%beginitem
+8. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) (1)
+
+( 2 ) 0.2E3
+
+( 3 ) "abc'
+
+( 4 ) x23
+\vspace{5mm}
+%enditem
+%beginitem
+9. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+n=7
+while n>3:
+    n+=-3
+print(n)
+%code
+
+\vspace{5mm}
+%enditem
+%beginitem
+10. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+n=3
+while n<7:
+    n+=1
+print(n)
+%code
+
+\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+
+\newpage
+
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,10}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+d=[10,11,12,13,14]; del d[-6:-6]; print(d)\vspace{5mm}
+%enditem
+%beginitem
+2. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/59.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Обхід дерева починається з кореня (на рис. це верхня вершина).
+%answer:59 прямому
+\vspace{5mm}
+%enditem
+%beginitem
+3. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) 0,5
+
+( 2 ) LIFO
+
+( 3 ) x+23
+
+( 4 ) x23
+\vspace{5mm}
+%enditem
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+try:
+    print(3, end=';')
+    print(1j>=3j, end=';')
+    print(5, end=';')
+except TypeError:
+    print(0, end=';')
+except ValueError:
+    print(9, end=';')
+except:
+    print('Z', end=';')
+else:
+    print(6, end=';')
+finally:
+    print(4)
+\vspace{5mm}
+%enditem
+%beginitem
+5. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) cout<<(3=!5);
+
+( 2 ) bool f(int a);
+
+( 3 ) cin<<x;
+
+( 4 ) j=i;
+\vspace{5mm}
+%enditem
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(5/5%5*5)
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+7. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) if a<b: a=0 else: b=0
+
+( 2 ) x=3**1
+
+( 3 ) if ('x'><'y'): a=6
+
+( 4 ) --n
+\vspace{5mm}
+%enditem
+%beginitem
+8. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+
+int h(int a, int b){
+    int c = 69;
+    if (b >= -3)
+        return 3;
+    if (a <= -4)
+         c = 1;
+    else 
+        return 5;
+    return c;
+}
+
+int main(){
+    std::cout << h(9, 9);
+    return 0;
+}
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+9. Що буде виведено за виконання фрагменту коду?
+try:
+    res = "3">=3.0
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\vspace{5mm}
+%enditem
+%beginitem
+10. Що буде виведено за виконання фрагменту коду?
+def f(n):
+    print('f', end='')
+    return n
+
+try:
+    print(f(9) and f(-8))
+except:
+    print('ERR')
+\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+\end{document}
+
+

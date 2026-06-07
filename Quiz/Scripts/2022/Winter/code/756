@@ -1,0 +1,30 @@
+echo
+echo =756_1.py 
+python3.10 ./756_1.py 
+echo
+echo =756_2.py 
+python3.10 ./756_2.py 
+echo
+echo =756_3.py 
+python3.10 ./756_3.py 
+echo
+echo =756_4.py 
+python3.10 ./756_4.py 
+echo
+echo =756_5.py 
+python3.10 ./756_5.py 
+echo
+echo =756_6.py 
+python3.10 ./756_6.py 
+echo
+echo =756_7.py 
+python3.10 ./756_7.py 
+echo
+echo =756_8.py 
+python3.10 ./756_8.py 
+echo
+echo =756_9.py 
+python3.10 ./756_9.py 
+echo
+echo =756_10.py 
+python3.10 ./756_10.py 

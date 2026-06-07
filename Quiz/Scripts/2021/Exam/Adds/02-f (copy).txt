@@ -1,0 +1,51 @@
+//source for question like
+// questions
+//Що буде надруковано за виконання:\n
+
+//list operations
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+//a=[3 Adds/02-print.txt]
+//a=[3 02-print.txt]
+
+//0text={<file> SetOperations/02-task.txt}
+//0text={<file> 02-task.txt}
+var=s;d;t 
+
+<\declarations>
+
+<template>
+//#0text#
+Рядки журналу через двокрапку містять ім'я користувача (ідентифікатор), час події,
+тип події, код події, наприклад{ENDL}
+\begin{verbatim}{ENDL}
+s="username : 2022-05-05 13:26 : ERROR : 404"{ENDL}
+\end{verbatim}{ENDL}
+у коді {ENDL}
+\begin{verbatim}{ENDL}
+res = re.fullmatch('???', s) {ENDL}
+s = ''{ENDL}
+code_str = ??? {ENDL}
+\end{verbatim}{ENDL}
+чим треба замінити кожен з ???, щоб значенням code\_str був код події? {ENDL}
+{ENDL}{ENDL}
+\vspace{10mm}{ENDL}
+\textbf{Завдання 16} {ENDL}{ENDL}
+Задано програму, що містить код 1-2 класів, можливе успадкування, та клієнтський код.{ENDL}
+У наведеному коді невеликі частини закриті. {ENDL}
+Також наведено вихід програми.{ENDL}
+Необхідно відновити закриті частини, щоб отриманий код відповідав наведеному виходу програми.{ENDL}
+{ENDL}{ENDL}
+\vspace{10mm}{ENDL}
+Скоріш за все, що завдань буде трохи менше, а деякі попередні будуть переформульовані в стилі двох останніх.{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

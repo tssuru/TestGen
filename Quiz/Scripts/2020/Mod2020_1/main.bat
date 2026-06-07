@@ -1,0 +1,1 @@
+d:\Projects\Quiz\Bin\Release\Quest.exe r.txt quiz_1.txt ""

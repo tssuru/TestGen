@@ -1,0 +1,23 @@
+ <fabric>
+     file answer
+     <fname>
+         task1_4.txt
+     <\fname>
+     <num>
+     3
+     <\num>
+
+     <before>
+За наявності означень{ENDL}
+\vspace{-3mm}{ENDL}
+\begin{verbatim}{ENDL}
+     <\before>
+
+     <after>
+\end{verbatim}{ENDL}
+\vspace{-3mm}{ENDL}
+вкажіть послідовність викликів деструкторів за виконання коду{SPACE}
+\code{\{C c;\}} {ENDL}{ENDL}
+(Якщо деструктор викликається кілька разів поспіль, то має зазначатися кожен його виклик, наприклад, $\sim$A, $\sim$A, $\sim$A.){ENDL}
+     <\after>
+   <\fabric>

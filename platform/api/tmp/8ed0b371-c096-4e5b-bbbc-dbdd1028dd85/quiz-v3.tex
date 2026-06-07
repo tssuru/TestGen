@@ -1,0 +1,181 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{microtype}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\emergencystretch=3em
+\pagestyle{empty}
+\begin{document}
+%begin
+{\centering\Large\bfseries Контрольна робота\par}
+\medskip
+\noindent\rule{\linewidth}{0.5pt}
+\smallskip
+\noindent\textbf{Варіант \No\,3}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+j=1
+while j<=7:
+    j+=2
+print(j)
+%code
+
+\vspace{5mm}
+%enditem
+
+%beginitem
+2. 
+Вкажіть значення та тип виразу:
+3.0<=False
+\vspace{5mm}
+%enditem
+
+%beginitem
+3. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 5//5/5*5
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\vspace{5mm}
+%enditem
+
+%beginitem
+4. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 4**-3--1
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\vspace{5mm}
+%enditem
+
+%beginitem
+5. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    for b in range(14, 14, -3):
+        if b<=4:
+            break
+        print(b, end=';')
+        if b<=4:
+            break
+    else:
+        print(b,end=';')
+    print(b)
+except:
+    print('Z')
+\vspace{5mm}
+%enditem
+
+%beginitem
+6. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) 3**-1
+
+( 2 ) if ('x'><'y'): a=6
+
+( 3 ) x<y<z
+
+( 4 ) (2+2j)%2
+\vspace{5mm}
+%enditem
+
+%beginitem
+7. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) true
+
+( 2 ) 1+2j
+
+( 3 ) xy
+
+( 4 ) 1+1j
+\vspace{5mm}
+%enditem
+
+%beginitem
+8. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << 5 % 5 % 5 % 5;
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+9. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) %
+
+( 2 ) x+23
+
+( 3 ) True
+
+( 4 ) 2int
+\vspace{5mm}
+%enditem
+
+%beginitem
+10. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+#include <iostream>
+using namespace std;
+
+int f(int &x, int &y){
+    x = 3;
+    y-= 9;
+    return y;
+}
+
+int main(){
+    int a = 5, b = 6;
+    b = f(b, b);
+    cout << a << ":" << b <<':';
+    {
+        int a = 4, b = 8;
+        cout << ((b<=5) || ((a-=2) <= 5))
+             << a << ":" << b << ":";
+    }
+    {
+        inta = 1;
+        cout << a << ':';
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+\vspace{5mm}
+%enditem
+
+%end
+\newpage
+\end{document}
+

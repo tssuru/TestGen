@@ -1,0 +1,157 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}{/app/Quiz/Scripts/2021/Mod2021_3/BinTree/}{/app/Quiz/Scripts/2020/Mod2020_4/BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,7}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) return 'a'<'c'
+
+( 2 ) print(sep=":","qwe")
+
+( 3 ) x=*2
+
+( 4 ) float(2)/87
+\vspace{5mm}
+%enditem
+
+%beginitem
+2. 
+
+def f(n):
+    print("f", end="");
+    return n<=0
+
+print(f(3) or f(-1))
+\vspace{5mm}
+%enditem
+
+%beginitem
+3. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) return x<=2;
+
+( 2 ) double n.m;
+
+( 3 ) cin>>x+3;
+
+( 4 ) if (1>2) x=10;
+\vspace{5mm}
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (7 / 7 / 7 / 7);
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+5. 
+
+def g(b):
+    v=45
+    if b: 
+        v=1
+    elif b<=-1:
+         return 4
+    else:
+         v=7
+    return v
+
+print(g(3))
+\vspace{5mm}
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+
+%code
+j=1
+while j<=9:
+    j+=2
+print(j)
+%code
+
+\vspace{5mm}
+%enditem
+
+%beginitem
+7. 
+Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу та повiдомляє введенi данi та результат обчислення.
+$$\frac{\pi x - 19}{(\arcsin x - 0.5) (y - 23)}$$ 
+
+\vspace{5mm}
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання фрагменту коду?
+
+%code
+def g(a,b):
+    c=45
+    if a:
+        c=1
+    elif b<=-1:
+         return 4
+    else: 
+        c=7
+    return c
+
+print(g(3,3))
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+9. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) a2f
+
+( 2 ) 'qwerty'
+
+( 3 ) **
+
+( 4 ) true
+\vspace{5mm}
+%enditem
+
+%beginitem
+10. Що буде виведено за виконання фрагменту коду?
+
+%code
+a,b,c=1,4,7
+def g(b):
+    a=5
+    b=1
+    c=3
+    return a+b+c
+
+a,b,c=0,9,5
+print(g(a),a,b,c)
+%code
+\vspace{5mm}
+%enditem
+
+%end
+\newpage
+\end{document}
+

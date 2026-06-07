@@ -1,0 +1,30 @@
+echo
+echo =819_1.py 
+python3.10 ./819_1.py 
+echo
+echo =819_2.py 
+python3.10 ./819_2.py 
+echo
+echo =819_3.py 
+python3.10 ./819_3.py 
+echo
+echo =819_4.py 
+python3.10 ./819_4.py 
+echo
+echo =819_5.py 
+python3.10 ./819_5.py 
+echo
+echo =819_6.py 
+python3.10 ./819_6.py 
+echo
+echo =819_7.py 
+python3.10 ./819_7.py 
+echo
+echo =819_8.py 
+python3.10 ./819_8.py 
+echo
+echo =819_9.py 
+python3.10 ./819_9.py 
+echo
+echo =819_10.py 
+python3.10 ./819_10.py 

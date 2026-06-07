@@ -1,0 +1,24 @@
+  <fabric>
+     check auto
+     <good>
+         01-good.txt
+     <\good>
+
+     <bad> 
+         01-bad.txt
+     <\bad>
+	<ncase>
+	   4
+	<\ncase>
+	<nGood>
+	   3
+	<\nGood>
+	<mode>
+	   SpaceBetween
+	<\mode>
+     <before>
+         Вiдмiтити все, що є однiєю правильною лексемою:{ENDL}{TAB}
+     <\before>
+
+   <\fabric>
+

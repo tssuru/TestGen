@@ -1,0 +1,30 @@
+echo
+echo =831_1.py 
+python3.10 ./831_1.py 
+echo
+echo =831_2.py 
+python3.10 ./831_2.py 
+echo
+echo =831_3.py 
+python3.10 ./831_3.py 
+echo
+echo =831_4.py 
+python3.10 ./831_4.py 
+echo
+echo =831_5.py 
+python3.10 ./831_5.py 
+echo
+echo =831_6.py 
+python3.10 ./831_6.py 
+echo
+echo =831_7.py 
+python3.10 ./831_7.py 
+echo
+echo =831_8.py 
+python3.10 ./831_8.py 
+echo
+echo =831_9.py 
+python3.10 ./831_9.py 
+echo
+echo =831_10.py 
+python3.10 ./831_10.py 

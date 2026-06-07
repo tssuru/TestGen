@@ -1,0 +1,13 @@
+ <fabric>
+     template answer
+     <fname>
+         02Log/02-f.txt
+     <\fname>
+
+     <before>
+Вказати значення виразу та його тип (за наявності помилок - error).{ENDL}
+     <\before>
+
+     <after>
+     <\after>
+   <\fabric>

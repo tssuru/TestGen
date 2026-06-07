@@ -1,0 +1,21 @@
+<fabric>
+  collate
+  <fabric>
+    collate 
+    include 11ListOperations/03-02-q.txt
+    include 11ListOperations/03-03-q.txt
+    <n1>
+         16
+    <\n1>
+    <n2>
+         16
+    <\n2>
+  <\fabric>
+  include 11ListOperations/03-01-q.txt
+  <n1>
+     32
+  <\n1>
+  <n2>
+     32
+  <\n2>
+<\fabric>

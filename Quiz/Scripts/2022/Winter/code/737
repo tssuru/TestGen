@@ -1,0 +1,30 @@
+echo
+echo =737_1.py 
+python3.10 ./737_1.py 
+echo
+echo =737_2.py 
+python3.10 ./737_2.py 
+echo
+echo =737_3.py 
+python3.10 ./737_3.py 
+echo
+echo =737_4.py 
+python3.10 ./737_4.py 
+echo
+echo =737_5.py 
+python3.10 ./737_5.py 
+echo
+echo =737_6.py 
+python3.10 ./737_6.py 
+echo
+echo =737_7.py 
+python3.10 ./737_7.py 
+echo
+echo =737_8.py 
+python3.10 ./737_8.py 
+echo
+echo =737_9.py 
+python3.10 ./737_9.py 
+echo
+echo =737_10.py 
+python3.10 ./737_10.py 

@@ -1,0 +1,270 @@
+class A:
+    d = 1
+
+    def _g1(self): print(2, end=' ')
+    def __g2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.d, end=' ')
+        except: print('ERR', end=' ')
+
+        try: self._g1()
+        except: print('ERR', end=' ')
+
+        try: self.__g2()
+        except: print('ERR', end=' ')
+
+
+class B(A):
+    d = 4
+
+    def _g1(self): print(5, end=' ')
+    def __g2(self): print(6, end=' ')
+
+try: B().main()
+except: print('ERR', end=' ')
+
+
+class A:
+    a = 1
+
+    def h1(self): print(2, end=' ')
+    def _h2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.a, end=' ')
+        except: print('ERR', end=' ')
+
+        try: self.h1()
+        except: print('ERR', end=' ')
+
+        try: self._h2()
+        except: print('ERR', end=' ')
+
+
+class B(A):
+    a = 4
+
+    def h1(self): print(5, end=' ')
+    def _h2(self): print(6, end=' ')
+
+try: B().main()
+except: print('ERR', end=' ')
+
+
+class A:
+    b = 1
+
+    def _f1(self): print(2, end=' ')
+    def f2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.b, end=' ')
+        except: print('ERR', end=' ')
+
+        try: self._f1()
+        except: print('ERR', end=' ')
+
+        try: self.f2()
+        except: print('ERR', end=' ')
+
+
+class B(A):
+    b = 4
+
+    def _f1(self): print(5, end=' ')
+    def f2(self): print(6, end=' ')
+
+try: B().main()
+except: print('ERR', end=' ')
+
+
+class A:
+    c = 1
+
+    def __h1(self): print(2, end=' ')
+    def _h2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.c, end=' ')
+        except: print('ERR', end=' ')
+
+        try: self.__h1()
+        except: print('ERR', end=' ')
+
+        try: self._h2()
+        except: print('ERR', end=' ')
+
+
+class B(A):
+    c = 4
+
+    def __h1(self): print(5, end=' ')
+    def _h2(self): print(6, end=' ')
+
+try: B().main()
+except: print('ERR', end=' ')
+
+
+class A:
+    c = 1
+
+    def _g1(self): print(2, end=' ')
+    def _g2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.c, end=' ')
+        except: print('ERR', end=' ')
+
+        try: self._g1()
+        except: print('ERR', end=' ')
+
+        try: self._g2()
+        except: print('ERR', end=' ')
+
+
+class B(A):
+    c = 4
+
+    def _g1(self): print(5, end=' ')
+    def _g2(self): print(6, end=' ')
+
+try: B().main()
+except: print('ERR', end=' ')
+
+
+class A:
+    a = 1
+
+    def _f1(self): print(2, end=' ')
+    def f2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.a, end=' ')
+        except: print('ERR', end=' ')
+
+        try: self._f1()
+        except: print('ERR', end=' ')
+
+        try: self.f2()
+        except: print('ERR', end=' ')
+
+
+class B(A):
+    a = 4
+
+    def _f1(self): print(5, end=' ')
+    def f2(self): print(6, end=' ')
+
+try: B().main()
+except: print('ERR', end=' ')
+
+
+class A:
+    b = 1
+
+    def _g1(self): print(2, end=' ')
+    def __g2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.b, end=' ')
+        except: print('ERR', end=' ')
+
+        try: self._g1()
+        except: print('ERR', end=' ')
+
+        try: self.__g2()
+        except: print('ERR', end=' ')
+
+
+class B(A):
+    b = 4
+
+    def _g1(self): print(5, end=' ')
+    def __g2(self): print(6, end=' ')
+
+try: B().main()
+except: print('ERR', end=' ')
+
+
+class A:
+    d = 1
+
+    def _h1(self): print(2, end=' ')
+    def _h2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.d, end=' ')
+        except: print('ERR', end=' ')
+
+        try: self._h1()
+        except: print('ERR', end=' ')
+
+        try: self._h2()
+        except: print('ERR', end=' ')
+
+
+class B(A):
+    d = 4
+
+    def _h1(self): print(5, end=' ')
+    def _h2(self): print(6, end=' ')
+
+try: B().main()
+except: print('ERR', end=' ')
+
+
+class A:
+    b = 1
+
+    def __f1(self): print(2, end=' ')
+    def _f2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.b, end=' ')
+        except: print('ERR', end=' ')
+
+        try: self.__f1()
+        except: print('ERR', end=' ')
+
+        try: self._f2()
+        except: print('ERR', end=' ')
+
+
+class B(A):
+    b = 4
+
+    def __f1(self): print(5, end=' ')
+    def _f2(self): print(6, end=' ')
+
+try: B().main()
+except: print('ERR', end=' ')
+
+
+class A:
+    c = 1
+
+    def h1(self): print(2, end=' ')
+    def _h2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.c, end=' ')
+        except: print('ERR', end=' ')
+
+        try: self.h1()
+        except: print('ERR', end=' ')
+
+        try: self._h2()
+        except: print('ERR', end=' ')
+
+
+class B(A):
+    c = 4
+
+    def h1(self): print(5, end=' ')
+    def _h2(self): print(6, end=' ')
+
+try: B().main()
+except: print('ERR', end=' ')
+
+

@@ -1,0 +1,30 @@
+echo
+echo =601_1.py 
+python3.10 ./601_1.py 
+echo
+echo =601_2.py 
+python3.10 ./601_2.py 
+echo
+echo =601_3.py 
+python3.10 ./601_3.py 
+echo
+echo =601_4.py 
+python3.10 ./601_4.py 
+echo
+echo =601_5.py 
+python3.10 ./601_5.py 
+echo
+echo =601_6.py 
+python3.10 ./601_6.py 
+echo
+echo =601_7.py 
+python3.10 ./601_7.py 
+echo
+echo =601_8.py 
+python3.10 ./601_8.py 
+echo
+echo =601_9.py 
+python3.10 ./601_9.py 
+echo
+echo =601_10.py 
+python3.10 ./601_10.py 

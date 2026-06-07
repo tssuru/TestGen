@@ -1,0 +1,30 @@
+echo
+echo =766_1.py 
+python3.10 ./766_1.py 
+echo
+echo =766_2.py 
+python3.10 ./766_2.py 
+echo
+echo =766_3.py 
+python3.10 ./766_3.py 
+echo
+echo =766_4.py 
+python3.10 ./766_4.py 
+echo
+echo =766_5.py 
+python3.10 ./766_5.py 
+echo
+echo =766_6.py 
+python3.10 ./766_6.py 
+echo
+echo =766_7.py 
+python3.10 ./766_7.py 
+echo
+echo =766_8.py 
+python3.10 ./766_8.py 
+echo
+echo =766_9.py 
+python3.10 ./766_9.py 
+echo
+echo =766_10.py 
+python3.10 ./766_10.py 

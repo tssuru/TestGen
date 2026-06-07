@@ -1,0 +1,22 @@
+{
+  "title": "Контрольна робота",
+  "disciplineId": "programming",
+  "languageId": "cpp",
+  "variantCount": 4,
+  "questionsPerVariant": 3,
+  "difficultyProfile": {
+    "easy": 4,
+    "medium": 4,
+    "hard": 22
+  },
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportFormats": [
+    "pdf",
+    "docx",
+    "md",
+    "zip"
+  ],
+  "exportProfile": "print",
+  "questionPoolFilters": []
+}

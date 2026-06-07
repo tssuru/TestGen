@@ -1,0 +1,289 @@
+====1
+Рядки журналу через двокрапку містять 
+ім'я користувача (складається з латиниці), 
+час події (фор\-мат як у прикладі),
+тип події (ERROR, WARNING, INFO, STATUS), 
+код події (ціле). 
+
+Білі символи навколо роздільників не допускаються.
+
+Приклад такого рядка присвоєно змінній \kw{s}.
+
+\begin{verbatim}
+s = 'username:2022-05-05 13-26:ERROR:404'
+\end{verbatim}
+
+Нижче наведено код, за виконання якого значенням змінної \kw{out} має стати код події.
+
+Для наведеного прикладу значенням змінної \kw{out} має стати рядок \code{404}
+
+\begin{verbatim}
+res = re.fullmatch(r'XXX', s)
+s = ''
+out = YYY
+\end{verbatim}
+
+Код має працювати не тільки для конкретного рядка з прикладу, але й для кожного рядка з журналу.
+
+====2
+Рядки журналу через двокрапку містять 
+тип події (ERROR, WARNING, INFO, STATUS), 
+ім'я користувача (складається з латиниці), 
+час події (фор\-мат як у прикладі),
+код події (ціле).
+
+Білі символи навколо роздільників не допускаються.
+
+Приклад такого рядка присвоєно змінній \kw{s}.
+
+\begin{verbatim}
+s = 'ERROR:username:2022-05-05 13-26:404'
+\end{verbatim}
+
+Нижче наведено код, за виконання якого значенням змінної \kw{out} має стати ім'я користувача.
+
+Для наведеного прикладу значенням змінної \kw{out} має стати рядок \code{username}
+
+\begin{verbatim}
+res = re.fullmatch(r'XXX', s)
+s = ''
+out = YYY
+\end{verbatim}
+
+Код має працювати не тільки для конкретного рядка з прикладу, але й для кожного рядка з журналу.
+
+====3
+Файл \code{'1.txt'} містить журнал з рядками, в яких через двокрапку записано 
+поряд\-ко\-вий номер запису в журналі (ціле),
+тип події (ERROR, WARNING, INFO, STATUS), 
+ім'я користувача (складається з латиниці), 
+час події (фор\-мат як у прикладі),
+код події (ціле).
+
+Білі символи навколо роздільників не допускаються.
+
+Приклад рядка файлу
+
+\begin{verbatim}
+13:ERROR:username:2022-05-05 13-26:404
+\end{verbatim}
+
+Нижче наведено код, який шукає усі коди помилок (подія ERROR), що зустріча\-ють\-ся в журналі, та зберігає їх у змінній \kw{codes}.
+
+\begin{verbatim}
+codes = set()
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    for s in f:
+        res = re.fullmatch(regex, s)
+        if not res: continue
+        s = ''
+        codes.add(YYY)
+\end{verbatim}
+
+====4
+Файл \code{'1.txt'} містить журнал з рядками, в яких через двокрапку записано 
+поряд\-ко\-вий номер запису в журналі (ціле),
+тип події (ERROR, WARNING, INFO, STATUS), 
+ім'я користувача (складається з латиниці), 
+час події (фор\-мат як у прикладі),
+код події (ціле).
+
+Білі символи навколо роздільників не допускаються.
+
+Приклад рядка файлу
+
+\begin{verbatim}
+13:ERROR:username:2022-05-05 13-26:404
+\end{verbatim}
+
+Нижче наведено код, який має замінити у файлі імена користувачів на рядок \code{unknown}.
+
+\begin{verbatim}
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    lst = f.readlines()
+for i in range(len(lst)):
+    lst[i] = re.sub(regex, YYY, lst[i])
+with open('1.txt', 'w', encoding='utf8') as f:
+    f.writelines(lst)    
+\end{verbatim}
+
+
+====5
+Файл \code{'1.txt'} містить журнал з рядками, в яких через двокрапку записано 
+поряд\-ко\-вий номер запису в журналі (ціле),
+код події (ціле),
+тип події (ERROR, \\WARNING, INFO, STATUS), 
+ім'я користувача (складається з латиниці), 
+час події (фор\-мат як у прикладі),
+опис події.
+
+Білі символи навколо роздільників не допускаються.
+
+Приклад рядка файлу
+
+\begin{verbatim}
+13:404:ERROR:username:2022-05-05 13-26:something happens
+\end{verbatim}
+
+Нижче наведено код, який має залишити у файлі в кожному рядку тільки код події та ім'я користувача.
+Рядок з прикладу має бути замінений на такий
+
+\begin{verbatim}
+404:username
+\end{verbatim}
+
+
+Код:
+
+\begin{verbatim}
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    lst = f.readlines()
+for i in range(len(lst)):
+    lst[i] = re.sub(regex, YYY, lst[i])
+with open('1.txt', 'w', encoding='utf8') as f:
+    f.writelines(lst)    
+\end{verbatim}
+
+
+====6
+Файл \code{'1.txt'} містить журнал з рядками, в яких через двокрапку записано 
+поряд\-ко\-вий номер запису в журналі (ціле),
+тип події (ERROR, WARNING, INFO, STATUS), 
+ім'я користувача (складається з латиниці), 
+час події (фор\-мат як у прикладі),
+опис події.
+
+Білі символи навколо роздільників не допускаються.
+
+Приклад рядка файлу
+
+\begin{verbatim}
+13:ERROR:username:2022-05-05 13-26:something happens
+\end{verbatim}
+
+Нижче наведено код, який має залишити у файлі в кожному рядку тільки тип події та її опис.
+
+Рядок з прикладу має бути замінений на такий
+
+\begin{verbatim}
+ERROR:something happens
+\end{verbatim}
+
+
+Код:
+
+\begin{verbatim}
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    lst = f.readlines()
+for i in range(len(lst)):
+    lst[i] = re.sub(regex, YYY, lst[i])
+with open('1.txt', 'w', encoding='utf8') as f:
+    f.writelines(lst)    
+\end{verbatim}
+
+
+
+====7
+Файл \code{'1.txt'} містить журнал з рядками, в яких через двокрапку записано 
+поряд\-ко\-вий номер запису в журналі (ціле),
+код події (ціле),
+тип події (ERROR,\\ WARNING, INFO, STATUS), 
+ім'я користувача (складається з латиниці), 
+час події (фор\-мат як у прикладі),
+опис події.
+
+Білі символи навколо роздільників не допускаються.
+
+Приклад рядка файлу
+
+\begin{verbatim}
+13:404:ERROR:username:2022-05-05 13:26:something happens
+\end{verbatim}
+
+Нижче наведено код, який має в кожному рядку файли переставити місцями код та тип події.
+
+Рядок з прикладу має бути замінений на такий
+
+\begin{verbatim}
+13:ERROR:404:username:2022-05-05 13:26:something happens
+\end{verbatim}
+
+
+Код:
+
+\begin{verbatim}
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    lst = f.readlines()
+for i in range(len(lst)):
+    lst[i] = re.sub(regex, YYY, lst[i])
+with open('1.txt', 'w', encoding='utf8') as f:
+    f.writelines(lst)    
+\end{verbatim}
+
+
+====8
+Файл \code{'1.txt'} містить журнал з рядками, в яких через двокрапку записано 
+поряд\-ко\-вий номер запису (ціле),
+ім'я користувача (складається з латиниці), 
+час події (фор\-мат як у прикладі),
+тип події (ERROR, WARNING, INFO, STATUS), 
+код події (ціле). 
+
+Білі символи навколо роздільників не допускаються.
+
+Приклад рядка журналу
+
+\begin{verbatim}
+12:username:2022-05-05 13-26:ERROR:404
+\end{verbatim}
+
+Нижче наведено код, який шукає усі попередження (подія WARNING), що зустрі\-ча\-ються в журналі і відбулися під час обідньої перерви деканату (з 13:00 по 13:59 включно), та зберігає їх коди в змінній \kw{codes}.
+
+\begin{verbatim}
+codes = set()
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    for s in f:
+        res = re.fullmatch(regex, s)
+        if not res: continue
+        s = ''
+        codes.add(YYY)
+\end{verbatim}
+
+
+====9
+Файл \code{'1.txt'} містить журнал з рядками, в яких через двокрапку записано 
+поряд\-ко\-вий номер запису (ціле),
+ім'я користувача (складається з латиниці), 
+час події (фор\-мат як у прикладі),
+тип події (ERROR, WARNING, INFO, STATUS), 
+код події (ціле). 
+
+Білі символи навколо роздільників не допускаються.
+
+Приклад рядка журналу
+
+\begin{verbatim}
+12:username:2022-05-05 13-26:ERROR:404
+\end{verbatim}
+
+Нижче наведено код, який шукає усі події, що відбулись\\ для користувача \code{anonymous}, 
+та зберігає їх типи в змінній \kw{codes}.
+
+\begin{verbatim}
+codes = set()
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    for s in f:
+        res = re.fullmatch(regex, s)
+        if not res: continue
+        s = ''
+        codes.add(YYY)
+\end{verbatim}
+
+====

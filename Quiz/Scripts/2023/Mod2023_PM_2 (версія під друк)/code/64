@@ -1,0 +1,18 @@
+echo
+echo =64_1.py 
+python3.11 -W "ignore" ./64_1.py 
+echo
+echo =64_2.py 
+python3.11 -W "ignore" ./64_2.py 
+echo
+echo =64_3.py 
+python3.11 -W "ignore" ./64_3.py 
+echo
+echo =64_4.py 
+python3.11 -W "ignore" ./64_4.py 
+echo
+echo =64_5.py 
+python3.11 -W "ignore" ./64_5.py 
+echo
+echo =64_6.py 
+python3.11 -W "ignore" ./64_6.py 

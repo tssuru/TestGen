@@ -1,0 +1,142 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\emergencystretch=3em
+\pagestyle{empty}
+\begin{document}
+%begin
+{\centering\Large\bfseries Контрольна робота\par}
+\medskip
+\noindent\rule{\linewidth}{0.5pt}
+\smallskip
+\noindent\textbf{Варіант \No\,4}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+for e in range(10,10,-3):
+    if e>=7:
+        break
+        print(e, end=' ')
+    if e>=7:
+        break
+    else:
+        print(e, end=' ')
+    print(e)
+\vspace{5mm}
+%enditem
+
+%beginitem
+2. \textbf{Що буде виведено за виконання фрагменту коду?}
+a = 4
+b = 2
+c = 1
+
+def h(a):
+global c    a = 3
+    b *= 4
+    c = 5
+    return a + b + c
+
+a = 5
+b = 6
+c = 0
+
+try:
+    print(h(b), a, b, c, sep=';')
+except:
+    print('Z', a, b, c, sep=';')
+\vspace{5mm}
+%enditem
+
+%beginitem
+3. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../15BinTree/trees_exp/133.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:133 прямому
+\vspace{5mm}
+%enditem
+
+%beginitem
+4. 
+Записати ВИРАЗ, значенням якого є список, що складається з кубів цілих чисел від 15 до 2005 (включно), що не діляться на жодне з чисел 2, 3, записаних в оберненому порядку.\vspace{5mm}
+%enditem
+
+%beginitem
+5. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) -3J
+
+( 2 ) "a"a"
+
+( 3 ) 0.5
+
+( 4 ) 0b001
+\vspace{5mm}
+%enditem
+
+%beginitem
+6. 
+Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу 
+$$\frac{\log_{2} x + 76}{(\arccos x + 0.6) (y + 87)}$$ 
+та повiдомляє введенi данi та результат обчислення.
+ Оцінюється правильність та якість коду.
+
+\vspace{5mm}
+%enditem
+
+%beginitem
+7. \textbf{Що буде виведено за виконання фрагменту коду?}
+e=[10,11,12,13,14]; e.extend([1,2]); print(e)\vspace{5mm}
+%enditem
+
+%beginitem
+8. 
+Записати ВИРАЗ, значенням якого є множина, що складається з цілих чисел від 15 до 2005 (включно), що не діляться на 7.\vspace{5mm}
+%enditem
+
+%beginitem
+9. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) x*y
+
+( 2 ) (1)
+
+( 3 ) False
+
+( 4 ) For
+\vspace{5mm}
+%enditem
+
+%beginitem
+10. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) (2+2j)//2
+
+( 2 ) if a<b: a=0 else: b=0
+
+( 3 ) x=y=z
+
+( 4 ) x==y==z
+\vspace{5mm}
+%enditem
+
+%end
+\newpage
+\end{document}
+

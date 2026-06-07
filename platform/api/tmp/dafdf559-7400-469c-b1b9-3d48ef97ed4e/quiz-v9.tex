@@ -1,0 +1,174 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}{/app/Quiz/Scripts/2021/Mod2021_3/BinTree/}{/app/Quiz/Scripts/2020/Mod2020_4/BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,9}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+j=1
+while j<=9:
+    j+=2
+print(j)
+%code
+
+\vspace{5mm}
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+
+%code
+j=1
+while j<=9:
+    j+=2
+print(j)
+%code
+
+\vspace{5mm}
+%enditem
+
+%beginitem
+3. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) return x<=2;
+
+( 2 ) double n.m;
+
+( 3 ) cin>>x+3;
+
+( 4 ) if (1>2) x=10;
+\vspace{5mm}
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+code
+__b = 0
+
+class B:
+    __b = 1
+    
+    def __init__(self):
+        self.__b = 2
+        __b = 3
+        B.__b = 4
+
+obj = B()
+try:
+    print(__b, end=' ')
+    print(obj.__b, end=' ')
+    print(B.__b, end=' ')
+    print(obj.__b, end=' ')
+    print(obj._B__b, end=' ')
+except:
+    print('ERR')
+code
+\vspace{5mm}
+%enditem
+
+%beginitem
+5. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) return 'a'<'c'
+
+( 2 ) print(sep=":","qwe")
+
+( 3 ) x=*2
+
+( 4 ) float(2)/87
+\vspace{5mm}
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b[-8:-8]='12'
+print(b)
+%code
+
+\vspace{5mm}
+%enditem
+
+%beginitem
+7. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) 'c'
+
+( 2 ) 0123
+
+( 3 ) 0b23
+
+( 4 ) xy
+\vspace{5mm}
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+j=9
+while j>=1:
+    j+=-2
+print(j)
+%code
+
+\vspace{5mm}
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання фрагменту коду?
+%code
+if (19 <= 19)
+    cout << "t";
+else
+    cout << "e";
+%code
+
+\vspace{5mm}
+%enditem
+
+%beginitem
+10. Що буде виведено за виконання фрагменту коду?
+
+%code
+def g(a,b):
+    c=45
+    if a:
+        c=1
+    elif b<=-1:
+         return 4
+    else: 
+        c=7
+    return c
+
+print(g(3,3))
+%code
+\vspace{5mm}
+%enditem
+
+%end
+\newpage
+\end{document}
+

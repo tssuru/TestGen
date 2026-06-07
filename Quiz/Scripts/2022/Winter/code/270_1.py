@@ -1,0 +1,4 @@
+try:
+    print(4/9/4*3)
+    
+except: print('error')

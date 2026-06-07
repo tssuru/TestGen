@@ -1,0 +1,38 @@
+//source for question like
+//360 questions
+//Знайти значення суми
+
+//про біном Ньютона
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+1=\left({{#a1#^{#a2#n#signa##a3#k}}#sign##b1#}\right);{{#a1#^{#a2#n#signa##a3#k}}{#b1#^{#b2#n#signb##b3#k}}}
+
+a1={<int> 2 9}
+a2={<int> 2 9}
+signa=+;-
+a3={<int> 2 9}
+
+b1={<int> 2 9}
+b2={<int> 2 9}
+signb=+;-
+b3={<int> 2 9}
+
+sign=+;-
+
+
+
+<\declarations>
+
+<template>
+Обчислити значення суми {$\sum\limits_{k=0}^{n} #1#{C_n^k}$}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

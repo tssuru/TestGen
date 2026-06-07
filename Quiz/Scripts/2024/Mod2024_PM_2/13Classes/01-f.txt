@@ -1,0 +1,52 @@
+//source for question like
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+var1={<char> a d}
+var2=h;j;k;n;m
+var3={<char> A D}
+Global={SPACE4}{SPACE4}global #VAR#{ENDL};
+
+i=1;2
+j=#i
+
+const VAR=#var#i##
+const VARJ=#var#j##
+
+
+<\declarations>
+
+<template>
+%code{ENDL}
+#var1# = 0{ENDL}
+#var2# = 1{ENDL}
+{ENDL}
+class #var3#:{ENDL}
+{SPACE4}#VAR# = 2{ENDL}
+{SPACE4}{ENDL}
+{SPACE4}def __init__(self):{ENDL}
+#Global#
+{SPACE4}{SPACE4}self.#VARJ# = 3{ENDL}
+{SPACE4}{SPACE4}#VAR# = 4{ENDL}
+{SPACE4}{SPACE4}#var3#.#VAR# = 5{ENDL}
+{ENDL}
+obj = #var3#(){ENDL}
+
+try:{ENDL}
+{SPACE4}print(#var1#, end=' '){ENDL}
+{SPACE4}print(#var2#, end=' '){ENDL}
+{SPACE4}print(#var3#.#VAR#, end=' '){ENDL}
+{SPACE4}print(obj.#VARJ#){ENDL}
+except:{ENDL}
+
+{SPACE4}print('ERR'){ENDL}
+
+%code{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>

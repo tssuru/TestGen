@@ -1,0 +1,30 @@
+echo
+echo =469_1.py 
+python3.10 ./469_1.py 
+echo
+echo =469_2.py 
+python3.10 ./469_2.py 
+echo
+echo =469_3.py 
+python3.10 ./469_3.py 
+echo
+echo =469_4.py 
+python3.10 ./469_4.py 
+echo
+echo =469_5.py 
+python3.10 ./469_5.py 
+echo
+echo =469_6.py 
+python3.10 ./469_6.py 
+echo
+echo =469_7.py 
+python3.10 ./469_7.py 
+echo
+echo =469_8.py 
+python3.10 ./469_8.py 
+echo
+echo =469_9.py 
+python3.10 ./469_9.py 
+echo
+echo =469_10.py 
+python3.10 ./469_10.py 

@@ -1,0 +1,30 @@
+echo
+echo =154_1.py 
+python3.10 ./154_1.py 
+echo
+echo =154_2.py 
+python3.10 ./154_2.py 
+echo
+echo =154_3.py 
+python3.10 ./154_3.py 
+echo
+echo =154_4.py 
+python3.10 ./154_4.py 
+echo
+echo =154_5.py 
+python3.10 ./154_5.py 
+echo
+echo =154_6.py 
+python3.10 ./154_6.py 
+echo
+echo =154_7.py 
+python3.10 ./154_7.py 
+echo
+echo =154_8.py 
+python3.10 ./154_8.py 
+echo
+echo =154_9.py 
+python3.10 ./154_9.py 
+echo
+echo =154_10.py 
+python3.10 ./154_10.py 

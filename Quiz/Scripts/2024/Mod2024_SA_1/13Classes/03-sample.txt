@@ -1,0 +1,140 @@
+class C0:
+    def d(self): print(1, end=' ')
+    def g(self): print(2, end=' ')
+
+class C1(C0):
+    def d(self): print(3, end=' ')
+
+try:
+    C1.g()
+    C0.d()
+except:
+    print('ERR')
+
+
+class B0:
+    def a(self): print(1, end=' ')
+    def f(self): print(2, end=' ')
+
+class B1(B0):
+    def a(self): print(3, end=' ')
+
+try:
+    B1.f()
+    B1.a()
+except:
+    print('ERR')
+
+
+class A0:
+    def b(self): print(1, end=' ')
+    def h(self): print(2, end=' ')
+
+class A1(A0):
+    def b(self): print(3, end=' ')
+
+try:
+    A0.h()
+    A1.b()
+except:
+    print('ERR')
+
+
+class D0:
+    def c(self): print(1, end=' ')
+    def f(self): print(2, end=' ')
+
+class D1(D0):
+    def f(self): print(3, end=' ')
+
+try:
+    D1.c()
+    D1.f()
+except:
+    print('ERR')
+
+
+class D0:
+    def b(self): print(1, end=' ')
+    def h(self): print(2, end=' ')
+
+class D1(D0):
+    def h(self): print(3, end=' ')
+
+try:
+    D1.b()
+    D1.h()
+except:
+    print('ERR')
+
+
+class C0:
+    def c(self): print(1, end=' ')
+    def g(self): print(2, end=' ')
+
+class C1(C0):
+    def g(self): print(3, end=' ')
+
+try:
+    C0.c()
+    C1.g()
+except:
+    print('ERR')
+
+
+class B0:
+    def a(self): print(1, end=' ')
+    def f(self): print(2, end=' ')
+
+class B1(B0):
+    def f(self): print(3, end=' ')
+
+try:
+    B1.a()
+    B1.f()
+except:
+    print('ERR')
+
+
+class A0:
+    def d(self): print(1, end=' ')
+    def h(self): print(2, end=' ')
+
+class A1(A0):
+    def d(self): print(3, end=' ')
+
+try:
+    A1.h()
+    A0.d()
+except:
+    print('ERR')
+
+
+class C0:
+    def d(self): print(1, end=' ')
+    def g(self): print(2, end=' ')
+
+class C1(C0):
+    def g(self): print(3, end=' ')
+
+try:
+    C0.d()
+    C1.g()
+except:
+    print('ERR')
+
+
+class D0:
+    def b(self): print(1, end=' ')
+    def g(self): print(2, end=' ')
+
+class D1(D0):
+    def b(self): print(3, end=' ')
+
+try:
+    D1.g()
+    D1.b()
+except:
+    print('ERR')
+
+

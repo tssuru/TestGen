@@ -1,0 +1,25 @@
+<document>
+<header>
+\documentclass[12pt]{article}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\begin{document}
+\section*{Demo Test}
+<\header>
+<footer>
+\end{document}
+<\footer>
+<variant>
+<before>
+<\before>
+<after>
+<\after>
+<\variant>
+<item>
+<fabric>
+file answer
+fname: Scripts/2025/Mod2025_INF_2/task00.txt
+count: 1
+<\fabric>
+<\item>
+<\document>

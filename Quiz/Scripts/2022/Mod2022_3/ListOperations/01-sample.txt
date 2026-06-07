@@ -1,0 +1,98 @@
+
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+c.append([4,5])
+print(c)
+%code
+
+
+
+
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b+='11'
+print(b)
+%code
+
+
+
+
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+print(d.pop(0), end=' ')
+print(d)
+%code
+
+
+
+
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.insert(-7, [2,3])
+print(h)
+%code
+
+
+
+
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.extend('13')
+print(e)
+%code
+
+
+
+
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f.remove(15)
+print(f)
+%code
+
+
+
+
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+print(a.index('7'), end=' ')
+%code
+
+
+
+
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g.insert(0, 15)
+print(g)
+%code
+
+
+
+
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+print(a.index(12), end=' ')
+%code
+
+
+
+
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+e+=[1,2]
+print(e)
+%code
+
+
+

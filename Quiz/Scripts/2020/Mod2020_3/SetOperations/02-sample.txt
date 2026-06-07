@@ -1,0 +1,60 @@
+	d = {24:7, 36:8, 39:2, 18:3}
+	d[86] = 6
+	for x in d :
+		print(x, sep=' ', end=' ')
+
+
+	t = {89:5, 17:0, 74:3, 71:6, 71:9}
+	t[74] = 7
+	for x in t.keys():
+		print(x, sep=' ', end=' ')
+
+
+	s = {34:2, 81:4, 63:8, 26:8, 34:5}
+	s[30] = 4
+	for x in s.values():
+		print(x, sep=' ', end=' ')
+
+
+	t = {42:1, 39:0, 68:8, 39:9}
+	t[68] = 7
+	for x, y in t.items():
+		print(x, y, sep=' ', end=' ')
+
+
+	d = {14:5, 36:5, 47:4, 14:5}
+	d[45] = 4
+	for x in d.items():
+		print(*x, sep=' ', end=' ')
+
+
+	s = {82:5, 52:6, 58:0, 19:4}
+	s[54] = 5
+	for x in s.items():
+		print(x, sep=' ', end=' ')
+
+
+	d = {41:2, 77:6, 19:5, 65:2, 41:5}
+	d[34] = 8
+	for x in d.values():
+		print(x, sep=' ', end=' ')
+
+
+	t = {17:0, 21:2, 78:0, 79:3, 79:6}
+	t[17] = 2
+	for x in t :
+		print(x, sep=' ', end=' ')
+
+
+	s = {41:4, 13:0, 35:1, 38:9, 41:4}
+	s[57] = 0
+	for x in s.keys():
+		print(x, sep=' ', end=' ')
+
+
+	s = {27:1, 47:4, 51:7, 82:6, 47:6}
+	s[82] = 2
+	for x, y in s.items():
+		print(x, y, sep=' ', end=' ')
+
+

@@ -1,0 +1,23 @@
+//source for question like
+//construction, destruction
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+n={<int> 2 4}
+arg={<file:7> 01Classes/02-s.txt}
+
+<\declarations>
+
+<template>
+{ENDL}%code{ENDL}
+#arg#
+
+{ENDL}%code{ENDL}{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>

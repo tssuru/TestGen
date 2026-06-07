@@ -1,0 +1,10 @@
+{
+  "title": "Test closed",
+  "variantCount": 1,
+  "questionsPerVariant": 4,
+  "questionTypeFilter": "closed",
+  "shuffleQuestions": true,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print"
+}

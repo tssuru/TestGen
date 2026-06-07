@@ -1,0 +1,40 @@
+a,b,c=8,9,7
+    def f(a,b,c): print(a,b,c,end="")
+    f(2,a=3); print(a,b,c)
+
+a,b,c=6,8,7
+    def g(a,b,c=6): print(a,b,c,end="")
+    g(0,1); print(a,b,c)
+
+a,b,c=9,7,6
+    def h(a,b=8,c=9): print(a,b,c,end="")
+    h(5,4,c=3); print(a,b,c)
+
+a,b,c=8,9,7
+    def g(a,b=6,c): print(a,b,c,end="")
+    g(4,2,0); print(a,b,c)
+
+a,b,c=8,7,9
+    def f(a,b=6,c=9): print(a,b,c,end="")
+    f(5,c=1,b=5); print(a,b,c)
+
+a,b,c=7,6,8
+    def h(a,b,c=8): print(a,b,c,end="")
+    h(b=1,c=3,0); print(a,b,c)
+
+a,b,c=7,9,6
+    def f(a,b=7,c): print(a,b,c,end="")
+    f(a=4,2,b=4); print(a,b,c)
+
+a,b,c=8,9,6
+    def g(a,b,c): print(a,b,c,end="")
+    g(c=0,b=2,a=3); print(a,b,c)
+
+a,b,c=8,6,9
+    def h(a,b=7,c): print(a,b,c,end="")
+    h(5,1,1); print(a,b,c)
+
+a,b,c=6,9,8
+    def g(a,b,c): print(a,b,c,end="")
+    g(2,c=4,b=0); print(a,b,c)
+

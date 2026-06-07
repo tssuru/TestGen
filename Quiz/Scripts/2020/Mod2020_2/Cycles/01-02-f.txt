@@ -1,0 +1,35 @@
+//source for question like
+//2640 questions
+//Що буде надруковано за виконання:\n
+
+//while
+
+<sample>
+j=13
+while j>6: j+=-2
+print(j)
+
+<\sample>
+
+<declarations>
+0=i;j;k;n;m;t
+1={<int> 5 15}
+2=>;>=
+3={<int> 0 9}
+4={<int> -3 -2}
+
+<\declarations>
+
+<template>
+{ENDL}
+print('R', end=' '){ENDL}
+#0#=#1#{ENDL}
+while #0##2##3#:{ENDL}
+{SPACE4}#0#+=#4#{ENDL}
+print(#0#){ENDL}
+{ENDL}
+
+<\template>
+
+<restrictions>
+<\restrictions>

@@ -1,0 +1,24 @@
+<sample>
+
+<\sample>
+
+<declarations>
+var={<int> 1 115}
+d2={<file> delims.txt}
+d3=#d2
+d4=#d2
+a={#d2##d2{SPACE}new#}{#d3##d3{SPACE}new##d3{SPACE}new#}{#d4##d4{SPACE}new##d4{SPACE}new##d4{SPACE}new#}
+<\declarations>
+
+<template>
+#var#{TAB}#a#
+<\template>
+
+<restrictions>
+<\restrictions>
+
+
+
+
+
+

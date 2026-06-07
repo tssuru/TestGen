@@ -1,0 +1,27 @@
+echo
+echo =45_1.py 
+python3.10 ./45_1.py 
+echo
+echo =45_2.py 
+python3.10 ./45_2.py 
+echo
+echo =45_3.py 
+python3.10 ./45_3.py 
+echo
+echo =45_4.py 
+python3.10 ./45_4.py 
+echo
+echo =45_5.py 
+python3.10 ./45_5.py 
+echo
+echo =45_6.py 
+python3.10 ./45_6.py 
+echo
+echo =45_7.py 
+python3.10 ./45_7.py 
+echo
+echo =45_8.py 
+python3.10 ./45_8.py 
+echo
+echo =45_9.py 
+python3.10 ./45_9.py 

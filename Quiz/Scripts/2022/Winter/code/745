@@ -1,0 +1,30 @@
+echo
+echo =745_1.py 
+python3.10 ./745_1.py 
+echo
+echo =745_2.py 
+python3.10 ./745_2.py 
+echo
+echo =745_3.py 
+python3.10 ./745_3.py 
+echo
+echo =745_4.py 
+python3.10 ./745_4.py 
+echo
+echo =745_5.py 
+python3.10 ./745_5.py 
+echo
+echo =745_6.py 
+python3.10 ./745_6.py 
+echo
+echo =745_7.py 
+python3.10 ./745_7.py 
+echo
+echo =745_8.py 
+python3.10 ./745_8.py 
+echo
+echo =745_9.py 
+python3.10 ./745_9.py 
+echo
+echo =745_10.py 
+python3.10 ./745_10.py 

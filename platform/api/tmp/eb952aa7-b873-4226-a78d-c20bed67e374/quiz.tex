@@ -1,0 +1,153 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,1}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+print('R', end=' ')
+b=['0','1','2','3','4']
+print(b.index(1), end=' ')
+
+\vspace{5mm}
+%enditem
+%beginitem
+2. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) x23
+
+( 2 ) x+23
+
+( 3 ) z13
+
+( 4 ) ?qwerty
+\vspace{5mm}
+%enditem
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+%code
+a, b, c = 7, 8, 6
+def g(a, b, c=9):
+    print(a, b, c, end=" ")
+
+g(1, 5, 0)
+print(a, b, c)
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (4 / 4 / 4 / 4);
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+5. Що буде виведено за виконання фрагменту коду?
+
+a,b,c=1,5,8
+def g(b):
+global c    a-=2
+    b=3
+    c=5
+    return a+b+c
+
+a,b,c=3,4,9
+print(g(a),a,b,c)
+\vspace{5mm}
+%enditem
+
+
+
+
+
+%end
+\newpage
+
+\newpage
+
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,2}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+x,y,z=1,5,0
+y,z,x,x=y,7,z,x
+print(x,y,z)
+\vspace{5mm}
+%enditem
+%beginitem
+2. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) j=i;
+
+( 2 ) cin<<x;
+
+( 3 ) return 'a'<'c';
+
+( 4 ) if ('x'<>'y') a=6;
+\vspace{5mm}
+%enditem
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (!3.0<=false or !3!= 7.0 or 7<2);
+%code
+\vspace{5mm}
+%enditem
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+b = ('a','b','c','d','e',0,1,2)
+print(b[-12])
+%code
+
+\vspace{5mm}
+%enditem
+%beginitem
+5. Що буде виведено за виконання фрагменту коду?
+
+a,b,c=1,5,8
+def g(b):
+global c    a-=2
+    b=3
+    c=5
+    return a+b+c
+
+a,b,c=3,4,9
+print(g(a),a,b,c)
+\vspace{5mm}
+%enditem
+
+
+
+
+
+%end
+\newpage
+\end{document}
+
+

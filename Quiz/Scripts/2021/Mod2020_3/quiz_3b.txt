@@ -1,0 +1,115 @@
+<document>
+  <header>
+  <\header>
+  <footer>
+  <\footer>
+
+  <onNextVariant>
+{ENDL}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+//NEWPAGE
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     500
+  <\to>
+
+  <onPage>
+    1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+Модульна контрольна, варіант   #No# {ENDL}
+<\before>
+
+<after>
+{ENDL}{ENDL}
+<\after>
+
+<\variant>
+
+
+//Containers
+<item>
+   include SetOperations/01-q.txt
+<delim>
+{ENDL}
+<\delim>
+
+<\item>
+
+<item>
+   include SetOperations/02-q.txt
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item>
+<fabric>
+collate
+   include SetOperations/03-q.txt
+   include ListOperations/03-q.txt
+<n1>
+30
+<\n1>
+<n2>
+30
+<\n2>
+<\fabric>
+<delim>
+{ENDL}
+
+<\delim>
+<\item>
+
+<item>
+   include SetOperations/04-q.txt
+<delim>
+{ENDL}
+<\delim>
+
+<\item>
+
+<item> 
+include Classes/01-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include Classes/02-q.txt 
+<delim>
+{ENDL}
+{ENDL}{ENDL}
+{ENDL}{TAB}По наступних задачах враховується економнiсть обчислень, використання пам'яті та якiсть коду.{ENDL}
+
+<\delim>
+<\item>
+
+
+
+<item>
+   include task-q.txt
+ <delim>
+{ENDL}
+ <\delim>
+<\item>
+
+<item>
+   include task-q.txt
+ <delim>
+{ENDL}
+ <\delim>
+<\item>

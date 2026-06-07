@@ -1,0 +1,14 @@
+<fabric>
+     file answer
+     <fname>
+         task01-s.txt
+     <\fname>
+
+     <before>
+	 Написати функцію, що за послідовністю цілих чисел{SPACE} 
+     <\before>
+<after>
+.
+<\after>
+
+  <\fabric>

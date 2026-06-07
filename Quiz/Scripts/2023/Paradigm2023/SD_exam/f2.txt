@@ -1,0 +1,26 @@
+<fabric>
+check auto
+  <good>
+   task2.txt
+  <\good>
+  <bad>
+   task2.txt
+  <\bad>
+  <ncase>
+	4
+  <\ncase>
+<nGood>
+4
+<\nGood>
+<before>
+Який з наведених фрагментів коду явно потребує поліпшення (форматування рядків та типи до уваги не брати)?\par{ENDL}
+\vspace{2mm}{ENDL}{ENDL}
+<\before>
+
+//<after>
+//{ENDL}{ENDL}
+//\vspace{5mm}{ENDL}{ENDL}
+//Кількість правильних відповідей може бути від 0 до 4.{ENDL}{ENDL}
+//<\after>
+
+<\fabric>

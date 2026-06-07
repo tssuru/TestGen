@@ -1,0 +1,1078 @@
+{
+  "title": "Контрольна робота",
+  "generatedAt": "2026-03-03T14:31:20.560Z",
+  "profile": "both",
+  "variantCount": 10,
+  "variants": [
+    {
+      "variantNumber": 1,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "<>",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "8.3",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "FIFO",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cout>>3;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int x+y=z;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<3.4;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int f(int n);",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 6 * 6 * 6 * 6;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 6 * 6 * 6 * 6;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (!4>4.0 && !5>= true && 2<5.0);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; bool f(int n){ cout<<\"f\"; return n; } int main(){ cout<<(f(-6) && f(0)); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (4 > 4.0 >= 5 < true);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int f(int c){ int w = 72; if (c > -2) return 2; if (c >= 4) w = 9; else w = 0; return w; } int main(){ cout << f(",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int f(int a, int b){ int c = 72; if (a > -2) return 2; if (b >= 4) c = 9; else c = 0; return c; } int main(){ cou",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? if (2 > 2) cout << \"c\"; else cout << \"v\";",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 2,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "[1]",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "=<",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "z13",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": ">",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "int f(int a,b);",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "if a<b a=0;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "x-=2;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int x='a'-'c';",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 5 % 5 % 5 % 5;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 14 % 14 % 14 % 14;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (!7!=false || !6== 2.0 || 8<=7.0);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; bool f(int n){ cout<<\"f\"; return n>-1; } int main(){ cout<<(f(1) || f(6)); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (2 != 5.0 == 7 <= false);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int h(int d){ int x = 31; if (d < 5) return 5; else if (d != 1) x = 4; else return 6; return x; } int main(){ cou",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int h(int a, int b){ int c = 31; if (a < 5) return 5; else if (b != 1) c = 4; else return 6; return c; } int main",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? if (9 >= 9) cout << \"u\"; else cout << \"o\";",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 3,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "**",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "(1)",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "/",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "\"1.1.1\"",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cin<<x;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int 3a=2;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "x=int(4);",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x+=y;",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 8 / 8 / 8 / 8;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 15 / 15 / 15 / 15;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (!6.0<false and !8.0!= 9 and 3>5);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; bool f(int n){ cout<<\"f\"; return n>=-2; } int main(){ cout<<(f(-8) and f(-4)); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (6 < 2.0 != 8 > 7.0);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int g(int a){ int u = 37; if (a) u = 7; else if (a == -4) return 1; else return 3; return u; } int main(){ cout <",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int g(int a, int b){ int c = 37; if (b) c = 7; else if (a == -4) return 1; else return 3; return c; } int main(){",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? if (0 < 0) cout << \"e\"; else cout << \"s\";",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 4,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "False",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "x*y",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "'c'",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "+>",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "bool r=('N'>'5');",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "\"a\"=6;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<\"\\n\";",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "'a'=3;",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 10 / 10 / 10 / 10;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 9 / 9 / 9 / 9;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (!9.0>=9 or !2== 3.0 or 8<=true);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; bool f(int n){ cout<<\"f\"; return n; } int main(){ cout<<(f(-1) or f(9)); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (6.0 >= false == 8.0 <= 9);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int g(int b){ int z = 95; if (b) z = 8; if (b <= 0) return 6; else z = 4; return z; } int main(){ cout << g(6); r",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int g(int a, int b){ int c = 95; if (a) c = 8; if (b <= 0) return 6; else c = 4; return c; } int main(){ cout << ",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? if (14 != 14) cout << \"y\"; else cout << \"l\";",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 5,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "while",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "x^2",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "Switch",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x-y",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cin>>x;",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "double n.m;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cin>>y;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x=2'*'7;",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 4 * 4 * 4 * 4;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 4 * 4 * 4 * 4;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (!3<=5.0 && !7!= 4 && false>=9.0);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; bool f(int n){ cout<<\"f\"; return n<0; } int main(){ cout<<(f(3) && f(7)); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (3 <= 5 != 9.0 >= 9);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int f(int c){ int y = 14; if (c < 3) return 3; else if (c != -5) y = 1; else y = 7; return y; } int main(){ cout ",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int f(int a, int b){ int c = 14; if (a < 3) return 3; else if (b != -5) c = 1; else c = 7; return c; } int main()",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? if (4 == 4) cout << \"d\"; else cout << \"i\";",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 6,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "3a",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "\"1e3\"",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "!!=",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "\"1,3\"",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cout>>x;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int x='a'*'c';",
+              "correct": true
+            },
+            {
+              "number": 3,
+              "text": "cout<<(3<>5);",
+              "correct": false
+            },
+            {
+              "number": 4,
+              "text": "{double n3;}",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 9 % 9 % 9 % 9;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 8 % 8 % 8 % 8;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (!6==2.0 || !3< 9 || true>8.0);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; bool f(int n){ cout<<\"f\"; return n; } int main(){ cout<<(f(-5) || f(8)); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (2 == 3.0 < 8 > true);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int h(int d){ int v = 60; if (d > 2) return 2; if (d >= -3) v = 9; else return 8; return v; } int main(){ cout <<",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int h(int a, int b){ int c = 60; if (b > 2) return 2; if (a >= -3) c = 9; else return 8; return c; } int main(){ ",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? if (18 <= 18) cout << \"q\"; else cout << \"m\";",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 7,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "83x",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "a++",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "for",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "!=",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "double x.0;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int f(int a, int 4);",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "int f(int &n, int m);",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int z=3.1415;",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 15 / 15 / 15 / 15;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 12 / 12 / 12 / 12;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (!false>=3.0 or !7== 4 or 7.0<2);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; bool f(int n){ cout<<\"f\"; return n!=2; } int main(){ cout<<(f(4) or f(-2)); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (3 >= 5.0 == 7 < 4);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int g(int b){ int u = 50; if (b) return 5; else if (b == -1) u = 0; else u = 4; return u; } int main(){ cout << g",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int g(int a, int b){ int c = 50; if (a) return 5; else if (b == -1) c = 0; else c = 4; return c; } int main(){ co",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? if (7 < 7) cout << \"w\"; else cout << \"r\";",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 8,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "0,5",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "2*6",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "LIFO",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": ">=",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "int n,n;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "if ('x'<>'y') a=6;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "bool f(int a);",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int f(int &a);",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 3 * 3 * 3 * 3;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 3 * 3 * 3 * 3;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (!true<=4.0 and !5> 6 and 6.0!=8);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; bool f(int n){ cout<<\"f\"; return n; } int main(){ cout<<(f(2) and f(-3)); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (false <= 9.0 > 6 != 2.0);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int f(int a){ int z = 76; if (a <= -1) return 9; if (a <= 0) z = 8; else return 6; return z; } int main(){ cout <",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int f(int a, int b){ int c = 76; if (b <= -1) return 9; if (b <= 0) c = 8; else return 6; return c; } int main(){",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? if (11 != 11) cout << \"x\"; else cout << \"g\";",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 9,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "<+",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "'qwerty'",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "{",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "vsop",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cin<<3;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "y=/x;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<'\\n';",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "cout<<endl;",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 12 % 12 % 12 % 12;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 10 % 10 % 10 % 10;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (!7<3 || !2>= 3.0 || true>9.0);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; bool f(int n){ cout<<\"f\"; return n; } int main(){ cout<<(f(-7) || f(5)); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (3 < 9 >= true > 8.0);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int h(int d){ int w = 70; if (d != 3) return 5; if (d >= -3) w = 1; else w = 7; return w; } int main(){ cout << h",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int h(int a, int b){ int c = 70; if (a != 3) return 5; if (a >= -3) c = 1; else c = 7; return c; } int main(){ co",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? if (3 > 3) cout << \"k\"; else cout << \"t\";",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 10,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "=>",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x+23",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "*",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "For",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "y=3^^2;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "cin>>x+3;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "int x='a'+'c';",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "j=i;",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 8 / 8 / 8 / 8;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << 5 / 5 / 5 / 5;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (!9==false && !7.0!= 5 && 4.0<=4);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; bool f(int n){ cout<<\"f\"; return n==-3; } int main(){ cout<<(f(-9) && f(6)); return 0; }",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? cout << (false == 3.0 != 7 <= 4);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int g(int c){ int x = 91; if (c) return 2; else if (c == 1) x = 3; else return 0; return x; } int main(){ cout <<",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int g(int a, int b){ int c = 91; if (b) return 2; else if (b == 1) c = 3; else return 0; return c; } int main(){ ",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? if (8 >= 8) cout << \"p\"; else cout << \"b\";",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    }
+  ]
+}

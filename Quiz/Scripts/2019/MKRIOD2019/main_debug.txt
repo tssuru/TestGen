@@ -1,0 +1,112 @@
+<document>
+
+  <header>
+
+\documentclass[10pt, ukrainian]{article}{ENDL}
+\setlength\textwidth{190mm} \setlength\textheight{277mm}{ENDL}
+\setlength\voffset{-38mm} \setlength\hoffset{-38mm}{ENDL}
+\setlength\parindent{0mm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[cp1251]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\begin{document}{ENDL}
+
+  <\header>
+
+  <footer>
+
+\end{document}
+
+  <\footer>
+
+  <onNextVariant>
+//\vspace{0.9cm}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+\newpage{ENDL}
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     21
+  <\to>
+
+  <onPage>
+    7
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+{\center Εκηΰμενΰφ³ινθι α³λες \No \textbf { #No# }\par}{ENDL}
+{
+<\before>
+<after>
+}{ENDL}
+<\after>
+
+<\variant>
+<item>
+  <fabric>
+     file answer
+     <fname>
+         01.txt
+     <\fname>
+   <\fabric>
+<delim>
+\par{ENDL}
+<\delim>
+<\item>
+
+<item>
+  <fabric>
+     collate
+    <fabric>
+     file answer
+     <fname>
+         02-01-t.txt
+     <\fname>
+
+	<before>
+	<\before>
+	<after>
+	<\after>
+    <\fabric>
+
+    <fabric>
+        template answer
+        <fname>
+          02-02-f.txt
+        <\fname>
+      <\fabric>
+
+      <n1>
+         10
+      <\n1>
+      <n2>
+         5
+      <\n2>
+   <\fabric>
+<delim>
+\par{ENDL}
+<\delim>
+<\item>
+
+<item>
+  <fabric>
+     file answer
+     <fname>
+         03.txt
+     <\fname>
+   <\fabric>
+<delim>
+
+<\delim>
+<\item>

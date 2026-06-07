@@ -1,0 +1,30 @@
+echo
+echo =480_1.py 
+python3.10 ./480_1.py 
+echo
+echo =480_2.py 
+python3.10 ./480_2.py 
+echo
+echo =480_3.py 
+python3.10 ./480_3.py 
+echo
+echo =480_4.py 
+python3.10 ./480_4.py 
+echo
+echo =480_5.py 
+python3.10 ./480_5.py 
+echo
+echo =480_6.py 
+python3.10 ./480_6.py 
+echo
+echo =480_7.py 
+python3.10 ./480_7.py 
+echo
+echo =480_8.py 
+python3.10 ./480_8.py 
+echo
+echo =480_9.py 
+python3.10 ./480_9.py 
+echo
+echo =480_10.py 
+python3.10 ./480_10.py 

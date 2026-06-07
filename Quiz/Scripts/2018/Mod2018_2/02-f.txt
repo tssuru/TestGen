@@ -1,0 +1,28 @@
+//source for question like
+//960 questions
+//Що буде надруковано за виконання:\n
+
+//array size
+
+<sample>
+
+double n[9]; cout<<sizeof(n)/sizeof(double);
+
+<\sample>
+
+<declarations>
+
+0=char;int;long;double
+1={<char> a k}{<char> m n}{<char> p z}
+2={<int> 1 10}
+
+<\declarations>
+
+<template>
+#0# #1#[#2#]; cout<<sizeof(#1#)/sizeof(#0#);
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

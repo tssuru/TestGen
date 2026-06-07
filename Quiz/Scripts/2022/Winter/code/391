@@ -1,0 +1,30 @@
+echo
+echo =391_1.py 
+python3.10 ./391_1.py 
+echo
+echo =391_2.py 
+python3.10 ./391_2.py 
+echo
+echo =391_3.py 
+python3.10 ./391_3.py 
+echo
+echo =391_4.py 
+python3.10 ./391_4.py 
+echo
+echo =391_5.py 
+python3.10 ./391_5.py 
+echo
+echo =391_6.py 
+python3.10 ./391_6.py 
+echo
+echo =391_7.py 
+python3.10 ./391_7.py 
+echo
+echo =391_8.py 
+python3.10 ./391_8.py 
+echo
+echo =391_9.py 
+python3.10 ./391_9.py 
+echo
+echo =391_10.py 
+python3.10 ./391_10.py 

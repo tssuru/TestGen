@@ -1,0 +1,10 @@
+{
+  "title": "dedupe-check",
+  "variantCount": 3,
+  "questionsPerVariant": 4,
+  "questionTypeFilter": "mixed",
+  "shuffleQuestions": true,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print"
+}

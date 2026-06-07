@@ -1,0 +1,30 @@
+echo
+echo =838_1.py 
+python3.10 ./838_1.py 
+echo
+echo =838_2.py 
+python3.10 ./838_2.py 
+echo
+echo =838_3.py 
+python3.10 ./838_3.py 
+echo
+echo =838_4.py 
+python3.10 ./838_4.py 
+echo
+echo =838_5.py 
+python3.10 ./838_5.py 
+echo
+echo =838_6.py 
+python3.10 ./838_6.py 
+echo
+echo =838_7.py 
+python3.10 ./838_7.py 
+echo
+echo =838_8.py 
+python3.10 ./838_8.py 
+echo
+echo =838_9.py 
+python3.10 ./838_9.py 
+echo
+echo =838_10.py 
+python3.10 ./838_10.py 

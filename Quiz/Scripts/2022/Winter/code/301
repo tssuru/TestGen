@@ -1,0 +1,30 @@
+echo
+echo =301_1.py 
+python3.10 ./301_1.py 
+echo
+echo =301_2.py 
+python3.10 ./301_2.py 
+echo
+echo =301_3.py 
+python3.10 ./301_3.py 
+echo
+echo =301_4.py 
+python3.10 ./301_4.py 
+echo
+echo =301_5.py 
+python3.10 ./301_5.py 
+echo
+echo =301_6.py 
+python3.10 ./301_6.py 
+echo
+echo =301_7.py 
+python3.10 ./301_7.py 
+echo
+echo =301_8.py 
+python3.10 ./301_8.py 
+echo
+echo =301_9.py 
+python3.10 ./301_9.py 
+echo
+echo =301_10.py 
+python3.10 ./301_10.py 

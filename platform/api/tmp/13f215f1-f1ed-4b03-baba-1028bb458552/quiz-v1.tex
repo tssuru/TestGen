@@ -1,0 +1,145 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{microtype}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\emergencystretch=3em
+\pagestyle{empty}
+\begin{document}
+%begin
+{\centering\Large\bfseries Контрольна робота\par}
+\medskip
+\noindent\rule{\linewidth}{0.5pt}
+\smallskip
+\noindent\textbf{Варіант \No\,1}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) cout<<'\n';
+
+( 2 ) int n,n;
+
+( 3 ) if ('x'><'y') a=6;
+
+( 4 ) {a=5;}
+\vspace{5mm}
+%enditem
+
+%beginitem
+2. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (8 % 8 % 8 % 8);
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+3. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+a,b,c=0,6,9
+def h(a):
+global c    a=5
+    b*=2
+    c=1
+    return a+b+c
+
+a,b,c=7,8,3
+print(h(a),a,b,c)
+\vspace{5mm}
+%enditem
+
+%beginitem
+4. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(2 == True <= 8 != 2.0)
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+5. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+a, b, c = 6, 9, 8
+def h(a, b, c):
+    print(a, b, c, end=" ")
+
+h(0, 5)
+print(a, b, c)
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+6. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) {
+
+( 2 ) <+
+
+( 3 ) =<
+
+( 4 ) 0X2b
+\vspace{5mm}
+%enditem
+
+%beginitem
+7. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+a=[10,11,12,13,14]
+a.append('13')
+print(a)
+
+\vspace{5mm}
+%enditem
+
+%beginitem
+8. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+-3**True+-2
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+9. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../15BinTree/trees_exp/86.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:86 прямому
+\vspace{5mm}
+%enditem
+
+%beginitem
+10. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) F"1={x:5.2f};"
+
+( 2 ) 'a'=3
+
+( 3 ) True=1
+
+( 4 ) x=float(4)
+\vspace{5mm}
+%enditem
+
+%end
+\newpage
+\end{document}
+

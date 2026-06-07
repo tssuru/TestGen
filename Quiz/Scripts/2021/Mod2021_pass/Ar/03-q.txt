@@ -1,0 +1,19 @@
+ <fabric>
+     file answer
+     <fname>
+         Ar/03-s.txt
+     <\fname>
+
+     <before>
+Вказати значення виразу та його тип (за наявності помилок - error).{ENDL}
+%code{ENDL}
+     <\before>
+
+     <after>
+{ENDL}
+%code{ENDL}
+{ENDL}
+     <\after>
+   <\fabric>
+
+

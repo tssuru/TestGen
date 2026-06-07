@@ -1,0 +1,10 @@
+{
+  "title": "Контрольна робота",
+  "variantCount": 1,
+  "questionsPerVariant": 30,
+  "questionTypeFilter": "closed",
+  "shuffleQuestions": true,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print"
+}

@@ -1,0 +1,30 @@
+echo
+echo =128_1.py 
+python3.11 -W "ignore" ./128_1.py 
+echo
+echo =128_2.py 
+python3.11 -W "ignore" ./128_2.py 
+echo
+echo =128_3.py 
+python3.11 -W "ignore" ./128_3.py 
+echo
+echo =128_4.py 
+python3.11 -W "ignore" ./128_4.py 
+echo
+echo =128_5.py 
+python3.11 -W "ignore" ./128_5.py 
+echo
+echo =128_6.py 
+python3.11 -W "ignore" ./128_6.py 
+echo
+echo =128_7.py 
+python3.11 -W "ignore" ./128_7.py 
+echo
+echo =128_8.py 
+python3.11 -W "ignore" ./128_8.py 
+echo
+echo =128_9.py 
+python3.11 -W "ignore" ./128_9.py 
+echo
+echo =128_10.py 
+python3.11 -W "ignore" ./128_10.py 

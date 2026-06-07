@@ -1,0 +1,16 @@
+int a, *p=&a; delete a;
+
+int *pa=new int(2), *pb=new int(3); pa=pb; 
+
+int *pa=new int(2), *pb=pa; delete pb; *pa=3; 
+
+int *pa=new int(2), *pb=*pa; delete pa; 
+
+int *pa=new int(2), *pb=&pa; delete pa; 
+
+int *pa=new int(2), *pb=pa; delete pb; delete pa;
+
+int **ppi=new int*(new int(3)); delete ppi;
+
+
+

@@ -1,0 +1,10 @@
+{
+  "title": "closed-10",
+  "variantCount": 1,
+  "questionsPerVariant": 10,
+  "questionTypeFilter": "closed",
+  "shuffleQuestions": true,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print"
+}

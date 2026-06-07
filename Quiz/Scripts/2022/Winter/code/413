@@ -1,0 +1,30 @@
+echo
+echo =413_1.py 
+python3.10 ./413_1.py 
+echo
+echo =413_2.py 
+python3.10 ./413_2.py 
+echo
+echo =413_3.py 
+python3.10 ./413_3.py 
+echo
+echo =413_4.py 
+python3.10 ./413_4.py 
+echo
+echo =413_5.py 
+python3.10 ./413_5.py 
+echo
+echo =413_6.py 
+python3.10 ./413_6.py 
+echo
+echo =413_7.py 
+python3.10 ./413_7.py 
+echo
+echo =413_8.py 
+python3.10 ./413_8.py 
+echo
+echo =413_9.py 
+python3.10 ./413_9.py 
+echo
+echo =413_10.py 
+python3.10 ./413_10.py 

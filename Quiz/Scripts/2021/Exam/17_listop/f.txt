@@ -1,0 +1,58 @@
+//source for question like
+// questions
+//Що буде надруковано за виконання:\n
+
+//list operations
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+id={<char> a h}
+const data1=[10,11,12,13,14]
+const data2=['0','1','2','3','4']
+XDNUM=1;2
+const DATA=#data#XDNUM##
+const EL=#xel#XDNUM##
+
+
+i={<int> -5 4}
+i_pop=;-5;-4;-3;-2;-1;0;1;2;3;4;5;-6
+i_insert={<int> -7 7}
+
+xel1={<int> 8 17}{'10'}{'11'}{'12'}
+zel2={<int> 1 9}
+zzel2={<int> 0 4}
+xel2='#zel2#';#zzel2#;'#zel2#'
+
+el3x={<int> 15 20}
+el3={#el3x#}{'10'}{'11'}{'12'}{'13'}{[1,2]}{[2,3]}{[4,5]}{[1,0]}
+
+const ACT1=#id#.remove(#EL#){ENDL}print(#id#)
+const ACT2=print(#id#.index(#EL#), end=' ')
+const ACT3=print(#id#.pop(#i_pop#), end=' '){ENDL}print(#id#)
+const ACT4=#id#.insert(#i_insert#, #el3#){ENDL}print(#id#)
+const ACT5=#id#.append(#el3#){ENDL}print(#id#)
+const ACT6=#id#.extend(#el3#){ENDL}print(#id#)
+const ACT7=#id#+=#el3#{ENDL}print(#id#)
+
+ACT0={<int> 1 7}
+const AACTION=#ACT#ACT0##
+
+<\declarations>
+
+<template>
+{ENDL}
+%code{ENDL}
+#id# = #DATA#{ENDL}
+#AACTION#{ENDL}
+%code{ENDL}
+{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

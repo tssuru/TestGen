@@ -1,0 +1,164 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,4}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. 
+Значенням змінної \kw{a} є цілочисловий масив типу $numpy.ndarray$ розмірів $5{\times}5$. На скільки збільшиться сума елементів масиву \kw{a} після виконання
+\begin{verbatim}
+a.T[2] += 3
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (false != 7 > 4 < 2);
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+int h(int a, int b){
+    int c = 84;
+    if (b != -3)
+        c = 5;
+    else if (a > -2)
+         return 2;
+    else 
+        return 0;
+    return c;
+}
+
+int main(){
+    cout << h(3, 3);
+    return 0;
+}
+%code
+
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+f=[0,1,2,3,4,5,6,7,8,9]
+print(f[:-3:-3])
+%code
+
+
+%enditem
+
+%beginitem
+5. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) 5_w
+
+( 2 ) 0x17
+
+( 3 ) 'c'
+
+( 4 ) "1,3,2"
+
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+
+%code
+a,b,c=5,2,0
+def h(b):
+    a=3
+    b=4
+    c=2
+    return a+b+c
+
+a,b,c=9,6,8
+print(h(b),a,b,c)
+%code
+
+%enditem
+
+%beginitem
+7. 
+try:
+    print(5, end=';')
+    print(2j!=5j, end=';')
+    print(0, end=';')
+except TypeError:
+    print(9, end=';')
+except ZeroDivisionError:
+    print(6, end=';')
+except:
+    print('Z', end=';')
+else:
+    print(8, end=';')
+finally:
+    print(1)
+
+%enditem
+
+%beginitem
+8. 
+Записати ВИРАЗ, значенням якого є множина, що складається з кубівцілих чисел від 12 до 2012 (включно), що не діляться на жодне з чисел 2, 3.
+%enditem
+
+%beginitem
+9. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) 5_w
+
+( 2 ) (1)
+
+( 3 ) )
+
+( 4 ) 0.5
+
+%enditem
+
+%beginitem
+10. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) x not is y
+
+( 2 ) print(end="1","qwe")
+
+( 3 ) 3**-1
+
+( 4 ) x-=2
+
+%enditem
+
+%end
+\newpage
+\end{document}
+

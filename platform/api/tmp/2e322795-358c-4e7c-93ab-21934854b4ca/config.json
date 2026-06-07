@@ -1,0 +1,21 @@
+{
+  "title": "Тест",
+  "variantCount": 2,
+  "questionsPerVariant": 5,
+  "questionTypeFilter": "mixed",
+  "shuffleQuestions": true,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print",
+  "selection": {
+    "balancingStrategy": "ratio",
+    "closedShare": 0.4,
+    "uniquenessRule": "withinVariant",
+    "duplicatePolicy": "forbid",
+    "maxReusePercent": 0,
+    "seedStability": "variant",
+    "sourcePolicy": "all",
+    "sourceAllowlist": [],
+    "outputOrder": "random"
+  }
+}

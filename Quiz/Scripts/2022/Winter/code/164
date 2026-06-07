@@ -1,0 +1,30 @@
+echo
+echo =164_1.py 
+python3.10 ./164_1.py 
+echo
+echo =164_2.py 
+python3.10 ./164_2.py 
+echo
+echo =164_3.py 
+python3.10 ./164_3.py 
+echo
+echo =164_4.py 
+python3.10 ./164_4.py 
+echo
+echo =164_5.py 
+python3.10 ./164_5.py 
+echo
+echo =164_6.py 
+python3.10 ./164_6.py 
+echo
+echo =164_7.py 
+python3.10 ./164_7.py 
+echo
+echo =164_8.py 
+python3.10 ./164_8.py 
+echo
+echo =164_9.py 
+python3.10 ./164_9.py 
+echo
+echo =164_10.py 
+python3.10 ./164_10.py 

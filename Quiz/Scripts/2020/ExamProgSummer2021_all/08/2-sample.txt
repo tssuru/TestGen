@@ -1,0 +1,170 @@
+def f(arg, n):
+    n = 6
+    tmp = arg
+    tmp[:2] = 'bd'
+    return len(tmp)>3
+
+try:
+    d = ['0','1','2','3','4']
+    n = 7
+    f(d, n)
+    print(n, end=';')
+    for el in d:
+        print(el, sep=';')
+except:
+    print('ERR')
+
+
+def f(arg, n):
+    n = 5
+    tmp = arg
+    del tmp[1:]
+    return len(tmp)>3
+
+try:
+    c = [10,11,12,13,14]
+    n = 1
+    f(c, n)
+    print(n, end=';')
+    for el in c:
+        print(el, sep=';')
+except:
+    print('ERR')
+
+
+def f(arg, n):
+    n = 2
+    tmp = arg
+    tmp[:5] = [1,2]
+    return len(tmp)>3
+
+try:
+    f = [10,11,12,13,14]
+    n = 0
+    f(f, n)
+    print(n, end=';')
+    for el in f:
+        print(el, sep=';')
+except:
+    print('ERR')
+
+
+def f(arg, n):
+    n = 9
+    tmp = arg
+    tmp[-5:-5] = [4,5]
+    return len(tmp)>3
+
+try:
+    b = ['0','1','2','3','4']
+    n = 4
+    f(b, n)
+    print(n, end=';')
+    for el in b:
+        print(el, sep=';')
+except:
+    print('ERR')
+
+
+def f(arg, n):
+    n = 8
+    tmp = arg
+    tmp[8:] = 'ab'
+    return len(tmp)>3
+
+try:
+    h = ['0','1','2','3','4']
+    n = 3
+    f(h, n)
+    print(n, end=';')
+    for el in h:
+        print(el, sep=';')
+except:
+    print('ERR')
+
+
+def f(arg, n):
+    n = 6
+    tmp = arg
+    del tmp[7:-8]
+    return len(tmp)>3
+
+try:
+    a = [10,11,12,13,14]
+    n = 3
+    f(a, n)
+    print(n, end=';')
+    for el in a:
+        print(el, sep=';')
+except:
+    print('ERR')
+
+
+def f(arg, n):
+    n = 4
+    tmp = arg
+    del tmp[-4:6]
+    return len(tmp)>3
+
+try:
+    g = [10,11,12,13,14]
+    n = 0
+    f(g, n)
+    print(n, end=';')
+    for el in g:
+        print(el, sep=';')
+except:
+    print('ERR')
+
+
+def f(arg, n):
+    n = 5
+    tmp = arg
+    tmp[-7:7] = 'ac'
+    return len(tmp)>3
+
+try:
+    e = ['0','1','2','3','4']
+    n = 1
+    f(e, n)
+    print(n, end=';')
+    for el in e:
+        print(el, sep=';')
+except:
+    print('ERR')
+
+
+def f(arg, n):
+    n = 9
+    tmp = arg
+    tmp[-9:1] = 'bc'
+    return len(tmp)>3
+
+try:
+    b = ['0','1','2','3','4']
+    n = 8
+    f(b, n)
+    print(n, end=';')
+    for el in b:
+        print(el, sep=';')
+except:
+    print('ERR')
+
+
+def f(arg, n):
+    n = 7
+    tmp = arg
+    tmp[:-2] = ()
+    return len(tmp)>3
+
+try:
+    c = [10,11,12,13,14]
+    n = 2
+    f(c, n)
+    print(n, end=';')
+    for el in c:
+        print(el, sep=';')
+except:
+    print('ERR')
+
+

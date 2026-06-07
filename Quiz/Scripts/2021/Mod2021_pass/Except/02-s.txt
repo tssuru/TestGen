@@ -1,0 +1,48 @@
+
+try:{ENDL}{SPACE4}print(1, end=""){ENDL}{SPACE4}print(1 / 0, end=""){ENDL}{SPACE4}print(2, end=""){ENDL}except Exception:{ENDL}{SPACE4}print(3, end=""){ENDL}except ZeroDivisionError:{ENDL}{SPACE4}print(4, end=""){ENDL}else:{ENDL}{SPACE4}print(5, end=""){ENDL}finally:{ENDL}{SPACE4}print(6, end=""){ENDL}{ENDL}
+
+try:{ENDL}{SPACE4}print(1, end=""){ENDL}{SPACE4}print(1 / 0, end=""){ENDL}{SPACE4}print(2, end=""){ENDL}except ZeroDivisionError:{ENDL}{SPACE4}print(3, end=""){ENDL}except Exception:{ENDL}{SPACE4}print(4, end=""){ENDL}else:{ENDL}{SPACE4}print(5, end=""){ENDL}finally:{ENDL}{SPACE4}print(6, end=""){ENDL}{ENDL}
+
+try:{ENDL}{SPACE4}print(1, end=""){ENDL}{SPACE4}print(1 / 0, end=""){ENDL}except ZeroDivisionError:{ENDL}{SPACE4}print(3, end=""){ENDL}except Exception:{ENDL}{SPACE4}print(4, end=""){ENDL}else:{ENDL}{SPACE4}print(1 / 0, end=""){ENDL}{SPACE4}print(5, end=""){ENDL}finally:{ENDL}{SPACE4}print(6, end=""){ENDL}{ENDL}
+
+try:{ENDL}{SPACE4}print(1, end=""){ENDL}{SPACE4}print(1 / 0, end=""){ENDL}{SPACE4}print(2, end=""){ENDL}except ZeroDivisionError:{ENDL}{SPACE4}print(3, end=""){ENDL}except:{ENDL}{SPACE4}print(4, end=""){ENDL}else:{ENDL}{SPACE4}print(5, end=""){ENDL}finally:{ENDL}{SPACE4}print(6, end=""){ENDL}{ENDL}
+
+try:{ENDL}{SPACE4}print(1, end=""){ENDL}{SPACE4}print(1 / 0, end=""){ENDL}except ZeroDivisionError:{ENDL}{SPACE4}print(3, end=""){ENDL}except Exception:{ENDL}{SPACE4}print(4, end=""){ENDL}else:{ENDL}{SPACE4}print(5, end=""){ENDL}finally:{ENDL}{SPACE4}print(2 / 0, end=""){ENDL}{SPACE4}print(6, end=""){ENDL}{ENDL}
+
+try:{ENDL}{SPACE4}print(1, end=""){ENDL}{SPACE4}print(1 / 0, end=""){ENDL}except ZeroDivisionError:{ENDL}{SPACE4}print(3, end=""){ENDL}except Exception:{ENDL}{SPACE4}print(2 / 0, end=""){ENDL}{SPACE4}print(4, end=""){ENDL}else:{ENDL}{SPACE4}print(5, end=""){ENDL}finally:{ENDL}{SPACE4}print(6, end=""){ENDL}{ENDL}
+
+try:{ENDL}{SPACE4}print(1, end=""){ENDL}{SPACE4}print(1 / 0, end=""){ENDL}except ZeroDivisionError:{ENDL}{SPACE4}print(2 / 0, end=""){ENDL}{SPACE4}print(3, end=""){ENDL}except Exception:{ENDL}{SPACE4}print(4, end=""){ENDL}else:{ENDL}{SPACE4}print(5, end=""){ENDL}finally:{ENDL}{SPACE4}print(6, end=""){ENDL}{ENDL}
+
+
+try:{ENDL}{SPACE4}print(1, end=""){ENDL}except ZeroDivisionError:{ENDL}{SPACE4}print(3, end=""){ENDL}except Exception:{ENDL}{SPACE4}print(4, end=""){ENDL}else:{ENDL}{SPACE4}print(1 / 0, end=""){ENDL}{SPACE4}print(5, end=""){ENDL}finally:{ENDL}{SPACE4}print(6, end=""){ENDL}{ENDL}
+
+def f(x):{ENDL}{SPACE4}return 1/x{ENDL}{ENDL}try:{ENDL}{SPACE4}print(f(0), end=""){ENDL}{SPACE4}print(1, end=""){ENDL}except Exception:{ENDL}{SPACE4}print(2, end=""){ENDL}else:{ENDL}{SPACE4}print(3, end=""){ENDL}finally:{ENDL}{SPACE4}print(4, end=""){ENDL}{ENDL}
+
+def f(x):{ENDL}{SPACE4}y = 1/x{ENDL}{SPACE4}print(0, end=""){ENDL}{ENDL}try:{ENDL}{SPACE4}f(0){ENDL}{SPACE4}print(1, end=""){ENDL}except Exception:{ENDL}{SPACE4}print(2, end=""){ENDL}else:{ENDL}{SPACE4}print(3, end=""){ENDL}finally:{ENDL}{SPACE4}print(4, end=""){ENDL}{ENDL}
+
+def f(x):{ENDL}{SPACE4}try:{ENDL}{SPACE4}{SPACE4}print(int(1 / x),{ENDL}{SPACE4}{SPACE4}{SPACE4}{SPACE4}   end=""){ENDL}{SPACE4}except:{ENDL}{SPACE4}{SPACE4}print(1, end=""){ENDL}{SPACE4}else:{ENDL}{SPACE4}{SPACE4}print(2, end=""){ENDL}{SPACE4}{SPACE4}raise TypeError{ENDL}{SPACE4}finally:{ENDL}{SPACE4}{SPACE4}print(3, end=""){ENDL}{ENDL}try:{ENDL}{SPACE4}f(0){ENDL}{SPACE4}f(1){ENDL}except:{ENDL}{SPACE4}print(4, end=""){ENDL}{ENDL}
+
+def f(x):{ENDL}{SPACE4}try:{ENDL}{SPACE4}{SPACE4}print(int(1 / x),{ENDL}{SPACE4}{SPACE4}{SPACE4}{SPACE4}   end=""){ENDL}{SPACE4}except:{ENDL}{SPACE4}{SPACE4}print(1, end=""){ENDL}{SPACE4}else:{ENDL}{SPACE4}{SPACE4}print(2, end=""){ENDL}{SPACE4}{SPACE4}raise TypeError{ENDL}{SPACE4}finally:{ENDL}{SPACE4}{SPACE4}print(3, end=""){ENDL}{ENDL}try:{ENDL}{SPACE4}f(1){ENDL}{SPACE4}f(0){ENDL}except:{ENDL}{SPACE4}print(4, end=""){ENDL}{ENDL}
+
+def f(x):{ENDL}{SPACE4}try:{ENDL}{SPACE4}{SPACE4}print(int(1 / x),{ENDL}{SPACE4}{SPACE4}{SPACE4}{SPACE4}   end=""){ENDL}{SPACE4}except TypeError:{ENDL}{SPACE4}{SPACE4}print(1, end=""){ENDL}{SPACE4}else:{ENDL}{SPACE4}{SPACE4}print(2, end=""){ENDL}{SPACE4}finally:{ENDL}{SPACE4}{SPACE4}print(3, end=""){ENDL}{ENDL}{ENDL}try:{ENDL}{SPACE4}f(0){ENDL}{SPACE4}f(1){ENDL}except:{ENDL}{SPACE4}print(4, end=""){ENDL}{ENDL}
+
+def f(x):{ENDL}{SPACE4}try:{ENDL}{SPACE4}{SPACE4}return int(1 / x){ENDL}{SPACE4}except:{ENDL}{SPACE4}{SPACE4}print(1, end=""){ENDL}{SPACE4}{SPACE4}return 0{ENDL}{SPACE4}else:{ENDL}{SPACE4}{SPACE4}print(2, end=""){ENDL}{SPACE4}{SPACE4}return 1{ENDL}{SPACE4}finally:{ENDL}{SPACE4}{SPACE4}print(3, end=""){ENDL}{ENDL}{ENDL}try:{ENDL}{SPACE4}print(f(1) and f(0), end=""){ENDL}{SPACE4}print(3, end=""){ENDL}except:{ENDL}{SPACE4}print(4, end=""){ENDL}{ENDL}
+
+def f(x):{ENDL}{SPACE4}try:{ENDL}{SPACE4}{SPACE4}print(int(1 / x),{ENDL}{SPACE4}{SPACE4}{SPACE4}{SPACE4}   end=""){ENDL}{SPACE4}except TypeError:{ENDL}{SPACE4}{SPACE4}print(1, end=""){ENDL}{SPACE4}else:{ENDL}{SPACE4}{SPACE4}print(2, end=""){ENDL}{SPACE4}finally:{ENDL}{SPACE4}{SPACE4}print(3, end=""){ENDL}{ENDL}{ENDL}try:{ENDL}{SPACE4}f(1){ENDL}{SPACE4}f(0){ENDL}except:{ENDL}{SPACE4}print(4, end=""){ENDL}{ENDL}
+
+def f(x):{ENDL}{SPACE4}try:{ENDL}{SPACE4}{SPACE4}return int(1 / x){ENDL}{SPACE4}except:{ENDL}{SPACE4}{SPACE4}print(1, end=""){ENDL}{SPACE4}{SPACE4}return 0{ENDL}{SPACE4}else:{ENDL}{SPACE4}{SPACE4}print(2, end=""){ENDL}{SPACE4}{SPACE4}return 1{ENDL}{SPACE4}finally:{ENDL}{SPACE4}{SPACE4}print(3, end=""){ENDL}{SPACE4}{SPACE4}return 2{ENDL}{ENDL}{ENDL}try:{ENDL}{SPACE4}print(f(1) and f(0), end=""){ENDL}{SPACE4}print(3, end=""){ENDL}except:{ENDL}{SPACE4}print(4, end=""){ENDL}{ENDL}
+
+def f(x):{ENDL}{SPACE4}try:{ENDL}{SPACE4}{SPACE4}return int(1 / x){ENDL}{SPACE4}except TypeError:{ENDL}{SPACE4}{SPACE4}print(1, end=""){ENDL}{SPACE4}else:{ENDL}{SPACE4}{SPACE4}print(2, end=""){ENDL}{SPACE4}{SPACE4}return 0{ENDL}{SPACE4}finally:{ENDL}{SPACE4}{SPACE4}print(3, end=""){ENDL}{SPACE4}{SPACE4}return 2{ENDL}{ENDL}try:{ENDL}{SPACE4}print(f(0) or f(1), end=""){ENDL}{SPACE4}print(3, end=""){ENDL}except:{ENDL}{SPACE4}print(4, end=""){ENDL}{ENDL}
+
+def f(x):{ENDL}{SPACE4}try:{ENDL}{SPACE4}{SPACE4}return int(1 / x){ENDL}{SPACE4}except TypeError:{ENDL}{SPACE4}{SPACE4}print(1, end=""){ENDL}{SPACE4}else:{ENDL}{SPACE4}{SPACE4}print(2, end=""){ENDL}{SPACE4}{SPACE4}return 0{ENDL}{SPACE4}finally:{ENDL}{SPACE4}{SPACE4}print(3, end=""){ENDL}{SPACE4}{SPACE4}return 2{ENDL}{ENDL}try:{ENDL}{SPACE4}print(f(0), end=""){ENDL}{SPACE4}print(f(1), end=""){ENDL}except:{ENDL}{SPACE4}print(4, end=""){ENDL}{ENDL}{ENDL}
+
+def f(x):{ENDL}{SPACE4}try:{ENDL}{SPACE4}{SPACE4}return int(1 / x){ENDL}{SPACE4}except TypeError:{ENDL}{SPACE4}{SPACE4}print(1, end=""){ENDL}{SPACE4}else:{ENDL}{SPACE4}{SPACE4}print(2, end=""){ENDL}{SPACE4}{SPACE4}return 0{ENDL}{SPACE4}finally:{ENDL}{SPACE4}{SPACE4}print(3, end=""){ENDL}{SPACE4}{SPACE4}return 2{ENDL}{ENDL}try:{ENDL}{SPACE4}print(f(1) or f(0), end=""){ENDL}{SPACE4}print(3, end=""){ENDL}except:{ENDL}{SPACE4}print(4, end=""){SPACE4}{ENDL}{ENDL}
+
+def f(x):{ENDL}{SPACE4}try:{ENDL}{SPACE4}{SPACE4}return int(1 / x){ENDL}{SPACE4}except TypeError:{ENDL}{SPACE4}{SPACE4}print(1, end=""){ENDL}{SPACE4}else:{ENDL}{SPACE4}{SPACE4}print(2, end=""){ENDL}{SPACE4}{SPACE4}return 0{ENDL}{SPACE4}finally:{ENDL}{SPACE4}{SPACE4}print(3, end=""){ENDL}{ENDL}try:{ENDL}{SPACE4}print(f(0), end=""){ENDL}{SPACE4}print(f(1), end=""){ENDL}except:{ENDL}{SPACE4}print(4, end=""){ENDL}{ENDL}
+
+def f(x):{ENDL}{SPACE4}try:{ENDL}{SPACE4}{SPACE4}return int(1 / x){ENDL}{SPACE4}except TypeError:{ENDL}{SPACE4}{SPACE4}print(1, end=""){ENDL}{SPACE4}else:{ENDL}{SPACE4}{SPACE4}print(2, end=""){ENDL}{SPACE4}{SPACE4}return 0{ENDL}{SPACE4}finally:{ENDL}{SPACE4}{SPACE4}print(3, end=""){ENDL}{ENDL}try:{ENDL}{SPACE4}print(f(0) or f(1), end=""){ENDL}{SPACE4}print(3, end=""){ENDL}except:{ENDL}{SPACE4}print(4, end=""){ENDL}{ENDL}
+
+
+def f(x):{ENDL}{SPACE4}try:{ENDL}{SPACE4}{SPACE4}return int(1 / x){ENDL}{SPACE4}except TypeError:{ENDL}{SPACE4}{SPACE4}print(1, end=""){ENDL}{SPACE4}else:{ENDL}{SPACE4}{SPACE4}print(2, end=""){ENDL}{SPACE4}{SPACE4}return 0{ENDL}{SPACE4}finally:{ENDL}{SPACE4}{SPACE4}print(3, end=""){ENDL}{ENDL}try:{ENDL}{SPACE4}print(f(1) or f(0), end=""){ENDL}{SPACE4}print(3, end=""){ENDL}except:{ENDL}{SPACE4}print(4, end=""){ENDL}{ENDL}
+
+

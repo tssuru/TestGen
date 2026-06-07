@@ -1,0 +1,30 @@
+echo
+echo =951_1.py 
+python3.10 ./951_1.py 
+echo
+echo =951_2.py 
+python3.10 ./951_2.py 
+echo
+echo =951_3.py 
+python3.10 ./951_3.py 
+echo
+echo =951_4.py 
+python3.10 ./951_4.py 
+echo
+echo =951_5.py 
+python3.10 ./951_5.py 
+echo
+echo =951_6.py 
+python3.10 ./951_6.py 
+echo
+echo =951_7.py 
+python3.10 ./951_7.py 
+echo
+echo =951_8.py 
+python3.10 ./951_8.py 
+echo
+echo =951_9.py 
+python3.10 ./951_9.py 
+echo
+echo =951_10.py 
+python3.10 ./951_10.py 

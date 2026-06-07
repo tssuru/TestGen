@@ -1,0 +1,57 @@
+{
+  "jobId": "6b941277-f345-4c1c-9e9b-2db544404f86",
+  "createdAt": "2026-03-03T13:17:05.134Z",
+  "inputConfigHash": "pending",
+  "engineVersion": "pending",
+  "artifacts": [
+    {
+      "name": "config.json",
+      "path": "/app/platform/api/tmp/6b941277-f345-4c1c-9e9b-2db544404f86/config.json",
+      "size": 362,
+      "sha256": "f33046bbb6675b1bcc0a3a78c21cdef910f441584af363dc91b31012ab40a478"
+    },
+    {
+      "name": "answers.json",
+      "path": "/app/platform/api/tmp/6b941277-f345-4c1c-9e9b-2db544404f86/answers.json",
+      "size": 111,
+      "sha256": "f3a8e23b7d94965fb258e453fbcd4fe47f667bb0dae23fa4bfb522cae635df67"
+    },
+    {
+      "name": "answers.md",
+      "path": "/app/platform/api/tmp/6b941277-f345-4c1c-9e9b-2db544404f86/answers.md",
+      "size": 135,
+      "sha256": "a52042c0d1df3ee139656cbb8ef49556fadc64d3a08da13b2990d5bc19a881bf"
+    },
+    {
+      "name": "test.print.md",
+      "path": "/app/platform/api/tmp/6b941277-f345-4c1c-9e9b-2db544404f86/test.print.md",
+      "size": 204,
+      "sha256": "feb12f86a9909429bcdee32bc8f1d3ae8386635302cfbaee221a6e6035308159"
+    },
+    {
+      "name": "test.lms.md",
+      "path": "/app/platform/api/tmp/6b941277-f345-4c1c-9e9b-2db544404f86/test.lms.md",
+      "size": 264,
+      "sha256": "03dbdbbacc041e35fddffbb053422ecd9d9a8f47cca7e92220435d75c4c5532b"
+    },
+    {
+      "name": "test.md",
+      "path": "/app/platform/api/tmp/6b941277-f345-4c1c-9e9b-2db544404f86/test.md",
+      "size": 204,
+      "sha256": "feb12f86a9909429bcdee32bc8f1d3ae8386635302cfbaee221a6e6035308159"
+    },
+    {
+      "name": "quiz.pdf",
+      "path": "/app/platform/api/tmp/6b941277-f345-4c1c-9e9b-2db544404f86/quiz.pdf",
+      "size": 32096,
+      "sha256": "505694e8f9a9fe8afec1be8927805603a9d9fdda2352bd003f4d9b8279de164f"
+    },
+    {
+      "name": "test.docx",
+      "path": "/app/platform/api/tmp/6b941277-f345-4c1c-9e9b-2db544404f86/test.docx",
+      "size": 10059,
+      "sha256": "5012076515ee2132d4ca644039cbe8f1661649fb61043acc48abdda26078131d"
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,26 @@
+<fabric>
+check auto
+  <good>
+   good3.txt
+  <\good>
+  <bad>
+   bad3.txt
+  <\bad>
+  <ncase>
+	4
+  <\ncase>
+<nGood>
+1
+<\nGood>
+<before>
+Що є характерним для структурного програмування?\par{ENDL}
+\vspace{2mm}{ENDL}{ENDL}
+<\before>
+
+//<after>
+//{ENDL}{ENDL}
+//\vspace{5mm}{ENDL}{ENDL}
+//Кількість правильних відповідей може бути від 0 до 4.{ENDL}{ENDL}
+//<\after>
+
+<\fabric>

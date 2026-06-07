@@ -1,0 +1,14 @@
+<fabric>
+     file answer
+     <fname>
+         SetOperations/04-02-s.txt
+     <\fname>
+
+     <before>
+Нехай змінна \kw{s} позначає послідовність цілих, по якій можна ітерувати. {ENDL}{ENDL}Написати вираз, що перевіряє, чи правда, що послідовність  містить{SPACE} 
+     <\before>
+<after>
+.{ENDL}
+<\after>
+
+  <\fabric>

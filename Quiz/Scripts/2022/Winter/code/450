@@ -1,0 +1,30 @@
+echo
+echo =450_1.py 
+python3.10 ./450_1.py 
+echo
+echo =450_2.py 
+python3.10 ./450_2.py 
+echo
+echo =450_3.py 
+python3.10 ./450_3.py 
+echo
+echo =450_4.py 
+python3.10 ./450_4.py 
+echo
+echo =450_5.py 
+python3.10 ./450_5.py 
+echo
+echo =450_6.py 
+python3.10 ./450_6.py 
+echo
+echo =450_7.py 
+python3.10 ./450_7.py 
+echo
+echo =450_8.py 
+python3.10 ./450_8.py 
+echo
+echo =450_9.py 
+python3.10 ./450_9.py 
+echo
+echo =450_10.py 
+python3.10 ./450_10.py 

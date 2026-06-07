@@ -1,0 +1,102 @@
+<document>
+
+  <header>
+\documentclass[12pt, ukrainian]{article}{ENDL}
+\usepackage[a4paper]{geometry}{ENDL}
+\setlength\parindent{0mm}{ENDL}
+\setlength\parskip{4mm}{ENDL}
+\geometry{top=1.5cm,bottom=1.5cm,left=1.3cm,right=1.5cm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage{caption}{ENDL}
+\usepackage{caption}{ENDL}
+\DeclareCaptionFormat{nocaption}{}{ENDL}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}{ENDL}
+\usepackage[Export]{adjustbox} {ENDL}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}
+\usepackage{verbatim, listings, clrscode3e, fancyvrb}{ENDL}
+\def\code#1{\Verb!#1!}{ENDL}
+\begin{document}{ENDL}
+
+  <\header>
+
+  <footer>
+\end{document}{ENDL}
+
+  <\footer>
+
+  <onNextVariant>
+
+{ENDL}{ENDL}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+\newpage{ENDL}
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+    50
+  <\to>
+
+  <onPage>
+   1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+\begin {large}{ENDL}{ENDL}
+\textbf{01.12.2023 Контрольна робота, варіант  \No { #No# }}\par{ENDL}
+{ENDL}{ENDL}
+{{ENDL}
+
+
+<\before>
+
+<after>
+}{ENDL}
+%end{ENDL}
+\end {large}{ENDL}{ENDL}
+\vspace{4mm}{ENDL}
+
+<\after>
+
+<\variant>
+
+<item>
+   include q0.txt
+<delim>
+{ENDL}{ENDL}\vspace{5mm}{ENDL}
+  <\delim>
+<\item>
+
+
+<item>
+   include q1.txt
+<delim>
+{ENDL}{ENDL}\vspace{5mm}{ENDL}
+  <\delim>
+<\item>
+
+<item>
+   include f1.txt
+<delim>
+{ENDL}{ENDL}\vspace{5mm}{ENDL}
+  <\delim>
+<\item>
+
+
+
+
+
+
+

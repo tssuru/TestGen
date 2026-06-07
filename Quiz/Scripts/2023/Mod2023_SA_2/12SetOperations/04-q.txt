@@ -1,0 +1,36 @@
+<fabric>
+  collate
+  <fabric>
+       collate 
+        include 12SetOperations/04-01-q.txt
+        include 12SetOperations/04-02-q.txt
+        <n1>
+         8
+        <\n1>
+        <n2>
+         6
+        <\n2>
+     <\fabric>
+
+  <fabric>
+       collate 
+        include 12SetOperations/04-03-q.txt
+        include 12SetOperations/04-04-q.txt
+        <n1>
+         6
+        <\n1>
+        <n2>
+         6
+        <\n2>
+  <\fabric>
+
+  <n1>
+     14
+  <\n1>
+  <n2>
+     12
+  <\n2>
+<\fabric>
+
+
+

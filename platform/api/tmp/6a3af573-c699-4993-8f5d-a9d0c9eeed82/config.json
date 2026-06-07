@@ -1,0 +1,21 @@
+{
+  "title": "Контрольна робота",
+  "variantCount": 4,
+  "questionsPerVariant": 3,
+  "questionTypeFilter": "mixed",
+  "shuffleQuestions": true,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print",
+  "selection": {
+    "balancingStrategy": "alternate",
+    "closedShare": 0.5,
+    "uniquenessRule": "withinVariant",
+    "duplicatePolicy": "forbid",
+    "maxReusePercent": 0,
+    "seedStability": "variant",
+    "sourcePolicy": "all",
+    "sourceAllowlist": [],
+    "outputOrder": "random"
+  }
+}

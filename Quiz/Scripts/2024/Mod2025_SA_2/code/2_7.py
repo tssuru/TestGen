@@ -1,0 +1,4 @@
+try:
+    e = ('a','b','c','d','e',0,1)
+    print(e[3])
+except: print('error')

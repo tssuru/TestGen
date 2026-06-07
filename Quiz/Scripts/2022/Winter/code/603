@@ -1,0 +1,30 @@
+echo
+echo =603_1.py 
+python3.10 ./603_1.py 
+echo
+echo =603_2.py 
+python3.10 ./603_2.py 
+echo
+echo =603_3.py 
+python3.10 ./603_3.py 
+echo
+echo =603_4.py 
+python3.10 ./603_4.py 
+echo
+echo =603_5.py 
+python3.10 ./603_5.py 
+echo
+echo =603_6.py 
+python3.10 ./603_6.py 
+echo
+echo =603_7.py 
+python3.10 ./603_7.py 
+echo
+echo =603_8.py 
+python3.10 ./603_8.py 
+echo
+echo =603_9.py 
+python3.10 ./603_9.py 
+echo
+echo =603_10.py 
+python3.10 ./603_10.py 

@@ -1,0 +1,30 @@
+echo
+echo =728_1.py 
+python3.10 ./728_1.py 
+echo
+echo =728_2.py 
+python3.10 ./728_2.py 
+echo
+echo =728_3.py 
+python3.10 ./728_3.py 
+echo
+echo =728_4.py 
+python3.10 ./728_4.py 
+echo
+echo =728_5.py 
+python3.10 ./728_5.py 
+echo
+echo =728_6.py 
+python3.10 ./728_6.py 
+echo
+echo =728_7.py 
+python3.10 ./728_7.py 
+echo
+echo =728_8.py 
+python3.10 ./728_8.py 
+echo
+echo =728_9.py 
+python3.10 ./728_9.py 
+echo
+echo =728_10.py 
+python3.10 ./728_10.py 

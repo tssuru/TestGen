@@ -1,0 +1,30 @@
+echo
+echo =486_1.py 
+python3.10 ./486_1.py 
+echo
+echo =486_2.py 
+python3.10 ./486_2.py 
+echo
+echo =486_3.py 
+python3.10 ./486_3.py 
+echo
+echo =486_4.py 
+python3.10 ./486_4.py 
+echo
+echo =486_5.py 
+python3.10 ./486_5.py 
+echo
+echo =486_6.py 
+python3.10 ./486_6.py 
+echo
+echo =486_7.py 
+python3.10 ./486_7.py 
+echo
+echo =486_8.py 
+python3.10 ./486_8.py 
+echo
+echo =486_9.py 
+python3.10 ./486_9.py 
+echo
+echo =486_10.py 
+python3.10 ./486_10.py 

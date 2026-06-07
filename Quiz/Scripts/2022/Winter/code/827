@@ -1,0 +1,30 @@
+echo
+echo =827_1.py 
+python3.10 ./827_1.py 
+echo
+echo =827_2.py 
+python3.10 ./827_2.py 
+echo
+echo =827_3.py 
+python3.10 ./827_3.py 
+echo
+echo =827_4.py 
+python3.10 ./827_4.py 
+echo
+echo =827_5.py 
+python3.10 ./827_5.py 
+echo
+echo =827_6.py 
+python3.10 ./827_6.py 
+echo
+echo =827_7.py 
+python3.10 ./827_7.py 
+echo
+echo =827_8.py 
+python3.10 ./827_8.py 
+echo
+echo =827_9.py 
+python3.10 ./827_9.py 
+echo
+echo =827_10.py 
+python3.10 ./827_10.py 

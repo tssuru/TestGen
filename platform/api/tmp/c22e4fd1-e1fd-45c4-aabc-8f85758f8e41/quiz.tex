@@ -1,0 +1,284 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{pdf-check-mixed}}
+
+\textbf{Варіант \No\,1}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Відмітити всі правильні варіанти:
+( 1 ) 8,3
+
+( 2 ) <>
+
+( 3 ) 8.3
+
+( 4 ) FIFO
+
+%enditem
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (6 * 6 * 6 * 6);
+%code
+
+%enditem
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(-2**-2+1)
+%code
+
+%enditem
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+� ������ ���������� ������ ���� �������� p->prev=p->prev->prev;
+���� ������� �������� p->prev->prev->prev->prev->n ?
+%enditem
+%beginitem
+5. Відмітити все, що є коректним оператором С++:
+( 1 ) cout>>3;
+
+( 2 ) int x+y=z;
+
+( 3 ) cout<<3.4;
+
+( 4 ) int f(int n);
+
+%enditem
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+bool f(int n){
+    cout<<"f";
+    return n;
+}
+
+int main(){
+    cout<<(f(-6) && f(0));
+    return 0;
+}
+%code
+
+%enditem
+%beginitem
+7. Що буде виведено за виконання фрагменту коду?
+В умовах попередньої задачі було виконано p->prev=p->prev->prev;
+
+Чому дорівнює значення p->prev->prev->prev->prev->n ?
+%enditem
+%beginitem
+8. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+int a = 2, b = 9, c = 0;
+
+int f(){
+    inta = 2;
+    intb = 5;
+    intc = 4;
+    return a + b + c;
+}
+
+int main(){
+    inta = 6;
+    intb = 7;
+    intc = 1;
+    cout << f() << ':';
+    cout << a << ':' << b << ':' << c;
+    return 0;
+}
+%code
+
+%enditem
+%beginitem
+9. Відмітити все, що є коректним оператором С++:
+( 1 ) cout>>3;
+
+( 2 ) int x+y=z;
+
+( 3 ) cout<<3.4;
+
+( 4 ) int f(int n);
+
+%enditem
+%beginitem
+10. Відмітити всі правильні варіанти:
+( 1 ) 8,3
+
+( 2 ) <>
+
+( 3 ) 8.3
+
+( 4 ) FIFO
+
+%enditem
+
+
+
+
+
+
+
+
+
+
+%end
+\vspace{10mm}
+\noindent\rule{\textwidth}{0.3pt}
+\vspace{8mm}
+%begin
+{\large\textbf{pdf-check-mixed}}
+
+\textbf{Варіант \No\,2}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Відмітити всі правильні варіанти:
+( 1 ) [1]
+
+( 2 ) =<
+
+( 3 ) z13
+
+( 4 ) >
+
+%enditem
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+� ������ ���������� ������ ���� �������� p->next=p->prev->prev;
+���� ������� �������� p->next->next->next->next->n ?
+%enditem
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << (5 % 5 % 5 % 5);
+%code
+
+%enditem
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+bool f(int n){
+    cout<<"f";
+    return n>-1;
+}
+
+int main(){
+    cout<<(f(1) || f(6));
+    return 0;
+}
+%code
+
+%enditem
+%beginitem
+5. Відмітити все, що є коректним оператором С++:
+( 1 ) int f(int a,b);
+
+( 2 ) if a<b a=0;
+
+( 3 ) x-=2;
+
+( 4 ) int x='a'-'c';
+
+%enditem
+%beginitem
+6. Відмітити всі правильні варіанти:
+( 1 ) [1]
+
+( 2 ) =<
+
+( 3 ) z13
+
+( 4 ) >
+
+%enditem
+%beginitem
+7. Відмітити все, що є коректним оператором С++:
+( 1 ) int f(int a,b);
+
+( 2 ) if a<b a=0;
+
+( 3 ) x-=2;
+
+( 4 ) int x='a'-'c';
+
+%enditem
+%beginitem
+8. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+int a = 3, b = 8, c = 6;
+
+int h(){
+    inta = 3;
+    intb = 4;
+    intc = 3;
+    return a + b + c;
+}
+
+int main(){
+    inta = 1;
+    intb = 7;
+    intc = 2;
+    cout << h() << ':';
+    cout << a << ':' << b << ':' << c;
+    return 0;
+}
+%code
+
+%enditem
+%beginitem
+9. Що буде виведено за виконання фрагменту коду?
+В умовах попередньої задачі було виконано p->next=p->prev->prev;
+
+Чому дорівнює значення p->next->next->next->next->n ?
+%enditem
+%beginitem
+10. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(2**1.0-2)
+%code
+
+%enditem
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+\end{document}
+

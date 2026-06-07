@@ -1,0 +1,37 @@
+//source for question like
+//840 questions
+//Що буде надруковано за виконання:\n
+
+//recursion
+
+<sample>
+
+<\sample>
+
+<declarations>
+
+a=[6 09Recursion/01-02-s.txt]
+
+
+<\declarations>
+
+<template>
+{ENDL}
+%code{ENDL}
+#a[0]#{ENDL}
+{SPACE4}#a[1]#{ENDL}
+{SPACE4}#a[2]#{ENDL}
+{SPACE4}#a[3]#{ENDL}
+{SPACE4}#a[4]#{ENDL}
+{ENDL}
+//print('R', end=' '){ENDL}
+#a[5]#{ENDL}
+%code{ENDL}
+{ENDL}
+{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

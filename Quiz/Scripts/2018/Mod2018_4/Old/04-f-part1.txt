@@ -1,0 +1,29 @@
+//source for question like
+//80 questions
+//ўо буде надруковано за виконанн€:\n
+
+//array indexing
+
+<sample>
+
+int e[]={1,2,3,4,5,6,7,8,9}; cout<<e[2]; (в≥дпов≥дь "до виконанн€ не можна визначити" також можлива)
+
+<\sample>
+
+<declarations>
+
+id={<char> a h}
+num={<int> 0 9}
+
+<\declarations>
+
+<template>
+
+int #id#[]={1,2,3,4,5,6,7,8,9}; cout<<#id#[#num#]; (в≥дпов≥дь "до виконанн€ не можна визначити" також можлива)
+
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

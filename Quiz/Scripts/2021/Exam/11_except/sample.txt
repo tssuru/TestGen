@@ -1,0 +1,140 @@
+try:
+    print(0, end=';')
+    print(int('7'), end=';')
+    print(2, end=';')
+except BaseException:
+    print(9, end=';')
+except TypeError:
+    print(1, end=';')
+else:
+    print(4, end=';')
+finally:
+    print(6, end=';')
+
+
+try:
+    print(5, end=';')
+    print(8%1, end=';')
+    print(3, end=';')
+except ZeroDivisionError:
+    print(0, end=';')
+except Exception:
+    print(8, end=';')
+else:
+    print(4, end=';')
+finally:
+    print(1, end=';')
+
+
+try:
+    print(6, end=';')
+    print(2//0.0, end=';')
+    print(9, end=';')
+except ValueError:
+    print(3, end=';')
+except KeyboardInterrupt:
+    print(7, end=';')
+else:
+    print(5, end=';')
+finally:
+    print(4, end=';')
+
+
+try:
+    print(0, end=';')
+    print(int('a8'), end=';')
+    print(7, end=';')
+except KeyboardInterrupt:
+    print(5, end=';')
+except Exception:
+    print(2, end=';')
+else:
+    print(6, end=';')
+finally:
+    print(1, end=';')
+
+
+try:
+    print(9, end=';')
+    print(3j<4j, end=';')
+    print(5, end=';')
+except ZeroDivisionError:
+    print(3, end=';')
+except ValueError:
+    print(9, end=';')
+else:
+    print(0, end=';')
+finally:
+    print(4, end=';')
+
+
+try:
+    print(1, end=';')
+    print(8j>9j, end=';')
+    print(7, end=';')
+except TypeError:
+    print(2, end=';')
+except BaseException:
+    print(6, end=';')
+else:
+    print(0, end=';')
+finally:
+    print(5, end=';')
+
+
+try:
+    print(4, end=';')
+    print(7/3, end=';')
+    print(6, end=';')
+except ZeroDivisionError:
+    print(9, end=';')
+except ValueError:
+    print(3, end=';')
+else:
+    print(1, end=';')
+finally:
+    print(2, end=';')
+
+
+try:
+    print(8, end=';')
+    print(int('d2'), end=';')
+    print(7, end=';')
+except BaseException:
+    print(0, end=';')
+except TypeError:
+    print(5, end=';')
+else:
+    print(8, end=';')
+finally:
+    print(6, end=';')
+
+
+try:
+    print(4, end=';')
+    print(int('1'), end=';')
+    print(3, end=';')
+except KeyboardInterrupt:
+    print(9, end=';')
+except Exception:
+    print(6, end=';')
+else:
+    print(8, end=';')
+finally:
+    print(0, end=';')
+
+
+try:
+    print(4, end=';')
+    print(1%0, end=';')
+    print(3, end=';')
+except ZeroDivisionError:
+    print(9, end=';')
+except TypeError:
+    print(2, end=';')
+else:
+    print(7, end=';')
+finally:
+    print(5, end=';')
+
+

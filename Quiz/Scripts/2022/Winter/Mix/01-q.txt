@@ -1,0 +1,11 @@
+  <fabric>
+    collate 
+    include Mix/01-01-q.txt
+    include Mix/01-02-q.txt
+    <n1>
+        8
+    <\n1>
+    <n2>
+         20
+    <\n2>
+  <\fabric>

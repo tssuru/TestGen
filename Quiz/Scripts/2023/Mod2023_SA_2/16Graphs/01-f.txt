@@ -1,0 +1,27 @@
+//source for question like
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+n=[7 16Graphs/AdjList/all.txt]
+<\declarations>
+
+<template>
+{ENDL}
+\begin{center}{ENDL}
+{TAB}\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}
+{TAB}{../16Graphs/AdjList/#n[0]#.png}{ENDL}
+\end{center}{ENDL}
+Для графа, зображеного на рис., вказати список суміжності вершини #n[3]#.\par{ENDL}
+Формат оформлення відповіді:\par{ENDL}
+список суміжності виписувати через пробіл на одному рядку,{SPACE} 
+якщо пробілів десь буде більше одного - не важливо,{SPACE} 
+упорядкування вершин у списку також значення не має.{ENDL}
+%answer:#n[5]#{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>

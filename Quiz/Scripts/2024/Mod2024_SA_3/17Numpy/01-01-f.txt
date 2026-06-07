@@ -1,0 +1,29 @@
+<sample>
+
+
+<\sample>
+
+<declarations>
+
+a1={<int> 2 5}
+a2={<int> 2 5}
+sign=+;-
+d={<int> 1 3}
+s={<int> 20 50}
+<\declarations>
+
+<template>
+$a$ є цілочисловим масивом типу $numpy.ndarray$ розмірів $#a1#{\times}#a2#$.{SPACE}
+Сума елементів масиву $a$ дорівнює #s#. Чому дорівнює сума елементів масиву $a$ після виконання {ENDL}
+\begin{verbatim}{ENDL}
+a #sign#= #s#{ENDL}
+\end{verbatim}{ENDL}
+{ENDL}
+{ENDL}
+Якщо код некоректний, то в якості відповіді зазначити ERROR.{ENDL}
+{ENDL}
+{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>

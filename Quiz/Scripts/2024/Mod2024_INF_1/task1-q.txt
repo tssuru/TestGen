@@ -1,0 +1,14 @@
+<fabric>
+     file answer
+     <fname>
+//     task1.txt
+	task1_beta.txt
+     <\fname>
+
+     <before>
+	 {ENDL}Написати функцiю f, що отримує{SPACE} 
+     <\before>
+     <after>
+	. Стиль запису умови також оцінюється. {ENDL}{ENDL}{ENDL}
+     <\after>
+  <\fabric>

@@ -1,0 +1,14 @@
+<fabric>
+     file answer
+     <fname>
+         SetOperations/03-05-s.txt
+     <\fname>
+
+     <before>
+Задано словник \kw{d} з цілими ключами та значеннями. Записати ВИРАЗ, значенням якого є множина, що складається {SPACE} 
+     <\before>
+<after>
+.{ENDL}
+<\after>
+
+  <\fabric>

@@ -1,0 +1,30 @@
+echo
+echo =616_1.py 
+python3.10 ./616_1.py 
+echo
+echo =616_2.py 
+python3.10 ./616_2.py 
+echo
+echo =616_3.py 
+python3.10 ./616_3.py 
+echo
+echo =616_4.py 
+python3.10 ./616_4.py 
+echo
+echo =616_5.py 
+python3.10 ./616_5.py 
+echo
+echo =616_6.py 
+python3.10 ./616_6.py 
+echo
+echo =616_7.py 
+python3.10 ./616_7.py 
+echo
+echo =616_8.py 
+python3.10 ./616_8.py 
+echo
+echo =616_9.py 
+python3.10 ./616_9.py 
+echo
+echo =616_10.py 
+python3.10 ./616_10.py 

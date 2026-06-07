@@ -1,0 +1,30 @@
+echo
+echo =634_1.py 
+python3.10 ./634_1.py 
+echo
+echo =634_2.py 
+python3.10 ./634_2.py 
+echo
+echo =634_3.py 
+python3.10 ./634_3.py 
+echo
+echo =634_4.py 
+python3.10 ./634_4.py 
+echo
+echo =634_5.py 
+python3.10 ./634_5.py 
+echo
+echo =634_6.py 
+python3.10 ./634_6.py 
+echo
+echo =634_7.py 
+python3.10 ./634_7.py 
+echo
+echo =634_8.py 
+python3.10 ./634_8.py 
+echo
+echo =634_9.py 
+python3.10 ./634_9.py 
+echo
+echo =634_10.py 
+python3.10 ./634_10.py 

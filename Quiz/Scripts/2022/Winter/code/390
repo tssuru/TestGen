@@ -1,0 +1,30 @@
+echo
+echo =390_1.py 
+python3.10 ./390_1.py 
+echo
+echo =390_2.py 
+python3.10 ./390_2.py 
+echo
+echo =390_3.py 
+python3.10 ./390_3.py 
+echo
+echo =390_4.py 
+python3.10 ./390_4.py 
+echo
+echo =390_5.py 
+python3.10 ./390_5.py 
+echo
+echo =390_6.py 
+python3.10 ./390_6.py 
+echo
+echo =390_7.py 
+python3.10 ./390_7.py 
+echo
+echo =390_8.py 
+python3.10 ./390_8.py 
+echo
+echo =390_9.py 
+python3.10 ./390_9.py 
+echo
+echo =390_10.py 
+python3.10 ./390_10.py 

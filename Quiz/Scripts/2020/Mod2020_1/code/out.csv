@@ -1,0 +1,151 @@
+var;1;2;3;4;5;6;7;8;9;10;11;12;13;14
+1;int;72;float;2.04;bool;False;bool;True;Af8;A4 9 2;A9;A10 1 7 2;A5 1 29 7 6;A34569
+2;float;1.29;float;-0.50;bool;True;bool;False;AfFalse;A3 1 6;A2;A6 3 0 1;ERROR;A115
+3;float;0.00;float;2.00;bool;True;bool;False;AffTrue;A0 7 3;A1;A12 6 7 2;AERROR;A80971
+4;float;1.00;float;-0.11;bool;False;ERROR;ERROR;Aff4;A2 5 5;A8;A11 7 5 5;ERROR;A629
+5;float;12.00;int;-2;bool;True;ERROR;ERROR;Aff-3;A0 6 0;A1;A6 3 2 1;A1 0 36 8 7;A357
+6;float;0.86;float;9.00;bool;False;ERROR;ERROR;AffTrue;A1 1 1;A2;A12 9 1 5;A5 2 98 6 7;A432
+7;int;0;int;0;bool;True;bool;True;AfFalse;A9 5 7;A5;A6 6 5 3;ERROR;A93.0135
+8;float;20.25;float;0.00;bool;False;bool;True;Af3;A3 4 2;A8;A16 8 2 3;ERROR;A80126
+9;int;30;float;4.00;bool;False;bool;False;Af0;A0 6 2;A1;A7 9 2 2;ERROR;A353
+10;float;5.00;float;-1.00;bool;True;bool;True;AfTrue;A8 1 4;A0;A13 9 3 5;ERROR;A178
+11;float;1.56;float;7.00;bool;True;ERROR;ERROR;Af-8;A4 9 7;A7;A7 0 1 4;A0 3 57 8 7;A913
+12;int;0;float;0.33;bool;False;bool;True;AfFalse;A3 3 6;A4;A7 0 2 3;A0 4 27 6 8;A78624
+13;float;0.56;float;1.00;bool;True;bool;False;AffTrue;A2 7 3;A7;AERROR;ERROR;A35ERROR
+14;int;0;int;-1;bool;True;bool;True;Aff-7;A1 4 1;A9;A13 8 9 4;AERROR;A38102
+15;float;126.00;float;3.00;bool;False;bool;False;Aff-1;A9 2 4;A6;A12 7 4 4;A0 4 99 6 8;A9True486
+16;int;0;float;-1.75;bool;True;bool;False;AffFalse;A1 3 1;A2;A10 9 0 3;ERROR;A30976
+17;int;0;float;0.00;bool;False;ERROR;ERROR;AffFalse;A8 0 0;A4;A8 8 3 4;ERROR;A158
+18;float;2.67;float;0.50;bool;True;ERROR;ERROR;Af-3;A2 4 7;A5;AERROR;A1 1 46 7 8;A224
+19;float;29.40;float;2.25;bool;True;ERROR;ERROR;Aff7;A2 7 8;A6;A7 8 1 0;AERROR;A06502
+20;int;4;float;-18.00;bool;True;bool;False;AfTrue;A3 4 4;A7;A8 9 5 2;ERROR;A769
+21;int;0;int;4;bool;True;bool;True;Aff-6;A5 4 6;A1;A10 1 2 4;A1 3 69 7 8;A476
+22;float;72.00;float;-0.50;bool;False;ERROR;ERROR;AfTrue;A0 1 0;A4;AERROR;ERROR;A51.5293
+23;float;0.90;float;-10.00;bool;True;bool;True;Af-7;A0 0 3;A6;A8 9 0 3;ERROR;A179
+24;int;0;float;1.00;bool;True;ERROR;ERROR;AffTrue;A6 2 2;A9;AERROR;AERROR;A35487
+25;int;63;float;0.00;bool;False;ERROR;ERROR;AfTrue;A5 6 4;A5;A21 8 7 4;A2 1 57 8 9;A104
+26;float;2.00;float;1.00;bool;True;ERROR;ERROR;Af0;A3 1 3;A2;A11 3 5 6;AERROR;A5False715
+27;float;1.94;float;-1.00;bool;True;bool;False;AfTrue;A7 2 3;A9;A10 3 6 5;ERROR;A06ERROR
+28;int;0;float;-1.50;bool;True;bool;True;Aff3;A7 5 9;A8;A6 7 0 5;ERROR;A905
+29;int;9;float;0.25;bool;True;bool;False;AffFalse;A8 2 0;A1;AERROR;ERROR;A11.3333333333333333270
+30;float;1.75;float;0.67;bool;False;ERROR;ERROR;Af6;A1 6 3;A3;A8 3 1 3;AERROR;A96543
+31;float;50.40;int;-3;bool;False;ERROR;ERROR;Af-3;A0 5 9;A5;A11 2 0 3;ERROR;A280
+32;int;0;float;1.94;bool;True;bool;True;AffTrue;A6 4 1;A8;AERROR;A1 4 38 7 6;A748
+33;int;0;float;-3.00;bool;True;bool;False;Af4;A1 8 5;A5;A6 6 5 1;A0 2 69 8 7;A33259
+34;float;6.67;int;257;bool;False;ERROR;ERROR;AfFalse;A0 3 6;A5;A9 3 7 1;A2 5 36 9 8;A34716
+35;float;0.33;float;0.25;bool;False;bool;True;Aff-2;A1 2 0;A4;A11 4 5 2;A4 1 07 9 8;A812
+36;int;0;float;-1.00;bool;False;ERROR;ERROR;AffFalse;A3 4 9;A2;A10 3 6 1;ERROR;A302
+37;float;0.00;float;-1.00;bool;False;ERROR;ERROR;Af-5;A6 4 5;A6;A6 2 4 9;AERROR;A93718
+38;float;0.67;float;-1.89;bool;True;bool;False;AfFalse;A7 0 9;A2;A12 6 5 3;ERROR;A42.5926
+39;float;12.25;float;-1.00;bool;False;ERROR;ERROR;AffTrue;A2 8 3;A0;A7 8 2 1;ERROR;A81ERROR
+40;int;36;float;-0.25;bool;True;bool;True;Aff-4;A4 0 0;A7;A10 0 6 3;A4 0 36 7 9;A86ERROR
+41;float;2.00;float;-1.01;bool;True;ERROR;ERROR;AfTrue;A3 3 0;A7;A7 6 0 4;ERROR;A03.0917
+42;float;0.00;float;9.00;bool;False;bool;True;Aff4;A1 1 9;A7;A3 9 4 3;ERROR;A62813
+43;int;0;float;0.50;bool;False;bool;True;Aff-5;A6 1 7;A3;A12 8 3 2;AERROR;A8False201
+44;float;0.00;float;1.00;bool;True;ERROR;ERROR;AfTrue;A3 0 5;A6;A21 7 8 3;AERROR;A789
+45;float;2.00;float;0.02;bool;False;bool;False;Af1;A4 4 1;A4;A6 6 8 2;AERROR;A380
+46;float;36.00;float;6.00;bool;True;bool;False;AffTrue;A2 3 9;A3;AERROR;ERROR;A72ERROR
+47;float;8.00;int;-6;bool;True;bool;True;AfFalse;A8 7 5;A3;AERROR;ERROR;A50093
+48;int;0;float;4.00;bool;False;bool;True;Af5;A3 0 6;A8;A10 1 8 5;A5 1 46 9 8;A63468
+49;int;0;float;0.00;bool;False;bool;False;Aff-8;A7 9 4;A1;A10 7 6 4;A2 3 46 9 7;A756
+50;float;0.00;float;6.00;bool;True;ERROR;ERROR;AfTrue;A5 8 5;A2;A7 2 8 9;A1 5 08 9 8;A53ERROR
+51;int;0;float;0.00;bool;True;ERROR;ERROR;Aff-4;A6 2 2;A4;A11 6 0 9;ERROR;A790
+52;float;0.38;float;0.33;bool;True;bool;True;AfTrue;A5 9 5;A9;A10 6 3 1;ERROR;A54638
+53;float;32.00;float;1.12;bool;True;ERROR;ERROR;Aff-5;A3 7 3;A8;A9 9 6 2;ERROR;A10053
+54;int;0;float;2.00;bool;False;bool;True;AfTrue;A1 8 5;A3;A8 1 3 8;A4 1 36 7 8;A754
+55;float;0.00;float;4.00;bool;False;bool;False;Aff-7;A0 7 3;A3;A9 8 6 2;ERROR;A0True827
+56;float;2.80;int;-10;bool;True;bool;False;AffFalse;A6 4 1;A1;A12 7 4 4;AERROR;A34.5503
+57;float;0.56;float;1.00;bool;False;bool;True;AfFalse;A5 3 8;A4;A4 6 6 4;ERROR;A857
+58;int;0;int;1;bool;True;bool;True;Af7;A4 1 4;A9;A12 5 7 0;A5 2 07 8 6;A252
+59;float;6.00;float;0.11;bool;True;bool;False;AfFalse;A8 0 4;A7;A7 3 1 4;ERROR;A74946
+60;int;20;int;1;bool;True;bool;True;Af-3;A2 3 7;A9;A10 7 5 5;A4 0 19 6 7;A395
+61;int;9;float;9.00;bool;False;ERROR;ERROR;Aff-6;A6 3 5;A4;A9 8 3 9;A3 2 58 7 6;A492
+62;float;0.00;float;2.00;bool;True;bool;False;AffFalse;A7 2 1;A0;A7 5 9 1;ERROR;A07541
+63;float;1.11;float;-0.67;bool;True;bool;True;Af6;A4 0 8;A3;A11 2 8 5;A0 2 38 6 7;A383
+64;int;48;float;1.00;bool;True;bool;False;AffTrue;A7 2 1;A3;A6 5 9 1;ERROR;A02.5194
+65;int;4;float;-0.25;bool;False;ERROR;ERROR;AffTrue;A0 9 3;A0;A12 1 2 4;A4 1 98 6 7;A887
+66;float;23.62;float;-8.00;bool;True;bool;True;Af4;A1 2 1;A8;A8 0 2 2;ERROR;A90608
+67;float;0.63;float;1.00;bool;True;ERROR;ERROR;Aff3;A2 3 2;A1;A8 3 5 0;ERROR;A139
+68;int;0;float;6.00;bool;False;bool;True;AfTrue;A1 4 1;A5;A9 4 9 4;A2 4 38 7 9;A470
+69;float;0.78;int;-17;bool;False;bool;False;Af5;A4 0 7;A5;A13 8 9 6;A0 2 47 8 9;A17ERROR
+70;int;30;int;2;bool;True;bool;True;AfFalse;A7 2 9;A1;AERROR;AERROR;A84206
+71;float;2.78;float;0.06;bool;False;ERROR;ERROR;AffTrue;A8 1 4;A8;A7 7 2 4;ERROR;A490
+72;int;0;float;0.00;bool;True;ERROR;ERROR;Aff8;A6 0 5;A5;A9 4 9 4;A5 4 17 8 6;A149
+73;float;1.12;float;-1.98;bool;True;bool;True;Aff-7;A4 2 6;A0;A8 7 1 2;A1 2 99 7 6;A67823
+74;int;8;float;-1.00;bool;False;bool;True;AfTrue;A8 7 0;A9;A10 8 9 1;ERROR;A00856
+75;int;28;float;0.00;bool;False;ERROR;ERROR;Af2;A5 9 2;A7;A7 0 3 2;A2 5 09 6 8;A765
+76;float;0.00;float;-3.00;bool;True;bool;False;AffTrue;A3 7 1;A3;A11 8 5 3;ERROR;A31934
+77;int;0;float;6.00;bool;True;bool;True;Af6;A5 5 2;A2;AERROR;A0 1 19 8 6;A90ERROR
+78;float;15.00;int;257;bool;True;bool;True;AffTrue;A1 6 9;A6;A7 2 4 9;A3 0 56 7 9;A73.5231
+79;float;3.33;float;1.00;bool;False;ERROR;ERROR;Af5;A3 3 9;A9;A7 3 1 2;ERROR;A875
+80;float;0.00;float;0.00;bool;True;ERROR;ERROR;AfFalse;A7 2 1;A4;A11 2 7 6;ERROR;A4True682
+81;float;1.05;float;-1.00;bool;False;bool;True;Aff1;A6 2 1;A2;A10 5 1 4;AERROR;A81615
+82;int;3;float;0.22;bool;True;bool;False;AffFalse;A0 6 5;A5;AERROR;ERROR;A29738
+83;float;64.00;float;-1.01;bool;True;ERROR;ERROR;Aff9;A9 4 4;A7;A7 6 3 2;AERROR;A293
+84;int;0;float;-8.00;bool;True;ERROR;ERROR;AffTrue;A5 2 8;A3;A10 0 4 3;A2 3 16 8 9;A719
+85;int;0;float;2.00;bool;False;bool;False;AffFalse;A9 0 1;A3;A10 5 6 1;ERROR;A671
+86;float;0.66;float;0.50;bool;True;bool;True;Aff6;A3 2 7;A4;A7 6 5 7;ERROR;A06976
+87;float;0.00;int;2;bool;True;ERROR;ERROR;Af2;A6 3 1;A9;A11 9 8 2;ERROR;A231
+88;int;3;float;-0.33;bool;False;ERROR;ERROR;AffTrue;A8 6 0;A6;A8 5 1 3;A2 5 26 8 7;A9False704
+89;int;168;float;-4.00;bool;True;bool;True;Af-7;A5 5 3;A7;A9 3 7 8;A4 3 16 9 7;A85.0251
+90;float;0.89;float;0.33;bool;False;bool;False;AffTrue;A2 1 9;A8;A11 0 7 8;ERROR;A709
+91;int;0;float;1.00;bool;False;ERROR;ERROR;Aff3;A1 0 6;A3;A7 9 5 4;AERROR;A0True583
+92;float;7.00;float;0.00;bool;True;ERROR;ERROR;AfTrue;A5 2 3;A4;A6 2 0 7;A2 3 66 7 8;A42.0739
+93;int;4;int;1;bool;True;ERROR;ERROR;AfFalse;A7 1 9;A6;AERROR;ERROR;A64852
+94;float;1.00;float;1.00;bool;False;ERROR;ERROR;Af8;A5 9 2;A9;A12 6 4 4;ERROR;A85ERROR
+95;float;15.00;float;2.11;bool;True;bool;True;Af1;A6 4 4;A1;A11 8 4 2;A2 1 47 6 7;A683
+96;int;0;float;-1.25;bool;True;bool;False;AfFalse;A3 8 0;A0;AERROR;ERROR;A10518
+97;int;0;float;0.33;bool;True;ERROR;ERROR;AfTrue;A5 1 8;A5;A8 1 3 6;ERROR;A295
+98;float;1.75;float;-0.25;bool;False;bool;False;Aff-4;A3 6 4;A2;A8 4 9 1;A5 2 36 8 7;A36ERROR
+99;int;3;float;0.99;bool;False;ERROR;ERROR;Af8;A3 7 5;A4;A10 2 0 6;AERROR;A24565
+100;float;37.33;float;-2.00;bool;False;ERROR;ERROR;AffTrue;A1 2 9;A4;A8 3 4 7;AERROR;A184
+101;float;26.25;float;6.00;bool;False;ERROR;ERROR;Af9;A4 0 2;A6;A10 9 4 5;A5 2 36 8 9;A29713
+102;int;0;float;0.12;bool;False;bool;True;AfFalse;A3 5 6;A5;A8 1 2 8;ERROR;A44.0574
+103;float;8.00;int;2;bool;True;bool;True;AfFalse;A3 1 7;A9;A6 5 7 1;ERROR;A067
+104;float;0.44;int;-1;bool;False;bool;True;Af-5;A4 0 2;A0;A12 3 4 5;ERROR;A650
+105;float;3.75;float;0.33;bool;False;bool;True;AfTrue;A8 2 2;A4;A22 7 5 8;A5 3 39 8 6;A880
+106;float;0.00;int;17;bool;False;bool;True;Aff4;A8 3 9;A7;A7 3 6 8;ERROR;A66ERROR
+107;float;0.00;float;2.00;bool;False;bool;True;AfTrue;A4 1 6;A3;A10 2 5 5;A2 5 06 7 8;A50.5904
+108;int;24;float;1.00;bool;True;bool;False;Aff2;A7 3 0;A9;A7 7 4 9;ERROR;A203
+109;int;4;int;-3;bool;True;bool;False;Af-5;A7 3 3;A8;AERROR;AERROR;A612
+110;float;0.00;float;0.50;bool;False;bool;True;AfFalse;A0 0 6;A7;A10 5 4 2;ERROR;A07536
+111;float;42.00;float;0.22;bool;True;ERROR;ERROR;AffFalse;A8 0 0;A5;A12 1 5 6;ERROR;A041
+112;float;2.25;float;0.00;bool;True;bool;False;Af-9;A4 7 5;A4;A7 9 2 1;AERROR;A93741
+113;int;64;float;17.00;bool;False;ERROR;ERROR;AffTrue;A0 0 9;A6;A9 1 5 6;A2 0 36 8 9;A023
+114;float;1.19;float;-0.25;bool;False;bool;True;Aff6;A5 8 1;A3;A9 2 5 3;ERROR;A970
+115;int;0;float;2.00;bool;True;ERROR;ERROR;AfTrue;A7 4 4;A6;A10 1 5 0;ERROR;A22042
+116;float;9.00;float;9.00;bool;False;bool;True;Aff-8;A6 3 0;A1;A8 7 6 5;AERROR;A197
+117;float;28.00;float;1.00;bool;False;bool;False;AfFalse;A3 8 4;A0;A8 9 3 3;ERROR;A215
+118;int;0;float;-0.25;bool;True;bool;False;Af9;A8 6 5;A8;A10 7 4 5;A0 4 37 8 6;A63.0975
+119;float;1.40;float;2.00;bool;False;ERROR;ERROR;Aff3;A0 3 5;A5;AERROR;AERROR;A68292
+120;float;5.00;float;1.06;bool;True;ERROR;ERROR;AfTrue;A9 1 4;A4;AERROR;A1 2 49 6 7;A5False374
+121;float;0.00;float;-1.98;bool;True;ERROR;ERROR;Af-3;A2 6 2;A4;A6 6 8 3;ERROR;A80103
+122;float;0.00;float;-1.00;bool;False;ERROR;ERROR;AfFalse;A3 5 7;A5;A12 4 2 6;AERROR;A286
+123;float;3.11;float;2.00;bool;False;bool;False;AfTrue;A1 2 8;A8;A10 0 9 5;A2 1 06 8 9;A4True394
+124;int;56;float;0.00;bool;True;bool;True;Aff-2;A0 0 6;A3;AERROR;ERROR;A82735
+125;float;6.75;float;3.00;bool;False;bool;False;AffTrue;A7 2 3;A2;AERROR;ERROR;A963
+126;int;15;int;-17;bool;True;bool;False;Af-1;A0 5 9;A1;A9 7 5 2;AERROR;A974
+127;int;0;float;1.00;bool;True;ERROR;ERROR;AfFalse;A6 5 0;A1;A8 4 6 3;A4 1 96 7 8;A12326
+128;float;2.33;float;2.00;bool;True;ERROR;ERROR;Aff4;A2 2 1;A4;A6 5 9 1;ERROR;A98620
+129;float;63.00;float;0.22;bool;True;bool;False;Aff6;A5 1 9;A8;A11 4 9 2;A4 2 59 6 8;A362
+130;int;0;float;-4.00;bool;True;ERROR;ERROR;AffTrue;A0 7 0;A1;A12 3 5 4;ERROR;A783
+131;float;0.60;float;3.00;bool;True;ERROR;ERROR;AffFalse;A9 0 0;A6;A10 7 3 5;A0 4 29 8 6;A62897
+132;float;0.00;float;-0.33;bool;True;bool;True;Aff-3;A4 4 6;A2;A9 0 9 7;ERROR;A40156
+133;float;3.57;float;-1.00;bool;True;bool;True;Af-9;A8 5 1;A7;A20 8 6 5;ERROR;A240
+134;float;1.00;int;-3;bool;False;bool;False;AffTrue;A3 0 4;A2;A11 3 5 2;A4 3 59 6 7;A983
+135;float;0.00;float;1.00;bool;True;bool;True;AffTrue;A7 1 5;A4;A7 4 8 1;A2 1 88 6 9;A29ERROR
+136;int;0;float;1.33;bool;False;bool;False;Af-3;A3 2 8;A6;A12 7 2 5;A0 2 06 9 8;A39ERROR
+137;int;18;float;0.50;bool;False;bool;True;Aff5;A5 3 1;A3;A7 9 0 4;A5 3 16 9 7;A215
+138;float;0.62;float;0.00;bool;True;ERROR;ERROR;AfTrue;A9 6 0;A5;A8 2 8 6;ERROR;A48956
+139;int;9;float;-4.00;bool;True;ERROR;ERROR;AfFalse;A7 3 8;A7;A12 3 9 5;A5 3 29 6 7;A71.3333333333333333323
+140;float;0.00;float;-1.01;bool;True;bool;True;Af-1;A9 5 5;A4;A6 2 8 7;ERROR;A109
+141;float;0.00;float;4.00;bool;False;ERROR;ERROR;Af-5;A0 3 6;A9;A8 2 8 3;ERROR;A178
+142;float;0.00;int;3;bool;True;ERROR;ERROR;AfFalse;A2 7 2;A5;AERROR;A4 3 86 9 7;A95664
+143;float;5.00;float;2.25;bool;False;bool;False;AffFalse;A8 4 4;A7;A8 4 9 5;A4 5 16 9 7;A91805
+144;int;56;float;0.00;bool;True;bool;True;Aff3;A3 1 6;A8;A9 2 8 2;AERROR;A298
+145;float;0.00;float;1.25;bool;False;bool;False;Aff0;A2 3 5;A9;A11 9 4 1;A5 3 09 6 8;A023
+146;float;0.43;float;-2.00;bool;False;bool;False;AffTrue;A1 4 8;A4;A9 0 7 6;ERROR;A85179
+147;float;45.00;int;15;bool;True;bool;True;AffTrue;A1 6 9;A2;A7 4 2 3;AERROR;A6False405
+148;int;7;float;18.00;bool;False;ERROR;ERROR;Af4;A2 3 3;A4;A11 1 1 3;AERROR;A195
+149;float;1.00;float;0.00;bool;True;bool;False;Af2;A9 3 5;A1;A12 5 3 2;ERROR;A40161
+150;float;7.50;float;2.00;bool;False;bool;True;AffTrue;A6 0 1;A9;A10 5 6 2;ERROR;A803

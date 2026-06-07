@@ -1,0 +1,10 @@
+{
+  "title": "pdf-open-stable",
+  "variantCount": 2,
+  "questionsPerVariant": 20,
+  "questionTypeFilter": "open",
+  "shuffleQuestions": true,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print"
+}

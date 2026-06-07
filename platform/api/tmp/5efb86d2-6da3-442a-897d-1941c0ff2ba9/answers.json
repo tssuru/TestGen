@@ -1,0 +1,85 @@
+{
+  "title": "T12",
+  "generatedAt": "2026-03-04T10:05:02.663Z",
+  "profile": "print",
+  "variantCount": 1,
+  "variants": [
+    {
+      "variantNumber": 1,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? ������ 2017-���������� �������� ������� ����������� �� 1 �� 20172017 ������ ���� ���� �����, �� ����� 172002",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду? ������ ������� �������� �� n-���������� �������, �� ������������� �� ������������",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? ��������� �������� ���� {$_{k=0}^{n} ({{4^{4n+4k}}+4}){C_n^k}$}",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? �������� ��������� 20172017 ��������� ���� ����� ��������� �� 2016 ����� ������� ���, ��� ������� ������ � ���� 4 ������ ���������� 4, � ���� 5 ������ ���������� 4, � � ���� ������ ���� �� ����� ��� �� 13 ����?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? � ����� X77 ����������� ������, �� ����� ������� ���������� ��������� ������� ���������� 1.cpp � ������ {\\#}include \"2.h\" ����� 2.h � ����� X77 ����, ��� �� � � ����� Y2. �� ����� �������, ��� ������� ���������� 1.cpp, ����� ������ ��������������?�����������, �������� �� �������� ����� � ����� ����������.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? ������ ���������� � ������ ������� ���������� 1.cpp, ��� ���������� ����� ���������� long f(){ return myFactorial();} ������� myFactorial(); �������� � 2.cpp. �� ����� ������� ��� ����, ��� 1.cpp ������ �������������? �� ����� ������� ��� ����, ��� �� �������� ������� ����������� ���?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? ��i���� ��i���� ���� bool* ��� ���������: bool *c, &x, **w, **q, *e, &u;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Що буде виведено за виконання фрагменту коду? long c[3]; cout<<sizeof(c)/sizeof(long);",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? char c[]=\"abcde0123\"; cout<<sizeof(c)<<','<<c<<endl; c[3]=0; cout<<sizeof(c)<<','<<c<<'*';",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Що буде виведено за виконання фрагменту коду? ������ ��� ����� ������ struct Node {int n; Node *prev, *next;}; � ������ ����������� ��������� ��� ����� �� -68 �� 17. �������� p ����������� �� �����, � ����� ���������� ����� -6. ���� ������� �������� p->prev->prev->prev->prev->prev->n ?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 11,
+          "questionText": "Що буде виведено за виконання фрагменту коду? � ������ ���������� ������ ���� �������� p->prev=p->prev->prev; ���� ������� �������� p->prev->prev->prev->prev->n ?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 12,
+          "questionText": "Що буде виведено за виконання фрагменту коду? if (2 > 2) cout<<\"c\"; else cout<<\"c\";",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    }
+  ]
+}

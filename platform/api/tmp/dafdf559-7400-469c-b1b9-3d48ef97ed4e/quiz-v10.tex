@@ -1,0 +1,163 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}{/app/Quiz/Scripts/2021/Mod2021_3/BinTree/}{/app/Quiz/Scripts/2020/Mod2020_4/BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,10}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+
+int g(int a, int b){
+    int c = 45;
+    if (a)
+        c = 1;
+    else if (b <= -1)
+         return 4;
+    else 
+        c = 7;
+    return c;
+}
+
+int main(){
+    std::cout << g(3, 3);
+    return 0;
+}
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+2. 
+try:
+    res = 5.0j<="9.0"
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\vspace{5mm}
+%enditem
+
+%beginitem
+3. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) return x<=2;
+
+( 2 ) double n.m;
+
+( 3 ) cin>>x+3;
+
+( 4 ) if (1>2) x=10;
+\vspace{5mm}
+%enditem
+
+%beginitem
+4. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/35.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Обхід дерева починається з кореня (на рис. це верхня вершина).
+%answer:35 оберненому
+\vspace{5mm}
+%enditem
+
+%beginitem
+5. 
+def f(n):
+    print('f', end='')
+    return n<=0
+
+try:
+    print(f(3) or f(-1))
+except:
+    print('ERR')
+\vspace{5mm}
+%enditem
+
+%beginitem
+6. 
+b=['0','1','2','3','4']; b[-8:-8]='12'; print(b)\vspace{5mm}
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(7//7/7*7)
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+8. 
+try:
+    print(1, end=';')
+    print(int('4'), end=';')
+    print(7, end=';')
+except KeyboardInterrupt:
+    print(0, end=';')
+except Exception:
+    print(9, end=';')
+except:
+    print('Z', end=';')
+else:
+    print(5, end=';')
+finally:
+    print(6)
+\vspace{5mm}
+%enditem
+
+%beginitem
+9. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) return 'a'<'c'
+
+( 2 ) print(sep=":","qwe")
+
+( 3 ) x=*2
+
+( 4 ) float(2)/87
+\vspace{5mm}
+%enditem
+
+%beginitem
+10. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) a2f
+
+( 2 ) 'qwerty'
+
+( 3 ) **
+
+( 4 ) true
+\vspace{5mm}
+%enditem
+
+%end
+\newpage
+\end{document}
+

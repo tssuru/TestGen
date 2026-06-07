@@ -1,0 +1,40 @@
+j=1
+   while j<=6: j+=2
+   print(j)
+
+k=0
+   while k<9: k+=1
+   print(k)
+
+i=4
+   while i<10: i+=1
+   print(i)
+
+n=8
+   while n<=13: n+=2
+   print(n)
+
+t=2
+   while t<=8: t+=2
+   print(t)
+
+m=7
+   while m<12: m+=1
+   print(m)
+
+j=9
+   while j<=5: j+=2
+   print(j)
+
+n=3
+   while n<11: n+=1
+   print(n)
+
+m=5
+   while m<=7: m+=1
+   print(m)
+
+k=6
+   while k<8: k+=2
+   print(k)
+

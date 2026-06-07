@@ -1,0 +1,30 @@
+echo
+echo =842_1.py 
+python3.10 ./842_1.py 
+echo
+echo =842_2.py 
+python3.10 ./842_2.py 
+echo
+echo =842_3.py 
+python3.10 ./842_3.py 
+echo
+echo =842_4.py 
+python3.10 ./842_4.py 
+echo
+echo =842_5.py 
+python3.10 ./842_5.py 
+echo
+echo =842_6.py 
+python3.10 ./842_6.py 
+echo
+echo =842_7.py 
+python3.10 ./842_7.py 
+echo
+echo =842_8.py 
+python3.10 ./842_8.py 
+echo
+echo =842_9.py 
+python3.10 ./842_9.py 
+echo
+echo =842_10.py 
+python3.10 ./842_10.py 

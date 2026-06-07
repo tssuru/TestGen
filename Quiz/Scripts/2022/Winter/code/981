@@ -1,0 +1,30 @@
+echo
+echo =981_1.py 
+python3.10 ./981_1.py 
+echo
+echo =981_2.py 
+python3.10 ./981_2.py 
+echo
+echo =981_3.py 
+python3.10 ./981_3.py 
+echo
+echo =981_4.py 
+python3.10 ./981_4.py 
+echo
+echo =981_5.py 
+python3.10 ./981_5.py 
+echo
+echo =981_6.py 
+python3.10 ./981_6.py 
+echo
+echo =981_7.py 
+python3.10 ./981_7.py 
+echo
+echo =981_8.py 
+python3.10 ./981_8.py 
+echo
+echo =981_9.py 
+python3.10 ./981_9.py 
+echo
+echo =981_10.py 
+python3.10 ./981_10.py 

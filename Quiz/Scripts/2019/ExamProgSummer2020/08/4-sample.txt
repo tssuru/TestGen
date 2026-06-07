@@ -1,0 +1,140 @@
+def f(arg, n):
+    arg[87] = 1
+    n *= -2
+
+try:
+    n = 3
+    t = {46:2, 32:4, 86:2, 32:1}
+    f(t, n)
+    print(n, end=';')
+    for x in t.items():
+        print(*x, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[25] = 9
+    n += 3
+
+try:
+    n = 6
+    d = {25:0, 51:6, 82:0, 51:0}
+    f(d, n)
+    print(n, end=';')
+    for x in d :
+        print(x, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[88] = 6
+    n -= -3
+
+try:
+    n = 7
+    s = {87:0, 41:0, 62:6, 62:2}
+    f(s, n)
+    print(n, end=';')
+    for x in s.keys():
+        print(x, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[52] = 6
+    n -= 2
+
+try:
+    n = 4
+    t = {58:3, 52:2, 24:1, 39:5}
+    f(t, n)
+    print(n, end=';')
+    for x in t.values():
+        print(x, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[49] = 7
+    n *= 3
+
+try:
+    n = 5
+    s = {35:7, 15:3, 49:5, 83:0, 35:0}
+    f(s, n)
+    print(n, end=';')
+    for x in s.values():
+        print(x, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[34] = 6
+    n += -2
+
+try:
+    n = 3
+    d = {34:6, 55:7, 77:4, 21:3, 77:8}
+    f(d, n)
+    print(n, end=';')
+    for x, y in d.items():
+        print(x, y, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[52] = 8
+    n *= -3
+
+try:
+    n = 4
+    t = {80:6, 53:1, 67:3, 80:3}
+    f(t, n)
+    print(n, end=';')
+    for x in t.items():
+        print(x, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[75] = 0
+    n -= 2
+
+try:
+    n = 6
+    d = {90:4, 31:2, 88:3, 32:1, 90:4}
+    f(d, n)
+    print(n, end=';')
+    for x in d :
+        print(x, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[18] = 3
+    n += -3
+
+try:
+    n = 7
+    s = {75:4, 18:9, 38:5, 12:3, 38:3}
+    f(s, n)
+    print(n, end=';')
+    for x in s.keys():
+        print(x, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[20] = 6
+    n *= 2
+
+try:
+    n = 5
+    t = {23:1, 48:2, 49:9, 49:5}
+    f(t, n)
+    print(n, end=';')
+    for x in t :
+        print(x, sep=';', end=';')
+except:
+    print('ERR')
+

@@ -1,0 +1,36 @@
+# Ключ відповідей
+
+**Check**
+Створено: 2026-03-03T14:40:08.273Z
+
+## Варіант 1
+
+1. Що буде виведено за виконання фрагменту коду? cout << (!4>4.0 && !5>= true && 2<5.0);
+   Тип: відкрита відповідь
+
+2. Що буде виведено за виконання фрагменту коду? cout << 6 * 6 * 6 * 6;
+   Тип: відкрита відповідь
+
+3. Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int f(int a, int b){ int c = 72; if (a > -2) return 2; if (b >= 4) c = 9; else c = 0; return c; } int main(){ cout << f(-6, -6); return 0; }
+   Тип: відкрита відповідь
+
+4. Що буде виведено за виконання фрагменту коду? cout << 6 * 6 * 6 * 6;
+   Тип: відкрита відповідь
+
+5. Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; bool f(int n){ cout<<"f"; return n; } int main(){ cout<<(f(-6) && f(0)); return 0; }
+   Тип: відкрита відповідь
+
+6. Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int f(int &x, int &y){ x = 4; y+= 3; return x; } int main(){ int a = 5, b = 7; a = f(a, a); cout << a << ":" << b <<':'; { int a = 2, b = 6; cout << ((a>6) && ((b+=1) > 6)) << a << ":" << b << ":"; } { inta = 9; cout << a << ':'; } cout << a << ":" << b << endl; return 0; }
+   Тип: відкрита відповідь
+
+7. Відмітити все, що є однією правильною лексемою:
+   Правильні: (3) 8.3, (4) FIFO
+
+8. Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int a = 2, b = 9, c = 0; int f(int &a){ int c;    a *= 4; b = 3; c = 5; return a + b + c; } int main(){ inta = 5; intb = 4; intc = 6; cout << f(a) << ':'; cout << a << ':' << b << ':' << c; return 0; }
+   Тип: відкрита відповідь
+
+9. Відмітити все, що є коректним оператором С++:
+   Правильні: (3) cout<<3.4;, (4) int f(int n);
+
+10. Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int a = 2, b = 9, c = 0; int f(){ inta = 2; intb = 5; intc = 4; return a + b + c; } int main(){ inta = 6; intb = 7; intc = 1; cout << f() << ':'; cout << a << ':' << b << ':' << c; return 0; }
+   Тип: відкрита відповідь

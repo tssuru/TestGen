@@ -1,0 +1,4 @@
+try:
+    print(4//5*7*8)
+    
+except: print('error')

@@ -1,0 +1,30 @@
+echo
+echo =336_1.py 
+python3.10 ./336_1.py 
+echo
+echo =336_2.py 
+python3.10 ./336_2.py 
+echo
+echo =336_3.py 
+python3.10 ./336_3.py 
+echo
+echo =336_4.py 
+python3.10 ./336_4.py 
+echo
+echo =336_5.py 
+python3.10 ./336_5.py 
+echo
+echo =336_6.py 
+python3.10 ./336_6.py 
+echo
+echo =336_7.py 
+python3.10 ./336_7.py 
+echo
+echo =336_8.py 
+python3.10 ./336_8.py 
+echo
+echo =336_9.py 
+python3.10 ./336_9.py 
+echo
+echo =336_10.py 
+python3.10 ./336_10.py 

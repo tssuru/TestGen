@@ -1,0 +1,162 @@
+{
+  "title": "Тест",
+  "generatedAt": "2026-03-04T18:33:06.776Z",
+  "profile": "print",
+  "variantCount": 2,
+  "variants": [
+    {
+      "variantNumber": 1,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? ������ 2017-���������� �������� ������� ����������� �� 1 �� 20172017 ������ ���� ���� �����, �� ����� 172010",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "%goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt Відмітити все, що є однією правильною лексемою:",
+          "options": [
+            {
+              "number": 1,
+              "text": "\"1,3\"",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "<+",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "true",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "()",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Рядки журналу через двокрапку містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад s=\"username : 2022-05-05 13:26 : ERROR : 404\" у коді res = re.fullmatch('???', s) s = '' code_str = ??? чим треба замінити кожен з ???, щоб значенням code\\_str був код події?",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "%goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "F\"1={x:5.2f};\"",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "'a'=3",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "x=float(\"+inf\")",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "None=0",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? #include <iostream> using namespace std; int a = 4, b = 5, c = 7; int f(int &a){ int c;    a = 1; b = 4; c = 3; return a + b + c; } int main(){ inta = 8; intb = 9; intc = 3; cout << f(b) << ':'; cout << a << ':' << b << ':' << c; return 0; }",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    },
+    {
+      "variantNumber": 2,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: res = 1**0.5*True if isinstance(res, bool): print(f'bool;{res}') elif isinstance(res, int): print(f'int;{res}') elif isinstance(res, float): print(f'float;{res:.2f}') else: print('???') except: print('Z')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "%goodpath:Scripts/2018/Mod2018_1/03-good.txt Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cout<<'\\n';",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "y=/x;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "int z=3.1415;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "if ('x'<>'y') a=6;",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "%goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "F\"1={x:5.2f};\"",
+              "correct": true
+            },
+            {
+              "number": 2,
+              "text": "'a'=3",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "x=float(\"+inf\")",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "None=0",
+              "correct": false
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: print(4, end=\"\") print(int(5/1), end=\"\") print(7, end=\"\") except ZeroDivisionError: print(8, end=\"\") except KeyboardInterrupt: print(9, end=\"\") else: print(3, end=\"\") finally: print(2, end=\"\")",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Рядки журналу через = містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад s=\"username = 2022-05-05 13:26 = ERROR = 404\" у коді res = re.fullmatch('???', s) s = '' code_str = ??? чим треба замінити кожен з ???, щоб значенням code\\_str був код події?",
+          "options": [],
+          "type": "template_answer"
+        }
+      ]
+    }
+  ]
+}

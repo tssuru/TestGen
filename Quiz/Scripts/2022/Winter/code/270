@@ -1,0 +1,30 @@
+echo
+echo =270_1.py 
+python3.10 ./270_1.py 
+echo
+echo =270_2.py 
+python3.10 ./270_2.py 
+echo
+echo =270_3.py 
+python3.10 ./270_3.py 
+echo
+echo =270_4.py 
+python3.10 ./270_4.py 
+echo
+echo =270_5.py 
+python3.10 ./270_5.py 
+echo
+echo =270_6.py 
+python3.10 ./270_6.py 
+echo
+echo =270_7.py 
+python3.10 ./270_7.py 
+echo
+echo =270_8.py 
+python3.10 ./270_8.py 
+echo
+echo =270_9.py 
+python3.10 ./270_9.py 
+echo
+echo =270_10.py 
+python3.10 ./270_10.py 

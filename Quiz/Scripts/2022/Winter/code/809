@@ -1,0 +1,30 @@
+echo
+echo =809_1.py 
+python3.10 ./809_1.py 
+echo
+echo =809_2.py 
+python3.10 ./809_2.py 
+echo
+echo =809_3.py 
+python3.10 ./809_3.py 
+echo
+echo =809_4.py 
+python3.10 ./809_4.py 
+echo
+echo =809_5.py 
+python3.10 ./809_5.py 
+echo
+echo =809_6.py 
+python3.10 ./809_6.py 
+echo
+echo =809_7.py 
+python3.10 ./809_7.py 
+echo
+echo =809_8.py 
+python3.10 ./809_8.py 
+echo
+echo =809_9.py 
+python3.10 ./809_9.py 
+echo
+echo =809_10.py 
+python3.10 ./809_10.py 

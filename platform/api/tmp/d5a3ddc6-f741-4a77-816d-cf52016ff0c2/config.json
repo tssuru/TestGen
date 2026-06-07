@@ -1,0 +1,10 @@
+{
+  "title": "Large closed pool",
+  "variantCount": 2,
+  "questionsPerVariant": 20,
+  "questionTypeFilter": "closed",
+  "shuffleQuestions": true,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print"
+}

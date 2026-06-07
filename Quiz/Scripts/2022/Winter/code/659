@@ -1,0 +1,30 @@
+echo
+echo =659_1.py 
+python3.10 ./659_1.py 
+echo
+echo =659_2.py 
+python3.10 ./659_2.py 
+echo
+echo =659_3.py 
+python3.10 ./659_3.py 
+echo
+echo =659_4.py 
+python3.10 ./659_4.py 
+echo
+echo =659_5.py 
+python3.10 ./659_5.py 
+echo
+echo =659_6.py 
+python3.10 ./659_6.py 
+echo
+echo =659_7.py 
+python3.10 ./659_7.py 
+echo
+echo =659_8.py 
+python3.10 ./659_8.py 
+echo
+echo =659_9.py 
+python3.10 ./659_9.py 
+echo
+echo =659_10.py 
+python3.10 ./659_10.py 

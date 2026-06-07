@@ -1,0 +1,163 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}{/app/Quiz/Scripts/2021/Mod2021_3/BinTree/}{/app/Quiz/Scripts/2020/Mod2020_4/BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,10}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+
+int h(int a, int b){
+    int c = 69;
+    if (b >= -3)
+        return 3;
+    if (a <= -4)
+         c = 1;
+    else 
+        return 5;
+    return c;
+}
+
+int main(){
+    std::cout << h(9, 9);
+    return 0;
+}
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+try:
+    res = "3">=3.0
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\vspace{5mm}
+%enditem
+
+%beginitem
+3. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) cout<<(3=!5);
+
+( 2 ) bool f(int a);
+
+( 3 ) cin<<x;
+
+( 4 ) j=i;
+\vspace{5mm}
+%enditem
+
+%beginitem
+4. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/59.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Обхід дерева починається з кореня (на рис. це верхня вершина).
+%answer:59 прямому
+\vspace{5mm}
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання фрагменту коду?
+def f(n):
+    print('f', end='')
+    return n
+
+try:
+    print(f(9) and f(-8))
+except:
+    print('ERR')
+\vspace{5mm}
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+d=[10,11,12,13,14]; del d[-6:-6]; print(d)\vspace{5mm}
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(5/5%5*5)
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання фрагменту коду?
+try:
+    print(3, end=';')
+    print(1j>=3j, end=';')
+    print(5, end=';')
+except TypeError:
+    print(0, end=';')
+except ValueError:
+    print(9, end=';')
+except:
+    print('Z', end=';')
+else:
+    print(6, end=';')
+finally:
+    print(4)
+\vspace{5mm}
+%enditem
+
+%beginitem
+9. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) if a<b: a=0 else: b=0
+
+( 2 ) x=3**1
+
+( 3 ) if ('x'><'y'): a=6
+
+( 4 ) --n
+\vspace{5mm}
+%enditem
+
+%beginitem
+10. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) 0,5
+
+( 2 ) LIFO
+
+( 3 ) x+23
+
+( 4 ) x23
+\vspace{5mm}
+%enditem
+
+%end
+\newpage
+\end{document}
+

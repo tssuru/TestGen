@@ -1,0 +1,30 @@
+echo
+echo =240_1.py 
+python3.10 ./240_1.py 
+echo
+echo =240_2.py 
+python3.10 ./240_2.py 
+echo
+echo =240_3.py 
+python3.10 ./240_3.py 
+echo
+echo =240_4.py 
+python3.10 ./240_4.py 
+echo
+echo =240_5.py 
+python3.10 ./240_5.py 
+echo
+echo =240_6.py 
+python3.10 ./240_6.py 
+echo
+echo =240_7.py 
+python3.10 ./240_7.py 
+echo
+echo =240_8.py 
+python3.10 ./240_8.py 
+echo
+echo =240_9.py 
+python3.10 ./240_9.py 
+echo
+echo =240_10.py 
+python3.10 ./240_10.py 

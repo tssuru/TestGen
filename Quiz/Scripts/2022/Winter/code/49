@@ -1,0 +1,30 @@
+echo
+echo =49_1.py 
+python3.10 ./49_1.py 
+echo
+echo =49_2.py 
+python3.10 ./49_2.py 
+echo
+echo =49_3.py 
+python3.10 ./49_3.py 
+echo
+echo =49_4.py 
+python3.10 ./49_4.py 
+echo
+echo =49_5.py 
+python3.10 ./49_5.py 
+echo
+echo =49_6.py 
+python3.10 ./49_6.py 
+echo
+echo =49_7.py 
+python3.10 ./49_7.py 
+echo
+echo =49_8.py 
+python3.10 ./49_8.py 
+echo
+echo =49_9.py 
+python3.10 ./49_9.py 
+echo
+echo =49_10.py 
+python3.10 ./49_10.py 

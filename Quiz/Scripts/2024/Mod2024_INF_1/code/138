@@ -1,0 +1,30 @@
+echo
+echo =138_1.py 
+python3.11 -W "ignore" ./138_1.py 
+echo
+echo =138_2.py 
+python3.11 -W "ignore" ./138_2.py 
+echo
+echo =138_3.py 
+python3.11 -W "ignore" ./138_3.py 
+echo
+echo =138_4.py 
+python3.11 -W "ignore" ./138_4.py 
+echo
+echo =138_5.py 
+python3.11 -W "ignore" ./138_5.py 
+echo
+echo =138_6.py 
+python3.11 -W "ignore" ./138_6.py 
+echo
+echo =138_7.py 
+python3.11 -W "ignore" ./138_7.py 
+echo
+echo =138_8.py 
+python3.11 -W "ignore" ./138_8.py 
+echo
+echo =138_10.py 
+python3.11 -W "ignore" ./138_10.py 
+echo
+echo =138_11.py 
+python3.11 -W "ignore" ./138_11.py 

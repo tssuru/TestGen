@@ -1,0 +1,1 @@
+d:\Projects\Quiz\Bin\Release\Quest.exe mod3_task.txt quiz_3t.txt ""

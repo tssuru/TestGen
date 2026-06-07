@@ -1,0 +1,11 @@
+{
+  "title": "T10",
+  "variantCount": 1,
+  "questionsPerVariant": 10,
+  "questionTypeFilter": "open",
+  "shuffleQuestions": false,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print",
+  "seed": 42
+}

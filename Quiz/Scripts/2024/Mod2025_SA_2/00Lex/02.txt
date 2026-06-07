@@ -1,0 +1,36 @@
+(1+2)
+x=y
+x+y
+(true)
+-12+3
+def main()
+i,j=1,2
+i>j
+i<=j
+"abc"
+x/t/u
+x/t//u
+x*r
+x**r
+print()
+i=int(5.6)
+j=78
+Shuffle(n:float)
+fun():
+print(end="")
+int(x)
+x=y%z
+if (x>0):
+else: a=6
+(not false)
+n==m==w
+"123+6"
+f"123+6{x:10.5f}"
+myFunc(1,2)
+mixer(csize/nCases)
+return complex(buffer)
+return None
+yourFunction(13,a=5)
+(5)
+if i<=0:
+x+=y

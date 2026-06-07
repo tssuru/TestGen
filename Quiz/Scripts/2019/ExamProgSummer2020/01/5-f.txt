@@ -1,0 +1,38 @@
+//source for question like
+//26127360 questions
+//Вкажіть значення та його тип:\n
+
+//**
+
+<sample>
+
+
+
+<\sample>
+
+<declarations>
+x1={<int> -9 9}
+x2={<int> -4 4}
+
+op=and;or
+comp=<;<=;>;>=;==;!=
+Return=n;n#comp##x2#
+
+<\declarations>
+
+<template>
+
+def f(n):{ENDL}
+{SPACE4}print('f', end=''){ENDL}
+{SPACE4}return #Return#{ENDL}
+{ENDL}
+
+try:{ENDL}
+{SPACE4}print(f(#x1#) #op# f(#x1 new#)){ENDL}
+except:{ENDL}
+{SPACE4}print('ERR'){ENDL}
+
+<\template>
+
+<restrictions>
+<\restrictions>

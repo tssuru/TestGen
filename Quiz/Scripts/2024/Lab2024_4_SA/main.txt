@@ -1,0 +1,71 @@
+<document>
+<header>
+\documentclass[11pt, ukrainian]{article}{ENDL}
+%\setlength\textwidth{190mm} \setlength\textheight{237mm}
+%\setlength\voffset{-18mm} \setlength\hoffset{-33mm}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage[Export]{adjustbox}{ENDL}
+\adjustboxset{max size={1.0\linewidth}{1.0\paperheight}}{ENDL}
+\graphicspath{{data/pages/}} {ENDL}
+\usepackage{geometry}{ENDL}
+\geometry{top=1.5cm,bottom=1.5cm,left=1.2cm,right=1.2cm}{ENDL}
+\pagestyle{empty}
+\setlength\parindent{0mm}{ENDL}
+
+\begin{document}{ENDL}
+{\Large \center  Варіанти завдань до програмного проєкту №4 ``Організація даних''
+\par Системний аналіз, 2024/25 н.р.\par \bigskip\bigskip}{ENDL}
+{ENDL}
+
+<\header>
+<footer>
+\end{document}
+<\footer>
+
+<from>
+60
+<\from>
+
+<to>
+99
+<\to>
+
+ <onNextVariant>
+%\vspace{0.9cm}{ENDL}
+ <\onNextVariant>
+
+  <onNextPage>
+\newpage{ENDL}
+  <\onNextPage>
+
+  <onPage>
+1
+  <\onPage>
+
+
+<\document>
+
+<variant>
+
+<before>
+{\Large \center  Варіант  #No#\par \bigskip\bigskip}{ENDL}{ENDL}
+<\before>
+
+<after>
+{ENDL}
+<\after>
+
+<\variant>
+
+<item>
+  <fabric>
+     template answer
+     <fname>
+         script_lab.txt
+     <\fname>
+   <\fabric>
+<\item>
+

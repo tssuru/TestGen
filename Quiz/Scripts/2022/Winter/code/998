@@ -1,0 +1,30 @@
+echo
+echo =998_1.py 
+python3.10 ./998_1.py 
+echo
+echo =998_2.py 
+python3.10 ./998_2.py 
+echo
+echo =998_3.py 
+python3.10 ./998_3.py 
+echo
+echo =998_4.py 
+python3.10 ./998_4.py 
+echo
+echo =998_5.py 
+python3.10 ./998_5.py 
+echo
+echo =998_6.py 
+python3.10 ./998_6.py 
+echo
+echo =998_7.py 
+python3.10 ./998_7.py 
+echo
+echo =998_8.py 
+python3.10 ./998_8.py 
+echo
+echo =998_9.py 
+python3.10 ./998_9.py 
+echo
+echo =998_10.py 
+python3.10 ./998_10.py 

@@ -1,0 +1,191 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Тест}}
+
+\textbf{Варіант \No\,1}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+������ 2017-���������� �������� ������� ����������� �� 1 �� 20172017 ������ ���� ���� �����, �� ����� 172010
+%enditem
+%beginitem
+2. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) "1,3"
+
+( 2 ) <+
+
+( 3 ) true
+
+( 4 ) ()
+
+%enditem
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+Рядки журналу через двокрапку містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад
+\begin{verbatim}
+s="username : 2022-05-05 13:26 : ERROR : 404"
+\end{verbatim}
+у коді 
+\begin{verbatim}
+res = re.fullmatch('???', s) 
+s = ''
+code_str = ??? 
+\end{verbatim}
+чим треба замінити кожен з ???, щоб значенням code\_str був код події? 
+
+
+
+%enditem
+%beginitem
+4. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) F"1={x:5.2f};"
+
+( 2 ) 'a'=3
+
+( 3 ) x=float("+inf")
+
+( 4 ) None=0
+
+%enditem
+%beginitem
+5. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+int a = 4, b = 5, c = 7;
+
+int f(int &a){
+int c;    a = 1;
+    b = 4;
+    c = 3;
+    return a + b + c;
+}
+
+int main(){
+    inta = 8;
+    intb = 9;
+    intc = 3;
+    cout << f(b) << ':';
+    cout << a << ':' << b << ':' << c;
+    return 0; 
+}
+%code
+
+%enditem
+
+
+
+
+
+%end
+\newpage
+
+\newpage
+
+%begin
+{\large\textbf{Тест}}
+
+\textbf{Варіант \No\,2}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+try:
+    res = 1**0.5*True
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+
+%enditem
+%beginitem
+2. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) cout<<'\n';
+
+( 2 ) y=/x;
+
+( 3 ) int z=3.1415;
+
+( 4 ) if ('x'<>'y') a=6;
+
+%enditem
+%beginitem
+3. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) F"1={x:5.2f};"
+
+( 2 ) 'a'=3
+
+( 3 ) x=float("+inf")
+
+( 4 ) None=0
+
+%enditem
+%beginitem
+4. Що буде виведено за виконання фрагменту коду?
+%code
+
+try:
+    print(4, end="")
+    print(int(5/1), end="")
+    print(7, end="")
+except ZeroDivisionError: 
+    print(8, end="")
+except KeyboardInterrupt: 
+    print(9, end="")
+else:
+    print(3, end="")
+finally:
+    print(2, end="")
+
+%code
+
+%enditem
+%beginitem
+5. Що буде виведено за виконання фрагменту коду?
+Рядки журналу через = містять ім'я користувача (ідентифікатор), час події,тип події, код події, наприклад
+\begin{verbatim}
+s="username = 2022-05-05 13:26 = ERROR = 404"
+\end{verbatim}
+у коді 
+\begin{verbatim}
+res = re.fullmatch('???', s) 
+s = ''
+code_str = ??? 
+\end{verbatim}
+чим треба замінити кожен з ???, щоб значенням code\_str був код події? 
+
+
+
+%enditem
+
+
+
+
+
+%end
+\newpage
+\end{document}
+
+

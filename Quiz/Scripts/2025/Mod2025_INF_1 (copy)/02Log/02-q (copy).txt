@@ -1,0 +1,13 @@
+ <fabric>
+     template answer
+     <fname>
+         02Log/02-f.txt
+     <\fname>
+
+     <before>
+
+     <\before>
+
+     <after>
+     <\after>
+   <\fabric>

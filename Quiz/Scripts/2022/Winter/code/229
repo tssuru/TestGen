@@ -1,0 +1,30 @@
+echo
+echo =229_1.py 
+python3.10 ./229_1.py 
+echo
+echo =229_2.py 
+python3.10 ./229_2.py 
+echo
+echo =229_3.py 
+python3.10 ./229_3.py 
+echo
+echo =229_4.py 
+python3.10 ./229_4.py 
+echo
+echo =229_5.py 
+python3.10 ./229_5.py 
+echo
+echo =229_6.py 
+python3.10 ./229_6.py 
+echo
+echo =229_7.py 
+python3.10 ./229_7.py 
+echo
+echo =229_8.py 
+python3.10 ./229_8.py 
+echo
+echo =229_9.py 
+python3.10 ./229_9.py 
+echo
+echo =229_10.py 
+python3.10 ./229_10.py 

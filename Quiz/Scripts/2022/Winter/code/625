@@ -1,0 +1,30 @@
+echo
+echo =625_1.py 
+python3.10 ./625_1.py 
+echo
+echo =625_2.py 
+python3.10 ./625_2.py 
+echo
+echo =625_3.py 
+python3.10 ./625_3.py 
+echo
+echo =625_4.py 
+python3.10 ./625_4.py 
+echo
+echo =625_5.py 
+python3.10 ./625_5.py 
+echo
+echo =625_6.py 
+python3.10 ./625_6.py 
+echo
+echo =625_7.py 
+python3.10 ./625_7.py 
+echo
+echo =625_8.py 
+python3.10 ./625_8.py 
+echo
+echo =625_9.py 
+python3.10 ./625_9.py 
+echo
+echo =625_10.py 
+python3.10 ./625_10.py 

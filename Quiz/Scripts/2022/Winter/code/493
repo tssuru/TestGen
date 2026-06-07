@@ -1,0 +1,30 @@
+echo
+echo =493_1.py 
+python3.10 ./493_1.py 
+echo
+echo =493_2.py 
+python3.10 ./493_2.py 
+echo
+echo =493_3.py 
+python3.10 ./493_3.py 
+echo
+echo =493_4.py 
+python3.10 ./493_4.py 
+echo
+echo =493_5.py 
+python3.10 ./493_5.py 
+echo
+echo =493_6.py 
+python3.10 ./493_6.py 
+echo
+echo =493_7.py 
+python3.10 ./493_7.py 
+echo
+echo =493_8.py 
+python3.10 ./493_8.py 
+echo
+echo =493_9.py 
+python3.10 ./493_9.py 
+echo
+echo =493_10.py 
+python3.10 ./493_10.py 

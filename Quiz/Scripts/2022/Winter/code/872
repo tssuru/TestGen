@@ -1,0 +1,30 @@
+echo
+echo =872_1.py 
+python3.10 ./872_1.py 
+echo
+echo =872_2.py 
+python3.10 ./872_2.py 
+echo
+echo =872_3.py 
+python3.10 ./872_3.py 
+echo
+echo =872_4.py 
+python3.10 ./872_4.py 
+echo
+echo =872_5.py 
+python3.10 ./872_5.py 
+echo
+echo =872_6.py 
+python3.10 ./872_6.py 
+echo
+echo =872_7.py 
+python3.10 ./872_7.py 
+echo
+echo =872_8.py 
+python3.10 ./872_8.py 
+echo
+echo =872_9.py 
+python3.10 ./872_9.py 
+echo
+echo =872_10.py 
+python3.10 ./872_10.py 

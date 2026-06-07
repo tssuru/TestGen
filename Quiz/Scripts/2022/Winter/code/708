@@ -1,0 +1,30 @@
+echo
+echo =708_1.py 
+python3.10 ./708_1.py 
+echo
+echo =708_2.py 
+python3.10 ./708_2.py 
+echo
+echo =708_3.py 
+python3.10 ./708_3.py 
+echo
+echo =708_4.py 
+python3.10 ./708_4.py 
+echo
+echo =708_5.py 
+python3.10 ./708_5.py 
+echo
+echo =708_6.py 
+python3.10 ./708_6.py 
+echo
+echo =708_7.py 
+python3.10 ./708_7.py 
+echo
+echo =708_8.py 
+python3.10 ./708_8.py 
+echo
+echo =708_9.py 
+python3.10 ./708_9.py 
+echo
+echo =708_10.py 
+python3.10 ./708_10.py 

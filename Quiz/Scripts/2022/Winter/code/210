@@ -1,0 +1,30 @@
+echo
+echo =210_1.py 
+python3.10 ./210_1.py 
+echo
+echo =210_2.py 
+python3.10 ./210_2.py 
+echo
+echo =210_3.py 
+python3.10 ./210_3.py 
+echo
+echo =210_4.py 
+python3.10 ./210_4.py 
+echo
+echo =210_5.py 
+python3.10 ./210_5.py 
+echo
+echo =210_6.py 
+python3.10 ./210_6.py 
+echo
+echo =210_7.py 
+python3.10 ./210_7.py 
+echo
+echo =210_8.py 
+python3.10 ./210_8.py 
+echo
+echo =210_9.py 
+python3.10 ./210_9.py 
+echo
+echo =210_10.py 
+python3.10 ./210_10.py 

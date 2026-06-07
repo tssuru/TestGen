@@ -1,0 +1,30 @@
+echo
+echo =399_1.py 
+python3.10 ./399_1.py 
+echo
+echo =399_2.py 
+python3.10 ./399_2.py 
+echo
+echo =399_3.py 
+python3.10 ./399_3.py 
+echo
+echo =399_4.py 
+python3.10 ./399_4.py 
+echo
+echo =399_5.py 
+python3.10 ./399_5.py 
+echo
+echo =399_6.py 
+python3.10 ./399_6.py 
+echo
+echo =399_7.py 
+python3.10 ./399_7.py 
+echo
+echo =399_8.py 
+python3.10 ./399_8.py 
+echo
+echo =399_9.py 
+python3.10 ./399_9.py 
+echo
+echo =399_10.py 
+python3.10 ./399_10.py 

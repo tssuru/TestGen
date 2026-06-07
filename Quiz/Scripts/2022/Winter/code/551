@@ -1,0 +1,30 @@
+echo
+echo =551_1.py 
+python3.10 ./551_1.py 
+echo
+echo =551_2.py 
+python3.10 ./551_2.py 
+echo
+echo =551_3.py 
+python3.10 ./551_3.py 
+echo
+echo =551_4.py 
+python3.10 ./551_4.py 
+echo
+echo =551_5.py 
+python3.10 ./551_5.py 
+echo
+echo =551_6.py 
+python3.10 ./551_6.py 
+echo
+echo =551_7.py 
+python3.10 ./551_7.py 
+echo
+echo =551_8.py 
+python3.10 ./551_8.py 
+echo
+echo =551_9.py 
+python3.10 ./551_9.py 
+echo
+echo =551_10.py 
+python3.10 ./551_10.py 

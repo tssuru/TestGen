@@ -1,0 +1,11 @@
+ <fabric>
+     file answer
+     <fname>
+         Adds/parts.txt
+     <\fname>
+     <before>
+     <\before>
+<after>
+<\after>
+
+   <\fabric>

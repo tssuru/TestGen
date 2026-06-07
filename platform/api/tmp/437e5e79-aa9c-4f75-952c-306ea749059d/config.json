@@ -1,0 +1,10 @@
+{
+  "title": "Тест open",
+  "variantCount": 2,
+  "questionsPerVariant": 2,
+  "questionTypeFilter": "open",
+  "shuffleQuestions": true,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print"
+}

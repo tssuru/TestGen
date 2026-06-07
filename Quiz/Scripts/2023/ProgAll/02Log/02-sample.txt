@@ -1,0 +1,20 @@
+"98" in not "123456789"
+
+"TION" in "REPETITIONS"
+
+"23" not in "123456789"
+
+"or" in not "parentheses"
+
+"ae" not in "ALTERNATIVES"
+
+"89" in "123456789"
+
+"673" in "123456789"
+
+"ING" in not "DETAILS"
+
+"AT" not in "GROUPING"
+
+"76" in "123456789"
+

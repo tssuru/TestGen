@@ -1,0 +1,80 @@
+def h(a):
+      v=14
+      if a<-5: v=9
+      if a>=3: return 1
+      else: return 8
+      return v
+   print(h(-8))
+
+def g(d):
+      x=74
+      if d: x=7
+      elif d<=-3: return 2
+      else: x=0
+      return x
+   print(g(-7))
+
+def f(b):
+      w=61
+      if b!=2: return 3
+      elif b==0: w=5
+      else: w=6
+      return w
+   print(f(4))
+
+def f(c):
+      u=28
+      if c>-4: return 4
+      if c==5: return 2
+      else: u=3
+      return u
+   print(f(5))
+
+def h(c):
+      y=66
+      if c>4: y=7
+      if c<1: return 9
+      else: y=6
+      return y
+   print(h(6))
+
+def g(a):
+      z=98
+      if a: return 0
+      elif a!=-2: z=5
+      else: return 4
+      return z
+   print(g(-4))
+
+def h(d):
+      y=85
+      if d>=-1: return 1
+      elif d<=3: y=8
+      else: y=5
+      return y
+   print(h(8))
+
+def f(b):
+      w=46
+      if b>0: return 1
+      if b!=2: return 3
+      else: w=7
+      return w
+   print(f(-5))
+
+def g(a):
+      z=37
+      if a: return 2
+      if a<=5: z=0
+      else: return 8
+      return z
+   print(g(3))
+
+def f(b):
+      v=68
+      if b: v=4
+      elif b>=-2: v=6
+      else: return 9
+      return v
+   print(f(-3))
+

@@ -1,0 +1,64 @@
+struct A{ A(){cout<<"A";} };
+struct B{ B(){cout<<"B";} };
+class C{
+{SPACE}{SPACE}A a[#n#]; B b; 
+public:
+{SPACE}{SPACE}C(){cout<<"C";} };
+void test(){C c;}
+
+struct A{ A(){cout<<"A";}};
+struct B{ B(){cout<<"B";}};
+class C{
+{SPACE}{SPACE}B b[#n#]; A a; 
+public:
+{SPACE}{SPACE}C(){cout<<"C";} };
+void test(){C c;}
+
+struct A{ A(){cout<<"A";}};
+struct B{ B(){cout<<"B";}};
+class C{
+{SPACE}{SPACE}A a; B b[#n#]; 
+public:
+{SPACE}{SPACE}C(){cout<<"C";} };
+void test(){C c;}
+
+struct A{ A(){cout<<"A";}};
+struct B{ B(){cout<<"B";}};
+class C{
+{SPACE}{SPACE}B b; A a[#n#]; 
+public:
+{SPACE}{SPACE}C(){cout<<"C";} };
+void test(){C c;}
+
+struct A{ ~A(){cout<<"A";}};
+struct B{ ~B(){cout<<"B";}};
+class C{
+{SPACE}{SPACE}A a[#n#]; B b; 
+public:
+{SPACE}{SPACE}~C(){cout<<"C";} };
+void test(){C c;}
+
+struct A{ ~A(){cout<<"A";}};
+struct B{ ~B(){cout<<"B";}};
+class C{
+{SPACE}{SPACE}B b[#n#]; A a; 
+public:
+{SPACE}{SPACE}~C(){cout<<"C";} };
+void test(){C c;}
+
+struct A{ ~A(){cout<<"A";}};
+struct B{ ~B(){cout<<"B";}};
+class C{
+{SPACE}{SPACE}A a; B b[#n#]; 
+public:
+{SPACE}{SPACE}~C(){cout<<"C";} };
+void test(){C c;}
+
+struct A{ ~A(){cout<<"A";}};
+struct B{ ~B(){cout<<"B";}};
+class C{
+{SPACE}{SPACE}B b; A a[#n#]; 
+public:
+{SPACE}{SPACE}~C(){cout<<"C";} };
+void test(){C c;}
+

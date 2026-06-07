@@ -1,0 +1,30 @@
+echo
+echo =915_1.py 
+python3.10 ./915_1.py 
+echo
+echo =915_2.py 
+python3.10 ./915_2.py 
+echo
+echo =915_3.py 
+python3.10 ./915_3.py 
+echo
+echo =915_4.py 
+python3.10 ./915_4.py 
+echo
+echo =915_5.py 
+python3.10 ./915_5.py 
+echo
+echo =915_6.py 
+python3.10 ./915_6.py 
+echo
+echo =915_7.py 
+python3.10 ./915_7.py 
+echo
+echo =915_8.py 
+python3.10 ./915_8.py 
+echo
+echo =915_9.py 
+python3.10 ./915_9.py 
+echo
+echo =915_10.py 
+python3.10 ./915_10.py 

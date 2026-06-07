@@ -1,0 +1,30 @@
+echo
+echo =83_1.py 
+python3.10 ./83_1.py 
+echo
+echo =83_2.py 
+python3.10 ./83_2.py 
+echo
+echo =83_3.py 
+python3.10 ./83_3.py 
+echo
+echo =83_4.py 
+python3.10 ./83_4.py 
+echo
+echo =83_5.py 
+python3.10 ./83_5.py 
+echo
+echo =83_6.py 
+python3.10 ./83_6.py 
+echo
+echo =83_7.py 
+python3.10 ./83_7.py 
+echo
+echo =83_8.py 
+python3.10 ./83_8.py 
+echo
+echo =83_9.py 
+python3.10 ./83_9.py 
+echo
+echo =83_10.py 
+python3.10 ./83_10.py 

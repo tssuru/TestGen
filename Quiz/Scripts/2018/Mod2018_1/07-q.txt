@@ -1,0 +1,14 @@
+ <fabric>
+     file answer
+     <fname>
+         07.txt
+//	07_beta.txt
+     <\fname>
+
+     <before>
+	 Написати прототип функцiї, що{SPACE} 
+     <\before>
+     <after>
+	. Якість коду також оцінюється.{ENDL}{ENDL}{ENDL}
+     <\after>
+  <\fabric>

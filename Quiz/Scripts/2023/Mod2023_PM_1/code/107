@@ -1,0 +1,27 @@
+echo
+echo =107_1.py 
+python3.10 ./107_1.py 
+echo
+echo =107_2.py 
+python3.10 ./107_2.py 
+echo
+echo =107_3.py 
+python3.10 ./107_3.py 
+echo
+echo =107_4.py 
+python3.10 ./107_4.py 
+echo
+echo =107_5.py 
+python3.10 ./107_5.py 
+echo
+echo =107_6.py 
+python3.10 ./107_6.py 
+echo
+echo =107_7.py 
+python3.10 ./107_7.py 
+echo
+echo =107_8.py 
+python3.10 ./107_8.py 
+echo
+echo =107_9.py 
+python3.10 ./107_9.py 

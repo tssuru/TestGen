@@ -1,0 +1,11 @@
+{
+  "title": "T12",
+  "variantCount": 1,
+  "questionsPerVariant": 12,
+  "questionTypeFilter": "open",
+  "shuffleQuestions": false,
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportProfile": "print",
+  "seed": 42
+}

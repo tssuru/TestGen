@@ -1,0 +1,30 @@
+echo
+echo =553_1.py 
+python3.10 ./553_1.py 
+echo
+echo =553_2.py 
+python3.10 ./553_2.py 
+echo
+echo =553_3.py 
+python3.10 ./553_3.py 
+echo
+echo =553_4.py 
+python3.10 ./553_4.py 
+echo
+echo =553_5.py 
+python3.10 ./553_5.py 
+echo
+echo =553_6.py 
+python3.10 ./553_6.py 
+echo
+echo =553_7.py 
+python3.10 ./553_7.py 
+echo
+echo =553_8.py 
+python3.10 ./553_8.py 
+echo
+echo =553_9.py 
+python3.10 ./553_9.py 
+echo
+echo =553_10.py 
+python3.10 ./553_10.py 

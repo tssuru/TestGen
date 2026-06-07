@@ -1,0 +1,30 @@
+echo
+echo =752_1.py 
+python3.10 ./752_1.py 
+echo
+echo =752_2.py 
+python3.10 ./752_2.py 
+echo
+echo =752_3.py 
+python3.10 ./752_3.py 
+echo
+echo =752_4.py 
+python3.10 ./752_4.py 
+echo
+echo =752_5.py 
+python3.10 ./752_5.py 
+echo
+echo =752_6.py 
+python3.10 ./752_6.py 
+echo
+echo =752_7.py 
+python3.10 ./752_7.py 
+echo
+echo =752_8.py 
+python3.10 ./752_8.py 
+echo
+echo =752_9.py 
+python3.10 ./752_9.py 
+echo
+echo =752_10.py 
+python3.10 ./752_10.py 

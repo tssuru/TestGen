@@ -1,0 +1,15 @@
+ <fabric>
+     template answer
+     <fname>
+         18Regex/02-f2.txt
+     <\fname>
+
+     <before>
+{ENDL}
+{ENDL}
+     <\before>
+
+     <after>
+{ENDL}
+     <\after>
+   <\fabric>

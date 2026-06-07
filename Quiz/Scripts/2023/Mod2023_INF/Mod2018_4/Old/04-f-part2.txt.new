@@ -1,0 +1,29 @@
+//source for question like
+//64 questions
+//Що буде надруковано за виконання:\n
+
+//array indexing
+
+<sample>
+
+int e[]={1,2,3,4,5,6,7,8,9}; cout<<e[2]; (відповідь "до виконання не можна визначити" також можлива)
+
+<\sample>
+
+<declarations>
+
+id={<char> a h}
+num={<int> 0 7}
+
+<\declarations>
+
+<template>
+
+int #id#[]={3,4,5,6,7,8,9}; cout<<#id#[#num#]; (відповідь "до виконання не можна визначити" також можлива)
+
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

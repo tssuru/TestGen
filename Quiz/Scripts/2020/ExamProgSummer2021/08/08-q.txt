@@ -1,0 +1,25 @@
+<fabric>
+collate
+ include 08/2-q.txt
+<fabric>
+ collate
+ include 08/4-q.txt
+ include 08/5-q.txt
+<n1>
+30
+<\n1>
+<n2>
+30
+<\n2>
+<\fabric>
+
+<n1>
+30
+<\n1>
+<n2>
+60
+<\n2>
+
+
+<\fabric>
+

@@ -1,0 +1,588 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\emergencystretch=3em
+\pagestyle{empty}
+\begin{document}
+%begin
+{\centering\Large\bfseries Контрольна робота\par}
+\medskip
+\noindent\rule{\linewidth}{0.5pt}
+\smallskip
+\noindent\textbf{Варіант \No\,1}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) {a=5;}
+
+( 2 ) char c='\n';
+
+( 3 ) int f(int a,9);
+
+( 4 ) if a<b a=0;
+\par\vspace{5mm}
+%enditem
+%beginitem
+2. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+4**-0.5*True
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+3. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(6 != 2 > 4 < False)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+4. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) 0.5
+
+( 2 ) or
+
+( 3 ) -3J
+
+( 4 ) "abc"""
+\par\vspace{5mm}
+%enditem
+%beginitem
+5. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+a,b,c=4,0,2
+def g(b):
+global c    a-=2
+    b=3
+    c=1
+    return a+b+c
+
+a,b,c=5,1,6
+print(g(b),a,b,c)
+\par\vspace{5mm}
+%enditem
+%beginitem
+6. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (9 / 9 / 9 / 9);
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+7. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../15BinTree/trees_exp/40.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:40 оберненому
+\par\vspace{5mm}
+%enditem
+%beginitem
+8. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) x=y=z
+
+( 2 ) ++n
+
+( 3 ) True=1
+
+( 4 ) n=1; n++
+\par\vspace{5mm}
+%enditem
+%beginitem
+9. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+a, b, c = 7, 6, 8
+def g(a, b, c=9):
+    print(a, b, c, end=" ")
+
+g(a=4, 0, b=2)
+print(a, b, c)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+10. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.extend([1,2])
+print(e)
+
+\par\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+
+\newpage
+
+%begin
+{\centering\Large\bfseries Контрольна робота\par}
+\medskip
+\noindent\rule{\linewidth}{0.5pt}
+\smallskip
+\noindent\textbf{Варіант \No\,2}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+a,b,c=4,0,2
+def g(b):
+global c    a-=2
+    b=3
+    c=1
+    return a+b+c
+
+a,b,c=5,1,6
+print(g(b),a,b,c)
+\par\vspace{5mm}
+%enditem
+%beginitem
+2. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+e = ('a','b','c','d','e',0,1,2)
+print(e[-8])
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+3. %goodpath:Scripts/2018/Mod2018_1/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) {a=5;}
+
+( 2 ) char c='\n';
+
+( 3 ) int f(int a,9);
+
+( 4 ) if a<b a=0;
+\par\vspace{5mm}
+%enditem
+%beginitem
+4. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << (!6==2 or !4< false or 6.0>2.0);
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+5. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+
+a,b,c=7,6,8
+def g(a,b,c=9):
+    print(a,b,c,end="")
+
+g(a=4,0,b=2)
+print(a,b,c)
+
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+6. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+x,y,z=4,0,2
+y,x,z,z=y,7,z,x
+print(x,y,z)
+\par\vspace{5mm}
+%enditem
+%beginitem
+7. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) x=y=z
+
+( 2 ) ++n
+
+( 3 ) True=1
+
+( 4 ) n=1; n++
+\par\vspace{5mm}
+%enditem
+%beginitem
+8. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) False
+
+( 2 ) fop
+
+( 3 ) <>
+
+( 4 ) '123'
+\par\vspace{5mm}
+%enditem
+%beginitem
+9. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print(4**-0.5*True)
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+10. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+#include <iostream>
+using namespace std;
+
+int g(int b){
+    int y = 50;
+    if (b) 
+        y = 4;
+    else if (b == 0)
+         return 0;
+    else
+         y = 2;
+    return y;
+}
+
+int main(){
+    cout << g(-4);
+    return 0;
+}
+%code
+
+\par\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+
+\newpage
+
+%begin
+{\centering\Large\bfseries Контрольна робота\par}
+\medskip
+\noindent\rule{\linewidth}{0.5pt}
+\smallskip
+\noindent\textbf{Варіант \No\,3}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+cout << 9 / 9 / 9 / 9;
+%code
+\par\vspace{5mm}
+%enditem
+%beginitem
+2. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) 0.5
+
+( 2 ) or
+
+( 3 ) -3J
+
+( 4 ) "abc"""
+\par\vspace{5mm}
+%enditem
+%beginitem
+3. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 4**-0.5*True
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+4. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    res = 8//8/8*8
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+5. 
+Вкажіть значення та тип виразу:
+"6.0j"==6
+\par\vspace{5mm}
+%enditem
+%beginitem
+6. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) x=y=z
+
+( 2 ) ++n
+
+( 3 ) True=1
+
+( 4 ) n=1; n++
+\par\vspace{5mm}
+%enditem
+%beginitem
+7. \textbf{Що буде виведено за виконання фрагменту коду?}
+try:
+    for e in range(7, 7, -2):
+        if e<=7:
+            continue
+        print(e, end=';');e = -5
+        if e<=7:
+            break
+    else:
+        print(e,end=';')
+    print(e)
+except:
+    print('Z')
+\par\vspace{5mm}
+%enditem
+%beginitem
+8. \textbf{Що буде виведено за виконання фрагменту коду?}
+%code
+#include <iostream>
+using namespace std;
+
+int f(int &x, int &y){
+    x = 6;
+    y-= 3;
+    return y;
+}
+
+int main(){
+    int a = 1, b = 4;
+    b = f(b, b);
+    cout << a << ":" << b <<':';
+    {
+        int a = 7, b = 2;
+        cout << ((b<=4) || ((a-=2) <= 4))
+             << a << ":" << b << ":";
+    }
+    {
+        inta = 8;
+        cout << a << ':';
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+9. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) False
+
+( 2 ) fop
+
+( 3 ) <>
+
+( 4 ) '123'
+\par\vspace{5mm}
+%enditem
+%beginitem
+10. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+%code
+print('R', end=' ')
+m=4
+while m<=10:
+    m+=2
+print(m)
+%code
+
+\par\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+
+\newpage
+
+%begin
+{\centering\Large\bfseries Контрольна робота\par}
+\medskip
+\noindent\rule{\linewidth}{0.5pt}
+\smallskip
+\noindent\textbf{Варіант \No\,4}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. \textbf{Що буде виведено за виконання фрагменту коду?}
+a = 4
+b = 0
+c = 2
+
+def g(b):
+global c    a -= 2
+    b = 3
+    c = 1
+    return a + b + c
+
+a = 5
+b = 1
+c = 6
+
+try:
+    print(g(b), a, b, c, sep=';')
+except:
+    print('Z', a, b, c, sep=';')
+\par\vspace{5mm}
+%enditem
+%beginitem
+2. 
+Записати ВИРАЗ, значенням якого є множина, що складається з цілих чисел від 15 до 2005 (включно), що діляться на 3.\par\vspace{5mm}
+%enditem
+%beginitem
+3. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+\textbf{Відмітити все, що є коректним оператором С++:}
+( 1 ) x=y=z
+
+( 2 ) ++n
+
+( 3 ) True=1
+
+( 4 ) n=1; n++
+\par\vspace{5mm}
+%enditem
+%beginitem
+4. 
+Записати ВИРАЗ, значенням якого є список, що складається з квадратних коренів цілих чисел від 15 до 2005 (включно), що діляться на 3, записаних в оберненому порядку.\par\vspace{5mm}
+%enditem
+%beginitem
+5. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) False
+
+( 2 ) fop
+
+( 3 ) <>
+
+( 4 ) '123'
+\par\vspace{5mm}
+%enditem
+%beginitem
+6. 
+Написати програму, що запитує у користувача значення дійсних параметрів $x$ та $y$, обчислює для них значення виразу 
+$$\frac{\log_{10} x - 58}{(\arccos x - 0.6) (y - 52)}$$ 
+та повiдомляє введенi данi та результат обчислення.
+ Оцінюється правильність та якість коду.
+
+\par\vspace{5mm}
+%enditem
+%beginitem
+7. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+\textbf{Відмітити все, що є однією правильною лексемою:}
+( 1 ) 0.5
+
+( 2 ) or
+
+( 3 ) -3J
+
+( 4 ) "abc"""
+\par\vspace{5mm}
+%enditem
+%beginitem
+8. \textbf{Що буде виведено за виконання фрагменту коду?}
+
+print('R', end=' ')
+for e in range(7,7,-2):
+    if e<=7:
+        continue
+        print(e, end=' ')
+        e=-5
+    if e<=7:
+        break
+    else:
+        print(e, end=' ')
+    print(e)
+\par\vspace{5mm}
+%enditem
+%beginitem
+9. \textbf{Що буде виведено за виконання фрагменту коду?}
+e=['0','1','2','3','4']; e.extend([1,2]); print(e)\par\vspace{5mm}
+%enditem
+%beginitem
+10. 
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../15BinTree/trees_exp/40.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:40 оберненому
+\par\vspace{5mm}
+%enditem
+
+
+
+
+
+
+
+
+
+
+%end
+\newpage
+\end{document}
+
+

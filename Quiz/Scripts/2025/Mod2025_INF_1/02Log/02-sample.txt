@@ -1,0 +1,150 @@
+За наявності означення 
+%code
+
+bool f(int n){
+    cout<<"f";
+    return n<=-1;
+}
+
+%code
+що буде виведено за виконання 
+%code
+cout<<(f(-3) || f(4));
+%code
+
+
+За наявності означення 
+%code
+
+bool f(int n){
+    cout<<"f";
+    return n;
+}
+
+%code
+що буде виведено за виконання 
+%code
+cout<<(f(1) && f(-7));
+%code
+
+
+За наявності означення 
+%code
+
+bool f(int n){
+    cout<<"f";
+    return n==4;
+}
+
+%code
+що буде виведено за виконання 
+%code
+cout<<(f(7) or f(6));
+%code
+
+
+За наявності означення 
+%code
+
+bool f(int n){
+    cout<<"f";
+    return n;
+}
+
+%code
+що буде виведено за виконання 
+%code
+cout<<(f(-6) and f(-2));
+%code
+
+
+За наявності означення 
+%code
+
+bool f(int n){
+    cout<<"f";
+    return n!=0;
+}
+
+%code
+що буде виведено за виконання 
+%code
+cout<<(f(0) and f(5));
+%code
+
+
+За наявності означення 
+%code
+
+bool f(int n){
+    cout<<"f";
+    return n;
+}
+
+%code
+що буде виведено за виконання 
+%code
+cout<<(f(3) && f(-8));
+%code
+
+
+За наявності означення 
+%code
+
+bool f(int n){
+    cout<<"f";
+    return n;
+}
+
+%code
+що буде виведено за виконання 
+%code
+cout<<(f(8) || f(-9));
+%code
+
+
+За наявності означення 
+%code
+
+bool f(int n){
+    cout<<"f";
+    return n>-2;
+}
+
+%code
+що буде виведено за виконання 
+%code
+cout<<(f(2) or f(-4));
+%code
+
+
+За наявності означення 
+%code
+
+bool f(int n){
+    cout<<"f";
+    return n;
+}
+
+%code
+що буде виведено за виконання 
+%code
+cout<<(f(-5) and f(9));
+%code
+
+
+За наявності означення 
+%code
+
+bool f(int n){
+    cout<<"f";
+    return n<-4;
+}
+
+%code
+що буде виведено за виконання 
+%code
+cout<<(f(-1) && f(-6));
+%code
+
+

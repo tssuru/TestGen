@@ -1,0 +1,30 @@
+echo
+echo =411_1.py 
+python3.10 ./411_1.py 
+echo
+echo =411_2.py 
+python3.10 ./411_2.py 
+echo
+echo =411_3.py 
+python3.10 ./411_3.py 
+echo
+echo =411_4.py 
+python3.10 ./411_4.py 
+echo
+echo =411_5.py 
+python3.10 ./411_5.py 
+echo
+echo =411_6.py 
+python3.10 ./411_6.py 
+echo
+echo =411_7.py 
+python3.10 ./411_7.py 
+echo
+echo =411_8.py 
+python3.10 ./411_8.py 
+echo
+echo =411_9.py 
+python3.10 ./411_9.py 
+echo
+echo =411_10.py 
+python3.10 ./411_10.py 

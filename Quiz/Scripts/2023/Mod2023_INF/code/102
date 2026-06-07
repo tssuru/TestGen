@@ -1,0 +1,24 @@
+echo
+echo =102_1.py 
+python3.11 -W "ignore" ./102_1.py 
+echo
+echo =102_2.py 
+python3.11 -W "ignore" ./102_2.py 
+echo
+echo =102_3.py 
+python3.11 -W "ignore" ./102_3.py 
+echo
+echo =102_4.py 
+python3.11 -W "ignore" ./102_4.py 
+echo
+echo =102_5.py 
+python3.11 -W "ignore" ./102_5.py 
+echo
+echo =102_6.py 
+python3.11 -W "ignore" ./102_6.py 
+echo
+echo =102_7.py 
+python3.11 -W "ignore" ./102_7.py 
+echo
+echo =102_8.py 
+echo 2

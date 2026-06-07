@@ -1,0 +1,17 @@
+<fabric>
+     file answer
+     <fname>
+         Graphs/dfs2-s.txt
+     <\fname>
+     <num>
+        1	
+     <\num>
+
+
+     <before>
+     <\before>
+<after>
+{ENDL}
+<\after>
+
+  <\fabric>

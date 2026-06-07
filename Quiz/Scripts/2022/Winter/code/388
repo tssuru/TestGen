@@ -1,0 +1,30 @@
+echo
+echo =388_1.py 
+python3.10 ./388_1.py 
+echo
+echo =388_2.py 
+python3.10 ./388_2.py 
+echo
+echo =388_3.py 
+python3.10 ./388_3.py 
+echo
+echo =388_4.py 
+python3.10 ./388_4.py 
+echo
+echo =388_5.py 
+python3.10 ./388_5.py 
+echo
+echo =388_6.py 
+python3.10 ./388_6.py 
+echo
+echo =388_7.py 
+python3.10 ./388_7.py 
+echo
+echo =388_8.py 
+python3.10 ./388_8.py 
+echo
+echo =388_9.py 
+python3.10 ./388_9.py 
+echo
+echo =388_10.py 
+python3.10 ./388_10.py 

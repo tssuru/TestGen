@@ -1,0 +1,22 @@
+{
+  "title": "API Validation Both",
+  "disciplineId": "informatics",
+  "languageId": "cpp",
+  "variantCount": 1,
+  "questionsPerVariant": 4,
+  "difficultyProfile": {
+    "easy": 2,
+    "medium": 2,
+    "hard": 1
+  },
+  "mode": "TwoOnLine",
+  "includeAnswerKey": true,
+  "exportFormats": [
+    "pdf",
+    "docx",
+    "md",
+    "zip"
+  ],
+  "exportProfile": "both",
+  "questionPoolFilters": []
+}

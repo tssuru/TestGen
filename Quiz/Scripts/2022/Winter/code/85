@@ -1,0 +1,30 @@
+echo
+echo =85_1.py 
+python3.10 ./85_1.py 
+echo
+echo =85_2.py 
+python3.10 ./85_2.py 
+echo
+echo =85_3.py 
+python3.10 ./85_3.py 
+echo
+echo =85_4.py 
+python3.10 ./85_4.py 
+echo
+echo =85_5.py 
+python3.10 ./85_5.py 
+echo
+echo =85_6.py 
+python3.10 ./85_6.py 
+echo
+echo =85_7.py 
+python3.10 ./85_7.py 
+echo
+echo =85_8.py 
+python3.10 ./85_8.py 
+echo
+echo =85_9.py 
+python3.10 ./85_9.py 
+echo
+echo =85_10.py 
+python3.10 ./85_10.py 

@@ -1,0 +1,30 @@
+echo
+echo =204_1.py 
+python3.11 -W "ignore" ./204_1.py 
+echo
+echo =204_2.py 
+python3.11 -W "ignore" ./204_2.py 
+echo
+echo =204_3.py 
+python3.11 -W "ignore" ./204_3.py 
+echo
+echo =204_4.py 
+python3.11 -W "ignore" ./204_4.py 
+echo
+echo =204_5.py 
+python3.11 -W "ignore" ./204_5.py 
+echo
+echo =204_6.py 
+python3.11 -W "ignore" ./204_6.py 
+echo
+echo =204_7.py 
+python3.11 -W "ignore" ./204_7.py 
+echo
+echo =204_8.py 
+python3.11 -W "ignore" ./204_8.py 
+echo
+echo =204_10.py 
+python3.11 -W "ignore" ./204_10.py 
+echo
+echo =204_11.py 
+python3.11 -W "ignore" ./204_11.py 

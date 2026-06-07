@@ -1,0 +1,18 @@
+echo
+echo =97_1.py 
+python3.11 -W "ignore" ./97_1.py 
+echo
+echo =97_2.py 
+python3.11 -W "ignore" ./97_2.py 
+echo
+echo =97_3.py 
+python3.11 -W "ignore" ./97_3.py 
+echo
+echo =97_4.py 
+python3.11 -W "ignore" ./97_4.py 
+echo
+echo =97_5.py 
+python3.11 -W "ignore" ./97_5.py 
+echo
+echo =97_6.py 
+python3.11 -W "ignore" ./97_6.py 

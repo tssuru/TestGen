@@ -1,0 +1,30 @@
+echo
+echo =369_1.py 
+python3.10 ./369_1.py 
+echo
+echo =369_2.py 
+python3.10 ./369_2.py 
+echo
+echo =369_3.py 
+python3.10 ./369_3.py 
+echo
+echo =369_4.py 
+python3.10 ./369_4.py 
+echo
+echo =369_5.py 
+python3.10 ./369_5.py 
+echo
+echo =369_6.py 
+python3.10 ./369_6.py 
+echo
+echo =369_7.py 
+python3.10 ./369_7.py 
+echo
+echo =369_8.py 
+python3.10 ./369_8.py 
+echo
+echo =369_9.py 
+python3.10 ./369_9.py 
+echo
+echo =369_10.py 
+python3.10 ./369_10.py 

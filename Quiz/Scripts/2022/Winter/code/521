@@ -1,0 +1,30 @@
+echo
+echo =521_1.py 
+python3.10 ./521_1.py 
+echo
+echo =521_2.py 
+python3.10 ./521_2.py 
+echo
+echo =521_3.py 
+python3.10 ./521_3.py 
+echo
+echo =521_4.py 
+python3.10 ./521_4.py 
+echo
+echo =521_5.py 
+python3.10 ./521_5.py 
+echo
+echo =521_6.py 
+python3.10 ./521_6.py 
+echo
+echo =521_7.py 
+python3.10 ./521_7.py 
+echo
+echo =521_8.py 
+python3.10 ./521_8.py 
+echo
+echo =521_9.py 
+python3.10 ./521_9.py 
+echo
+echo =521_10.py 
+python3.10 ./521_10.py 

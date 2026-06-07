@@ -1,0 +1,250 @@
+%Оригинал был утерян. Требует отладки!
+%code
+__c = 0
+
+class B:
+    __c = 1
+    
+    def __init__(self):
+        self.__c = 2
+        __c = 3
+        B.__c = 4
+
+obj = B()
+B.__c = 5
+try:
+    print(__c, end=' ')
+    print(obj.__c, end=' ')
+    print(B.__c, end=' ')
+    print(obj.__c, end=' ')
+    print(obj._B__c)
+except:
+    print('ERR')
+%code
+
+
+%Оригинал был утерян. Требует отладки!
+%code
+_d = 0
+
+class A:
+    _d = 1
+    
+    def __init__(self):
+        self._d = 2
+        _d = 3
+        A._d = 4
+
+obj = A()
+obj._d = 5
+try:
+    print(_d, end=' ')
+    print(obj._d, end=' ')
+    print(A._d, end=' ')
+    print(obj._d, end=' ')
+    print(obj._A__d)
+except:
+    print('ERR')
+%code
+
+
+%Оригинал был утерян. Требует отладки!
+%code
+b = 0
+
+class C:
+    b = 1
+    
+    def __init__(self):
+        self.b = 2
+        b = 3
+        C.b = 4
+
+obj = C()
+obj.b = 5
+try:
+    print(b, end=' ')
+    print(obj.b, end=' ')
+    print(C.b, end=' ')
+    print(obj.b, end=' ')
+    print(obj._C__b)
+except:
+    print('ERR')
+%code
+
+
+%Оригинал был утерян. Требует отладки!
+%code
+_a = 0
+
+class D:
+    _a = 1
+    
+    def __init__(self):
+        self._a = 2
+        _a = 3
+        D._a = 4
+
+obj = D()
+D._a = 5
+try:
+    print(_a, end=' ')
+    print(obj._a, end=' ')
+    print(D._a, end=' ')
+    print(obj._a, end=' ')
+    print(obj._D__a)
+except:
+    print('ERR')
+%code
+
+
+%Оригинал был утерян. Требует отладки!
+%code
+b = 0
+
+class B:
+    b = 1
+    
+    def __init__(self):
+        self.b = 2
+        b = 3
+        B.b = 4
+
+obj = B()
+B.b = 5
+try:
+    print(b, end=' ')
+    print(obj.b, end=' ')
+    print(B.b, end=' ')
+    print(obj.b, end=' ')
+    print(obj._B__b)
+except:
+    print('ERR')
+%code
+
+
+%Оригинал был утерян. Требует отладки!
+%code
+__a = 0
+
+class C:
+    __a = 1
+    
+    def __init__(self):
+        self.__a = 2
+        __a = 3
+        C.__a = 4
+
+obj = C()
+obj.__a = 5
+try:
+    print(__a, end=' ')
+    print(obj.__a, end=' ')
+    print(C.__a, end=' ')
+    print(obj.__a, end=' ')
+    print(obj._C__a)
+except:
+    print('ERR')
+%code
+
+
+%Оригинал был утерян. Требует отладки!
+%code
+c = 0
+
+class D:
+    c = 1
+    
+    def __init__(self):
+        self.c = 2
+        c = 3
+        D.c = 4
+
+obj = D()
+obj.c = 5
+try:
+    print(c, end=' ')
+    print(obj.c, end=' ')
+    print(D.c, end=' ')
+    print(obj.c, end=' ')
+    print(obj._D__c)
+except:
+    print('ERR')
+%code
+
+
+%Оригинал был утерян. Требует отладки!
+%code
+_d = 0
+
+class A:
+    _d = 1
+    
+    def __init__(self):
+        self._d = 2
+        _d = 3
+        A._d = 4
+
+obj = A()
+A._d = 5
+try:
+    print(_d, end=' ')
+    print(obj._d, end=' ')
+    print(A._d, end=' ')
+    print(obj._d, end=' ')
+    print(obj._A__d)
+except:
+    print('ERR')
+%code
+
+
+%Оригинал был утерян. Требует отладки!
+%code
+__d = 0
+
+class C:
+    __d = 1
+    
+    def __init__(self):
+        self.__d = 2
+        __d = 3
+        C.__d = 4
+
+obj = C()
+obj.__d = 5
+try:
+    print(__d, end=' ')
+    print(obj.__d, end=' ')
+    print(C.__d, end=' ')
+    print(obj.__d, end=' ')
+    print(obj._C__d)
+except:
+    print('ERR')
+%code
+
+
+%Оригинал был утерян. Требует отладки!
+%code
+__c = 0
+
+class D:
+    __c = 1
+    
+    def __init__(self):
+        self.__c = 2
+        __c = 3
+        D.__c = 4
+
+obj = D()
+D.__c = 5
+try:
+    print(__c, end=' ')
+    print(obj.__c, end=' ')
+    print(D.__c, end=' ')
+    print(obj.__c, end=' ')
+    print(obj._D__c)
+except:
+    print('ERR')
+%code
+
+

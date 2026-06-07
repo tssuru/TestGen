@@ -1,0 +1,30 @@
+echo
+echo =215_1.py 
+python3.10 ./215_1.py 
+echo
+echo =215_2.py 
+python3.10 ./215_2.py 
+echo
+echo =215_3.py 
+python3.10 ./215_3.py 
+echo
+echo =215_4.py 
+python3.10 ./215_4.py 
+echo
+echo =215_5.py 
+python3.10 ./215_5.py 
+echo
+echo =215_6.py 
+python3.10 ./215_6.py 
+echo
+echo =215_7.py 
+python3.10 ./215_7.py 
+echo
+echo =215_8.py 
+python3.10 ./215_8.py 
+echo
+echo =215_9.py 
+python3.10 ./215_9.py 
+echo
+echo =215_10.py 
+python3.10 ./215_10.py 

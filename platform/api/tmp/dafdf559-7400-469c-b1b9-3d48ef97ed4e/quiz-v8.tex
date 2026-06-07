@@ -1,0 +1,160 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\graphicspath{{/app/Quiz/Scripts/2023/ProgAll/15BinTree/}{/app/Quiz/Scripts/2021/Mod2021_3/BinTree/}{/app/Quiz/Scripts/2020/Mod2020_4/BinTree/}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,8}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+%code
+print(7//7/7*7)
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+%code
+#include <iostream>
+using namespace std;
+
+int f(int &x, int &y){
+    x = 5;
+    y-= 9;
+    return y;
+}
+
+int main(){
+    int a = 6, b = 4;
+    b = f(b, b);
+    cout << a << ":" << b <<':';
+    {
+        int a = 2, b = 3;
+        cout << ((b<=7) || ((a-=2) <= 7)) << ':';
+        cout << a << ":" << b << ':';
+    }
+    {
+        inta = 1;
+        cout << a << ':';
+    }
+    cout << a << ":" << b << endl;
+    return 0;
+}
+%code
+
+\vspace{5mm}
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання фрагменту коду?
+
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b[-8:-8]='12'
+print(b)
+%code
+
+\vspace{5mm}
+%enditem
+
+%beginitem
+4. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) a2f
+
+( 2 ) 'qwerty'
+
+( 3 ) **
+
+( 4 ) true
+\vspace{5mm}
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання фрагменту коду?
+%code
+a, b, c = 7, 9, 8
+def g(a, b, c=6):
+    print(a, b, c, end=" ")
+
+g(1, 4, 2)
+print(a, b, c)
+%code
+\vspace{5mm}
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання фрагменту коду?
+
+%code
+j=1
+while j<=9:
+    j+=2
+print(j)
+%code
+
+\vspace{5mm}
+%enditem
+
+%beginitem
+7. 
+not3.0<=3 or not6==9 or 6.0>False\vspace{5mm}
+%enditem
+
+%beginitem
+8. 
+
+def f(n):
+    print("f", end="");
+    return n<=0
+
+print(f(3) or f(-1))
+\vspace{5mm}
+%enditem
+
+%beginitem
+9. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) 'c'
+
+( 2 ) 0123
+
+( 3 ) 0b23
+
+( 4 ) xy
+\vspace{5mm}
+%enditem
+
+%beginitem
+10. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) return 'a'<'c'
+
+( 2 ) print(sep=":","qwe")
+
+( 3 ) x=*2
+
+( 4 ) float(2)/87
+\vspace{5mm}
+%enditem
+
+%end
+\newpage
+\end{document}
+

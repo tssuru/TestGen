@@ -1,0 +1,235 @@
+%code
+a = 0
+h = 1
+
+class B:
+    a = 2
+    
+    def __init__(self):
+        global a
+        self.a = 3
+        a = 4
+        B.a = 5
+
+obj = B()
+try:
+    print(a, end=' ')
+    print(h, end=' ')
+    print(B.a, end=' ')
+    print(obj.a)
+except:
+    print('ERR')
+%code
+
+
+%code
+b = 0
+j = 1
+
+class A:
+    j = 2
+    
+    def __init__(self):
+        self.j = 3
+        j = 4
+        A.j = 5
+
+obj = A()
+try:
+    print(b, end=' ')
+    print(j, end=' ')
+    print(A.j, end=' ')
+    print(obj.j)
+except:
+    print('ERR')
+%code
+
+
+%code
+d = 0
+m = 1
+
+class D:
+    m = 2
+    
+    def __init__(self):
+        self.d = 3
+        m = 4
+        D.m = 5
+
+obj = D()
+try:
+    print(d, end=' ')
+    print(m, end=' ')
+    print(D.m, end=' ')
+    print(obj.d)
+except:
+    print('ERR')
+%code
+
+
+%code
+c = 0
+k = 1
+
+class C:
+    c = 2
+    
+    def __init__(self):
+        global c
+        self.k = 3
+        c = 4
+        C.c = 5
+
+obj = C()
+try:
+    print(c, end=' ')
+    print(k, end=' ')
+    print(C.c, end=' ')
+    print(obj.k)
+except:
+    print('ERR')
+%code
+
+
+%code
+a = 0
+n = 1
+
+class B:
+    a = 2
+    
+    def __init__(self):
+        self.a = 3
+        a = 4
+        B.a = 5
+
+obj = B()
+try:
+    print(a, end=' ')
+    print(n, end=' ')
+    print(B.a, end=' ')
+    print(obj.a)
+except:
+    print('ERR')
+%code
+
+
+%code
+b = 0
+h = 1
+
+class C:
+    h = 2
+    
+    def __init__(self):
+        global h
+        self.h = 3
+        h = 4
+        C.h = 5
+
+obj = C()
+try:
+    print(b, end=' ')
+    print(h, end=' ')
+    print(C.h, end=' ')
+    print(obj.h)
+except:
+    print('ERR')
+%code
+
+
+%code
+d = 0
+k = 1
+
+class D:
+    d = 2
+    
+    def __init__(self):
+        self.k = 3
+        d = 4
+        D.d = 5
+
+obj = D()
+try:
+    print(d, end=' ')
+    print(k, end=' ')
+    print(D.d, end=' ')
+    print(obj.k)
+except:
+    print('ERR')
+%code
+
+
+%code
+c = 0
+j = 1
+
+class A:
+    j = 2
+    
+    def __init__(self):
+        global j
+        self.c = 3
+        j = 4
+        A.j = 5
+
+obj = A()
+try:
+    print(c, end=' ')
+    print(j, end=' ')
+    print(A.j, end=' ')
+    print(obj.c)
+except:
+    print('ERR')
+%code
+
+
+%code
+c = 0
+m = 1
+
+class B:
+    c = 2
+    
+    def __init__(self):
+        self.c = 3
+        c = 4
+        B.c = 5
+
+obj = B()
+try:
+    print(c, end=' ')
+    print(m, end=' ')
+    print(B.c, end=' ')
+    print(obj.c)
+except:
+    print('ERR')
+%code
+
+
+%code
+b = 0
+n = 1
+
+class D:
+    n = 2
+    
+    def __init__(self):
+        global n
+        self.n = 3
+        n = 4
+        D.n = 5
+
+obj = D()
+try:
+    print(b, end=' ')
+    print(n, end=' ')
+    print(D.n, end=' ')
+    print(obj.n)
+except:
+    print('ERR')
+%code
+
+

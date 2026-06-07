@@ -1,0 +1,30 @@
+echo
+echo =559_1.py 
+python3.10 ./559_1.py 
+echo
+echo =559_2.py 
+python3.10 ./559_2.py 
+echo
+echo =559_3.py 
+python3.10 ./559_3.py 
+echo
+echo =559_4.py 
+python3.10 ./559_4.py 
+echo
+echo =559_5.py 
+python3.10 ./559_5.py 
+echo
+echo =559_6.py 
+python3.10 ./559_6.py 
+echo
+echo =559_7.py 
+python3.10 ./559_7.py 
+echo
+echo =559_8.py 
+python3.10 ./559_8.py 
+echo
+echo =559_9.py 
+python3.10 ./559_9.py 
+echo
+echo =559_10.py 
+python3.10 ./559_10.py 

@@ -1,0 +1,30 @@
+echo
+echo =775_1.py 
+python3.10 ./775_1.py 
+echo
+echo =775_2.py 
+python3.10 ./775_2.py 
+echo
+echo =775_3.py 
+python3.10 ./775_3.py 
+echo
+echo =775_4.py 
+python3.10 ./775_4.py 
+echo
+echo =775_5.py 
+python3.10 ./775_5.py 
+echo
+echo =775_6.py 
+python3.10 ./775_6.py 
+echo
+echo =775_7.py 
+python3.10 ./775_7.py 
+echo
+echo =775_8.py 
+python3.10 ./775_8.py 
+echo
+echo =775_9.py 
+python3.10 ./775_9.py 
+echo
+echo =775_10.py 
+python3.10 ./775_10.py 

@@ -1,0 +1,30 @@
+echo
+echo =891_1.py 
+python3.10 ./891_1.py 
+echo
+echo =891_2.py 
+python3.10 ./891_2.py 
+echo
+echo =891_3.py 
+python3.10 ./891_3.py 
+echo
+echo =891_4.py 
+python3.10 ./891_4.py 
+echo
+echo =891_5.py 
+python3.10 ./891_5.py 
+echo
+echo =891_6.py 
+python3.10 ./891_6.py 
+echo
+echo =891_7.py 
+python3.10 ./891_7.py 
+echo
+echo =891_8.py 
+python3.10 ./891_8.py 
+echo
+echo =891_9.py 
+python3.10 ./891_9.py 
+echo
+echo =891_10.py 
+python3.10 ./891_10.py 

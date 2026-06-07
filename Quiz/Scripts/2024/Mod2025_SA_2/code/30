@@ -1,0 +1,30 @@
+echo
+echo =30_1.py 
+python3.11 -W "ignore" ./30_1.py 
+echo
+echo =30_2.py 
+python3.11 -W "ignore" ./30_2.py 
+echo
+echo =30_3.py 
+python3.11 -W "ignore" ./30_3.py 
+echo
+echo =30_4.py 
+python3.11 -W "ignore" ./30_4.py 
+echo
+echo =30_5.py 
+python3.11 -W "ignore" ./30_5.py 
+echo
+echo =30_6.py 
+python3.11 -W "ignore" ./30_6.py 
+echo
+echo =30_7.py 
+python3.11 -W "ignore" ./30_7.py 
+echo
+echo =30_8.py 
+python3.11 -W "ignore" ./30_8.py 
+echo
+echo =30_9.py 
+python3.11 -W "ignore" ./30_9.py 
+echo
+echo =30_10.py 
+python3.11 -W "ignore" ./30_10.py 

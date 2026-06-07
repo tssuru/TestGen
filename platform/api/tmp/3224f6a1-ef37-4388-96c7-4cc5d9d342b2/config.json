@@ -1,0 +1,22 @@
+{
+  "title": "CPP",
+  "disciplineId": "programming",
+  "languageId": "cpp",
+  "variantCount": 2,
+  "questionsPerVariant": 10,
+  "difficultyProfile": {
+    "easy": 4,
+    "medium": 4,
+    "hard": 2
+  },
+  "mode": "OneOnLine",
+  "includeAnswerKey": true,
+  "exportFormats": [
+    "pdf",
+    "docx",
+    "md",
+    "zip"
+  ],
+  "exportProfile": "print",
+  "questionPoolFilters": []
+}

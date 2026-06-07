@@ -1,0 +1,77 @@
+<document>
+<header>
+\documentclass[11pt, ukrainian]{article}{ENDL}
+\setlength\textwidth{180mm} \setlength\textheight{277mm}{ENDL}
+\setlength\voffset{-38mm} \setlength\hoffset{-28mm}{ENDL}
+%\setlength\parindent{0mm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\begin{document}{ENDL}
+{\Large \center  Варіанти завдань до лабораторної роботи №4
+\par 2020/21 н.р.\par \bigskip\bigskip}{ENDL}
+{ENDL}
+Порядок полів у записах та інформацію додаткового файлу фіксовано у варіанті.{ENDL}{ENDL}
+Для порівняння числових значень використовується традиційний порядок.{ENDL}{ENDL}
+Для порівняння рядкових значень використовується лексикографічний порядок. {ENDL}{ENDL}
+У випадку сортування за кількома полями результуюче сортування будується {ENDL}
+за порядками окремих полів за допомогою конструкції лексикографічного порядку. {ENDL}
+Послідовність полів, за якими має відбуватися сортування, задається в умові. {ENDL}
+Якщо не вказано інше, то поле сортується за зростанням.{ENDL}{ENDL}
+Якщо умова вимагає знайти $k$ най… і $k$-е місце займають кілька, то слід виводити всіх їх.{ENDL}{ENDL}
+\newpage{ENDL}
+\par \bigskip{ENDL}{ENDL}
+
+
+<\header>
+<footer>
+\end{document}
+<\footer>
+
+<from>
+1
+<\from>
+
+<to>
+22
+<\to>
+
+ <onNextVariant>
+\vspace{0.9cm}{ENDL}
+ <\onNextVariant>
+
+  <onNextPage>
+\newpage{ENDL}
+  <\onNextPage>
+
+  <onPage>
+     1
+  <\onPage>
+
+
+<\document>
+
+<variant>
+
+<before>
+{\center Варіант  \No \textbf { #No# }\par}{ENDL}
+\bigskip{ENDL}
+//#No#) \space {ENDL}
+<\before>
+
+<after>
+\par{ENDL}
+<\after>
+
+<\variant>
+
+<item>
+  <fabric>
+     template answer
+     <fname>
+         script_lab.txt
+     <\fname>
+   <\fabric>
+<\item>
+

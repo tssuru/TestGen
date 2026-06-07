@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Quest" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/debug/quest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters='tmp.txt quiz_2.txt &quot;D:\Projects\Quiz\Scripts\Mod2020_2 - Copy&quot;' />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="../Quiz" />
+					<Add directory="Quest" />
+				</Compiler>
+				<Linker>
+					<Add directory="../bin/debug" />
+					<Add directory="../../bin/debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../bin/release/quest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="../Quiz" />
+					<Add directory="Quest" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add directory="../bin/release" />
+					<Add directory="../../bin/release" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-fexceptions" />
+			<Add option="-DNO_IMPLICIT_EXTERN_C" />
+			<Add directory="../Container" />
+			<Add directory="../LexStream" />
+			<Add directory="../../strings" />
+			<Add directory="QFabrics" />
+			<Add directory="Questions" />
+			<Add directory="../Quest" />
+			<Add directory="Sources" />
+		</Compiler>
+		<Linker>
+			<Add library="strings" />
+			<Add library="Container" />
+			<Add library="LexStream" />
+		</Linker>
+		<Unit filename="BaseVariant.cpp" />
+		<Unit filename="BaseVariant.h" />
+		<Unit filename="Builder.cpp" />
+		<Unit filename="Builder.h" />
+		<Unit filename="QFabrics/AnswerQuestFabric.cpp" />
+		<Unit filename="QFabrics/AnswerQuestFabric.h" />
+		<Unit filename="QFabrics/BaseCheckQuestFabric.cpp" />
+		<Unit filename="QFabrics/BaseCheckQuestFabric.h" />
+		<Unit filename="QFabrics/CheckQuestFabric.cpp" />
+		<Unit filename="QFabrics/CheckQuestFabric.h" />
+		<Unit filename="QFabrics/CheckQuestFabricAuto.cpp" />
+		<Unit filename="QFabrics/CheckQuestFabricAuto.h" />
+		<Unit filename="QFabrics/Collate2QuestFabric.cpp" />
+		<Unit filename="QFabrics/Collate2QuestFabric.h" />
+		<Unit filename="QFabrics/FileAnswerQuestFabric.cpp" />
+		<Unit filename="QFabrics/FileAnswerQuestFabric.h" />
+		<Unit filename="QFabrics/QuestFabric.cpp" />
+		<Unit filename="QFabrics/QuestFabric.h" />
+		<Unit filename="QFabrics/TemplateAnswerQuestFabric.cpp" />
+		<Unit filename="QFabrics/TemplateAnswerQuestFabric.h" />
+		<Unit filename="Questions/AnswerQuestion.cpp" />
+		<Unit filename="Questions/AnswerQuestion.h" />
+		<Unit filename="Questions/BaseQuestion.cpp" />
+		<Unit filename="Questions/BaseQuestion.h" />
+		<Unit filename="Questions/CheckQuestion.cpp" />
+		<Unit filename="Questions/CheckQuestion.h" />
+		<Unit filename="ScriptInterpreter.cpp" />
+		<Unit filename="ScriptInterpreter.h" />
+		<Unit filename="Sources/ConstSource.cpp" />
+		<Unit filename="Sources/ConstSource.h" />
+		<Unit filename="Sources/FileSource.cpp" />
+		<Unit filename="Sources/FileSource.h" />
+		<Unit filename="Sources/FileTupleSource.cpp" />
+		<Unit filename="Sources/FileTupleSource.h" />
+		<Unit filename="Sources/SetSource.cpp" />
+		<Unit filename="Sources/SetSource.h" />
+		<Unit filename="Sources/StringSource.cpp" />
+		<Unit filename="Sources/StringSource.h" />
+		<Unit filename="Sources/TemplateSource.cpp" />
+		<Unit filename="Sources/TemplateSource.h" />
+		<Unit filename="Sources/TupleSetSource.cpp" />
+		<Unit filename="Sources/TupleSetSource.h" />
+		<Unit filename="VarBuilder.cpp" />
+		<Unit filename="VarBuilder.h" />
+		<Unit filename="VariantFabric.cpp" />
+		<Unit filename="VariantFabric.h" />
+		<Unit filename="datas.cpp" />
+		<Unit filename="datas.h" />
+		<Unit filename="loaders.cpp" />
+		<Unit filename="loaders.h" />
+		<Unit filename="qfabrics.h" />
+		<Unit filename="readme_utf.txt" />
+		<Unit filename="sources.h" />
+		<Unit filename="testmain.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

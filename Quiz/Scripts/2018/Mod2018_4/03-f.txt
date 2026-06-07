@@ -1,0 +1,21 @@
+//source for question like
+//the number of n should be dividable on 5
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+n={<int> 0 9}
+arg={<file:6> 03-s.txt}
+
+<\declarations>
+
+<template>
+#arg#
+
+<\template>
+
+<restrictions>
+<\restrictions>

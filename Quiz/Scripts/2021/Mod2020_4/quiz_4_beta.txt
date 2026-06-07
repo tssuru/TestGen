@@ -1,0 +1,154 @@
+<document>
+  <header>
+\documentclass[11pt, ukrainian]{article}{ENDL}
+\setlength\textwidth{190mm} \setlength\textheight{277mm}{ENDL}
+\setlength\voffset{-38mm} \setlength\hoffset{-33mm}{ENDL}
+%\setlength\parindent{0mm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage{caption}{ENDL}
+\DeclareCaptionFormat{nocaption}{}{ENDL}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}{ENDL}
+
+\usepackage[Export]{adjustbox} {ENDL}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}
+
+\begin{document}{ENDL}
+  <\header>
+  <footer>
+\end{document}
+  <\footer>
+
+  <onNextVariant>
+{ENDL}\newpage{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+//NEWPAGE
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     5
+  <\to>
+
+  <onPage>
+    1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+//%begin{ENDL}
+{{\begin {small}\par{ENDL}
+{ \center  Київський національний університет імені Тараса Шевченка \par}{ENDL} 
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {7 cm}{Прикладна математика, Системний аналіз \hfill}}
+\parbox {6 cm}{\hfill Семестр 2}}\par{ENDL}
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}
+{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}
+{\center Контрольна робота, 26.05.2021, варіант  \No \textbf {ENDL}
+{ #No# }\par}}{ENDL}
+{{ENDL}\begin {Large}{ENDL}
+<\before>
+
+<after>
+{ENDL}\end {Large}}{ENDL}
+//%end{ENDL}
+<\after>
+
+<\variant>
+
+<item> 
+include Classes/03-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include Classes/04-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include Classes/05-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include Lists/05-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include BinTree/06-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include Graphs/07-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item> 
+//include Graphs/08-q-mix.txt 
+include Graphs/08-01-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include Graphs/09-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+
+
+//<item> 
+//include Classes/02-q.txt 
+//<delim>
+//{ENDL}
+//{ENDL}{ENDL}
+//{ENDL}{TAB}По наступних задачах враховується економнiсть обчислень, використання пам'яті та якiсть коду.{ENDL}
+
+//<\delim>
+//<\item>
+
+
+
+<item>
+   include task-q.txt
+ <delim>
+{ENDL}
+ <\delim>
+<\item>
+
+//<item>
+//   include task-q.txt
+// <delim>
+//{ENDL}
+// <\delim>
+//<\item>
+
+

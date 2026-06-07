@@ -1,0 +1,34 @@
+//source for question like
+//32768 questions
+//Вкажіть значення та його тип:\n
+
+//for, local for variable
+
+<sample>
+
+True/7/8*True
+
+<\sample>
+
+<declarations>
+arg1={<file> Ar/03-s.txt}
+
+
+<\declarations>
+
+<template>
+{ENDL}
+%code{ENDL}
+#arg1#
+{ENDL}
+%code{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+
+
+
+
+

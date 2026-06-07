@@ -1,0 +1,1 @@
+../../../../bin/release/quest -template 01-sample.txt 01-f.txt ""   10

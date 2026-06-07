@@ -1,0 +1,17 @@
+\{fstream input\_file, outputFile; …\}%bad
+\{int xtrmprg; …\}%bad
+\{int a\_, a\_\_; …\}%bad
+\{int input\_file, file\_to\_output; …\}%bad
+\{double the\_best\_value\_anyone\_ever\_have;\} %bad
+void ff(…);%bad
+void f13(…);%bad
+void load\_data(T \& arg1, double arg2, double arg3, double arg4); %bad
+\{int x; int y; …\}%good
+\{fstream inputFile, outputFile;…\} %good
+\{fstream input\_file, output\_file;…\} %good
+\{double avg\_temperature;…\} %good
+\{double max\_power, min\_power;…\} %good
+\{double maxPower, minPower;…\} %good
+void help();%good
+void load\_data(…);%good
+

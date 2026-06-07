@@ -1,0 +1,91 @@
+var;1;2;3;4;5;6;7;8;9
+60;6;3.0;False;False;False;ffFalse;3;4 1 3 6 8 9;12 8 2 1
+61;1.125;-2.0123456790123457;False;False;False;ff9;1;0 5 2 7 9 8;12 6 6 1
+62;0;-2.0;True;True;False;fTrue;1;error;error
+63;48.0;0;False;False;False;ff-2;7;error;6 2 8 0
+64;56.25;0.0625;True;False;False;f0;4;0 3 4 8 6 9;11 5 8 9
+65;0.0;-0.5;True;False;False;ffTrue;9;1 5 9 7 6 7;10 0 2 7
+66;0.0;0.0;False;True;False;fTrue;2;error;7 8 4 9
+67;8;17;False;False;False;ff4;5;error;13 1 7 2
+68;4;4.0;False;error;False;ffTrue;9;4 2 2 9 8 7;10 3 5 7
+69;0.5625;5.0;True;True;False;f-7;6;error;error
+70;0.0;-0.875;True;error;False;f6;6;error;9 1 9 1
+71;0;1.0;False;False;False;fFalse;0;error;9 4 0 3
+72;1.6875;0.5;True;error;False;ff-6;8;5 1 2 7 8 6;error
+73;0;1.0;True;False;False;ffFalse;7;1 5 3 9 8 6;error
+74;40.0;1.0;False;True;False;f0;0;error;error
+75;7;-2;False;True;False;fTrue;4;error;error
+76;0.3125;-0.3333333333333333;False;error;False;fFalse;1;error;error
+77;0;-0.5;True;False;False;f-3;0;5 2 1 9 6 7;8 4 1 0
+78;8;-3.0;True;True;False;ffTrue;2;error;21 7 3 2
+79;33.75;2.3333333333333335;True;False;False;f2;2;error;5 5 6 8
+80;0.0;3;True;error;False;f-6;1;1 3 5 7 6 8;24 5 8 0
+81;3.1111111111111107;-1.0;False;error;False;fFalse;2;4 2 8 9 8 7;11 6 4 3
+82;47.25;1.0;True;error;False;fFalse;8;error;8 2 5 6
+83;0;-10;True;error;False;f-7;7;3 0 1 7 8 9;7 9 6 5
+84;0.31746031746031744;-11.0;True;error;False;ff7;8;error;6 5 0 3
+85;6;-2.0;False;error;False;ffFalse;4;error;12 2 9 7
+86;0;15.0;True;True;False;f4;7;2 4 0 7 6 9;error
+87;25.199999999999996;1.75;True;error;False;fFalse;1;error;12 7 4 1
+88;0;0.0;True;error;False;ff-6;3;error;10 5 3 8
+89;6.857142857142857;1.0;False;False;False;ffFalse;3;error;error
+90;0.0;-0.3333333333333333;True;True;False;fFalse;6;error;10 7 0 4
+91;18.375;0.125;True;False;False;f-3;9;1 4 3 8 6 7;15 6 7 4
+92;0;1.0;False;True;False;ffFalse;6;error;error
+93;6.0;2.0;False;error;True;f7;9;3 5 2 6 8 9;12 1 0 5
+94;36;1.0;True;error;False;ff6;7;error;4 4 6 1
+95;1.0;-0.2222222222222222;False;error;False;fTrue;3;2 5 1 9 7 6;14 2 3 7
+96;2.6666666666666665;2;False;error;False;ff-9;8;4 3 7 9 8 6;6 8 6 5
+97;1.5;-1.9375;True;True;False;fTrue;7;5 3 4 6 9 8;error
+98;0.0;2.0;False;error;False;ff-9;5;error;error
+99;28;-1;True;False;False;fTrue;1;error;12 4 0 7
+100;5;0.0;False;error;False;f6;3;error;14 7 2 9
+101;1.037037037037037;15;False;error;False;ffFalse;0;1 2 5 6 7 9;error
+102;0;-1.6666666666666667;True;error;False;f4;7;error;8 3 0 4
+103;40.0;4.0;True;False;False;fFalse;8;error;9 1 4 0
+104;36;0.3333333333333333;True;False;False;ffTrue;5;2 0 3 9 8 6;7 2 5 0
+105;4.571428571428571;-0.5;False;error;False;f-8;3;4 5 3 7 8 7;error
+106;0.0;-3.0;True;error;True;fFalse;4;error;error
+107;0.875;0.0;False;True;False;f2;6;error;39 3 8 2
+108;0.0;0.0;True;error;False;fTrue;7;error;error
+109;0;2.0;True;error;False;ff5;4;error;9 4 2 1
+110;20.25;0.1111111111111111;True;error;True;ffTrue;0;error;13 2 7 3
+111;1.75;-0.8888888888888888;False;True;False;ff-9;6;error;7 5 6 8
+112;0;-2.111111111111111;True;False;False;f1;8;error;error
+113;15.75;-2;True;False;False;fFalse;9;error;error
+114;0;2.0;True;False;False;ffTrue;5;1 2 3 9 7 6;14 4 7 0
+115;0.5555555555555556;-2.0;True;True;False;f7;6;2 5 0 8 9 7;error
+116;21.0;-0.25;True;True;False;fFalse;0;4 4 1 9 7 8;error
+117;0;0.5;False;True;False;f1;7;error;error
+118;1.5;0.3333333333333333;True;False;False;ff4;3;error;14 6 0 4
+119;8.0;0;False;False;False;fTrue;5;error;10 1 8 3
+120;2.6999999999999997;4.0;True;error;False;fTrue;7;error;error
+121;0;0.9375;False;True;False;ff5;0;3 2 4 6 8 7;6 2 0 2
+122;0;9.0;False;False;False;ffFalse;3;error;error
+123;1.3333333333333333;-1;False;error;False;ff-7;9;0 2 5 9 8 7;9 6 0 5
+124;0;-2.0;False;True;False;f7;7;error;12 7 2 9
+125;33.75;0.015625;True;False;False;ffTrue;2;3 3 0 8 6 7;11 8 6 2
+126;1.3333333333333333;-8;True;error;False;ff7;0;error;9 1 6 8
+127;18.0;1;False;error;False;ffFalse;2;error;0 1 2 4
+128;0.0;1.0;False;False;False;ff5;5;4 5 0 8 9 7;error
+129;0.0;4.0;False;True;False;fTrue;0;error;6 4 3 7
+130;14;1.75;False;True;False;ffTrue;3;error;error
+131;8.0;0.0;False;True;False;ff-4;4;error;5 7 3 8
+132;16.666666666666664;-1.75;True;error;True;ffTrue;7;error;error
+133;0.5;6.0;False;False;False;f3;2;0 5 4 7 8 9;8 5 8 0
+134;0.0;10.0;True;True;False;ffTrue;1;error;11 1 2 9
+135;0;1.0;False;False;False;ff8;3;error;error
+136;96;0.0;False;False;True;ff0;4;error;error
+137;2.2222222222222223;0.9876543209876543;True;error;False;ffTrue;9;error;4 2 1 6
+138;0.0;-82;False;False;False;ffFalse;2;2 4 1 9 6 7;error
+139;1.75;0.0;True;error;False;ff-9;1;5 3 6 8 8 9;12 3 8 0
+140;2.142857142857143;1.25;False;error;False;f7;8;error;error
+141;2.0;-9.0;True;True;False;ffTrue;7;error;10 8 9 8
+142;28.0;3;False;True;False;ffTrue;9;2 1 5 7 9 7;error
+143;0;-4.0;True;error;False;f5;2;error;error
+144;4.0;0.0;True;error;False;ffFalse;1;error;20 3 4 0
+145;3.4285714285714284;2.0;False;False;False;f-5;1;error;12 3 7 4
+146;0;-0.3333333333333333;False;False;False;ff0;9;1 2 0 6 8 7;error
+147;0.0;0.0;True;error;False;ffTrue;0;error;7 5 5 6
+148;2.25;2.0;True;error;False;f-4;5;0 6 1 8 7 9;20 3 9 7
+149;0;6.0;True;True;False;ffTrue;2;error;error

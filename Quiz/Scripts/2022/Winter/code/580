@@ -1,0 +1,30 @@
+echo
+echo =580_1.py 
+python3.10 ./580_1.py 
+echo
+echo =580_2.py 
+python3.10 ./580_2.py 
+echo
+echo =580_3.py 
+python3.10 ./580_3.py 
+echo
+echo =580_4.py 
+python3.10 ./580_4.py 
+echo
+echo =580_5.py 
+python3.10 ./580_5.py 
+echo
+echo =580_6.py 
+python3.10 ./580_6.py 
+echo
+echo =580_7.py 
+python3.10 ./580_7.py 
+echo
+echo =580_8.py 
+python3.10 ./580_8.py 
+echo
+echo =580_9.py 
+python3.10 ./580_9.py 
+echo
+echo =580_10.py 
+python3.10 ./580_10.py 

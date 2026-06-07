@@ -1,0 +1,30 @@
+echo
+echo =794_1.py 
+python3.10 ./794_1.py 
+echo
+echo =794_2.py 
+python3.10 ./794_2.py 
+echo
+echo =794_3.py 
+python3.10 ./794_3.py 
+echo
+echo =794_4.py 
+python3.10 ./794_4.py 
+echo
+echo =794_5.py 
+python3.10 ./794_5.py 
+echo
+echo =794_6.py 
+python3.10 ./794_6.py 
+echo
+echo =794_7.py 
+python3.10 ./794_7.py 
+echo
+echo =794_8.py 
+python3.10 ./794_8.py 
+echo
+echo =794_9.py 
+python3.10 ./794_9.py 
+echo
+echo =794_10.py 
+python3.10 ./794_10.py 

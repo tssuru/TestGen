@@ -1,0 +1,30 @@
+echo
+echo =930_1.py 
+python3.10 ./930_1.py 
+echo
+echo =930_2.py 
+python3.10 ./930_2.py 
+echo
+echo =930_3.py 
+python3.10 ./930_3.py 
+echo
+echo =930_4.py 
+python3.10 ./930_4.py 
+echo
+echo =930_5.py 
+python3.10 ./930_5.py 
+echo
+echo =930_6.py 
+python3.10 ./930_6.py 
+echo
+echo =930_7.py 
+python3.10 ./930_7.py 
+echo
+echo =930_8.py 
+python3.10 ./930_8.py 
+echo
+echo =930_9.py 
+python3.10 ./930_9.py 
+echo
+echo =930_10.py 
+python3.10 ./930_10.py 

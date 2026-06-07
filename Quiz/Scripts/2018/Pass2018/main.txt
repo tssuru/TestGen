@@ -1,0 +1,116 @@
+//3 5 7 8 9 из первой контрольной
+//в 9 убран вывод первой строки
+//2 3 5 6 7 из второй контрольной
+<document>
+  <header>
+  <\header>
+  <footer>
+  <\footer>
+  <onNextVariant>
+{ENDL}{ENDL}{ENDL}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+{ENDL}NEWPAGE
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+  <to>
+     500
+  <\to>
+
+  <onPage>
+     2
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+12.2018 Залік. Варіант № #No# К1_ ПІБ ________ {ENDL}
+За умови негараздів з ЛР, для отримання позитивної оцінки спочатку має бути написана мовою С++ функція S з дотриманням усіх вимог власного варіанту ЛР2.{ENDL}
+<\before>
+<after>
+<\after>
+<\variant>
+
+<item>
+  include 1-03-q.txt
+  <delim>
+
+  <\delim>
+<\item>
+
+<item>
+  include 1-06-q.txt
+  <delim>
+{ENDL}{TAB}Що буде надруковано за виконання (завдання 3-10):{ENDL}
+  <\delim>
+<\item>
+
+
+<item>
+  include 1-08-q.txt
+  <delim>
+
+  <\delim>
+<\item>
+
+<item>
+  include 1-09-q.txt
+  <delim>
+
+  <\delim>
+<\item>
+
+<item>
+  include 1-10-q.txt
+  <delim>
+  <\delim>
+<\item>
+
+<item>
+  include 02-q.txt
+<\item>
+
+<item>
+  include 03-q.txt
+  <delim>
+  <\delim>
+<\item>
+
+<item>
+  include 05-q.txt
+  <delim>
+
+  <\delim>
+<\item>
+
+<item>
+  include 06-q.txt
+  <delim>
+
+  <\delim>
+<\item>
+
+<item>
+  include 07-q.txt
+  <delim>
+{ENDL}{ENDL}
+  <\delim>
+<\item>
+<item>
+  include 09-q.txt
+  <delim>
+  <\delim>
+<\item>
+<item>
+  include 1-05-q.txt
+  <delim>
+  <\delim>
+<\item>
+
+

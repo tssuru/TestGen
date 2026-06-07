@@ -1,0 +1,30 @@
+echo
+echo =256_1.py 
+python3.10 ./256_1.py 
+echo
+echo =256_2.py 
+python3.10 ./256_2.py 
+echo
+echo =256_3.py 
+python3.10 ./256_3.py 
+echo
+echo =256_4.py 
+python3.10 ./256_4.py 
+echo
+echo =256_5.py 
+python3.10 ./256_5.py 
+echo
+echo =256_6.py 
+python3.10 ./256_6.py 
+echo
+echo =256_7.py 
+python3.10 ./256_7.py 
+echo
+echo =256_8.py 
+python3.10 ./256_8.py 
+echo
+echo =256_9.py 
+python3.10 ./256_9.py 
+echo
+echo =256_10.py 
+python3.10 ./256_10.py 

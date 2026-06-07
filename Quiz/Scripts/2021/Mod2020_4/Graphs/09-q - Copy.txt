@@ -1,0 +1,19 @@
+<fabric>
+     check
+     <fname>
+         Graphs\09-s.txt
+     <\fname>
+     <ncase>
+        6	
+     <\ncase>
+     <mix>
+      false
+     <\mix>
+
+     <before>
+     <\before>
+<after>
+
+<\after>
+
+  <\fabric>

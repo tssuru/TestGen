@@ -1,0 +1,30 @@
+echo
+echo =395_1.py 
+python3.10 ./395_1.py 
+echo
+echo =395_2.py 
+python3.10 ./395_2.py 
+echo
+echo =395_3.py 
+python3.10 ./395_3.py 
+echo
+echo =395_4.py 
+python3.10 ./395_4.py 
+echo
+echo =395_5.py 
+python3.10 ./395_5.py 
+echo
+echo =395_6.py 
+python3.10 ./395_6.py 
+echo
+echo =395_7.py 
+python3.10 ./395_7.py 
+echo
+echo =395_8.py 
+python3.10 ./395_8.py 
+echo
+echo =395_9.py 
+python3.10 ./395_9.py 
+echo
+echo =395_10.py 
+python3.10 ./395_10.py 

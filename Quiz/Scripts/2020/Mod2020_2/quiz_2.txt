@@ -1,0 +1,117 @@
+<document>
+
+  <header>
+\documentclass[10pt, ukrainian]{article}{ENDL}
+\setlength\textwidth{150mm} \setlength\textheight{250mm}{ENDL}
+%\setlength\textwidth{190mm} \setlength\textheight{277mm}{ENDL}
+%\setlength\voffset{-38mm} \setlength\hoffset{-38mm}{ENDL}
+%\setlength\parindent{0mm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+%\usepackage[cp1251]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage{caption}{ENDL}
+\DeclareCaptionFormat{nocaption}{}{ENDL}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}{ENDL}
+\usepackage[Export]{adjustbox} {ENDL}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}
+\begin{document}{ENDL}
+
+  <\header>
+
+  <footer>
+\end{document}{ENDL}
+
+  <\footer>
+
+  <onNextVariant>
+
+{ENDL}{ENDL}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     155
+  <\to>
+
+  <onPage>
+    1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+%begin{ENDL}
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { #No# }\par}{ENDL}
+{{ENDL}
+\begin {large}{ENDL}
+<\before>
+
+<after>
+\end {large}}{ENDL}
+%end{ENDL}
+<\after>
+
+<\variant>
+
+
+//Cycles
+<item>
+   include Cycles/01-q.txt
+<\item>
+
+<item>
+   include Cycles/02-q.txt
+<\item>
+
+<item> 
+include Mix/01-q.txt 
+<\item>
+
+//Indexing and slicing
+<item>
+   include Indexing/01-q.txt
+
+<\item>
+
+<item>
+   include Indexing/02-q.txt
+<delim>
+{ENDL}{ENDL}
+<\delim>
+
+<\item>
+
+//List operations
+<item> 
+include ListOperations/01-q.txt 
+<delim>
+{ENDL}{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include ListOperations/02-q.txt 
+<delim>
+{ENDL}{ENDL}
+<\delim>
+<\item>
+
+
+
+<item>
+  include task02-q.txt
+  <delim>
+  <\delim>
+<\item>

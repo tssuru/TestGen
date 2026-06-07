@@ -1,0 +1,838 @@
+{
+  "title": "mixed-50",
+  "generatedAt": "2026-03-04T09:15:03.336Z",
+  "profile": "print",
+  "variantCount": 1,
+  "variants": [
+    {
+      "variantNumber": 1,
+      "records": [
+        {
+          "questionIndex": 1,
+          "questionText": "Що буде виведено за виконання фрагменту коду? code _c = 0 class C: _c = 1 def __init__(self): self._c = 2 _c = 3 C._c = 4 obj = C() try: print(_c, end=' ') print(obj._c, end=' ') print(C._c, end=' ') print(obj._c, end=' ') print(obj._C__c, end=' ') except: print('ERR') code",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(a,b): c=72 if a>-2: return 2 if b>=4: c=9 else: c=0 return c print(f(-6,-6))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Що буде виведено за виконання фрагменту коду? c=[10,11,12,13,14]; c.insert(-4,'12'); print(c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x+3=5",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "n=2; n--",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x=1//3",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Відмітити всі правильні варіанти:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x*y",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "0X2b",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "cpp",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(c): w=72 if c>-2: return 2 if c>=4: w=9 else: w=0 return w print(f(-6))",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Що буде виведено за виконання фрагменту коду? True>\"4\"",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Відмітити всі правильні варіанти:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "<>",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "8.3",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "FIFO",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Що буде виведено за виконання фрагменту коду? def f(): try: res = int(\"2\") return 42    except ValueError: return 9 except TypeError: return 0 else: return 32finally: return 22    return res print(f())",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "Відмітити всі правильні варіанти:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x*y",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "0X2b",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "cpp",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 11,
+          "questionText": "Відмітити всі правильні варіанти:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x*y",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "0X2b",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "cpp",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 12,
+          "questionText": "Що буде виведено за виконання фрагменту коду? x,y,z=2,3,0 z,x,x,z=x,8,z,y print(x,y,z)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 13,
+          "questionText": "Відмітити всі правильні варіанти:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x*y",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "0X2b",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "cpp",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 14,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x+3=5",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "n=2; n--",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x=1//3",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 15,
+          "questionText": "Що буде виведено за виконання фрагменту коду? {0.8}} {../BinTree/trees_exp/62.png} ������� ������������ ���� ������ ������, ����������� �� ���., �� ���������� � ��������� ������ ������ � ������� �������. ̳��� ���������� ����� �����. ����� ������ ���������� � ������ (�� ���. �� ������ �������).",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 16,
+          "questionText": "Що буде виведено за виконання фрагменту коду? ��i���� ��i���� ���� bool* ��� ���������: bool *c, &x, **w, **q, *e, &u;",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 17,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є список, що складається з квадратівцілих чисел від 13 до 2003 (включно), що не діляться на 5, записаних в оберненому порядку.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 18,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є словник, ключами якого є цілі числа від 13 до 2003 (включно), що не діляться на 5, а ключам відповідають їх квадрати",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 19,
+          "questionText": "Що буде виведено за виконання фрагменту коду? c=[10,11,12,13,14]; c.insert(-4,'12'); print(c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 20,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є множина, що складається з квадратівцілих чисел від 13 до 2003 (включно), що не діляться на 5.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 21,
+          "questionText": "Відмітити всі правильні варіанти:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cout>>3;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int x+y=z;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<3.4;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int f(int n);",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 22,
+          "questionText": "Що буде виведено за виконання фрагменту коду? -2**-2+1",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 23,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cout>>3;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int x+y=z;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<3.4;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int f(int n);",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 24,
+          "questionText": "Відмітити всі правильні варіанти:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x*y",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "0X2b",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "cpp",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 25,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=2,9,0 def f(a): global c    a=4 b+=3 c=5 return a+b+c a,b,c=5,4,6 print(f(a),a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 26,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x+3=5",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "n=2; n--",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x=1//3",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 27,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x+3=5",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "n=2; n--",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x=1//3",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 28,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x+3=5",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "n=2; n--",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x=1//3",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 29,
+          "questionText": "Що буде виведено за виконання фрагменту коду? x,y,z=2,3,0 z,x,x,z=x,8,z,y print(x,y,z)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 30,
+          "questionText": "Що буде виведено за виконання фрагменту коду? (������ �� �������� ����� �.�. ���������� � ��������� ��������.) { {0.5 cm}}³��������� ����� ���� $W$ �� �� �������� �� ���� ������� $A$ �� $X$. �� ������������ ������������� ������������ (100 ��� ��� ������� �������� ������� $A$,  200 ��� ��� ������� �������� ������� $X$) ���� $W$ ��������: { {0.5 cm}}$(n+17)$ ��� ��� �������� $A(a)$, $(n+21)$ ��� ��� �������� $A(b)$, $(n+50)$ ��� ��� �������� $A(c)$, $(n+57)$ ��� ��� �������� $A(d)$, �� �������� $(2n+100)$ ��� ��� �������� $X(x)$, $(4n+17)$ ��� ��� �������� $X(y)$, $(n+150)$ ��� ��� �������� $X(z)$. { {0.5 cm}}������ ���������� ���� �� ���� $W$ �� �������� (������ ����������) ��� ��������� ������� $A(b)$, $X(y)$. ������� � �����������, $n$ � ����� ����� ��������������� �����.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 31,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x+3=5",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "n=2; n--",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x=1//3",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 32,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cout>>3;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int x+y=z;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<3.4;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int f(int n);",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 33,
+          "questionText": "Відмітити всі правильні варіанти:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x*y",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "0X2b",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "cpp",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 34,
+          "questionText": "Відмітити всі правильні варіанти:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x*y",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "0X2b",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "cpp",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 35,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є список, що складається з квадратівцілих чисел від 13 до 2003 (включно), що не діляться на 5, записаних в оберненому порядку.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 36,
+          "questionText": "Що буде виведено за виконання фрагменту коду? try: print(2,end=\"\") print(int(\"9\"),end=\"\") print(0,end=\"\") except ValueError: print(5,end=\"\") except TypeError: print(4,end=\"\") else: print(6,end=\"\") finally: print(7,end=\"\")",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 37,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=8,9,6 def f(a,b=7,c): print(a,b,c,end=\"\") f(2,a=3) print(a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 38,
+          "questionText": "Відмітити всі правильні варіанти:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x*y",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "0X2b",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "cpp",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 39,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x+3=5",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "n=2; n--",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x=1//3",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 40,
+          "questionText": "Що буде виведено за виконання фрагменту коду? a,b,c=8,9,6 def f(a,b=7,c): print(a,b,c,end=\"\") f(2,a=3) print(a,b,c)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 41,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print('R', end=' ') for c in range(-7,-7,2): if c>5: continue print(c, end=' ') if c>5: break else: print(c, end=' ') print(c, end=' ')",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 42,
+          "questionText": "Відмітити всі правильні варіанти:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "x*y",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "0X2b",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "cpp",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 43,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x+3=5",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "n=2; n--",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x=1//3",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 44,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x+3=5",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "n=2; n--",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x=1//3",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 45,
+          "questionText": "Що буде виведено за виконання фрагменту коду? print(6/6//6*6)",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 46,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "x+3=5",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "n=2; n--",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "i,j=j,j",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "x=1//3",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 47,
+          "questionText": "Що буде виведено за виконання фрагменту коду? Записати ВИРАЗ, значенням якого є множина, що складається з квадратівцілих чисел від 13 до 2003 (включно), що не діляться на 5.",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 48,
+          "questionText": "Відмітити всі правильні варіанти:",
+          "options": [
+            {
+              "number": 1,
+              "text": "8,3",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "<>",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "8.3",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "FIFO",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        },
+        {
+          "questionIndex": 49,
+          "questionText": "Що буде виведено за виконання фрагменту коду? code c = 0 n = 1 class C: c = 2 def __init__(self): global c        self.c = 3 c = 4 C.c = 5 obj = C() print(c, n, C.c, obj.c, sep=' ') code",
+          "options": [],
+          "type": "template_answer"
+        },
+        {
+          "questionIndex": 50,
+          "questionText": "Відмітити все, що є коректним оператором С++:",
+          "options": [
+            {
+              "number": 1,
+              "text": "cout>>3;",
+              "correct": false
+            },
+            {
+              "number": 2,
+              "text": "int x+y=z;",
+              "correct": false
+            },
+            {
+              "number": 3,
+              "text": "cout<<3.4;",
+              "correct": true
+            },
+            {
+              "number": 4,
+              "text": "int f(int n);",
+              "correct": true
+            }
+          ],
+          "type": "check_auto"
+        }
+      ]
+    }
+  ]
+}

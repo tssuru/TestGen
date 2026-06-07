@@ -1,0 +1,140 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Контрольна робота}}
+
+\textbf{Варіант \No\,3}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+%code
+for f in range(2,2+4,3):
+    if f>=8:
+        pass
+    print(f, end=' ')
+    f=2
+    if f>=8:
+        break
+else:
+    print(f, end=' ')
+print(f, end=' ')
+%code
+
+%enditem
+
+%beginitem
+2. 
+Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-21$ до~$20$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$3$.
+Яке число зберігається у вузлі \kw{p.next.next.next.next.next} ?
+
+%enditem
+
+%beginitem
+3. 
+Записати ВИРАЗ, значенням якого є множина, що складається з кубівцілих чисел від 12 до 2012 (включно), що не діляться на жодне з чисел 2, 3.
+%enditem
+
+%beginitem
+4. 
+try:
+    t = 5
+    while t<=7:
+        t += 2
+    print(t, end=';')
+except:
+    print('ERR')
+
+%enditem
+
+%beginitem
+5. 
+def f(n): print("f", end=""); return n!=-2
+   print(f(3) or f(-6))
+%enditem
+
+%beginitem
+6. %goodpath:Scripts/2019/Mod2019_1/Lex/03-good.txt
+Відмітити все, що є коректним оператором С++:
+( 1 ) x not is y
+
+( 2 ) print(end="1","qwe")
+
+( 3 ) 3**-1
+
+( 4 ) x-=2
+
+%enditem
+
+%beginitem
+7. %goodpath:Scripts/2019/Mod2019_1/Lex/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) 5_w
+
+( 2 ) 0x17
+
+( 3 ) 'c'
+
+( 4 ) "1,3,2"
+
+%enditem
+
+%beginitem
+8. 
+
+def h(a,b):
+    c=84
+    if b!=-3:
+        c=5
+    elif a>-2:
+         return 2
+    else: 
+        return 0
+    return c
+
+print(h(3,3))
+%enditem
+
+%beginitem
+9. %goodpath:Scripts/2018/Mod2018_1/01-good.txt
+Відмітити все, що є однією правильною лексемою:
+( 1 ) 5_w
+
+( 2 ) (1)
+
+( 3 ) )
+
+( 4 ) 0.5
+
+%enditem
+
+%beginitem
+10. 
+for f in range(-3,-3,-3):
+    if f>=8:
+        break
+        print(f,end=' ')
+    if f>=8:
+        break
+else:
+    print(f, end=' ')
+print(f, end=' ')
+
+%enditem
+
+%end
+\newpage
+\end{document}
+

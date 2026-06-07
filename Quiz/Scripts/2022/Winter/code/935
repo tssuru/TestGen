@@ -1,0 +1,30 @@
+echo
+echo =935_1.py 
+python3.10 ./935_1.py 
+echo
+echo =935_2.py 
+python3.10 ./935_2.py 
+echo
+echo =935_3.py 
+python3.10 ./935_3.py 
+echo
+echo =935_4.py 
+python3.10 ./935_4.py 
+echo
+echo =935_5.py 
+python3.10 ./935_5.py 
+echo
+echo =935_6.py 
+python3.10 ./935_6.py 
+echo
+echo =935_7.py 
+python3.10 ./935_7.py 
+echo
+echo =935_8.py 
+python3.10 ./935_8.py 
+echo
+echo =935_9.py 
+python3.10 ./935_9.py 
+echo
+echo =935_10.py 
+python3.10 ./935_10.py 

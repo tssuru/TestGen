@@ -1,0 +1,21 @@
+{
+  "title": "API Validation LMS",
+  "disciplineId": "informatics",
+  "languageId": "cpp",
+  "variantCount": 2,
+  "questionsPerVariant": 3,
+  "difficultyProfile": {
+    "easy": 2,
+    "medium": 1,
+    "hard": 1
+  },
+  "mode": "TabBetween",
+  "includeAnswerKey": true,
+  "exportFormats": [
+    "md",
+    "zip"
+  ],
+  "exportProfile": "lms",
+  "questionPoolFilters": [],
+  "seed": 42
+}

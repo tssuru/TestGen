@@ -1,0 +1,4 @@
+try:
+    print(3.0!=8!=7!=9)
+    
+except: print('error')

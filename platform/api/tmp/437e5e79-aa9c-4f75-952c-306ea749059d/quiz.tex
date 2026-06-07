@@ -1,0 +1,88 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=18mm, bottom=18mm, left=20mm, right=20mm]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\pagestyle{empty}
+\begin{document}
+%begin
+{\large\textbf{Тест open}}
+
+\textbf{Варіант \No\,1}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+bool f(int n){
+    cout<<"f";
+    return n;
+}
+
+int main(){
+    cout<<(f(-6) && f(0));
+    return 0;
+}
+%code
+
+%enditem
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << 6 * 6 * 6 * 6;
+%code
+
+%enditem
+
+
+%end
+\vspace{10mm}
+\noindent\rule{\textwidth}{0.3pt}
+\vspace{8mm}
+%begin
+{\large\textbf{Тест open}}
+
+\textbf{Варіант \No\,2}\hfill \textit{ПІБ:}\,\underline{\hspace{60mm}}
+\vspace{4mm}
+
+%beginitem
+1. Що буде виведено за виконання фрагменту коду?
+
+%code
+cout << 5 % 5 % 5 % 5;
+%code
+
+%enditem
+%beginitem
+2. Що буде виведено за виконання фрагменту коду?
+
+%code
+#include <iostream>
+using namespace std;
+
+bool f(int n){
+    cout<<"f";
+    return n>-1;
+}
+
+int main(){
+    cout<<(f(1) || f(6));
+    return 0;
+}
+%code
+
+%enditem
+
+
+%end
+\newpage
+\end{document}
+

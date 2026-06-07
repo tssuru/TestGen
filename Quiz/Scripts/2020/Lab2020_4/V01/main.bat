@@ -1,0 +1,1 @@
+d:\Projects\Quiz\Bin\Release\Quest.exe lab4.tex main.txt ""

@@ -1,0 +1,30 @@
+echo
+echo =905_1.py 
+python3.10 ./905_1.py 
+echo
+echo =905_2.py 
+python3.10 ./905_2.py 
+echo
+echo =905_3.py 
+python3.10 ./905_3.py 
+echo
+echo =905_4.py 
+python3.10 ./905_4.py 
+echo
+echo =905_5.py 
+python3.10 ./905_5.py 
+echo
+echo =905_6.py 
+python3.10 ./905_6.py 
+echo
+echo =905_7.py 
+python3.10 ./905_7.py 
+echo
+echo =905_8.py 
+python3.10 ./905_8.py 
+echo
+echo =905_9.py 
+python3.10 ./905_9.py 
+echo
+echo =905_10.py 
+python3.10 ./905_10.py 

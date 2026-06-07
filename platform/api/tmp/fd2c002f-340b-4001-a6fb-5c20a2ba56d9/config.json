@@ -1,0 +1,21 @@
+{
+  "title": "test",
+  "variantCount": 1,
+  "questionsPerVariant": 100,
+  "questionTypeFilter": "open",
+  "shuffleQuestions": false,
+  "mode": "OneOnLine",
+  "includeAnswerKey": false,
+  "exportProfile": "print",
+  "selection": {
+    "balancingStrategy": "alternate",
+    "closedShare": 0.5,
+    "uniquenessRule": "withinVariant",
+    "duplicatePolicy": "forbid",
+    "maxReusePercent": 0,
+    "seedStability": "variant",
+    "sourcePolicy": "all",
+    "sourceAllowlist": [],
+    "outputOrder": "random"
+  }
+}
