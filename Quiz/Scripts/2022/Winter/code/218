@@ -1,0 +1,30 @@
+echo
+echo =218_1.py 
+python3.10 ./218_1.py 
+echo
+echo =218_2.py 
+python3.10 ./218_2.py 
+echo
+echo =218_3.py 
+python3.10 ./218_3.py 
+echo
+echo =218_4.py 
+python3.10 ./218_4.py 
+echo
+echo =218_5.py 
+python3.10 ./218_5.py 
+echo
+echo =218_6.py 
+python3.10 ./218_6.py 
+echo
+echo =218_7.py 
+python3.10 ./218_7.py 
+echo
+echo =218_8.py 
+python3.10 ./218_8.py 
+echo
+echo =218_9.py 
+python3.10 ./218_9.py 
+echo
+echo =218_10.py 
+python3.10 ./218_10.py 

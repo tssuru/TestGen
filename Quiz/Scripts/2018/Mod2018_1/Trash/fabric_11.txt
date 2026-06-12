@@ -1,0 +1,55 @@
+//source for question like
+//640000 questions
+//Що буде надруковано за виконання:\n
+
+//scope, lifetime, function call, by value/by reference
+
+<sample>
+
+Що буде надруковано за виконання:
+int n=3, m=7; cout<<((n>3)&&((m+=1)<5));cout<<n<<m;
+
+<\sample>
+
+<declarations>
+0={&}{}
+1=#0
+2={<int> 0 9}
+3=x;y
+4=#2
+5=#2
+11=#2
+6=a;b
+7=#6
+8=#6
+9=;int{SPACE}
+10=+;-
+
+11={<int> 3 7}
+12=#11
+13=<;<=;>;>=
+14=&&;||
+15=+;-
+16=1;2
+17=#13
+18=#11
+a=a;b
+
+
+{int a=#11#, b=#12#; cout<<((#a##13#)#14#((#a new#b#15#=#16#)#17##18#));#printAB#}{ENDL}
+
+
+
+const printAB=cout<<a<<":"<<b<<endl;
+<\declarations>
+
+<template>
+int f(int #0#x, int #1#y) { x=#2#; y#10#=#11#; return #3#;}{ENDL}
+int main(){{ENDL}  int a=#4#, b=#5#; #printAB#{ENDL}  #6#=f(#7#,#8#); #printAB#{ENDL}
+{SPACE}{SPACE}{#9#a=5; cout<<a<<endl;}{ENDL}  #printAB# return 0;}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

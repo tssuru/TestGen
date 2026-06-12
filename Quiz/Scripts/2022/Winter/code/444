@@ -1,0 +1,30 @@
+echo
+echo =444_1.py 
+python3.10 ./444_1.py 
+echo
+echo =444_2.py 
+python3.10 ./444_2.py 
+echo
+echo =444_3.py 
+python3.10 ./444_3.py 
+echo
+echo =444_4.py 
+python3.10 ./444_4.py 
+echo
+echo =444_5.py 
+python3.10 ./444_5.py 
+echo
+echo =444_6.py 
+python3.10 ./444_6.py 
+echo
+echo =444_7.py 
+python3.10 ./444_7.py 
+echo
+echo =444_8.py 
+python3.10 ./444_8.py 
+echo
+echo =444_9.py 
+python3.10 ./444_9.py 
+echo
+echo =444_10.py 
+python3.10 ./444_10.py 

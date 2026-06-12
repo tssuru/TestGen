@@ -1,0 +1,52 @@
+class A{public:int x; void d(){x/=2;}};
+class B:public A{public: int y; void d(){y/=4;}};
+void test(){B b;b.x=b.y=4;b.d();cout<<b.x<<b.y;}
+
+class A{public:int x=1; void d(){x/=2;}};
+class B:public A{public: int x; void d(){x/=4;}};
+void test(){B b;b.x=4;b.d();cout<<b.x<<b.A::x;}
+
+class A{public:int x=0; void d(){x+=1;}};
+class B:public A{public: int x=0; void d(){x+=2;}};
+void test(){B b;b.x=1;b.d();cout<<b.x<<b.A::x;}
+
+class A{public:int x=0; void d(){x+=1;} void g(){d();}};
+class B:public A{public: int x=0; void d(){x+=2;}};
+void test(){B b;b.x=1;b.g();cout<<b.x<<b.A::x;}
+
+class A{public:int x=0; void d(){x+=1;} void g(){d();}};
+class B:public A{public: int x=0; virtual void d(){x+=2;}};
+void test(){B b;b.x=1;b.g();cout<<b.x<<b.A::x;}
+
+class A{public:int x=0; void d(){x+=1;} virtual void g(){d();}};
+class B:public A{public: int x=0; void d(){x+=2;}};
+void test(){B b;b.x=1;b.g();cout<<b.x<<b.A::x;}
+
+class A{public:int x=0; virtual void d(){x+=1;} virtual void g(){d();}};
+class B:public A{public: int x=0; void d(){x+=2;}};
+void test(){B b;b.x=1;b.g();cout<<b.x<<b.A::x;}
+
+class A{public:int x=0; virtual void d(){x+=1;} void g(){d();}};
+class B:public A{public: int x=0; void d(){x+=2;}};
+void test(){B b;b.x=1;b.g();cout<<b.x<<b.A::x;}
+
+class A{public: int v; A(int n):v(n){}};
+class B{public:A a; int b; B(int n):a(n+1){b=a.v;}};
+void test(){ B b(2); cout<<b.b;}
+
+class A{public: int x; virtual void d(){x+=2;} void g(){A::d();}};
+class B:public A{public: int y; void d(){A::d();}};
+void test(){B b; b.x=b.y=4; b.d(); cout<<b.x<<b.y;}
+
+class A{public: int x; void d(){x+=2;} void g(){d();}};
+class B:public A{public: int y; virtual void d(){y+=2;}};
+void test(){B b; b.x=b.y=4; b.g(); cout<<b.x<<b.y;}
+
+class A{public: int x; virtual void d(){x+=2;} void g(){A::d();}};
+class B:public A{public: int y; void d(){y+=2;}};
+void test(){B b; b.x=b.y=4; b.g(); cout<<b.x<<b.y;}
+
+class A{public: int x; virtual void d(){x+=2;} void g(){d();}};
+class B:public A{public: int y; void d(){y+=2;}};
+void test(){B b; b.x=b.y=4; b.g(); cout<<b.x<<b.y;}
+

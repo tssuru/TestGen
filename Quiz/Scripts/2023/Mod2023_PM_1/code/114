@@ -1,0 +1,27 @@
+echo
+echo =114_1.py 
+python3.10 ./114_1.py 
+echo
+echo =114_2.py 
+python3.10 ./114_2.py 
+echo
+echo =114_3.py 
+python3.10 ./114_3.py 
+echo
+echo =114_4.py 
+python3.10 ./114_4.py 
+echo
+echo =114_5.py 
+python3.10 ./114_5.py 
+echo
+echo =114_6.py 
+python3.10 ./114_6.py 
+echo
+echo =114_7.py 
+python3.10 ./114_7.py 
+echo
+echo =114_8.py 
+python3.10 ./114_8.py 
+echo
+echo =114_9.py 
+python3.10 ./114_9.py 

@@ -1,0 +1,30 @@
+echo
+echo =233_1.py 
+python3.11 -W "ignore" ./233_1.py 
+echo
+echo =233_2.py 
+python3.11 -W "ignore" ./233_2.py 
+echo
+echo =233_3.py 
+python3.11 -W "ignore" ./233_3.py 
+echo
+echo =233_4.py 
+python3.11 -W "ignore" ./233_4.py 
+echo
+echo =233_5.py 
+python3.11 -W "ignore" ./233_5.py 
+echo
+echo =233_6.py 
+python3.11 -W "ignore" ./233_6.py 
+echo
+echo =233_7.py 
+python3.11 -W "ignore" ./233_7.py 
+echo
+echo =233_8.py 
+python3.11 -W "ignore" ./233_8.py 
+echo
+echo =233_10.py 
+python3.11 -W "ignore" ./233_10.py 
+echo
+echo =233_11.py 
+python3.11 -W "ignore" ./233_11.py 

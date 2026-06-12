@@ -1,0 +1,30 @@
+echo
+echo =68_1.py 
+python3.10 ./68_1.py 
+echo
+echo =68_2.py 
+python3.10 ./68_2.py 
+echo
+echo =68_3.py 
+python3.10 ./68_3.py 
+echo
+echo =68_4.py 
+python3.10 ./68_4.py 
+echo
+echo =68_5.py 
+python3.10 ./68_5.py 
+echo
+echo =68_6.py 
+python3.10 ./68_6.py 
+echo
+echo =68_7.py 
+python3.10 ./68_7.py 
+echo
+echo =68_8.py 
+python3.10 ./68_8.py 
+echo
+echo =68_9.py 
+python3.10 ./68_9.py 
+echo
+echo =68_10.py 
+python3.10 ./68_10.py 

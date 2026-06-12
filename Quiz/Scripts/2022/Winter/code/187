@@ -1,0 +1,30 @@
+echo
+echo =187_1.py 
+python3.10 ./187_1.py 
+echo
+echo =187_2.py 
+python3.10 ./187_2.py 
+echo
+echo =187_3.py 
+python3.10 ./187_3.py 
+echo
+echo =187_4.py 
+python3.10 ./187_4.py 
+echo
+echo =187_5.py 
+python3.10 ./187_5.py 
+echo
+echo =187_6.py 
+python3.10 ./187_6.py 
+echo
+echo =187_7.py 
+python3.10 ./187_7.py 
+echo
+echo =187_8.py 
+python3.10 ./187_8.py 
+echo
+echo =187_9.py 
+python3.10 ./187_9.py 
+echo
+echo =187_10.py 
+python3.10 ./187_10.py 

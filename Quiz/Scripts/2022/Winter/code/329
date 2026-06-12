@@ -1,0 +1,30 @@
+echo
+echo =329_1.py 
+python3.10 ./329_1.py 
+echo
+echo =329_2.py 
+python3.10 ./329_2.py 
+echo
+echo =329_3.py 
+python3.10 ./329_3.py 
+echo
+echo =329_4.py 
+python3.10 ./329_4.py 
+echo
+echo =329_5.py 
+python3.10 ./329_5.py 
+echo
+echo =329_6.py 
+python3.10 ./329_6.py 
+echo
+echo =329_7.py 
+python3.10 ./329_7.py 
+echo
+echo =329_8.py 
+python3.10 ./329_8.py 
+echo
+echo =329_9.py 
+python3.10 ./329_9.py 
+echo
+echo =329_10.py 
+python3.10 ./329_10.py 

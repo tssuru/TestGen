@@ -1,0 +1,30 @@
+echo
+echo =378_1.py 
+python3.10 ./378_1.py 
+echo
+echo =378_2.py 
+python3.10 ./378_2.py 
+echo
+echo =378_3.py 
+python3.10 ./378_3.py 
+echo
+echo =378_4.py 
+python3.10 ./378_4.py 
+echo
+echo =378_5.py 
+python3.10 ./378_5.py 
+echo
+echo =378_6.py 
+python3.10 ./378_6.py 
+echo
+echo =378_7.py 
+python3.10 ./378_7.py 
+echo
+echo =378_8.py 
+python3.10 ./378_8.py 
+echo
+echo =378_9.py 
+python3.10 ./378_9.py 
+echo
+echo =378_10.py 
+python3.10 ./378_10.py 

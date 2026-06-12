@@ -1,0 +1,249 @@
+\documentclass[12pt, ukrainian]{article}
+\setlength\textwidth{170mm} \setlength\hoffset{-25mm}
+%\setlength\textheight{277mm} \setlength\voffset{-38mm}
+%\setlength\parindent{0mm}
+\pagestyle{empty}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\DeclareCaptionFormat{nocaption}{}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+\usepackage[Export]{adjustbox} 
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+\begin{document}
+%begin
+{20.12.2022 Варіант \No \textbf { 1 }\par}
+{
+\begin {Large}
+
+
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+
+\end {Large}}
+
+
+%end
+%begin
+{20.12.2022 Варіант \No \textbf { 2 }\par}
+{
+\begin {Large}
+
+
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+
+\end {Large}}
+
+
+%end
+%begin
+{20.12.2022 Варіант \No \textbf { 3 }\par}
+{
+\begin {Large}
+
+
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+
+\end {Large}}
+
+
+%end
+%begin
+{20.12.2022 Варіант \No \textbf { 4 }\par}
+{
+\begin {Large}
+
+
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+
+\end {Large}}
+
+
+%end
+%begin
+{20.12.2022 Варіант \No \textbf { 5 }\par}
+{
+\begin {Large}
+
+
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+
+\end {Large}}
+
+
+%end
+%begin
+{20.12.2022 Варіант \No \textbf { 6 }\par}
+{
+\begin {Large}
+
+
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    print(n % 10, end=' ')
+    
+
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+
+\end {Large}}
+
+
+%end
+%begin
+{20.12.2022 Варіант \No \textbf { 7 }\par}
+{
+\begin {Large}
+
+
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+
+\end {Large}}
+
+
+%end
+%begin
+{20.12.2022 Варіант \No \textbf { 8 }\par}
+{
+\begin {Large}
+
+
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+
+\end {Large}}
+
+
+%end
+%begin
+{20.12.2022 Варіант \No \textbf { 9 }\par}
+{
+\begin {Large}
+
+
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+
+\end {Large}}
+
+
+%end
+%begin
+{20.12.2022 Варіант \No \textbf { 10 }\par}
+{
+\begin {Large}
+
+
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+
+\end {Large}}
+
+
+%end
+\end{document}
+

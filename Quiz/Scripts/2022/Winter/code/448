@@ -1,0 +1,30 @@
+echo
+echo =448_1.py 
+python3.10 ./448_1.py 
+echo
+echo =448_2.py 
+python3.10 ./448_2.py 
+echo
+echo =448_3.py 
+python3.10 ./448_3.py 
+echo
+echo =448_4.py 
+python3.10 ./448_4.py 
+echo
+echo =448_5.py 
+python3.10 ./448_5.py 
+echo
+echo =448_6.py 
+python3.10 ./448_6.py 
+echo
+echo =448_7.py 
+python3.10 ./448_7.py 
+echo
+echo =448_8.py 
+python3.10 ./448_8.py 
+echo
+echo =448_9.py 
+python3.10 ./448_9.py 
+echo
+echo =448_10.py 
+python3.10 ./448_10.py 

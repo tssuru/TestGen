@@ -1,0 +1,108 @@
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./102_1.py", line 6
+    g(a=1,4,c=5)
+               ^
+SyntaxError: positional argument follows keyword argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./104_1.py", line 3
+    def h(a,b=9,c):
+                ^
+SyntaxError: non-default argument follows default argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./106_1.py", line 6
+    g(b=1,c=0,4)
+               ^
+SyntaxError: positional argument follows keyword argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./108_1.py", line 3
+    def h(a,b=8,c):
+                ^
+SyntaxError: non-default argument follows default argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./109_1.py", line 6
+    g(b=2,c=5,0)
+               ^
+SyntaxError: positional argument follows keyword argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./111_1.py", line 3
+    def f(a,b=9,c):
+                ^
+SyntaxError: non-default argument follows default argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./116_1.py", line 3
+    def h(a,b=6,c):
+                ^
+SyntaxError: non-default argument follows default argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./119_1.py", line 3
+    def f(a,b=6,c):
+                ^
+SyntaxError: non-default argument follows default argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./120_1.py", line 6
+    h(b=4,c=3,4)
+               ^
+SyntaxError: positional argument follows keyword argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./121_1.py", line 6
+    g(a=3,2,a=1)
+               ^
+SyntaxError: positional argument follows keyword argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./124_1.py", line 3
+    def h(a,b=7,c):
+                ^
+SyntaxError: non-default argument follows default argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./128_1.py", line 3
+    def g(a,b=7,c):
+                ^
+SyntaxError: non-default argument follows default argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./130_1.py", line 6
+    f(a=4,0,a=2)
+               ^
+SyntaxError: positional argument follows keyword argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./132_1.py", line 3
+    def f(a,b=9,c):
+                ^
+SyntaxError: non-default argument follows default argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./133_1.py", line 3
+    def g(a,b=7,c):
+                ^
+SyntaxError: non-default argument follows default argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./137_1.py", line 3
+    def g(a,b=9,c):
+                ^
+SyntaxError: non-default argument follows default argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./139_1.py", line 6
+    f(b=5,a=3,b=4)
+              ^^^
+SyntaxError: keyword argument repeated: b
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./141_1.py", line 3
+    def g(a,b=9,c):
+                ^
+SyntaxError: non-default argument follows default argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./142_1.py", line 6
+    h(a=0,4,a=3)
+               ^
+SyntaxError: positional argument follows keyword argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./144_1.py", line 6
+    g(b=0,c=1,2)
+               ^
+SyntaxError: positional argument follows keyword argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./145_1.py", line 3
+    def f(a,b=7,c):
+                ^
+SyntaxError: non-default argument follows default argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./146_1.py", line 6
+    h(c=5,b=3,c=0)
+              ^^^
+SyntaxError: keyword argument repeated: c
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./150_1.py", line 3
+    def f(a,b=7,c):
+                ^
+SyntaxError: non-default argument follows default argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./153_1.py", line 3
+    def f(a,b=7,c):
+                ^
+SyntaxError: non-default argument follows default argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./156_1.py", line 6
+    h(a=4,3,a=5)
+               ^
+SyntaxError: positional argument follows keyword argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./158_1.py", line 3
+    def g(a,b=8,c):
+                ^
+SyntaxError: non-default argument follows default argument
+  File "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_SA_2/code/./160_1.py", line 6
+    h(b=0,c=5,4)
+               ^
+SyntaxError: positional argument follows keyword argument

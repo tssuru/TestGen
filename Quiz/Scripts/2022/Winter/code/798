@@ -1,0 +1,30 @@
+echo
+echo =798_1.py 
+python3.10 ./798_1.py 
+echo
+echo =798_2.py 
+python3.10 ./798_2.py 
+echo
+echo =798_3.py 
+python3.10 ./798_3.py 
+echo
+echo =798_4.py 
+python3.10 ./798_4.py 
+echo
+echo =798_5.py 
+python3.10 ./798_5.py 
+echo
+echo =798_6.py 
+python3.10 ./798_6.py 
+echo
+echo =798_7.py 
+python3.10 ./798_7.py 
+echo
+echo =798_8.py 
+python3.10 ./798_8.py 
+echo
+echo =798_9.py 
+python3.10 ./798_9.py 
+echo
+echo =798_10.py 
+python3.10 ./798_10.py 

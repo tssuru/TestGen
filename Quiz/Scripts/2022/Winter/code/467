@@ -1,0 +1,30 @@
+echo
+echo =467_1.py 
+python3.10 ./467_1.py 
+echo
+echo =467_2.py 
+python3.10 ./467_2.py 
+echo
+echo =467_3.py 
+python3.10 ./467_3.py 
+echo
+echo =467_4.py 
+python3.10 ./467_4.py 
+echo
+echo =467_5.py 
+python3.10 ./467_5.py 
+echo
+echo =467_6.py 
+python3.10 ./467_6.py 
+echo
+echo =467_7.py 
+python3.10 ./467_7.py 
+echo
+echo =467_8.py 
+python3.10 ./467_8.py 
+echo
+echo =467_9.py 
+python3.10 ./467_9.py 
+echo
+echo =467_10.py 
+python3.10 ./467_10.py 

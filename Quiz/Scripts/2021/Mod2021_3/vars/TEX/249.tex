@@ -1,0 +1,143 @@
+\documentclass[12pt, ukrainian]{article}
+\setlength\textwidth{190mm} \setlength\hoffset{-25mm}
+\setlength\textheight{277mm} \setlength\voffset{-28mm}
+%\setlength\textwidth{190mm}%\setlength\voffset{-38mm} \setlength\hoffset{-38mm}
+%\setlength\parindent{0mm}
+\pagestyle{empty}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{verbatim, listings, clrscode3e}
+\usepackage{fancyvrb}
+\DeclareCaptionFormat{nocaption}{}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+\usepackage[Export]{adjustbox}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+\def\code#1{\Verb!#1!}
+\begin{document}
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf
+{ 249 }\par}}
+{
+\begin {large}
+{\begin {center}\textbf{Завдання 1}\end {center}}\par
+Що буде надруковано за виконання?\par\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../pict/249_1.png}
+\end{center}
+\newpage
+
+{\begin {center}\textbf{Завдання 2}\end {center}}\par
+
+ Задано числову послідовність \kw{s} довжини 6000. Записати ВИРАЗ, значенням якого є список, що складається з елементів послідовності, що діляться на 13.\par
+\newpage
+
+{\begin {center}\textbf{Завдання 3}\end {center}}\par
+Що буде надруковано за виконання?\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../pict/249_3.png}
+\end{center}
+\newpage
+
+{\begin {center}\textbf{Завдання 4}\end {center}}\par
+Що буде надруковано за виконання?\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../pict/249_4.png}
+\end{center}
+\newpage
+
+{\begin {center}\textbf{Завдання 5}\end {center}}\par
+Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-60$ до~$19$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$4$.
+Яке значення зберігається у вузлі \kw{p.next.next.next.prev.next} ?\par
+\newpage
+
+{\begin {center}\textbf{Завдання 6}\end {center}}\par
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/30.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).\par
+\newpage
+
+{\begin {center}\textbf{Завдання 7}\end {center}}\par
+Для графа на рисунку вказати послідовність, в якій алгоритм пошуку в глибину буде відмічати відвідані вершини, якщо списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин та вершини відмічаються на першому вход\-женні у вершину.\par
+Пошук розпочинається з вершини 2.\par
+
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/174.png}
+\end{center}\par
+\newpage
+
+{\begin {center}\textbf{Завдання 8}\end {center}}\par
+Для графа на рисунку з вершини 2 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/325.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (1, 3)\par
+2) (4, 5)\par
+3) (0, 5)\par
+4) (0, 2)\par
+5) (2, 5)\par
+6) (3, 6)\par
+{\vskip 15pt} У формі вибрати номери відповідних ребер.
+
+
+Якщо заповнюєте текстовий файл, а не гугл-форму, то потрібно через пробіл записа\-ти вибрані номери.\par
+\newpage
+
+
+Рядки відомості через кому містять порядковий номер (ціле), пріз\-ви\-ще студен\-та, ім'я студента, номер заліковки, оцінку в балах за 100 бальною шкалою.
+
+Білі символи навколо роздільників не допускаються.
+
+Приклад такого рядка присвоєно змінній \kw{s}.
+
+
+
+\begin{verbatim}
+s = '13,surname,name,123456,77'
+\end{verbatim}
+
+
+Нижче наведено код, за виконання якого для рядка \kw{s} значенням змінної \kw{out} має стати номер заліковки.
+
+Для наведеного прикладу значенням змінної \kw{out} має стати рядок \code{123456} .
+
+
+
+\begin{verbatim}
+res = re.fullmatch(r'XXX', s)
+s = ''
+out = r'YYY'
+\end{verbatim}
+
+
+Код має працювати не тільки для конкретного рядка з прикладу, але й для кожного рядка з відомості.
+
+{\begin {center}\textbf{Завдання 9}\end {center}}\par
+Який рядок треба записати на місце \kw{XXX} ?\par
+\vspace{5mm}
+
+
+{\begin {center}\textbf{Завдання 10}\end {center}}\par
+Який рядок треба записати на місце \kw{YYY} ?\par
+
+
+\newpage
+
+
+\end {large}}
+
+\end{document}

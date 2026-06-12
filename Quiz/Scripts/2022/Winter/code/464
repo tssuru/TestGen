@@ -1,0 +1,30 @@
+echo
+echo =464_1.py 
+python3.10 ./464_1.py 
+echo
+echo =464_2.py 
+python3.10 ./464_2.py 
+echo
+echo =464_3.py 
+python3.10 ./464_3.py 
+echo
+echo =464_4.py 
+python3.10 ./464_4.py 
+echo
+echo =464_5.py 
+python3.10 ./464_5.py 
+echo
+echo =464_6.py 
+python3.10 ./464_6.py 
+echo
+echo =464_7.py 
+python3.10 ./464_7.py 
+echo
+echo =464_8.py 
+python3.10 ./464_8.py 
+echo
+echo =464_9.py 
+python3.10 ./464_9.py 
+echo
+echo =464_10.py 
+python3.10 ./464_10.py 

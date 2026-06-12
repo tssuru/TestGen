@@ -1,0 +1,38 @@
+<fabric>
+collate
+  <fabric>
+  collate 
+     <fabric>
+        template answer
+        <fname>
+           01Classes/06-1-f.txt
+        <\fname>
+     <\fabric>
+     <fabric>
+        template answer
+        <fname>
+           01Classes/06-2-f.txt
+        <\fname>
+     <\fabric>
+      <n1>
+         40
+      <\n1>
+      <n2>
+         40
+      <\n2>
+  <\fabric>
+
+     <fabric>
+        template answer
+        <fname>
+           01Classes/06-3-f.txt
+        <\fname>
+     <\fabric>
+
+  <n1>
+     80
+  <\n1>
+  <n2>
+    40
+  <\n2>
+<\fabric>

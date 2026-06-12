@@ -1,0 +1,30 @@
+echo
+echo =235_1.py 
+python3.10 ./235_1.py 
+echo
+echo =235_2.py 
+python3.10 ./235_2.py 
+echo
+echo =235_3.py 
+python3.10 ./235_3.py 
+echo
+echo =235_4.py 
+python3.10 ./235_4.py 
+echo
+echo =235_5.py 
+python3.10 ./235_5.py 
+echo
+echo =235_6.py 
+python3.10 ./235_6.py 
+echo
+echo =235_7.py 
+python3.10 ./235_7.py 
+echo
+echo =235_8.py 
+python3.10 ./235_8.py 
+echo
+echo =235_9.py 
+python3.10 ./235_9.py 
+echo
+echo =235_10.py 
+python3.10 ./235_10.py 

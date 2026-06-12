@@ -1,0 +1,30 @@
+echo
+echo =287_1.py 
+python3.10 ./287_1.py 
+echo
+echo =287_2.py 
+python3.10 ./287_2.py 
+echo
+echo =287_3.py 
+python3.10 ./287_3.py 
+echo
+echo =287_4.py 
+python3.10 ./287_4.py 
+echo
+echo =287_5.py 
+python3.10 ./287_5.py 
+echo
+echo =287_6.py 
+python3.10 ./287_6.py 
+echo
+echo =287_7.py 
+python3.10 ./287_7.py 
+echo
+echo =287_8.py 
+python3.10 ./287_8.py 
+echo
+echo =287_9.py 
+python3.10 ./287_9.py 
+echo
+echo =287_10.py 
+python3.10 ./287_10.py 

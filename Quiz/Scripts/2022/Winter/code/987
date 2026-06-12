@@ -1,0 +1,30 @@
+echo
+echo =987_1.py 
+python3.10 ./987_1.py 
+echo
+echo =987_2.py 
+python3.10 ./987_2.py 
+echo
+echo =987_3.py 
+python3.10 ./987_3.py 
+echo
+echo =987_4.py 
+python3.10 ./987_4.py 
+echo
+echo =987_5.py 
+python3.10 ./987_5.py 
+echo
+echo =987_6.py 
+python3.10 ./987_6.py 
+echo
+echo =987_7.py 
+python3.10 ./987_7.py 
+echo
+echo =987_8.py 
+python3.10 ./987_8.py 
+echo
+echo =987_9.py 
+python3.10 ./987_9.py 
+echo
+echo =987_10.py 
+python3.10 ./987_10.py 

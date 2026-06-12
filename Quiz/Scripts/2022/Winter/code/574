@@ -1,0 +1,30 @@
+echo
+echo =574_1.py 
+python3.10 ./574_1.py 
+echo
+echo =574_2.py 
+python3.10 ./574_2.py 
+echo
+echo =574_3.py 
+python3.10 ./574_3.py 
+echo
+echo =574_4.py 
+python3.10 ./574_4.py 
+echo
+echo =574_5.py 
+python3.10 ./574_5.py 
+echo
+echo =574_6.py 
+python3.10 ./574_6.py 
+echo
+echo =574_7.py 
+python3.10 ./574_7.py 
+echo
+echo =574_8.py 
+python3.10 ./574_8.py 
+echo
+echo =574_9.py 
+python3.10 ./574_9.py 
+echo
+echo =574_10.py 
+python3.10 ./574_10.py 

@@ -1,0 +1,48 @@
+<fabric>
+ collate
+ <fabric>
+   collate 
+   include 01/1-q.txt
+   include 01/2-q.txt
+   <n1>
+     20
+   <\n1>
+   <n2>
+     20
+   <\n2>
+ <\fabric>
+
+ <fabric>
+  collate
+  include 01/5-q.txt
+  
+  <fabric>
+    collate 
+    include 01/3-q.txt
+    include 01/4-q.txt
+    <n1>
+      20
+    <\n1>
+    <n2>
+      20
+    <\n2>
+   <\fabric>
+  
+ <n1>
+    20
+   <\n1>
+   <n2>
+    40
+   <\n2>
+  <\fabric>	
+	
+ <n1>
+  40
+ <\n1>
+ <n2>
+  60
+ <\n2>
+
+
+
+<\fabric>

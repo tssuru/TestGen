@@ -1,0 +1,30 @@
+echo
+echo =924_1.py 
+python3.10 ./924_1.py 
+echo
+echo =924_2.py 
+python3.10 ./924_2.py 
+echo
+echo =924_3.py 
+python3.10 ./924_3.py 
+echo
+echo =924_4.py 
+python3.10 ./924_4.py 
+echo
+echo =924_5.py 
+python3.10 ./924_5.py 
+echo
+echo =924_6.py 
+python3.10 ./924_6.py 
+echo
+echo =924_7.py 
+python3.10 ./924_7.py 
+echo
+echo =924_8.py 
+python3.10 ./924_8.py 
+echo
+echo =924_9.py 
+python3.10 ./924_9.py 
+echo
+echo =924_10.py 
+python3.10 ./924_10.py 

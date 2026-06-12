@@ -1,0 +1,30 @@
+echo
+echo =733_1.py 
+python3.10 ./733_1.py 
+echo
+echo =733_2.py 
+python3.10 ./733_2.py 
+echo
+echo =733_3.py 
+python3.10 ./733_3.py 
+echo
+echo =733_4.py 
+python3.10 ./733_4.py 
+echo
+echo =733_5.py 
+python3.10 ./733_5.py 
+echo
+echo =733_6.py 
+python3.10 ./733_6.py 
+echo
+echo =733_7.py 
+python3.10 ./733_7.py 
+echo
+echo =733_8.py 
+python3.10 ./733_8.py 
+echo
+echo =733_9.py 
+python3.10 ./733_9.py 
+echo
+echo =733_10.py 
+python3.10 ./733_10.py 

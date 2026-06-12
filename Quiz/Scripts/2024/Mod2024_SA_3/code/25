@@ -1,0 +1,18 @@
+echo
+echo =25_1.py 
+python3.11 -W "ignore" ./25_1.py 
+echo
+echo =25_2.py 
+python3.11 -W "ignore" ./25_2.py 
+echo
+echo =25_3.py 
+python3.11 -W "ignore" ./25_3.py 
+echo
+echo =25_5.py 
+echo -9
+echo
+echo =25_7.py 
+echo 2 8 1 0 3 10 7 4 6 9 5
+echo
+echo =25_8.py 
+echo 1 2 5 6

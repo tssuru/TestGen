@@ -1,0 +1,11 @@
+ <fabric>
+     template answer
+     <fname>
+         03If/03-f.txt
+     <\fname>
+
+     <before>
+         Що буде виведено за виконання фрагменту коду?{ENDL}
+     <\before>
+
+   <\fabric>

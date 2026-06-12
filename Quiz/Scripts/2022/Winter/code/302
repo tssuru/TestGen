@@ -1,0 +1,30 @@
+echo
+echo =302_1.py 
+python3.10 ./302_1.py 
+echo
+echo =302_2.py 
+python3.10 ./302_2.py 
+echo
+echo =302_3.py 
+python3.10 ./302_3.py 
+echo
+echo =302_4.py 
+python3.10 ./302_4.py 
+echo
+echo =302_5.py 
+python3.10 ./302_5.py 
+echo
+echo =302_6.py 
+python3.10 ./302_6.py 
+echo
+echo =302_7.py 
+python3.10 ./302_7.py 
+echo
+echo =302_8.py 
+python3.10 ./302_8.py 
+echo
+echo =302_9.py 
+python3.10 ./302_9.py 
+echo
+echo =302_10.py 
+python3.10 ./302_10.py 

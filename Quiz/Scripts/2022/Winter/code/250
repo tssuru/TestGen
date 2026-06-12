@@ -1,0 +1,30 @@
+echo
+echo =250_1.py 
+python3.10 ./250_1.py 
+echo
+echo =250_2.py 
+python3.10 ./250_2.py 
+echo
+echo =250_3.py 
+python3.10 ./250_3.py 
+echo
+echo =250_4.py 
+python3.10 ./250_4.py 
+echo
+echo =250_5.py 
+python3.10 ./250_5.py 
+echo
+echo =250_6.py 
+python3.10 ./250_6.py 
+echo
+echo =250_7.py 
+python3.10 ./250_7.py 
+echo
+echo =250_8.py 
+python3.10 ./250_8.py 
+echo
+echo =250_9.py 
+python3.10 ./250_9.py 
+echo
+echo =250_10.py 
+python3.10 ./250_10.py 

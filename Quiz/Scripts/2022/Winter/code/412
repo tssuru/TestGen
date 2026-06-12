@@ -1,0 +1,30 @@
+echo
+echo =412_1.py 
+python3.10 ./412_1.py 
+echo
+echo =412_2.py 
+python3.10 ./412_2.py 
+echo
+echo =412_3.py 
+python3.10 ./412_3.py 
+echo
+echo =412_4.py 
+python3.10 ./412_4.py 
+echo
+echo =412_5.py 
+python3.10 ./412_5.py 
+echo
+echo =412_6.py 
+python3.10 ./412_6.py 
+echo
+echo =412_7.py 
+python3.10 ./412_7.py 
+echo
+echo =412_8.py 
+python3.10 ./412_8.py 
+echo
+echo =412_9.py 
+python3.10 ./412_9.py 
+echo
+echo =412_10.py 
+python3.10 ./412_10.py 

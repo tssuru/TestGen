@@ -1,0 +1,40 @@
+{i=2;}
+j=i;
+cout<<3.4;
+cin>>x;
+x=int(4);
+{int x,y;}
+y=13;
+int x,y;
+cin>>y;
+cout<<w;
+cout<<'\n';
+cout<<"\n";
+{double n3;}
+{a=5;}
+int x='a'-'c';
+int x='a'+'c';
+int x='a'*'c';
+int z=3.1415;
+cout<< (3%60);
+cout<<endl;
+char c='\n';
+int f(int n);
+int f(int &n, int m);
+bool f(int a);
+bool r=('N'>'5');
+if ('x'<'y') a=6;
+x+=y;
+x-=2;
+int f(int &a);
+char c=13;
+double x=1;
+int n=3.14;
+double(2)/87
+if (1>2) x=10;
+return 'a'<'c';
+return x<=2;
+(x<y && y>0)
+(x<3 || y<7)
+x<y<z
+x=y=z

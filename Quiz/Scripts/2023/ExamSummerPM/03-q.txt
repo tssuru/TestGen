@@ -1,0 +1,14 @@
+<fabric>
+     file answer
+     <fname>
+     03-s.txt
+     <\fname>
+
+     <before>
+     <\before>
+     <after>
+//{SPACE} Використання рядків та структур даних заборонено.{SPACE}
+//Якість та швидкодія коду також оцінюються. {ENDL}{ENDL}
+{ENDL}{ENDL}
+     <\after>
+  <\fabric>

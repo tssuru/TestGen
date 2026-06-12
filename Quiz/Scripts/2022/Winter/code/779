@@ -1,0 +1,30 @@
+echo
+echo =779_1.py 
+python3.10 ./779_1.py 
+echo
+echo =779_2.py 
+python3.10 ./779_2.py 
+echo
+echo =779_3.py 
+python3.10 ./779_3.py 
+echo
+echo =779_4.py 
+python3.10 ./779_4.py 
+echo
+echo =779_5.py 
+python3.10 ./779_5.py 
+echo
+echo =779_6.py 
+python3.10 ./779_6.py 
+echo
+echo =779_7.py 
+python3.10 ./779_7.py 
+echo
+echo =779_8.py 
+python3.10 ./779_8.py 
+echo
+echo =779_9.py 
+python3.10 ./779_9.py 
+echo
+echo =779_10.py 
+python3.10 ./779_10.py 

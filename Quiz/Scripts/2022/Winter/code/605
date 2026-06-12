@@ -1,0 +1,30 @@
+echo
+echo =605_1.py 
+python3.10 ./605_1.py 
+echo
+echo =605_2.py 
+python3.10 ./605_2.py 
+echo
+echo =605_3.py 
+python3.10 ./605_3.py 
+echo
+echo =605_4.py 
+python3.10 ./605_4.py 
+echo
+echo =605_5.py 
+python3.10 ./605_5.py 
+echo
+echo =605_6.py 
+python3.10 ./605_6.py 
+echo
+echo =605_7.py 
+python3.10 ./605_7.py 
+echo
+echo =605_8.py 
+python3.10 ./605_8.py 
+echo
+echo =605_9.py 
+python3.10 ./605_9.py 
+echo
+echo =605_10.py 
+python3.10 ./605_10.py 

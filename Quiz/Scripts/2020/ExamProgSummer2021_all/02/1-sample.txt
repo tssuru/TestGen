@@ -1,0 +1,205 @@
+a = 1
+b = 6
+c = 0
+
+def h(a):
+    a = 3
+    b *= 1
+    c = 4
+    return a + b + c
+
+a = 4
+b = 7
+c = 2
+
+try:
+    print(h(b), a, b, c, sep=';')
+except:
+    print('ERR', a, b, c, sep=';')
+
+
+a = 3
+b = 9
+c = 5
+
+def f(b):
+    global c
+    a = 5
+    b += 2
+    c = 4
+    return a + b + c
+
+a = 8
+b = 8
+c = 0
+
+try:
+    print(f(a), a, b, c, sep=';')
+except:
+    print('ERR', a, b, c, sep=';')
+
+
+a = 4
+b = 3
+c = 7
+
+def g(a):
+    global c
+    a -= 2
+    b = 3
+    c = 5
+    return a + b + c
+
+a = 9
+b = 6
+c = 1
+
+try:
+    print(g(a), a, b, c, sep=';')
+except:
+    print('ERR', a, b, c, sep=';')
+
+
+a = 2
+b = 5
+c = 7
+
+def h(b):
+    a *= 1
+    b = 4
+    c = 5
+    return a + b + c
+
+a = 6
+b = 4
+c = 1
+
+try:
+    print(h(a), a, b, c, sep=';')
+except:
+    print('ERR', a, b, c, sep=';')
+
+
+a = 5
+b = 2
+c = 0
+
+def g(a):
+    global c
+    a = 2
+    b -= 1
+    c = 3
+    return a + b + c
+
+a = 8
+b = 3
+c = 9
+
+try:
+    print(g(b), a, b, c, sep=';')
+except:
+    print('ERR', a, b, c, sep=';')
+
+
+a = 6
+b = 5
+c = 9
+
+def f(b):
+    a += 4
+    b = 5
+    c = 3
+    return a + b + c
+
+a = 7
+b = 8
+c = 0
+
+try:
+    print(f(b), a, b, c, sep=';')
+except:
+    print('ERR', a, b, c, sep=';')
+
+
+a = 1
+b = 2
+c = 3
+
+def f(b):
+    global c
+    a = 1
+    b += 2
+    c = 5
+    return a + b + c
+
+a = 4
+b = 6
+c = 3
+
+try:
+    print(f(b), a, b, c, sep=';')
+except:
+    print('ERR', a, b, c, sep=';')
+
+
+a = 7
+b = 0
+c = 2
+
+def g(a):
+    a -= 3
+    b = 1
+    c = 4
+    return a + b + c
+
+a = 8
+b = 1
+c = 9
+
+try:
+    print(g(b), a, b, c, sep=';')
+except:
+    print('ERR', a, b, c, sep=';')
+
+
+a = 4
+b = 5
+c = 3
+
+def h(a):
+    a = 2
+    b *= 4
+    c = 3
+    return a + b + c
+
+a = 4
+b = 9
+c = 8
+
+try:
+    print(h(a), a, b, c, sep=';')
+except:
+    print('ERR', a, b, c, sep=';')
+
+
+a = 0
+b = 7
+c = 2
+
+def g(b):
+    global c
+    a = 2
+    b += 1
+    c = 5
+    return a + b + c
+
+a = 6
+b = 5
+c = 1
+
+try:
+    print(g(a), a, b, c, sep=';')
+except:
+    print('ERR', a, b, c, sep=';')
+
+

@@ -1,0 +1,30 @@
+echo
+echo =317_1.py 
+python3.10 ./317_1.py 
+echo
+echo =317_2.py 
+python3.10 ./317_2.py 
+echo
+echo =317_3.py 
+python3.10 ./317_3.py 
+echo
+echo =317_4.py 
+python3.10 ./317_4.py 
+echo
+echo =317_5.py 
+python3.10 ./317_5.py 
+echo
+echo =317_6.py 
+python3.10 ./317_6.py 
+echo
+echo =317_7.py 
+python3.10 ./317_7.py 
+echo
+echo =317_8.py 
+python3.10 ./317_8.py 
+echo
+echo =317_9.py 
+python3.10 ./317_9.py 
+echo
+echo =317_10.py 
+python3.10 ./317_10.py 

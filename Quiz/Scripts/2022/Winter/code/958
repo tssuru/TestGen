@@ -1,0 +1,30 @@
+echo
+echo =958_1.py 
+python3.10 ./958_1.py 
+echo
+echo =958_2.py 
+python3.10 ./958_2.py 
+echo
+echo =958_3.py 
+python3.10 ./958_3.py 
+echo
+echo =958_4.py 
+python3.10 ./958_4.py 
+echo
+echo =958_5.py 
+python3.10 ./958_5.py 
+echo
+echo =958_6.py 
+python3.10 ./958_6.py 
+echo
+echo =958_7.py 
+python3.10 ./958_7.py 
+echo
+echo =958_8.py 
+python3.10 ./958_8.py 
+echo
+echo =958_9.py 
+python3.10 ./958_9.py 
+echo
+echo =958_10.py 
+python3.10 ./958_10.py 

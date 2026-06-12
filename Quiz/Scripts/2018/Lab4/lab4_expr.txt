@@ -1,0 +1,18 @@
+{\huge$\log_{#N#}(x+#N new#)+\pi$}
+{\huge$\arcsin\frac{1}{#M#} + \frac{1}{#N new#-x}$}
+{\huge$\tg{\frac{#N#}{#M#}}+\frac{e}{x^2}$}
+{\huge$\arcctg\frac{#N#}{#M#}+\sqrt{{#N new#}x} $}
+{\huge$\frac{\pi+{e}x}{#N#-x}$}
+{\huge$\tg{\frac{#N#}{#M#}} + \sqrt{#N new#-x} $}
+{\huge${\log}_{#M#}#N#x + \frac{\pi}{#N new#}$}
+{\huge$\cos\frac{#N#}{#M#}\cdot\sqrt{#N new#x}$}
+{\huge$\ctg\frac{#N#}{#M#} + e^{\frac{#N new#}{#M new#}\sqrt{x+#N new#}}$}
+{\huge$\arctg{\frac{#N#}{#M#}} + \frac{#N new#e}{\sqrt{1-x^{3}}}$}
+{\huge$\arccos{\frac{#N#}{#M#+x}} + {\log}_{#N new#}{x}$}
+{\huge$\frac{1}{\sin#N#+{\frac{#N new#}{#M#}}} + \frac{#N new#}{x}+\pi$}
+{\huge$\sin{\frac{#N#}{#N#+#M#}} - {\log}_{#N new#}x+e$}
+{\huge${\frac{1}{#M#}\arccos x}\cdot{#N#x}$}
+{\huge$\frac{\frac{e}{#M#} - \frac{#N#}{x}}{\frac{1}{#M new#} + \frac{1}{x}}$}
+{\huge$\frac{#N# + x}{{\log}_{#N new#}x}$}
+{\huge$\frac{1-\sqrt{1-x^2}}{#N#x}$}
+{\huge${\log}_{#N#}x+ \tg{\frac{1}{#N new#}}$}

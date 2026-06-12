@@ -1,0 +1,28 @@
+//source for question like
+//640000 questions
+//Записати вираз мовою С++
+
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+X=f;g;h
+Y=myFactorial;myFunc;my134
+
+<\declarations>
+
+<template>
+Проект складається з однієї одиниці трансляції 1.cpp, яка починається таким фрагментом\par{ENDL}
+long #X#(){ return #Y#();}\par{ENDL}
+Функція #Y#(); означена в 2.cpp.\par{ENDL}
+Що треба зробити для того, щоб 1.cpp успішно відкомпілювався?\par\vspace{1.5cm}{ENDL}
+Що треба зробити для того, щоб за проектом зібрався виконуваний код?\par{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

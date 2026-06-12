@@ -1,0 +1,30 @@
+echo
+echo =632_1.py 
+python3.10 ./632_1.py 
+echo
+echo =632_2.py 
+python3.10 ./632_2.py 
+echo
+echo =632_3.py 
+python3.10 ./632_3.py 
+echo
+echo =632_4.py 
+python3.10 ./632_4.py 
+echo
+echo =632_5.py 
+python3.10 ./632_5.py 
+echo
+echo =632_6.py 
+python3.10 ./632_6.py 
+echo
+echo =632_7.py 
+python3.10 ./632_7.py 
+echo
+echo =632_8.py 
+python3.10 ./632_8.py 
+echo
+echo =632_9.py 
+python3.10 ./632_9.py 
+echo
+echo =632_10.py 
+python3.10 ./632_10.py 

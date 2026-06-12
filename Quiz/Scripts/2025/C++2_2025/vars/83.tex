@@ -1,0 +1,120 @@
+\documentclass[12pt, ukrainian]{article}
+\usepackage[a4paper]{geometry}
+\setlength\parindent{0mm}
+\geometry{top=1.0cm,bottom=1.0cm,left=1.3cm,right=1.3cm}
+\pagestyle{empty}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{caption}
+\DeclareCaptionFormat{nocaption}{}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+\usepackage[Export]{adjustbox}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+\usepackage{verbatim, listings, clrscode3e, fancyvrb}
+\def\code#1{\Verb!#1!}
+\begin{document}
+%begin
+\begin {large}
+
+\textbf{\_\_.11.2025 Контрольна робота, варіант  \No { 83 }}\par
+
+
+{
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+Нехай int var=13; Один потік збільшив змінну var на 3, а інший збільшив її в три рази.
+
+гонка даних (data race), стан гонки (race condition)
+
+Виберіть усі правильні твердження (якщо такі є).\par
+\vspace{2mm}
+(\,1\,) Тут гарантовано є стан гонки, але гонки даних може не бути.%good
+
+(\,2\,) Тут гарантовано є і стан гонки, і гонка даних.%bad
+
+(\,3\,) Тут може бути тільки стан гонки.%bad
+
+(\,4\,) Тут може бути тільки гонка даних.%bad
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+Виберіть усі правильні твердження (якщо такі є).\par
+\vspace{2mm}
+
+(\,1\,) Розблоковувати незаблокований м’ютекс можна.%bad
+
+(\,2\,) Досвічений програміст за однопотоковою програмою (текстом мовою С++) завжди може вказати послідовність виконуваних обчислень на конкретних вхідних даних.%bad
+
+(\,3\,) Об’єкти класів promise та future можна використовувати тільки в багатопотокових програмах.%bad
+
+(\,4\,) Розблоковувати незаблокований м’ютекс не можна.%good
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+Виберіть усі правильні твердження (якщо такі є).\par
+\vspace{2mm}
+
+(\,1\,) Взаємоблокування потоків може виникнути тільки за використання м’ютексів.%bad
+
+(\,2\,) Мова С++20 має стандартну бібліотеку вільних від блокувань структур даних.%bad
+
+(\,3\,) Операція над вільною від блокувань структурою даних може виконуватись скільки завгодно довго.%good
+
+(\,4\,) Вільних від очікувань структур даних не існує.%bad
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+Виберіть усі правильні твердження (якщо такі є).\par
+\vspace{2mm}
+
+(\,1\,) Кожен потік програми може мати доступ до динамічних даних програми.%good
+
+(\,2\,) Потік може мати доступ до автоматичних змінних іншого потоку і це безпечно.%bad
+
+(\,3\,) Автоматичні змінні не можуть розділятися між потоками.%bad
+
+(\,4\,) Потік мови С++ не може отримати доступ до даних іншого потоку.%bad
+
+
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+У цьому фрагменті коду
+\begin{verbatim}
+template <class T> void f(T a1, T a2){}
+
+void g(){
+    int i=5;
+    f(unique_ptr<int>(new int(i++)), unique_ptr<int>(new int(++i)));
+\end{verbatim}
+
+(\,1\,) є невизначена поведінка%good
+
+(\,2\,) є гонка даних%bad
+
+(\,3\,) можливий виток ресурсів%bad
+
+(\,4\,) є стан гонки%bad
+
+
+}
+\end {large}
+
+
+\end{document}
+

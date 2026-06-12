@@ -1,0 +1,63 @@
+struct A{
+{SPACE} A(){throw 1;cout<<"A";} 
+{SPACE} ~A(){cout<<"~A";}};
+struct B{
+{SPACE} B(){cout<<"B";} 
+{SPACE} ~B(){cout<<"~B";}};
+class C{A a; B b; 
+
+
+struct A{
+{SPACE} A(){throw 1;cout<<"A";} 
+{SPACE} ~A(){cout<<"~A";}};
+struct B{
+{SPACE} B(){cout<<"B";} 
+{SPACE} ~B(){cout<<"~B";}};
+class C{B b; A a; 
+
+
+struct A{
+{SPACE} A(){throw 1;cout<<"A";} 
+{SPACE} ~A(){cout<<"~A";}};
+struct B{
+{SPACE} B(){cout<<"B";} 
+{SPACE} ~B(){cout<<"~B";}};
+class C{B b[2]; A a; 
+
+
+class A{{ENDL}  static int n;{ENDL}public:
+{SPACE} A(){{ENDL}{SPACE4}++n; {ENDL}{SPACE4}if(n>1) throw 1;{ENDL}{SPACE4}cout<<"A";} 
+{SPACE} ~A(){cout<<"~A";}};{ENDL}int A::n=0;
+struct B{
+{SPACE} B(){cout<<"B";} 
+{SPACE} ~B(){cout<<"~B";}};
+class C{B b[2]; A a; 
+
+
+class A{{ENDL}  static int n;{ENDL}public:
+{SPACE} A(){{ENDL}{SPACE4}++n; {ENDL}{SPACE4}if(n>1) throw 1;{ENDL}{SPACE4}cout<<"A";} 
+{SPACE} ~A(){cout<<"~A";}};{ENDL}int A::n=0;
+struct B{
+{SPACE} B(){cout<<"B";} 
+{SPACE} ~B(){cout<<"~B";}};
+class C{A a[2]; B b;
+
+
+class A{{ENDL}  static int n; {ENDL}public:
+{SPACE} A(){{ENDL}{SPACE4}++n; {ENDL}{SPACE4}if(n>1) throw 1;{ENDL}{SPACE4}cout<<"A";} 
+{SPACE} ~A(){cout<<"~A";}};{ENDL}int A::n=0;
+struct B{
+{SPACE} B(){cout<<"B";} 
+{SPACE} ~B(){cout<<"~B";}};
+class C{B b; A a[2]; 
+
+
+struct A{
+{SPACE} A() {f(); cout<<"A";} 
+{SPACE} ~A(){cout<<"~A";} {ENDL}  void f(){throw 1;}};
+struct B{
+{SPACE} B(){cout<<"B";} 
+{SPACE} ~B(){cout<<"~B";}};
+class C{B b; A a[2]; 
+
+

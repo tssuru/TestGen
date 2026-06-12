@@ -1,0 +1,140 @@
+try:
+    res = 7/3/7*4
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = 5//7%3*3
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = 9//4*5*8
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = 4/9//4*9
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = 3//8*9*7
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = 8/6%6*5
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = 6//5/8*6
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = 8/7//5*3
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = 6//3*7*7
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = 7/6//3*9
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+

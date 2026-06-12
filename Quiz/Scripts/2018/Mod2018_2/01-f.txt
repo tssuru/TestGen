@@ -1,0 +1,31 @@
+//source for question like
+//960/6 questions
+//size() should be divided by 6
+//declarations, pointer, reference
+
+<sample>
+
+Скiльки змiнних типу bool* тут оголошено: bool *v, &o, **b, i, e, **f;
+
+<\sample>
+
+<declarations>
+//в вопрос берется 6 имен, чтобы исключить возможность повторов имен, количество должно быть кратным 6
+id={<char> a k}{<char> m n}{<char> p z}
+1=;*;**;&
+2=int;char;double;bool;long
+3=;*
+
+<\declarations>
+
+<template>
+Скiльки змiнних типу #2##3# тут оголошено:{SPACE}
+#2# #1##id#, #1 new##id new#, #1 new##id new#, #1 new##id new#, #1 new##id new#, #1 new##id new#;
+
+
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

@@ -1,0 +1,30 @@
+echo
+echo =513_1.py 
+python3.10 ./513_1.py 
+echo
+echo =513_2.py 
+python3.10 ./513_2.py 
+echo
+echo =513_3.py 
+python3.10 ./513_3.py 
+echo
+echo =513_4.py 
+python3.10 ./513_4.py 
+echo
+echo =513_5.py 
+python3.10 ./513_5.py 
+echo
+echo =513_6.py 
+python3.10 ./513_6.py 
+echo
+echo =513_7.py 
+python3.10 ./513_7.py 
+echo
+echo =513_8.py 
+python3.10 ./513_8.py 
+echo
+echo =513_9.py 
+python3.10 ./513_9.py 
+echo
+echo =513_10.py 
+python3.10 ./513_10.py 

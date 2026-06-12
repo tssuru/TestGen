@@ -1,0 +1,30 @@
+echo
+echo =846_1.py 
+python3.10 ./846_1.py 
+echo
+echo =846_2.py 
+python3.10 ./846_2.py 
+echo
+echo =846_3.py 
+python3.10 ./846_3.py 
+echo
+echo =846_4.py 
+python3.10 ./846_4.py 
+echo
+echo =846_5.py 
+python3.10 ./846_5.py 
+echo
+echo =846_6.py 
+python3.10 ./846_6.py 
+echo
+echo =846_7.py 
+python3.10 ./846_7.py 
+echo
+echo =846_8.py 
+python3.10 ./846_8.py 
+echo
+echo =846_9.py 
+python3.10 ./846_9.py 
+echo
+echo =846_10.py 
+python3.10 ./846_10.py 

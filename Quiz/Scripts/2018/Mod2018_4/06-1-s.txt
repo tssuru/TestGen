@@ -1,0 +1,29 @@
+class X{};
+class Y:public X{};
+class Z:public X{};
+void test(){X *z=new Z, *y=new Y; z=y; delete z; delete y; cout<<sizeof(z)/sizeof(y);}
+
+class X{public: int n=#n#;};
+class Y:public X{};
+class Z:public X{};
+void test(){X *z=new Z, *y=new Y; z=y; delete z; delete y; cout<<z->n;}
+
+class X{public: int n=#n#;};
+class Y:public X{};
+class Z:public X{};
+void test(){X x, *z=&x, *y=new Y; z=y; delete z; delete y; cout<<z->n;}
+
+class X{public: int n=#n#;};
+class Y:public X{};
+class Z:public X{};
+void test(){X *z=new Z, *y=new Y; y=z; delete y; cout<<z->n;}
+
+class X{};
+class Y:public X{};
+class Z:public X{};
+void test(){X *x=new X; Z *z=new Z; x=z; cout<<(x==z);}
+
+class X{};
+class Y:public X{};
+class Z:public X{};
+void test(){X x; Z z; x=z; cout<<(&x==&z);}

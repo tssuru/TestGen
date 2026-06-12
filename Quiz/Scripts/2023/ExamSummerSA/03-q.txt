@@ -1,0 +1,12 @@
+<fabric>
+     file answer
+     <fname>
+     03-s.txt
+     <\fname>
+
+     <before>
+     <\before>
+     <after>
+{ENDL}{ENDL}
+     <\after>
+  <\fabric>

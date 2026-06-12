@@ -1,0 +1,30 @@
+echo
+echo =9_1.py 
+python3.10 ./9_1.py 
+echo
+echo =9_2.py 
+python3.10 ./9_2.py 
+echo
+echo =9_3.py 
+python3.10 ./9_3.py 
+echo
+echo =9_4.py 
+python3.10 ./9_4.py 
+echo
+echo =9_5.py 
+python3.10 ./9_5.py 
+echo
+echo =9_6.py 
+python3.10 ./9_6.py 
+echo
+echo =9_7.py 
+python3.10 ./9_7.py 
+echo
+echo =9_8.py 
+python3.10 ./9_8.py 
+echo
+echo =9_9.py 
+python3.10 ./9_9.py 
+echo
+echo =9_10.py 
+python3.10 ./9_10.py 

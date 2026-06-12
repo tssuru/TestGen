@@ -1,0 +1,30 @@
+echo
+echo =979_1.py 
+python3.10 ./979_1.py 
+echo
+echo =979_2.py 
+python3.10 ./979_2.py 
+echo
+echo =979_3.py 
+python3.10 ./979_3.py 
+echo
+echo =979_4.py 
+python3.10 ./979_4.py 
+echo
+echo =979_5.py 
+python3.10 ./979_5.py 
+echo
+echo =979_6.py 
+python3.10 ./979_6.py 
+echo
+echo =979_7.py 
+python3.10 ./979_7.py 
+echo
+echo =979_8.py 
+python3.10 ./979_8.py 
+echo
+echo =979_9.py 
+python3.10 ./979_9.py 
+echo
+echo =979_10.py 
+python3.10 ./979_10.py 

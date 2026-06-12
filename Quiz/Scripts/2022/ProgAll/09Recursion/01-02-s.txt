@@ -1,0 +1,159 @@
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 100)
+    print(n % 10, end=' ')
+{ENDL}
+
+f(123456)
+
+
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 100)
+    else:
+    {SPACE4}print(n % 10, end=' ')
+f(123456)
+
+
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+    {SPACE4}   f(n // 100)
+{ENDL}
+f(123456)
+
+
+def f(n):
+    if n > 9:
+    {SPACE4}    f(n // 100)
+    print(n % 10, end=' ')
+{ENDL}
+f(987654)
+
+
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 100)
+    else:
+    {SPACE4}print(n % 10, end=' ')
+f(987654)
+
+
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+    {SPACE4}f(n // 100)
+{ENDL}
+f(987654)
+
+
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 10)
+    print(n % 10, end=' ')
+{ENDL}
+f(123456)
+
+
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 10)
+    else:
+    {SPACE4}print(n % 10, end=' ')
+f(123456)
+
+
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 10)
+    print(n % 10, end=' ')
+{ENDL}
+f(543216)
+
+
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 10)
+    else:
+    {SPACE4}print(n % 10, end=' ')
+f(543216)
+
+
+def f(n):
+    if n > 2:
+    {SPACE4}f(n // 2)
+    print(n % 2, end=' ')
+{ENDL}
+f(16)
+
+
+def f(n):
+    if n > 2:
+    {SPACE4}f(n // 2)
+    else:
+    {SPACE4}print(n % 2, end=' ')
+f(16)
+
+
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+    {SPACE4}f(n // 10)
+{ENDL}
+f(123456)
+
+
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+    {SPACE4}f(n // 10)
+    {ENDL}
+f(543216)
+
+
+def f(n):
+    print(n % 2, end=' ')
+    if n > 2:
+    {SPACE4}f(n // 2)
+    {ENDL}
+f(16)
+
+
+def f(n):
+    if n <= 9:
+    {SPACE4}print(n % 10, end=' ')
+    else:
+    {SPACE4}f(n // 10)
+f(543216)
+
+
+def f(n):
+    if n <= 9:
+    {SPACE4}print(n % 10, end=' ')
+    else:
+    {SPACE4}f(n // 10)
+f(123456)
+
+
+def f(n):
+    if n <= 9:
+    {SPACE4}print(n % 10, end=' ')
+    else:
+    {SPACE4}f(n // 10)
+f(987651)
+
+
+def f(n):
+    if n > 9:
+    {SPACE4}return f(n // 10) + 1
+    else:
+    {SPACE4}return 1
+print(f(123456))
+
+
+def f(n):
+    if n > 9:
+    {SPACE4}return f(n // 100) + 1
+    else:
+    {SPACE4}return 1
+print(f(123456))

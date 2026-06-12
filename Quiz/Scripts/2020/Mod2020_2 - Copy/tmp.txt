@@ -1,0 +1,12512 @@
+\include<header>
+\begin{document}
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 1 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=0
+while m<7:
+    m+=2
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(-7,6,2):
+    if b<=7:
+        continue
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,4)
+print(b[-11])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c=[0,1,2,3,4,5,6,7,8,9]
+print(c[11:9:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+b+=[4,5]
+print(b)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+del b[7:]
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2k+1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 2 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=7
+while i>=6:
+    i+=-3
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(1,2,-2):
+    if a>8:
+        break
+        print(a, end=' ')
+    else:
+        print('end', end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 10)
+    else:
+    {SPACE4}print(n % 10, end=' ')
+
+print('R', end='')
+f(543216)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,3,4)
+print(f[-8])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a=(0,1,2,3,4,5,6,7,8,9)
+print(a[-10:14:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.remove('8')
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+a[:1]=[4,5]
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{C_{2k}^k}{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 3 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=13
+while t>2:
+    t+=-2
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(5,3,3):
+    if f>=4:
+        continue
+        print(f, end=' ')
+        f=8
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1)
+print(a[1])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=['0','1','2','3','4','5','6','7','8','9']
+print(e[:-3:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=['0','1','2','3','4']
+f.append(18)
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+d[0:-2]=[1,0]
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{2k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 4 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=15
+while j>8:
+    j+=-2
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(-3,13,-3):
+    if d<6:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,3)
+print(c[-12])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b=('0','1','2','3','4','5','6','7','8','9')
+print(b[-15:12:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+d.insert(5, '11')
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g[-4:-9]=[12]
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2n+k}^{n+k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 5 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=10
+while k>=5:
+    k+=-3
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(-13,11,-1):
+    if c<=3:
+        break
+        print(c, end=' ')
+    if c<6:
+        break
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2)
+print(d[7])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h='0123456789'
+print(h[4::3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+print(a.pop(), end=' ')
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+del c[-3:]
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{3k}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 6 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=12
+while n>=1:
+    n+=-2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(-2,-15,2):
+    if e>5:
+        continue
+        print(e, end=' ')
+        e=-5
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3,4)
+print(e[-6])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d=['0','1','2','3','4','5','6','7','8','9']
+print(d[14::-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+print(c.index(3), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e[-6:-5]=()
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2n+k+1}^{n+k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 7 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=9
+while k<=9:
+    k+=1
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(15,-1,3):
+    if f<8:
+        break
+        print(f, end=' ')
+        f=-7
+    else:
+        print('end', end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1)
+print(h[-4])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=[0,1,2,3,4,5,6,7,8,9]
+print(g[-2:6:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.extend('10')
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=['0','1','2','3','4']
+f[:-3]=[2,3]
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+2k}^{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 8 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=1
+while t<=11:
+    t+=2
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(11,-9,-2):
+    if d>=7:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,4)
+print(g[0])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f=(0,1,2,3,4,5,6,7,8,9)
+print(f[-4:3:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g.append('12')
+print(g)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+del h[-5:3]
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2n+k+1}^{n+k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 9 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=5
+while j<5:
+    j+=1
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(-4,5,-1):
+    if c<=3:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n <= 9:
+    {SPACE4}print(n % 10, end=' ')
+    else:
+    {SPACE4}f(n // 10)
+
+print('R', end='')
+f(123456)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3)
+print(d[-10])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c=('0','1','2','3','4','5','6','7','8','9')
+print(c[::3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+c+=[1,2]
+print(c)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=[10,11,12,13,14]
+g[2:-8]='13'
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 10 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=7
+while n<=13:
+    n+=1
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(-11,-6,-3):
+    if a>=6:
+        break
+        print(a, end=' ')
+        a=3
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2)
+print(b[5])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b='0123456789'
+print(b[:-6:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=[10,11,12,13,14]
+e.extend([2,3])
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e[:-6]='10'
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+2k}^{k+1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 11 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=5
+while m>9:
+    m+=-3
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(-5,0,3):
+    if b<4:
+        continue
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,4)
+print(a[14])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f=['0','1','2','3','4','5','6','7','8','9']
+print(f[3::-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+print(b.index(13), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=['0','1','2','3','4']
+f[-2:8]=[1,2]
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2k-1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 12 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=11
+while j>7:
+    j+=-3
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(4,-10,-3):
+    if e>5:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2)
+print(h[-5])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=[0,1,2,3,4,5,6,7,8,9]
+print(e[:-5:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=['0','1','2','3','4']
+f.insert(2, '13')
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+del h[:7]
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$\frac{C_{2k}^k}{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 13 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=8
+while k>=4:
+    k+=-2
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(-9,15,-1):
+    if f>=4:
+        continue
+        print(f, end=' ')
+    if f>=3:
+        break
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,3)
+print(g[-1])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=(0,1,2,3,4,5,6,7,8,9)
+print(h[8:2:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+print(h.pop(-6), end=' ')
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+d[4:6]='11'
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{2k-1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 14 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=4
+while i<10:
+    i+=2
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(6,-7,-2):
+    if a>7:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3,4)
+print(e[-9])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d='0123456789'
+print(d[-5:1:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+d.remove('5')
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+a[6:-1]='12'
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$\frac{(2k+1)!!}{(k!)^2}, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 15 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=14
+while i>=0:
+    i+=-3
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(13,14,2):
+    if c<3:
+        break
+        print(c, end=' ')
+        c=-3
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1)
+print(f[3])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a=('0','1','2','3','4','5','6','7','8','9')
+print(a[9:10:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=[10,11,12,13,14]
+g+=[1,0]
+print(g)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+del b[-1:]
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{(2k)!!}{(k+1)!(k-1)!}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 16 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=3
+while n<8:
+    n+=2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(-10,10,-2):
+    if d<=5:
+        continue
+        print(d, end=' ')
+        d=6
+    else:
+        print('end', end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,3,4)
+print(c[-12])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=['0','1','2','3','4','5','6','7','8','9']
+print(g[::2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+a.remove(1)
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+del c[1:-7]
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+2k}^{k+1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 17 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=9
+while t>3:
+    t+=-2
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(7,-3,3):
+    if e<6:
+        break
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+    {SPACE4}f(n // 10)
+    {ENDL}
+
+print('R', end='')
+f(123456)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2)
+print(f[-7])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c=(0,1,2,3,4,5,6,7,8,9)
+print(c[-6::-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+d.append('11')
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+b[8:]=(13)
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{2k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 18 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=2
+while j<=6:
+    j+=1
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(12,9,-1):
+    if b>=8:
+        continue
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 100)
+    else:
+    {SPACE4}print(n % 10, end=' ')
+
+print('R', end='')
+f(987654)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1)
+print(d[12])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f=('0','1','2','3','4','5','6','7','8','9')
+print(f[:-10:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+a.extend([4,5])
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+d[-8:-4]=(15)
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$\frac{(2k)!!}{(k+1)!(k-1)!}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 19 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=6
+while m<12:
+    m+=2
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(-8,-8,-3):
+    if c<=6:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}return f(n // 10) + 1
+    else:
+    {SPACE4}return 1
+
+print('R', end='')
+print(f(123456))
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3)
+print(b[-3])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a='0123456789'
+print(a[-7:-15:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+c.insert(4, [1,0])
+print(c)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+del c[-7:]
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+2k}^{k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 20 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=8
+while i<=11:
+    i+=1
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(-14,12,2):
+    if d>7:
+        break
+        print(d, end=' ')
+        d=-2
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}    f(n // 100)
+    print(n % 10, end=' ')
+    {ENDL}
+
+print('R', end='')
+f(987654)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,4)
+print(c[6])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=[0,1,2,3,4,5,6,7,8,9]
+print(g[-1:5:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+print(g.index('6'), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+a[:0]='11'
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{(2k+1)!!}{(k+1)!(k-1)!}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 21 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=6
+while m>0:
+    m+=-3
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(0,8,3):
+    if e>=5:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1)
+print(a[-11])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d=(0,1,2,3,4,5,6,7,8,9)
+print(d[5:-1:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+print(e.pop(-2), end=' ')
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+h[5:]=[14]
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{2k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 22 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=8
+while n>=4:
+    n+=-2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(3,-5,-3):
+    if f<=8:
+        continue
+        print(f, end=' ')
+    if f>5:
+        break
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,3,4)
+print(g[-8])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=[0,1,2,3,4,5,6,7,8,9]
+print(e[-14::-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+print(h.pop(4), end=' ')
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e[3:5]=[1,0]
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$\frac{(2k+1)!!}{(k+1)!(k-1)!}, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 23 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=6
+while t>=3:
+    t+=-2
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(10,4,-2):
+    if a>3:
+        break
+        print(a, end=' ')
+        a=5
+    else:
+        print('end', end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3)
+print(h[-13])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b=['0','1','2','3','4','5','6','7','8','9']
+print(b[:4:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+print(b.index('4'), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=['0','1','2','3','4']
+del f[-9:4]
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 24 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=4
+while t<=13:
+    t+=1
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(-15,1,-1):
+    if b<4:
+        continue
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,4)
+print(e[4])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=('0','1','2','3','4','5','6','7','8','9')
+print(h[-8:-13:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f.extend([1,2])
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=[10,11,12,13,14]
+g[-8:2]='12'
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 25 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=6
+while k<8:
+    k+=2
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(8,7,2):
+    if b<=4:
+        continue
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    print(n % 2, end=' ')
+    if n > 2:
+    {SPACE4}f(n // 2)
+    {ENDL}
+
+print('R', end='')
+f(16)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2)
+print(e[-2])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a='0123456789'
+print(a[2:-9:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e+='12'
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+del e[-6:-9]
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{2k-1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 26 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=13
+while m>1:
+    m+=-3
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(-12,-11,2):
+    if e<8:
+        continue
+        print(e, end=' ')
+        e=-10
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,3,4)
+print(g[-5])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f=('0','1','2','3','4','5','6','7','8','9')
+print(f[1:-4:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.remove('10')
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+a[:-1]=[1,2]
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2n+k}^{n+k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 27 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=5
+while t<=6:
+    t+=2
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(-1,-14,-3):
+    if a>=6:
+        break
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 2:
+    {SPACE4}f(n // 2)
+    print(n % 2, end=' ')
+    {ENDL}
+
+print('R', end='')
+f(16)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,4)
+print(f[9])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=['0','1','2','3','4','5','6','7','8','9']
+print(h[::-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=['0','1','2','3','4']
+f.insert(0, 17)
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[-3:-6]='13'
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+2k}^{k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 28 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=0
+while j<10:
+    j+=1
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(2,-4,-1):
+    if c>3:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1)
+print(c[2])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d=[0,1,2,3,4,5,6,7,8,9]
+print(d[-13::-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+b.append('10')
+print(b)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+del b[4:]
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2n+k}^{n+k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 29 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=15
+while n>7:
+    n+=-3
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(-6,-12,-2):
+    if f<5:
+        break
+        print(f, end=' ')
+        f=-9
+    else:
+        print('end', end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2)
+print(d[-13])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c='0123456789'
+print(c[:-7:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+d+='13'
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g[2:1]=[2,3]
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{k+1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 30 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=11
+while k>=9:
+    k+=-2
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(14,-2,3):
+    if d>7:
+        continue
+        print(d, end=' ')
+    if d<=7:
+        break
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+    {SPACE4}f(n // 10)
+    {ENDL}
+
+print('R', end='')
+f(543216)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,3)
+print(a[-13])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=(0,1,2,3,4,5,6,7,8,9)
+print(e[13:-12:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+print(a.index(16), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+d[1:]='10'
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{3k}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 31 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=12
+while j>8:
+    j+=-2
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(9,-13,-3):
+    if a<=5:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2)
+print(h[-1])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b=[0,1,2,3,4,5,6,7,8,9]
+print(b[:11:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+c.insert(-1, [2,3])
+print(c)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+c[7:-2]=[4,5]
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{(2k+1)!!}{(k!)^2}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 32 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=10
+while i>=5:
+    i+=-3
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(-2,-8,3):
+    if f>=8:
+        break
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,4)
+print(b[1])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=(0,1,2,3,4,5,6,7,8,9)
+print(g[-12:15:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=[10,11,12,13,14]
+g.append('12')
+print(g)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+del f[-5:7]
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{k+1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 33 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=1
+while i<5:
+    i+=2
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(11,1,-1):
+    if d<6:
+        continue
+        print(d, end=' ')
+        d=-1
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3,4)
+print(b[-4])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=['0','1','2','3','4','5','6','7','8','9']
+print(e[:-14:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+d.extend([4,5])
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=[10,11,12,13,14]
+e[0:8]=()
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 34 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=5
+while m>2:
+    m+=-3
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(-11,8,-2):
+    if e>=7:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1)
+print(h[-10])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b='0123456789'
+print(b[12::-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+print(e.pop(5), end=' ')
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g[-9:-7]=[14]
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{3k-1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 35 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=14
+while t>=6:
+    t+=-2
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(6,-5,2):
+    if b<=4:
+        continue
+        print(b, end=' ')
+        b=2
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,3)
+print(f[-10])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a=('0','1','2','3','4','5','6','7','8','9')
+print(a[0:-11:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=['0','1','2','3','4']
+f.remove(2)
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+a[:2]=()
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 36 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=7
+while k>8:
+    k+=-3
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(-4,7,-2):
+    if c>3:
+        break
+        print(c, end=' ')
+    if c>8:
+        break
+    else:
+        print('end', end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2)
+print(e[3])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f=[0,1,2,3,4,5,6,7,8,9]
+print(f[-9:-8:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.append([1,2])
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+del b[:0]
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2n+k+1}^{n+k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 37 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=8
+while m<=9:
+    m+=1
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(5,-7,-1):
+    if d>4:
+        continue
+        print(d, end=' ')
+        d=-4
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 10)
+    print(n % 10, end=' ')
+    {ENDL}
+
+print('R', end='')
+f(123456)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,3)
+print(g[-12])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=('0','1','2','3','4','5','6','7','8','9')
+print(g[::3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+print(b.pop(1), end=' ')
+print(b)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[-1:]=[1,0]
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+2k}^{k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 38 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=2
+while k<7:
+    k+=1
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(3,3,3):
+    if b>=5:
+        break
+        print(b, end=' ')
+    else:
+        print('end', end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}return f(n // 100) + 1
+    else:
+    {SPACE4}return 1
+
+print('R', end='')
+print(f(123456))
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,4)
+print(a[-2])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=['0','1','2','3','4','5','6','7','8','9']
+print(h[-3:7:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+a+='10'
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[:-3]=[2,3]
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 39 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=9
+while j>=3:
+    j+=-2
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(0,-6,-3):
+    if c<=7:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3,4)
+print(d[5])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c='0123456789'
+print(c[6:0:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=[10,11,12,13,14]
+g.extend([1,0])
+print(g)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+del d[:4]
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2k-1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 40 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=7
+while n<=12:
+    n+=2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(-14,2,2):
+    if e<8:
+        break
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 10)
+    print(n % 10, end=' ')
+    {ENDL}
+
+print('R', end='')
+f(543216)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1)
+print(c[8])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d=(0,1,2,3,4,5,6,7,8,9)
+print(d[10::-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+print(c.index('1'), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+c[-4:]='13'
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{(2k)!!}{(k!)^2}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 41 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=9
+while j<=8:
+    j+=1
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(15,10,-2):
+    if f<6:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,3)
+print(g[13])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=(0,1,2,3,4,5,6,7,8,9)
+print(h[7:-2:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+c.remove(10)
+print(c)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g[-2:-8]='10'
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{3k-1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 42 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=3
+while t<13:
+    t+=2
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(-13,-13,-3):
+    if a>=3:
+        continue
+        print(a, end=' ')
+        a=4
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+    {SPACE4}f(n // 100)
+    {ENDL}
+
+print('R', end='')
+f(987654)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,3,4)
+print(a[4])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c=['0','1','2','3','4','5','6','7','8','9']
+print(c[-11:13:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g.insert(-7, '11')
+print(g)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+del d[6:-4]
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+2k}^{k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 43 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=6
+while i>=2:
+    i+=-3
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(8,-10,3):
+    if c<=6:
+        break
+        print(c, end=' ')
+    if c>=4:
+        break
+    else:
+        print('end', end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2)
+print(f[-6])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=[0,1,2,3,4,5,6,7,8,9]
+print(e[:8:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=['0','1','2','3','4']
+h.remove('2')
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+b[5:-5]=[4,5]
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2k+1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 44 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=8
+while k<=7:
+    k+=2
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(12,-2,2):
+    if d>5:
+        continue
+        print(d, end=' ')
+        d=10
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1)
+print(c[-9])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a=('0','1','2','3','4','5','6','7','8','9')
+print(a[::-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f.extend([2,3])
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+del c[8:6]
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+2k}^{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 45 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=6
+while i<11:
+    i+=1
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(-9,-15,-1):
+    if b>7:
+        continue
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,4)
+print(d[-14])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f='0123456789'
+print(f[15::-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=[10,11,12,13,14]
+e.insert(1, '13')
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[-7:5]='12'
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{2k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 46 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=11
+while n>1:
+    n+=-2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(2,4,-3):
+    if a>=4:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3,4)
+print(b[6])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d=('0','1','2','3','4','5','6','7','8','9')
+print(d[2::3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+print(b.index('7'), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e[3:3]='11'
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2n+k}^{n+k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 47 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=8
+while m>=7:
+    m+=-3
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(-15,6,3):
+    if e<8:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,4)
+print(e[-7])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=(0,1,2,3,4,5,6,7,8,9)
+print(g[:-15:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+print(d.pop(-5), end=' ')
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+h[-9:8]=[1,2]
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$\frac{(2k)!!}{(k!)^2}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 48 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=1
+while m<=5:
+    m+=2
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(10,5,-2):
+    if f<=3:
+        break
+        print(f, end=' ')
+        f=7
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1)
+print(h[-8])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b=[0,1,2,3,4,5,6,7,8,9]
+print(b[14:11:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+a+=16
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+del a[3:]
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2n+k+1}^{n+k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 49 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=14
+while j>6:
+    j+=-2
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(-5,-11,-1):
+    if b>=7:
+        continue
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3)
+print(e[2])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f=['0','1','2','3','4','5','6','7','8','9']
+print(f[7:9:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g.append('10')
+print(g)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=[10,11,12,13,14]
+e[-1:-7]=(12)
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2n+k}^{n+k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 50 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=9
+while n<6:
+    n+=1
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(-6,-4,2):
+    if e<=6:
+        continue
+        print(e, end=' ')
+    if e<=5:
+        break
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n <= 9:
+    {SPACE4}print(n % 10, end=' ')
+    else:
+    {SPACE4}f(n // 10)
+
+print('R', end='')
+f(987651)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2)
+print(d[-9])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d='0123456789'
+print(d[-1:7:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+d.extend('12')
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+a[4:]=[4,5]
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{k+1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 51 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=7
+while k>5:
+    k+=-3
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(-7,9,2):
+    if f<8:
+        break
+        print(f, end=' ')
+        f=-8
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 100)
+    print(n % 10, end=' ')
+    {ENDL}
+
+print('R', end='')
+f(123456)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,3,4)
+print(g[-11])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=[0,1,2,3,4,5,6,7,8,9]
+print(e[-15:-7:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+print(b.pop(3), end=' ')
+print(b)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+del d[6:1]
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2k-1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 52 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=3
+while t<=9:
+    t+=2
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(-8,13,-2):
+    if c>3:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,4)
+print(h[-3])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c=(0,1,2,3,4,5,6,7,8,9)
+print(c[:2:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f.remove(8)
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=[10,11,12,13,14]
+g[-7:4]=[15]
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{(2k+1)!!}{(k+1)!(k-1)!}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 53 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=9
+while n>=9:
+    n+=-2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(-1,-9,3):
+    if d>4:
+        continue
+        print(d, end=' ')
+        d=1
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,3)
+print(a[0])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a='0123456789'
+print(a[:5:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+print(c.index('3'), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+del c[:6]
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{3k-1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 54 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=2
+while n<12:
+    n+=1
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(13,15,-3):
+    if a<=5:
+        break
+        print(a, end=' ')
+    else:
+        print('end', end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 2:
+    {SPACE4}f(n // 2)
+    else:
+    {SPACE4}print(n % 2, end=' ')
+
+print('R', end='')
+f(16)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2)
+print(f[-6])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b=('0','1','2','3','4','5','6','7','8','9')
+print(b[15::2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=[10,11,12,13,14]
+e+='13'
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[:-6]='13'
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 55 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=0
+while j<10:
+    j+=2
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(-3,-12,-1):
+    if c>=3:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1)
+print(c[-3])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=['0','1','2','3','4','5','6','7','8','9']
+print(g[::-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=['0','1','2','3','4']
+h.insert(3, [1,0])
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+b[-6:2]=[2,3]
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+2k}^{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 56 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=5
+while k<=10:
+    k+=1
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(4,11,-3):
+    if f<7:
+        continue
+        print(f, end=' ')
+        f=0
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3,4)
+print(b[10])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=('0','1','2','3','4','5','6','7','8','9')
+print(h[-4:-14:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+a.append([1,2])
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+h[-8:-5]='12'
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$\frac{(2k+1)!!}{(k+1)!(k-1)!}, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 57 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=13
+while i>=4:
+    i+=-2
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(1,-1,2):
+    if e>4:
+        break
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3)
+print(d[6])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=(0,1,2,3,4,5,6,7,8,9)
+print(g[-10:-2:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.extend('11')
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+del d[:7]
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 58 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=12
+while t>0:
+    t+=-3
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(7,12,3):
+    if b>=6:
+        break
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2)
+print(e[11])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a='0123456789'
+print(a[-5::-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=[10,11,12,13,14]
+print(g.pop(-3), end=' ')
+print(g)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+h[1:-3]=()
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2n+k}^{n+k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 59 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=4
+while i<5:
+    i+=2
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(9,0,-1):
+    if a<=8:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,4)
+print(a[-8])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=['0','1','2','3','4','5','6','7','8','9']
+print(h[12:-12:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+a+=[2,3]
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+del e[-3:0]
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 60 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=7
+while m<=7:
+    m+=1
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(-12,-14,-2):
+    if d<5:
+        continue
+        print(d, end=' ')
+        d=-6
+    else:
+        print('end', end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1)
+print(b[-2])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d=[0,1,2,3,4,5,6,7,8,9]
+print(d[10:6:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.insert(-4, 15)
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+c[5:]=[1,0]
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{(2k)!!}{(k!)^2}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 61 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=2
+while m<9:
+    m+=2
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(14,14,-3):
+    if f>6:
+        break
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1)
+print(f[-11])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f=['0','1','2','3','4','5','6','7','8','9']
+print(f[-11::-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+c.remove(9)
+print(c)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+del b[:-4]
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2n+k+1}^{n+k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 62 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=3
+while i<=13:
+    i+=1
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(-10,-3,2):
+    if d>=5:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,3)
+print(c[-12])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c=('0','1','2','3','4','5','6','7','8','9')
+print(c[:-10:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=['0','1','2','3','4']
+print(f.index(0), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+a[-5:-8]=(13)
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{(2k+1)!!}{(k!)^2}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 63 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=15
+while n>8:
+    n+=-3
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(12,-12,-2):
+    if b<4:
+        continue
+        print(b, end=' ')
+        b=9
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n <= 9:
+    {SPACE4}print(n % 10, end=' ')
+    else:
+    {SPACE4}f(n // 10)
+
+print('R', end='')
+f(543216)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3,4)
+print(h[-7])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b='0123456789'
+print(b[8:12:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+b.append([4,5])
+print(b)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g[0:]='11'
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+2k}^{k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 64 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=5
+while j<11:
+    j+=1
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(-5,-10,-1):
+    if c<=7:
+        break
+        print(c, end=' ')
+    if c<6:
+        break
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2)
+print(g[0])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=(0,1,2,3,4,5,6,7,8,9)
+print(e[0:-6:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+d.append(20)
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[8:]='10'
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{2k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 65 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=7
+while n<=12:
+    n+=2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(-1,-8,3):
+    if e>=8:
+        continue
+        print(e, end=' ')
+        e=9
+    if e>4:
+        break
+    else:
+        print('end', end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,4)
+print(b[-1])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b=[0,1,2,3,4,5,6,7,8,9]
+print(b[:-11:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=[10,11,12,13,14]
+g.extend('13')
+print(g)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+del b[-2:5]
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2n+k+1}^{n+k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 66 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=10
+while i>=6:
+    i+=-2
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(13,0,-2):
+    if a<3:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1)
+print(g[13])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a=(0,1,2,3,4,5,6,7,8,9)
+print(a[-3:-3:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=['0','1','2','3','4']
+h.insert(-6, '11')
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g[2:]=[1,2]
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{3k}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 67 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=5
+while j>=2:
+    j+=-2
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(4,10,-1):
+    if d>6:
+        continue
+        print(d, end=' ')
+        d=2
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 100)
+    else:
+    {SPACE4}print(n % 10, end=' ')
+
+print('R', end='')
+f(123456)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,3)
+print(a[-13])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d=[0,1,2,3,4,5,6,7,8,9]
+print(d[9::-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+print(c.index('9'), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+c[7:3]=[4,5]
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{C_{2k}^k}{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 68 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=9
+while k<=6:
+    k+=1
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(-3,9,-3):
+    if c<=5:
+        break
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,4)
+print(d[1])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=('0','1','2','3','4','5','6','7','8','9')
+print(g[-8:0:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+d+=[2,3]
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=['0','1','2','3','4']
+f[-4:-1]=[2,3]
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+2k}^{k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 69 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=1
+while t<8:
+    t+=2
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(6,-14,2):
+    if f>8:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+    {SPACE4}   f(n // 100)
+    {ENDL}
+
+print('R', end='')
+f(123456)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2)
+print(c[-4])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=['0','1','2','3','4','5','6','7','8','9']
+print(e[1:14:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.remove('7')
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+del d[0:-9]
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{k+1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 70 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=6
+while m<=8:
+    m+=1
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(-10,-11,3):
+    if e>=3:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 10)
+    else:
+    {SPACE4}print(n % 10, end=' ')
+
+print('R', end='')
+f(123456)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3,4)
+print(e[5])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c='0123456789'
+print(c[::-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+print(f.pop(-1), end=' ')
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+del e[-8:-2]
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+2k}^{k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 71 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=0
+while j<5:
+    j+=2
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(11,15,-1):
+    if a<4:
+        break
+        print(a, end=' ')
+        a=-5
+    else:
+        print('end', end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n <= 9:
+    {SPACE4}print(n % 10, end=' ')
+    else:
+    {SPACE4}f(n // 10)
+
+print('R', end='')
+f(987651)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3)
+print(h[-10])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=(0,1,2,3,4,5,6,7,8,9)
+print(h[-2:-8:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+b.extend('10')
+print(b)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+a[:3]=[1,2]
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2n+k+1}^{n+k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 72 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=5
+while k>4:
+    k+=-3
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(5,-13,-3):
+    if b<=7:
+        continue
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1)
+print(f[-8])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f='0123456789'
+print(f[-12:-9:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+a.remove(4)
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+h[:-1]=()
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2k+1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 73 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=4
+while n<=7:
+    n+=2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(-4,14,2):
+    if e>8:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 100)
+    else:
+    {SPACE4}print(n % 10, end=' ')
+
+print('R', end='')
+f(123456)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2)
+print(c[3])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b=('0','1','2','3','4','5','6','7','8','9')
+print(b[-6:-1:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+print(c.index(17), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+b[-9:-8]=(14)
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$\frac{(2k+1)!!}{(k!)^2}, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 74 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=13
+while m>0:
+    m+=-3
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(0,-2,-2):
+    if a>=4:
+        break
+        print(a, end=' ')
+    else:
+        print('end', end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,3,4)
+print(a[-5])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=['0','1','2','3','4','5','6','7','8','9']
+print(e[-13:-13:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+d.insert(-3, [4,5])
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+del g[4:]
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2n+k}^{n+k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 75 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=8
+while t<6:
+    t+=1
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(-6,11,3):
+    if f<7:
+        continue
+        print(f, end=' ')
+        f=5
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,4)
+print(h[-9])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a=[0,1,2,3,4,5,6,7,8,9]
+print(a[6::-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+a.append('12')
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+c[:7]='12'
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2n+k}^{n+k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 76 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=6
+while t>=1:
+    t+=-2
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(3,-6,-3):
+    if d<=6:
+        break
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 10)
+    else:
+    {SPACE4}print(n % 10, end=' ')
+
+print('R', end='')
+f(543216)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2)
+print(g[12])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=('0','1','2','3','4','5','6','7','8','9')
+print(h[-14::-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e+=[1,2]
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e[-2:]=[15]
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{2k-1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 77 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=8
+while k<=9:
+    k+=1
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(8,13,-2):
+    if c<5:
+        continue
+        print(c, end=' ')
+        c=7
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3,4)
+print(e[2])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f=[0,1,2,3,4,5,6,7,8,9]
+print(f[:15:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+print(f.pop(0), end=' ')
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+del h[5:-2]
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$\frac{(2k)!!}{(k!)^2}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 78 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=15
+while k>5:
+    k+=-3
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(1,-15,2):
+    if b<=3:
+        continue
+        print(b, end=' ')
+    if b>=3:
+        break
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n <= 9:
+    {SPACE4}print(n % 10, end=' ')
+    else:
+    {SPACE4}f(n // 10)
+
+print('R', end='')
+f(123456)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3)
+print(d[-14])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g='0123456789'
+print(g[-7:10:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=['0','1','2','3','4']
+h+=[1,0]
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+d[8:-9]='11'
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+2k}^{k+1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 79 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=8
+while j>=7:
+    j+=-2
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(-7,-9,-1):
+    if e>6:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,4)
+print(f[-7])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c=(0,1,2,3,4,5,6,7,8,9)
+print(c[::2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+print(b.pop(2), end=' ')
+print(b)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+del a[:4]
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{3k-1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 80 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=14
+while n>9:
+    n+=-2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(-14,-7,3):
+    if c>=7:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1)
+print(b[-13])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d=['0','1','2','3','4','5','6','7','8','9']
+print(d[:-5:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=[10,11,12,13,14]
+g.remove(12)
+print(g)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[-1:-7]='10'
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 81 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=3
+while i<10:
+    i+=2
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(-11,3,-3):
+    if b>=4:
+        break
+        print(b, end=' ')
+        b=-9
+    if b<7:
+        break
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3,4)
+print(b[4])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f=['0','1','2','3','4','5','6','7','8','9']
+print(f[11:3:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=['0','1','2','3','4']
+print(h.index('2'), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e[-7:-6]='13'
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{2k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 82 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=11
+while t>=3:
+    t+=-3
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(2,1,-2):
+    if a>8:
+        continue
+        print(a, end=' ')
+    else:
+        print('end', end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,4)
+print(e[-4])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=(0,1,2,3,4,5,6,7,8,9)
+print(e[::-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f.append([1,2])
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+del d[-5:0]
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{2k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 83 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=7
+while m>4:
+    m+=-2
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(10,4,2):
+    if f<=5:
+        continue
+        print(f, end=' ')
+        f=6
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,3)
+print(g[-9])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a='0123456789'
+print(a[-9:1:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+a.extend('10')
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+h[1:-5]=[1,0]
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{2k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 84 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=12
+while i>=1:
+    i+=-3
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(-15,2,-1):
+    if d<3:
+        break
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1)
+print(h[9])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b=('0','1','2','3','4','5','6','7','8','9')
+print(b[5:8:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+b.insert(6, '11')
+print(b)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g[2:]=[2,3]
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+2k}^{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 85 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=10
+while k>3:
+    k+=-3
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(-13,-5,3):
+    if d<=6:
+        break
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2)
+print(c[-5])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=[0,1,2,3,4,5,6,7,8,9]
+print(h[:13:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.extend([2,3])
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+del a[:2]
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+2k}^{k+1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 86 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=0
+while k<13:
+    k+=2
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(15,5,2):
+    if e>=7:
+        continue
+        print(e, end=' ')
+        e=-2
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,4)
+print(a[-11])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c=('0','1','2','3','4','5','6','7','8','9')
+print(c[4::-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+print(c.pop(-4), end=' ')
+print(c)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=['0','1','2','3','4']
+f[3:8]='10'
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$\frac{(2k)!!}{(k+1)!(k-1)!}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 87 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=5
+while t<=11:
+    t+=1
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(9,-1,-2):
+    if a>5:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2)
+print(f[-10])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d=['0','1','2','3','4','5','6','7','8','9']
+print(d[13:-4:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g+='13'
+print(g)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+c[-3:5]=[1,0]
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2n+k+1}^{n+k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 88 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=9
+while n>=6:
+    n+=-2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(14,-4,-1):
+    if c<8:
+        continue
+        print(c, end=' ')
+    else:
+        print('end', end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1)
+print(d[3])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=(0,1,2,3,4,5,6,7,8,9)
+print(g[3::-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+d.remove(15)
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+b[:-3]='12'
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2k+1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 89 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=9
+while m<12:
+    m+=1
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(-12,6,-3):
+    if b>=3:
+        continue
+        print(b, end=' ')
+        b=-6
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3)
+print(h[6])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f=[0,1,2,3,4,5,6,7,8,9]
+print(f[:4:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.insert(7, '12')
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+del a[6:]
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{(2k)!!}{(k+1)!(k-1)!}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 90 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=10
+while t>2:
+    t+=-2
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(-8,8,3):
+    if f>4:
+        break
+        print(f, end=' ')
+    if f<=8:
+        break
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3,4)
+print(e[-1])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b='0123456789'
+print(b[-4:-9:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+print(b.index(0), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+d[-4:6]=[13]
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$\frac{C_{2k}^k}{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 91 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=7
+while m>=7:
+    m+=-3
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(-9,7,-3):
+    if d<8:
+        continue
+        print(d, end=' ')
+        d=10
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3)
+print(b[-3])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a=('0','1','2','3','4','5','6','7','8','9')
+print(a[::3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=['0','1','2','3','4']
+f.append([4,5])
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[-6:-4]=[4,5]
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{2k-1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 92 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=15
+while j>8:
+    j+=-3
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(-2,-3,-2):
+    if e<=6:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1)
+print(f[-9])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=[0,1,2,3,4,5,6,7,8,9]
+print(h[-15:-10:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=[10,11,12,13,14]
+e.extend([1,0])
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+del c[:1]
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 93 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=11
+while i>=0:
+    i+=-2
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(7,12,3):
+    if a>3:
+        break
+        print(a, end=' ')
+    else:
+        print('end', end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3,4)
+print(d[10])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=(0,1,2,3,4,5,6,7,8,9)
+print(e[-6::2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+a.insert(-5, 19)
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+b[7:-1]='13'
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{3k}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 94 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=12
+while i>5:
+    i+=-3
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(-7,-6,-1):
+    if c<=5:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2)
+print(a[-7])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c='0123456789'
+print(c[:-7:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+c.remove(14)
+print(c)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=[10,11,12,13,14]
+e[-9:0]=()
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 95 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=7
+while j<=11:
+    j+=2
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(5,-4,2):
+    if f<7:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+    {SPACE4}f(n // 10)
+    {ENDL}
+
+print('R', end='')
+f(543216)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,4)
+print(c[2])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=['0','1','2','3','4','5','6','7','8','9']
+print(g[-1:12:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g+='13'
+print(g)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=[10,11,12,13,14]
+del g[3:]
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2k-1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 96 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=9
+while m>=9:
+    m+=-2
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(14,14,-2):
+    if b>=4:
+        break
+        print(b, end=' ')
+        b=8
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+    {SPACE4}   f(n // 100)
+    {ENDL}
+
+print('R', end='')
+f(123456)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,4)
+print(g[-11])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d=[0,1,2,3,4,5,6,7,8,9]
+print(d[-13::3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+print(d.index('12'), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[-2:]='11'
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+2k}^{k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 97 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=2
+while i<=10:
+    i+=2
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(-3,15,2):
+    if b<=7:
+        continue
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3)
+print(b[0])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b='0123456789'
+print(b[:-11:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=[10,11,12,13,14]
+e.append(19)
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+h[-6:7]=(12)
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{2k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 98 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=1
+while n<13:
+    n+=1
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(13,-3,3):
+    if c>=5:
+        continue
+        print(c, end=' ')
+    else:
+        print('end', end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2)
+print(d[-8])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=['0','1','2','3','4','5','6','7','8','9']
+print(e[-2:-1:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+print(d.pop(-6), end=' ')
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=['0','1','2','3','4']
+f[:-8]=[1,2]
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{(2k+1)!!}{(k!)^2}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 99 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=4
+while m<=5:
+    m+=1
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(3,6,-1):
+    if d>8:
+        break
+        print(d, end=' ')
+        d=3
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,3,4)
+print(a[-2])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d=('0','1','2','3','4','5','6','7','8','9')
+print(d[-7:4:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=[10,11,12,13,14]
+g.insert(-2, [1,0])
+print(g)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+del g[-5:8]
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{3k-1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 100 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=5
+while j>=6:
+    j+=-3
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(-1,-10,-3):
+    if e<6:
+        break
+        print(e, end=' ')
+        e=-1
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    print(n % 2, end=' ')
+    if n > 2:
+    {SPACE4}f(n // 2)
+    {ENDL}
+
+print('R', end='')
+f(16)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1)
+print(g[14])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f=(0,1,2,3,4,5,6,7,8,9)
+print(f[1:7:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=['0','1','2','3','4']
+h.append('11')
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+d[-1:4]='13'
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2n+k}^{n+k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 101 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=6
+while n<6:
+    n+=2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(-9,-2,-2):
+    if f<4:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,4)
+print(e[1])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g='0123456789'
+print(g[2:-12:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+a.extend([1,2])
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+a[1:-9]=[2,3]
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$\frac{(2k+1)!!}{(k+1)!(k-1)!}, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 102 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=6
+while t>3:
+    t+=-2
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(12,-5,2):
+    if a<=3:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,3,4)
+print(f[-10])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c=('0','1','2','3','4','5','6','7','8','9')
+print(c[-9::-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f+=[2,3]
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=[10,11,12,13,14]
+del e[5:-7]
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+2k}^{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 103 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=8
+while k<12:
+    k+=2
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(-13,-8,3):
+    if e>7:
+        continue
+        print(e, end=' ')
+    if e>=5:
+        break
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3)
+print(h[-6])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=['0','1','2','3','4','5','6','7','8','9']
+print(h[:3:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+print(c.index(11), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+c[4:-6]=()
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{2k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 104 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=3
+while t<=7:
+    t+=1
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(1,-11,-3):
+    if d>=8:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n <= 9:
+    {SPACE4}print(n % 10, end=' ')
+    else:
+    {SPACE4}f(n // 10)
+
+print('R', end='')
+f(543216)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2)
+print(c[-12])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a=[0,1,2,3,4,5,6,7,8,9]
+print(a[:1:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+print(b.pop(-3), end=' ')
+print(b)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+del b[-3:]
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{2k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 105 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=14
+while n>=2:
+    n+=-3
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(10,7,-1):
+    if c<=3:
+        break
+        print(c, end=' ')
+        c=0
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1)
+print(c[-4])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b=(0,1,2,3,4,5,6,7,8,9)
+print(b[3::2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.remove('11')
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=[10,11,12,13,14]
+g[-8:1]=[1,2]
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$\frac{C_{2k}^k}{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 106 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=13
+while k>1:
+    k+=-2
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(-14,0,-2):
+    if b>=5:
+        continue
+        print(b, end=' ')
+        b=-3
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,3)
+print(g[5])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=(0,1,2,3,4,5,6,7,8,9)
+print(e[-14:-3:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+print(a.index('1'), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+del a[:6]
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2k-1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 107 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=7
+while i<9:
+    i+=2
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(9,-15,-1):
+    if f<4:
+        continue
+        print(f, end=' ')
+    else:
+        print('end', end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2)
+print(a[11])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g='0123456789'
+print(g[::-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e+='12'
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+c[8:]='10'
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2n+k}^{n+k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 108 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=4
+while j<=8:
+    j+=1
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(8,13,3):
+    if a>6:
+        break
+        print(a, end=' ')
+    if a<3:
+        break
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 100)
+    else:
+    {SPACE4}print(n % 10, end=' ')
+
+print('R', end='')
+f(987654)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1)
+print(e[-12])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=['0','1','2','3','4','5','6','7','8','9']
+print(h[10:14:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+d.insert(-7, [4,5])
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[:5]='12'
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+2k}^{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 109 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=2
+while i<13:
+    i+=1
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(15,3,-3):
+    if f>7:
+        break
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}    f(n // 100)
+    print(n % 10, end=' ')
+    {ENDL}
+
+print('R', end='')
+f(987654)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,4)
+print(b[-12])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c=[0,1,2,3,4,5,6,7,8,9]
+print(c[-5:10:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g.remove(4)
+print(g)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+del d[-4:]
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2n+k+1}^{n+k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 110 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=0
+while j<=11:
+    j+=2
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(2,-13,2):
+    if e<=3:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3,4)
+print(d[-13])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a=('0','1','2','3','4','5','6','7','8','9')
+print(a[-11:11:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+print(f.pop(-4), end=' ')
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+b[6:3]=(13)
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2n+k+1}^{n+k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 111 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=8
+while m>=8:
+    m+=-2
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(6,-9,-1):
+    if b<4:
+        continue
+        print(b, end=' ')
+        b=-7
+    else:
+        print('end', end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+    {SPACE4}f(n // 100)
+    {ENDL}
+
+print('R', end='')
+f(987654)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2)
+print(f[-8])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f='0123456789'
+print(f[9:9:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+c.append('10')
+print(c)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=[10,11,12,13,14]
+e[0:2]=[12]
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+2k}^{k+1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 112 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=15
+while j>7:
+    j+=-3
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(-11,5,2):
+    if a>=6:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 10)
+    else:
+    {SPACE4}print(n % 10, end=' ')
+
+print('R', end='')
+f(123456)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1)
+print(h[4])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d=[0,1,2,3,4,5,6,7,8,9]
+print(d[-12:-15:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+b.extend('10')
+print(b)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[2:]='11'
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 113 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=8
+while k>0:
+    k+=-2
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(-6,-14,-2):
+    if d<5:
+        break
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}return f(n // 10) + 1
+    else:
+    {SPACE4}return 1
+
+print('R', end='')
+print(f(123456))
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,3,4)
+print(a[-2])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c=('0','1','2','3','4','5','6','7','8','9')
+print(c[7::-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.append([1,0])
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+del a[:-4]
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{(2k)!!}{(k+1)!(k-1)!}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 114 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=9
+while i>=9:
+    i+=-3
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(-15,2,3):
+    if c>8:
+        continue
+        print(c, end=' ')
+        c=4
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,3)
+print(c[4])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d=['0','1','2','3','4','5','6','7','8','9']
+print(d[::-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+c.insert(5, '11')
+print(c)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[-7:-5]=[4,5]
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$\frac{(2k+1)!!}{(k!)^2}, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 115 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=14
+while t>=4:
+    t+=-2
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(11,-12,-3):
+    if d<=6:
+        break
+        print(d, end=' ')
+        d=-10
+    if d>4:
+        break
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,4)
+print(b[7])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b=(0,1,2,3,4,5,6,7,8,9)
+print(b[-8::-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+print(b.pop(4), end=' ')
+print(b)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+c[7:-3]=[1,0]
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{k+1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 116 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=9
+while n<10:
+    n+=2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(7,9,-1):
+    if a>=4:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1)
+print(g[-1])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e='0123456789'
+print(e[:-13:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+a+='13'
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=[10,11,12,13,14]
+del g[5:-2]
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{2k-1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 117 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=1
+while t<=12:
+    t+=1
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(-12,8,3):
+    if f>=5:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3,4)
+print(e[-13])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=['0','1','2','3','4','5','6','7','8','9']
+print(h[12:-2:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+print(e.index('5'), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=[10,11,12,13,14]
+e[:-7]=()
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{2k-1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 118 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=6
+while m<8:
+    m+=2
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(-4,-1,-3):
+    if e<=8:
+        break
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2)
+print(h[0])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=('0','1','2','3','4','5','6','7','8','9')
+print(g[-10:15:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+d.extend(16)
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=['0','1','2','3','4']
+f[:-3]='13'
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 119 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=7
+while n>5:
+    n+=-3
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(4,4,-2):
+    if c<7:
+        continue
+        print(c, end=' ')
+        c=-4
+    else:
+        print('end', end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,4)
+print(f[-6])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a=[0,1,2,3,4,5,6,7,8,9]
+print(a[:-8:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f.remove(16)
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+del b[-8:7]
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 120 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=5
+while k<=6:
+    k+=1
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(-10,10,2):
+    if b>3:
+        continue
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3)
+print(d[-10])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f=(0,1,2,3,4,5,6,7,8,9)
+print(f[5:6:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g.extend('12')
+print(g)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+d[0:]='11'
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{(2k+1)!!}{(k+1)!(k-1)!}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 121 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=6
+while k<5:
+    k+=2
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(-2,1,2):
+    if d<3:
+        continue
+        print(d, end=' ')
+    if d<=7:
+        break
+    else:
+        print('end', end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 10)
+    print(n % 10, end=' ')
+    {ENDL}
+
+print('R', end='')
+f(543216)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,3,4)
+print(a[1])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=(0,1,2,3,4,5,6,7,8,9)
+print(e[::-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+print(g.pop(2), end=' ')
+print(g)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=['0','1','2','3','4']
+f[4:-8]=[1,0]
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+2k}^{k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 122 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=11
+while j>9:
+    j+=-3
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(0,-7,-1):
+    if a<=8:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 2:
+    {SPACE4}f(n // 2)
+    print(n % 2, end=' ')
+    {ENDL}
+
+print('R', end='')
+f(16)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2)
+print(h[-9])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=('0','1','2','3','4','5','6','7','8','9')
+print(g[14:2:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+a.remove('12')
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+c[-4:8]='12'
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$\frac{(2k)!!}{(k!)^2}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 123 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=6
+while n>=4:
+    n+=-2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(-5,12,-2):
+    if c>=7:
+        break
+        print(c, end=' ')
+        c=-8
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3)
+print(d[-7])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c=[0,1,2,3,4,5,6,7,8,9]
+print(c[8:0:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=[10,11,12,13,14]
+e.append([2,3])
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=[10,11,12,13,14]
+del e[8:]
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2n+k+1}^{n+k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 124 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=13
+while k>5:
+    k+=-2
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(-8,11,3):
+    if b>6:
+        continue
+        print(b, end=' ')
+        b=1
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1)
+print(b[-5])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f='0123456789'
+print(f[6:-5:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+c.insert(6, [1,2])
+print(c)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g[-1:-6]=[2,3]
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 125 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=12
+while i>=0:
+    i+=-3
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(1,0,-3):
+    if e<4:
+        break
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,4)
+print(f[8])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b=['0','1','2','3','4','5','6','7','8','9']
+print(b[11:-14:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f+=[4,5]
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[:-9]=[4,5]
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 126 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=10
+while t>3:
+    t+=-2
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(-13,-14,-2):
+    if f<=5:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3,4)
+print(e[3])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a=['0','1','2','3','4','5','6','7','8','9']
+print(a[-3:-6:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+print(b.index('8'), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+del a[2:2]
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{C_{2k}^k}{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 127 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=5
+while m>=7:
+    m+=-3
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(2,3,-1):
+    if d>=8:
+        continue
+        print(d, end=' ')
+        d=-10
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 100)
+    print(n % 10, end=' ')
+    {ENDL}
+
+print('R', end='')
+f(123456)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2)
+print(c[-7])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=(0,1,2,3,4,5,6,7,8,9)
+print(h[:5:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+d.remove('6')
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+d[6:5]='10'
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{(2k)!!}{(k!)^2}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 128 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=1
+while i<=9:
+    i+=1
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(-12,-15,2):
+    if e>7:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1)
+print(g[-3])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d='0123456789'
+print(d[15::-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+print(h.pop(3), end=' ')
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+b[-5:-5]=(15)
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2k+1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 129 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=0
+while n<=7:
+    n+=2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(-6,-8,3):
+    if f>6:
+        break
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,3)
+print(g[-11])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b=[0,1,2,3,4,5,6,7,8,9]
+print(b[4::-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f+=[2,3]
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+del c[:4]
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{3k}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 130 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=3
+while t<13:
+    t+=1
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(5,8,-3):
+    if b<3:
+        break
+        print(b, end=' ')
+        b=-7
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}return f(n // 100) + 1
+    else:
+    {SPACE4}return 1
+
+print('R', end='')
+print(f(123456))
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,4)
+print(d[12])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=('0','1','2','3','4','5','6','7','8','9')
+print(g[:13:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+d.insert(-1, '11')
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+del b[:-4]
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+2k}^{k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 131 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=12
+while j>2:
+    j+=-2
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(13,7,-1):
+    if a<=4:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 2:
+    {SPACE4}f(n // 2)
+    else:
+    {SPACE4}print(n % 2, end=' ')
+
+print('R', end='')
+f(16)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2)
+print(f[-7])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a=['0','1','2','3','4','5','6','7','8','9']
+print(a[:-4:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=[10,11,12,13,14]
+print(g.index(11), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e[-9:0]=[14]
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+2k}^{k+1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 132 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=8
+while m>=6:
+    m+=-3
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(-4,-12,-3):
+    if c>=5:
+        continue
+        print(c, end=' ')
+    else:
+        print('end', end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3,4)
+print(h[6])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=('0','1','2','3','4','5','6','7','8','9')
+print(h[13:8:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.append('10')
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=[10,11,12,13,14]
+g[-6:]=[1,2]
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2n+k+1}^{n+k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 133 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=14
+while t>8:
+    t+=-3
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(3,-2,3):
+    if c>5:
+        continue
+        print(c, end=' ')
+    else:
+        print('end', end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1)
+print(a[-3])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f='0123456789'
+print(f[0::-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=['0','1','2','3','4']
+h.extend([1,2])
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+a[-3:-1]='13'
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+2k}^{k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 134 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=5
+while m<10:
+    m+=1
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(-14,-1,-2):
+    if b>=3:
+        continue
+        print(b, end=' ')
+        b=2
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3)
+print(b[2])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=[0,1,2,3,4,5,6,7,8,9]
+print(e[-2:-11:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+b+=[4,5]
+print(b)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[1:-2]=()
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{k+1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 135 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=8
+while j<=12:
+    j+=2
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(-2,2,2):
+    if d<=8:
+        break
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 10)
+    print(n % 10, end=' ')
+    {ENDL}
+
+print('R', end='')
+f(123456)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,4)
+print(c[-9])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c=(0,1,2,3,4,5,6,7,8,9)
+print(c[-3:-13:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+a.insert(1, 17)
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+del h[3:]
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{2k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 136 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=9
+while k<=6:
+    k+=2
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(0,-10,-2):
+    if e<6:
+        break
+        print(e, end=' ')
+        e=10
+    if e<=8:
+        break
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2)
+print(e[-1])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d='0123456789'
+print(d[-11:13:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+c.remove(3)
+print(c)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+del d[7:3]
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$\frac{(2k)!!}{(k+1)!(k-1)!}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 137 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=10
+while k>=1:
+    k+=-2
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(-10,9,3):
+    if f<=4:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+    {SPACE4}f(n // 10)
+    {ENDL}
+
+print('R', end='')
+f(123456)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,3,4)
+print(c[-13])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h=['0','1','2','3','4','5','6','7','8','9']
+print(h[::2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g.append('13')
+print(g)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+a[-2:1]=(13)
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{3k}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 138 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=5
+while i>=1:
+    i+=-2
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(14,-7,2):
+    if a>7:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,4)
+print(f[5])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f=(0,1,2,3,4,5,6,7,8,9)
+print(f[:0:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+print(a.pop(-2), end=' ')
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=[10,11,12,13,14]
+e[-7:6]=[1,2]
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2n+k}^{n+k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 139 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=7
+while m<9:
+    m+=1
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(8,-6,-3):
+    if b<8:
+        continue
+        print(b, end=' ')
+    else:
+        print('end', end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3)
+print(d[-11])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d=[0,1,2,3,4,5,6,7,8,9]
+print(d[-12:7:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+print(b.index('9'), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+g[-1:-5]='10'
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2k+1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 140 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=2
+while i<11:
+    i+=1
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(-1,12,-1):
+    if f>=3:
+        break
+        print(f, end=' ')
+        f=6
+    else:
+        print(f, end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1)
+print(h[14])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a=('0','1','2','3','4','5','6','7','8','9')
+print(a[1::-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+c.extend([1,0])
+print(c)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+d[-7:]=[15]
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2n+k}^{n+k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 141 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=4
+while n<=7:
+    n+=2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(15,11,3):
+    if e<7:
+        continue
+        print(e, end=' ')
+    if e<6:
+        break
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3,4)
+print(b[-8])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=[0,1,2,3,4,5,6,7,8,9]
+print(g[::2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=['0','1','2','3','4']
+f.insert(-6, '12')
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+del h[:-2]
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+2k}^{k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 142 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=13
+while n>3:
+    n+=-3
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(-15,10,-2):
+    if d<=6:
+        break
+        print(d, end=' ')
+        d=-9
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,4)
+print(g[-12])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=(0,1,2,3,4,5,6,7,8,9)
+print(e[:6:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=[10,11,12,13,14]
+print(e.index(13), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+del b[3:-3]
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 143 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=11
+while i>7:
+    i+=-2
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(12,13,-3):
+    if c>4:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}    f(n // 100)
+    print(n % 10, end=' ')
+    {ENDL}
+
+print('R', end='')
+f(987654)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2)
+print(a[-4])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b=['0','1','2','3','4','5','6','7','8','9']
+print(b[-8::-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=['0','1','2','3','4']
+d.remove(2)
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=['0','1','2','3','4']
+f[:4]='12'
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{3k-1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 144 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=6
+while j>=2:
+    j+=-3
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(6,-13,2):
+    if a>=5:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3)
+print(e[4])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c=('0','1','2','3','4','5','6','7','8','9')
+print(c[15::-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.append('12')
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+c[1:]=[2,3]
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2k-1}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 145 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=1
+while j<8:
+    j+=1
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(-7,-3,-1):
+    if a>=4:
+        break
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+d=('a','b','c','d','e',0,1)
+print(d[7])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+h='0123456789'
+print(h[6:9:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+a=[10,11,12,13,14]
+a.extend('11')
+print(a)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+c[-9:-7]='11'
+print(c)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$\frac{(2k)!!}{(k!)^2}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 146 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=6
+while t<=5:
+    t+=2
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(10,5,-3):
+    if c<=8:
+        continue
+        print(c, end=' ')
+        c=5
+    if c>=8:
+        break
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    print(n % 2, end=' ')
+    if n > 2:
+    {SPACE4}f(n // 2)
+    {ENDL}
+
+print('R', end='')
+f(16)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+e=('a','b','c','d','e',0,1)
+print(e[5])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+f=('0','1','2','3','4','5','6','7','8','9')
+print(f[9:15:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=['0','1','2','3','4']
+print(h.pop(1), end=' ')
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+g=[10,11,12,13,14]
+del g[0:]
+print(g)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+k}^{2k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 147 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=9
+while k<=9:
+    k+=1
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for f in range(-9,15,3):
+    if f>7:
+        continue
+        print(f, end=' ')
+    else:
+        print('end', end=' ')
+    print(f)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n <= 9:
+    {SPACE4}print(n % 10, end=' ')
+    else:
+    {SPACE4}f(n // 10)
+
+print('R', end='')
+f(543216)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3)
+print(h[-10])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=[0,1,2,3,4,5,6,7,8,9]
+print(g[3:-3:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f+='13'
+print(f)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+d[-2:3]=[1,0]
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{n+2k}^{k+1}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 148 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+k=7
+while k>=8:
+    k+=-2
+print(k)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(11,-5,2):
+    if d<6:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{SPACE4}return{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2)
+print(c[-6])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+e=['0','1','2','3','4','5','6','7','8','9']
+print(e[-15:-4:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.append([4,5])
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+h=['0','1','2','3','4']
+del h[-4:-1]
+print(h)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{2k-1}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 149 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=3
+while n<12:
+    n+=2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(7,1,-2):
+    if e>3:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}s1=s{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s1[i]+=1{ENDL}{SPACE4}return s1{ENDL}{ENDL}s=[1,2,3]{ENDL}print('R', end=' '){ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,3,4)
+print(a[-8])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a='0123456789'
+print(a[-1:-15:2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+g=['0','1','2','3','4']
+print(g.index('3'), end=' ')
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[:1]=[4,5]
+print(f)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{(2k)!!}{(k+1)!(k-1)!}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 150 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+j=5
+while j<10:
+    j+=1
+print(j)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(-5,14,-1):
+    if b>=5:
+        break
+        print(b, end=' ')
+        b=-5
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,4)
+print(b[-12])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c=(0,1,2,3,4,5,6,7,8,9)
+print(c[:10:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=[10,11,12,13,14]
+c.remove(8)
+print(c)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+a=['0','1','2','3','4']
+a[-6:7]='12'
+print(a)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{3k}^{k}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 151 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+i=8
+while i<=7:
+    i+=2
+print(i)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for a in range(-3,-4,-1):
+    if a<6:
+        continue
+        print(a, end=' ')
+    else:
+        print('end', end=' ')
+    print(a)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 10)
+    else:
+    {SPACE4}print(n % 10, end=' ')
+
+print('R', end='')
+f(123456)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,3,4)
+print(f[1])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+b=['0','1','2','3','4','5','6','7','8','9']
+print(b[:-2:-3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+print(b.pop(-1), end=' ')
+print(b)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+del e[-3:-9]
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{2n+k}^{n+k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 152 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+t=15
+while t>5:
+    t+=-3
+print(t)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for e in range(-8,-9,3):
+    if e<=3:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}f(n // 10)
+    else:
+    {SPACE4}print(n % 10, end=' ')
+
+print('R', end='')
+f(543216)
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+g=('a','b','c','d','e',0,1)
+print(g[-2])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+d='0123456789'
+print(d[7:-14:-1])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+d.insert(7, [1,0])
+print(d)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=[10,11,12,13,14]
+b[-5:]=[1,0]
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}C_{n+k}^{k}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 153 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=9
+while m>=0:
+    m+=-3
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for c in range(4,6,-3):
+    if c>=5:
+        break
+        print(c, end=' ')
+        c=7
+    else:
+        print(c, end=' ')
+    print(c)
+%enditem
+
+%beginitem
+3. 
+def f(n):
+    if n > 9:
+    {SPACE4}return f(n // 100) + 1
+    else:
+    {SPACE4}return 1
+
+print('R', end='')
+print(f(123456))
+
+
+%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3)
+print(b[-5])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+a=[0,1,2,3,4,5,6,7,8,9]
+print(a[::2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+h=[10,11,12,13,14]
+h+=18
+print(h)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+d=[10,11,12,13,14]
+d[:-6]='10'
+print(d)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{(2k+1)!!}{(k+1)!(k-1)!}$, $k=2,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 154 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+m=2
+while m<5:
+    m+=2
+print(m)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for b in range(9,4,2):
+    if b<7:
+        break
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s):{ENDL}{SPACE4}for el in s:{ENDL}{SPACE4}{SPACE4}el+=1{ENDL}{SPACE4}return s{ENDL}{ENDL}s=[1,2,3]{ENDL}s=f(s){ENDL}print('R', end=' '){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,4)
+print(c[0])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+c=(0,1,2,3,4,5,6,7,8,9)
+print(c[:-12:-2])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+c=['0','1','2','3','4']
+c.extend('10')
+print(c)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+del e[8:8]
+print(e)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$(-1)^{k}\frac{(2k+1)!!}{(k!)^2}$, $k=1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+%begin
+{01.12.2020 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 155 }\par}
+{
+\begin {large}
+%beginitem
+1. 
+print('R', end=' ')
+n=13
+while n>4:
+    n+=-2
+print(n)
+
+%enditem
+
+%beginitem
+2. 
+print('R', end=' ')
+for d in range(-11,-11,-2):
+    if d<=8:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d)
+%enditem
+
+%beginitem
+3. {ENDL}def f(s1):{ENDL}{SPACE4}s=s1[:]{ENDL}{SPACE4}for i in range(len(s)):{ENDL}{SPACE4}{SPACE4}s[i]+=1{ENDL}{ENDL}print('R', end=' '){ENDL}s=[1,2,3]{ENDL}f(s){ENDL}print(s){ENDL}{ENDL}%enditem
+
+%beginitem
+4. 
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2)
+print(h[-14])
+
+%enditem
+
+%beginitem
+5. 
+print('R', end=' ')
+g=('0','1','2','3','4','5','6','7','8','9')
+print(g[10:-9:3])
+
+%enditem
+
+
+%beginitem
+6. 
+print('R', end=' ')
+e=['0','1','2','3','4']
+e+=[2,3]
+print(e)
+
+%enditem
+
+
+%beginitem
+7. 
+print('R', end=' ')
+b=['0','1','2','3','4']
+b[5:6]='11'
+print(b)
+
+%enditem
+
+
+%beginitem
+8. 
+Написати функцію, що повертає список з послідовністю цілих чисел
+$C_{2n+k+1}^{n+k}$, $k=0,1,\ldots,n$
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+
+%enditem
+\end {large}}
+%end
+%end
+\end{document}
+

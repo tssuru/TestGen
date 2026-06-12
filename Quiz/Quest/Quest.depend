@@ -1,0 +1,1038 @@
+# depslib dependency file v1.0
+1636059168 source:d:\projects\quiz\quest\builder.cpp
+	"Builder.h"
+	"strings.h"
+	<cstring>
+	<utility>
+	<iostream>
+	"LexStreams.h"
+	"loaders.h"
+	"datas.h"
+
+1627814456 
+
+1636059098 d:\projects\quiz\quest\builder.h
+	<sstream>
+	<string>
+	<fstream>
+	<map>
+	"shuffledContainer.h"
+	"sources.h"
+
+1627814114 "
+
+1627773125 d:\projects\quiz\container\shuffledcontainer.h
+	<fstream>
+	"BaseContainer.h"
+	"shuffle.h"
+	<string>
+
+1627773096 d:\projects\quiz\container\basecontainer.h
+	<string>
+	<vector>
+	<ios>
+	<fstream>
+
+1627746818 d:\projects\quiz\container\shuffle.h
+	"BaseContainer.h"
+	<random>
+
+1627818165 d:\projects\quiz\quest\stringsource.h
+	<string>
+	<map>
+	<memory>
+	"ShuffledContainer.h"
+
+1627814565 ontainer.h"
+
+1636058871 d:\projects\strings\strings.h
+	<string>
+	<map>
+	<vector>
+
+1627735676 d:\projects\quiz\lexstream\lexstream.h
+	<string>
+	<vector>
+
+1589555638 source:d:\projects\quiz\quest\fabrics.cpp
+	"shuffledContainer.h"
+	"quest.h"
+	"fabrics.h"
+	<string>
+	"strings.h"
+	"VarBuilder.h"
+	<iostream>
+
+1627743437 d:\projects\quiz\quest\quest.h
+	<string>
+	<vector>
+	<memory>
+
+1627754263 d:\projects\quiz\quest\fabrics.h
+	"QuestFabric.h"
+	"AnswerQuestFabric.h"
+	"CheckQuestFabric.h"
+	"CheckQuestFabricAuto.h"
+	"Collate2QuestFabric.h"
+	"FileAnswerQuestFabric.h"
+	"TemplateAnswerQuestFabric.h"
+
+1627750663 nswerQuestFabric.h"
+
+1636059030 d:\projects\quiz\quest\varbuilder.h
+	"ScriptInterpreter.h"
+	"qfabrics.h"
+	<map>
+	<stack>
+
+1627819733 h"
+
+1621640554 source:d:\projects\quiz\quest\quest.cpp
+	"quest.h"
+	"Strings.h"
+	<string>
+
+1627777214 source:d:\projects\quiz\quest\stringsource.cpp
+	"StringSource.h"
+	"strings.h"
+	"Builder.h"
+	"BaseContainer.h"
+	"loaders.h"
+	<iostream>
+
+1627819733 source:d:\projects\quiz\quest\testmain.cpp
+	"ScriptInterpreter.h"
+	<iostream>
+	<string>
+	<ctime>
+	<cstring>
+	"sources.h"
+	"qfabrics.h"
+
+1627772590 d:\projects\quiz\container\container.h
+	"ShuffledContainer.h"
+
+1636059098 source:d:\projects\quiz\quest\varbuilder.cpp
+	"VarBuilder.h"
+	"strings.h"
+	<stdexcept>
+	<iostream>
+	<fstream>
+	"datas.h"
+
+1636058577 source:d:\projects\quiz\quest\datas.cpp
+	"datas.h"
+
+1627734905 d:\projects\quiz\quest\datas.h
+	<string>
+	<map>
+
+1636058935 source:d:\projects\quiz\quest\loaders.cpp
+	"loaders.h"
+	"strings.h"
+	"datas.h"
+	<iostream>
+
+1636056186 d:\projects\quiz\quest\loaders.h
+	<string>
+	<vector>
+	<ios>
+	<fstream>
+
+1627741705 source:d:\projects\quiz\quest\basevariant.cpp
+	"BaseVariant.h"
+
+1627741705 nt.h"
+
+1627741708 d:\projects\quiz\quest\basevariant.h
+	"BaseQuestion.h"
+	<string>
+	<vector>
+	<memory>
+
+1627743971 d:\projects\quiz\quest\basequestion.h
+	<string>
+
+1627744418 source:d:\projects\quiz\quest\answerquestion.cpp
+	"AnswerQuestion.h"
+	<stdexcept>
+
+1627806033 >
+
+1627744235 d:\projects\quiz\quest\answerquestion.h
+	"BaseQuestion.h"
+	<string>
+
+1627752100 source:d:\projects\quiz\quest\basecheckquestfabric.cpp
+	"BaseCheckQuestFabric.h"
+
+1627748500 QuestFabric.h"
+
+1627752026 d:\projects\quiz\quest\basecheckquestfabric.h
+	"QuestFabric.h"
+	"CheckQuestion.h"
+
+1627752026 tion.h"
+
+1627749451 d:\projects\quiz\quest\questfabric.h
+	"BaseQuestion.h"
+	<string>
+	<fstream>
+	<memory>
+	"StringSource.h"
+
+1627814565 rce.h"
+
+1627744854 d:\projects\quiz\quest\checkquestion.h
+	"BaseQuestion.h"
+	<string>
+	<vector>
+
+1627749537 d:\projects\quiz\quest\scriptinterpreter.h
+	"VariantFabric.h"
+	<string>
+	<memory>
+
+1627746130 d:\projects\quiz\quest\variantfabric.h
+	"QuestFabric.h"
+	"BaseVariant.h"
+	<string>
+	<vector>
+	<memory>
+	<fstream>
+
+1627751431 d:\projects\quiz\quest\answerquestfabric.h
+	"QuestFabric.h"
+	"BaseQuestion.h"
+	"StringSource.h"
+	<memory>
+
+1627752362 d:\projects\quiz\quest\checkquestfabric.h
+	"BaseCheckQuestFabric.h"
+
+1627752752 d:\projects\quiz\quest\checkquestfabricauto.h
+	"BaseCheckQuestFabric.h"
+
+1627750142 d:\projects\quiz\quest\collate2questfabric.h
+	"QuestFabric.h"
+	"BaseQuestion.h"
+	"ShuffledContainer.h"
+	<memory>
+
+1627751560 d:\projects\quiz\quest\fileanswerquestfabric.h
+	"AnswerQuestFabric.h"
+
+1627807007 stFabric.h"
+
+1627751695 d:\projects\quiz\quest\templateanswerquestfabric.h
+	"AnswerQuestFabric.h"
+
+1627752080 d:\projects\quiz\lexstream\lexstreams.h
+	<string>
+	<vector>
+	"LexStream.h"
+	"StreamOfBracedElems.h"
+
+1627752080 racedElems.h"
+
+1627735706 d:\projects\quiz\lexstream\streamofbracedelems.h
+	<string>
+
+1627752690 source:d:\projects\quiz\quest\checkquestfabric.cpp
+	"CheckQuestFabric.h"
+	"loaders.h"
+
+1627744947 source:d:\projects\quiz\quest\checkquestion.cpp
+	"CheckQuestion.h"
+	<stdexcept>
+
+1627751068 source:d:\projects\quiz\quest\collate2questfabric.cpp
+	"Collate2QuestFabric.h"
+
+1627769487 uestFabric.h"
+
+1627749482 source:d:\projects\quiz\quest\questfabric.cpp
+	"QuestFabric.h"
+	<iostream>
+
+1627749651 source:d:\projects\quiz\quest\scriptinterpreter.cpp
+	"ScriptInterpreter.h"
+	<fstream>
+	<stdexcept>
+	"VarBuilder.h"
+
+1627749651 r.h"
+
+1627751739 source:d:\projects\quiz\quest\templateanswerquestfabric.cpp
+	"TemplateAnswerQuestFabric.h"
+
+1627746362 source:d:\projects\quiz\quest\variantfabric.cpp
+	"VariantFabric.h"
+	<iostream>
+	"strings.h"
+
+1627751481 source:d:\projects\quiz\quest\answerquestfabric.cpp
+	"AnswerQuestFabric.h"
+	"AnswerQuestion.h"
+
+1627747881 stion.h"
+
+1627744135 source:d:\projects\quiz\quest\basequestion.cpp
+	"BaseQuestion.h"
+
+1627740535 ion.h"
+
+1627751590 source:d:\projects\quiz\quest\fileanswerquestfabric.cpp
+	"FileAnswerQuestFabric.h"
+
+1627751590 rQuestFabric.h"
+
+1627759232 source:d:\projects\quiz\quest\checkquestfabricauto.cpp
+	"CheckQuestFabricAuto.h"
+	"loaders.h"
+
+1627740371 d:\projects\quiz\quest\questions\basequestion.h
+	<string>
+
+1627747881 source:d:\projects\quiz\quest\qfabrics\answerquestfabric.cpp
+	"AnswerQuestFabric.h"
+	"AnswerQuestion.h"
+
+1627806694 d:\projects\quiz\quest\qfabrics\answerquestfabric.h
+	"QuestFabric.h"
+	"BaseQuestion.h"
+	"StringSource.h"
+	<memory>
+
+1627816604 d:\projects\quiz\quest\qfabrics\questfabric.h
+	"BaseQuestion.h"
+	<string>
+	<fstream>
+	<memory>
+	"StringSource.h"
+
+1627740635 d:\projects\quiz\quest\questions\answerquestion.h
+	"BaseQuestion.h"
+	<string>
+
+1627748500 source:d:\projects\quiz\quest\qfabrics\basecheckquestfabric.cpp
+	"BaseCheckQuestFabric.h"
+
+1627816651 d:\projects\quiz\quest\qfabrics\basecheckquestfabric.h
+	"QuestFabric.h"
+	"CheckQuestion.h"
+	"shuffle.h"
+
+1627805987 d:\projects\quiz\quest\questions\checkquestion.h
+	"BaseQuestion.h"
+	<string>
+	<vector>
+
+1627761066 source:d:\projects\quiz\quest\qfabrics\checkquestfabric.cpp
+	"CheckQuestFabric.h"
+	"loaders.h"
+
+1627816700 d:\projects\quiz\quest\qfabrics\checkquestfabric.h
+	"BaseCheckQuestFabric.h"
+	"ShuffledContainer.h"
+
+1627761360 source:d:\projects\quiz\quest\qfabrics\checkquestfabricauto.cpp
+	"CheckQuestFabricAuto.h"
+	"loaders.h"
+	<iostream>
+
+1627816889 d:\projects\quiz\quest\qfabrics\checkquestfabricauto.h
+	"BaseCheckQuestFabric.h"
+	"ShuffledContainer.h"
+
+1627769487 source:d:\projects\quiz\quest\qfabrics\collate2questfabric.cpp
+	"Collate2QuestFabric.h"
+
+1627746542 d:\projects\quiz\quest\qfabrics\collate2questfabric.h
+	"QuestFabric.h"
+	"BaseQuestion.h"
+	"ShuffledContainer.h"
+	<memory>
+
+1627816845 source:d:\projects\quiz\quest\qfabrics\fileanswerquestfabric.cpp
+	"FileAnswerQuestFabric.h"
+	"FileSource.h"
+
+1627816845 e.h"
+
+1627816731 d:\projects\quiz\quest\qfabrics\fileanswerquestfabric.h
+	"AnswerQuestFabric.h"
+
+1627806394 source:d:\projects\quiz\quest\qfabrics\questfabric.cpp
+	"QuestFabric.h"
+	<iostream>
+
+1627816796 source:d:\projects\quiz\quest\qfabrics\templateanswerquestfabric.cpp
+	"TemplateAnswerQuestFabric.h"
+	"TemplateSource.h"
+
+1627814355 ource.h"
+
+1627807007 d:\projects\quiz\quest\qfabrics\templateanswerquestfabric.h
+	"AnswerQuestFabric.h"
+
+1627740818 source:d:\projects\quiz\quest\questions\answerquestion.cpp
+	"AnswerQuestion.h"
+	<stdexcept>
+
+1627740535 source:d:\projects\quiz\quest\questions\basequestion.cpp
+	"BaseQuestion.h"
+
+1627806033 source:d:\projects\quiz\quest\questions\checkquestion.cpp
+	"CheckQuestion.h"
+	<stdexcept>
+
+1627750663 d:\projects\quiz\quest\qfabrics.h
+	"QuestFabric.h"
+	"AnswerQuestFabric.h"
+	"CheckQuestFabric.h"
+	"CheckQuestFabricAuto.h"
+	"Collate2QuestFabric.h"
+	"FileAnswerQuestFabric.h"
+	"TemplateAnswerQuestFabric.h"
+
+1627808193 source:d:\projects\quiz\quest\sources\stringsource.cpp
+	"StringSource.h"
+
+1627808198 d:\projects\quiz\quest\sources\stringsource.h
+	<string>
+
+1627814162 source:d:\projects\quiz\quest\sources\tuplesetsource.cpp
+	"TupleSetSource.h"
+
+1627814563 d:\projects\quiz\quest\sources\tuplesetsource.h
+	"StringSource.h"
+	<vector>
+	"ShuffledContainer.h"
+
+1627814831 source:d:\projects\quiz\quest\sources\templatesource.cpp
+	"TemplateSource.h"
+	"Builder.h"
+	"strings.h"
+
+1627814659 d:\projects\quiz\quest\sources\templatesource.h
+	"StringSource.h"
+	<map>
+	<memory>
+
+1627814690 d:\projects\quiz\quest\sources.h
+	"StringSource.h"
+	"ConstSource.h"
+	"SetSource.h"
+	"FileSource.h"
+	"TupleSetSource.h"
+	"FileTupleSource.h"
+	"TemplateSource.h"
+
+1627814565 d:\projects\quiz\quest\sources\constsource.h
+	"StringSource.h"
+
+1627814565 d:\projects\quiz\quest\sources\setsource.h
+	"StringSource.h"
+	<vector>
+	"ShuffledContainer.h"
+
+1627814054 d:\projects\quiz\quest\sources\filesource.h
+	"SetSource.h"
+
+1627813822 .h"
+
+1627814355 d:\projects\quiz\quest\sources\filetuplesource.h
+	"TupleSetSource.h"
+
+1627813655 source:d:\projects\quiz\quest\sources\constsource.cpp
+	"ConstSource.h"
+
+1627813655 ce.h"
+
+1627814114 source:d:\projects\quiz\quest\sources\filesource.cpp
+	"FileSource.h"
+	"loaders.h"
+
+1627814456 source:d:\projects\quiz\quest\sources\filetuplesource.cpp
+	"FileTupleSource.h"
+	"loaders.h"
+	<iostream>
+
+1627813822 source:d:\projects\quiz\quest\sources\setsource.cpp
+	"SetSource.h"
+
+1645224576 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/BaseVariant.cpp
+	"BaseVariant.h"
+
+1645224578 /media/tatiana/DATA/gits/Projects/Quiz/Quest/BaseVariant.h
+	"BaseQuestion.h"
+	<string>
+	<vector>
+	<memory>
+
+1645224580 /media/tatiana/DATA/gits/Projects/Quiz/Quest/Questions/BaseQuestion.h
+	<string>
+
+1645224578 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/Builder.cpp
+	"Builder.h"
+	"strings.h"
+	<cstring>
+	<utility>
+	<iostream>
+	"LexStreams.h"
+	"loaders.h"
+	"datas.h"
+
+1645224578 /media/tatiana/DATA/gits/Projects/Quiz/Quest/Builder.h
+	<sstream>
+	<string>
+	<fstream>
+	<map>
+	"shuffledContainer.h"
+	"sources.h"
+
+1645224582 /media/tatiana/DATA/gits/Projects/Quiz/Quest/sources.h
+	"StringSource.h"
+	"ConstSource.h"
+	"SetSource.h"
+	"FileSource.h"
+	"TupleSetSource.h"
+	"FileTupleSource.h"
+	"TemplateSource.h"
+
+1645224582 /media/tatiana/DATA/gits/Projects/Quiz/Quest/Sources/StringSource.h
+	<string>
+
+1645224580 /media/tatiana/DATA/gits/Projects/Quiz/Quest/Sources/ConstSource.h
+	"StringSource.h"
+
+1645224582 /media/tatiana/DATA/gits/Projects/Quiz/Quest/Sources/SetSource.h
+	"StringSource.h"
+	<vector>
+	"ShuffledContainer.h"
+
+1645224574 /media/tatiana/DATA/gits/Projects/Quiz/Container/ShuffledContainer.h
+	<fstream>
+	"BaseContainer.h"
+	"shuffle.h"
+	<string>
+
+1645224574 /media/tatiana/DATA/gits/Projects/Quiz/Container/BaseContainer.h
+	<string>
+	<vector>
+	<ios>
+	<fstream>
+
+1645224576 /media/tatiana/DATA/gits/Projects/Quiz/Container/shuffle.h
+	"BaseContainer.h"
+	<random>
+
+1645224580 /media/tatiana/DATA/gits/Projects/Quiz/Quest/Sources/FileSource.h
+	"SetSource.h"
+
+1645224582 /media/tatiana/DATA/gits/Projects/Quiz/Quest/Sources/TupleSetSource.h
+	"StringSource.h"
+	<vector>
+	"ShuffledContainer.h"
+
+1645224580 /media/tatiana/DATA/gits/Projects/Quiz/Quest/Sources/FileTupleSource.h
+	"TupleSetSource.h"
+
+1645224582 /media/tatiana/DATA/gits/Projects/Quiz/Quest/Sources/TemplateSource.h
+	"StringSource.h"
+	<map>
+	<memory>
+
+1645746276 /media/tatiana/DATA/gits/Projects/strings/strings.h
+	<string>
+	<map>
+	<vector>
+	<climits>
+
+1645224576 /media/tatiana/DATA/gits/Projects/Quiz/LexStream/LexStreams.h
+	<string>
+	<vector>
+	"LexStream.h"
+	"StreamOfBracedElems.h"
+
+1645224576 /media/tatiana/DATA/gits/Projects/Quiz/LexStream/LexStream.h
+	<string>
+	<vector>
+
+1645224576 /media/tatiana/DATA/gits/Projects/Quiz/LexStream/StreamOfBracedElems.h
+	<string>
+
+1645224582 /media/tatiana/DATA/gits/Projects/Quiz/Quest/loaders.h
+	<string>
+	<vector>
+	<ios>
+	<fstream>
+
+1645224582 /media/tatiana/DATA/gits/Projects/Quiz/Quest/datas.h
+	<string>
+	<map>
+
+1645224582 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/datas.cpp
+	"datas.h"
+
+1645224582 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/loaders.cpp
+	"loaders.h"
+	"strings.h"
+	"datas.h"
+	<iostream>
+
+1645224578 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/QFabrics/AnswerQuestFabric.cpp
+	"AnswerQuestFabric.h"
+	"AnswerQuestion.h"
+
+1645224578 /media/tatiana/DATA/gits/Projects/Quiz/Quest/QFabrics/AnswerQuestFabric.h
+	"QuestFabric.h"
+	"BaseQuestion.h"
+	"StringSource.h"
+	<memory>
+
+1645224578 /media/tatiana/DATA/gits/Projects/Quiz/Quest/QFabrics/QuestFabric.h
+	"BaseQuestion.h"
+	<string>
+	<fstream>
+	<memory>
+	"StringSource.h"
+
+1645224580 /media/tatiana/DATA/gits/Projects/Quiz/Quest/Questions/AnswerQuestion.h
+	"BaseQuestion.h"
+	<string>
+
+1645224578 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/QFabrics/BaseCheckQuestFabric.cpp
+	"BaseCheckQuestFabric.h"
+
+1645224578 /media/tatiana/DATA/gits/Projects/Quiz/Quest/QFabrics/BaseCheckQuestFabric.h
+	"QuestFabric.h"
+	"CheckQuestion.h"
+	"shuffle.h"
+
+1645224580 /media/tatiana/DATA/gits/Projects/Quiz/Quest/Questions/CheckQuestion.h
+	"BaseQuestion.h"
+	<string>
+	<vector>
+
+1645224578 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/QFabrics/CheckQuestFabric.cpp
+	"CheckQuestFabric.h"
+	"loaders.h"
+
+1645224578 /media/tatiana/DATA/gits/Projects/Quiz/Quest/QFabrics/CheckQuestFabric.h
+	"BaseCheckQuestFabric.h"
+	"ShuffledContainer.h"
+
+1645224578 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/QFabrics/CheckQuestFabricAuto.cpp
+	"CheckQuestFabricAuto.h"
+	"loaders.h"
+	<iostream>
+
+1645224578 /media/tatiana/DATA/gits/Projects/Quiz/Quest/QFabrics/CheckQuestFabricAuto.h
+	"BaseCheckQuestFabric.h"
+	"ShuffledContainer.h"
+
+1645224578 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/QFabrics/Collate2QuestFabric.cpp
+	"Collate2QuestFabric.h"
+
+1645224578 /media/tatiana/DATA/gits/Projects/Quiz/Quest/QFabrics/Collate2QuestFabric.h
+	"QuestFabric.h"
+	"BaseQuestion.h"
+	"ShuffledContainer.h"
+	<memory>
+
+1645224578 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/QFabrics/FileAnswerQuestFabric.cpp
+	"FileAnswerQuestFabric.h"
+	"FileSource.h"
+
+1645224578 /media/tatiana/DATA/gits/Projects/Quiz/Quest/QFabrics/FileAnswerQuestFabric.h
+	"AnswerQuestFabric.h"
+
+1645224578 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/QFabrics/QuestFabric.cpp
+	"QuestFabric.h"
+	<iostream>
+
+1645224578 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/QFabrics/TemplateAnswerQuestFabric.cpp
+	"TemplateAnswerQuestFabric.h"
+	"TemplateSource.h"
+
+1645224580 /media/tatiana/DATA/gits/Projects/Quiz/Quest/QFabrics/TemplateAnswerQuestFabric.h
+	"AnswerQuestFabric.h"
+
+1645224580 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/Questions/AnswerQuestion.cpp
+	"AnswerQuestion.h"
+	<stdexcept>
+
+1645224580 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/Questions/BaseQuestion.cpp
+	"BaseQuestion.h"
+
+1645224580 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/Questions/CheckQuestion.cpp
+	"CheckQuestion.h"
+	<stdexcept>
+
+1645224580 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/ScriptInterpreter.cpp
+	"ScriptInterpreter.h"
+	<fstream>
+	<stdexcept>
+	"VarBuilder.h"
+
+1645224580 /media/tatiana/DATA/gits/Projects/Quiz/Quest/ScriptInterpreter.h
+	"VariantFabric.h"
+	<string>
+	<memory>
+
+1645224582 /media/tatiana/DATA/gits/Projects/Quiz/Quest/VariantFabric.h
+	"QuestFabric.h"
+	"BaseVariant.h"
+	<string>
+	<vector>
+	<memory>
+	<fstream>
+
+1645224582 /media/tatiana/DATA/gits/Projects/Quiz/Quest/VarBuilder.h
+	"ScriptInterpreter.h"
+	"qfabrics.h"
+	<map>
+	<stack>
+
+1645224582 /media/tatiana/DATA/gits/Projects/Quiz/Quest/qfabrics.h
+	"QuestFabric.h"
+	"AnswerQuestFabric.h"
+	"CheckQuestFabric.h"
+	"CheckQuestFabricAuto.h"
+	"Collate2QuestFabric.h"
+	"FileAnswerQuestFabric.h"
+	"TemplateAnswerQuestFabric.h"
+
+1645224580 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/Sources/ConstSource.cpp
+	"ConstSource.h"
+
+1645224580 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/Sources/FileSource.cpp
+	"FileSource.h"
+	"loaders.h"
+
+1645224580 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/Sources/FileTupleSource.cpp
+	"FileTupleSource.h"
+	"loaders.h"
+	<iostream>
+
+1645224582 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/Sources/SetSource.cpp
+	"SetSource.h"
+
+1645224582 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/Sources/StringSource.cpp
+	"StringSource.h"
+
+1645224582 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/Sources/TemplateSource.cpp
+	"TemplateSource.h"
+	"Builder.h"
+	"strings.h"
+
+1645224582 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/Sources/TupleSetSource.cpp
+	"TupleSetSource.h"
+
+1645224582 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/VariantFabric.cpp
+	"VariantFabric.h"
+	<iostream>
+	"strings.h"
+
+1645747372 source:/media/tatiana/DATA/gits/Projects/Quiz/Quest/VarBuilder.cpp
+	"VarBuilder.h"
+	"strings.h"
+	<stdexcept>
+	<iostream>
+	<fstream>
+	"datas.h"
+
+1664020238 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/BaseVariant.cpp
+	"BaseVariant.h"
+
+1664020217 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/BaseVariant.h
+	"BaseQuestion.h"
+	<string>
+	<vector>
+	<memory>
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Questions/BaseQuestion.h
+	<string>
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/datas.cpp
+	"datas.h"
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/datas.h
+	<string>
+	<map>
+
+1653129140 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/loaders.cpp
+	"loaders.h"
+	"strings2.h"
+	"datas.h"
+	<iostream>
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/loaders.h
+	<string>
+	<vector>
+	<ios>
+	<fstream>
+
+1646519396 /media/tatiana/Apacer PHD/gits/Projects/strings/strings2.h
+	<string>
+	<map>
+	<vector>
+	<climits>
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/QFabrics/AnswerQuestFabric.cpp
+	"AnswerQuestFabric.h"
+	"AnswerQuestion.h"
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/QFabrics/AnswerQuestFabric.h
+	"QuestFabric.h"
+	"BaseQuestion.h"
+	"StringSource.h"
+	<memory>
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/QFabrics/QuestFabric.h
+	"BaseQuestion.h"
+	<string>
+	<fstream>
+	<memory>
+	"StringSource.h"
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Sources/StringSource.h
+	<string>
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Questions/AnswerQuestion.h
+	"BaseQuestion.h"
+	<string>
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/QFabrics/BaseCheckQuestFabric.cpp
+	"BaseCheckQuestFabric.h"
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/QFabrics/BaseCheckQuestFabric.h
+	"QuestFabric.h"
+	"CheckQuestion.h"
+	"shuffle.h"
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Questions/CheckQuestion.h
+	"BaseQuestion.h"
+	<string>
+	<vector>
+
+1639945579 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Container/shuffle.h
+	"BaseContainer.h"
+	<random>
+
+1639945579 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Container/BaseContainer.h
+	<string>
+	<vector>
+	<ios>
+	<fstream>
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/QFabrics/CheckQuestFabric.cpp
+	"CheckQuestFabric.h"
+	"loaders.h"
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/QFabrics/CheckQuestFabric.h
+	"BaseCheckQuestFabric.h"
+	"ShuffledContainer.h"
+
+1639945579 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Container/ShuffledContainer.h
+	<fstream>
+	"BaseContainer.h"
+	"shuffle.h"
+	<string>
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/QFabrics/CheckQuestFabricAuto.cpp
+	"CheckQuestFabricAuto.h"
+	"loaders.h"
+	<iostream>
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/QFabrics/CheckQuestFabricAuto.h
+	"BaseCheckQuestFabric.h"
+	"ShuffledContainer.h"
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/QFabrics/Collate2QuestFabric.cpp
+	"Collate2QuestFabric.h"
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/QFabrics/Collate2QuestFabric.h
+	"QuestFabric.h"
+	"BaseQuestion.h"
+	"ShuffledContainer.h"
+	<memory>
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/QFabrics/FileAnswerQuestFabric.cpp
+	"FileAnswerQuestFabric.h"
+	"FileSource.h"
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/QFabrics/FileAnswerQuestFabric.h
+	"AnswerQuestFabric.h"
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Sources/FileSource.h
+	"SetSource.h"
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Sources/SetSource.h
+	"StringSource.h"
+	<vector>
+	"ShuffledContainer.h"
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/QFabrics/QuestFabric.cpp
+	"QuestFabric.h"
+	<iostream>
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/QFabrics/TemplateAnswerQuestFabric.cpp
+	"TemplateAnswerQuestFabric.h"
+	"TemplateSource.h"
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/QFabrics/TemplateAnswerQuestFabric.h
+	"AnswerQuestFabric.h"
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Sources/TemplateSource.h
+	"StringSource.h"
+	<map>
+	<memory>
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Questions/AnswerQuestion.cpp
+	"AnswerQuestion.h"
+	<stdexcept>
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Questions/BaseQuestion.cpp
+	"BaseQuestion.h"
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Questions/CheckQuestion.cpp
+	"CheckQuestion.h"
+	<stdexcept>
+
+1664023520 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/ScriptInterpreter.cpp
+	"ScriptInterpreter.h"
+	<fstream>
+	<stdexcept>
+	"VarBuilder.h"
+
+1664019849 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/ScriptInterpreter.h
+	"VariantFabric.h"
+	<string>
+	<memory>
+
+1664020761 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/VariantFabric.h
+	"QuestFabric.h"
+	"BaseVariant.h"
+	<string>
+	<vector>
+	<memory>
+	<fstream>
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/VarBuilder.h
+	"ScriptInterpreter.h"
+	"qfabrics.h"
+	<map>
+	<stack>
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/qfabrics.h
+	"QuestFabric.h"
+	"AnswerQuestFabric.h"
+	"CheckQuestFabric.h"
+	"CheckQuestFabricAuto.h"
+	"Collate2QuestFabric.h"
+	"FileAnswerQuestFabric.h"
+	"TemplateAnswerQuestFabric.h"
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Sources/ConstSource.cpp
+	"ConstSource.h"
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Sources/ConstSource.h
+	"StringSource.h"
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Sources/FileSource.cpp
+	"FileSource.h"
+	"loaders.h"
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Sources/FileTupleSource.cpp
+	"FileTupleSource.h"
+	"loaders.h"
+	<iostream>
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Sources/FileTupleSource.h
+	"TupleSetSource.h"
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Sources/TupleSetSource.h
+	"StringSource.h"
+	<vector>
+	"ShuffledContainer.h"
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Sources/SetSource.cpp
+	"SetSource.h"
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Sources/StringSource.cpp
+	"StringSource.h"
+
+1653129180 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Sources/TemplateSource.cpp
+	"TemplateSource.h"
+	"Builder.h"
+	"strings2.h"
+
+1653129123 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Builder.h
+	<sstream>
+	<string>
+	<fstream>
+	<map>
+	"ShuffledContainer.h"
+	"sources.h"
+
+1639945580 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/sources.h
+	"StringSource.h"
+	"ConstSource.h"
+	"SetSource.h"
+	"FileSource.h"
+	"TupleSetSource.h"
+	"FileTupleSource.h"
+	"TemplateSource.h"
+
+1639945580 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Sources/TupleSetSource.cpp
+	"TupleSetSource.h"
+
+1655408913 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/testmain.cpp
+	"ScriptInterpreter.h"
+	<iostream>
+	<string>
+	<ctime>
+	<cstring>
+	"sources.h"
+	"qfabrics.h"
+
+1664022969 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/VarBuilder.cpp
+	"VarBuilder.h"
+	"strings2.h"
+	<stdexcept>
+	<iostream>
+	<fstream>
+	"datas.h"
+
+1664023535 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/VariantFabric.cpp
+	"VariantFabric.h"
+	<iostream>
+	"strings2.h"
+	<algorithm>
+
+1655408818 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Quest/Builder.cpp
+	"Builder.h"
+	"strings2.h"
+	<cstring>
+	<utility>
+	<iostream>
+	"LexStreams.h"
+	"loaders.h"
+	"datas.h"
+
+1639945579 /media/tatiana/Apacer PHD/gits/Projects/Quiz/LexStream/LexStreams.h
+	<string>
+	<vector>
+	"LexStream.h"
+	"StreamOfBracedElems.h"
+
+1639945579 /media/tatiana/Apacer PHD/gits/Projects/Quiz/LexStream/LexStream.h
+	<string>
+	<vector>
+
+1639945579 /media/tatiana/Apacer PHD/gits/Projects/Quiz/LexStream/StreamOfBracedElems.h
+	<string>
+

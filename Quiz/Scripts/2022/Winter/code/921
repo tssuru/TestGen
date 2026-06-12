@@ -1,0 +1,30 @@
+echo
+echo =921_1.py 
+python3.10 ./921_1.py 
+echo
+echo =921_2.py 
+python3.10 ./921_2.py 
+echo
+echo =921_3.py 
+python3.10 ./921_3.py 
+echo
+echo =921_4.py 
+python3.10 ./921_4.py 
+echo
+echo =921_5.py 
+python3.10 ./921_5.py 
+echo
+echo =921_6.py 
+python3.10 ./921_6.py 
+echo
+echo =921_7.py 
+python3.10 ./921_7.py 
+echo
+echo =921_8.py 
+python3.10 ./921_8.py 
+echo
+echo =921_9.py 
+python3.10 ./921_9.py 
+echo
+echo =921_10.py 
+python3.10 ./921_10.py 

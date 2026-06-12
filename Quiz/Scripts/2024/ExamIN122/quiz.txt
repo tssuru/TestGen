@@ -1,0 +1,171 @@
+<document>
+
+  <header>
+
+\documentclass[12pt, ukrainian]{article}{ENDL}
+\usepackage[a4paper]{geometry}{ENDL}
+\setlength\parindent{0mm}{ENDL}
+%\setlength\parskip{4mm}{ENDL}
+\geometry{top=1.3cm,bottom=1.3cm,left=1.5cm,right=1.5cm}{ENDL}
+\pagestyle{empty}{ENDL}
+//\setlength\textwidth{190mm} \setlength\textheight{277mm}{ENDL}
+//\setlength\voffset{-38mm} \setlength\hoffset{-38mm}{ENDL}
+//\setlength\parindent{0mm}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\begin{document}{ENDL}
+
+  <\header>
+
+  <footer>
+
+\end{document}
+
+  <\footer>
+
+  <onNextVariant>
+\vspace{0.9cm}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+\newpage{ENDL}
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     33
+  <\to>
+
+  <onPage>
+     3
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+{{\begin {scriptsize}\par{ENDL}
+{ \center  Київський національний університет імені Тараса Шевченка \par}{ENDL} 
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {7 cm}{Інформатика\hfill}}
+\parbox {6 cm}{\hfill Семестр 1 (маг)}}\par{ENDL}
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}
+{Інформаційні мережі \hfill}\parbox {6cm}{\hfill}\par}\vspace{-15pt} \end{scriptsize}}
+{\center Екзаменаційний білет \No \textbf { #No# }\par}}{ENDL}
+{{ENDL}
+
+\qquad\textbf{Дати розгорнуту та вичерпну відповідь на питання}, висвітливши необхідні означення, властивості та за необхідності провівши порівняльний аналіз.{ENDL}{ENDL}
+<\before>
+<after>
+}{ENDL}
+{\smallskip\smallskip \begin {scriptsize} Затверджено на засіданні кафедри{SPACE}
+теоретичної кібернетики, протокол \No 2  від   07.10.2024{SPACE}
+р.\par\smallskip\smallskip\smallskip\smallskip{ENDL}
+{\parbox {6.5 cm} {Зав. кафедри \dotfill{SPACE}
+Ю.В.~Крак}}\hspace {0.7cm} {\hbox to 6.5 cm { Екзаменатор \dotfill{SPACE}
+Т.О.~Карнаух}}{SPACE}
+\end{scriptsize}}{ENDL}
+
+<\after>
+
+<\variant>
+
+
+<item>
+<fabric>
+     file answer
+     <fname>
+     task1.txt
+     <\fname>
+
+     <before>
+     <\before>
+     <after>
+{ENDL}{ENDL}
+     <\after>
+  <\fabric>
+<delim>
+{ENDL}{ENDL}%\vspace{2mm}{ENDL}
+
+\qquad\textbf{Визначити істинність таких тверджень}.{ENDL}{ENDL}
+  <\delim>
+<\item>
+
+<item>
+<fabric>
+     file answer
+     <fname>
+     t1.txt
+     <\fname>
+
+     <before>
+     <\before>
+     <after>
+{ENDL}{ENDL}
+     <\after>
+  <\fabric>
+<\item>
+
+<item>
+<fabric>
+     file answer
+     <fname>
+     t2.txt
+     <\fname>
+
+     <before>
+     <\before>
+     <after>
+{ENDL}{ENDL}
+     <\after>
+  <\fabric>
+<\item>
+
+<item>
+<fabric>
+     file answer
+     <fname>
+     t3.txt
+     <\fname>
+
+     <before>
+     <\before>
+     <after>
+{ENDL}{ENDL}
+     <\after>
+  <\fabric>
+<\item>
+
+<item>
+<fabric>
+     file answer
+     <fname>
+     t4.txt
+     <\fname>
+
+     <before>
+     <\before>
+     <after>
+{ENDL}{ENDL}
+     <\after>
+  <\fabric>
+<\item>
+
+<item>
+<fabric>
+     file answer
+     <fname>
+     t5.txt
+     <\fname>
+
+     <before>
+     <\before>
+     <after>
+{ENDL}{ENDL}
+     <\after>
+  <\fabric>
+<\item>

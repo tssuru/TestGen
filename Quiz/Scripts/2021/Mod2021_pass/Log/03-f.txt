@@ -1,0 +1,40 @@
+//source for question like
+//26127360 questions
+//Вкажіть значення та його тип:\n
+
+//**
+
+<sample>
+
+
+
+<\sample>
+
+<declarations>
+x1={<int> 1 9}
+x2={<double> 1 9 1 1}
+x3=True;False
+
+Y1={#x1 new#}{#x1 new#j}
+Y2={#x2 new#}{#x2 new#j}
+
+Arg={#x1 new#}{#x2 new#}{#x3 new#}{"#Y1 new#"}{"#Y2 new#"}{"#x3 new#"}
+
+op=<;<=;>;>=;==;!=
+
+
+<\declarations>
+
+<template>
+{ENDL}
+%code{ENDL}
+#Arg##op##Arg new#
+{ENDL}
+%code{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+
+

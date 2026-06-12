@@ -1,0 +1,27 @@
+echo
+echo =10_1.py 
+python3.10 ./10_1.py 
+echo
+echo =10_2.py 
+python3.10 ./10_2.py 
+echo
+echo =10_3.py 
+python3.10 ./10_3.py 
+echo
+echo =10_4.py 
+python3.10 ./10_4.py 
+echo
+echo =10_5.py 
+python3.10 ./10_5.py 
+echo
+echo =10_6.py 
+python3.10 ./10_6.py 
+echo
+echo =10_7.py 
+python3.10 ./10_7.py 
+echo
+echo =10_8.py 
+python3.10 ./10_8.py 
+echo
+echo =10_9.py 
+python3.10 ./10_9.py 

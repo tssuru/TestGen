@@ -1,0 +1,30 @@
+echo
+echo =426_1.py 
+python3.10 ./426_1.py 
+echo
+echo =426_2.py 
+python3.10 ./426_2.py 
+echo
+echo =426_3.py 
+python3.10 ./426_3.py 
+echo
+echo =426_4.py 
+python3.10 ./426_4.py 
+echo
+echo =426_5.py 
+python3.10 ./426_5.py 
+echo
+echo =426_6.py 
+python3.10 ./426_6.py 
+echo
+echo =426_7.py 
+python3.10 ./426_7.py 
+echo
+echo =426_8.py 
+python3.10 ./426_8.py 
+echo
+echo =426_9.py 
+python3.10 ./426_9.py 
+echo
+echo =426_10.py 
+python3.10 ./426_10.py 

@@ -1,0 +1,30 @@
+echo
+echo =314_1.py 
+python3.10 ./314_1.py 
+echo
+echo =314_2.py 
+python3.10 ./314_2.py 
+echo
+echo =314_3.py 
+python3.10 ./314_3.py 
+echo
+echo =314_4.py 
+python3.10 ./314_4.py 
+echo
+echo =314_5.py 
+python3.10 ./314_5.py 
+echo
+echo =314_6.py 
+python3.10 ./314_6.py 
+echo
+echo =314_7.py 
+python3.10 ./314_7.py 
+echo
+echo =314_8.py 
+python3.10 ./314_8.py 
+echo
+echo =314_9.py 
+python3.10 ./314_9.py 
+echo
+echo =314_10.py 
+python3.10 ./314_10.py 

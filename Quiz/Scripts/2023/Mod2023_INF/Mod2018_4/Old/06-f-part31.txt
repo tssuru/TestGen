@@ -1,0 +1,41 @@
+//source for question like
+//648/2 questions
+//Що буде надруковано за виконання:\n
+
+//for, local for variable
+
+<sample>
+
+char q='3'; for(char q='f';q>'c';--q){cout<<q; q='5';} cout<<q;
+
+<\sample>
+
+<declarations>
+def=;char{SPACE}
+varname={<char> a z}
+first=3;1;2
+from=g;e;f
+to=d;b;c
+newval=3;5;7
+step=;--
+rel=>;>=
+
+<\declarations>
+
+<template>
+
+char #varname#='#first#'; for(#def##varname#='#from#';#varname##rel#'#to#';#step##varname##step new#)
+{cout<<#varname#; #varname#='#newval#';}
+{SPACE}cout<<#varname#;
+
+<\template>
+
+<restrictions>
+<\restrictions>
+
+
+
+
+
+
+

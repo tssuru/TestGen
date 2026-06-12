@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "D:\Projects\Quiz\Scripts\Mod2019_3\Code\14_8.py", line 16, in <module>
+    obj.b = obj.a + 10
+AttributeError: 'B' object has no attribute 'a'
+Traceback (most recent call last):
+  File "D:\Projects\Quiz\Scripts\Mod2019_3\Code\30_8.py", line 16, in <module>
+    obj.c = obj.b + 10
+AttributeError: 'B' object has no attribute 'b'
+Traceback (most recent call last):
+  File "D:\Projects\Quiz\Scripts\Mod2019_3\Code\34_8.py", line 16, in <module>
+    obj.a = obj.c + 10
+AttributeError: 'B' object has no attribute 'c'
+Traceback (most recent call last):
+  File "D:\Projects\Quiz\Scripts\Mod2019_3\Code\38_8.py", line 16, in <module>
+    obj.c = obj.c + 10
+AttributeError: 'B' object has no attribute 'c'
+Traceback (most recent call last):
+  File "D:\Projects\Quiz\Scripts\Mod2019_3\Code\46_8.py", line 16, in <module>
+    obj.c = obj.a + 10
+AttributeError: 'B' object has no attribute 'a'

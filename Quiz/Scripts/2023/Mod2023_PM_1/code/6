@@ -1,0 +1,27 @@
+echo
+echo =6_1.py 
+python3.10 ./6_1.py 
+echo
+echo =6_2.py 
+python3.10 ./6_2.py 
+echo
+echo =6_3.py 
+python3.10 ./6_3.py 
+echo
+echo =6_4.py 
+python3.10 ./6_4.py 
+echo
+echo =6_5.py 
+python3.10 ./6_5.py 
+echo
+echo =6_6.py 
+python3.10 ./6_6.py 
+echo
+echo =6_7.py 
+python3.10 ./6_7.py 
+echo
+echo =6_8.py 
+python3.10 ./6_8.py 
+echo
+echo =6_9.py 
+python3.10 ./6_9.py 

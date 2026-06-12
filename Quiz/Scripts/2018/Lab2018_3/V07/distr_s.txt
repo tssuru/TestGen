@@ -1,0 +1,63 @@
+<sample>
+#1#,{SPACE}#1 new#,{SPACE}#1 new#,{SPACE}#1 new#,{SPACE}#1 new#,{SPACE}#1 new#,{SPACE}#1 new#,{SPACE}#1 new#,{SPACE}#1 new#
+#2#,{SPACE}#2 new#,{SPACE}#2 new#,{SPACE}#2 new#,{SPACE}#2 new#,{SPACE}#2 new#,{SPACE}#2 new#,{SPACE}#2 new#
+#3#,{SPACE}#3 new#,{SPACE}#3 new#,{SPACE}#3 new#,{SPACE}#3 new#,{SPACE}#3 new#,{SPACE}#3 new#,{SPACE}#3 new#
+
+<\sample>
+
+<declarations>
+0={<file> d.txt}
+
+1={#name1#}{#name2#}{#name3#}{#dd#}{#mm#}{#yyyy#}{#stat#}{#keywords#}
+2={#name1#}{#name2#}{#dd#}{#mm#}{#yyyy#}{#stat#}{#keywords#}
+3={#name1#}{#name2#}{#name3#}{#yyyy#}{#stat#}{#keywords#}
+
+const id=номер{SPACE}залікової{SPACE}книжки
+const name1=прізвище
+const name2=ім’я
+const name3=по-батькові 
+const course=предмет
+const semestr=набрані{SPACE}впродовж{SPACE}семестру{SPACE}бали
+const exam=набрані{SPACE}на{SPACE}екзамені{SPACE}бали
+const total=сумарна{SPACE}оцінка{SPACE}в{SPACE}балах{SPACE}за{SPACE}100-бальною{SPACE}системою
+const mark=оцінка{SPACE}за{SPACE}державною{SPACE}шкалою
+const year=курс
+const group=код{SPACE}групи{SPACE}в{SPACE}межах{SPACE}курсу
+const group1=код{SPACE}групи
+const stat=відсоток{SPACE}набраних{SPACE}за{SPACE}розв’язання{SPACE}задачі{SPACE}балів 
+const keywords=умова{SPACE}задачі
+const dd=день
+const yyyy=рік
+const mm=місяць
+
+nn1={<int> 20 30}
+nn2={<int> 20 30}
+nn3={<int> 20 30}
+ns={<int> 50 70}
+ng=3;4;5
+nkey={<int> 50 70}
+
+<\declarations>
+
+<template>
+Записи файлу містять поля:{SPACE}#0#{ENDL}
+У заголовку вказано:{ENDL}
+У нижньому колонтитулі вказано:{ENDL}
+Обмеження{ENDL}
+Відсоток набраних за розв’язання задачі балів є цілим від 0 до 100.{SPACE} 
+День, місяць, рік є числовими полями, що зображують дату.{SPACE}
+Раніше 2001 року статистика не велася. Рік є 4-значним.{SPACE} 
+Гарантовано, що задача розв’язувалася не раніше 2001 року. Решта полів є рядками.{ENDL}
+Прізвище, ім’я та по-батькові можуть мати до #nn1#, #nn2#, #nn3# відповідно символів включно кожне. 
+{SPACE}Можуть містити апостроф та дефіс.{ENDL}
+Умова задачі займає не більше #nkey# символів. Може містити пробіл, десяткові цифри, а також символи ._{}$ .{ENDL}
+Студенти однозначно ідентифікуються прізвищем, ім’ям та по-батькові. Задачі однозначно ідентифікуються умовою.
+{ENDL}{ENDL}
+
+
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

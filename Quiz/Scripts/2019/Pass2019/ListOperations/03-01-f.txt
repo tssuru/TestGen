@@ -1,0 +1,33 @@
+//source for question like
+// 44352 questions
+//Записати вираз :\n
+
+//comprehension
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+
+//what={<file> 03-01-s.txt}
+from={<int> 10 20}
+to={<int> 2000 2020}
+expr=квадратів{SPACE};;квадратних коренів{SPACE};кубів{SPACE}
+//Restrict={#cond#}{#direction#}
+xnum=2;3;5;7
+cond={що не діляться на #xnum#}{що діляться на #xnum#}{що не діляться на жодне з чисел 2, 3}
+direction=;;, записаних в оберненому порядку
+
+<\declarations>
+
+<template>
+Записати ВИРАЗ, значенням якого є список, що складається{SPACE}
+з #expr#цілих чисел{SPACE}
+від #from# до #to# (включно),{SPACE}
+#cond##direction#.
+<\template>
+
+<restrictions>
+<\restrictions>

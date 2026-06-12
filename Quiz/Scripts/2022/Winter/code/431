@@ -1,0 +1,30 @@
+echo
+echo =431_1.py 
+python3.10 ./431_1.py 
+echo
+echo =431_2.py 
+python3.10 ./431_2.py 
+echo
+echo =431_3.py 
+python3.10 ./431_3.py 
+echo
+echo =431_4.py 
+python3.10 ./431_4.py 
+echo
+echo =431_5.py 
+python3.10 ./431_5.py 
+echo
+echo =431_6.py 
+python3.10 ./431_6.py 
+echo
+echo =431_7.py 
+python3.10 ./431_7.py 
+echo
+echo =431_8.py 
+python3.10 ./431_8.py 
+echo
+echo =431_9.py 
+python3.10 ./431_9.py 
+echo
+echo =431_10.py 
+python3.10 ./431_10.py 

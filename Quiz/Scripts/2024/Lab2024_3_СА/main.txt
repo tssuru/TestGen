@@ -1,0 +1,80 @@
+<document>
+<header>
+\documentclass[11pt, ukrainian]{article}{ENDL}
+%\setlength\textwidth{190mm} \setlength\textheight{237mm}
+%\setlength\voffset{-18mm} \setlength\hoffset{-33mm}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage[Export]{adjustbox}{ENDL}
+\adjustboxset{max size={1.0\linewidth}{1.0\paperheight}}{ENDL}
+\graphicspath{{data/pages/}} {ENDL}
+\usepackage{geometry}{ENDL}
+\geometry{top=1.5cm,bottom=1.5cm,left=1.2cm,right=1.2cm}{ENDL}
+\pagestyle{empty}
+\setlength\parindent{0mm}{ENDL}
+
+\begin{document}{ENDL}
+{\Large \center  Варіанти завдань до програмного проєкту №3 
+\par Системний аналіз, 2024/25 н.р.\par \bigskip\bigskip}{ENDL}
+{ENDL}
+\vspace{2mm}{ENDL}
+У всіх варіантах діагоналі та інші лінії, що обмежують частину матриці, яку треба обійти, ВХОДЯТЬ до області, що обходиться. Наприклад, трикутник над головною діагоналлю включає саму цю головну діагональ.{ENDL}{ENDL}
+\vspace{2mm}{ENDL}{ENDL}
+
+Вважати, що лівий верхній кут матриці має координати~$(0,0)$.{ENDL}{ENDL}
+\vspace{2mm}{ENDL}{ENDL}
+Якщо попередні вимоги на початок обходу залишають неоднозначність, то розглядати ті, з яких можливий обхід усієї зазначеної області, якщо і після цього залишається неоднозначність, то перевагу віддавати тому елементу матриці з наявних альтернатив, що має лексикографічно менші індекси.{ENDL}{ENDL}
+\vspace{2mm}{ENDL}{ENDL}
+Якщо перший крок обходу можна зробити кількома способами, то розглядати ті, за яких можливий обхід усієї зазначеної області, якщо і після цього залишається неоднозначність, то перевагу на першому кроці віддавати переходу до того елемента матриці з наявних альтернатив, що має лексикографічно менші індекси.{ENDL}{ENDL}
+\vspace{2mm}{ENDL}{ENDL}
+<\header>
+<footer>
+\end{document}
+<\footer>
+
+<from>
+60
+<\from>
+
+<to>
+99
+<\to>
+
+ <onNextVariant>
+%\vspace{0.9cm}{ENDL}
+ <\onNextVariant>
+
+  <onNextPage>
+//\newpage{ENDL}
+  <\onNextPage>
+
+  <onPage>
+1
+  <\onPage>
+
+
+<\document>
+
+<variant>
+
+<before>
+{\Large \center  Варіант  #No#\par \bigskip\bigskip}{ENDL}{ENDL}
+<\before>
+
+<after>
+{ENDL}
+<\after>
+
+<\variant>
+
+<item>
+  <fabric>
+     template answer
+     <fname>
+         script_lab.txt
+     <\fname>
+   <\fabric>
+<\item>
+

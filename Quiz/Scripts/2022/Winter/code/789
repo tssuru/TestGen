@@ -1,0 +1,30 @@
+echo
+echo =789_1.py 
+python3.10 ./789_1.py 
+echo
+echo =789_2.py 
+python3.10 ./789_2.py 
+echo
+echo =789_3.py 
+python3.10 ./789_3.py 
+echo
+echo =789_4.py 
+python3.10 ./789_4.py 
+echo
+echo =789_5.py 
+python3.10 ./789_5.py 
+echo
+echo =789_6.py 
+python3.10 ./789_6.py 
+echo
+echo =789_7.py 
+python3.10 ./789_7.py 
+echo
+echo =789_8.py 
+python3.10 ./789_8.py 
+echo
+echo =789_9.py 
+python3.10 ./789_9.py 
+echo
+echo =789_10.py 
+python3.10 ./789_10.py 

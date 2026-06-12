@@ -1,0 +1,141 @@
+<document>
+
+  <header>
+
+\documentclass[10pt, ukrainian]{article}{ENDL}
+\setlength\textwidth{190mm} \setlength\textheight{277mm}{ENDL}
+\setlength\voffset{-38mm} \setlength\hoffset{-38mm}{ENDL}
+\setlength\parindent{0mm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[cp1251]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\begin{document}{ENDL}
+
+  <\header>
+
+  <footer>
+
+\end{document}
+
+  <\footer>
+
+  <onNextVariant>
+\vspace{0.9cm}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+\newpage{ENDL}
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     10
+  <\to>
+
+  <onPage>
+     4
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+{{\begin {small}\par{ENDL}
+{ \center  Київський національний університет імені Тараса Шевченка \par}{ENDL} 
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {7 cm}{Прикладна математика, Системний аналіз \hfill}}
+\parbox {6 cm}{\hfill Семестр 1}}\par{ENDL}
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}
+{Дискретна математика \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}
+{\center Екзаменаційний білет \No \textbf { #No# }\par}}{ENDL}
+{
+<\before>
+<after>
+}{ENDL}
+{\smallskip \begin {small} Затверджено на засіданні кафедри{SPACE}
+теоретичної кібернетики, протокол \No 1  від   04.09.2017{SPACE}
+р.\par\smallskip\smallskip{ENDL}
+{\parbox {6.5 cm} {Зав. кафедри \dotfill{SPACE}
+Ю.В.~Крак}}\hspace {0.7cm} {\hbox to 6.5 cm { Екзаменатори \dotfill{SPACE}
+Т.О.~Карнаух}}{\hbox to 5 cm { \dotfill А.Б. Ставровський}}{SPACE}
+\end{small}}{ENDL}
+<\after>
+
+<\variant>
+<item>
+  <fabric>
+     file answer
+     <fname>
+         01.txt
+     <\fname>
+   <\fabric>
+<delim>
+\par{ENDL}
+<\delim>
+<\item>
+
+<item>
+  <fabric>
+     template answer
+     <fname>
+         fabric_2.txt
+     <\fname>
+   <\fabric>
+<delim>
+\par{ENDL}
+<\delim>
+<\item>
+
+<item>
+  <fabric>
+     template answer
+     <fname>
+         fabric_3.txt
+     <\fname>
+   <\fabric>
+<delim>
+\hspace {1cm}{ENDL}
+<\delim>
+<\item>
+
+
+<item>
+  <fabric>
+     template answer
+     <fname>
+         fabric_4.txt
+     <\fname>
+   <\fabric>
+<delim>
+\par{ENDL}
+<\delim>
+<\item>
+
+<item>
+  <fabric>
+     file answer
+     <fname>
+         05.txt
+     <\fname>
+   <\fabric>
+<delim>
+\par{ENDL}
+<\delim>
+<\item>
+
+<item>
+  <fabric>
+     file answer
+     <fname>
+         06.txt
+     <\fname>
+   <\fabric>
+<delim>
+\par {ENDL}
+<\delim>
+<\item>
+

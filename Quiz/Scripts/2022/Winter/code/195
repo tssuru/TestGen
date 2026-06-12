@@ -1,0 +1,30 @@
+echo
+echo =195_1.py 
+python3.10 ./195_1.py 
+echo
+echo =195_2.py 
+python3.10 ./195_2.py 
+echo
+echo =195_3.py 
+python3.10 ./195_3.py 
+echo
+echo =195_4.py 
+python3.10 ./195_4.py 
+echo
+echo =195_5.py 
+python3.10 ./195_5.py 
+echo
+echo =195_6.py 
+python3.10 ./195_6.py 
+echo
+echo =195_7.py 
+python3.10 ./195_7.py 
+echo
+echo =195_8.py 
+python3.10 ./195_8.py 
+echo
+echo =195_9.py 
+python3.10 ./195_9.py 
+echo
+echo =195_10.py 
+python3.10 ./195_10.py 

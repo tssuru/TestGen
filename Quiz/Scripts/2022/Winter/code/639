@@ -1,0 +1,30 @@
+echo
+echo =639_1.py 
+python3.10 ./639_1.py 
+echo
+echo =639_2.py 
+python3.10 ./639_2.py 
+echo
+echo =639_3.py 
+python3.10 ./639_3.py 
+echo
+echo =639_4.py 
+python3.10 ./639_4.py 
+echo
+echo =639_5.py 
+python3.10 ./639_5.py 
+echo
+echo =639_6.py 
+python3.10 ./639_6.py 
+echo
+echo =639_7.py 
+python3.10 ./639_7.py 
+echo
+echo =639_8.py 
+python3.10 ./639_8.py 
+echo
+echo =639_9.py 
+python3.10 ./639_9.py 
+echo
+echo =639_10.py 
+python3.10 ./639_10.py 

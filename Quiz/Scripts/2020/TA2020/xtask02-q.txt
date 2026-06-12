@@ -1,0 +1,14 @@
+<fabric>
+     file answer
+     <fname>
+         task02-s.txt
+     <\fname>
+
+     <before>
+	Написати функцію, що повертає список з послідовністю{SPACE} 
+     <\before>
+<after>
+.
+<\after>
+
+  <\fabric>

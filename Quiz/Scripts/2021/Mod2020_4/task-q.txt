@@ -1,0 +1,16 @@
+<fabric>
+     file answer
+     <fname>
+         task-s.txt
+     <\fname>
+
+     <before>
+а) Задача або питання про регулярний вираз. {ENDL}
+re.search, re.match, re.fullmatch {ENDL} 
+б) Задача або питання про обробку файлів.{ENDL}
+     <\before>
+<after>
+
+<\after>
+
+  <\fabric>

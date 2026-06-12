@@ -1,0 +1,30 @@
+echo
+echo =488_1.py 
+python3.10 ./488_1.py 
+echo
+echo =488_2.py 
+python3.10 ./488_2.py 
+echo
+echo =488_3.py 
+python3.10 ./488_3.py 
+echo
+echo =488_4.py 
+python3.10 ./488_4.py 
+echo
+echo =488_5.py 
+python3.10 ./488_5.py 
+echo
+echo =488_6.py 
+python3.10 ./488_6.py 
+echo
+echo =488_7.py 
+python3.10 ./488_7.py 
+echo
+echo =488_8.py 
+python3.10 ./488_8.py 
+echo
+echo =488_9.py 
+python3.10 ./488_9.py 
+echo
+echo =488_10.py 
+python3.10 ./488_10.py 

@@ -1,0 +1,18 @@
+echo
+echo =42_1.py 
+python3.11 -W "ignore" ./42_1.py 
+echo
+echo =42_2.py 
+python3.11 -W "ignore" ./42_2.py 
+echo
+echo =42_3.py 
+python3.11 -W "ignore" ./42_3.py 
+echo
+echo =42_5.py 
+echo -9
+echo
+echo =42_7.py 
+echo 4 7 0 11 3 1 10 8 6 2 9 5
+echo
+echo =42_8.py 
+echo 2 3 4 5 6

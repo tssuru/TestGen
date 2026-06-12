@@ -1,0 +1,30 @@
+echo
+echo =777_1.py 
+python3.10 ./777_1.py 
+echo
+echo =777_2.py 
+python3.10 ./777_2.py 
+echo
+echo =777_3.py 
+python3.10 ./777_3.py 
+echo
+echo =777_4.py 
+python3.10 ./777_4.py 
+echo
+echo =777_5.py 
+python3.10 ./777_5.py 
+echo
+echo =777_6.py 
+python3.10 ./777_6.py 
+echo
+echo =777_7.py 
+python3.10 ./777_7.py 
+echo
+echo =777_8.py 
+python3.10 ./777_8.py 
+echo
+echo =777_9.py 
+python3.10 ./777_9.py 
+echo
+echo =777_10.py 
+python3.10 ./777_10.py 

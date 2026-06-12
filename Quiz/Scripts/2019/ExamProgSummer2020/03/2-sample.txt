@@ -1,0 +1,90 @@
+try:
+    i = 15
+    while i>0:
+        i += -2
+    print(i, end=';')
+except:
+    print('ERR')
+
+
+try:
+    n = 13
+    while n>=9:
+        n += -3
+    print(n, end=';')
+except:
+    print('ERR')
+
+
+try:
+    k = 6
+    while k>=3:
+        k += -3
+    print(k, end=';')
+except:
+    print('ERR')
+
+
+try:
+    j = 12
+    while j>7:
+        j += -2
+    print(j, end=';')
+except:
+    print('ERR')
+
+
+try:
+    t = 8
+    while t>6:
+        t += -3
+    print(t, end=';')
+except:
+    print('ERR')
+
+
+try:
+    m = 14
+    while m>=2:
+        m += -2
+    print(m, end=';')
+except:
+    print('ERR')
+
+
+try:
+    i = 11
+    while i>=1:
+        i += -2
+    print(i, end=';')
+except:
+    print('ERR')
+
+
+try:
+    k = 9
+    while k>4:
+        k += -3
+    print(k, end=';')
+except:
+    print('ERR')
+
+
+try:
+    n = 7
+    while n>8:
+        n += -2
+    print(n, end=';')
+except:
+    print('ERR')
+
+
+try:
+    j = 10
+    while j>=5:
+        j += -3
+    print(j, end=';')
+except:
+    print('ERR')
+
+

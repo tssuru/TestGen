@@ -1,0 +1,49 @@
+<document>
+<header>
+\documentclass[12pt,ukrainian]{article}{ENDL}
+\setlength\textwidth{190mm} \setlength\textheight{237mm}{ENDL}
+\setlength\voffset{-18mm} \setlength\hoffset{-23mm}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\begin{document}{ENDL}
+{\Large \center  Варіанти завдань до програмного проєкту №1
+\par 2023/24 н.р., ПМ СА, перший семестр\par \bigskip}{ENDL}
+<\header>
+<footer>
+\end{document}
+<\footer>
+<from>
+1
+<\from>
+<to>
+70
+<\to>
+<from2>
+101
+<\from2>
+<to2>
+150
+<\to2>
+<\document>
+<variant>
+
+<before>
+#No#) \space {ENDL}
+<\before>
+
+<after>
+\smallskip\par{ENDL}
+<\after>
+
+<\variant>
+
+<item>
+  <fabric>
+     template answer
+     <fname>
+         script_lab.txt
+     <\fname>
+   <\fabric>
+<\item>
+

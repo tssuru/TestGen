@@ -1,0 +1,30 @@
+echo
+echo =326_1.py 
+python3.10 ./326_1.py 
+echo
+echo =326_2.py 
+python3.10 ./326_2.py 
+echo
+echo =326_3.py 
+python3.10 ./326_3.py 
+echo
+echo =326_4.py 
+python3.10 ./326_4.py 
+echo
+echo =326_5.py 
+python3.10 ./326_5.py 
+echo
+echo =326_6.py 
+python3.10 ./326_6.py 
+echo
+echo =326_7.py 
+python3.10 ./326_7.py 
+echo
+echo =326_8.py 
+python3.10 ./326_8.py 
+echo
+echo =326_9.py 
+python3.10 ./326_9.py 
+echo
+echo =326_10.py 
+python3.10 ./326_10.py 

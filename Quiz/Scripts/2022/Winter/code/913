@@ -1,0 +1,30 @@
+echo
+echo =913_1.py 
+python3.10 ./913_1.py 
+echo
+echo =913_2.py 
+python3.10 ./913_2.py 
+echo
+echo =913_3.py 
+python3.10 ./913_3.py 
+echo
+echo =913_4.py 
+python3.10 ./913_4.py 
+echo
+echo =913_5.py 
+python3.10 ./913_5.py 
+echo
+echo =913_6.py 
+python3.10 ./913_6.py 
+echo
+echo =913_7.py 
+python3.10 ./913_7.py 
+echo
+echo =913_8.py 
+python3.10 ./913_8.py 
+echo
+echo =913_9.py 
+python3.10 ./913_9.py 
+echo
+echo =913_10.py 
+python3.10 ./913_10.py 

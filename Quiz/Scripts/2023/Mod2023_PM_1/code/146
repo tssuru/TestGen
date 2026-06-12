@@ -1,0 +1,27 @@
+echo
+echo =146_1.py 
+python3.10 ./146_1.py 
+echo
+echo =146_2.py 
+python3.10 ./146_2.py 
+echo
+echo =146_3.py 
+python3.10 ./146_3.py 
+echo
+echo =146_4.py 
+python3.10 ./146_4.py 
+echo
+echo =146_5.py 
+python3.10 ./146_5.py 
+echo
+echo =146_6.py 
+python3.10 ./146_6.py 
+echo
+echo =146_7.py 
+python3.10 ./146_7.py 
+echo
+echo =146_8.py 
+python3.10 ./146_8.py 
+echo
+echo =146_9.py 
+python3.10 ./146_9.py 

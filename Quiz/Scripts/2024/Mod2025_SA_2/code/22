@@ -1,0 +1,30 @@
+echo
+echo =22_1.py 
+python3.11 -W "ignore" ./22_1.py 
+echo
+echo =22_2.py 
+python3.11 -W "ignore" ./22_2.py 
+echo
+echo =22_3.py 
+python3.11 -W "ignore" ./22_3.py 
+echo
+echo =22_4.py 
+python3.11 -W "ignore" ./22_4.py 
+echo
+echo =22_5.py 
+python3.11 -W "ignore" ./22_5.py 
+echo
+echo =22_6.py 
+python3.11 -W "ignore" ./22_6.py 
+echo
+echo =22_7.py 
+python3.11 -W "ignore" ./22_7.py 
+echo
+echo =22_8.py 
+python3.11 -W "ignore" ./22_8.py 
+echo
+echo =22_9.py 
+python3.11 -W "ignore" ./22_9.py 
+echo
+echo =22_10.py 
+python3.11 -W "ignore" ./22_10.py 

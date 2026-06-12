@@ -1,0 +1,106 @@
+<document>
+
+  <header>
+\documentclass[12pt, ukrainian]{article}{ENDL}
+\usepackage[a4paper]{geometry}{ENDL}
+\setlength\parindent{0mm}{ENDL}
+\geometry{top=1.1cm,bottom=1.1cm,left=1.1cm,right=1.1cm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage{caption}{ENDL}
+
+\DeclareCaptionFormat{nocaption}{}{ENDL}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}{ENDL}
+\usepackage[Export]{adjustbox} {ENDL}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}
+\begin{document}{ENDL}
+
+  <\header>
+
+  <footer>
+\end{document}{ENDL}
+
+  <\footer>
+
+  <onNextVariant>
+
+{ENDL}{ENDL}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+
+  <\onNextPage>
+
+<from>
+71
+<\from>
+<to>
+100
+<\to>
+
+  <onPage>
+    1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+
+{{04.12.2023 Контрольна робота \No 2-bis, варіант  \No \textbf { #No# }\par}}{ENDL}
+{{ENDL}
+%\begin {large}{ENDL}
+{ENDL}Завдання 1-6: Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?{ENDL}{ENDL}
+%Завдання 7-8 (на звороті): написати функцію для розв'язання задачі.{ENDL}{ENDL}
+<\before>
+
+<after>
+%\end {large}{ENDL}
+}{ENDL}
+%end{ENDL}
+<\after>
+
+<\variant>
+
+
+<item>
+  include 05Invoke/01-q.txt
+<\item>
+
+<item>
+  include 06Scope/1+2-q.txt
+<\item>
+
+//<item>
+//  include 06Scope/3+4-q.txt
+//<\item>
+
+
+<item>
+  include 07Except/02-q.txt
+<\item>
+
+<item>
+  include 08Cycles/01-q.txt
+<\item>
+
+<item>
+  include 08Cycles/02-q.txt
+<\item>
+
+<item>
+  include 09Recursion/01-02-q.txt
+  // SA should be 01-q.txt
+<\item>
+
+//<item>
+//  include task1-q.txt
+//<\item>
+
+//<item>
+//  include task1-q.txt
+//<\item>

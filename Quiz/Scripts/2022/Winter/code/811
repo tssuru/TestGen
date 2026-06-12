@@ -1,0 +1,30 @@
+echo
+echo =811_1.py 
+python3.10 ./811_1.py 
+echo
+echo =811_2.py 
+python3.10 ./811_2.py 
+echo
+echo =811_3.py 
+python3.10 ./811_3.py 
+echo
+echo =811_4.py 
+python3.10 ./811_4.py 
+echo
+echo =811_5.py 
+python3.10 ./811_5.py 
+echo
+echo =811_6.py 
+python3.10 ./811_6.py 
+echo
+echo =811_7.py 
+python3.10 ./811_7.py 
+echo
+echo =811_8.py 
+python3.10 ./811_8.py 
+echo
+echo =811_9.py 
+python3.10 ./811_9.py 
+echo
+echo =811_10.py 
+python3.10 ./811_10.py 

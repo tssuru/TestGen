@@ -1,0 +1,40 @@
+<document>
+  <header>
+nvar{TAB}input delims{ENDL}
+  <\header>
+  <footer>
+  <\footer>
+  <onNextVariant>
+  <\onNextVariant>
+
+  <onNextPage>
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+  <to>
+     115
+  <\to>
+
+  <onPage>
+     
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+<\before>
+<after>
+<\after>
+<\variant>
+
+<item>
+  include distr_f.txt
+  <delim>
+
+  <\delim>
+<\item>
+

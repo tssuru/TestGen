@@ -1,0 +1,30 @@
+echo
+echo =289_1.py 
+python3.10 ./289_1.py 
+echo
+echo =289_2.py 
+python3.10 ./289_2.py 
+echo
+echo =289_3.py 
+python3.10 ./289_3.py 
+echo
+echo =289_4.py 
+python3.10 ./289_4.py 
+echo
+echo =289_5.py 
+python3.10 ./289_5.py 
+echo
+echo =289_6.py 
+python3.10 ./289_6.py 
+echo
+echo =289_7.py 
+python3.10 ./289_7.py 
+echo
+echo =289_8.py 
+python3.10 ./289_8.py 
+echo
+echo =289_9.py 
+python3.10 ./289_9.py 
+echo
+echo =289_10.py 
+python3.10 ./289_10.py 

@@ -1,0 +1,30 @@
+echo
+echo =568_1.py 
+python3.10 ./568_1.py 
+echo
+echo =568_2.py 
+python3.10 ./568_2.py 
+echo
+echo =568_3.py 
+python3.10 ./568_3.py 
+echo
+echo =568_4.py 
+python3.10 ./568_4.py 
+echo
+echo =568_5.py 
+python3.10 ./568_5.py 
+echo
+echo =568_6.py 
+python3.10 ./568_6.py 
+echo
+echo =568_7.py 
+python3.10 ./568_7.py 
+echo
+echo =568_8.py 
+python3.10 ./568_8.py 
+echo
+echo =568_9.py 
+python3.10 ./568_9.py 
+echo
+echo =568_10.py 
+python3.10 ./568_10.py 

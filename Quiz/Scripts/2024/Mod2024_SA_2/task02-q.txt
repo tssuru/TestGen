@@ -1,0 +1,16 @@
+<fabric>
+     file answer
+     <fname>
+         task02-s.txt
+     <\fname>
+
+     <before>
+	{ENDL}Написати функцію, що повертає \textbf{новий список} з записаною в нього послідовністю чисел{ENDL}
+     <\before>
+<after>
+{ENDL}
+Використовувати **, вкладені цикли та виклики функцій (крім методів класу list) \textbf{заборонено}.
+{ENDL}{ENDL}
+<\after>
+
+  <\fabric>

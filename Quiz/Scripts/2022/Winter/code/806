@@ -1,0 +1,30 @@
+echo
+echo =806_1.py 
+python3.10 ./806_1.py 
+echo
+echo =806_2.py 
+python3.10 ./806_2.py 
+echo
+echo =806_3.py 
+python3.10 ./806_3.py 
+echo
+echo =806_4.py 
+python3.10 ./806_4.py 
+echo
+echo =806_5.py 
+python3.10 ./806_5.py 
+echo
+echo =806_6.py 
+python3.10 ./806_6.py 
+echo
+echo =806_7.py 
+python3.10 ./806_7.py 
+echo
+echo =806_8.py 
+python3.10 ./806_8.py 
+echo
+echo =806_9.py 
+python3.10 ./806_9.py 
+echo
+echo =806_10.py 
+python3.10 ./806_10.py 

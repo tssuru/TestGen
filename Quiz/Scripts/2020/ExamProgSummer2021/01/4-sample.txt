@@ -1,0 +1,140 @@
+try:
+    res = 8.0==False
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = "True"!="5j"
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = 9<="4.0j"
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = "8j"<5.0
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = "7.0j">"True"
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = False>=4
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = 3!="True"
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = "9.0">"6j"
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = False<3.0j
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+
+try:
+    res = "1.0j">=True
+    if isinstance(res, bool):
+        print(f'bool;{res}')
+    elif isinstance(res, int):
+        print(f'int;{res}')
+    elif isinstance(res, float):
+        print(f'float;{res:.2f}')
+    else:
+        print('???')
+except:
+    print('ERR')
+
+

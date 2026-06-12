@@ -1,0 +1,30 @@
+echo
+echo =308_1.py 
+python3.10 ./308_1.py 
+echo
+echo =308_2.py 
+python3.10 ./308_2.py 
+echo
+echo =308_3.py 
+python3.10 ./308_3.py 
+echo
+echo =308_4.py 
+python3.10 ./308_4.py 
+echo
+echo =308_5.py 
+python3.10 ./308_5.py 
+echo
+echo =308_6.py 
+python3.10 ./308_6.py 
+echo
+echo =308_7.py 
+python3.10 ./308_7.py 
+echo
+echo =308_8.py 
+python3.10 ./308_8.py 
+echo
+echo =308_9.py 
+python3.10 ./308_9.py 
+echo
+echo =308_10.py 
+python3.10 ./308_10.py 

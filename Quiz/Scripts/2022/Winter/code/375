@@ -1,0 +1,30 @@
+echo
+echo =375_1.py 
+python3.10 ./375_1.py 
+echo
+echo =375_2.py 
+python3.10 ./375_2.py 
+echo
+echo =375_3.py 
+python3.10 ./375_3.py 
+echo
+echo =375_4.py 
+python3.10 ./375_4.py 
+echo
+echo =375_5.py 
+python3.10 ./375_5.py 
+echo
+echo =375_6.py 
+python3.10 ./375_6.py 
+echo
+echo =375_7.py 
+python3.10 ./375_7.py 
+echo
+echo =375_8.py 
+python3.10 ./375_8.py 
+echo
+echo =375_9.py 
+python3.10 ./375_9.py 
+echo
+echo =375_10.py 
+python3.10 ./375_10.py 

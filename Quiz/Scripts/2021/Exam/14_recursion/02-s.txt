@@ -1,0 +1,150 @@
+def f(n):
+{SPACE4}if n>9: 
+{SPACE4}{SPACE4}f(n//100)
+{SPACE4}print(n%10, end='')
+{SPACE}
+f(123456)
+
+def f(n):
+{SPACE4}if n>9: 
+{SPACE4}{SPACE4}f(n//100)
+{SPACE4}{SPACE4}print(n%10, end='')
+{SPACE}
+f(123456)
+
+
+def f(n):
+{SPACE4}if n>9:
+{SPACE4}{SPACE4}f(n//100)
+{SPACE4}else:
+{SPACE4}{SPACE4}print(n%10,end=''){ENDL}
+f(123456)
+
+def f(n):
+{SPACE4}print(n%10,end='')
+{SPACE4}if n>9:
+{SPACE4}{SPACE4}f(n//100)
+{SPACE}
+f(123456)
+
+def f(n):
+{SPACE4}if n>9:
+{SPACE4}{SPACE4}f(n//100)
+{SPACE4}print(n%10,end='')
+{SPACE}
+f(987654)
+
+def f(n):
+{SPACE4}if n>9:
+{SPACE4}{SPACE4}f(n//100)
+{SPACE4}else:
+{SPACE4}{SPACE4}print(n%10,end=''){ENDL}
+f(987654)
+
+def f(n):
+{SPACE4}print(n%10, end='')
+{SPACE4}if n>9:
+{SPACE4}{SPACE4}f(n//100)
+{SPACE}
+f(987654)
+
+def f(n):
+{SPACE4}if n>9:
+{SPACE4}{SPACE4}f(n//10)
+{SPACE4}print(n%10, end='')
+{SPACE}
+f(123456)
+
+
+def f(n):
+{SPACE4}if n>9: f(n//10)
+{SPACE4}else:
+{SPACE4}{SPACE4}print(n%10, end='')
+{SPACE}
+f(123456)
+
+def f(n):
+{SPACE4}if n>9:
+{SPACE4}{SPACE4}f(n//10)
+{SPACE4}print(n%10, end='')
+{SPACE}
+f(543216)
+
+def f(n):
+{SPACE4}if n>9:
+{SPACE4}{SPACE4}f(n//10)
+{SPACE4}else:
+{SPACE4}{SPACE4}print(n%10, end=''){ENDL}
+f(543216)
+
+def f(n):
+{SPACE4}if n>2:
+{SPACE4}{SPACE4}f(n//2)
+{SPACE4}print(n%2, end='')
+{SPACE}
+f(16)
+
+def f(n):
+{SPACE4}if n>2:
+{SPACE4}{SPACE4}f(n//2)
+{SPACE4}else:
+{SPACE4}{SPACE4}print(n%2, end=''){ENDL}
+f(16)
+
+def f(n):
+{SPACE4}print(n%10, end='')
+{SPACE4}if n>9:
+{SPACE4}{SPACE4}f(n//10)
+{SPACE}
+f(123456)
+
+def f(n):
+{SPACE4}print(n%10, end='')
+{SPACE4}if n>9:
+{SPACE4}{SPACE4}f(n//10)
+{SPACE}
+f(543216)
+
+def f(n):
+{SPACE4}print(n%2, end='')
+{SPACE4}if n>2:
+{SPACE4}{SPACE4}f(n//2)
+{SPACE}
+f(16)
+
+def f(n):
+{SPACE4}if n<=9:
+{SPACE4}{SPACE4}print(n%10,end='')
+{SPACE4}else:
+{SPACE4}{SPACE4}f(n//10){ENDL}
+f(543216)
+
+def f(n):
+{SPACE4}if n<=9:
+{SPACE4}{SPACE4}print(n%10, end='')
+{SPACE4}else:
+{SPACE4}{SPACE4}f(n//10){ENDL}
+f(123456)
+
+def f(n):
+{SPACE4}if n<=9:
+{SPACE4}{SPACE4}print(n%10, end='')
+{SPACE4}else:
+{SPACE4}{SPACE4}f(n//10){ENDL}
+f(987651)
+
+def f(n):
+{SPACE4}if n>9:
+{SPACE4}{SPACE4}return f(n//10)+1
+{SPACE4}else:
+{SPACE4}{SPACE4}return 1{ENDL}
+print(f(123456))
+
+def f(n):
+{SPACE4}if n>9:
+{SPACE4}{SPACE4}return f(n//100)+1
+{SPACE4}else:
+{SPACE4}{SPACE4}return 1{ENDL}
+print(f(123456))
+
+

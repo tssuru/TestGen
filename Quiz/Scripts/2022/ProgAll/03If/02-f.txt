@@ -1,0 +1,56 @@
+//source for question like
+//1622400 questions
+//Що буде надруковано за виконання:\n
+
+//if, relations
+
+<sample>
+
+Що буде надруковано за виконання:
+if (12 > 7) cout<<"r"; else cout<<"w";
+
+<\sample>
+
+<declarations>
+op=<;<=;>;>=;==;!=
+var=a;a;a;b;b;b
+
+xArg={<int> -5 5}
+arg1={<int> -9 9}
+arg2=#arg1
+
+val={<int> 0 9}
+fname=f;g;h
+
+cond={#var new##op new##xArg new#}
+Cond={#cond#}{#var new#}{#cond#}
+
+suite={return #val new#}{c=#val new#}
+if_elif=if;elif
+init={<int> 10 99}
+
+<\declarations>
+
+<template>
+{ENDL}
+%code{ENDL}
+def #fname#(a,b):{ENDL}
+{SPACE4}c=#init#{ENDL}
+{SPACE4}if #Cond#:{ENDL} 
+{SPACE4}{SPACE4}#suite#{ENDL}
+{SPACE4}#if_elif# #cond#:{ENDL} 
+{SPACE4}{SPACE4} #suite new#{ENDL}
+{SPACE4}else: {ENDL} 
+{SPACE4}{SPACE4}#suite new#{ENDL}
+{SPACE4}return c{ENDL}
+{ENDL}
+print(#fname#(#arg1#,#arg2#))
+
+{ENDL}
+%code{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

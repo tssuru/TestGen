@@ -1,0 +1,30 @@
+echo
+echo =354_1.py 
+python3.10 ./354_1.py 
+echo
+echo =354_2.py 
+python3.10 ./354_2.py 
+echo
+echo =354_3.py 
+python3.10 ./354_3.py 
+echo
+echo =354_4.py 
+python3.10 ./354_4.py 
+echo
+echo =354_5.py 
+python3.10 ./354_5.py 
+echo
+echo =354_6.py 
+python3.10 ./354_6.py 
+echo
+echo =354_7.py 
+python3.10 ./354_7.py 
+echo
+echo =354_8.py 
+python3.10 ./354_8.py 
+echo
+echo =354_9.py 
+python3.10 ./354_9.py 
+echo
+echo =354_10.py 
+python3.10 ./354_10.py 

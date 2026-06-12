@@ -1,0 +1,30 @@
+echo
+echo =850_1.py 
+python3.10 ./850_1.py 
+echo
+echo =850_2.py 
+python3.10 ./850_2.py 
+echo
+echo =850_3.py 
+python3.10 ./850_3.py 
+echo
+echo =850_4.py 
+python3.10 ./850_4.py 
+echo
+echo =850_5.py 
+python3.10 ./850_5.py 
+echo
+echo =850_6.py 
+python3.10 ./850_6.py 
+echo
+echo =850_7.py 
+python3.10 ./850_7.py 
+echo
+echo =850_8.py 
+python3.10 ./850_8.py 
+echo
+echo =850_9.py 
+python3.10 ./850_9.py 
+echo
+echo =850_10.py 
+python3.10 ./850_10.py 

@@ -1,0 +1,30 @@
+echo
+echo =747_1.py 
+python3.10 ./747_1.py 
+echo
+echo =747_2.py 
+python3.10 ./747_2.py 
+echo
+echo =747_3.py 
+python3.10 ./747_3.py 
+echo
+echo =747_4.py 
+python3.10 ./747_4.py 
+echo
+echo =747_5.py 
+python3.10 ./747_5.py 
+echo
+echo =747_6.py 
+python3.10 ./747_6.py 
+echo
+echo =747_7.py 
+python3.10 ./747_7.py 
+echo
+echo =747_8.py 
+python3.10 ./747_8.py 
+echo
+echo =747_9.py 
+python3.10 ./747_9.py 
+echo
+echo =747_10.py 
+python3.10 ./747_10.py 

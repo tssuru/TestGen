@@ -1,0 +1,87 @@
+<document>
+
+  <header>
+
+\documentclass[10pt, ukrainian]{article}{ENDL}
+\setlength\textwidth{190mm} \setlength\textheight{257mm}{ENDL}
+\setlength\voffset{-28mm} \setlength\hoffset{-38mm}{ENDL}
+\setlength\parindent{0mm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[cp1251]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\begin{document}{ENDL}
+
+  <\header>
+
+  <footer>
+
+\end{document}
+
+  <\footer>
+
+  <onNextVariant>
+\vspace{4.0cm}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+\newpage{ENDL}
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     30
+  <\to>
+
+  <onPage>
+     2
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+{{\begin {small}\par{ENDL}
+{ \center  Київський національний університет імені Тараса Шевченка \par}{ENDL} 
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {7 cm}{Інформатика \hfill}}
+\parbox {6 cm}{\hfill Семестр 7}}\par{ENDL}
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}
+{Інтелектуальна обробка даних \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}
+{\center Екзаменаційний білет \No \textbf { #No# }\par}}{ENDL}
+{
+<\before>
+<after>
+}{ENDL}
+{\smallskip \begin {small} Затверджено на засіданні кафедри{SPACE}
+теоретичної кібернетики, протокол \No 1  від 10.09.2019{SPACE}
+р.\par\smallskip\smallskip{ENDL}
+{\parbox {6.0 cm} {Зав. кафедри \dotfill Ю.В.~Крак}}
+\hspace {0.5cm} Екзаменатори{SPACE}
+{\hbox to 4.5 cm {\dotfill Т.О.~Карнаух}}{SPACE}
+{\hbox to 5.5 cm {\dotfill А.Б.~Ставровський}}{SPACE}
+\end{small}}{ENDL}
+<\after>
+
+<\variant>
+<item>
+  include 01-q.txt
+<delim>
+\par{ENDL}
+<\delim>
+<\item>
+
+<item>
+  include 02-q.txt
+  <delim>
+\par{ENDL}
+  <\delim>
+<\item>
+
+
+<item>
+   include 03-q.txt
+<\item>

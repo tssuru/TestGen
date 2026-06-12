@@ -1,0 +1,30 @@
+echo
+echo =477_1.py 
+python3.10 ./477_1.py 
+echo
+echo =477_2.py 
+python3.10 ./477_2.py 
+echo
+echo =477_3.py 
+python3.10 ./477_3.py 
+echo
+echo =477_4.py 
+python3.10 ./477_4.py 
+echo
+echo =477_5.py 
+python3.10 ./477_5.py 
+echo
+echo =477_6.py 
+python3.10 ./477_6.py 
+echo
+echo =477_7.py 
+python3.10 ./477_7.py 
+echo
+echo =477_8.py 
+python3.10 ./477_8.py 
+echo
+echo =477_9.py 
+python3.10 ./477_9.py 
+echo
+echo =477_10.py 
+python3.10 ./477_10.py 

@@ -1,0 +1,30 @@
+echo
+echo =898_1.py 
+python3.10 ./898_1.py 
+echo
+echo =898_2.py 
+python3.10 ./898_2.py 
+echo
+echo =898_3.py 
+python3.10 ./898_3.py 
+echo
+echo =898_4.py 
+python3.10 ./898_4.py 
+echo
+echo =898_5.py 
+python3.10 ./898_5.py 
+echo
+echo =898_6.py 
+python3.10 ./898_6.py 
+echo
+echo =898_7.py 
+python3.10 ./898_7.py 
+echo
+echo =898_8.py 
+python3.10 ./898_8.py 
+echo
+echo =898_9.py 
+python3.10 ./898_9.py 
+echo
+echo =898_10.py 
+python3.10 ./898_10.py 

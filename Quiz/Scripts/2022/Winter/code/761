@@ -1,0 +1,30 @@
+echo
+echo =761_1.py 
+python3.10 ./761_1.py 
+echo
+echo =761_2.py 
+python3.10 ./761_2.py 
+echo
+echo =761_3.py 
+python3.10 ./761_3.py 
+echo
+echo =761_4.py 
+python3.10 ./761_4.py 
+echo
+echo =761_5.py 
+python3.10 ./761_5.py 
+echo
+echo =761_6.py 
+python3.10 ./761_6.py 
+echo
+echo =761_7.py 
+python3.10 ./761_7.py 
+echo
+echo =761_8.py 
+python3.10 ./761_8.py 
+echo
+echo =761_9.py 
+python3.10 ./761_9.py 
+echo
+echo =761_10.py 
+python3.10 ./761_10.py 

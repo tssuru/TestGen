@@ -1,0 +1,104 @@
+\begin{verbatim}{ENDL}int n = 1; cout << f(n); cout << n;{ENDL}\end{verbatim}{ENDL}буде виведено 33
+int f(int &n){n += 2; return n;}
+int f(int n){n += 2; return n;}
+int f(int n){return n + 2;}
+int f(int n){return n; n += 2;}
+
+\begin{verbatim}{ENDL}int n = 1, m = 3; f(n, m); cout << n << m;{ENDL}\end{verbatim}{ENDL}буде виведено 31
+void f(int &a, int &b){int t = a; a = b; b = t;}
+void f(int &a, int &b){int t = a; a = b; b = a;}
+void f(int &a, int &b){a = b; b = a;}
+void f(int &a, int &b){int t = b; a = b; b = t;}
+
+\begin{verbatim}{ENDL}int n = 1, m = 3; f(n, m); cout << n << m;{ENDL}\end{verbatim}{ENDL}буде виведено 31
+void f(int &a, int &b){if (a < b) {int t = a; a = b; b = t;}}
+void f(int a, int &b){if (a < b) {int t = a; a = b; b = t;}}
+void f(int &a, int &b){if (a < b) a = b; else b = a;}
+void f(int &a, int &b){if (a > b) a = b;}
+
+\begin{verbatim}{ENDL}int n = 3, m = -1; f(n); f(m); cout << n << m;{ENDL}\end{verbatim}{ENDL}буде виведено 30
+void f(int &n){if (n < 0) n = 0;}
+void f(int n){if (n < 0) n = 0;}
+void f(int n){if (n < 0) n = 0; else n = 1;}
+void f(int &n){if (n < 0) n = -n;}
+
+
+\begin{verbatim}{ENDL}int n = 2; cout << f(n); cout << n;{ENDL}\end{verbatim}{ENDL}буде виведено 44
+int f(int &n){n += 2; return n;}
+int f(int n){n += 2; return n;}
+int f(int n){return n + 2;}
+int f(int n){return n; n += 2;}
+
+\begin{verbatim}{ENDL}int n = 2; cout << f(n); cout << n;{ENDL}\end{verbatim}{ENDL}буде виведено 22
+int f(int &n){n += 2; return n;}
+int f(int n){n += 2; return n;}
+int f(int n){return n + 2;}
+int f(int n){return n; n += 2;}
+
+
+\begin{verbatim}{ENDL}int n = 1, m = 3; cout << f(m, n); cout << n << m;{ENDL}\end{verbatim}{ENDL}буде виведено 443
+int f(int a, int &b){int t = a + b; b += 3; return t;}
+int f(int a, int b){int t; t = a + b; b = b + 3; return t;}
+int f(int a, int &b){return a + b; b += 3;}
+int f(int a, int &b){b += 3; return a + b;}
+
+\begin{verbatim}{ENDL}int n = 1, m = 3; cout << f(n, m); cout << n << m;{ENDL}\end{verbatim}{ENDL}буде виведено 416
+int f(int a, int &b){int t = a + b; b += 3; return t;}
+int f(int a, int b){int t; t = a + b; b = b + 3; return t;}
+int f(int a, int &b){return a + b; b += 3;}
+int f(int a, int &b){b += 3; return a + b;}
+
+\begin{verbatim}{ENDL}int n = 2, m = 1; cout << f(n, m); cout << n << m;{ENDL}\end{verbatim}{ENDL}буде виведено 324
+int f(int a, int &b){int t = a + b; b += 3; return t;}
+int f(int a, int b){int t; t = a + b; b = b + 3; return t;}
+int f(int a, int &b){return a + b; b += 3;}
+int f(int a, int &b){b += 3; return a + b;}
+
+\begin{verbatim}{ENDL}int n = 3, m = 1; f(n, m); cout << n << m;{ENDL}\end{verbatim}{ENDL}буде виведено 13
+void f(int &a, int &b){if (a > b) {int t = a; a = b; b = t;}}
+void f(int a, int &b){if (a > b) {int t = a; a = b; b = t;}}
+void f(int &a, int &b){if (a > b) {a = b; b = a;}}
+void f(int &a, int &b){if (a > b) a = b;}
+
+
+\begin{verbatim}{ENDL}int n = 0, m = -1; f(n); f(m); cout << n << m;{ENDL}\end{verbatim}{ENDL}буде виведено 00
+void f(int &n){if (n > 0) n = 0; else n = -n;}
+void f(int n){if (n < 0) n = -n;}
+void f(int &n){if (n > 0) n = 0; else n = 0;}
+void f(int &n){if (n < 0) n = -n;}
+
+\begin{verbatim}{ENDL}int a = 1, b = 3; cout << f(a, b); cout << a << b;{ENDL}\end{verbatim}{ENDL}буде виведено 433
+int f(int &a, int b){int t = a + b; a += 2; return t;}
+int f(int a, int b){int t; t = a + b; a = a + 2; return t;}
+int f(int &a, int &b){return a + b; a += 2;}
+int f(int &a, int b){a += 2; return a + b;}
+
+\begin{verbatim}{ENDL}int a = 2, b = 4; cout << f(a, b); cout << a << b;{ENDL}\end{verbatim}{ENDL}буде виведено 644
+int f(int &a, int b){int t = a + b; a += 2; return t;}
+int f(int a, int &b){int t; t = a + b; a = a + 2; return t;}
+int f(int &a, int &b){return a + b; a += 2;}
+int f(int &a, int b){a += 2; return a + b;}
+
+\begin{verbatim}{ENDL}int a = 1, b = 2; cout << f(a, b); cout << a << b;{ENDL}\end{verbatim}{ENDL}буде виведено 314
+int f(int a, int &b){int t = a + b; b += 2; return t;}
+int f(int a, int b){int t; t = a + b; b = b + 2; return t;}
+int f(int &a, int &b){return a + b; b += 2;}
+int f(int a, int &b){b += 2; return a + b;}
+
+\begin{verbatim}{ENDL}int a = 1, b = 3; cout << f(a, b); cout << a << b;{ENDL}\end{verbatim}{ENDL}буде виведено 415
+int f(int a, int &b){int t = a + b; b += 2; return t;}
+int f(int a, int b){int t; t = a + b; b = b + 2; return t;}
+int f(int &a, int &b){return a + b; b += 2;}
+int f(int a, int &b){b += 2; return a + b;}
+
+\begin{verbatim}{ENDL}int a = 1, b = 3; cout << f(a, b); cout << a << b;{ENDL}\end{verbatim}{ENDL}буде виведено 411
+int f(int a, int &b){int t = a + b; b -= 2; return t;}
+int f(int a, int b){int t; t = a + b; b = b - 2; return t;}
+int f(int &a, int &b){return a + b; b -= 2;}
+int f(int a, int &b){b -= 2; return a + b;}
+
+\begin{verbatim}{ENDL}int a = 1, b = 3; cout << f(a, b); cout << a << b;{ENDL}\end{verbatim}{ENDL}буде виведено 412
+int f(int a, int &b){int t = a + b; b -= 1; return t;}
+int f(int a, int b){int t; t = a + b; b = b - 1; return t;}
+int f(int &a, int &b){return a + b; b -= 1;}
+int f(int a, int &b){b -= 1; return a + b;}

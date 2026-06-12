@@ -1,0 +1,32 @@
+<fabric>
+collate
+  <fabric>
+  collate 
+  include Indexing/01-q.txt
+  include Indexing/02-q.txt
+      <n1>
+         10
+      <\n1>
+      <n2>
+         10
+      <\n2>
+  <\fabric>
+
+  <fabric>
+  collate 
+  include ListOperations/01-q.txt
+  include ListOperations/02-q.txt
+      <n1>
+         10
+      <\n1>
+      <n2>
+         10
+      <\n2>
+  <\fabric>
+  <n1>
+     20
+  <\n1>
+  <n2>
+    20
+  <\n2>
+<\fabric>

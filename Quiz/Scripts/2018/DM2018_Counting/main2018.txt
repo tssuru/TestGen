@@ -1,0 +1,110 @@
+<document>
+<header>
+\documentclass[10pt, ukrainian]{article}{ENDL}
+\setlength\textwidth{190mm} \setlength\textheight{267mm}{ENDL}
+\setlength\voffset{-33mm} \setlength\hoffset{-38mm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[cp1251]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\begin{document}{ENDL}
+{ENDL}
+<\header>
+<footer>
+\end{document}{ENDL}
+<\footer>
+
+<from>
+1
+<\from>
+
+<to>
+28
+<\to>
+
+ <onNextVariant>
+\vspace{1.5cm}{ENDL}
+ <\onNextVariant>
+
+  <onNextPage>
+\newpage{ENDL}
+  <\onNextPage>
+
+  <onPage>
+     4
+  <\onPage>
+
+
+<\document>
+
+<variant>
+
+<before>
+{12.2018 ДМ Варіант № #No# К1\_ ПІБ \_\_\_\_\_\_\_\_ {ENDL}\par{ENDL}\noindent
+<\before>
+
+<after>
+}{ENDL}
+<\after>
+
+<\variant>
+
+<item>
+ include 01-q.txt
+<delim>
+\noindent
+<\delim>
+<\item>
+
+
+<item>
+ include 02-q.txt
+<delim>
+\par{ENDL}\noindent
+<\delim>
+<\item>
+
+<item>
+ include 03-q.txt
+<delim>
+\noindent
+<\delim>
+<\item>
+
+//
+//<item>
+// include 04-q.txt
+//<delim>
+//\noindent
+//<\delim>
+//<\item>
+//
+
+<item>
+ include 05-q.txt
+<delim>
+\par{ENDL}\noindent
+<\delim>
+<\item>
+
+<item>
+ include 06-q.txt
+<delim>
+\noindent
+<\delim>
+<\item>
+
+<item>
+ include 07-q.txt
+<delim>
+\noindent
+<\delim>
+<\item>
+
+<item>
+ include 08-q.txt
+<delim>
+\noindent
+<\delim>
+<\item>
+

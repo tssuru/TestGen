@@ -1,0 +1,30 @@
+echo
+echo =900_1.py 
+python3.10 ./900_1.py 
+echo
+echo =900_2.py 
+python3.10 ./900_2.py 
+echo
+echo =900_3.py 
+python3.10 ./900_3.py 
+echo
+echo =900_4.py 
+python3.10 ./900_4.py 
+echo
+echo =900_5.py 
+python3.10 ./900_5.py 
+echo
+echo =900_6.py 
+python3.10 ./900_6.py 
+echo
+echo =900_7.py 
+python3.10 ./900_7.py 
+echo
+echo =900_8.py 
+python3.10 ./900_8.py 
+echo
+echo =900_9.py 
+python3.10 ./900_9.py 
+echo
+echo =900_10.py 
+python3.10 ./900_10.py 

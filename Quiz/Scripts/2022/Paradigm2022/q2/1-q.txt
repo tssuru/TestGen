@@ -1,0 +1,14 @@
+<fabric>
+     file answer
+     <fname>
+         q2/1.txt
+     <\fname>
+
+     <before>
+     <\before>
+     
+     <after>
+{ENDL}
+{ENDL}		
+     <\after>     
+  <\fabric>

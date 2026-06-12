@@ -1,0 +1,30 @@
+echo
+echo =627_1.py 
+python3.10 ./627_1.py 
+echo
+echo =627_2.py 
+python3.10 ./627_2.py 
+echo
+echo =627_3.py 
+python3.10 ./627_3.py 
+echo
+echo =627_4.py 
+python3.10 ./627_4.py 
+echo
+echo =627_5.py 
+python3.10 ./627_5.py 
+echo
+echo =627_6.py 
+python3.10 ./627_6.py 
+echo
+echo =627_7.py 
+python3.10 ./627_7.py 
+echo
+echo =627_8.py 
+python3.10 ./627_8.py 
+echo
+echo =627_9.py 
+python3.10 ./627_9.py 
+echo
+echo =627_10.py 
+python3.10 ./627_10.py 

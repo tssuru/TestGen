@@ -1,0 +1,44 @@
+(1+2)
+x=y;
+x+y
+(true)
+'a'+3
+int main()
+int i,j;
+i>j
+i<=j
+"abc"
+x/t/u
+x*r
+cout<<y;
+int i=6;
+j=78;
+{a=5;}
+Shuffle(int n);
+int n;
+void get();
+int(x)
+(int)x
+x=y%z
+if (x>0)
+else { a=6;}
+(!false)
+int n,m;
+char c;
+cin>>x;
+"123+6"
+myFunc(1,2);
+const int maxSize=100;
+QuestFabric &f1,&f2;
+int n1,n2,n;
+Shuffle sh;
+mixer(csize/nCases);
+return string(buffer);
+return isOK;
+return;
+yourFunction(13,5)
+{int a=13;}
+(5)
+'c'-'a'
+if ( i<=0 )
+x+=y;

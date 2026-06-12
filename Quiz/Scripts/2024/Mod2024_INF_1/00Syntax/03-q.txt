@@ -1,0 +1,26 @@
+  <fabric>
+     check auto
+     <good>
+         00Syntax/03-good.txt
+     <\good>
+
+     <bad> 
+         00Syntax/03-bad.txt
+     <\bad>
+	<ncase>
+	   4
+	<\ncase>
+	<nGood>
+	   2
+	<\nGood>
+	<mode>
+	   SpaceBetween
+	<\mode>
+     <before>
+         Вiдмiтити все, де нема синтаксичних помилок:{ENDL}
+\begin{verbatim}{ENDL}
+     <\before>
+<after>
+\end{verbatim}{ENDL}
+<\after>
+   <\fabric>

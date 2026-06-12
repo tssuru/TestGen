@@ -1,0 +1,30 @@
+echo
+echo =248_1.py 
+python3.11 -W "ignore" ./248_1.py 
+echo
+echo =248_2.py 
+python3.11 -W "ignore" ./248_2.py 
+echo
+echo =248_3.py 
+python3.11 -W "ignore" ./248_3.py 
+echo
+echo =248_4.py 
+python3.11 -W "ignore" ./248_4.py 
+echo
+echo =248_5.py 
+python3.11 -W "ignore" ./248_5.py 
+echo
+echo =248_6.py 
+python3.11 -W "ignore" ./248_6.py 
+echo
+echo =248_7.py 
+python3.11 -W "ignore" ./248_7.py 
+echo
+echo =248_8.py 
+python3.11 -W "ignore" ./248_8.py 
+echo
+echo =248_10.py 
+python3.11 -W "ignore" ./248_10.py 
+echo
+echo =248_11.py 
+python3.11 -W "ignore" ./248_11.py 

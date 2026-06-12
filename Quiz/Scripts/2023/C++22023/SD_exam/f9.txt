@@ -1,0 +1,22 @@
+<fabric>
+check auto
+  <good>
+   good9.txt
+  <\good>
+  <bad>
+   bad9.txt
+  <\bad>
+  <ncase>
+	4
+  <\ncase>
+<nGood>
+2
+<\nGood>
+<before>
+Що з наведеного нижче не розглядалось та навіть не згадувалось у курсі?\par{ENDL}
+\vspace{2mm}{ENDL}{ENDL}
+<\before>
+
+
+
+<\fabric>

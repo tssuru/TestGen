@@ -1,0 +1,30 @@
+echo
+echo =269_1.py 
+python3.10 ./269_1.py 
+echo
+echo =269_2.py 
+python3.10 ./269_2.py 
+echo
+echo =269_3.py 
+python3.10 ./269_3.py 
+echo
+echo =269_4.py 
+python3.10 ./269_4.py 
+echo
+echo =269_5.py 
+python3.10 ./269_5.py 
+echo
+echo =269_6.py 
+python3.10 ./269_6.py 
+echo
+echo =269_7.py 
+python3.10 ./269_7.py 
+echo
+echo =269_8.py 
+python3.10 ./269_8.py 
+echo
+echo =269_9.py 
+python3.10 ./269_9.py 
+echo
+echo =269_10.py 
+python3.10 ./269_10.py 

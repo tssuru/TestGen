@@ -1,0 +1,22 @@
+//<fabric>
+//collate
+  <fabric>
+  collate 
+  include Scope/01-q.txt
+  include Scope/02-q.txt
+      <n1>
+         5
+      <\n1>
+      <n2>
+         15
+      <\n2>
+  <\fabric>
+
+//  include 06-f-part3.txt
+//  <n1>
+//     20
+//  <\n1>
+//  <n2>
+//    10
+//  <\n2>
+//<\fabric>

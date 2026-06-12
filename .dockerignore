@@ -1,0 +1,26 @@
+**/node_modules
+**/dist
+**/*.tsbuildinfo
+**/.DS_Store
+.claude
+.omc
+*.zip
+*.tar.gz
+platform/api/tmp
+platform/api/data
+Quiz/bin
+# Source materials not needed at runtime (PDFs, Python seed scripts, notebooks, Office docs, logs)
+**/*.pdf
+**/*.py
+**/*.ipynb
+**/*.doc
+**/*.docx
+**/*.xlsx
+**/*.csv
+**/*.bat
+**/*.cmake
+**/*.make
+**/*.new
+**/*.log
+docs
+setup.sh

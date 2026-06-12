@@ -1,0 +1,30 @@
+echo
+echo =350_1.py 
+python3.10 ./350_1.py 
+echo
+echo =350_2.py 
+python3.10 ./350_2.py 
+echo
+echo =350_3.py 
+python3.10 ./350_3.py 
+echo
+echo =350_4.py 
+python3.10 ./350_4.py 
+echo
+echo =350_5.py 
+python3.10 ./350_5.py 
+echo
+echo =350_6.py 
+python3.10 ./350_6.py 
+echo
+echo =350_7.py 
+python3.10 ./350_7.py 
+echo
+echo =350_8.py 
+python3.10 ./350_8.py 
+echo
+echo =350_9.py 
+python3.10 ./350_9.py 
+echo
+echo =350_10.py 
+python3.10 ./350_10.py 

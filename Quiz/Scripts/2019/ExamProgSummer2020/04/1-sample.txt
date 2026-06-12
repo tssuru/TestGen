@@ -1,0 +1,114 @@
+try:
+    for a in range(15, 2, -2):
+        if a<=3:
+            break
+        print(a, end=' ')
+    else:
+        print('end',end=';')
+    print(a)
+except:
+    print('ERR')
+
+try:
+    for b in range(-6, 11, -1):
+        if b>7:
+            continue
+        print(b, end=' ')
+    else:
+        print(b,end=';')
+    print(b)
+except:
+    print('ERR')
+
+try:
+    for f in range(-3, -12, 3):
+        if f>=4:
+            continue
+        print(f, end=' ');f = -2
+    else:
+        print(f,end=';')
+    print(f)
+except:
+    print('ERR')
+
+try:
+    for d in range(-7, -3, -3):
+        if d<6:
+            break
+        print(d, end=' ');d = -7
+    else:
+        print(d,end=';')
+    print(d)
+except:
+    print('ERR')
+
+try:
+    for e in range(-8, 9, 2):
+        if e>8:
+            continue
+        print(e, end=' ')
+    else:
+        print(e,end=';')
+    print(e)
+except:
+    print('ERR')
+
+try:
+    for c in range(7, 12, -3):
+        if c>=5:
+            continue
+        print(c, end=' ')
+    else:
+        print(c,end=';')
+    print(c)
+except:
+    print('ERR')
+
+try:
+    for f in range(-9, -13, -2):
+        if f<3:
+            continue
+        print(f, end=' ')
+    else:
+        print('end',end=';')
+    print(f)
+except:
+    print('ERR')
+
+try:
+    for c in range(-1, 5, -1):
+        if c<=7:
+            break
+        print(c, end=' ');c = 10
+        if c<=3:
+            break
+    else:
+        print(c,end=';')
+    print(c)
+except:
+    print('ERR')
+
+try:
+    for e in range(9, 15, 3):
+        if e>8:
+            continue
+        print(e, end=' ')
+        if e>=4:
+            break
+    else:
+        print(e,end=';')
+    print(e)
+except:
+    print('ERR')
+
+try:
+    for d in range(-11, -7, 2):
+        if d<=6:
+            continue
+        print(d, end=' ')
+    else:
+        print(d,end=';')
+    print(d)
+except:
+    print('ERR')
+

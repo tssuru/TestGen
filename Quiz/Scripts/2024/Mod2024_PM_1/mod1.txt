@@ -1,0 +1,6684 @@
+\documentclass[12pt, ukrainian]{article}
+\setlength\textwidth{170mm} \setlength\hoffset{-25mm}
+%\setlength\textheight{277mm} \setlength\voffset{-38mm}
+%\setlength\parindent{0mm}
+\pagestyle{empty}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\DeclareCaptionFormat{nocaption}{}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+\usepackage[Export]{adjustbox} 
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+\begin{document}
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 1 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5/6/7*4)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4**True--2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(True!=7 or not 4==9 and 8.0>5.0)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6.0 == "True")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7 == True < 3 > 5.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n>3
+
+print(f(-3) and f(2))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(a):
+    u=94
+    if a: 
+        u=4
+    elif a<=0:
+         return 2
+    else:
+         u=0
+    return u
+
+print(h(-1))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 8, 7, 6
+def g(a, b=9, c=9):
+    print(a, b, c, end=" ")
+
+g(5, 0, 4)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,0,5
+def g(a):
+    a+=3
+    b=2
+    c=4
+    return a+b+c
+
+a,b,c=9,3,7
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{2024}{n + m}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 2 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6//3*8*8)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(-2**-4+2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False<=2.0 and not 3<6.0 or 8>=6)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("4" <= 1)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9 <= 4.0  is  4 >= 7.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-7) or f(8))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(b):
+    v=25
+    if b>3: 
+        return 6
+    if b>=4:
+         v=9
+    else:
+         return 5
+    return v
+
+print(f(0))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 8, 6
+def h(a, b, c=6):
+    print(a, b, c, end=" ")
+
+h(2, c=1)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,1,6
+def f(b):
+    a-=5
+    b=1
+    c=5
+    return a+b+c
+
+a,b,c=2,7,8
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{1}{\sqrt{n \cdot m}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 3 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3//5%6*9)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4**-1.0*-1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5==4.0 and not False>=2 and 9.0!=5)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("8.0j" < False)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6 != 2 < False  is  6.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(9) and f(-4))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(d):
+    z=62
+    if d==-3: 
+        return 8
+    if d<1:
+         z=1
+    else:
+         return 3
+    return z
+
+print(g(-9))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 9, 7, 8
+def f(a, b, c):
+    print(a, b, c, end=" ")
+
+f(a=3, 2, b=4)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,2,1
+def h(a):
+    a*=4
+    b=1
+    c=2
+    return a+b+c
+
+a,b,c=4,3,0
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{1}{x \cdot y}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 4 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4/8//4*5)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2**-2-True)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 7.0>True or 8<=2 or 3.0<3)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(True != "2j")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(8 <= 9.0 >= False != 3.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n<=0
+
+print(f(-9) or f(-1))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(a,b):
+    c=27
+    if a>=5:
+        c=4
+    if b<=-2:
+         return 6
+    else: 
+        c=0
+    return c
+
+print(g(3,7))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 6, 8
+def h(a, b=9, c):
+    print(a, b, c, end=" ")
+
+h(3, 1, a=0)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,6,0
+def f(b):
+    a*=3
+    b=5
+    c=3
+    return a+b+c
+
+a,b,c=2,9,4
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{2025}{\sqrt{n \cdot m}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 5 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9/4//3*6)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(-2**1.0+False)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9.0<=4.0 or not 4>=6 and 7!=False)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("False" >= "4.0")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5 > 7 == 8.0 < True)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n==-1
+
+print(f(-8) or f(-5))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(a,b):
+    c=96
+    if b:
+        return 1
+    elif a==4:
+         c=2
+    else: 
+        return 5
+    return c
+
+print(h(8,-5))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 8, 7, 6
+def f(a, b=9, c):
+    print(a, b, c, end=" ")
+
+f(5, 2)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,1,8
+def g(a):
+    a-=4
+    b=1
+    c=2
+    return a+b+c
+
+a,b,c=7,6,3
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{1}{n} \cdot \sqrt{m}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 6 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7//9/5*3)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(1**1.0*1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 3.0<9 and 7>True or 2.0==6)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7.0 > 9)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3 > 9 != 2.0 >= 5)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(5) and f(0))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(c):
+    x=82
+    if c!=-1: 
+        x=7
+    elif c<5:
+         return 3
+    else:
+         x=6
+    return x
+
+print(f(1))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 9, 8, 6
+def g(a, b, c):
+    print(a, b, c, end=" ")
+
+g(4, c=3, b=5)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=6,1,9
+def g(a):
+    a=2
+    b=4
+    c=1
+    return a+b+c
+
+a,b,c=3,0,5
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{y}{\sqrt{x}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 7 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(8//7*9*7)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9**0.5*-2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 9!=True and 8<4 or 6.0>8.0)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("8j" <= "True")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(8 == 6  is  8.0 <= True)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-2) and f(3))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(a,b):
+    c=63
+    if a!=2:
+        return 9
+    elif b<1:
+         c=7
+    else: 
+        return 3
+    return c
+
+print(f(-4,-7))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 8, 7
+def f(a, b, c=6):
+    print(a, b, c, end=" ")
+
+f(b=1, c=0, 3)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,4,2
+def h(b):
+    a+=2
+    b=4
+    c=1
+    return a+b+c
+
+a,b,c=3,6,9
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$n + \frac{1}{\sqrt{m}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 8 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7/7%3*4)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9**-0.5*False)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5.0<=3 or not 2==5 and 7.0>=False)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2.0 >= False)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2.0 > 2 >= 4 != 5)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n<4
+
+print(f(7) or f(6))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(a,b):
+    c=36
+    if b>-3:
+        c=8
+    if a<-1:
+         return 5
+    else: 
+        c=7
+    return c
+
+print(h(4,2))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 9, 8, 9
+def g(a, b=7, c=6):
+    print(a, b, c, end=" ")
+
+g(b=2, c=1, a=4)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,7,0
+def f(a):
+    a*=3
+    b=5
+    c=3
+    return a+b+c
+
+a,b,c=1,8,3
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $a$, $b$ та $c$ і повертає логічну ознаку того, що точка $(a, b, c)$ належить області визначення виразу $$\frac{1}{\sqrt{a}} + \frac{b}{\sqrt{c}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 9 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4/6*7*9)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3**-1+-1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5!=3.0 or not 9>=9.0 and False<4)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3 == "5.0")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3.0  is  5.0 == 9 < False)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n>=-3
+
+print(f(1) and f(4))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(a):
+    w=21
+    if a: 
+        return 0
+    if a==-5:
+         w=1
+    else:
+         return 5
+    return w
+
+print(g(4))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 8, 7, 6
+def h(a, b, c=9):
+    print(a, b, c, end=" ")
+
+h(0, 5)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=1,9,7
+def g(b):
+    a=1
+    b-=5
+    c=2
+    return a+b+c
+
+a,b,c=5,4,0
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{1}{\sqrt{n + m - 1}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 10 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(8//5//8*8)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4**-0.5*1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 6.0>6 and True==3 or 2.0<=8)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("False" != "3.0j")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9.0 <= 4  is  8 == 4.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-6) or f(8))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(a,b):
+    c=76
+    if b:
+        c=8
+    if a>-4:
+         return 9
+    else: 
+        c=0
+    return c
+
+print(f(2,-1))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 6, 7, 9
+def h(a, b=8, c=7):
+    print(a, b, c, end=" ")
+
+h(5, 4, 3)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=6,2,0
+def h(a):
+    a+=4
+    b=2
+    c=4
+    return a+b+c
+
+a,b,c=4,7,3
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{1}{x} + \frac{1}{y}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 11 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6/3%9*7)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(1**-2-2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2<=7 or not 7.0!=4 and True<5.0)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("6" < 7)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False < 7 >= 3 <= 6.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n!=-2
+
+print(f(-2) and f(4))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(a,b):
+    c=21
+    if b<=3:
+        return 3
+    elif a!=-5:
+         return 6
+    else: 
+        c=4
+    return c
+
+print(g(-9,0))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 9, 6, 8
+def g(a, b=7, c):
+    print(a, b, c, end=" ")
+
+g(0, c=2, b=1)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=6,8,9
+def g(b):
+    a=5
+    b*=1
+    c=3
+    return a+b+c
+
+a,b,c=1,5,2
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{\sqrt{x}}{\sqrt{y}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 12 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9//4/6*6)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(-3**2.0-True)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 3>=9 and 8.0>4.0 or 8==False)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9.0 > True)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(True > 6 != 2 < 7.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-1) or f(5))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(c):
+    y=60
+    if c>=2: 
+        y=9
+    elif c!=-4:
+         return 8
+    else:
+         y=4
+    return y
+
+print(h(-8))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 9, 6, 8
+def f(a, b, c):
+    print(a, b, c, end=" ")
+
+f(b=1, a=0, c=2)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=7,8,4
+def f(b):
+    a=3
+    b=5
+    c=3
+    return a+b+c
+
+a,b,c=2,9,6
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{1}{n} + m$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 13 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5//9%5*3)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(1**1.0*-1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 4.0>7 or 8.0!=True or 2>=5)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("5j" < "True")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3 == 3.0  is  2.0 <= True)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n>=-4
+
+print(f(-3) and f(-4))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(a,b):
+    c=28
+    if a>=0:
+        c=2
+    if a==5:
+         return 1
+    else: 
+        return 0
+    return c
+
+print(g(-3,3))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 9, 8
+def g(a, b, c=6):
+    print(a, b, c, end=" ")
+
+g(a=4, 5, c=3)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,1,3
+def h(a):
+    a=2
+    b=5
+    c=4
+    return a+b+c
+
+a,b,c=7,4,2
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{1}{n + m}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 14 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3/8/4*5)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(1**0.5*1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6<=False and not 9.0==8 and 5<6.0)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(1.0 >= False)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6 > 7 != False >= 5)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-5) or f(-9))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(b):
+    w=86
+    if b>-2: 
+        w=7
+    if b<=0:
+         return 2
+    else:
+         return 8
+    return w
+
+print(g(5))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 8, 6, 9
+def f(a, b, c):
+    print(a, b, c, end=" ")
+
+f(b=5, c=0, 2)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,1,4
+def h(b):
+    a-=3
+    b=4
+    c=5
+    return a+b+c
+
+a,b,c=7,8,5
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{1}{x+1} + \frac{1}{y-1}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 15 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6//9*8*6)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2**False+-2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 5.0<6 and 9>=3.0 and False>7)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3 > "6.0")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9.0 != 2  is  9 < 6.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-7) and f(2))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(d):
+    x=97
+    if d: 
+        x=7
+    elif d<5:
+         return 6
+    else:
+         x=4
+    return x
+
+print(f(-3))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 6, 9
+def h(a, b=7, c=8):
+    print(a, b, c, end=" ")
+
+h(3, 1, b=4)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,6,0
+def f(a):
+    a=2
+    b+=1
+    c=2
+    return a+b+c
+
+a,b,c=3,0,9
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{1}{\sqrt{x}} + \frac{1}{\sqrt{y}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 16 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5/8//7*3)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4**-1.0*True)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(True==2 or not 7.0!=2.0 or 4<=3)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2.0 <= 9)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4.0 > 8 >= 4 <= False)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n!=1
+
+print(f(6) or f(1))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(d):
+    y=49
+    if d!=-2: 
+        y=9
+    if d>-4:
+         return 5
+    else:
+         return 1
+    return y
+
+print(h(7))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 6, 9
+def h(a, b=8, c):
+    print(a, b, c, end=" ")
+
+h(2, a=0)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=7,6,4
+def g(b):
+    a=5
+    b-=4
+    c=3
+    return a+b+c
+
+a,b,c=2,5,8
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{1}{\sqrt{x \cdot y}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 17 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4/6%4*9)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9**1.0*False)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 5>9 and 6.0<=2.0 and False<2)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("2" != "True")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5.0 == 5 <= True >= 8.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n>2
+
+print(f(-6) and f(0))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(a,b):
+    c=85
+    if a<4:
+        c=7
+    elif b<=-1:
+         return 9
+    else: 
+        c=6
+    return c
+
+print(f(0,-4))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 8, 6
+def g(a, b, c=9):
+    print(a, b, c, end=" ")
+
+g(3, c=5, b=1)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,8,3
+def f(b):
+    a=1
+    b=5
+    c=2
+    return a+b+c
+
+a,b,c=9,2,4
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$, $m$ та $k$ і повертає логічну ознаку того, що точка $(n, m, k)$ належить області визначення виразу $$\frac{k}{n + m}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 18 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(8//5*9*4)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9**0.5*2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not True>=3 or 7==4.0 or 4!=9.0)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("5.0j" == False)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(8 != 4 > 3 == 7.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(3) or f(7))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(a,b):
+    c=46
+    if b:
+        c=3
+    elif b>=0:
+         return 4
+    else: 
+        return 1
+    return c
+
+print(h(-6,4))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 6, 8, 9
+def f(a, b=7, c=9):
+    print(a, b, c, end=" ")
+
+f(a=4, 3, b=2)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=3,1,2
+def f(a):
+    a*=1
+    b=1
+    c=5
+    return a+b+c
+
+a,b,c=7,4,6
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$, $m$ та $k$ і повертає логічну ознаку того, що точка $(n, m, k)$ належить області визначення виразу $$\frac{1}{\sqrt{n + m}} + k$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 19 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7/4/3*8)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(1**-1.0*False)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 3.0>=False and 8>6 and 8!=7.0)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(1.0 < "7.0")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7 < 6  is  6.0 <= 3.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n<-3
+
+print(f(9) and f(-8))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(a,b):
+    c=16
+    if b==3:
+        c=2
+    if a>-5:
+         return 5
+    else: 
+        c=8
+    return c
+
+print(g(-5,6))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 6, 8
+def f(a, b, c):
+    print(a, b, c, end=" ")
+
+f(5, a=1)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,5,3
+def h(a):
+    a=3
+    b+=2
+    c=4
+    return a+b+c
+
+a,b,c=0,9,1
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{1}{\sqrt{n}} + \frac{1}{\sqrt{m}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 20 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9//3//5*7)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4**-3-1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5.0<3 or not 2<=8.0 or 9==True)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False != 7)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(True > 2 != False < 9.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-1) or f(0))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(c):
+    u=32
+    if c==-3: 
+        u=0
+    elif c<=3:
+         return 3
+    else:
+         u=2
+    return u
+
+print(f(8))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 8, 9
+def g(a, b=6, c):
+    print(a, b, c, end=" ")
+
+g(4, 0, c=5)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,6,5
+def h(b):
+    a=1
+    b=3
+    c=4
+    return a+b+c
+
+a,b,c=1,7,0
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $a$, $b$ та $c$ і повертає логічну ознаку того, що точка $(a, b, c)$ належить області визначення виразу $$\frac{1}{a} + \frac{1}{b} + c$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 21 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3//7%6*5)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4**-0.5*-1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6>6.0 or not 4<=True or 5.0>=7)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("True" == "5j")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9 >= 5  is  3 == 4.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n==1
+
+print(f(-9) or f(-8))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(a,b):
+    c=66
+    if b!=2:
+        return 8
+    elif a<1:
+         c=1
+    else: 
+        c=0
+    return c
+
+print(h(7,-2))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 8, 6
+def h(a, b, c):
+    print(a, b, c, end=" ")
+
+h(b=4, c=0, a=2)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,9,7
+def f(b):
+    a*=1
+    b=5
+    c=2
+    return a+b+c
+
+a,b,c=6,1,4
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{2024}{\sqrt{x \cdot y}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 22 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5/6/4*9)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(-1**False+2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False<5 and not 3==8.0 and 7.0!=7)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4.0 >= "9.0j")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6 < 5.0 == 7 >= 8.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(1) and f(8))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(a,b):
+    c=43
+    if a:
+        return 7
+    if b!=-2:
+         return 3
+    else: 
+        c=4
+    return c
+
+print(f(5,9))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 9, 9, 7
+def f(a, b=6, c=8):
+    print(a, b, c, end=" ")
+
+f(1, 3, 3)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,5,3
+def g(b):
+    a-=3
+    b=4
+    c=3
+    return a+b+c
+
+a,b,c=8,4,6
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{1}{n+1} + \frac{1}{m-1}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 23 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(8//4*8*6)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3**2.0+-2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2!=8 or not True==4 or 3.0<9.0)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("False" <= True)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9  is  True > 2 != False)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n<=4
+
+print(f(2) or f(6))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(a):
+    z=48
+    if a: 
+        z=6
+    if a>=4:
+         return 5
+    else:
+         return 8
+    return z
+
+print(h(-4))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 9, 6, 7
+def g(a, b, c=8):
+    print(a, b, c, end=" ")
+
+g(0, 5)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=1,3,0
+def h(a):
+    a+=5
+    b=4
+    c=2
+    return a+b+c
+
+a,b,c=2,5,7
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $a$, $b$ та $c$ і повертає логічну ознаку того, що точка $(a, b, c)$ належить області визначення виразу $$\frac{c}{\sqrt{a \cdot b}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 24 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9/9//6*8)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(-1**-4-True)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5>2.0 and not False>=9 and 6<=4.0)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("8" > 4)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4 <= 8  is  2.0 <= 7.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(9) and f(7))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(b):
+    v=20
+    if b!=2: 
+        v=4
+    elif b>-1:
+         v=9
+    else:
+         return 3
+    return v
+
+print(g(-6))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 6, 8, 9
+def h(a, b=7, c):
+    print(a, b, c, end=" ")
+
+h(b=2, c=4, 1)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,6,0
+def g(a):
+    a=3
+    b=1
+    c=2
+    return a+b+c
+
+a,b,c=3,9,1
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{1}{\sqrt{x + y}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 25 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4//8/9*5)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(-3**4+False)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 6.0<7 or True<=3.0 or 8!=4)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("False" <= "1j")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2 != 9.0 == 6 < 7.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-7) and f(-2))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(a,b):
+    c=87
+    if b>=-3:
+        c=6
+    elif a>-4:
+         return 9
+    else: 
+        return 5
+    return c
+
+print(h(9,-9))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 6, 8, 9
+def f(a, b=7, c=7):
+    print(a, b, c, end=" ")
+
+f(a=3, 2, b=0)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,9,8
+def g(b):
+    a+=1
+    b=5
+    c=1
+    return a+b+c
+
+a,b,c=3,6,0
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $a$, $b$ та $c$ і повертає логічну ознаку того, що точка $(a, b, c)$ належить області визначення виразу $$\frac{2024}{\sqrt{a + b}} + c$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 26 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3/7//7*7)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4**-0.5*-1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7.0>=False and not 5==6 and 3>5.0)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3.0 > True)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False > 3 >= True < 5)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n>-1
+
+print(f(-5) or f(4))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(c):
+    v=57
+    if c>=-5: 
+        return 1
+    if c<1:
+         v=0
+    else:
+         return 2
+    return v
+
+print(f(6))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 9, 8, 6
+def g(a, b, c=9):
+    print(a, b, c, end=" ")
+
+g(5, c=4, b=1)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=1,9,2
+def f(a):
+    a=4
+    b*=2
+    c=3
+    return a+b+c
+
+a,b,c=5,4,7
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$, $m$ та $k$ і повертає логічну ознаку того, що точка $(n, m, k)$ належить області визначення виразу $$\frac{k}{\sqrt{n \cdot m}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 27 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6/3*3*4)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3**-1-True)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 2!=8.0 or 4.0==9 and 5>True)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("8.0" < 6)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(8 != 5.0  is  8.0 > 7)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-4) or f(5))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(a,b):
+    c=89
+    if b:
+        c=2
+    if a<=-2:
+         c=0
+    else: 
+        return 6
+    return c
+
+print(f(-8,-3))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 8, 6
+def h(a, b, c):
+    print(a, b, c, end=" ")
+
+h(c=0, a=1, b=2)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,2,1
+def h(a):
+    a=2
+    b-=4
+    c=5
+    return a+b+c
+
+a,b,c=5,9,0
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $a$, $b$ та $c$ і повертає логічну ознаку того, що точка $(a, b, c)$ належить області визначення виразу $$\frac{1}{\sqrt{a + b}} + c$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 28 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7//5%5*3)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9**0.5*1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4<=2.0 and not 3>=9.0 or 6<False)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("False" == 8.0)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4 <= 3.0 >= 9 == 2)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n==-2
+
+print(f(-3) and f(-6))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(a):
+    x=85
+    if a: 
+        x=7
+    elif a<=-1:
+         x=7
+    else:
+         return 6
+    return x
+
+print(g(-5))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 6, 8, 9
+def g(a, b=7, c):
+    print(a, b, c, end=" ")
+
+g(b=3, c=4, 5)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=7,6,3
+def g(b):
+    a*=1
+    b=3
+    c=2
+    return a+b+c
+
+a,b,c=4,9,4
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $a$, $b$ та $c$ і повертає логічну ознаку того, що точка $(a, b, c)$ належить області визначення виразу $$\frac{1}{\sqrt{a}} + \frac{1}{\sqrt{b}} + c$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 29 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5//9%4*7)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(-3**-2--2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2.0>False and not 9.0==8 and 2<9)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("5" >= "1.0j")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False > 2.0 != 6 == 6.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n>=2
+
+print(f(3) and f(-7))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(d):
+    w=26
+    if d==-3: 
+        w=2
+    if d<-4:
+         return 9
+    else:
+         w=0
+    return w
+
+print(h(2))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 6, 9
+def f(a, b=8, c=9):
+    print(a, b, c, end=" ")
+
+f(2, a=1)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=7,5,4
+def f(a):
+    a=4
+    b=5
+    c=2
+    return a+b+c
+
+a,b,c=8,6,1
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{1}{x + y + 1}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 30 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3/4//3*5)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(1**1.0*2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 7!=3.0 or 4<=6.0 or 2>=True)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6 != True)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7  is  4.0 < True >= 4)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-1) or f(-5))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(a,b):
+    c=13
+    if b==2:
+        return 4
+    if a!=3:
+         c=1
+    else: 
+        return 7
+    return c
+
+print(g(1,-8))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 8, 6, 7
+def h(a, b=6, c):
+    print(a, b, c, end=" ")
+
+h(0, 3, 5)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,3,8
+def h(b):
+    a=1
+    b=5
+    c=4
+    return a+b+c
+
+a,b,c=0,2,7
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{\sqrt{n}}{\sqrt{m}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 31 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(8/5*7*4)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4**4+-1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6>8 or not 8.0>=7.0 and False<3)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4.0 != "3j")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9 <= 6.0 <= 8 == 2.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(4) or f(6))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(a,b):
+    c=93
+    if a:
+        c=8
+    elif a<-5:
+         return 9
+    else: 
+        c=2
+    return c
+
+print(g(-1,5))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 8, 9, 7
+def g(a, b, c):
+    print(a, b, c, end=" ")
+
+g(4, 2)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=3,0,1
+def f(a):
+    a=1
+    b+=5
+    c=3
+    return a+b+c
+
+a,b,c=6,2,5
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$, $m$ та $k$ і повертає логічну ознаку того, що точка $(n, m, k)$ належить області визначення виразу $$\frac{1}{\sqrt{n}} + \frac{m}{\sqrt{k}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 32 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6//8/9*6)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(1**-1.0*True)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not True==4.0 and 9!=7 or 5.0<=5)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(True < 2)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False > 5  is  3 < 5)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n<=3
+
+print(f(-3) and f(8))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(b):
+    u=11
+    if b==2: 
+        return 5
+    elif b<=-5:
+         u=4
+    else:
+         return 8
+    return u
+
+print(h(3))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 6, 9, 7
+def f(a, b, c=8):
+    print(a, b, c, end=" ")
+
+f(5, 1, c=3)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,9,6
+def g(b):
+    a=3
+    b=3
+    c=5
+    return a+b+c
+
+a,b,c=0,9,4
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$, $m$ та $k$ і повертає логічну ознаку того, що точка $(n, m, k)$ належить області визначення виразу $$\frac{1}{n} + \frac{1}{m} + k$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 33 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7/3//5*3)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(-2**True--2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2<8 and not 7>=True and 8.0<=7.0)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("False" <= "9.0")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4.0 >= True != 7.0 == 4)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-8) or f(0))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(a,b):
+    c=47
+    if b==5:
+        c=3
+    elif b>=4:
+         return 5
+    else: 
+        return 9
+    return c
+
+print(f(6,1))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 6, 8
+def h(a, b=9, c):
+    print(a, b, c, end=" ")
+
+h(a=0, 4, c=1)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,7,1
+def h(b):
+    a=4
+    b-=4
+    c=3
+    return a+b+c
+
+a,b,c=8,3,7
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{1}{n + m + 1}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 34 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9//7/8*9)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(-2**-2+1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 4==9 or 5>9.0 or 5.0!=False)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("4" > "2.0j")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2  is  9.0 <= 8 != False)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n<-4
+
+print(f(-4) and f(5))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(b):
+    z=99
+    if b>=4: 
+        return 1
+    if b!=-2:
+         z=3
+    else:
+         z=6
+    return z
+
+print(f(-7))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 6, 7, 8
+def f(a, b, c=9):
+    print(a, b, c, end=" ")
+
+f(0, c=4, b=3)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,9,5
+def h(a):
+    a*=5
+    b=1
+    c=2
+    return a+b+c
+
+a,b,c=4,0,6
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{1}{x} + \sqrt{y}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 35 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4//6*6*8)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9**-1.0*2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3.0<=6 and not 6.0!=3 or 5<True)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9 >= "False")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3.0 < 9 >= 5.0 > 7)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-9) and f(-2))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(c):
+    y=95
+    if c: 
+        return 4
+    elif c>5:
+         y=3
+    else:
+         return 9
+    return y
+
+print(g(-2))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 9, 6, 7
+def g(a, b, c):
+    print(a, b, c, end=" ")
+
+g(2, 5, 4)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,6,0
+def f(b):
+    a-=2
+    b=5
+    c=3
+    return a+b+c
+
+a,b,c=3,8,9
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{1}{x + y}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 36 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9/7%8*7)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4**1.0*False)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 2.0>6 or 4.0==2 and 9>=False)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(True == 6.0)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(8.0  is  6 <= 3 < True)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n!=0
+
+print(f(-6) or f(3))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(a,b):
+    c=88
+    if a>-3:
+        c=2
+    if b<=1:
+         return 3
+    else: 
+        c=5
+    return c
+
+print(h(-7,-6))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 8, 7, 9
+def h(a, b=6, c=8):
+    print(a, b, c, end=" ")
+
+h(3, 2)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,7,1
+def g(b):
+    a+=4
+    b=1
+    c=5
+    return a+b+c
+
+a,b,c=2,0,1
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{1}{n} + \frac{1}{m}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 37 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4/9*6*9)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9**0.5*2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 2.0<False and 6.0==4 and 3!=7)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3.0 > "False")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9 == 5 != 8.0 >= 7.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n<3
+
+print(f(1) and f(7))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(a,b):
+    c=65
+    if a>=-1:
+        return 6
+    if b!=-4:
+         c=7
+    else: 
+        c=0
+    return c
+
+print(h(-2,8))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 9, 7, 8
+def h(a, b, c):
+    print(a, b, c, end=" ")
+
+h(b=5, c=0, 1)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,5,8
+def h(a):
+    a-=3
+    b=4
+    c=2
+    return a+b+c
+
+a,b,c=7,9,4
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$, $m$ та $k$ і повертає логічну ознаку того, що точка $(n, m, k)$ належить області визначення виразу $$\frac{1}{\sqrt{n}} + \frac{1}{\sqrt{m}} + k$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 38 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3//4//3*3)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2**1.0+True)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5.0<=8 or not 4.0>=True or 6>5)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("7" < True)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6 > True < False != 7)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(9) or f(2))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(a):
+    u=72
+    if a: 
+        u=1
+    if a>0:
+         return 5
+    else:
+         return 0
+    return u
+
+print(f(9))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 6, 6, 9
+def f(a, b=7, c=8):
+    print(a, b, c, end=" ")
+
+f(4, b=5)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=3,6,3
+def f(b):
+    a*=1
+    b=2
+    c=5
+    return a+b+c
+
+a,b,c=4,6,8
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$, $m$ та $k$ і повертає логічну ознаку того, що точка $(n, m, k)$ належить області визначення виразу $$\frac{2025}{\sqrt{n + m}} + k$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 39 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5/3%9*4)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(1**-0.5*-1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 8.0==4 or 9>=8 or 3.0<=True)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("5.0j" >= 1)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6.0 >= 4 > 3 == 4.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n==1
+
+print(f(2) and f(5))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(d):
+    v=80
+    if d>=3: 
+        v=7
+    elif d<1:
+         return 8
+    else:
+         v=2
+    return v
+
+print(h(6))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 8, 9
+def g(a, b, c=6):
+    print(a, b, c, end=" ")
+
+g(a=1, c=3, b=0)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,2,7
+def f(a):
+    a=4
+    b=2
+    c=1
+    return a+b+c
+
+a,b,c=5,3,1
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{1}{\sqrt{n + m}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 40 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7//5/5*6)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4**-3--2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9.0<2 and not 7.0>7 and 3!=False)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7.0 == 8)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(8  is  9.0 <= True > 2)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-2) or f(3))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(a,b):
+    c=38
+    if a:
+        return 8
+    elif b<0:
+         c=1
+    else: 
+        return 4
+    return c
+
+print(g(2,4))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 9, 6
+def h(a, b=8, c):
+    print(a, b, c, end=" ")
+
+h(2, 2, a=0)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,1,7
+def g(a):
+    a=3
+    b+=4
+    c=1
+    return a+b+c
+
+a,b,c=2,9,5
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $a$, $b$ та $c$ і повертає логічну ознаку того, що точка $(a, b, c)$ належить області визначення виразу $$\frac{c}{a + b}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 41 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6/8/7*5)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(-1**2-1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 4<=False and 2==7 or 5.0<2.0)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("9.0" != "8j")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2 < 3.0 == 3 >= 5)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-3) or f(-9))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(b):
+    z=51
+    if b==0: 
+        z=0
+    elif b<=-2:
+         return 9
+    else:
+         z=3
+    return z
+
+print(g(2))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 8, 6, 9
+def g(a, b=7, c=6):
+    print(a, b, c, end=" ")
+
+g(a=3, 1, c=5)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=3,8,1
+def g(a):
+    a+=3
+    b=5
+    c=1
+    return a+b+c
+
+a,b,c=4,6,0
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{m}{\sqrt{n}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 42 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(8//6//4*8)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3**True+False)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3!=4.0 or not True>=6.0 and 6>8)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(True <= "False")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False != 5.0 <= 9  is  2.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n>2
+
+print(f(0) and f(8))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(c):
+    x=89
+    if c: 
+        return 4
+    if c!=5:
+         x=7
+    else:
+         return 5
+    return x
+
+print(h(-9))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 8, 9, 7
+def f(a, b, c=6):
+    print(a, b, c, end=" ")
+
+f(4, 3)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,2,5
+def f(b):
+    a-=2
+    b=4
+    c=2
+    return a+b+c
+
+a,b,c=7,4,2
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$x + \frac{1}{\sqrt{y}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 43 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9//7%5*9)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4**1.0*1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 7.0>=9 or 8.0<5 or 3<=True)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("True" == "2.0j")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7 > 8 <= True == 4)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(9) or f(-4))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(d):
+    y=28
+    if d<=-4: 
+        y=1
+    elif d<2:
+         return 8
+    else:
+         return 6
+    return y
+
+print(f(7))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 9, 8, 7
+def g(a, b, c):
+    print(a, b, c, end=" ")
+
+g(5, 4, b=2)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,3,7
+def h(b):
+    a=5
+    b*=3
+    c=1
+    return a+b+c
+
+a,b,c=6,0,5
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $a$, $b$ та $c$ і повертає логічну ознаку того, що точка $(a, b, c)$ належить області визначення виразу $$\frac{c}{a \cdot b}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 44 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5/5*9*7)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2**-2-False)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 9!=4 and 3.0>8 and 9.0==False)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5.0 >= "4")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5.0 >= 2.0  is  6 < 6)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n<=-1
+
+print(f(-1) and f(-8))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(a,b):
+    c=95
+    if a==-5:
+        c=5
+    if b>1:
+         return 7
+    else: 
+        c=3
+    return c
+
+print(f(0,5))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 9, 7, 8
+def h(a, b=6, c):
+    print(a, b, c, end=" ")
+
+h(a=0, b=1, a=1)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=1,8,5
+def f(a):
+    a=4
+    b+=5
+    c=1
+    return a+b+c
+
+a,b,c=1,9,4
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{1}{n} + \sqrt{m}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 45 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3//9%8*4)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9**0.5*2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 2>5 or True<=6 or 2.0<7.0)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False <= 1)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False != 5 <= 7.0 >= 8.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n!=-3
+
+print(f(1) and f(7))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(a,b):
+    c=45
+    if b:
+        return 4
+    elif a<=0:
+         c=2
+    else: 
+        return 9
+    return c
+
+print(h(8,0))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 6, 8, 7
+def f(a, b, c=9):
+    print(a, b, c, end=" ")
+
+f(0, 4, 5)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=3,7,8
+def h(a):
+    a*=4
+    b=3
+    c=2
+    return a+b+c
+
+a,b,c=0,6,2
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{1}{x} + y$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 46 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4/8//7*6)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(1**-1.0*True)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False!=3.0 and not 7>=2 and 6.0==9)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False < 9)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3 > 9.0 != 8 < False)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-7) or f(4))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(a):
+    w=92
+    if a>=4: 
+        w=2
+    if a==1:
+         w=0
+    else:
+         return 8
+    return w
+
+print(g(-1))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 9, 7, 6
+def g(a, b=8, c=7):
+    print(a, b, c, end=" ")
+
+g(2, c=3, b=3)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,1,2
+def h(a):
+    a=2
+    b=4
+    c=3
+    return a+b+c
+
+a,b,c=0,3,5
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$, $m$ та $k$ і повертає логічну ознаку того, що точка $(n, m, k)$ належить області визначення виразу $$\frac{k}{n \cdot m}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 47 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7/4/4*5)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4**-0.5*-2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 4>7 or 4.0!=6 and 8.0<False)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("5j" > 4.0)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6.0 == 9  is  True != 4)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n>=-2
+
+print(f(-5) or f(6))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(a,b):
+    c=49
+    if a>-3:
+        c=8
+    if b!=-1:
+         return 6
+    else: 
+        c=1
+    return c
+
+print(f(-5,1))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 9, 6, 8
+def f(a, b=7, c):
+    print(a, b, c, end=" ")
+
+f(b=5, c=4, 1)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,1,8
+def g(b):
+    a=4
+    b-=3
+    c=1
+    return a+b+c
+
+a,b,c=4,0,5
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{1}{\sqrt{n-1}} + \frac{1}{\sqrt{m+1}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 48 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(8//6*3*3)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(-3**-4+-1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 5.0==5 and 3<=8 or True>=9.0)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("3.0" != "True")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4.0 <= 2 < 7 >= 3.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-6) and f(2))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(a):
+    v=41
+    if a: 
+        return 9
+    if a!=3:
+         v=3
+    else:
+         return 1
+    return v
+
+print(f(-5))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 9, 8, 6
+def h(a, b, c):
+    print(a, b, c, end=" ")
+
+h(2, c=0)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,6,7
+def g(a):
+    a=5
+    b+=2
+    c=4
+    return a+b+c
+
+a,b,c=3,8,4
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{1}{(n-1) \cdot (m+1)}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 49 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6/3%6*8)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(1**-0.5*True)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 5<2.0 or False==9 or 6<=4.0)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("6" < "True")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False > 4.0 == 4  is  7)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-4) or f(-9))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(b):
+    y=68
+    if b>-1: 
+        y=2
+    elif b<=-3:
+         return 7
+    else:
+         y=5
+    return y
+
+print(h(-3))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 6, 8, 9
+def h(a, b=7, c=9):
+    print(a, b, c, end=" ")
+
+h(b=2, c=0, a=1)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,6,9
+def g(b):
+    a=1
+    b=5
+    c=3
+    return a+b+c
+
+a,b,c=7,8,3
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{2025}{x + y}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 50 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4//9*6*7)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4**0.5*False)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 3>=5.0 and 7!=3.0 and True>2)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("1.0" == 2)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7.0 < 3  is  5.0 >= 5)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n<-4
+
+print(f(1) and f(-3))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(d):
+    w=34
+    if d>-5: 
+        w=6
+    if d>=1:
+         return 4
+    else:
+         w=1
+    return w
+
+print(g(3))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 6, 7, 8
+def g(a, b, c):
+    print(a, b, c, end=" ")
+
+g(5, 4)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=6,9,1
+def f(b):
+    a=2
+    b*=1
+    c=3
+    return a+b+c
+
+a,b,c=3,0,7
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{1}{\sqrt{x + y - 1}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 51 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7/8/4*8)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9**-1.0*-1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 8==7.0 or 9.0<=False or 4!=4)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6.0 >= False)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(True != 2 > 6.0 <= 8)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n==0
+
+print(f(5) or f(-6))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(c):
+    x=93
+    if c: 
+        return 2
+    elif c==-2:
+         return 7
+    else:
+         x=0
+    return x
+
+print(h(-7))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 6, 8, 7
+def f(a, b, c=9):
+    print(a, b, c, end=" ")
+
+f(b=3, c=1, 4)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,2,4
+def h(a):
+    a-=5
+    b=4
+    c=2
+    return a+b+c
+
+a,b,c=7,0,2
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{1}{x} \cdot \sqrt{y}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 52 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3//4//3*6)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2**-3--2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7>=6.0 and not 9>8 and True<8.0)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("7.0j" != 7)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(8.0 == False == 9.0  is  6)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(6) and f(-8))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(a,b):
+    c=17
+    if b==2:
+        return 0
+    elif a>=4:
+         return 5
+    else: 
+        c=7
+    return c
+
+print(g(7,-7))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 8, 9, 6
+def h(a, b=7, c):
+    print(a, b, c, end=" ")
+
+h(2, c=5, b=0)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,1,3
+def h(b):
+    a+=5
+    b=3
+    c=1
+    return a+b+c
+
+a,b,c=9,6,5
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{1}{\sqrt{x-1}} + \frac{1}{\sqrt{y+1}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 53 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(5/6/7*3)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4**1.0*1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(4.0==3 or not 6!=2 and 8.0>=True)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("True" <= 8.0)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9 < 3 != 7 > True)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n>=4
+
+print(f(4) or f(0))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(a,b):
+    c=35
+    if a:
+        return 0
+    elif b<=5:
+         c=4
+    else: 
+        return 1
+    return c
+
+print(h(1,8))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 6, 8
+def g(a, b, c):
+    print(a, b, c, end=" ")
+
+g(3, a=2)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,3,4
+def g(b):
+    a=1
+    b*=4
+    c=5
+    return a+b+c
+
+a,b,c=7,6,5
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{1}{n \cdot m}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 54 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(8//7%9*4)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(1**-4+2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7.0>5 and not 2<False or 3.0<=6)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False > "3j")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2.0 <= 6 >= 3.0  is  5)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(9) and f(-7))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(a,b):
+    c=73
+    if a<-2:
+        c=3
+    if b<3:
+         c=2
+    else: 
+        return 8
+    return c
+
+print(g(4,-1))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 9, 8, 9
+def f(a, b=7, c=6):
+    print(a, b, c, end=" ")
+
+f(3, 5, 0)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,5,0
+def h(b):
+    a=5
+    b=4
+    c=2
+    return a+b+c
+
+a,b,c=1,6,7
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{1}{(x-1) \cdot (y+1)}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 55 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9/5*8*9)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(-2**4-1)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3>4 or not 6.0>=False and 9==5.0)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(True != "6j")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False > 4 < 3.0 == 8.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n>2
+
+print(f(-2) and f(7))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(a,b):
+    c=86
+    if b>-4:
+        return 9
+    elif a<=0:
+         c=6
+    else: 
+        c=4
+    return c
+
+print(f(-1,9))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 8, 7, 9
+def g(a, b=6, c):
+    print(a, b, c, end=" ")
+
+g(4, 1, c=5)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,8,1
+def f(a):
+    a-=3
+    b=2
+    c=1
+    return a+b+c
+
+a,b,c=2,5,0
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $x$ та $y$ і повертає логічну ознаку того, що точка $(x, y)$ належить області визначення виразу $$\frac{\sqrt{x}}{\sqrt{y}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 56 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6//3//5*5)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2**2.0+2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(not 2.0!=8 and True<5 or 9.0<=7)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2.0 > "False")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9 >= 2 != 6.0 <= 8)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-1) or f(3))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(a):
+    z=67
+    if a!=-3: 
+        return 6
+    elif a<0:
+         z=5
+    else:
+         z=8
+    return z
+
+print(f(-4))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 6, 9, 7
+def f(a, b, c=8):
+    print(a, b, c, end=" ")
+
+f(a=3, 2, b=4)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,9,3
+def f(a):
+    a=1
+    b=3
+    c=2
+    return a+b+c
+
+a,b,c=0,1,5
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує дійсні числа $a$, $b$ та $c$ і повертає логічну ознаку того, що точка $(a, b, c)$ належить області визначення виразу $$\frac{c}{\sqrt{a \cdot b}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 57 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(6/7%9*7)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9**1.0*True)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7!=5 and not 9.0>=4 or 3.0>True)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("7.0" <= 9)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7 == True > 4.0 <= 9)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n<=-2
+
+print(f(8) or f(-5))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(a,b):
+    c=81
+    if a:
+        return 9
+    if a!=-4:
+         c=7
+    else: 
+        return 5
+    return c
+
+print(h(-3,-4))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 8, 6
+def h(a, b=9, c=8):
+    print(a, b, c, end=" ")
+
+h(b=1, c=0, a=3)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=4,6,7
+def h(b):
+    a=5
+    b*=4
+    c=3
+    return a+b+c
+
+a,b,c=3,9,2
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{1}{n + m}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 58 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(3//5/3*4)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(1**-1.0*-2)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False<9 or not 6==6.0 and 2.0<=2)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print("True" >= "7")
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(2  is  5 >= False < 9.0)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(2) and f(0))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(a,b):
+    c=33
+    if b==-1:
+        c=1
+    elif a>=1:
+         return 3
+    else: 
+        return 2
+    return c
+
+print(f(-4,-5))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 7, 9, 6
+def f(a, b, c=6):
+    print(a, b, c, end=" ")
+
+f(5, 1, a=2)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,1,0
+def f(a):
+    a=2
+    b-=5
+    c=4
+    return a+b+c
+
+a,b,c=6,2,3
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$\frac{1}{n + m + 1}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{\Large{25.10.2024 Контрольна робота \No 1, варіант  \No \textbf { 59 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9/6//7*8)
+%code
+
+%enditem
+
+%beginitem
+2. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(9**-0.5*False)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(8>3 or not 5.0<=False and 7.0<8)
+%code
+%enditem
+
+%beginitem
+4. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(False == 9.0)
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+
+%code
+print(7.0 != 4 <= 2.0 > True)
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання? (повідомлення інтерпретатора про помилку позначати error) 
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(1) and f(3))
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(d):
+    u=47
+    if d!=-1: 
+        return 3
+    if d>5:
+         u=4
+    else:
+         return 9
+    return u
+
+print(g(-8))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+a, b, c = 8, 9, 7
+def g(a, b, c):
+    print(a, b, c, end=" ")
+
+g(4, 0, 0)
+print(a, b, c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=9,8,1
+def g(b):
+    a+=1
+    b=3
+    c=2
+    return a+b+c
+
+a,b,c=4,5,7
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+10. 
+Написати функцію $f$, яка отримує цілі числа $n$ та $m$ і повертає логічну ознаку того, що точка $(n, m)$ належить області визначення виразу $$n + \frac{1}{\sqrt{m}}$$ Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+\end{document}
+

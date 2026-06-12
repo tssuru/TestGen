@@ -1,0 +1,15 @@
+<fabric>
+       collate 
+        include 10/1-q.txt
+        include 10/2-q.txt
+        <n1>
+         50
+        <\n1>
+        <n2>
+         90
+        <\n2>
+  <\fabric>
+
+
+
+

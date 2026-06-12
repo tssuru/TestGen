@@ -1,0 +1,30 @@
+echo
+echo =55_1.py 
+python3.10 ./55_1.py 
+echo
+echo =55_2.py 
+python3.10 ./55_2.py 
+echo
+echo =55_3.py 
+python3.10 ./55_3.py 
+echo
+echo =55_4.py 
+python3.10 ./55_4.py 
+echo
+echo =55_5.py 
+python3.10 ./55_5.py 
+echo
+echo =55_6.py 
+python3.10 ./55_6.py 
+echo
+echo =55_7.py 
+python3.10 ./55_7.py 
+echo
+echo =55_8.py 
+python3.10 ./55_8.py 
+echo
+echo =55_9.py 
+python3.10 ./55_9.py 
+echo
+echo =55_10.py 
+python3.10 ./55_10.py 

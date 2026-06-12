@@ -1,0 +1,30 @@
+echo
+echo =492_1.py 
+python3.10 ./492_1.py 
+echo
+echo =492_2.py 
+python3.10 ./492_2.py 
+echo
+echo =492_3.py 
+python3.10 ./492_3.py 
+echo
+echo =492_4.py 
+python3.10 ./492_4.py 
+echo
+echo =492_5.py 
+python3.10 ./492_5.py 
+echo
+echo =492_6.py 
+python3.10 ./492_6.py 
+echo
+echo =492_7.py 
+python3.10 ./492_7.py 
+echo
+echo =492_8.py 
+python3.10 ./492_8.py 
+echo
+echo =492_9.py 
+python3.10 ./492_9.py 
+echo
+echo =492_10.py 
+python3.10 ./492_10.py 

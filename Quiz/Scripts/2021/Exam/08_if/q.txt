@@ -1,0 +1,12 @@
+  <fabric>
+  collate 
+  include 08_if/01-q.txt
+  include 08_if/02-q.txt
+      <n1>
+         10
+      <\n1>
+      <n2>
+         10
+      <\n2>
+  <\fabric>
+

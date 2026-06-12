@@ -1,0 +1,12 @@
+<fabric>
+    file answer
+    <fname>
+         01-s.txt
+    <\fname>
+    <before>
+Скільки різних слів можна скласти перестановками літер слова{SPACE}
+    <\before>
+<after>
+\par{ENDL}
+<\after>
+<\fabric>

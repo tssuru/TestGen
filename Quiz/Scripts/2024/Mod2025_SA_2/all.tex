@@ -1,0 +1,6897 @@
+\documentclass[12pt, ukrainian]{article}
+\usepackage[a4paper]{geometry}
+\setlength\parindent{0mm}
+\geometry{top=1.1cm,bottom=1.1cm,left=1.1cm,right=1.1cm}
+\pagestyle{empty}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\DeclareCaptionFormat{nocaption}{}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+\usepackage[Export]{adjustbox}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+\begin{document}
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 1 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 8, 6, 7
+def g(a, b, c=9):
+    print(a, b, c, end=" ")
+
+g(5, b=1)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=6,0,3
+def g(b):
+    global c
+    a=5
+    b=3
+    c=4
+    return a+b+c
+
+a,b,c=1,2,8
+print(g(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int(4//2)
+        return 45
+    except KeyboardInterrupt: 
+        return 3
+    except TypeError: 
+        return 6
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+k=9
+while k>=1:
+    k+=-2
+print(k)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for a in range(9,9+3,-2):
+    if a<3:
+        continue
+    print(a, end=' ')
+    a=-7
+else:
+    print(a, end=' ')
+print(a, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+d = ('a','b','c','d','e',0,1,2,4)
+print(d[-13])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+g = '0123456789'
+print(g[::-2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+c=['0','1','2','3']
+c.remove('1')
+print(c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+a=[10,11,12,13]
+a[0:]=[2,3]
+print(a)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 2 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 7, 6, 8
+def f(a, b, c):
+    print(a, b, c, end=" ")
+
+f(a=0, 3, c=4)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=4,7,8
+def f(b):
+    a*=2
+    b=4
+    c=1
+    return a+b+c
+
+a,b,c=9,6,5
+print(f(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int(7%0)
+    except BaseException: 
+        return 5
+    except Exception: 
+        return 1
+    else: return 35
+    finally: return 25
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+j=5
+while j>8:
+    j+=-3
+print(j)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for c in range(1,1+5,-3):
+    if c<=5:
+        pass
+    print(c, end=' ')
+    c=-8
+else:
+    print(c, end=' ')
+print(c, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+e = ('a','b','c','d','e',0,1)
+print(e[3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+b = ['0','1','2','3','4','5','6','7','8','9']
+print(b[:-14:2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+e=[10,11,12,13]
+e.append([1,2])
+print(e)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+c=['0','1','2','3']
+c[-8:1]=[14,]
+print(c)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 3 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 9, 7, 8
+def h(a, b=6, c):
+    print(a, b, c, end=" ")
+
+h(a=2, b=5, c=0)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=2,3,1
+def g(a):
+    global c
+    a+=5
+    b=3
+    c=5
+    return a+b+c
+
+a,b,c=0,6,9
+print(g(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int("b2")
+        return 43
+    except ValueError: 
+        return 9
+    except ZeroDivisionError: 
+        return 0
+    else: return 33
+    finally: return 23
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+n=14
+while n>0:
+    n+=-2
+print(n)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for d in range(0,0+4,2):
+    if d>4:
+        break
+    print(d, end=' ')
+    d=-2
+else:
+    print(d, end=' ')
+print(d, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(n):
+    if n > 9:
+        f(n // 100)
+    print(n % 10, end=' ')
+    
+
+f(123456)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+h = ('a','b','c','d','e',0,1,2,3)
+print(h[-12])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+e = ('0','1','2','3','4','5','6','7','8','9')
+print(e[15:15:-1])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+d=['0','1','2','3']
+d.insert(3, '11')
+print(d)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+g=[10,11,12,13]
+del g[-4:-5]
+print(g)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 4 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 9, 8, 7
+def g(a, b=9, c=6):
+    print(a, b, c, end=" ")
+
+g(1, 2, a=3)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=8,7,0
+def h(a):
+    global c
+    a=2
+    b-=1
+    c=3
+    return a+b+c
+
+a,b,c=1,4,3
+print(h(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = 8>3
+    except ZeroDivisionError: 
+        return 4
+    except KeyboardInterrupt: 
+        return 1
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+n=3
+while n<=7:
+    n+=2
+print(n)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for b in range(2,2+2,3):
+    if b>=6:
+        continue
+    print(b, end=' ')
+    b=0
+    if b<=7:
+        break
+else:
+    print(b, end=' ')
+print(b, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+f = ('a','b','c','d','e',0,1,2,3,4)
+print(f[-10])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+f = [0,1,2,3,4,5,6,7,8,9]
+print(f[8::3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+a=[10,11,12,13]
+print(a.pop(-4), end=' ')
+print(a)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+d=['0','1','2','3']
+del d[7:6]
+print(d)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 5 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 8, 7, 9
+def f(a, b, c=6):
+    print(a, b, c, end=" ")
+
+f(4, 4)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=5,2,6
+def f(b):
+    a-=4
+    b=3
+    c=5
+    return a+b+c
+
+a,b,c=3,8,9
+print(f(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int("8")
+        return 40
+    except TypeError: 
+        return 5
+    except Exception: 
+        return 6
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+m=15
+while m>=2:
+    m+=-3
+print(m)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for f in range(4,4+6,2):
+    if f>=8:
+        pass
+    print(f, end=' ')
+    f=9
+else:
+    print(13, end=' ')
+print(f, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+b = ('a','b','c','d','e',0,1,2)
+print(b[10])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+c = (0,1,2,3,4,5,6,7,8,9)
+print(c[-6::-3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+b=[10,11,12,13]
+b.extend(17)
+print(b)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+b=[10,11,12,13]
+b[-3:]=[12]
+print(b)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 6 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 7, 6, 9
+def h(a, b, c):
+    print(a, b, c, end=" ")
+
+h(3, c=2, b=0)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=1,0,2
+def h(a):
+    a*=2
+    b=1
+    c=4
+    return a+b+c
+
+a,b,c=7,5,4
+print(h(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = 9<=8
+    except BaseException: 
+        return 0
+    except ValueError: 
+        return 7
+    else: return 32
+    finally: return 20
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+i=8
+while i>3:
+    i+=-2
+print(i)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for e in range(-7,-7+6,-2):
+    if e<=7:
+        break
+    print(e, end=' ')
+    e=2
+else:
+    print(e, end=' ')
+print(e, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+f(123456)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+c = ('a','b','c','d','e',0,1,2,4)
+print(c[-5])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+a = ('0','1','2','3','4','5','6','7','8','9')
+print(a[:-6:-2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+h=['0','1','2','3']
+h+='10'
+print(h)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+f=['0','1','2','3']
+f[:-2]=(15,)
+print(f)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 7 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 8, 6, 9
+def h(a, b=8, c=7):
+    print(a, b, c, end=" ")
+
+h(b=1, c=5, 0)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=6,8,3
+def g(b):
+    global c
+    a=4
+    b+=1
+    c=3
+    return a+b+c
+
+a,b,c=0,5,4
+print(g(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int("2")
+        return 42
+    except BaseException: 
+        return 3
+    except Exception: 
+        return 2
+    finally: return 21
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+t=13
+while t>=6:
+    t+=-3
+print(t)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for d in range(8,8+3,-3):
+    if d<6:
+        continue
+    print(d, end=' ')
+    d=4
+else:
+    print(d, end=' ')
+print(d, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+a = ('a','b','c','d','e',0,1,2,3,4)
+print(a[0])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+h = (0,1,2,3,4,5,6,7,8,9)
+print(h[0:-12:-3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+g=['0','1','2','3']
+print(g.index('3'), end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+e=['0','1','2','3']
+del e[:-3]
+print(e)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 8 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 9, 6, 8
+def f(a, b=7, c):
+    print(a, b, c, end=" ")
+
+f(5, 3, 4)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=5,7,9
+def h(a):
+    a=2
+    b=1
+    c=5
+    return a+b+c
+
+a,b,c=4,8,7
+print(h(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int("c1")
+    except KeyboardInterrupt: 
+        return 4
+    except TypeError: 
+        return 0
+    else: return 31
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+j=2
+while j<5:
+    j+=1
+print(j)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for c in range(5,5+4,3):
+    if c>7:
+        continue
+    print(c, end=' ')
+    c=-5
+else:
+    print(c, end=' ')
+print(c, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+           f(n // 100)
+    
+
+f(123456)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+g = ('a','b','c','d','e',0,1)
+print(g[-1])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+d = '0123456789'
+print(d[-15:-10:2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+f=[10,11,12,13]
+print(f.pop(2), end=' ')
+print(f)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+h=[10,11,12,13]
+h[8:2]='13'
+print(h)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 9 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 7, 9, 8
+def g(a, b, c=6):
+    print(a, b, c, end=" ")
+
+g(a=1, 2, b=4)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=1,2,9
+def h(b):
+    a-=2
+    b=5
+    c=1
+    return a+b+c
+
+a,b,c=7,1,6
+print(h(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int(8/1)
+        return 44
+    except ValueError: 
+        return 6
+    except ZeroDivisionError: 
+        return 7
+    finally: return 22
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+m=1
+while m<=13:
+    m+=1
+print(m)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for e in range(-6,-6+2,2):
+    if e>=3:
+        pass
+    print(e, end=' ')
+    e=6
+else:
+    print(e, end=' ')
+print(e, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+d = ('a','b','c','d','e',0,1,2)
+print(d[-8])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+f = ['0','1','2','3','4','5','6','7','8','9']
+print(f[-7:11:3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+e=['0','1','2','3']
+e.insert(-5, '12')
+print(e)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+b=[10,11,12,13]
+b[-5:-6]=()
+print(b)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 10 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 9, 7, 8
+def f(a, b=6, c=6):
+    print(a, b, c, end=" ")
+
+f(5, 3)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=5,4,8
+def g(a):
+    global c
+    a*=3
+    b=2
+    c=5
+    return a+b+c
+
+a,b,c=2,0,9
+print(g(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int(3%0.0)
+    except KeyboardInterrupt: 
+        return 9
+    except Exception: 
+        return 5
+    else: return 30
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+i=7
+while i<8:
+    i+=2
+print(i)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for f in range(-8,-8+5,-3):
+    if f<=5:
+        break
+    print(f, end=' ')
+    f=5
+else:
+    print(f, end=' ')
+print(f, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+h = ('a','b','c','d','e',0,1,2,3)
+print(h[-6])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+g = [0,1,2,3,4,5,6,7,8,9]
+print(g[10:1:-1])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+h=[10,11,12,13]
+h.extend('13')
+print(h)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+h=['0','1','2','3']
+del h[-2]
+print(h)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 11 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 9, 8, 7
+def h(a, b, c):
+    print(a, b, c, end=" ")
+
+h(1, 0, c=2)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=7,3,5
+def f(a):
+    a=4
+    b+=5
+    c=1
+    return a+b+c
+
+a,b,c=2,1,9
+print(f(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int("a4")
+        return 41
+    except ZeroDivisionError: 
+        return 6
+    except TypeError: 
+        return 9
+    else: return 34
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+t=7
+while t>9:
+    t+=-2
+print(t)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for a in range(3,3+2,-2):
+    if a>8:
+        continue
+    print(a, end=' ')
+    a=-1
+else:
+    print(13, end=' ')
+print(a, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+e = ('a','b','c','d','e',0,1,2,3)
+print(e[-12])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+c = ['0','1','2','3','4','5','6','7','8','9']
+print(c[:4:3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+b=[10,11,12,13]
+b.remove(13)
+print(b)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+g=[10,11,12,13]
+g[:8]='11'
+print(g)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 12 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 7, 9, 6
+def g(a, b=8, c):
+    print(a, b, c, end=" ")
+
+g(a=1, c=2, a=3)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=7,3,6
+def h(b):
+    global c
+    a+=2
+    b=4
+    c=3
+    return a+b+c
+
+a,b,c=4,0,8
+print(h(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int("0")
+    except BaseException: 
+        return 2
+    except ValueError: 
+        return 1
+    finally: return 24
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+t=5
+while t<11:
+    t+=1
+print(t)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for b in range(-9,-9+5,3):
+    if b<4:
+        continue
+    print(b, end=' ')
+    b=-9
+    if b>=5:
+        break
+else:
+    print(b, end=' ')
+print(b, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+c = ('a','b','c','d','e',0,1)
+print(c[5])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+a = [0,1,2,3,4,5,6,7,8,9]
+print(a[-11:8:2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+f=['0','1','2','3']
+f+=[2,3]
+print(f)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+c=['0','1','2','3']
+c[:-7]=[1,2]
+print(c)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 13 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 9, 8, 7
+def f(a, b=6, c=6):
+    print(a, b, c, end=" ")
+
+f(b=5, c=0, 4)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=0,4,9
+def g(b):
+    a-=2
+    b=3
+    c=4
+    return a+b+c
+
+a,b,c=7,1,8
+print(g(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int(7/2)
+    except ValueError: 
+        return 5
+    except ZeroDivisionError: 
+        return 3
+    finally: return 23
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+j=10
+while j>=7:
+    j+=-3
+print(j)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for b in range(6,6+4,-2):
+    if b<=8:
+        continue
+    print(b, end=' ')
+    b=8
+else:
+    print(13, end=' ')
+print(b, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+a = ('a','b','c','d','e',0,1,2,3,4)
+print(a[-11])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+e = (0,1,2,3,4,5,6,7,8,9)
+print(e[7:9:-1])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+g=['0','1','2','3']
+g.append([1,0])
+print(g)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+e=['0','1','2','3']
+e[5]=(13)
+print(e)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 14 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 8, 7, 9
+def g(a, b=9, c):
+    print(a, b, c, end=" ")
+
+g(3, 0, 4)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=0,3,4
+def f(b):
+    a=4
+    b=1
+    c=3
+    return a+b+c
+
+a,b,c=5,6,1
+print(f(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = 8>=5
+        return 43
+    except KeyboardInterrupt: 
+        return 9
+    except TypeError: 
+        return 8
+    else: return 31
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+i=12
+while i>=4:
+    i+=-2
+print(i)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for e in range(-2,-2+6,3):
+    if e>4:
+        break
+    print(e, end=' ')
+    e=-6
+else:
+    print(e, end=' ')
+print(e, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+f = ('a','b','c','d','e',0,1,2,4)
+print(f[12])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+d = ('0','1','2','3','4','5','6','7','8','9')
+print(d[-8:7:-3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+a=[10,11,12,13]
+print(a.index(15), end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+d=[10,11,12,13]
+del d[3:3]
+print(d)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 15 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 7, 8, 6
+def h(a, b, c):
+    print(a, b, c, end=" ")
+
+h(5, c=1, b=2)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=9,2,4
+def h(a):
+    global c
+    a=2
+    b=3
+    c=2
+    return a+b+c
+
+a,b,c=3,1,5
+print(h(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int(3//0)
+    except Exception: 
+        return 4
+    except BaseException: 
+        return 1
+    else: return 32
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+k=9
+while k<=6:
+    k+=2
+print(k)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for a in range(10,10+3,-3):
+    if a>=3:
+        continue
+    print(a, end=' ')
+    a=3
+else:
+    print(a, end=' ')
+print(a, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(n):
+    if n > 9:
+            f(n // 100)
+    print(n % 10, end=' ')
+    
+
+f(987654)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+b = ('a','b','c','d','e',0,1,2)
+print(b[6])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+b = '0123456789'
+print(b[-1::-2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+c=[10,11,12,13]
+c.extend([4,5])
+print(c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+f=['0','1','2','3']
+f[-6:]='10'
+print(f)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 16 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 6, 7, 8
+def f(a, b, c=9):
+    print(a, b, c, end=" ")
+
+f(0, b=4)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=3,6,5
+def f(a):
+    global c
+    a*=5
+    b=1
+    c=3
+    return a+b+c
+
+a,b,c=2,3,7
+print(f(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int(0/0.0)
+        return 45
+    except BaseException: 
+        return 6
+    except ValueError: 
+        return 5
+    finally: return 21
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+t=8
+while t<=9:
+    t+=2
+print(t)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for c in range(-10,-10+2,2):
+    if c<7:
+        pass
+    print(c, end=' ')
+    c=-3
+else:
+    print(c, end=' ')
+print(c, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+g = ('a','b','c','d','e',0,1,2,4)
+print(g[-3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+h = [0,1,2,3,4,5,6,7,8,9]
+print(h[-12::-3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+d=['0','1','2','3']
+d.insert(0, [1,2])
+print(d)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+a=[10,11,12,13]
+a[-9:-9]=[1,0]
+print(a)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 17 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 8, 7, 9
+def h(a, b, c=6):
+    print(a, b, c, end=" ")
+
+h(3, a=1)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=1,0,5
+def f(b):
+    global c
+    a=1
+    b*=2
+    c=4
+    return a+b+c
+
+a,b,c=9,8,6
+print(f(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int("7")
+    except ZeroDivisionError: 
+        return 2
+    except Exception: 
+        return 5
+    else: return 30
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+k=11
+while k>5:
+    k+=-3
+print(k)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for f in range(-3,-3+6,3):
+    if f>6:
+        pass
+    print(f, end=' ')
+    f=7
+else:
+    print(f, end=' ')
+print(f, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+f(543216)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+d = ('a','b','c','d','e',0,1)
+print(d[-8])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+b = (0,1,2,3,4,5,6,7,8,9)
+print(b[-10:2:2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+e=[10,11,12,13]
+e+=[4,5]
+print(e)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+b=[10,11,12,13]
+b[-7:]=[4,5]
+print(b)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 18 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 7, 8, 9
+def g(a, b, c):
+    print(a, b, c, end=" ")
+
+g(5, c=2, b=3)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=2,4,6
+def g(a):
+    a=5
+    b+=3
+    c=2
+    return a+b+c
+
+a,b,c=1,7,5
+print(g(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = 8<4
+        return 44
+    except TypeError: 
+        return 3
+    except KeyboardInterrupt: 
+        return 7
+    finally: return 24
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+i=0
+while i<12:
+    i+=1
+print(i)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for d in range(-5,-5+4,2):
+    if d<5:
+        continue
+    print(d, end=' ')
+    d=1
+else:
+    print(d, end=' ')
+print(d, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+c = ('a','b','c','d','e',0,1,2,3)
+print(c[-9])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+c = ('0','1','2','3','4','5','6','7','8','9')
+print(c[:6:3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+a=['0','1','2','3']
+a.remove(3)
+print(a)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+c=['0','1','2','3']
+del c[4:5]
+print(c)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 19 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 6, 7, 6
+def f(a, b=9, c=8):
+    print(a, b, c, end=" ")
+
+f(b=2, c=4, 0)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=7,2,9
+def f(b):
+    global c
+    a=5
+    b=1
+    c=4
+    return a+b+c
+
+a,b,c=0,8,6
+print(f(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int("d0")
+    except ValueError: 
+        return 4
+    except TypeError: 
+        return 6
+    else: return 35
+    finally: return 22
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+k=4
+while k<=10:
+    k+=1
+print(k)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for f in range(-4,-4+3,-3):
+    if f>=8:
+        break
+    print(f, end=' ')
+    f=-4
+else:
+    print(13, end=' ')
+print(f, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(n):
+    if n > 2:
+        f(n // 2)
+    else:
+        print(n % 2, end=' ')
+
+f(16)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+g = ('a','b','c','d','e',0,1,2)
+print(g[14])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+e = ['0','1','2','3','4','5','6','7','8','9']
+print(e[::-2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+h=['0','1','2','3']
+h.append('12')
+print(h)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+a=['0','1','2','3']
+del a[1:4]
+print(a)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 20 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 7, 6, 8
+def g(a, b=9, c):
+    print(a, b, c, end=" ")
+
+g(1, 5, 2)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=0,2,8
+def h(a):
+    global c
+    a=4
+    b-=1
+    c=5
+    return a+b+c
+
+a,b,c=9,3,4
+print(h(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int(9%1)
+        return 42
+    except ZeroDivisionError: 
+        return 1
+    except BaseException: 
+        return 2
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+m=6
+while m>1:
+    m+=-2
+print(m)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for b in range(7,7+5,-2):
+    if b<=6:
+        continue
+    print(b, end=' ')
+    b=10
+else:
+    print(b, end=' ')
+print(b, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+h = ('a','b','c','d','e',0,1,2,3,4)
+print(h[1])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+d = '0123456789'
+print(d[12:-4:-1])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+f=[10,11,12,13]
+print(f.index(9), end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+d=[10,11,12,13]
+d[2:-1]='12'
+print(d)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 21 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 6, 9, 8
+def h(a, b, c=7):
+    print(a, b, c, end=" ")
+
+h(c=0, b=1, a=3)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=8,5,0
+def g(a):
+    a=1
+    b=3
+    c=2
+    return a+b+c
+
+a,b,c=3,4,7
+print(g(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int("9")
+    except Exception: 
+        return 0
+    except KeyboardInterrupt: 
+        return 4
+    finally: return 20
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+m=6
+while m<8:
+    m+=2
+print(m)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for e in range(-1,-1+2,2):
+    if e<3:
+        break
+    print(e, end=' ')
+    e=-10
+    if e>3:
+        break
+else:
+    print(e, end=' ')
+print(e, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(n):
+    if n > 9:
+        return f(n // 100) + 1
+    else:
+        return 1
+
+print(f(123456))
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+b = ('a','b','c','d','e',0,1,2)
+print(b[-4])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+g = (0,1,2,3,4,5,6,7,8,9)
+print(g[::2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+g=[10,11,12,13]
+print(g.pop(1), end=' ')
+print(g)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+f=['0','1','2','3']
+f[-1:]=[4,5]
+print(f)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 22 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 6, 7, 8
+def f(a, b, c):
+    print(a, b, c, end=" ")
+
+f(4, 5, c=2)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=2,6,4
+def f(b):
+    a+=3
+    b=4
+    c=2
+    return a+b+c
+
+a,b,c=8,3,0
+print(f(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int(6//0.0)
+        return 41
+    except ValueError: 
+        return 1
+    except BaseException: 
+        return 5
+    else: return 33
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+j=7
+while j<11:
+    j+=2
+print(j)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for a in range(-4,-4+4,-3):
+    if a>4:
+        continue
+    print(a, end=' ')
+    a=4
+else:
+    print(a, end=' ')
+print(a, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+a = ('a','b','c','d','e',0,1,2,3)
+print(a[-14])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+f = [0,1,2,3,4,5,6,7,8,9]
+print(f[-14:3:-1])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+b=['0','1','2','3']
+b.insert(-4, [2,3])
+print(b)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+e=[10,11,12,13]
+e[6:]=[12]
+print(e)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 23 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 9, 6, 9
+def h(a, b=7, c=8):
+    print(a, b, c, end=" ")
+
+h(3, 4)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=9,5,7
+def h(a):
+    global c
+    a*=1
+    b=5
+    c=3
+    return a+b+c
+
+a,b,c=1,9,3
+print(h(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = 3!=7
+        return 40
+    except KeyboardInterrupt: 
+        return 7
+    except TypeError: 
+        return 2
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+n=8
+while n<=7:
+    n+=1
+print(n)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for c in range(9,9+6,3):
+    if c<=7:
+        continue
+    print(c, end=' ')
+    c=-4
+else:
+    print(c, end=' ')
+print(c, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+f = ('a','b','c','d','e',0,1,2,4)
+print(f[-2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+a = '0123456789'
+print(a[5::3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+c=['0','1','2','3']
+c.append(19)
+print(c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+h=['0','1','2','3']
+del h[:0]
+print(h)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 24 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 7, 9, 6
+def g(a, b=8, c):
+    print(a, b, c, end=" ")
+
+g(a=5, 1, b=0)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=9,6,2
+def f(b):
+    a=4
+    b=5
+    c=1
+    return a+b+c
+
+a,b,c=1,9,1
+print(f(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int(8/1)
+    except Exception: 
+        return 3
+    except ZeroDivisionError: 
+        return 9
+    else: return 34
+    finally: return 25
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+m=1
+while m<=9:
+    m+=2
+print(m)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for d in range(-6,-6+5,-2):
+    if d>=5:
+        pass
+    print(d, end=' ')
+    d=8
+else:
+    print(d, end=' ')
+print(d, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+e = ('a','b','c','d','e',0,1)
+print(e[4])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+h = ['0','1','2','3','4','5','6','7','8','9']
+print(h[:13:-3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+d=[10,11,12,13]
+d.extend('10')
+print(d)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+g=[10,11,12,13]
+g[-1:7]=[2,3]
+print(g)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 25 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 6, 9, 8
+def h(a, b=7, c):
+    print(a, b, c, end=" ")
+
+h(1, 0)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=8,6,0
+def g(b):
+    a=4
+    b-=2
+    c=1
+    return a+b+c
+
+a,b,c=5,4,7
+print(g(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int("c4")
+        return 45
+    except ZeroDivisionError: 
+        return 2
+    except Exception: 
+        return 5
+    else: return 30
+    finally: return 21
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+n=0
+while n<12:
+    n+=1
+print(n)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for d in range(-7,-7+3,3):
+    if d<5:
+        continue
+    print(d, end=' ')
+    d=6
+else:
+    print(d, end=' ')
+print(d, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+b = ('a','b','c','d','e',0,1,2,3,4)
+print(b[7])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+h = ('0','1','2','3','4','5','6','7','8','9')
+print(h[:-9:-2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+h=[10,11,12,13]
+print(h.index('11'), end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+b=[10,11,12,13]
+b[-6:-4]='11'
+print(b)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 26 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 8, 9, 7
+def g(a, b, c=6):
+    print(a, b, c, end=" ")
+
+g(a=3, 5, c=2)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=1,2,4
+def f(b):
+    a=5
+    b+=5
+    c=4
+    return a+b+c
+
+a,b,c=6,9,1
+print(f(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = 0==6
+    except ValueError: 
+        return 6
+    except TypeError: 
+        return 7
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+i=2
+while i<5:
+    i+=2
+print(i)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for b in range(-5,-5+2,-2):
+    if b<=8:
+        break
+    print(b, end=' ')
+    b=9
+else:
+    print(b, end=' ')
+print(b, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+f = ('a','b','c','d','e',0,1)
+print(f[-7])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+g = (0,1,2,3,4,5,6,7,8,9)
+print(g[6:-2:-2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+g=['0','1','2','3']
+g+=[1,0]
+print(g)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+d=['0','1','2','3']
+del d[-5:-8]
+print(d)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 27 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 9, 6, 7
+def f(a, b, c):
+    print(a, b, c, end=" ")
+
+f(4, 2, 3)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=8,5,0
+def h(a):
+    global c
+    a=5
+    b=2
+    c=4
+    return a+b+c
+
+a,b,c=6,3,7
+print(h(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int(1//2)
+    except KeyboardInterrupt: 
+        return 8
+    except BaseException: 
+        return 7
+    else: return 32
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+k=9
+while k<=13:
+    k+=1
+print(k)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for c in range(1,1+6,-3):
+    if c>7:
+        continue
+    print(c, end=' ')
+    c=-10
+else:
+    print(c, end=' ')
+print(c, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+f(543216)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+g = ('a','b','c','d','e',0,1,2,4)
+print(g[2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+a = [0,1,2,3,4,5,6,7,8,9]
+print(a[1:-15:2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+a=[10,11,12,13]
+print(a.pop(5), end=' ')
+print(a)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+e=['0','1','2','3']
+e[4:6]=(15)
+print(e)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 28 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 8, 9, 6
+def f(a, b=8, c=7):
+    print(a, b, c, end=" ")
+
+f(b=0, c=4, 1)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=3,5,7
+def h(a):
+    global c
+    a-=1
+    b=3
+    c=2
+    return a+b+c
+
+a,b,c=2,0,8
+print(h(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int("8")
+        return 41
+    except Exception: 
+        return 3
+    except TypeError: 
+        return 5
+    finally: return 23
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+n=8
+while n>=5:
+    n+=-3
+print(n)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for a in range(0,0+5,2):
+    if a>=6:
+        pass
+    print(a, end=' ')
+    a=3
+else:
+    print(13, end=' ')
+print(a, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+d = ('a','b','c','d','e',0,1,2,3)
+print(d[-3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+b = ('0','1','2','3','4','5','6','7','8','9')
+print(b[-13:-7:-3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+e=['0','1','2','3']
+e.remove(1)
+print(e)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+a=[10,11,12,13]
+del a[-2]
+print(a)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 29 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 7, 8, 9
+def g(a, b, c):
+    print(a, b, c, end=" ")
+
+g(b=5, a=2, c=5)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=4,2,7
+def g(b):
+    a=3
+    b=2
+    c=5
+    return a+b+c
+
+a,b,c=8,5,2
+print(g(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int("d6")
+    except ValueError: 
+        return 0
+    except BaseException: 
+        return 1
+    else: return 31
+    finally: return 22
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+t=9
+while t>9:
+    t+=-3
+print(t)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for f in range(2,2+3,3):
+    if f>3:
+        continue
+    print(f, end=' ')
+    f=-1
+else:
+    print(f, end=' ')
+print(f, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(n):
+    if n > 2:
+        f(n // 2)
+    print(n % 2, end=' ')
+    
+
+f(16)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+e = ('a','b','c','d','e',0,1,2)
+print(e[-6])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+c = '0123456789'
+print(c[-9::-1])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+c=['0','1','2','3']
+c.append('13')
+print(c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+g=[10,11,12,13]
+g[:4]='10'
+print(g)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 30 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 6, 7, 8
+def h(a, b=9, c):
+    print(a, b, c, end=" ")
+
+h(1, a=3)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=0,3,5
+def g(b):
+    a*=4
+    b=1
+    c=5
+    return a+b+c
+
+a,b,c=6,2,1
+print(g(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int(4%0)
+        return 44
+    except ZeroDivisionError: 
+        return 2
+    except KeyboardInterrupt: 
+        return 9
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+j=4
+while j<6:
+    j+=2
+print(j)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for e in range(-1,-1+4,-2):
+    if e<=4:
+        pass
+    print(e, end=' ')
+    e=1
+    if e<4:
+        break
+else:
+    print(e, end=' ')
+print(e, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+a = ('a','b','c','d','e',0,1,2,3,4)
+print(a[-11])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+d = ['0','1','2','3','4','5','6','7','8','9']
+print(d[2:5:3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+f=[10,11,12,13]
+print(f.index(10), end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+c=['0','1','2','3']
+c[3:1]='13'
+print(c)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 31 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 6, 8, 9
+def f(a, b, c=6):
+    print(a, b, c, end=" ")
+
+f(4, c=0, b=2)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=4,8,9
+def h(a):
+    global c
+    a+=2
+    b=3
+    c=3
+    return a+b+c
+
+a,b,c=7,4,7
+print(h(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int("b7")
+        return 40
+    except KeyboardInterrupt: 
+        return 4
+    except ValueError: 
+        return 1
+    else: return 33
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+t=5
+while t<=10:
+    t+=1
+print(t)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for d in range(3,3+2,2):
+    if d>=5:
+        break
+    print(d, end=' ')
+    d=-7
+else:
+    print(d, end=' ')
+print(d, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+h = ('a','b','c','d','e',0,1,2,3)
+print(h[1])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+e = [0,1,2,3,4,5,6,7,8,9]
+print(e[:-13:-2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+d=['0','1','2','3']
+d+='11'
+print(d)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+f=['0','1','2','3']
+f[-3:]=()
+print(f)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 32 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 7, 7, 9
+def h(a, b=8, c=6):
+    print(a, b, c, end=" ")
+
+h(4, 5, b=0)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=9,8,2
+def g(b):
+    a=1
+    b*=4
+    c=5
+    return a+b+c
+
+a,b,c=1,6,3
+print(g(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int(8//0)
+    except ZeroDivisionError: 
+        return 2
+    except Exception: 
+        return 0
+    finally: return 24
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+k=6
+while k<9:
+    k+=2
+print(k)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for a in range(-2,-2+6,-3):
+    if a<8:
+        continue
+    print(a, end=' ')
+    a=-8
+else:
+    print(13, end=' ')
+print(a, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+c = ('a','b','c','d','e',0,1)
+print(c[-1])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+f = '0123456789'
+print(f[4:12:2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+b=[10,11,12,13]
+b.insert(2, [1,2])
+print(b)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+h=[10,11,12,13]
+del h[5]
+print(h)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 33 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 7, 6, 9
+def g(a, b, c):
+    print(a, b, c, end=" ")
+
+g(3, c=1)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=5,0,4
+def f(a):
+    global c
+    a=2
+    b-=2
+    c=3
+    return a+b+c
+
+a,b,c=1,9,2
+print(f(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int(3/1)
+        return 43
+    except TypeError: 
+        return 6
+    except BaseException: 
+        return 5
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+i=3
+while i<=11:
+    i+=1
+print(i)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for b in range(10,10+3,-2):
+    if b>=3:
+        continue
+    print(b, end=' ')
+    b=7
+else:
+    print(b, end=' ')
+print(b, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+b = ('a','b','c','d','e',0,1,2)
+print(b[-7])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+h = ('0','1','2','3','4','5','6','7','8','9')
+print(h[-2:-8:-3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+d=[10,11,12,13]
+d.remove(11)
+print(d)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+e=[10,11,12,13]
+e[8:-8]=(13,)
+print(e)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 34 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 8, 9, 6
+def f(a, b=8, c=7):
+    print(a, b, c, end=" ")
+
+f(1, 2)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=3,5,8
+def f(a):
+    a-=1
+    b=5
+    c=4
+    return a+b+c
+
+a,b,c=6,0,7
+print(f(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int("9")
+    except BaseException: 
+        return 8
+    except TypeError: 
+        return 0
+    else: return 35
+    finally: return 25
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+t=7
+while t<=13:
+    t+=2
+print(t)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for f in range(-10,-10+5,3):
+    if f<4:
+        pass
+    print(f, end=' ')
+    f=-5
+else:
+    print(f, end=' ')
+print(f, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+f(123456)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+g = ('a','b','c','d','e',0,1,2,4)
+print(g[-11])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+d = (0,1,2,3,4,5,6,7,8,9)
+print(d[:-1:-1])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+b=['0','1','2','3']
+b.extend(18)
+print(b)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+b=['0','1','2','3']
+b[:-2]=[1,0]
+print(b)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 35 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 8, 7, 9
+def g(a, b, c=6):
+    print(a, b, c, end=" ")
+
+g(b=3, c=0, 5)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=4,7,1
+def h(b):
+    global c
+    a=1
+    b*=5
+    c=2
+    return a+b+c
+
+a,b,c=5,8,9
+print(h(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = 7!=2
+        return 42
+    except ZeroDivisionError: 
+        return 4
+    except Exception: 
+        return 6
+    else: return 34
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+j=8
+while j<7:
+    j+=1
+print(j)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for c in range(8,8+4,2):
+    if c<=6:
+        break
+    print(c, end=' ')
+    c=0
+else:
+    print(c, end=' ')
+print(c, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+f = ('a','b','c','d','e',0,1,2,3,4)
+print(f[4])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+b = ['0','1','2','3','4','5','6','7','8','9']
+print(b[-4::3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+g=['0','1','2','3']
+print(g.pop(-1), end=' ')
+print(g)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+d=[10,11,12,13]
+del d[1:0]
+print(d)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 36 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 8, 7, 6
+def h(a, b=9, c):
+    print(a, b, c, end=" ")
+
+h(b=4, a=2, c=3)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=0,3,6
+def f(a):
+    global c
+    a=4
+    b=3
+    c=1
+    return a+b+c
+
+a,b,c=1,9,4
+print(f(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = 5<=1
+    except ValueError: 
+        return 1
+    except KeyboardInterrupt: 
+        return 2
+    finally: return 20
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+i=10
+while i>=4:
+    i+=-2
+print(i)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for e in range(-8,-8+2,-3):
+    if e>7:
+        continue
+    print(e, end=' ')
+    e=-2
+else:
+    print(e, end=' ')
+print(e, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+f(987651)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+a = ('a','b','c','d','e',0,1,2,4)
+print(a[-9])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+f = (0,1,2,3,4,5,6,7,8,9)
+print(f[-5:-5:2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+a=[10,11,12,13]
+a.extend([4,5])
+print(a)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+a=['0','1','2','3']
+a[2:8]=[14,]
+print(a)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 37 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 8, 7, 9
+def g(a, b=6, c=8):
+    print(a, b, c, end=" ")
+
+g(0, c=4, b=1)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=0,6,2
+def g(a):
+    a+=3
+    b=4
+    c=5
+    return a+b+c
+
+a,b,c=3,2,9
+print(g(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int(3%2)
+    except ZeroDivisionError: 
+        return 9
+    except KeyboardInterrupt: 
+        return 0
+    else: return 35
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+n=12
+while n>7:
+    n+=-2
+print(n)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for a in range(-3,-3+4,-3):
+    if a<=4:
+        break
+    print(a, end=' ')
+    a=10
+else:
+    print(a, end=' ')
+print(a, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+f(123456)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+c = ('a','b','c','d','e',0,1)
+print(c[-4])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+c = ['0','1','2','3','4','5','6','7','8','9']
+print(c[11:-3:-3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+c=[10,11,12,13]
+c.remove('12')
+print(c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+c=[10,11,12,13]
+c[0:]=[1,2]
+print(c)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 38 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 7, 9, 6
+def h(a, b, c):
+    print(a, b, c, end=" ")
+
+h(5, 1, 4)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=5,6,3
+def g(b):
+    global c
+    a*=4
+    b=1
+    c=2
+    return a+b+c
+
+a,b,c=7,8,0
+print(g(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int("4")
+        return 43
+    except TypeError: 
+        return 9
+    except BaseException: 
+        return 8
+    finally: return 23
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+j=5
+while j>=6:
+    j+=-3
+print(j)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for f in range(4,4+6,2):
+    if f<8:
+        pass
+    print(f, end=' ')
+    f=5
+else:
+    print(13, end=' ')
+print(f, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+d = ('a','b','c','d','e',0,1,2,3,4)
+print(d[2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+e = [0,1,2,3,4,5,6,7,8,9]
+print(e[::-1])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+f=['0','1','2','3']
+print(f.pop(-5), end=' ')
+print(f)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+f=['0','1','2','3']
+f[-9:7]='12'
+print(f)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 39 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 7, 8, 9
+def f(a, b, c=6):
+    print(a, b, c, end=" ")
+
+f(0, 5, a=3)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=1,4,6
+def h(b):
+    a=3
+    b-=3
+    c=1
+    return a+b+c
+
+a,b,c=1,9,7
+print(h(b),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int("a5")
+        return 41
+    except Exception: 
+        return 1
+    except ValueError: 
+        return 7
+    finally: return 20
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+n=2
+while n<=10:
+    n+=2
+print(n)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for b in range(6,6+3,3):
+    if b>6:
+        continue
+    print(b, end=' ')
+    b=-3
+    if b>=6:
+        break
+else:
+    print(b, end=' ')
+print(b, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+f(s)
+print(s)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+h = ('a','b','c','d','e',0,1,2,3)
+print(h[-5])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+g = ('0','1','2','3','4','5','6','7','8','9')
+print(g[-3:10:-2])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+h=[10,11,12,13]
+h.insert(-3, '10')
+print(h)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+h=['0','1','2','3']
+del h[:-9]
+print(h)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+{{ 27.11.2025 Контрольна робота \No 2, варіант  \No \textbf { 40 }\par}}
+{
+%\begin {large}
+
+{%Завдання 1-10: Що буде виведено за виконання (повідомлення інтерпретатора про помилку %позначати error)?
+
+%Завдання 11-12 (на звороті): написати функцію для розв'язання задачі. Оцінюється економність обчислень та якість коду.
+
+%Тематика задач: використання циклів, програмування з використанням рекурентних співвідношень,
+%обробка списків та рядків.
+
+У завданнях 1-10 вказати, що буде виведено за виконання.
+
+Повідомлення інтерпретатора про помилку позначати ERROR
+
+Завдання 11 та 12 на звороті.
+
+\begin{minipage}[t]{7.5cm}
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+\begin{verbatim}
+a, b, c = 9, 8, 7
+def g(a, b=6, c):
+    print(a, b, c, end=" ")
+
+g(a=2, 3, b=0)
+print(a, b, c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+\begin{verbatim}
+a,b,c=3,4,5
+def f(a):
+    global c
+    a=2
+    b+=4
+    c=5
+    return a+b+c
+
+a,b,c=8,0,2
+print(f(a),a,b,c)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+\begin{verbatim}
+def f():
+    try:
+        res = int(3//0.0)
+    except Exception: 
+        return 2
+    except ValueError: 
+        return 6
+    else: return 34
+    return res
+
+print(f())
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+\begin{verbatim}
+m=5
+while m<12:
+    m+=1
+print(m)
+\end{verbatim}
+
+\end{minipage}
+\vline \hspace{6mm}
+\begin{minipage}[t]{10.5cm}
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+\begin{verbatim}
+for c in range(-9,-9+5,-2):
+    if c>=3:
+        continue
+    print(c, end=' ')
+    c=-6
+else:
+    print(c, end=' ')
+print(c, end=' ')
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+\begin{verbatim}
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+f(987654)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+\begin{verbatim}
+e = ('a','b','c','d','e',0,1,2)
+print(e[8])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 8}
+\end{center}
+
+\begin{verbatim}
+a = '0123456789'
+print(a[13::3])
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 9}
+\end{center}
+
+\begin{verbatim}
+e=['0','1','2','3']
+e.append('11')
+print(e)
+\end{verbatim}
+
+
+
+\begin{center}
+\textbf{Завдання 10}
+\end{center}
+Що буде надруковано за виконання?\par
+\begin{verbatim}
+g=[10,11,12,13]
+g[7:-3]='11'
+print(g)
+\end{verbatim}
+
+\end{minipage}
+
+%\end {large}
+}
+\newpage
+
+%end
+\end{document}
+

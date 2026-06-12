@@ -1,0 +1,51 @@
+<sample>
+#1#,{SPACE}#1 new#,{SPACE}#1 new#,{SPACE}#1 new#,{SPACE}#1 new#,{SPACE}#1 new#,{SPACE}#1 new#,{SPACE}#1 new#,{SPACE}#1 new#
+#2#,{SPACE}#2 new#,{SPACE}#2 new#,{SPACE}#2 new#,{SPACE}#2 new#,{SPACE}#2 new#,{SPACE}#2 new#,{SPACE}#2 new#
+#3#,{SPACE}#3 new#,{SPACE}#3 new#,{SPACE}#3 new#,{SPACE}#3 new#,{SPACE}#3 new#,{SPACE}#3 new#,{SPACE}#3 new#
+
+<\sample>
+
+<declarations>
+0={<file> d.txt}
+
+1={#meteo#}{#yyyy#}{#dd#}{#avgt#}{#mint#}{#maxt#}{#hum#}{#rain#}{#wind#}
+2={#meteo#}{#yyyy#}{#mm#}{#avgt#}{#mint#}{#maxt#}{#hum#}{#rain#}{#wind#}
+
+const meteo=код{SPACE}метеостанції
+const dd=день,{SPACE}місяць
+const yyyy=рік
+const mm=місяць,{SPACE}день
+const avgt=середня{SPACE}денна{SPACE}температура
+const mint=мінімальна{SPACE}денна{SPACE}температура
+const maxt=максимальна{SPACE}денна{SPACE}температура
+const hum=відносна вологість
+const rain=кількість опадів
+const wind=сила вітру
+
+nmeteo={<int> 6 12}
+nmeteo1={<int> 3 5}
+nt={<int> 1 3}
+nv=1;2
+
+<\declarations>
+
+<template>
+Записи файлу містять поля:{SPACE}#0#{ENDL}
+У заголовку файлу вказано:{ENDL}
+У нижньому колонтитулі вказано:{ENDL}
+Обмеження{ENDL}
+Код метеостанції є рядком довжини від #nmeteo1# до #nmeteo# включно. Може містити десяткові цифри. Решта полів числові.{ENDL}
+Рік є чотиризначним цілим. Кількість опадів є цілим значенням, подається без десяткової крапки.{SPACE}
+Решта полів є дійсними.{ENDL}
+Температура, сила вітру та відносна вологість подаються у форматі з #nt#, #nv# та 1 знаком після крапки відповідно.{ENDL}
+{ENDL}{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+
+
+
+
+

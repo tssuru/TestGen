@@ -1,0 +1,60 @@
+<fabric>
+ collate
+ <fabric>
+   collate 
+   include 01_arifm/q.txt
+   include 02_arifm/q.txt
+   <n1>
+     20
+   <\n1>
+   <n2>
+     20
+   <\n2>
+ <\fabric>
+
+ <fabric>
+  collate
+  
+    <fabric>
+    collate 
+    include 05_log/q.txt
+    include 06_log/q.txt
+    <n1>
+      20
+    <\n1>
+    <n2>
+      5
+    <\n2>
+   <\fabric>
+  
+  
+  <fabric>
+    collate 
+    include 03_log/q.txt
+    include 04_log/q.txt
+    <n1>
+      20
+    <\n1>
+    <n2>
+      20
+    <\n2>
+   <\fabric>
+  
+ <n1>
+    25
+   <\n1>
+   <n2>
+    40
+   <\n2>
+  <\fabric>	
+	
+ <n1>
+  40
+ <\n1>
+ <n2>
+  65
+ <\n2>
+
+
+
+<\fabric>

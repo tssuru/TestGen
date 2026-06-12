@@ -1,0 +1,64 @@
+//source for question like
+// questions
+//Що буде надруковано за виконання:\n
+
+//slice operations
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+id={<char> a h}
+const data1=[10,11,12,13,14]
+const data2=['0','1','2','3','4']
+XDNUM=1;2
+const DATA=#data#XDNUM##
+const EL=#xel#XDNUM##
+
+xel3={<int> 12 15}
+smth={[#xel3#]}{(#xel3#)}{'ab'}{'ac'}{'bc'}{'bd'}{'xy'}{'yz'}{[1,2]}{[2,3]}{[4,5]}{[1,0]}{()}
+
+ACT={#ACTxASSIGN#}{#ACTxASSIGN#}{#ACTxDEL#}
+const ACTxDEL=del tmp#SLICE#
+const ACTxASSIGN=tmp#SLICE# = #smth#
+
+const AACTION=#ACT#
+
+
+slice_from={<int> -9 8}
+slice_to={<int> -9 8}
+const slice1=#slice_from#:#slice_to#
+const slice2=:#slice_to#
+const slice3=#slice_from#:
+slice0=1;1;1;1;1;2;2;3;3
+const SLICE0=#
+const SLICE=[#SLICE0#slice#slice0##SLICE0#]
+val={<int> 0 9}
+
+<\declarations>
+
+<template>
+def f(arg, n):{ENDL}
+{SPACE4}n = #val#{ENDL}
+{SPACE4}tmp = arg{ENDL}
+{SPACE4}#ACT#{ENDL}
+{SPACE4}return len(tmp)>3{ENDL}{ENDL}
+
+try:{ENDL}
+{SPACE4}#id# = #DATA#{ENDL}
+{SPACE4}n = #val new#{ENDL}
+{SPACE4}f(#id#, n){ENDL}
+{SPACE4}print(n, end=';'){ENDL}
+{SPACE4}for el in #id#:{ENDL}
+{SPACE4}{SPACE4}print(el, end=';'){ENDL}
+except:{ENDL}
+{SPACE4}print('ERR'){ENDL}
+
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

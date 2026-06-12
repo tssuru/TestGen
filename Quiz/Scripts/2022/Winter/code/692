@@ -1,0 +1,30 @@
+echo
+echo =692_1.py 
+python3.10 ./692_1.py 
+echo
+echo =692_2.py 
+python3.10 ./692_2.py 
+echo
+echo =692_3.py 
+python3.10 ./692_3.py 
+echo
+echo =692_4.py 
+python3.10 ./692_4.py 
+echo
+echo =692_5.py 
+python3.10 ./692_5.py 
+echo
+echo =692_6.py 
+python3.10 ./692_6.py 
+echo
+echo =692_7.py 
+python3.10 ./692_7.py 
+echo
+echo =692_8.py 
+python3.10 ./692_8.py 
+echo
+echo =692_9.py 
+python3.10 ./692_9.py 
+echo
+echo =692_10.py 
+python3.10 ./692_10.py 

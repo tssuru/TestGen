@@ -1,0 +1,31 @@
+//source for question like
+// questions
+//Довести без використань таблиць, діаграм та теоретико-множинних тотожностей
+
+//про підмножини з фіксованими елементами
+
+<sample>
+
+принаймні одне число, що менше 2002
+рівно одне число, що більше 2003
+рівно два числа, що менше 2010
+
+<\sample>
+
+<declarations>
+0={#A# \setminus (#A# \setminus #B#) = #A# \cap #B#}{#A# \setminus (#A# \cap #B#) = #A# \setminus #B#}{#A# \setminus (#B# \cup #C#) = (#A# \setminus #B#) \cap (#A# \setminus #C#)}{#A# \setminus (#B# \cap #C#) = (#A# \setminus #B#) \cup (#A# \setminus #C#)}{(#A# \cap #B#) \setminus #C# = (#A# \cap #B#) \setminus (#A# \cap #C#)}{#A# \setminus (#A# \div #B#) = #A# \cap #B#}{#A# \div(#A# \cap #B#) = #A# \setminus #B#}{(#A# \div #B#) \cap #A# = #A# \setminus #B#}{ #A# \cap #B# = #A# \setminus (#A# \setminus #B#) }{ #A# \setminus #B# = #A# \setminus (#A# \cap #B#) }{(#A# \setminus #B#) \cap (#A# \setminus #C#) = #A# \setminus (#B# \cup #C#)}{(#A# \setminus #B#) \cup (#A# \setminus #C#) = #A# \setminus (#B# \cap #C#)}{(#A# \cap #B#) \setminus (#A# \cap #C#) = (#A# \cap #B#) \setminus #C#}{#A# \cap #B# = #A# \setminus (#A# \div #B#)}{#A# \setminus #B# = #A# \div(#A# \cap #B#) }{#A# \setminus #B# = (#A# \div #B#) \cap #A# }
+A={<char> A A}
+B={<char> B C}
+C={<char> D D}
+
+
+<\declarations>
+
+<template>
+Довести за означенням $#0#$.
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

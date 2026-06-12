@@ -1,0 +1,30 @@
+echo
+echo =328_1.py 
+python3.10 ./328_1.py 
+echo
+echo =328_2.py 
+python3.10 ./328_2.py 
+echo
+echo =328_3.py 
+python3.10 ./328_3.py 
+echo
+echo =328_4.py 
+python3.10 ./328_4.py 
+echo
+echo =328_5.py 
+python3.10 ./328_5.py 
+echo
+echo =328_6.py 
+python3.10 ./328_6.py 
+echo
+echo =328_7.py 
+python3.10 ./328_7.py 
+echo
+echo =328_8.py 
+python3.10 ./328_8.py 
+echo
+echo =328_9.py 
+python3.10 ./328_9.py 
+echo
+echo =328_10.py 
+python3.10 ./328_10.py 

@@ -1,0 +1,30 @@
+echo
+echo =567_1.py 
+python3.10 ./567_1.py 
+echo
+echo =567_2.py 
+python3.10 ./567_2.py 
+echo
+echo =567_3.py 
+python3.10 ./567_3.py 
+echo
+echo =567_4.py 
+python3.10 ./567_4.py 
+echo
+echo =567_5.py 
+python3.10 ./567_5.py 
+echo
+echo =567_6.py 
+python3.10 ./567_6.py 
+echo
+echo =567_7.py 
+python3.10 ./567_7.py 
+echo
+echo =567_8.py 
+python3.10 ./567_8.py 
+echo
+echo =567_9.py 
+python3.10 ./567_9.py 
+echo
+echo =567_10.py 
+python3.10 ./567_10.py 

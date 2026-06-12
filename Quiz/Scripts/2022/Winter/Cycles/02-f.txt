@@ -1,0 +1,59 @@
+//source for question like
+// questions
+//Що буде надруковано за виконання:\n
+
+//range+for
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+//p  slice middle
+p=[4 Cycles/q.txt]
+name={<char> a f}
+
+xcomp1=<;<=;>;>=
+xcomp2=#xcomp1
+
+elseprn='end';#name#;#name#;#name#;#name#;#name#
+const BODY=#continue#{SPACE4}{SPACE4}#main#{ENDL}#break#
+
+const main1=print(#name#, end=' ')
+const main2=#name# = #p[3]#
+main={#main1#}{#main1#{ENDL}{SPACE4}{SPACE4}#main2#}{#main1#}
+
+continue={#continue1#}{#continue1#}{#cxbreak1#}{}
+const continue1={SPACE4}if #name# #xcomp1# #p[1]#:{ENDL}{SPACE4}{SPACE4}continue{ENDL}
+const cxbreak1={SPACE4}if #name# #xcomp1# #p[1]#:{ENDL}{SPACE4}{SPACE4}break{ENDL}
+
+break=;;;;;;;#break2#
+
+const break2={SPACE4}if #name# #xcomp2# #p[2]#:{ENDL}{SPACE4}{SPACE4}break{ENDL}
+
+t1=;{SPACE4}
+
+after={}{#main1#{ENDL}}
+
+<\declarations>
+
+<template>
+{ENDL}
+%code{ENDL}
+//print('R', end=' '){ENDL}
+for #name# in range(#p[0]#):{ENDL}
+#BODY#
+#t1#else:{ENDL}
+#t1#{SPACE4}print(#elseprn#, end=' '){ENDL}
+//#t1##after#
+#after#
+%code{ENDL}
+<\template>
+
+
+
+<restrictions>
+<\restrictions>
+
+

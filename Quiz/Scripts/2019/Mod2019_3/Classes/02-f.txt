@@ -1,0 +1,48 @@
+//source for question like
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+var={<char> a d}
+
+Class={<char> A D}
+
+
+i=;_;__
+
+
+const VAR=#i##var#
+
+
+
+<\declarations>
+
+<template>
+code{ENDL}
+#VAR# = 0{ENDL}
+{ENDL}
+class #Class#:{ENDL}
+{SPACE4}#VAR# = 1{ENDL}
+{SPACE4}{ENDL}
+{SPACE4}def __init__(self):{ENDL}
+{SPACE4}{SPACE4}self.#VAR# = 2{ENDL}
+{SPACE4}{SPACE4}#VAR# = 3{ENDL}
+{SPACE4}{SPACE4}#Class#.#VAR# = 4{ENDL}
+{ENDL}
+obj = #Class#(){ENDL}
+try:{ENDL}
+{SPACE4}print(#VAR#, end=' '){ENDL}
+{SPACE4}print(obj.#VAR#, end=' '){ENDL}
+{SPACE4}print(#Class#.#VAR#, end=' '){ENDL}
+{SPACE4}print(obj.#VAR#, end=' '){ENDL}
+{SPACE4}print(obj._#Class#__#var#, end=' '){ENDL}
+except:{ENDL}
+{SPACE4}print('ERR'){ENDL}
+code{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>

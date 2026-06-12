@@ -1,0 +1,90 @@
+%code
+if (6 != 11)
+    cout << "j";
+else
+    cout << "q";
+%code
+
+
+
+%code
+if (17 >= 2)
+    cout << "u";
+else
+    cout << "d";
+%code
+
+
+
+%code
+if (3 == 7)
+    cout << "c";
+else
+    cout << "w";
+%code
+
+
+
+%code
+if (18 <= 4)
+    cout << "e";
+else
+    cout << "s";
+%code
+
+
+
+%code
+if (8 < 5)
+    cout << "b";
+else
+    cout << "e";
+%code
+
+
+
+%code
+if (7 > 14)
+    cout << "q";
+else
+    cout << "i";
+%code
+
+
+
+%code
+if (16 > 0)
+    cout << "z";
+else
+    cout << "z";
+%code
+
+
+
+%code
+if (11 != 19)
+    cout << "g";
+else
+    cout << "r";
+%code
+
+
+
+%code
+if (5 < 13)
+    cout << "y";
+else
+    cout << "a";
+%code
+
+
+
+%code
+if (13 >= 15)
+    cout << "x";
+else
+    cout << "v";
+%code
+
+
+

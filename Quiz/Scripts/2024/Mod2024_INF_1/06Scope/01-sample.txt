@@ -1,0 +1,235 @@
+
+%code
+#include <iostream>
+using namespace std;
+
+int a=1, b=9, c=6;
+
+int f(int &b){
+    int c;
+    a = 2;
+    b += 5;
+    c = 4;
+    return a + b + c;
+}
+
+int main(){
+    a = 2;
+    int b = 4;
+    c = 0;
+    cout << f(a) << a << ' ' << b << ' ' << c;
+}
+%code
+
+
+
+%code
+#include <iostream>
+using namespace std;
+
+int a=3, b=7, c=8;
+
+int h(int a){
+    a = 3;
+    b = 1;
+    c = 5;
+    return a + b + c;
+}
+
+int main(){
+    int a = 5;
+    int b = 9;
+    c = 3;
+    cout << h(a) << a << ' ' << b << ' ' << c;
+}
+%code
+
+
+
+%code
+#include <iostream>
+using namespace std;
+
+int a=1, b=6, c=8;
+
+int g(int a){
+    a *= 3;
+    b -= 2;
+    c = 4;
+    return a + b + c;
+}
+
+int main(){
+    a = 7;
+    int b = 5;
+    int c = 2;
+    cout << g(b) << a << ' ' << b << ' ' << c;
+}
+%code
+
+
+
+%code
+#include <iostream>
+using namespace std;
+
+int a=4, b=0, c=3;
+
+int f(int &b){
+    int c;
+    a = 1;
+    b *= 2;
+    c = 5;
+    return a + b + c;
+}
+
+int main(){
+    a = 7;
+    b = 9;
+    int c = 6;
+    cout << f(a) << a << ' ' << b << ' ' << c;
+}
+%code
+
+
+
+%code
+#include <iostream>
+using namespace std;
+
+int a=4, b=0, c=8;
+
+int g(int &a){
+    int c;
+    a = 3;
+    b -= 4;
+    c = 1;
+    return a + b + c;
+}
+
+int main(){
+    int a = 2;
+    b = 1;
+    int c = 5;
+    cout << g(b) << a << ' ' << b << ' ' << c;
+}
+%code
+
+
+
+%code
+#include <iostream>
+using namespace std;
+
+int a=6, b=3, c=8;
+
+int h(int b){
+    a = 2;
+    b += 3;
+    c = 1;
+    return a + b + c;
+}
+
+int main(){
+    a = 2;
+    int b = 0;
+    c = 9;
+    cout << h(b) << a << ' ' << b << ' ' << c;
+}
+%code
+
+
+
+%code
+#include <iostream>
+using namespace std;
+
+int a=5, b=4, c=1;
+
+int f(int a){
+    a -= 5;
+    b *= 4;
+    c = 3;
+    return a + b + c;
+}
+
+int main(){
+    a = 7;
+    int b = 1;
+    int c = 3;
+    cout << f(a) << a << ' ' << b << ' ' << c;
+}
+%code
+
+
+
+%code
+#include <iostream>
+using namespace std;
+
+int a=8, b=7, c=4;
+
+int h(int &b){
+    int c;
+    a = 5;
+    b += 1;
+    c = 2;
+    return a + b + c;
+}
+
+int main(){
+    a = 5;
+    b = 2;
+    int c = 6;
+    cout << h(a) << a << ' ' << b << ' ' << c;
+}
+%code
+
+
+
+%code
+#include <iostream>
+using namespace std;
+
+int a=0, b=9, c=8;
+
+int g(int a){
+    a = 4;
+    b = 5;
+    c = 1;
+    return a + b + c;
+}
+
+int main(){
+    int a = 4;
+    b = 9;
+    int c = 7;
+    cout << g(a) << a << ' ' << b << ' ' << c;
+}
+%code
+
+
+
+%code
+#include <iostream>
+using namespace std;
+
+int a=2, b=6, c=5;
+
+int f(int &b){
+    int c;
+    a = 4;
+    b = 2;
+    c = 3;
+    return a + b + c;
+}
+
+int main(){
+    a = 1;
+    int b = 0;
+    c = 3;
+    cout << f(b) << a << ' ' << b << ' ' << c;
+}
+%code
+
+

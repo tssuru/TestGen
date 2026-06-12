@@ -1,0 +1,22 @@
+//source for question like
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+n=[7 Graphs/3/all.txt]
+<\declarations>
+
+<template>
+{Graphs\#n[0]#.png}
+Для графа, зображеного на рис.{ENDL} вказати список суміжності вершини #n[3]#.{ENDL}
+формат оформлення відповіді:{ENDL}
+список суміжності виписувати через пробіл на одному рядку,{SPACE} 
+якщо пробілів десь буде більше одного - не важливо,{SPACE} 
+упорядкування вершин у списку також значення не має.{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>

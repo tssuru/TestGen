@@ -1,0 +1,30 @@
+echo
+echo =216_1.py 
+python3.10 ./216_1.py 
+echo
+echo =216_2.py 
+python3.10 ./216_2.py 
+echo
+echo =216_3.py 
+python3.10 ./216_3.py 
+echo
+echo =216_4.py 
+python3.10 ./216_4.py 
+echo
+echo =216_5.py 
+python3.10 ./216_5.py 
+echo
+echo =216_6.py 
+python3.10 ./216_6.py 
+echo
+echo =216_7.py 
+python3.10 ./216_7.py 
+echo
+echo =216_8.py 
+python3.10 ./216_8.py 
+echo
+echo =216_9.py 
+python3.10 ./216_9.py 
+echo
+echo =216_10.py 
+python3.10 ./216_10.py 

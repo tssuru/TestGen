@@ -1,0 +1,30 @@
+<fabric>
+check auto
+  <good>
+   task2.txt
+  <\good>
+  <bad>
+   task2.txt
+  <\bad>
+  <ncase>
+	4
+<\ncase>
+<nGood>
+1
+<\nGood>
+//  <ncase> - количество пунктов в вопросе, обязательный
+//  <AfterForEachInFile> - наличие индивидуальной концовки вопроса в файле (если есть, то true)
+//  <before> - текст, добавляемый перед каждым вопросом
+//  <after> - текст, добавляемый после каждого вопроса
+//  <mode> - режим вывода пунктов (TabBetween, TwoOnLine, SpaceBetween, OneOnLine - по умолчанию)
+//  <delimBeforeCases> - текст-разделитель, выводимый перед первым пунктом вопроса
+
+<before>
+Нехай int var=13; Один потік збільшив змінну var на 3, а інший збільшив її в три рази.{ENDL}{ENDL}гонка даних (data race), стан гонки (race condition){ENDL}{ENDL}Виберіть всі правильні твердження.\par{ENDL}\vspace{2mm}{ENDL}
+<\before>
+
+
+
+<\fabric>
+
+

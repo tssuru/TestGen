@@ -1,0 +1,30 @@
+echo
+echo =799_1.py 
+python3.10 ./799_1.py 
+echo
+echo =799_2.py 
+python3.10 ./799_2.py 
+echo
+echo =799_3.py 
+python3.10 ./799_3.py 
+echo
+echo =799_4.py 
+python3.10 ./799_4.py 
+echo
+echo =799_5.py 
+python3.10 ./799_5.py 
+echo
+echo =799_6.py 
+python3.10 ./799_6.py 
+echo
+echo =799_7.py 
+python3.10 ./799_7.py 
+echo
+echo =799_8.py 
+python3.10 ./799_8.py 
+echo
+echo =799_9.py 
+python3.10 ./799_9.py 
+echo
+echo =799_10.py 
+python3.10 ./799_10.py 

@@ -1,0 +1,30 @@
+echo
+echo =714_1.py 
+python3.10 ./714_1.py 
+echo
+echo =714_2.py 
+python3.10 ./714_2.py 
+echo
+echo =714_3.py 
+python3.10 ./714_3.py 
+echo
+echo =714_4.py 
+python3.10 ./714_4.py 
+echo
+echo =714_5.py 
+python3.10 ./714_5.py 
+echo
+echo =714_6.py 
+python3.10 ./714_6.py 
+echo
+echo =714_7.py 
+python3.10 ./714_7.py 
+echo
+echo =714_8.py 
+python3.10 ./714_8.py 
+echo
+echo =714_9.py 
+python3.10 ./714_9.py 
+echo
+echo =714_10.py 
+python3.10 ./714_10.py 

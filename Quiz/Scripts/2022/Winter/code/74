@@ -1,0 +1,30 @@
+echo
+echo =74_1.py 
+python3.10 ./74_1.py 
+echo
+echo =74_2.py 
+python3.10 ./74_2.py 
+echo
+echo =74_3.py 
+python3.10 ./74_3.py 
+echo
+echo =74_4.py 
+python3.10 ./74_4.py 
+echo
+echo =74_5.py 
+python3.10 ./74_5.py 
+echo
+echo =74_6.py 
+python3.10 ./74_6.py 
+echo
+echo =74_7.py 
+python3.10 ./74_7.py 
+echo
+echo =74_8.py 
+python3.10 ./74_8.py 
+echo
+echo =74_9.py 
+python3.10 ./74_9.py 
+echo
+echo =74_10.py 
+python3.10 ./74_10.py 

@@ -1,0 +1,30 @@
+echo
+echo =515_1.py 
+python3.10 ./515_1.py 
+echo
+echo =515_2.py 
+python3.10 ./515_2.py 
+echo
+echo =515_3.py 
+python3.10 ./515_3.py 
+echo
+echo =515_4.py 
+python3.10 ./515_4.py 
+echo
+echo =515_5.py 
+python3.10 ./515_5.py 
+echo
+echo =515_6.py 
+python3.10 ./515_6.py 
+echo
+echo =515_7.py 
+python3.10 ./515_7.py 
+echo
+echo =515_8.py 
+python3.10 ./515_8.py 
+echo
+echo =515_9.py 
+python3.10 ./515_9.py 
+echo
+echo =515_10.py 
+python3.10 ./515_10.py 

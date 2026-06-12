@@ -1,0 +1,34 @@
+//source for question like
+// 44352 questions
+//Записати вираз :\n
+
+//comprehension
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+
+
+from={<int> 10 20}
+to={<int> 2000 2020}
+
+xnum=2;3;5;7
+cond={що не діляться на #xnum#}{що діляться на #xnum#}
+
+dir1=зростанням;спаданням
+dir2=#dir1
+
+<\declarations>
+
+<template>
+Записати ВИРАЗ, значенням якого є множина, що складається{SPACE}
+з цілих чисел{SPACE}
+від #from# до #to# (включно),{SPACE}
+#cond#.{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>

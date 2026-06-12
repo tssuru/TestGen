@@ -1,0 +1,23 @@
+//source for question like
+
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+n={<int> 0 7}
+arg={<file:2> 01Classes/06-2-s.txt}
+
+<\declarations>
+
+<template>
+{ENDL}%code{ENDL}
+#arg#
+
+{ENDL}%code{ENDL}{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>

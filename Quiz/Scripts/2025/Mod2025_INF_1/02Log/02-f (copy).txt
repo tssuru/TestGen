@@ -1,0 +1,40 @@
+//source for question like
+//26127360 questions
+//Вкажіть значення та його тип:\n
+
+//**
+
+<sample>
+
+
+
+<\sample>
+
+<declarations>
+x1={<int> -9 9}
+x2={<int> -4 4}
+
+op=and;or;&&;||
+comp=<;<=;>;>=;==;!=
+Return=n;n#comp##x2#
+
+<\declarations>
+
+<template>
+За наявності означення {ENDL}
+%code{ENDL}
+{ENDL}
+bool f(int n){{ENDL}
+{SPACE4}cout<<"f";{ENDL}
+{SPACE4}return #Return#;{ENDL}
+}{ENDL}
+{ENDL}
+%code{ENDL}
+що буде виведено за виконання {ENDL}
+%code{ENDL}
+cout<<(f(#x1#) #op# f(#x1 new#));{ENDL}
+%code{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>

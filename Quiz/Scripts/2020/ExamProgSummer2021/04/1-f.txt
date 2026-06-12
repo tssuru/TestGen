@@ -1,0 +1,59 @@
+//source for question like
+// questions
+//Що буде надруковано за виконання:\n
+
+//range+for
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+
+name={<char> a f}
+num1={<int> 3 8}
+num2={<int> 3 8}
+num3={<int> -10 10}
+
+slice_from={<int> -15 15}
+slice_to={<int> -15 15}
+slice_step={, -1}{, -2}{, -3}{, 2}{, 3}{}
+const slice=#slice_from#, #slice_to##slice_step#
+xcomp1=<;<=;>;>=
+xcomp2=#xcomp1
+
+else=print('end';print(#name#;print(#name#;print(#name#;print(#name#;print(#name#
+const BODY=#continue#{SPACE4}{SPACE4}#main#{ENDL}#break#
+
+const main1=print(#name#, end=';')
+const main2=#name# = #num3#
+main={#main1#}{#main1#;#main2#}{#main1#}
+
+continue={#continue1#}{#continue1#}{#cxbreak1#}{}
+const continue1={SPACE4}{SPACE4}if #name##xcomp1##num1#:{ENDL}{SPACE4}{SPACE4}{SPACE4}continue{ENDL}
+const cxbreak1={SPACE4}{SPACE4}if #name##xcomp1##num1#:{ENDL}{SPACE4}{SPACE4}{SPACE4}break{ENDL}
+
+break=;;;;;;;#break2#
+
+const break2={SPACE4}{SPACE4}if #name##xcomp2##num2#:{ENDL}{SPACE4}{SPACE4}{SPACE4}break{ENDL}
+
+<\declarations>
+
+<template>
+try:{ENDL}
+{SPACE4}for #name# in range(#slice#):{ENDL}
+#BODY#
+{SPACE4}else:{ENDL}
+{SPACE4}{SPACE4}#else#,end=';'){ENDL}
+{SPACE4}print(#name#){ENDL}
+
+except:{ENDL}
+{SPACE4}print('Z'){ENDL}
+
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

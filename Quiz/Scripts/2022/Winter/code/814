@@ -1,0 +1,30 @@
+echo
+echo =814_1.py 
+python3.10 ./814_1.py 
+echo
+echo =814_2.py 
+python3.10 ./814_2.py 
+echo
+echo =814_3.py 
+python3.10 ./814_3.py 
+echo
+echo =814_4.py 
+python3.10 ./814_4.py 
+echo
+echo =814_5.py 
+python3.10 ./814_5.py 
+echo
+echo =814_6.py 
+python3.10 ./814_6.py 
+echo
+echo =814_7.py 
+python3.10 ./814_7.py 
+echo
+echo =814_8.py 
+python3.10 ./814_8.py 
+echo
+echo =814_9.py 
+python3.10 ./814_9.py 
+echo
+echo =814_10.py 
+python3.10 ./814_10.py 

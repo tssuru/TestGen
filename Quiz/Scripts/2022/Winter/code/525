@@ -1,0 +1,30 @@
+echo
+echo =525_1.py 
+python3.10 ./525_1.py 
+echo
+echo =525_2.py 
+python3.10 ./525_2.py 
+echo
+echo =525_3.py 
+python3.10 ./525_3.py 
+echo
+echo =525_4.py 
+python3.10 ./525_4.py 
+echo
+echo =525_5.py 
+python3.10 ./525_5.py 
+echo
+echo =525_6.py 
+python3.10 ./525_6.py 
+echo
+echo =525_7.py 
+python3.10 ./525_7.py 
+echo
+echo =525_8.py 
+python3.10 ./525_8.py 
+echo
+echo =525_9.py 
+python3.10 ./525_9.py 
+echo
+echo =525_10.py 
+python3.10 ./525_10.py 

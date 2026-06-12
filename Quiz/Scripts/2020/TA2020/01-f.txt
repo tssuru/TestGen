@@ -1,0 +1,27 @@
+//source for question like
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+var=[4 01-s.txt]
+
+
+const VAR=#f#X##
+
+
+
+<\declarations>
+
+<template>
+
+Указати послідовність зміни станів та слово, яке буде отримано на виході,{SPACE}
+якщо початковим станом автомата є #var[0]# та на вхід подається слово #var[1]#.{ENDL}
+Answer: #var[2]#, #var[3]#{ENDL}
+
+<\template>
+
+<restrictions>
+<\restrictions>

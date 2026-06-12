@@ -1,0 +1,21 @@
+<sample>
+
+<\sample>
+
+<declarations>
+var={<int> 1 119}
+
+<\declarations>
+
+<template>
+#var#
+<\template>
+
+<restrictions>
+<\restrictions>
+
+
+
+
+
+

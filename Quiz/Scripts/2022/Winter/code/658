@@ -1,0 +1,30 @@
+echo
+echo =658_1.py 
+python3.10 ./658_1.py 
+echo
+echo =658_2.py 
+python3.10 ./658_2.py 
+echo
+echo =658_3.py 
+python3.10 ./658_3.py 
+echo
+echo =658_4.py 
+python3.10 ./658_4.py 
+echo
+echo =658_5.py 
+python3.10 ./658_5.py 
+echo
+echo =658_6.py 
+python3.10 ./658_6.py 
+echo
+echo =658_7.py 
+python3.10 ./658_7.py 
+echo
+echo =658_8.py 
+python3.10 ./658_8.py 
+echo
+echo =658_9.py 
+python3.10 ./658_9.py 
+echo
+echo =658_10.py 
+python3.10 ./658_10.py 

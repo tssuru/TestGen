@@ -1,0 +1,14 @@
+<fabric>
+     file answer
+     <fname>
+         ListOperations\03-02-s.txt
+     <\fname>
+
+     <before>
+Задано числову послідовність s довжини 6000. Записати ВИРАЗ, значенням якого є список, що складається з{SPACE} 
+     <\before>
+<after>
+.
+<\after>
+
+  <\fabric>

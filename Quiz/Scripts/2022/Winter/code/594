@@ -1,0 +1,30 @@
+echo
+echo =594_1.py 
+python3.10 ./594_1.py 
+echo
+echo =594_2.py 
+python3.10 ./594_2.py 
+echo
+echo =594_3.py 
+python3.10 ./594_3.py 
+echo
+echo =594_4.py 
+python3.10 ./594_4.py 
+echo
+echo =594_5.py 
+python3.10 ./594_5.py 
+echo
+echo =594_6.py 
+python3.10 ./594_6.py 
+echo
+echo =594_7.py 
+python3.10 ./594_7.py 
+echo
+echo =594_8.py 
+python3.10 ./594_8.py 
+echo
+echo =594_9.py 
+python3.10 ./594_9.py 
+echo
+echo =594_10.py 
+python3.10 ./594_10.py 

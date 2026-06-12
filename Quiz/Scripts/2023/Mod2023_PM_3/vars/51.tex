@@ -1,0 +1,197 @@
+\documentclass[12pt, ukrainian]{article}
+\usepackage[a4paper]{geometry}
+\setlength\parindent{0mm}
+\geometry{top=1.1cm,bottom=1.1cm,left=1.1cm,right=1.1cm}
+\pagestyle{empty}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{verbatim, listings, clrscode3e, fancyvrb}
+\DeclareCaptionFormat{nocaption}{}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+\usepackage[Export]{adjustbox}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+\def\code#1{\Verb!#1!}
+\begin{document}
+{{16.05.2024 Контрольна робота, варіант  \No \textbf { 51 }} група К\_\_ ПІБ {\parbox {2.5 cm} \dotfill}\par}
+{
+%\begin {large}
+\begin{minipage}[t]{9.7cm}
+У завданнях 1--3 вказати, що буде виведено за виконання. Повідомлення інтерпретатора про помилку позначати ERROR
+
+
+               
+{\begin{center}Завдання {1}\end{center}}
+\vspace{-4mm}
+
+\begin{verbatim}
+f = ('0','1','2','3','4','5','6','7','8','9')
+print(f[::-1])
+
+\end{verbatim}            
+
+\vspace{15mm}
+               
+{\begin{center}Завдання {2}\end{center}}
+\vspace{-4mm}
+
+\begin{verbatim}
+try:
+    s = {68:6, 67:5, 30:4, 13:6, 46:1}
+    s[68] = 8
+    for x in s.values():
+        print(x, sep=' ', end=' ')
+except:
+    print('ERR')
+
+\end{verbatim}            
+
+
+\end{minipage}
+\vline \hspace{8mm}
+\begin{minipage}[t]{8.0cm}                
+               
+{\begin{center}Завдання {3}\end{center}}
+\vspace{-4mm}
+
+\begin{verbatim}
+b = 0
+
+class A:
+    b = 1
+    
+    def __init__(self):
+        self.b = 2
+        b = 3
+        A.b = 4
+
+obj = A()
+A.b = 5
+try:
+    print(b, end=' ')
+    print(obj.b, end=' ')
+    print(A.b, end=' ')
+    print(obj.b, end=' ')
+    print(obj._A__b)
+except:
+    print('ERR')
+
+\end{verbatim}            
+
+\end{minipage}
+
+
+               
+{\begin{center}Завдання {4}\end{center}}
+\vspace{-4mm}
+Нехай змінна \kw{s} позначає послідовність цілих, по якій можна ітерувати.
+
+Написати вираз, що перевіряє, чи правда, що всі елементи послідовності є точними квадратами.\par
+
+\vspace{10mm}
+               
+{\begin{center}Завдання {5}\end{center}}
+\vspace{-4mm}
+Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-37$ до~$32$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$7$.
+Яке число зберігається у вузлі \kw{p.next.prev.next.prev.prev} ?\par
+
+               
+{\begin{center}Завдання {6}\end{center}}
+\vspace{-4mm}
+Значенням змінної \kw{a} є цілочисловий масив типу $numpy.ndarray$ розмірів $4{\times}3$. На скільки збільшиться сума елементів масиву \kw{a} після виконання
+\begin{verbatim}
+a.T[1] += 1
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.\par
+
+               
+{\begin{center}Завдання {10}\end{center}}
+\vspace{-4mm}
+
+Написати функцію $f$, яка для файлу, заданого шляхом, розв’язує задачу:\\ Текстовий файл містить послідовність чисел $a_1$, $a_2$, $\ldots$, $a_t$, записану у форматі одне число на рядок. Знайти третє найбільше значення, що записане у файлі. Кожне значення, що записане у файлі, враховується тільки один раз. Для послідовності -1, -4, -12, -5, -1, 0 таким значенням буде -4.
+
+В усіх випадках розміри файлів такі, що їх вміст повністю завантажений у пам'ять бути не може. Якість коду також оцінюється.
+
+
+
+\vspace{10mm}\par
+
+\newpage
+\begin{minipage}[t]{9.7cm}
+               
+{\begin{center}Завдання {7}\end{center}}
+\vspace{-4mm}
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../15BinTree/trees_exp/112.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).\par
+
+\end{minipage}
+\vline \hspace{8mm}
+\begin{minipage}[t]{8.0cm}
+               
+{\begin{center}Завдання {8}\end{center}}
+\vspace{-4mm}
+Для графа на рисунку з вершини 3 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../16Graphs/Traversals/159.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (0, 3)\par
+2) (2, 5)\par
+3) (3, 5)\par
+4) (3, 4)\par
+5) (0, 6)\par
+6) (5, 6)\par
+{\vskip 15pt} \par
+
+\end{minipage}
+
+               
+{\begin{center}Завдання {9}\end{center}}
+\vspace{-4mm}
+Файл \code{'1.txt'} містить відомість з рядками, в яких через двокрапку записано поряд\-ковий номер (ціле), назву предмету (знаків пунктуації не містить), прізвище студента, ім'я студента, номер заліковки, оцінку в балах за 100 бальною шкалою.
+
+Білі символи навколо роздільників не допускаються.
+
+Приклад рядка файлу
+
+
+
+\begin{verbatim}
+13:algebra:surname:name:123456:77
+\end{verbatim}
+
+
+Нижче наведено код, який шукає усі назви предметів, що зустрічаються у файлі, та зберігає їх у змінній \id{codes}.
+
+
+
+\begin{verbatim}
+codes = set()
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    for s in f:
+        res = re.fullmatch(regex, s)
+        if not res: continue
+        s = ''
+        codes.add(YYY)
+\end{verbatim}
+
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?\par
+
+%\end {large}
+}
+%end
+\end{document}
+

@@ -1,0 +1,30 @@
+echo
+echo =442_1.py 
+python3.10 ./442_1.py 
+echo
+echo =442_2.py 
+python3.10 ./442_2.py 
+echo
+echo =442_3.py 
+python3.10 ./442_3.py 
+echo
+echo =442_4.py 
+python3.10 ./442_4.py 
+echo
+echo =442_5.py 
+python3.10 ./442_5.py 
+echo
+echo =442_6.py 
+python3.10 ./442_6.py 
+echo
+echo =442_7.py 
+python3.10 ./442_7.py 
+echo
+echo =442_8.py 
+python3.10 ./442_8.py 
+echo
+echo =442_9.py 
+python3.10 ./442_9.py 
+echo
+echo =442_10.py 
+python3.10 ./442_10.py 

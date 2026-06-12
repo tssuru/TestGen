@@ -1,0 +1,27 @@
+echo
+echo =47_1.py 
+python3.10 ./47_1.py 
+echo
+echo =47_2.py 
+python3.10 ./47_2.py 
+echo
+echo =47_3.py 
+python3.10 ./47_3.py 
+echo
+echo =47_4.py 
+python3.10 ./47_4.py 
+echo
+echo =47_5.py 
+python3.10 ./47_5.py 
+echo
+echo =47_6.py 
+python3.10 ./47_6.py 
+echo
+echo =47_7.py 
+python3.10 ./47_7.py 
+echo
+echo =47_8.py 
+python3.10 ./47_8.py 
+echo
+echo =47_9.py 
+python3.10 ./47_9.py 

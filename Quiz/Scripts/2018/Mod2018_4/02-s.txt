@@ -1,0 +1,40 @@
+class A{public: A(){cout<<"A";}};
+class B{public: B(){cout<<"B";}};
+class C{A a[#n#]; B b; public: C(){cout<<"C";}};
+void test(){C c;}
+
+class A{public: A(){cout<<"A";}};
+class B{public: B(){cout<<"B";}};
+class C{B b[#n#]; A a; public: C(){cout<<"C";}};
+void test(){C c;}
+
+class A{public: A(){cout<<"A";}};
+class B{public: B(){cout<<"B";}};
+class C{A a; B b[#n#]; public: C(){cout<<"C";}};
+void test(){C c;}
+
+class A{public: A(){cout<<"A";}};
+class B{public: B(){cout<<"B";}};
+class C{B b; A a[#n#]; public: C(){cout<<"C";}};
+void test(){C c;}
+
+class A{public: ~A(){cout<<"A";}};
+class B{public: ~B(){cout<<"B";}};
+class C{A a[#n#]; B b; public: ~C(){cout<<"C";}};
+void test(){C c;}
+
+class A{public: ~A(){cout<<"A";}};
+class B{public: ~B(){cout<<"B";}};
+class C{B b[#n#]; A a; public: ~C(){cout<<"C";}};
+void test(){C c;}
+
+class A{public: ~A(){cout<<"A";}};
+class B{public: ~B(){cout<<"B";}};
+class C{A a; B b[#n#]; public: ~C(){cout<<"C";}};
+void test(){C c;}
+
+class A{public: ~A(){cout<<"A";}};
+class B{public: ~B(){cout<<"B";}};
+class C{B b; A a[#n#]; public: ~C(){cout<<"C";}};
+void test(){C c;}
+

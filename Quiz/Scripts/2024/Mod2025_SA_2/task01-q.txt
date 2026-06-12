@@ -1,0 +1,31 @@
+<fabric>
+     file answer
+     <fname>
+     task12.txt
+//	task1_beta.txt
+     <\fname>
+
+     <before>
+//	 {ENDL}Написати функцiю f, що отримує{SPACE} 
+     <\before>
+     <after>
+\\	Якість коду також оцінюється. {ENDL}{ENDL}
+{ENDL}{ENDL}\vspace{10mm}{ENDL}{ENDL}
+     <\after>
+  <\fabric>
+  
+  
+  
+  <item>
+  <fabric>
+  collate 
+  include 03If/01-q.txt
+  include 03If/02-q.txt
+      <n1>
+         10
+      <\n1>
+      <n2>
+         10
+      <\n2>
+  <\fabric>
+<\item>

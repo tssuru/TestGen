@@ -1,0 +1,30 @@
+echo
+echo =200_1.py 
+python3.10 ./200_1.py 
+echo
+echo =200_2.py 
+python3.10 ./200_2.py 
+echo
+echo =200_3.py 
+python3.10 ./200_3.py 
+echo
+echo =200_4.py 
+python3.10 ./200_4.py 
+echo
+echo =200_5.py 
+python3.10 ./200_5.py 
+echo
+echo =200_6.py 
+python3.10 ./200_6.py 
+echo
+echo =200_7.py 
+python3.10 ./200_7.py 
+echo
+echo =200_8.py 
+python3.10 ./200_8.py 
+echo
+echo =200_9.py 
+python3.10 ./200_9.py 
+echo
+echo =200_10.py 
+python3.10 ./200_10.py 

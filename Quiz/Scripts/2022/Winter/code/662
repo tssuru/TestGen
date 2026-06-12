@@ -1,0 +1,30 @@
+echo
+echo =662_1.py 
+python3.10 ./662_1.py 
+echo
+echo =662_2.py 
+python3.10 ./662_2.py 
+echo
+echo =662_3.py 
+python3.10 ./662_3.py 
+echo
+echo =662_4.py 
+python3.10 ./662_4.py 
+echo
+echo =662_5.py 
+python3.10 ./662_5.py 
+echo
+echo =662_6.py 
+python3.10 ./662_6.py 
+echo
+echo =662_7.py 
+python3.10 ./662_7.py 
+echo
+echo =662_8.py 
+python3.10 ./662_8.py 
+echo
+echo =662_9.py 
+python3.10 ./662_9.py 
+echo
+echo =662_10.py 
+python3.10 ./662_10.py 

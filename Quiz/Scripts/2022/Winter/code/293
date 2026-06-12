@@ -1,0 +1,30 @@
+echo
+echo =293_1.py 
+python3.10 ./293_1.py 
+echo
+echo =293_2.py 
+python3.10 ./293_2.py 
+echo
+echo =293_3.py 
+python3.10 ./293_3.py 
+echo
+echo =293_4.py 
+python3.10 ./293_4.py 
+echo
+echo =293_5.py 
+python3.10 ./293_5.py 
+echo
+echo =293_6.py 
+python3.10 ./293_6.py 
+echo
+echo =293_7.py 
+python3.10 ./293_7.py 
+echo
+echo =293_8.py 
+python3.10 ./293_8.py 
+echo
+echo =293_9.py 
+python3.10 ./293_9.py 
+echo
+echo =293_10.py 
+python3.10 ./293_10.py 

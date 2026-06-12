@@ -1,0 +1,30 @@
+echo
+echo =660_1.py 
+python3.10 ./660_1.py 
+echo
+echo =660_2.py 
+python3.10 ./660_2.py 
+echo
+echo =660_3.py 
+python3.10 ./660_3.py 
+echo
+echo =660_4.py 
+python3.10 ./660_4.py 
+echo
+echo =660_5.py 
+python3.10 ./660_5.py 
+echo
+echo =660_6.py 
+python3.10 ./660_6.py 
+echo
+echo =660_7.py 
+python3.10 ./660_7.py 
+echo
+echo =660_8.py 
+python3.10 ./660_8.py 
+echo
+echo =660_9.py 
+python3.10 ./660_9.py 
+echo
+echo =660_10.py 
+python3.10 ./660_10.py 

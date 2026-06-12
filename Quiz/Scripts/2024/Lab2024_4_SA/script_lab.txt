@@ -1,0 +1,16 @@
+//lab 2-1 script
+//138 variants
+//Алгоритми обробки масивів
+//TemplateAnswerQuestFabric
+
+<declarations>
+1={<int> 6 42}
+
+<\declarations>
+
+<template>
+\includegraphics{a#1#c.jpg}{ENDL}{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>

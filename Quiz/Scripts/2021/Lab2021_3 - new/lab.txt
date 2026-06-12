@@ -1,0 +1,22 @@
+<variant>
+<header>
+
+<before>
+Варіант #numVar{ENDL}
+<\before>
+
+<after>
+{ENDL}
+<\after>
+
+<\header>
+
+<item>
+  <fabric>
+     template answer
+     <fname>
+         script_lab.txt
+     <\fname>
+   <\fabric>
+<\item>
+

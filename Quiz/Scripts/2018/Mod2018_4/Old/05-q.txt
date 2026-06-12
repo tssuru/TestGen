@@ -1,0 +1,24 @@
+  <fabric>
+     collate
+     <fabric>
+        template answer
+        <fname>
+           05-f-part1.txt
+        <\fname>
+     <\fabric>
+
+     <fabric>
+        template answer
+        <fname>
+           05-f-part2.txt
+        <\fname>
+      <\fabric>
+
+      <n1>
+         30
+      <\n1>
+      <n2>
+         30
+      <\n2>
+  <\fabric>
+

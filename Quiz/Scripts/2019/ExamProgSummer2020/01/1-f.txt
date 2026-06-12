@@ -1,0 +1,46 @@
+//source for question like
+//32768 questions
+//Вкажіть значення та його тип:\n
+
+<sample>
+
+True/7/8*True
+
+<\sample>
+
+<declarations>
+arg1=3;4;5;6;7;8;9
+arg2=#arg1
+arg3=#arg1
+arg4=#arg1
+op1=/;//
+op2=*;/;//;%
+
+Expr1={#arg1##op1##arg2##op2##arg3#*#arg4#}
+<\declarations>
+
+<template>
+
+try:{ENDL}
+{SPACE4}res = #Expr1#{ENDL}
+{SPACE4}if isinstance(res, bool):{ENDL}
+{SPACE4}{SPACE4}print(f'bool;{res}'){ENDL}
+{SPACE4}elif isinstance(res, int):{ENDL}
+{SPACE4}{SPACE4}print(f'int;{res}'){ENDL}
+{SPACE4}elif isinstance(res, float):{ENDL}
+{SPACE4}{SPACE4}print(f'float;{res:.2f}'){ENDL}
+{SPACE4}else:{ENDL}
+{SPACE4}{SPACE4}print('???'){ENDL}
+except:{ENDL}
+{SPACE4}print('ERR'){ENDL}
+
+<\template>
+
+<restrictions>
+<\restrictions>
+
+
+
+
+
+

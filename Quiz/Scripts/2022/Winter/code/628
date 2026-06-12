@@ -1,0 +1,30 @@
+echo
+echo =628_1.py 
+python3.10 ./628_1.py 
+echo
+echo =628_2.py 
+python3.10 ./628_2.py 
+echo
+echo =628_3.py 
+python3.10 ./628_3.py 
+echo
+echo =628_4.py 
+python3.10 ./628_4.py 
+echo
+echo =628_5.py 
+python3.10 ./628_5.py 
+echo
+echo =628_6.py 
+python3.10 ./628_6.py 
+echo
+echo =628_7.py 
+python3.10 ./628_7.py 
+echo
+echo =628_8.py 
+python3.10 ./628_8.py 
+echo
+echo =628_9.py 
+python3.10 ./628_9.py 
+echo
+echo =628_10.py 
+python3.10 ./628_10.py 

@@ -1,0 +1,16 @@
+ <fabric>
+     file answer
+     <fname>
+         task2.txt
+     <\fname>
+     <num>
+     2
+     <\num>
+
+     <before>
+
+     <\before>
+
+     <after>
+     <\after>
+   <\fabric>

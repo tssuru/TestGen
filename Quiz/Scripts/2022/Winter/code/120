@@ -1,0 +1,30 @@
+echo
+echo =120_1.py 
+python3.10 ./120_1.py 
+echo
+echo =120_2.py 
+python3.10 ./120_2.py 
+echo
+echo =120_3.py 
+python3.10 ./120_3.py 
+echo
+echo =120_4.py 
+python3.10 ./120_4.py 
+echo
+echo =120_5.py 
+python3.10 ./120_5.py 
+echo
+echo =120_6.py 
+python3.10 ./120_6.py 
+echo
+echo =120_7.py 
+python3.10 ./120_7.py 
+echo
+echo =120_8.py 
+python3.10 ./120_8.py 
+echo
+echo =120_9.py 
+python3.10 ./120_9.py 
+echo
+echo =120_10.py 
+python3.10 ./120_10.py 

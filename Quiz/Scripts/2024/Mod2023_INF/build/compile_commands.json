@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_INF/build",
+  "command": "/usr/bin/g++-13 -DDEBUG  -g -Wall -std=c++20 -fexceptions -O0 -o CMakeFiles/p8.dir/all.cpp.o -c \"/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_INF/all.cpp\"",
+  "file": "/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2023/Mod2023_INF/all.cpp",
+  "output": "CMakeFiles/p8.dir/all.cpp.o"
+}
+]

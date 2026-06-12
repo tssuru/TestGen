@@ -1,0 +1,30 @@
+echo
+echo =687_1.py 
+python3.10 ./687_1.py 
+echo
+echo =687_2.py 
+python3.10 ./687_2.py 
+echo
+echo =687_3.py 
+python3.10 ./687_3.py 
+echo
+echo =687_4.py 
+python3.10 ./687_4.py 
+echo
+echo =687_5.py 
+python3.10 ./687_5.py 
+echo
+echo =687_6.py 
+python3.10 ./687_6.py 
+echo
+echo =687_7.py 
+python3.10 ./687_7.py 
+echo
+echo =687_8.py 
+python3.10 ./687_8.py 
+echo
+echo =687_9.py 
+python3.10 ./687_9.py 
+echo
+echo =687_10.py 
+python3.10 ./687_10.py 

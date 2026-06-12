@@ -1,0 +1,20 @@
+8.0>=9 or not True>7.0 or 6<8
+
+6.0<=3 and not 5.0==7 and False!=4
+
+not 9.0<2.0 and True>=2 and 5<=2
+
+not 4.0>7 or 3.0==6 or False!=5
+
+not 9==4 and 5.0>=8 and True>4.0
+
+not 8.0<3 or False!=7 or 5<=6.0
+
+6>7.0 or not 2<3 and True!=3.0
+
+2.0>=9 and not 9.0<=False or 4==8
+
+not 7.0==3 and 8<False and 5>=2.0
+
+not 7<=9 or 6!=6.0 or 9.0>True
+

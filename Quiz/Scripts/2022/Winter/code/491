@@ -1,0 +1,30 @@
+echo
+echo =491_1.py 
+python3.10 ./491_1.py 
+echo
+echo =491_2.py 
+python3.10 ./491_2.py 
+echo
+echo =491_3.py 
+python3.10 ./491_3.py 
+echo
+echo =491_4.py 
+python3.10 ./491_4.py 
+echo
+echo =491_5.py 
+python3.10 ./491_5.py 
+echo
+echo =491_6.py 
+python3.10 ./491_6.py 
+echo
+echo =491_7.py 
+python3.10 ./491_7.py 
+echo
+echo =491_8.py 
+python3.10 ./491_8.py 
+echo
+echo =491_9.py 
+python3.10 ./491_9.py 
+echo
+echo =491_10.py 
+python3.10 ./491_10.py 

@@ -1,0 +1,18 @@
+<fabric>
+     file answer
+     <fname>
+         10\Traversals\08-02-s.txt
+     <\fname>
+     <num>
+        1	
+     <\num>
+
+
+     <before>
+{ENDL}
+     <\before>
+<after>
+
+<\after>
+
+  <\fabric>

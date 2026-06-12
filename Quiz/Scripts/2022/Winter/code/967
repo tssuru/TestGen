@@ -1,0 +1,30 @@
+echo
+echo =967_1.py 
+python3.10 ./967_1.py 
+echo
+echo =967_2.py 
+python3.10 ./967_2.py 
+echo
+echo =967_3.py 
+python3.10 ./967_3.py 
+echo
+echo =967_4.py 
+python3.10 ./967_4.py 
+echo
+echo =967_5.py 
+python3.10 ./967_5.py 
+echo
+echo =967_6.py 
+python3.10 ./967_6.py 
+echo
+echo =967_7.py 
+python3.10 ./967_7.py 
+echo
+echo =967_8.py 
+python3.10 ./967_8.py 
+echo
+echo =967_9.py 
+python3.10 ./967_9.py 
+echo
+echo =967_10.py 
+python3.10 ./967_10.py 

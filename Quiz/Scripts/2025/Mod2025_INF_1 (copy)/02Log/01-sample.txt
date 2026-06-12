@@ -1,0 +1,60 @@
+
+%code
+cout<<(! true >= 6 ||  5.0 != 7.0 || 2 > 5);
+%code
+
+
+
+%code
+cout<<( 9.0 == false and ! 8 <= 3 and 3.0 < 9);
+%code
+
+
+
+%code
+cout<<(! 7 != 4 &&  6.0 <= true && 6 == 2.0);
+%code
+
+
+
+%code
+cout<<(! false < 2 or  3 > 4.0 or 8.0 >= 9);
+%code
+
+
+
+%code
+cout<<( 5 <= false && ! 4 > 8 or 3.0 >= 2.0);
+%code
+
+
+
+%code
+cout<<( 7 < 5 or ! 5.0 == true and 3 != 6.0);
+%code
+
+
+
+%code
+cout<<(! 6 != 8.0 ||  4.0 <= false || 9 > 8);
+%code
+
+
+
+%code
+cout<<(! 4 < 7 and  7.0 == 9.0 && 2 >= true);
+%code
+
+
+
+%code
+cout<<( 7 != 3 || ! 2 == 8.0 && true < 2.0);
+%code
+
+
+
+%code
+cout<<( 9.0 > 5 && ! false >= 8 and 6 <= 5.0);
+%code
+
+

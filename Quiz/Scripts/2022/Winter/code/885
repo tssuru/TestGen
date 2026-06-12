@@ -1,0 +1,30 @@
+echo
+echo =885_1.py 
+python3.10 ./885_1.py 
+echo
+echo =885_2.py 
+python3.10 ./885_2.py 
+echo
+echo =885_3.py 
+python3.10 ./885_3.py 
+echo
+echo =885_4.py 
+python3.10 ./885_4.py 
+echo
+echo =885_5.py 
+python3.10 ./885_5.py 
+echo
+echo =885_6.py 
+python3.10 ./885_6.py 
+echo
+echo =885_7.py 
+python3.10 ./885_7.py 
+echo
+echo =885_8.py 
+python3.10 ./885_8.py 
+echo
+echo =885_9.py 
+python3.10 ./885_9.py 
+echo
+echo =885_10.py 
+python3.10 ./885_10.py 

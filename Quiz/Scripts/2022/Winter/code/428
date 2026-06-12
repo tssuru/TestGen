@@ -1,0 +1,30 @@
+echo
+echo =428_1.py 
+python3.10 ./428_1.py 
+echo
+echo =428_2.py 
+python3.10 ./428_2.py 
+echo
+echo =428_3.py 
+python3.10 ./428_3.py 
+echo
+echo =428_4.py 
+python3.10 ./428_4.py 
+echo
+echo =428_5.py 
+python3.10 ./428_5.py 
+echo
+echo =428_6.py 
+python3.10 ./428_6.py 
+echo
+echo =428_7.py 
+python3.10 ./428_7.py 
+echo
+echo =428_8.py 
+python3.10 ./428_8.py 
+echo
+echo =428_9.py 
+python3.10 ./428_9.py 
+echo
+echo =428_10.py 
+python3.10 ./428_10.py 

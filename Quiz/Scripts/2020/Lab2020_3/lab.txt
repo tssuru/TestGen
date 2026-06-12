@@ -1,0 +1,32 @@
+<variant>
+<header>
+
+<before>
+Варіант #numVar{ENDL}
+<\before>
+
+<after>
+{ENDL}
+<\after>
+
+<\header>
+
+<item>
+  <fabric>
+     template answer
+     <fname>
+         script_lab.txt
+     <\fname>
+   <\fabric>
+<\item>
+
+//Collate2QuestFabric source1, n1, source2, n2
+//FileAnswer fname, before, after
+//TemplateAnswer fname, before, after
+//Check   fname, nCase, AfterForEachInFile, before, after, mode
+//CheckAuto fnameGood, fnameBad, nCase, nGood, before, after, mode
+
+//include fname
+//enum PrintModes {OneOnLine, TabBetween, TwoOnLine, SpaceBetween}
+
+//<delimAfter>

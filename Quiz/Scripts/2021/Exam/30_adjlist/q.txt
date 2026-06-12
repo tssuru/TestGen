@@ -1,0 +1,12 @@
+ <fabric>
+     template answer
+     <fname>
+         30_adjlist/f.txt
+     <\fname>
+
+     <before>
+     <\before>
+
+     <after>
+     <\after>
+   <\fabric>

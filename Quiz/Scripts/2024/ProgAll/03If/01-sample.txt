@@ -1,0 +1,160 @@
+
+%code
+def h(a):
+    u=33
+    if a: 
+        u=3
+    elif a>=2:
+         return 7
+    else:
+         return 8
+    return u
+
+print(h(-4))
+%code
+
+
+
+%code
+def g(b):
+    x=30
+    if b<-1: 
+        x=5
+    if b<=-4:
+         return 2
+    else:
+         x=0
+    return x
+
+print(g(5))
+%code
+
+
+
+%code
+def f(d):
+    w=64
+    if d>3: 
+        w=9
+    if d!=-3:
+         return 4
+    else:
+         return 1
+    return w
+
+print(f(1))
+%code
+
+
+
+%code
+def g(c):
+    z=72
+    if c==-5: 
+        z=6
+    elif c>-2:
+         return 7
+    else:
+         z=2
+    return z
+
+print(g(-8))
+%code
+
+
+
+%code
+def f(c):
+    v=19
+    if c<0: 
+        v=8
+    elif c==4:
+         return 5
+    else:
+         v=3
+    return v
+
+print(f(-1))
+%code
+
+
+
+%code
+def h(b):
+    y=63
+    if b: 
+        return 1
+    if b<=5:
+         return 6
+    else:
+         y=4
+    return y
+
+print(h(-5))
+%code
+
+
+
+%code
+def h(a):
+    x=80
+    if a>=1: 
+        x=0
+    if a!=-3:
+         return 9
+    else:
+         return 4
+    return x
+
+print(h(9))
+%code
+
+
+
+%code
+def g(d):
+    y=29
+    if d<=5: 
+        y=8
+    elif d>=4:
+         return 2
+    else:
+         y=9
+    return y
+
+print(g(-2))
+%code
+
+
+
+%code
+def f(d):
+    u=55
+    if d: 
+        u=3
+    if d==-5:
+         return 6
+    else:
+         u=0
+    return u
+
+print(f(-6))
+%code
+
+
+
+%code
+def h(b):
+    v=95
+    if b: 
+        return 7
+    elif b<0:
+         v=5
+    else:
+         return 1
+    return v
+
+print(h(0))
+%code
+
+

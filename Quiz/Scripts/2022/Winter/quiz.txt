@@ -1,0 +1,134 @@
+<document>
+
+  <header>
+\documentclass[12pt, ukrainian]{article}{ENDL}
+\setlength\textwidth{170mm} \setlength\hoffset{-25mm}{ENDL}
+%\setlength\textheight{277mm} \setlength\voffset{-38mm}{ENDL}
+%\setlength\parindent{0mm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage{caption}{ENDL}
+\DeclareCaptionFormat{nocaption}{}{ENDL}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}{ENDL}
+\usepackage[Export]{adjustbox} {ENDL}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}
+\begin{document}{ENDL}
+
+  <\header>
+
+  <footer>
+\end{document}{ENDL}
+
+  <\footer>
+
+  <onNextVariant>
+
+{ENDL}{ENDL}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     999
+  <\to>
+
+  <onPage>
+    1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+//%begin
+//{ENDL}
+{20.12.2022 Варіант \No \textbf { #No# }\par}{ENDL}
+{{ENDL}
+\begin {Large}{ENDL}
+{ENDL}
+//Що буде виведено за виконання? (завдання 1-10){ENDL}{ENDL}
+//Якщо має бути виведено дійсне значення і інтерпретатор має здійснювати його округлення, то у відповіді достатньо правильно вказати два ////дробових розряди.{ENDL}{ENDL}
+//Повідомлення інтерпретатора про помилку позначати \textbf{error}.{SPACE}
+//Якщо щось буде виведено до того, як інтерпретатор видасть повідомелння про помилку, то воно має вказуватись у відповіді.{ENDL}{ENDL}
+<\before>
+
+<after>
+\end {Large}}{ENDL}
+{ENDL}{ENDL}
+<\after>
+
+<\variant>
+
+
+//Arithmetics
+<item>
+  include Ar/01-q.txt
+  <delim>
+//{SPACE}                       {SPACE}
+  <\delim>
+<\item>
+
+<item>
+  <fabric>
+    collate 
+    include Ar/02-q.txt
+    include Log/01-q.txt
+    <n1>
+        40
+    <\n1>
+    <n2>
+         40
+    <\n2>
+  <\fabric>
+<\item>
+
+<item>
+  include Log/04-q.txt
+<\item>
+
+//<item>
+//  include Assign/05-q.txt
+//<\item>
+
+<item>
+  include If/1+2-q.txt
+<\item>
+
+<item>
+  include Invoke/06-q.txt
+<\item>
+
+<item>
+  include Scope/1+2-q.txt
+<\item>
+
+<item>
+  include Except/01-q.txt
+<\item>
+
+//Cycles
+<item>
+   include Cycles/01-q.txt
+<\item>
+
+<item>
+   include Cycles/02-q.txt
+<\item>
+
+<item> 
+include Mix/01-02-q.txt
+
+<delim>
+{ENDL}{ENDL}
+<\delim>
+<\item>

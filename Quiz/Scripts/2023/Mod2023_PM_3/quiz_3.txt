@@ -1,0 +1,221 @@
+<document>
+
+  <header>
+\documentclass[12pt, ukrainian]{article}{ENDL}
+\usepackage[a4paper]{geometry}{ENDL}
+\setlength\parindent{0mm}{ENDL}
+\geometry{top=1.1cm,bottom=1.1cm,left=1.1cm,right=1.1cm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage{caption}{ENDL}
+\usepackage{verbatim, listings, clrscode3e, fancyvrb}{ENDL}
+
+
+\DeclareCaptionFormat{nocaption}{}{ENDL}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}{ENDL}
+\usepackage[Export]{adjustbox} {ENDL}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}
+\def\code#1{\Verb!#1!}{ENDL}
+\begin{document}{ENDL}
+
+  <\header>
+
+  <footer>
+\end{document}{ENDL}
+
+  <\footer>
+
+  <onNextVariant>
+
+{ENDL}{ENDL}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+
+  <\onNextPage>
+
+<from>
+1
+<\from>
+<to>
+60
+<\to>
+
+  <onPage>
+    1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+
+{{16.05.2024 Контрольна робота, варіант  \No \textbf { #No# }} група К\_\_ ПІБ {\parbox {2.5 cm} \dotfill}\par}{ENDL}
+{{ENDL}
+%\begin {large}{ENDL}
+//{ENDL}У всіх завданнях повідомлення \textbf{інтерпретатора} про помилку позначати ERROR{ENDL}{ENDL}
+//%Завдання 7-8 (на звороті): написати функцію для розв'язання задачі.{ENDL}{ENDL}
+<\before>
+
+<after>
+%\end {large}{ENDL}
+}{ENDL}
+%end{ENDL}
+<\after>
+
+<\variant>
+
+
+<item> 
+ <fabric>
+  collate
+     include 10Indexing/01-q.txt 
+     include 10Indexing/02-q.txt 
+  <n1>
+    30
+  <\n1>
+  <n2>
+    30
+  <\n2>
+  <\fabric>
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item>
+<fabric>
+  collate
+  <fabric>
+  collate
+     include 11ListOperations/01-q.txt 
+     include 11ListOperations/02-q.txt 
+  <n1>
+    32
+  <\n1>
+  <n2>
+    32
+  <\n2>
+  <\fabric>
+  
+  include 12SetOperations/02-q.txt
+  <n1>
+   64
+  <\n1>
+  <n2>
+    26
+  <\n2>
+<\fabric>
+
+<delim>
+{ENDL}
+
+<\delim>
+<\item>
+
+<item> 
+ <fabric>
+  collate
+     include 13Classes/01-q.txt
+     include 13Classes/02-q.txt
+  <n1>
+    30
+  <\n1>
+  <n2>
+    30
+  <\n2>
+  <\fabric>
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+
+<item>
+<fabric>
+  collate
+  <fabric>
+  collate
+     include 12SetOperations/03-q.txt
+     include 11ListOperations/03-q.txt
+  <n1>
+    32
+  <\n1>
+  <n2>
+    32
+  <\n2>
+  <\fabric>
+  
+  include 12SetOperations/04-q.txt
+  <n1>
+   64
+  <\n1>
+  <n2>
+    26
+  <\n2>
+<\fabric>
+
+<delim>
+{ENDL}
+
+<\delim>
+<\item>
+
+
+
+<item> 
+include 14Linked/01-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include 17Numpy/01-02-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item> 
+include 15BinTree/01-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item> 
+ <fabric>
+  collate
+     include 16Graphs/03-q.txt 
+     include 16Graphs/02-02-q.txt 
+  <n1>
+    30
+  <\n1>
+  <n2>
+    30
+  <\n2>
+  <\fabric>
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+
+
+<item> 
+include 18Regex/01-q.txt 
+<delim>
+{ENDL}
+<\delim>
+<\item>
+
+<item>
+  include task01-q.txt
+<\item>
+
+

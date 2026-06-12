@@ -1,0 +1,15 @@
+ <fabric>
+     file answer
+     <fname>
+         Graphs/08-01-s.txt
+     <\fname>
+<num>
+1
+<\num>
+     <before>
+     <\before>
+<after>
+{ENDL}
+<\after>
+
+   <\fabric>

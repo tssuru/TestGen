@@ -1,0 +1,30 @@
+echo
+echo =407_1.py 
+python3.10 ./407_1.py 
+echo
+echo =407_2.py 
+python3.10 ./407_2.py 
+echo
+echo =407_3.py 
+python3.10 ./407_3.py 
+echo
+echo =407_4.py 
+python3.10 ./407_4.py 
+echo
+echo =407_5.py 
+python3.10 ./407_5.py 
+echo
+echo =407_6.py 
+python3.10 ./407_6.py 
+echo
+echo =407_7.py 
+python3.10 ./407_7.py 
+echo
+echo =407_8.py 
+python3.10 ./407_8.py 
+echo
+echo =407_9.py 
+python3.10 ./407_9.py 
+echo
+echo =407_10.py 
+python3.10 ./407_10.py 

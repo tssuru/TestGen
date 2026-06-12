@@ -1,0 +1,155 @@
+a = 0
+n = 1
+
+class D:
+    n = 2
+    
+    def __init__(self):
+        self.n = 3
+        n = 4
+        D.n = 5
+
+obj = D()
+print(a, n, D.n, obj.n, sep=' ')
+
+
+d = 0
+k = 1
+
+class A:
+    d = 2
+    
+    def __init__(self):
+        global d
+        self.d = 3
+        d = 4
+        A.d = 5
+
+obj = A()
+print(d, k, A.d, obj.d, sep=' ')
+
+
+c = 0
+j = 1
+
+class C:
+    c = 2
+    
+    def __init__(self):
+        self.c = 3
+        c = 4
+        C.c = 5
+
+obj = C()
+print(c, j, C.c, obj.c, sep=' ')
+
+
+b = 0
+h = 1
+
+class B:
+    h = 2
+    
+    def __init__(self):
+        global h
+        self.h = 3
+        h = 4
+        B.h = 5
+
+obj = B()
+print(b, h, B.h, obj.h, sep=' ')
+
+
+c = 0
+m = 1
+
+class B:
+    c = 2
+    
+    def __init__(self):
+        global c
+        self.c = 3
+        c = 4
+        B.c = 5
+
+obj = B()
+print(c, m, B.c, obj.c, sep=' ')
+
+
+b = 0
+m = 1
+
+class D:
+    m = 2
+    
+    def __init__(self):
+        self.m = 3
+        m = 4
+        D.m = 5
+
+obj = D()
+print(b, m, D.m, obj.m, sep=' ')
+
+
+a = 0
+k = 1
+
+class C:
+    a = 2
+    
+    def __init__(self):
+        global a
+        self.a = 3
+        a = 4
+        C.a = 5
+
+obj = C()
+print(a, k, C.a, obj.a, sep=' ')
+
+
+d = 0
+j = 1
+
+class A:
+    j = 2
+    
+    def __init__(self):
+        self.j = 3
+        j = 4
+        A.j = 5
+
+obj = A()
+print(d, j, A.j, obj.j, sep=' ')
+
+
+d = 0
+h = 1
+
+class A:
+    d = 2
+    
+    def __init__(self):
+        global d
+        self.d = 3
+        d = 4
+        A.d = 5
+
+obj = A()
+print(d, h, A.d, obj.d, sep=' ')
+
+
+c = 0
+n = 1
+
+class B:
+    n = 2
+    
+    def __init__(self):
+        self.n = 3
+        n = 4
+        B.n = 5
+
+obj = B()
+print(c, n, B.n, obj.n, sep=' ')
+
+

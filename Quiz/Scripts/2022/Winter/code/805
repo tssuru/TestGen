@@ -1,0 +1,30 @@
+echo
+echo =805_1.py 
+python3.10 ./805_1.py 
+echo
+echo =805_2.py 
+python3.10 ./805_2.py 
+echo
+echo =805_3.py 
+python3.10 ./805_3.py 
+echo
+echo =805_4.py 
+python3.10 ./805_4.py 
+echo
+echo =805_5.py 
+python3.10 ./805_5.py 
+echo
+echo =805_6.py 
+python3.10 ./805_6.py 
+echo
+echo =805_7.py 
+python3.10 ./805_7.py 
+echo
+echo =805_8.py 
+python3.10 ./805_8.py 
+echo
+echo =805_9.py 
+python3.10 ./805_9.py 
+echo
+echo =805_10.py 
+python3.10 ./805_10.py 

@@ -1,0 +1,30 @@
+echo
+echo =338_1.py 
+python3.10 ./338_1.py 
+echo
+echo =338_2.py 
+python3.10 ./338_2.py 
+echo
+echo =338_3.py 
+python3.10 ./338_3.py 
+echo
+echo =338_4.py 
+python3.10 ./338_4.py 
+echo
+echo =338_5.py 
+python3.10 ./338_5.py 
+echo
+echo =338_6.py 
+python3.10 ./338_6.py 
+echo
+echo =338_7.py 
+python3.10 ./338_7.py 
+echo
+echo =338_8.py 
+python3.10 ./338_8.py 
+echo
+echo =338_9.py 
+python3.10 ./338_9.py 
+echo
+echo =338_10.py 
+python3.10 ./338_10.py 

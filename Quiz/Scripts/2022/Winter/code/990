@@ -1,0 +1,30 @@
+echo
+echo =990_1.py 
+python3.10 ./990_1.py 
+echo
+echo =990_2.py 
+python3.10 ./990_2.py 
+echo
+echo =990_3.py 
+python3.10 ./990_3.py 
+echo
+echo =990_4.py 
+python3.10 ./990_4.py 
+echo
+echo =990_5.py 
+python3.10 ./990_5.py 
+echo
+echo =990_6.py 
+python3.10 ./990_6.py 
+echo
+echo =990_7.py 
+python3.10 ./990_7.py 
+echo
+echo =990_8.py 
+python3.10 ./990_8.py 
+echo
+echo =990_9.py 
+python3.10 ./990_9.py 
+echo
+echo =990_10.py 
+python3.10 ./990_10.py 

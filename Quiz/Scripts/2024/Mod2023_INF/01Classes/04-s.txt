@@ -1,0 +1,130 @@
+struct A{
+{SPACE}{SPACE}int x;
+{SPACE}{SPACE}void d(){x/=2;}};
+struct B:public A{
+{SPACE} int y;
+{SPACE} void d(){y/=4;}};
+void test(){
+{SPACE} B b; b.x=b.y=4;
+{SPACE} b.d(); cout<<b.x<<b.y;}
+
+struct A{
+{SPACE}{SPACE}int x=1;
+{SPACE}{SPACE}void d(){x/=2;}};
+struct B:public A{
+{SPACE} int x;
+{SPACE} void d(){x/=4;}};
+void test(){
+{SPACE} B b; b.x=4;b.d();
+{SPACE} cout<<b.x<<b.A::x;}
+
+struct A{
+{SPACE}{SPACE}int x=0;
+{SPACE} void d(){x+=1;}};
+struct B:public A{
+{SPACE} int x=0;
+{SPACE} void d(){x+=2;}};
+void test(){
+{SPACE} B b; b.x=1; b.d();
+{SPACE} cout<<b.x<<b.A::x;}
+
+struct A{
+{SPACE} int x=0;
+{SPACE} void d(){x+=1;}{ENDL}  void g(){d();}};
+struct B:public A{
+{SPACE} int x=0;
+{SPACE} void d(){x+=2;}};
+void test(){
+{SPACE} B b; b.x=1; b.g();
+{SPACE} cout<<b.x<<b.A::x;}
+
+struct A{
+{SPACE} int x=0;
+{SPACE} void d(){x+=1;}{ENDL}  void g(){d();}};
+struct B:public A{
+{SPACE} int x=0;
+{SPACE} virtual void d(){x+=2;}};
+void test(){
+{SPACE} B b; b.x=1; b.g();
+{SPACE} cout<<b.x<<b.A::x;}
+
+struct A{
+{SPACE} int x=0;
+{SPACE} void d(){x+=1;}{ENDL}  virtual void g(){d();}};
+struct B:public A{
+{SPACE} int x=0;
+{SPACE} void d(){x+=2;}};
+void test(){
+{SPACE} B b; b.x=1; b.g();
+{SPACE} cout<<b.x<<b.A::x;}
+
+struct A{
+{SPACE} int x=0;
+{SPACE} virtual void d(){x+=1;}{ENDL}  virtual void g(){d();}};
+struct B:public A{
+{SPACE} int x=0;
+{SPACE} void d(){x+=2;}};
+void test(){
+{SPACE} B b; b.x=1; b.g();
+{SPACE} cout<<b.x<<b.A::x;}
+
+struct A{
+{SPACE} int x=0;
+{SPACE} virtual void d(){x+=1;}{ENDL}  void g(){d();}};
+struct B:public A{
+{SPACE} int x=0;
+{SPACE} void d(){x+=2;}};
+void test(){
+{SPACE} B b; b.x=1; b.g();
+{SPACE} cout<<b.x<<b.A::x;}
+
+struct A{
+{SPACE} int v;
+{SPACE} A(int n):v(n){}};
+struct B{
+{SPACE} A a; int b;
+{SPACE} B(int n):a(n+1){b=a.v;}};
+void test(){
+{SPACE} B b(2);
+{SPACE} cout<<b.b;}
+
+struct A{
+{SPACE} int x;
+{SPACE} virtual void d(){x+=2;}{ENDL}  void g(){A::d();}};
+struct B:public A{
+{SPACE} int y;
+{SPACE} void d(){A::d();}};
+void test(){
+{SPACE} B b; b.x=b.y=4; b.d();
+{SPACE} cout<<b.x<<b.y;}
+
+struct A{
+{SPACE} int x;
+{SPACE} void d(){x+=2;}{ENDL}  void g(){d();}};
+struct B:public A{
+{SPACE} int y;
+{SPACE} virtual void d(){y+=2;}};
+void test(){
+{SPACE} B b; b.x=b.y=4; b.g();
+{SPACE} cout<<b.x<<b.y;}
+
+struct A{
+{SPACE} int x;
+{SPACE} virtual void d(){x+=2;}{ENDL}  void g(){A::d();}};
+struct B:public A{
+{SPACE} int y;
+{SPACE} void d(){y+=2;}};
+void test(){
+{SPACE} B b; b.x=b.y=4; b.g();
+{SPACE} cout<<b.x<<b.y;}
+
+struct A{
+{SPACE} int x;
+{SPACE} virtual void d(){x+=2;}{ENDL}  void g(){d();}};
+struct B:public A{
+{SPACE} int y;
+{SPACE} void d(){y+=2;}};
+void test(){
+{SPACE}B b; b.x=b.y=4; b.g(); 
+{SPACE} cout<<b.x<<b.y;}
+

@@ -1,0 +1,30 @@
+echo
+echo =353_1.py 
+python3.10 ./353_1.py 
+echo
+echo =353_2.py 
+python3.10 ./353_2.py 
+echo
+echo =353_3.py 
+python3.10 ./353_3.py 
+echo
+echo =353_4.py 
+python3.10 ./353_4.py 
+echo
+echo =353_5.py 
+python3.10 ./353_5.py 
+echo
+echo =353_6.py 
+python3.10 ./353_6.py 
+echo
+echo =353_7.py 
+python3.10 ./353_7.py 
+echo
+echo =353_8.py 
+python3.10 ./353_8.py 
+echo
+echo =353_9.py 
+python3.10 ./353_9.py 
+echo
+echo =353_10.py 
+python3.10 ./353_10.py 

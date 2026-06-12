@@ -1,0 +1,3 @@
+/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2024/Mod2024_INF_1/project/build/CMakeFiles/mod.dir
+/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2024/Mod2024_INF_1/project/build/CMakeFiles/edit_cache.dir
+/media/tania/Apacer PHD/gits/Projects/Quiz/Scripts/2024/Mod2024_INF_1/project/build/CMakeFiles/rebuild_cache.dir

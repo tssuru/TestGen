@@ -1,0 +1,27 @@
+echo
+echo =137_1.py 
+python3.10 ./137_1.py 
+echo
+echo =137_2.py 
+python3.10 ./137_2.py 
+echo
+echo =137_3.py 
+python3.10 ./137_3.py 
+echo
+echo =137_4.py 
+python3.10 ./137_4.py 
+echo
+echo =137_5.py 
+python3.10 ./137_5.py 
+echo
+echo =137_6.py 
+python3.10 ./137_6.py 
+echo
+echo =137_7.py 
+python3.10 ./137_7.py 
+echo
+echo =137_8.py 
+python3.10 ./137_8.py 
+echo
+echo =137_9.py 
+python3.10 ./137_9.py 

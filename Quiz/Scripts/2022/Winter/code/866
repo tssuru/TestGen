@@ -1,0 +1,30 @@
+echo
+echo =866_1.py 
+python3.10 ./866_1.py 
+echo
+echo =866_2.py 
+python3.10 ./866_2.py 
+echo
+echo =866_3.py 
+python3.10 ./866_3.py 
+echo
+echo =866_4.py 
+python3.10 ./866_4.py 
+echo
+echo =866_5.py 
+python3.10 ./866_5.py 
+echo
+echo =866_6.py 
+python3.10 ./866_6.py 
+echo
+echo =866_7.py 
+python3.10 ./866_7.py 
+echo
+echo =866_8.py 
+python3.10 ./866_8.py 
+echo
+echo =866_9.py 
+python3.10 ./866_9.py 
+echo
+echo =866_10.py 
+python3.10 ./866_10.py 

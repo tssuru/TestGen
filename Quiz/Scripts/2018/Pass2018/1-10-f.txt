@@ -1,0 +1,57 @@
+//source for question like
+//640000 questions
+//Що буде надруковано за виконання:\n
+
+//scope, lifetime, function call, by value/by reference
+
+<sample>
+
+Що буде надруковано за виконання:
+int f(int &x, int &y) { x=2; y+=4; return x;}
+int main(){
+  int a=1, b=7; { cout<<a<<":"<<b<<endl;}
+  b=f(a,a); { cout<<a<<":"<<b<<endl;}
+  int a=5; cout<<a<<endl;}
+  {cout<<a<<":"<<b<<endl;} return 0;}
+
+<\sample>
+
+<declarations>
+0={&}{}
+1=#0
+2={<int> 1 9}
+3=x;y
+4=#2
+5=#2
+11=#2
+6=a;b
+7=#6
+8=#6
+9=;int{SPACE}
+10=+;-
+
+111={<int> 3 7}
+12=#111
+13=<;<=;>;>=
+14=&&;||
+15=+;-
+16=1;2
+17=#13
+18=#111
+19=#111
+a=a;b
+
+const printAB=cout<<a<<":"<<b<<endl;
+<\declarations>
+
+<template>
+int f(int #0#x, int #1#y) { x=#2#; y#10#=#11#; return #3#;}{ENDL}
+{SPACE}int main(){{ENDL}  int a=#4#, b=#5#; #6#=f(#7#,#8#); #printAB#{ENDL}
+{SPACE}{SPACE}{int a=#111#, b=#12#; cout<<((#a##13##19#){SPACE}#14#{SPACE}((#a new##15#=#16#)#17##18#));#printAB#}{ENDL}
+{SPACE}{SPACE}{#9#a=5; cout<<a<<endl;}{ENDL}  #printAB# return 0;}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

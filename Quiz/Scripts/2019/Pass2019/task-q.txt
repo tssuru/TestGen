@@ -1,0 +1,13 @@
+<fabric>
+     file answer
+     <fname>
+         task-s.txt
+     <\fname>
+
+     <before>
+Задача. Враховується економнiсть обчислень, стиль запису умов, використання пам'яті та якiсть коду.{ENDL}
+     <\before>
+<after>
+<\after>
+
+  <\fabric>

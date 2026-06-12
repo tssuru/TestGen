@@ -1,0 +1,30 @@
+echo
+echo =571_1.py 
+python3.10 ./571_1.py 
+echo
+echo =571_2.py 
+python3.10 ./571_2.py 
+echo
+echo =571_3.py 
+python3.10 ./571_3.py 
+echo
+echo =571_4.py 
+python3.10 ./571_4.py 
+echo
+echo =571_5.py 
+python3.10 ./571_5.py 
+echo
+echo =571_6.py 
+python3.10 ./571_6.py 
+echo
+echo =571_7.py 
+python3.10 ./571_7.py 
+echo
+echo =571_8.py 
+python3.10 ./571_8.py 
+echo
+echo =571_9.py 
+python3.10 ./571_9.py 
+echo
+echo =571_10.py 
+python3.10 ./571_10.py 

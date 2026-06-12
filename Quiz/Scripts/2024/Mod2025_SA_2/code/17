@@ -1,0 +1,30 @@
+echo
+echo =17_1.py 
+python3.11 -W "ignore" ./17_1.py 
+echo
+echo =17_2.py 
+python3.11 -W "ignore" ./17_2.py 
+echo
+echo =17_3.py 
+python3.11 -W "ignore" ./17_3.py 
+echo
+echo =17_4.py 
+python3.11 -W "ignore" ./17_4.py 
+echo
+echo =17_5.py 
+python3.11 -W "ignore" ./17_5.py 
+echo
+echo =17_6.py 
+python3.11 -W "ignore" ./17_6.py 
+echo
+echo =17_7.py 
+python3.11 -W "ignore" ./17_7.py 
+echo
+echo =17_8.py 
+python3.11 -W "ignore" ./17_8.py 
+echo
+echo =17_9.py 
+python3.11 -W "ignore" ./17_9.py 
+echo
+echo =17_10.py 
+python3.11 -W "ignore" ./17_10.py 

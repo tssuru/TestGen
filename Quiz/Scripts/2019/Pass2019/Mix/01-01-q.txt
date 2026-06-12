@@ -1,0 +1,9 @@
+ <fabric>
+     file answer
+     <fname>
+         Mix\01-01-s.txt
+     <\fname>
+<after>
+//{ENDL}
+<\after>
+   <\fabric>

@@ -1,0 +1,47 @@
+int z=#n#;
+struct A{ 
+{SPACE}{SPACE}A(){z+=2;}
+{SPACE}{SPACE}A(A &aa){z++;}
+{SPACE}{SPACE}~A(){z--;}
+};
+void test(){{ENDL}{SPACE}{SPACE}{A a, b(a), c(b);} cout<<z;}
+
+int z=#n#;
+struct A{ 
+{SPACE}{SPACE}A(){z--;}
+{SPACE}{SPACE}A(const A &aa){z++;}
+{SPACE}{SPACE}~A(){z--;}
+};
+void test(){{ENDL}{SPACE}{SPACE}{A a, b(a), c(b);} cout<<z;}
+
+int z=#n#;
+struct A{ 
+{SPACE}{SPACE}A(){z++;}
+{SPACE}{SPACE}~A(){z++;}
+{SPACE}{SPACE}A(const A &aa){z+=4;}
+};
+void test(){{ENDL}{SPACE}{SPACE}{A a, b(a), c(b);} cout<<z;}
+
+int z=#n#;
+struct A{ 
+{SPACE}{SPACE}A(){z++;}
+{SPACE}{SPACE}A(const A &aa){z+=2;}
+{SPACE}{SPACE}A& f(){return *this;}
+};
+void test(){{ENDL}{SPACE}{SPACE}{A a, b(a), c(A().f());} cout<<z;}
+
+int z=#n#;
+struct A{ 
+{SPACE}{SPACE}A(){++z;}
+{SPACE}{SPACE}A(const A &aa){z=3;}
+{SPACE}{SPACE}~A(){z--;}
+};
+void test(){{ENDL}{SPACE}{SPACE}{A a, b(a), c, d(b);} cout<<z;}
+
+int z=#n#;
+struct A{ 
+{SPACE}{SPACE}A(){z++;}
+{SPACE}{SPACE}A(const A &aa){z+=2;}
+{SPACE}{SPACE}A(A &&aa){z+=4;}
+{SPACE}{SPACE}A& f(){return *this;}{ENDL}};
+void test(){{ENDL}{SPACE}{SPACE}{A a, b(a), c(A().f());} cout<<z;}

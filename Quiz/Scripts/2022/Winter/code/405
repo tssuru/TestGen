@@ -1,0 +1,30 @@
+echo
+echo =405_1.py 
+python3.10 ./405_1.py 
+echo
+echo =405_2.py 
+python3.10 ./405_2.py 
+echo
+echo =405_3.py 
+python3.10 ./405_3.py 
+echo
+echo =405_4.py 
+python3.10 ./405_4.py 
+echo
+echo =405_5.py 
+python3.10 ./405_5.py 
+echo
+echo =405_6.py 
+python3.10 ./405_6.py 
+echo
+echo =405_7.py 
+python3.10 ./405_7.py 
+echo
+echo =405_8.py 
+python3.10 ./405_8.py 
+echo
+echo =405_9.py 
+python3.10 ./405_9.py 
+echo
+echo =405_10.py 
+python3.10 ./405_10.py 

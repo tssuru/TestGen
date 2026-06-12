@@ -1,0 +1,30 @@
+echo
+echo =543_1.py 
+python3.10 ./543_1.py 
+echo
+echo =543_2.py 
+python3.10 ./543_2.py 
+echo
+echo =543_3.py 
+python3.10 ./543_3.py 
+echo
+echo =543_4.py 
+python3.10 ./543_4.py 
+echo
+echo =543_5.py 
+python3.10 ./543_5.py 
+echo
+echo =543_6.py 
+python3.10 ./543_6.py 
+echo
+echo =543_7.py 
+python3.10 ./543_7.py 
+echo
+echo =543_8.py 
+python3.10 ./543_8.py 
+echo
+echo =543_9.py 
+python3.10 ./543_9.py 
+echo
+echo =543_10.py 
+python3.10 ./543_10.py 

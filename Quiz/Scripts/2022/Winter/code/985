@@ -1,0 +1,30 @@
+echo
+echo =985_1.py 
+python3.10 ./985_1.py 
+echo
+echo =985_2.py 
+python3.10 ./985_2.py 
+echo
+echo =985_3.py 
+python3.10 ./985_3.py 
+echo
+echo =985_4.py 
+python3.10 ./985_4.py 
+echo
+echo =985_5.py 
+python3.10 ./985_5.py 
+echo
+echo =985_6.py 
+python3.10 ./985_6.py 
+echo
+echo =985_7.py 
+python3.10 ./985_7.py 
+echo
+echo =985_8.py 
+python3.10 ./985_8.py 
+echo
+echo =985_9.py 
+python3.10 ./985_9.py 
+echo
+echo =985_10.py 
+python3.10 ./985_10.py 

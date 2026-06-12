@@ -1,0 +1,120 @@
+<document>
+
+  <header>
+
+  <\header>
+
+  <footer>
+
+  <\footer>
+
+  <onNextVariant>
+{ENDL}{ENDL}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+NEWPAGE
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     1000
+  <\to>
+
+  <onPage>
+     1001
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+Mod1 beta Варіант № #No# {ENDL}
+<\before>
+
+<after>
+{ENDL}{ENDL}14. Написати функцiю f, що щось отримує та щось повертає.{ENDL}
+Невелика загадка все-таки має залишатися. {ENDL}
+Але нічого принципово нового відносно задач, що наявні у pdf-ках не планується.
+<\after>
+
+<\variant>
+
+//Lexical
+<item>
+   include Lex/1+2-q.txt
+<\item>
+
+
+//<item> include 01-q.txt <\item>
+//<item> include 02-q.txt <\item>
+
+
+<item>
+  include Lex/03-q.txt
+  <delim>
+{ENDL}       Вказати значення виразу та його тип (за наявності помилок - error) (завдання 3-7):{ENDL}
+  <\delim>
+<\item>
+
+//Arithmetics
+<item>
+  include Ar/01-q.txt
+  <delim>
+//{SPACE}                            {SPACE}
+  <\delim>
+<\item>
+
+<item>
+  include Ar/02-q.txt
+<\item>
+
+//Logics and comparisons
+<item>
+  include Log/01-q.txt
+  <delim>
+//{SPACE}             {SPACE}
+  <\delim>
+<\item>
+
+<item>
+  include Log/02-q.txt
+<\item>
+
+<item>
+  include Log/03-q.txt
+
+  <delim>
+{ENDL}       Що буде виведено за виконання (повідомлення про помилку позначати ERROR, вказати через що)(завдання 8-13):{ENDL}
+  <\delim>
+
+<\item>
+
+
+<item>
+  include Log/04-q.txt
+<\item>
+
+<item>
+  include 05-q.txt
+<\item>
+
+<item>
+  include If/1+2-q.txt
+<\item>
+
+<item>
+  include Scope/1+2-q.txt
+<\item>
+
+<item>
+  include 06-q.txt
+<\item>
+
+<item>
+  include Except/01-q.txt
+<\item>

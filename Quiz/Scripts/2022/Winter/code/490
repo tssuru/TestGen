@@ -1,0 +1,30 @@
+echo
+echo =490_1.py 
+python3.10 ./490_1.py 
+echo
+echo =490_2.py 
+python3.10 ./490_2.py 
+echo
+echo =490_3.py 
+python3.10 ./490_3.py 
+echo
+echo =490_4.py 
+python3.10 ./490_4.py 
+echo
+echo =490_5.py 
+python3.10 ./490_5.py 
+echo
+echo =490_6.py 
+python3.10 ./490_6.py 
+echo
+echo =490_7.py 
+python3.10 ./490_7.py 
+echo
+echo =490_8.py 
+python3.10 ./490_8.py 
+echo
+echo =490_9.py 
+python3.10 ./490_9.py 
+echo
+echo =490_10.py 
+python3.10 ./490_10.py 

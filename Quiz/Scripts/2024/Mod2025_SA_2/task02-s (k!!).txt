@@ -1,0 +1,9 @@
+$$\scalebox{1.2}{$\frac{(2k)!!}{(k!)^2}$}, \quad k=1,\ldots,n$$
+$$\scalebox{1.2}{$\frac{(2k)!!}{(k+1)!(k-1)!}$}, \quad k=2,\ldots,n$$
+$$\scalebox{1.2}{$\frac{(2k+1)!!}{(k!)^2}$}, \quad k=1,\ldots,n$$
+$$\scalebox{1.2}{$\frac{(2k+1)!!}{(k+1)!(k-1)!}$}, \quad k=2,\ldots,n$$
+$$\scalebox{1.2}{$(-1)^{k}\frac{(2k)!!}{(k!)^2}$}, \quad k=1,\ldots,n$$
+$$\scalebox{1.2}{$(-1)^{k}\frac{(2k)!!}{(k+1)!(k-1)!}$}, \quad k=2,\ldots,n$$
+$$\scalebox{1.2}{$(-1)^{k}\frac{(2k+1)!!}{(k!)^2}$}, \quad k=1,\ldots,n$$
+$$\scalebox{1.2}{$(-1)^{k}\frac{(2k+1)!!}{(k+1)!(k-1)!}$}, \quad k=2,\ldots,n$$
+

@@ -1,0 +1,30 @@
+echo
+echo =904_1.py 
+python3.10 ./904_1.py 
+echo
+echo =904_2.py 
+python3.10 ./904_2.py 
+echo
+echo =904_3.py 
+python3.10 ./904_3.py 
+echo
+echo =904_4.py 
+python3.10 ./904_4.py 
+echo
+echo =904_5.py 
+python3.10 ./904_5.py 
+echo
+echo =904_6.py 
+python3.10 ./904_6.py 
+echo
+echo =904_7.py 
+python3.10 ./904_7.py 
+echo
+echo =904_8.py 
+python3.10 ./904_8.py 
+echo
+echo =904_9.py 
+python3.10 ./904_9.py 
+echo
+echo =904_10.py 
+python3.10 ./904_10.py 

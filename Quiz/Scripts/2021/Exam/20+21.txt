@@ -1,0 +1,15 @@
+<fabric>
+       collate 
+        include 20_list/q.txt
+        include 21_setop/q.txt
+        <n1>
+         20
+        <\n1>
+        <n2>
+         20
+        <\n2>
+  <\fabric>
+
+
+
+

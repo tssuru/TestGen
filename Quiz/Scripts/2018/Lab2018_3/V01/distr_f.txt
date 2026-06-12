@@ -1,0 +1,12 @@
+ <fabric>
+     template answer
+     <fname>
+         distr_s.txt
+     <\fname>
+
+     <before>
+     <\before>
+
+     <after>
+     <\after>
+   <\fabric>

@@ -1,0 +1,30 @@
+echo
+echo =960_1.py 
+python3.10 ./960_1.py 
+echo
+echo =960_2.py 
+python3.10 ./960_2.py 
+echo
+echo =960_3.py 
+python3.10 ./960_3.py 
+echo
+echo =960_4.py 
+python3.10 ./960_4.py 
+echo
+echo =960_5.py 
+python3.10 ./960_5.py 
+echo
+echo =960_6.py 
+python3.10 ./960_6.py 
+echo
+echo =960_7.py 
+python3.10 ./960_7.py 
+echo
+echo =960_8.py 
+python3.10 ./960_8.py 
+echo
+echo =960_9.py 
+python3.10 ./960_9.py 
+echo
+echo =960_10.py 
+python3.10 ./960_10.py 

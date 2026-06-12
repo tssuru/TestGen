@@ -1,0 +1,24 @@
+//source for question like
+//640000 questions
+//Записати вираз мовою С++
+
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+f=\tg;\ctg;\arctg;\arcctg;\ln;e^
+arg={<file> 1.txt}
+
+<\declarations>
+
+<template>
+Записати вираз {\Large $#f#{#arg#}$}\space мовою С++\par\vspace{0.5cm}{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

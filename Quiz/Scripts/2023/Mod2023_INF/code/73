@@ -1,0 +1,24 @@
+echo
+echo =73_1.py 
+python3.11 -W "ignore" ./73_1.py 
+echo
+echo =73_2.py 
+python3.11 -W "ignore" ./73_2.py 
+echo
+echo =73_3.py 
+python3.11 -W "ignore" ./73_3.py 
+echo
+echo =73_4.py 
+python3.11 -W "ignore" ./73_4.py 
+echo
+echo =73_5.py 
+python3.11 -W "ignore" ./73_5.py 
+echo
+echo =73_6.py 
+python3.11 -W "ignore" ./73_6.py 
+echo
+echo =73_7.py 
+python3.11 -W "ignore" ./73_7.py 
+echo
+echo =73_8.py 
+echo 6

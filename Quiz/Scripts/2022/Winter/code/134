@@ -1,0 +1,30 @@
+echo
+echo =134_1.py 
+python3.10 ./134_1.py 
+echo
+echo =134_2.py 
+python3.10 ./134_2.py 
+echo
+echo =134_3.py 
+python3.10 ./134_3.py 
+echo
+echo =134_4.py 
+python3.10 ./134_4.py 
+echo
+echo =134_5.py 
+python3.10 ./134_5.py 
+echo
+echo =134_6.py 
+python3.10 ./134_6.py 
+echo
+echo =134_7.py 
+python3.10 ./134_7.py 
+echo
+echo =134_8.py 
+python3.10 ./134_8.py 
+echo
+echo =134_9.py 
+python3.10 ./134_9.py 
+echo
+echo =134_10.py 
+python3.10 ./134_10.py 

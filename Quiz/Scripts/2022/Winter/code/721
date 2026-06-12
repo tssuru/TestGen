@@ -1,0 +1,30 @@
+echo
+echo =721_1.py 
+python3.10 ./721_1.py 
+echo
+echo =721_2.py 
+python3.10 ./721_2.py 
+echo
+echo =721_3.py 
+python3.10 ./721_3.py 
+echo
+echo =721_4.py 
+python3.10 ./721_4.py 
+echo
+echo =721_5.py 
+python3.10 ./721_5.py 
+echo
+echo =721_6.py 
+python3.10 ./721_6.py 
+echo
+echo =721_7.py 
+python3.10 ./721_7.py 
+echo
+echo =721_8.py 
+python3.10 ./721_8.py 
+echo
+echo =721_9.py 
+python3.10 ./721_9.py 
+echo
+echo =721_10.py 
+python3.10 ./721_10.py 

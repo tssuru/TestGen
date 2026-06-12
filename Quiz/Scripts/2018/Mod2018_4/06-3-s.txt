@@ -1,0 +1,14 @@
+class A{};
+void test(){A *a=new A[#n#]; delete a; cout<<".";}
+
+class A{};
+void test(){A *a=new A[#n#]; ++a; delete a; cout<<".";}
+
+class A{public:A(const A&){}};
+void test(){A *a=new A[#n#]; delete [] a; cout<<".";}
+
+class A{};
+void test(){A *a=new A[#n#]; delete [#n#] a; cout<<".";}
+
+class A{public:int n=1; };
+void test(){A *a=new A[#n#]; delete [#n#] a; cout<<".";}

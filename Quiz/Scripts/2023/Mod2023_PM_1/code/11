@@ -1,0 +1,27 @@
+echo
+echo =11_1.py 
+python3.10 ./11_1.py 
+echo
+echo =11_2.py 
+python3.10 ./11_2.py 
+echo
+echo =11_3.py 
+python3.10 ./11_3.py 
+echo
+echo =11_4.py 
+python3.10 ./11_4.py 
+echo
+echo =11_5.py 
+python3.10 ./11_5.py 
+echo
+echo =11_6.py 
+python3.10 ./11_6.py 
+echo
+echo =11_7.py 
+python3.10 ./11_7.py 
+echo
+echo =11_8.py 
+python3.10 ./11_8.py 
+echo
+echo =11_9.py 
+python3.10 ./11_9.py 

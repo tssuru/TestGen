@@ -1,0 +1,30 @@
+echo
+echo =194_1.py 
+python3.10 ./194_1.py 
+echo
+echo =194_2.py 
+python3.10 ./194_2.py 
+echo
+echo =194_3.py 
+python3.10 ./194_3.py 
+echo
+echo =194_4.py 
+python3.10 ./194_4.py 
+echo
+echo =194_5.py 
+python3.10 ./194_5.py 
+echo
+echo =194_6.py 
+python3.10 ./194_6.py 
+echo
+echo =194_7.py 
+python3.10 ./194_7.py 
+echo
+echo =194_8.py 
+python3.10 ./194_8.py 
+echo
+echo =194_9.py 
+python3.10 ./194_9.py 
+echo
+echo =194_10.py 
+python3.10 ./194_10.py 

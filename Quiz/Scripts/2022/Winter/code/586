@@ -1,0 +1,30 @@
+echo
+echo =586_1.py 
+python3.10 ./586_1.py 
+echo
+echo =586_2.py 
+python3.10 ./586_2.py 
+echo
+echo =586_3.py 
+python3.10 ./586_3.py 
+echo
+echo =586_4.py 
+python3.10 ./586_4.py 
+echo
+echo =586_5.py 
+python3.10 ./586_5.py 
+echo
+echo =586_6.py 
+python3.10 ./586_6.py 
+echo
+echo =586_7.py 
+python3.10 ./586_7.py 
+echo
+echo =586_8.py 
+python3.10 ./586_8.py 
+echo
+echo =586_9.py 
+python3.10 ./586_9.py 
+echo
+echo =586_10.py 
+python3.10 ./586_10.py 

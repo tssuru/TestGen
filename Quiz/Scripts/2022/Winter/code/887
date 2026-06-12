@@ -1,0 +1,30 @@
+echo
+echo =887_1.py 
+python3.10 ./887_1.py 
+echo
+echo =887_2.py 
+python3.10 ./887_2.py 
+echo
+echo =887_3.py 
+python3.10 ./887_3.py 
+echo
+echo =887_4.py 
+python3.10 ./887_4.py 
+echo
+echo =887_5.py 
+python3.10 ./887_5.py 
+echo
+echo =887_6.py 
+python3.10 ./887_6.py 
+echo
+echo =887_7.py 
+python3.10 ./887_7.py 
+echo
+echo =887_8.py 
+python3.10 ./887_8.py 
+echo
+echo =887_9.py 
+python3.10 ./887_9.py 
+echo
+echo =887_10.py 
+python3.10 ./887_10.py 

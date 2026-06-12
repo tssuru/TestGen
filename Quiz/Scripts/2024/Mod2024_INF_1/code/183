@@ -1,0 +1,30 @@
+echo
+echo =183_1.py 
+python3.11 -W "ignore" ./183_1.py 
+echo
+echo =183_2.py 
+python3.11 -W "ignore" ./183_2.py 
+echo
+echo =183_3.py 
+python3.11 -W "ignore" ./183_3.py 
+echo
+echo =183_4.py 
+python3.11 -W "ignore" ./183_4.py 
+echo
+echo =183_5.py 
+python3.11 -W "ignore" ./183_5.py 
+echo
+echo =183_6.py 
+python3.11 -W "ignore" ./183_6.py 
+echo
+echo =183_7.py 
+python3.11 -W "ignore" ./183_7.py 
+echo
+echo =183_8.py 
+python3.11 -W "ignore" ./183_8.py 
+echo
+echo =183_10.py 
+python3.11 -W "ignore" ./183_10.py 
+echo
+echo =183_11.py 
+python3.11 -W "ignore" ./183_11.py 

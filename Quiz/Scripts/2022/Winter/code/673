@@ -1,0 +1,30 @@
+echo
+echo =673_1.py 
+python3.10 ./673_1.py 
+echo
+echo =673_2.py 
+python3.10 ./673_2.py 
+echo
+echo =673_3.py 
+python3.10 ./673_3.py 
+echo
+echo =673_4.py 
+python3.10 ./673_4.py 
+echo
+echo =673_5.py 
+python3.10 ./673_5.py 
+echo
+echo =673_6.py 
+python3.10 ./673_6.py 
+echo
+echo =673_7.py 
+python3.10 ./673_7.py 
+echo
+echo =673_8.py 
+python3.10 ./673_8.py 
+echo
+echo =673_9.py 
+python3.10 ./673_9.py 
+echo
+echo =673_10.py 
+python3.10 ./673_10.py 

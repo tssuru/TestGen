@@ -1,0 +1,16 @@
+<fabric>
+     file answer
+     <fname>
+         task02-s.txt
+     <\fname>
+
+     <before>
+	{ENDL}Написати функцію, що виводить послідовність чисел{ENDL}
+     <\before>
+<after>
+{ENDL}
+Оцінюється економність обчислень. Використовувати ** та виклики функцій заборонено.
+{ENDL}{ENDL}
+<\after>
+
+  <\fabric>

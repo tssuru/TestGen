@@ -1,0 +1,27 @@
+echo
+echo =44_1.py 
+python3.10 ./44_1.py 
+echo
+echo =44_2.py 
+python3.10 ./44_2.py 
+echo
+echo =44_3.py 
+python3.10 ./44_3.py 
+echo
+echo =44_4.py 
+python3.10 ./44_4.py 
+echo
+echo =44_5.py 
+python3.10 ./44_5.py 
+echo
+echo =44_6.py 
+python3.10 ./44_6.py 
+echo
+echo =44_7.py 
+python3.10 ./44_7.py 
+echo
+echo =44_8.py 
+python3.10 ./44_8.py 
+echo
+echo =44_9.py 
+python3.10 ./44_9.py 

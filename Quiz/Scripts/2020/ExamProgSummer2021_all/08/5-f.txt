@@ -1,0 +1,30 @@
+//source for question about dict operations
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+a=[3 08\5-print.txt]
+//a=[3 5-print.txt]
+
+0text={<file> 08\5-task.txt}
+//0text={<file> 5-task.txt}
+var=s;d;t 
+val={<int> 0 4}
+val1={<int> 5 9}
+
+tip=tuple;set;list
+what=keys;values;items
+
+<\declarations>
+
+<template>
+#0text#
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

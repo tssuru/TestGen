@@ -1,0 +1,30 @@
+echo
+echo =629_1.py 
+python3.10 ./629_1.py 
+echo
+echo =629_2.py 
+python3.10 ./629_2.py 
+echo
+echo =629_3.py 
+python3.10 ./629_3.py 
+echo
+echo =629_4.py 
+python3.10 ./629_4.py 
+echo
+echo =629_5.py 
+python3.10 ./629_5.py 
+echo
+echo =629_6.py 
+python3.10 ./629_6.py 
+echo
+echo =629_7.py 
+python3.10 ./629_7.py 
+echo
+echo =629_8.py 
+python3.10 ./629_8.py 
+echo
+echo =629_9.py 
+python3.10 ./629_9.py 
+echo
+echo =629_10.py 
+python3.10 ./629_10.py 

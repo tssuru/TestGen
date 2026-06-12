@@ -1,0 +1,27 @@
+echo
+echo =122_1.py 
+python3.10 ./122_1.py 
+echo
+echo =122_2.py 
+python3.10 ./122_2.py 
+echo
+echo =122_3.py 
+python3.10 ./122_3.py 
+echo
+echo =122_4.py 
+python3.10 ./122_4.py 
+echo
+echo =122_5.py 
+python3.10 ./122_5.py 
+echo
+echo =122_6.py 
+python3.10 ./122_6.py 
+echo
+echo =122_7.py 
+python3.10 ./122_7.py 
+echo
+echo =122_8.py 
+python3.10 ./122_8.py 
+echo
+echo =122_9.py 
+python3.10 ./122_9.py 

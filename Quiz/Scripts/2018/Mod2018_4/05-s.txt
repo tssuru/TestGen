@@ -1,0 +1,61 @@
+class A{public: int work(){return #n#;}};//#n new#
+class B:public A{public: int relax(){return #n new#;}};
+class C:public A{public: int relax(){return #n new#;}};
+void test(){ B *a0=new A, *a1=new B;cout<<a0->work()<<a1->relax();}
+
+class A{public: int work(){return #n#;}};//#n new#
+class B:public A{public: int relax(){return #n new#;}};
+class C:public A{public: int relax(){return #n new#;}};
+void test(){ A *a0=new A, *a1=new B, *a2=new C;cout<<a0->work()<<((B*)a1)->relax()<<((C*)a2)->relax();}
+
+class A{public: int work(){return #n#;} int relax(){return #n new#;}};
+class B:public A{public: int relax(){return #n new#;}};
+class C:public A{public: int relax(){return #n new#;}};
+void test(){ A *a0=new A, *a1=new B, *a2=new C;cout<<a0->work()<<a1->relax()<<a2->relax();}
+
+class A{public: int work(){return #n#;} virtual int relax(){return #n new#;}};
+class B:public A{public: int relax(){return #n new#;}};
+class C:public A{public: int relax(){return #n new#;}};
+void test(){ A *a0=new A, *a1=new B, *a2=new C;cout<<a0->work()<<a1->relax()<<a2->relax();}
+
+class A{public: int work(){return #n#;} int relax(){return #n new#;}};
+class B:public A{public: int relax(){return #n new#;}};
+class C:public A{public: int relax(){return #n new#;}};
+void test(){ A *a0=new A, *a1=new B, *a2=new C;cout<<a0->work()<<((B*)a1)->relax()<<((C*)a2)->relax();}
+
+class A{public: int work(){return #n#;}};//#n new#
+class B:public A{public: int relax(){return #n new#;}};
+class C:public A{public: int relax(){return #n new#;}};
+void test(){ A *a0=new A, *a1=new B, *a2=new C;cout<<a2->work()<<((B*)a1)->relax()<<((B*)a0)->relax();}
+
+class A{public: int work(){return #n#;}int relax(){return #n new#;}};
+class B:public A{public: virtual int relax(){return #n new#;}};
+class C:public B{public: int relax(){return #n new#;}};
+void test(){ A *a1=new B, *a2=new C;cout<<a1->work()<<a2->relax()<<a1->relax();}
+
+class A{public: int work(){return #n#;} virtual int relax(){return #n new#;}};
+class B:public A{public: int relax(){return #n new#;}};
+class C:public B{public: int relax(){return #n new#;}};
+void test(){ A *a1=new B, *a2=new C;cout<<a2->relax()<<a1->relax();}
+
+class A{public: int work(){return #n#;} virtual int relax(){return #n new#;}};
+class B:public A{public: int relax(){return #n new#;}};
+class C:public B{public: int relax(){return #n new#;}};
+void test(){ A *a1=new B, *a2=new C;cout<<a2->B::relax()<<a1->relax();}
+
+
+class A{public: int work(){return #n#;} virtual int relax(){return #n new#;}};
+class B:public A{public: int relax(){return #n new#;}};
+class C:public B{public: int relax(){return #n new#;}};
+void test(){ A *a1=new B, *a2=new C;cout<<((C*)a2)->B::relax()<<a1->relax();}
+
+class A{public: int work(){return #n#;} virtual int relax(){return #n new#;}};
+class B:public A{public: int relax(){return #n new#;}};
+class C:public B{public: int relax(){return #n new#;}};
+void test(){ A *a1=new B, *a2=new C;cout<<a2->relax()<<a1->A::relax();}
+
+class A{public: int work(){return #n#;} virtual int relax(){return #n new#;}};
+class B:public A{public: int relax(){return #n new#;}};
+class C:public B{public: int relax(){return #n new#;}};
+void test(){ A a; B b; C c; cout<<((B&)c).relax()<<c.B::relax();}
+

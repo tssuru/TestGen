@@ -1,0 +1,30 @@
+echo
+echo =804_1.py 
+python3.10 ./804_1.py 
+echo
+echo =804_2.py 
+python3.10 ./804_2.py 
+echo
+echo =804_3.py 
+python3.10 ./804_3.py 
+echo
+echo =804_4.py 
+python3.10 ./804_4.py 
+echo
+echo =804_5.py 
+python3.10 ./804_5.py 
+echo
+echo =804_6.py 
+python3.10 ./804_6.py 
+echo
+echo =804_7.py 
+python3.10 ./804_7.py 
+echo
+echo =804_8.py 
+python3.10 ./804_8.py 
+echo
+echo =804_9.py 
+python3.10 ./804_9.py 
+echo
+echo =804_10.py 
+python3.10 ./804_10.py 

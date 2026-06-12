@@ -1,0 +1,38 @@
+//source for question like
+//26127360 questions
+//Вкажіть значення та його тип:\n
+
+//**
+
+<sample>
+
+
+
+<\sample>
+
+<declarations>
+val={<int> 0 5}
+val2={<int> 6 9}
+
+var=x;y;z
+var1=x;y;z;x;y;z
+Var2={#var new#}{#var new#}{#val2 new#}
+
+
+comp=<;<=;>;>=;==;!=
+Return=n; n#comp##x2#
+
+<\declarations>
+
+<template>
+%code{ENDL}
+{ENDL}
+x,y,z = #val#,#val new#,#val new#{ENDL}
+#var1#,#var1 new#,#var1 new#,#var1 new# = #Var2 new#,#Var2 new#,#Var2 new#,#Var2 new#{ENDL}
+print(x,y,z){ENDL}
+%code{ENDL}
+
+<\template>
+
+<restrictions>
+<\restrictions>

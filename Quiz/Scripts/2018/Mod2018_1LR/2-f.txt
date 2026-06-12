@@ -1,0 +1,25 @@
+//source for question like
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+X=XX;X55;X77;X31
+Y=Y2;Y7;YZ
+
+<\declarations>
+
+<template>
+У папці #X# розташовано проект, до якого входить синаксично правильна одиниця трансляції 1.cpp з рядком\par{ENDL}
+{\#}include "2.h"{ENDL}\par
+Файла 2.h у папці #X# нема, але він є в папці #Y#. Що треба зробити, щоб одиниця трансляції 1.cpp, могла успішно відкомпілюватися? 
+Переміщувати, копіювати та змінювати файли з кодом заборонено.\par
+\vspace{1.5cm}
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

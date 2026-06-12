@@ -1,0 +1,30 @@
+echo
+echo =719_1.py 
+python3.10 ./719_1.py 
+echo
+echo =719_2.py 
+python3.10 ./719_2.py 
+echo
+echo =719_3.py 
+python3.10 ./719_3.py 
+echo
+echo =719_4.py 
+python3.10 ./719_4.py 
+echo
+echo =719_5.py 
+python3.10 ./719_5.py 
+echo
+echo =719_6.py 
+python3.10 ./719_6.py 
+echo
+echo =719_7.py 
+python3.10 ./719_7.py 
+echo
+echo =719_8.py 
+python3.10 ./719_8.py 
+echo
+echo =719_9.py 
+python3.10 ./719_9.py 
+echo
+echo =719_10.py 
+python3.10 ./719_10.py 

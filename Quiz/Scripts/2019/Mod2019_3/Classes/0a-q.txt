@@ -1,0 +1,14 @@
+<fabric>
+       collate   
+        include Classes/01-q.txt
+        include Classes/04-q.txt
+        <n1>
+         50
+        <\n1>
+        <n2>
+         50
+        <\n2>
+<\fabric>
+
+
+

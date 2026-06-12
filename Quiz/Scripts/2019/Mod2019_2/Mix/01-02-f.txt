@@ -1,0 +1,29 @@
+//source for question like
+//840 questions
+//Що буде надруковано за виконання:\n
+
+//recursion
+
+<sample>
+
+<\sample>
+
+<declarations>
+
+a=[4 Mix\01-02-s.txt]
+const indent={SPACE}{SPACE}{SPACE}
+const indent2={SPACE}{SPACE}{SPACE}{SPACE}{SPACE}
+
+<\declarations>
+
+<template>
+#a[0]#{ENDL}
+#indent2##a[1]#{ENDL}
+#indent2##a[2]#{ENDL}
+#indent##a[3]#
+<\template>
+
+<restrictions>
+<\restrictions>
+
+

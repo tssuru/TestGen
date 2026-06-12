@@ -1,0 +1,30 @@
+echo
+echo =495_1.py 
+python3.10 ./495_1.py 
+echo
+echo =495_2.py 
+python3.10 ./495_2.py 
+echo
+echo =495_3.py 
+python3.10 ./495_3.py 
+echo
+echo =495_4.py 
+python3.10 ./495_4.py 
+echo
+echo =495_5.py 
+python3.10 ./495_5.py 
+echo
+echo =495_6.py 
+python3.10 ./495_6.py 
+echo
+echo =495_7.py 
+python3.10 ./495_7.py 
+echo
+echo =495_8.py 
+python3.10 ./495_8.py 
+echo
+echo =495_9.py 
+python3.10 ./495_9.py 
+echo
+echo =495_10.py 
+python3.10 ./495_10.py 

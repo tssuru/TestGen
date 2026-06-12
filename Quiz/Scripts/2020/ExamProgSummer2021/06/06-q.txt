@@ -1,0 +1,13 @@
+ <fabric>
+    collate 
+    include 06/1-q.txt
+    include 06/2-q.txt
+    <n1>
+        7
+    <\n1>
+    <n2>
+         21
+    <\n2>
+
+
+   <\fabric>

@@ -1,0 +1,7 @@
+int n, m, *p1, p2;
+char *s1, pc, **s2;
+double x, *px1, px2, ***px3;
+long *n1, *n2, n3, pn4;
+int *pn1, pn2, pn3, pn4;
+long pointer1, pointer2, pointer3, pointer4;
+double *px, *py, **ppx;

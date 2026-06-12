@@ -1,0 +1,16 @@
+ <fabric>
+     file answer
+     <fname>
+         06\2-s.txt
+     <\fname>
+<num>
+6
+<\num>
+<before>
+Що буде виведено за виконання?{ENDL}
+code{ENDL}
+<\before>
+<after>
+{ENDL}code{ENDL}
+<\after>
+   <\fabric>

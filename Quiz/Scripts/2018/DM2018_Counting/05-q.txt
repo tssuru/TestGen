@@ -1,0 +1,23 @@
+<fabric>
+collate
+  <fabric>
+      template answer
+        <fname>
+           05-f-1.txt
+        <\fname>
+   <\fabric>
+
+   <fabric>
+        template answer
+        <fname>
+           05-f-2.txt
+        <\fname>
+    <\fabric>
+
+    <n1>
+       40
+    <\n1>
+    <n2>
+       20
+    <\n2>
+<\fabric>

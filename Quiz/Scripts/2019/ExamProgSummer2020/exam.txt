@@ -1,0 +1,185 @@
+<document>
+  <header>
+\documentclass[10pt, ukrainian]{article}{ENDL}
+%\setlength\textwidth{190mm} \setlength\textheight{277mm}{ENDL}
+%\setlength\voffset{-38mm} \setlength\hoffset{-38mm}{ENDL}
+%\setlength\parindent{0mm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[cp1251]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage{caption}{ENDL}
+\DeclareCaptionFormat{nocaption}{}{ENDL}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}{ENDL}
+
+\usepackage[Export]{adjustbox} {ENDL}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}
+
+\begin{document}{ENDL}
+  <\header>
+  <footer>
+\end{document}
+  <\footer>
+
+  <onNextVariant>
+{ENDL}\newpage{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+//NEWPAGE
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     500
+  <\to>
+
+  <onPage>
+    1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+%begin{ENDL}
+{
+ {\begin {small}\par{ENDL}
+  { \center  Київський національний університет імені Тараса Шевченка \par}{ENDL} 
+  {\parbox {5 cm}{Освітня програма \hfill}{\parbox {7 cm}{Прикладна математика, Системний аналіз \hfill}}
+   \parbox {6 cm}{\hfill Семестр 2}
+  }\par{ENDL}
+  {\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}
+   {Програмування \hfill}\parbox {6cm}{\hfill}\par
+  }
+  \vspace{-7pt} \end{small}
+ }
+ {\center Екзаменаційний білет \No \textbf {ENDL}
+  { #No# }\par
+ }
+}{ENDL}
+{
+ {ENDL}\begin {large}{ENDL}
+<\before>
+
+<after>
+ {ENDL}\end {large}
+}{ENDL}
+%end{ENDL}
+{\smallskip \begin {small} Затверджено на засіданні кафедри{SPACE}
+ теоретичної кібернетики, протокол \No 12 від   19.05.2020{SPACE}
+ р.\par\smallskip\smallskip{ENDL}
+ {\parbox {6.5 cm} 
+  {Зав. кафедри \dotfill{SPACE}
+   Ю.В.~Крак
+  }
+ }\hspace {0.7cm} 
+ {\hbox to 6.5 cm 
+  { Екзаменатор \dotfill{SPACE}
+    Т.О.~Карнаух
+  }
+ }{SPACE}
+\end{small}}{ENDL}
+<\after>
+
+<\variant>
+
+//expressions, mod 1 nn 2,3,4,6,7
+<item>
+ include 01/01-q.txt
+ <delim>
+  {ENDL}
+ <\delim>
+//<before>
+//Що буде виведено за виконання?{ENDL}
+//code{ENDL}
+//<\before>
+//<after>
+//code{ENDL}
+//<\after>
+<\item>
+
+//scope, mod 1 n 10
+<item>
+ include 02/02-q.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+//while, mod 2 n 1
+<item>
+ include 03/03-q.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+
+//for, mod 2 n 2
+<item>
+ include 04/04-q.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+
+//try, mod 1 n 12
+<item>
+ include 05/05-q.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+//recursion, mod 2 n 3
+<item>
+ include 06/06-q.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+
+//function with mutable arguments, 2.6, 3.2, ...
+<item>
+ include 07/07-q.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+
+//virtual methods, 3.10
+<item>
+ include 08/08-q.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+
+//attribute access + inheritance, part of 3.9
+<item>
+ include 09/09-q.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+//DFS, part of 3.7
+<item>
+ include 10/10-q.txt
+ <delim>
+  {ENDL}
+ <\delim>
+<\item>
+
+
+

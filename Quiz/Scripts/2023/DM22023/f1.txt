@@ -1,0 +1,23 @@
+<fabric>
+check auto
+  <good>
+   all.txt
+  <\good>
+  <bad>
+   all.txt
+  <\bad>
+  <ncase>
+	10
+<\ncase>
+<nGood>
+3
+<\nGood>
+<before>
+Виберіть всі правильні твердження, якщо такі тут є.\par{ENDL}\vspace{2mm}{ENDL}
+<\before>
+
+
+
+<\fabric>
+
+

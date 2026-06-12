@@ -1,0 +1,30 @@
+echo
+echo =363_1.py 
+python3.10 ./363_1.py 
+echo
+echo =363_2.py 
+python3.10 ./363_2.py 
+echo
+echo =363_3.py 
+python3.10 ./363_3.py 
+echo
+echo =363_4.py 
+python3.10 ./363_4.py 
+echo
+echo =363_5.py 
+python3.10 ./363_5.py 
+echo
+echo =363_6.py 
+python3.10 ./363_6.py 
+echo
+echo =363_7.py 
+python3.10 ./363_7.py 
+echo
+echo =363_8.py 
+python3.10 ./363_8.py 
+echo
+echo =363_9.py 
+python3.10 ./363_9.py 
+echo
+echo =363_10.py 
+python3.10 ./363_10.py 

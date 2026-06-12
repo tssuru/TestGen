@@ -1,0 +1,27 @@
+echo
+echo =56_1.py 
+python3.10 ./56_1.py 
+echo
+echo =56_2.py 
+python3.10 ./56_2.py 
+echo
+echo =56_3.py 
+python3.10 ./56_3.py 
+echo
+echo =56_4.py 
+python3.10 ./56_4.py 
+echo
+echo =56_5.py 
+python3.10 ./56_5.py 
+echo
+echo =56_6.py 
+python3.10 ./56_6.py 
+echo
+echo =56_7.py 
+python3.10 ./56_7.py 
+echo
+echo =56_8.py 
+python3.10 ./56_8.py 
+echo
+echo =56_9.py 
+python3.10 ./56_9.py 

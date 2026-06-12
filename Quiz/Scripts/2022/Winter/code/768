@@ -1,0 +1,30 @@
+echo
+echo =768_1.py 
+python3.10 ./768_1.py 
+echo
+echo =768_2.py 
+python3.10 ./768_2.py 
+echo
+echo =768_3.py 
+python3.10 ./768_3.py 
+echo
+echo =768_4.py 
+python3.10 ./768_4.py 
+echo
+echo =768_5.py 
+python3.10 ./768_5.py 
+echo
+echo =768_6.py 
+python3.10 ./768_6.py 
+echo
+echo =768_7.py 
+python3.10 ./768_7.py 
+echo
+echo =768_8.py 
+python3.10 ./768_8.py 
+echo
+echo =768_9.py 
+python3.10 ./768_9.py 
+echo
+echo =768_10.py 
+python3.10 ./768_10.py 

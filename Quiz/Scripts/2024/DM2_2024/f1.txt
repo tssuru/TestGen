@@ -1,0 +1,26 @@
+<fabric>
+check auto
+  <good>
+   all.txt
+  <\good>
+  <bad>
+   all.txt
+  <\bad>
+  <ncase>
+	10
+<\ncase>
+<nGood>
+6
+<\nGood>
+<before>
+%beginitem{ENDL}
+Для кожного твердження зазначте його істинність.\par{ENDL}\vspace{2mm}{ENDL}
+<\before>
+
+<after>
+%enditem{ENDL}
+<\after>
+
+<\fabric>
+
+

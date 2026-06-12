@@ -1,0 +1,150 @@
+def f(arg, n):
+    arg[41] = 1
+    n = 6
+    arg = tuple(arg.items())
+
+try:
+    n = 1
+    t = {18:8, 85:3, 23:8, 73:1, 85:1}
+    f(t, n)
+    print(n, end=';')
+    for x in t.keys():
+        print(x, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[33] = 1
+    n = 8
+    arg = list(arg.keys())
+
+try:
+    n = 4
+    s = {71:2, 44:8, 72:2, 71:2}
+    f(s, n)
+    print(n, end=';')
+    for x in s.values():
+        print(x, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[16] = 1
+    n = 5
+    arg = set(arg.values())
+
+try:
+    n = 3
+    d = {47:9, 85:3, 16:3, 35:7, 62:6}
+    f(d, n)
+    print(n, end=';')
+    for x in d.keys():
+        print(x, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[63] = 4
+    n = 9
+    arg = tuple(arg.items())
+
+try:
+    n = 0
+    t = {63:0, 38:5, 19:4, 49:4, 63:0}
+    f(t, n)
+    print(n, end=';')
+    for x in t.values():
+        print(x, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[42] = 5
+    n = 7
+    arg = list(arg.values())
+
+try:
+    n = 2
+    s = {61:8, 42:0, 48:0, 42:5}
+    f(s, n)
+    print(n, end=';')
+    for x, y in s.items():
+        print(x, y, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[21] = 3
+    n = 7
+    arg = set(arg.keys())
+
+try:
+    n = 0
+    d = {64:1, 82:8, 46:7, 80:2, 82:9}
+    f(d, n)
+    print(n, end=';')
+    for x in d.items():
+        print(*x, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[28] = 2
+    n = 6
+    arg = tuple(arg.values())
+
+try:
+    n = 2
+    d = {28:8, 78:8, 61:6, 78:2}
+    f(d, n)
+    print(n, end=';')
+    for x in d.items():
+        print(x, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[70] = 2
+    n = 9
+    arg = list(arg.items())
+
+try:
+    n = 4
+    s = {36:6, 63:6, 42:6, 55:2, 88:8}
+    f(s, n)
+    print(n, end=';')
+    for x in s.keys():
+        print(x, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[32] = 1
+    n = 8
+    arg = set(arg.keys())
+
+try:
+    n = 1
+    t = {58:9, 44:0, 37:4, 37:7}
+    f(t, n)
+    print(n, end=';')
+    for x in t.values():
+        print(x, sep=';', end=';')
+except:
+    print('ERR')
+
+def f(arg, n):
+    arg[52] = 3
+    n = 5
+    arg = tuple(arg.keys())
+
+try:
+    n = 3
+    s = {43:0, 23:4, 84:7, 48:0, 17:8}
+    f(s, n)
+    print(n, end=';')
+    for x in s.keys():
+        print(x, sep=';', end=';')
+except:
+    print('ERR')
+

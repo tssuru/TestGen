@@ -1,0 +1,1 @@
+/usr/bin/g++-13 -g CMakeFiles/mod.dir/all.cpp.o -o mod

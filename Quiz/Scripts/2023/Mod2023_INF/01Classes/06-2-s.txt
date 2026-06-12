@@ -1,0 +1,18 @@
+void test(){{ENDL}{SPACE} int *pi=new int(13); 
+{SPACE} cout<<*pi; delete &pi; }//u
+
+void test(){{ENDL}{SPACE} int **ppi=new int*(new int(3)); 
+{SPACE} cout<<**ppi;{ENDL}{SPACE} delete ppi; delete *ppi;{ENDL}{SPACE} cout<<"=";}//u
+
+void test(){{ENDL}{SPACE} int **ppi=new int*(new int(3)); 
+{SPACE} cout<<**ppi;{ENDL}{SPACE} delete *ppi; delete ppi;{ENDL}{SPACE} cout<<"=";}
+
+void test(){{ENDL}{SPACE} int *pi=new int(13), *pi2; 
+{SPACE} pi2=pi;{ENDL}{SPACE}  cout<<*pi;{ENDL}{SPACE} delete *pi; cout<<*pi2;{ENDL}{SPACE} cout<<"=";}//s
+
+void test(){{ENDL}{SPACE} int *pi=new int(13), *pi2;{ENDL}{SPACE} pi2=pi; 
+{SPACE} cout<<*pi;{ENDL}{SPACE} delete pi; cout<<*pi2;{ENDL}{SPACE} cout<<"=";}//u
+
+void test(){{ENDL}{SPACE} int *pi=new int(13), *pi2;{ENDL}{SPACE} pi2=pi; 
+{SPACE} cout<<*pi;{ENDL}{SPACE} delete pi; delete pi2;{ENDL}{SPACE} cout<<"=";}//u
+

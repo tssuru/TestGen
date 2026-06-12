@@ -1,0 +1,30 @@
+echo
+echo =614_1.py 
+python3.10 ./614_1.py 
+echo
+echo =614_2.py 
+python3.10 ./614_2.py 
+echo
+echo =614_3.py 
+python3.10 ./614_3.py 
+echo
+echo =614_4.py 
+python3.10 ./614_4.py 
+echo
+echo =614_5.py 
+python3.10 ./614_5.py 
+echo
+echo =614_6.py 
+python3.10 ./614_6.py 
+echo
+echo =614_7.py 
+python3.10 ./614_7.py 
+echo
+echo =614_8.py 
+python3.10 ./614_8.py 
+echo
+echo =614_9.py 
+python3.10 ./614_9.py 
+echo
+echo =614_10.py 
+python3.10 ./614_10.py 

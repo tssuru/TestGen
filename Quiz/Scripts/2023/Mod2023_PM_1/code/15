@@ -1,0 +1,27 @@
+echo
+echo =15_1.py 
+python3.10 ./15_1.py 
+echo
+echo =15_2.py 
+python3.10 ./15_2.py 
+echo
+echo =15_3.py 
+python3.10 ./15_3.py 
+echo
+echo =15_4.py 
+python3.10 ./15_4.py 
+echo
+echo =15_5.py 
+python3.10 ./15_5.py 
+echo
+echo =15_6.py 
+python3.10 ./15_6.py 
+echo
+echo =15_7.py 
+python3.10 ./15_7.py 
+echo
+echo =15_8.py 
+python3.10 ./15_8.py 
+echo
+echo =15_9.py 
+python3.10 ./15_9.py 

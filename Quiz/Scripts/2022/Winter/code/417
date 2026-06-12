@@ -1,0 +1,30 @@
+echo
+echo =417_1.py 
+python3.10 ./417_1.py 
+echo
+echo =417_2.py 
+python3.10 ./417_2.py 
+echo
+echo =417_3.py 
+python3.10 ./417_3.py 
+echo
+echo =417_4.py 
+python3.10 ./417_4.py 
+echo
+echo =417_5.py 
+python3.10 ./417_5.py 
+echo
+echo =417_6.py 
+python3.10 ./417_6.py 
+echo
+echo =417_7.py 
+python3.10 ./417_7.py 
+echo
+echo =417_8.py 
+python3.10 ./417_8.py 
+echo
+echo =417_9.py 
+python3.10 ./417_9.py 
+echo
+echo =417_10.py 
+python3.10 ./417_10.py 

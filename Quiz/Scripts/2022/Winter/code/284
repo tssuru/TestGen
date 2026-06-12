@@ -1,0 +1,30 @@
+echo
+echo =284_1.py 
+python3.10 ./284_1.py 
+echo
+echo =284_2.py 
+python3.10 ./284_2.py 
+echo
+echo =284_3.py 
+python3.10 ./284_3.py 
+echo
+echo =284_4.py 
+python3.10 ./284_4.py 
+echo
+echo =284_5.py 
+python3.10 ./284_5.py 
+echo
+echo =284_6.py 
+python3.10 ./284_6.py 
+echo
+echo =284_7.py 
+python3.10 ./284_7.py 
+echo
+echo =284_8.py 
+python3.10 ./284_8.py 
+echo
+echo =284_9.py 
+python3.10 ./284_9.py 
+echo
+echo =284_10.py 
+python3.10 ./284_10.py 

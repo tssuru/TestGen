@@ -1,0 +1,13 @@
+<fabric>
+     file answer
+     <fname>
+     textq0.txt
+     <\fname>
+
+     <before>
+//По яких днях тижня відбувались лекції з предмету?
+     <\before>
+     <after>
+{ENDL}{ENDL}
+     <\after>
+  <\fabric>

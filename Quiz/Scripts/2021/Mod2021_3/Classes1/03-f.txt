@@ -1,0 +1,44 @@
+//source for question like
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+f1={<char> a d}
+f2={<char> f h} 
+
+Class={<char> A D}
+
+
+X=1;2
+
+j=[2 Classes1/03-s.txt]
+
+
+const VAR=#f#X##
+
+
+
+<\declarations>
+
+<template>
+%code{ENDL}
+class #Class#0:{ENDL}
+{SPACE4}def #f1#(self): print(1, end=' '){ENDL}
+{SPACE4}def #f2#(self): print(2, end=' '){ENDL}
+{ENDL}
+class #Class#1(#Class#0):{ENDL}
+{SPACE4}def #VAR#(self): print(3, end=' '){ENDL}
+{ENDL}
+try:{ENDL}
+{SPACE4}#Class##j[0]#().#f#X new##(){ENDL}
+{SPACE4}#Class##j[1]#().#f#X##(){ENDL}
+except:{ENDL}
+{SPACE4}print('ERR'){ENDL}
+%code{ENDL}
+<\template>
+
+<restrictions>
+<\restrictions>

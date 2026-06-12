@@ -1,0 +1,30 @@
+echo
+echo =579_1.py 
+python3.10 ./579_1.py 
+echo
+echo =579_2.py 
+python3.10 ./579_2.py 
+echo
+echo =579_3.py 
+python3.10 ./579_3.py 
+echo
+echo =579_4.py 
+python3.10 ./579_4.py 
+echo
+echo =579_5.py 
+python3.10 ./579_5.py 
+echo
+echo =579_6.py 
+python3.10 ./579_6.py 
+echo
+echo =579_7.py 
+python3.10 ./579_7.py 
+echo
+echo =579_8.py 
+python3.10 ./579_8.py 
+echo
+echo =579_9.py 
+python3.10 ./579_9.py 
+echo
+echo =579_10.py 
+python3.10 ./579_10.py 

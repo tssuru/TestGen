@@ -1,0 +1,198 @@
+\documentclass[12pt, ukrainian]{article}
+\usepackage[a4paper]{geometry}
+\setlength\parindent{0mm}
+\geometry{top=1.1cm,bottom=1.1cm,left=1.1cm,right=1.1cm}
+\pagestyle{empty}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{verbatim, listings, clrscode3e, fancyvrb}
+\DeclareCaptionFormat{nocaption}{}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+\usepackage[Export]{adjustbox}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+\def\code#1{\Verb!#1!}
+\begin{document}
+{{16.05.2024 Контрольна робота, варіант  \No \textbf { 8 }} група К\_\_ ПІБ {\parbox {2.5 cm} \dotfill}\par}
+{
+%\begin {large}
+\begin{minipage}[t]{9.7cm}
+У завданнях 1--3 вказати, що буде виведено за виконання. Повідомлення інтерпретатора про помилку позначати ERROR
+
+
+               
+{\begin{center}Завдання {1}\end{center}}
+\vspace{-4mm}
+
+\begin{verbatim}
+c = ('a','b','c','d','e',0,1,2,3)
+print(c[10])
+
+\end{verbatim}            
+
+\vspace{15mm}
+               
+{\begin{center}Завдання {2}\end{center}}
+\vspace{-4mm}
+
+\begin{verbatim}
+try:
+    d = {82:5, 31:3, 13:1, 13:7}
+    d[31] = 9
+    for x in d.items():
+        print(*x, sep=' ', end=' ')
+except:
+    print('ERR')
+
+\end{verbatim}            
+
+
+\end{minipage}
+\vline \hspace{8mm}
+\begin{minipage}[t]{8.0cm}                
+               
+{\begin{center}Завдання {3}\end{center}}
+\vspace{-4mm}
+
+\begin{verbatim}
+_c = 0
+
+class A:
+    _c = 1
+    
+    def __init__(self):
+        self._c = 2
+        _c = 3
+        A._c = 4
+
+obj = A()
+obj._c = 5
+try:
+    print(_c, end=' ')
+    print(obj._c, end=' ')
+    print(A._c, end=' ')
+    print(obj._c, end=' ')
+    print(obj._A__c)
+except:
+    print('ERR')
+
+\end{verbatim}            
+
+\end{minipage}
+
+
+               
+{\begin{center}Завдання {4}\end{center}}
+\vspace{-4mm}
+Нехай змінна \kw{s} позначає дуже довгу послідовність цілих, по якій можна ітерувати.
+
+Написати вираз-генератор, що задає підпослідовність її елементів, що більші за задане число num.
+
+Обмеження: усі елементи шуканої підпослідовності одночасно в пам'яті розміщені бути не можуть.\par
+
+\vspace{10mm}
+               
+{\begin{center}Завдання {5}\end{center}}
+\vspace{-4mm}
+Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-42$ до~$45$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$-7$.
+Яке число зберігається у вузлі \kw{p.next.prev.prev.next.next} ?\par
+
+               
+{\begin{center}Завдання {6}\end{center}}
+\vspace{-4mm}
+Значенням змінної \kw{a} є цілочисловий масив типу $numpy.ndarray$ розмірів $4{\times}5$. На скільки збільшиться сума елементів масиву \kw{a} після виконання
+\begin{verbatim}
+a.T[1] += 2
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.\par
+
+               
+{\begin{center}Завдання {10}\end{center}}
+\vspace{-4mm}
+
+Написати функцію $f$, яка для файлу, заданого шляхом, розв’язує задачу:\\ Текстовий файл містить послідовність чисел $a_1$, $a_2$, $\ldots$, $a_t$, записану у форматі одне число на рядок. Знайти третє найменше значення, що записане у файлі. Кожне значення, що записане у файлі, враховується стільки разів, скільки входить у файл. Для послідовності 2, 4, 12, 5, 2, 0 таким значенням буде 2.
+
+В усіх випадках розміри файлів такі, що їх вміст повністю завантажений у пам'ять бути не може. Якість коду також оцінюється.
+
+
+
+\vspace{10mm}\par
+
+\newpage
+\begin{minipage}[t]{9.7cm}
+               
+{\begin{center}Завдання {7}\end{center}}
+\vspace{-4mm}
+
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../15BinTree/trees_exp/47.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).\par
+
+\end{minipage}
+\vline \hspace{8mm}
+\begin{minipage}[t]{8.0cm}
+               
+{\begin{center}Завдання {8}\end{center}}
+\vspace{-4mm}
+Для графа на рисунку з вершини 2 запущено алгоритм пошуку в глибину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../16Graphs/Traversals/34.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (0, 1)\par
+2) (5, 6)\par
+3) (4, 5)\par
+4) (1, 2)\par
+5) (3, 4)\par
+6) (1, 4)\par
+{\vskip 15pt} \par
+
+\end{minipage}
+
+               
+{\begin{center}Завдання {9}\end{center}}
+\vspace{-4mm}
+Рядки журналу через кому містять тип події (ERROR, WARNING, INFO, STATUS), ім'я користувача (складається з латиниці), час події (фор\-мат як у прикладі), код події (ціле).
+
+Білі символи навколо роздільників не допускаються.
+
+Приклад такого рядка присвоєно змінній \kw{s}.
+
+
+
+\begin{verbatim}
+s = 'ERROR,username,2022-05-05 13:26,404'
+\end{verbatim}
+
+
+Нижче наведено код, за виконання якого значенням змінної \kw{out} має стати ім'я користувача.
+
+Для наведеного прикладу значенням змінної \kw{out} має стати рядок \code{username}
+
+
+
+\begin{verbatim}
+res = re.fullmatch(r'XXX', s)
+s = ''
+out = YYY
+\end{verbatim}
+
+
+Код має працювати не тільки для конкретного рядка з прикладу, але й для кожного рядка з журналу.
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?\par
+
+%\end {large}
+}
+%end
+\end{document}
+

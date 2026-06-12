@@ -1,0 +1,10 @@
+PRINCE2%good
+X-модель%good
+LOAN%good
+LAZY%good
+CRAZY%good
+sashimi%bad
+Lean%bad
+LeSS%bad
+SAFe%bad
+poker%bad

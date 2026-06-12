@@ -1,0 +1,21 @@
+//source for question like
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+n={<file:4> task1_2.txt}
+
+<\declarations>
+
+<template>
+\kw{n}
+
+Максимально змістовно повно сформулюйте назву методу класу.
+
+<\template>
+
+<restrictions>
+<\restrictions>

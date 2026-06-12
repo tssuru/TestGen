@@ -1,0 +1,30 @@
+echo
+echo =119_1.py 
+python3.10 ./119_1.py 
+echo
+echo =119_2.py 
+python3.10 ./119_2.py 
+echo
+echo =119_3.py 
+python3.10 ./119_3.py 
+echo
+echo =119_4.py 
+python3.10 ./119_4.py 
+echo
+echo =119_5.py 
+python3.10 ./119_5.py 
+echo
+echo =119_6.py 
+python3.10 ./119_6.py 
+echo
+echo =119_7.py 
+python3.10 ./119_7.py 
+echo
+echo =119_8.py 
+python3.10 ./119_8.py 
+echo
+echo =119_9.py 
+python3.10 ./119_9.py 
+echo
+echo =119_10.py 
+python3.10 ./119_10.py 

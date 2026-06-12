@@ -1,0 +1,20 @@
+<fabric>
+check auto
+  <good>
+   task4.txt
+  <\good>
+  <bad>
+   task4.txt
+  <\bad>
+  <ncase>
+	4
+  <\ncase>
+<nGood>
+4
+<\nGood>
+<before>
+Вибрати всі істинні твердження (якщо існують).\par{ENDL}
+\vspace{2mm}{ENDL}{ENDL}
+<\before>
+
+<\fabric>

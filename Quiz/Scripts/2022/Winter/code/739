@@ -1,0 +1,30 @@
+echo
+echo =739_1.py 
+python3.10 ./739_1.py 
+echo
+echo =739_2.py 
+python3.10 ./739_2.py 
+echo
+echo =739_3.py 
+python3.10 ./739_3.py 
+echo
+echo =739_4.py 
+python3.10 ./739_4.py 
+echo
+echo =739_5.py 
+python3.10 ./739_5.py 
+echo
+echo =739_6.py 
+python3.10 ./739_6.py 
+echo
+echo =739_7.py 
+python3.10 ./739_7.py 
+echo
+echo =739_8.py 
+python3.10 ./739_8.py 
+echo
+echo =739_9.py 
+python3.10 ./739_9.py 
+echo
+echo =739_10.py 
+python3.10 ./739_10.py 

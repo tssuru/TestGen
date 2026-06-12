@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Container" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/debug/Container" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add directory="../Bin/Debug" />
+					<Add directory="../../bin/Debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../bin/release/Container" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add directory="../Bin/Release" />
+					<Add directory="../../bin/Release" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="../LexStream" />
+			<Add directory="../../strings" />
+		</Compiler>
+		<Linker>
+			<Add library="Strings" />
+		</Linker>
+		<Unit filename="BaseContainer.cpp" />
+		<Unit filename="BaseContainer.h" />
+		<Unit filename="ShuffledContainer.h" />
+		<Unit filename="shuffle.cpp" />
+		<Unit filename="shuffle.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

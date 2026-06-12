@@ -1,0 +1,138 @@
+<document>
+
+  <header>
+\documentclass[12pt, ukrainian]{article}{ENDL}
+\usepackage[a4paper]{geometry}{ENDL}
+%\setlength\textwidth{170mm} \setlength\hoffset{-25mm}{ENDL}
+%\setlength\textheight{277mm} \setlength\voffset{-38mm}{ENDL}
+%\setlength\parindent{0mm}{ENDL}
+\geometry{top=1.5cm,bottom=1.5cm,inner=1.5cm,outer=1.5cm}{ENDL}
+\pagestyle{empty}{ENDL}
+
+
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage{caption}{ENDL}
+\DeclareCaptionFormat{nocaption}{}{ENDL}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}{ENDL}
+\usepackage[Export]{adjustbox} {ENDL}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}
+\usepackage{verbatim}{ENDL}
+\usepackage{fancyvrb}{ENDL}
+\def\code#1{\Verb!#1!}{ENDL}
+\begin{document}{ENDL}
+
+  <\header>
+
+  <footer>
+\end{document}{ENDL}
+
+  <\footer>
+
+  <onNextVariant>
+
+{ENDL}{ENDL}{ENDL}
+\newpage{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+
+  <\onNextPage>
+
+<from>
+100
+<\from>
+<to>
+250
+<\to>
+//<from2>
+//101
+//<\from2>
+//<to2>
+//150
+//<\to2>
+
+  <onPage>
+    1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+
+{\Large{BETA 2025 Контрольна робота \No 1, варіант  \No \textbf { #No# }\par}}{ENDL}
+{{ENDL}
+\begin {large}{ENDL}
+//{ENDL}Вказати значення виразу та його тип (за наявності помилок - error) (завдання 1-4){ENDL}{ENDL}
+//{ENDL}Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)? (завдання 5-10){ENDL}{ENDL}
+<\before>
+
+<after>
+\end {large}}{ENDL}
+%end{ENDL}
+<\after>
+
+<\variant>
+
+//
+//<item>
+//  include 00Syntax/01-q.txt
+//<\item>
+
+//<item>
+//  include 00Syntax/03-q.txt
+//<\item>
+
+<item>
+  include 01Ar/01-q.txt
+<\item>
+
+<item>
+  include 01Ar/04-q.txt
+<\item>
+
+<item>
+  include 02Log/01-q.txt
+<\item>
+
+<item>
+  include 02Log/02-q.txt
+<\item>
+
+<item>
+  include 02Log/03-q.txt
+<\item>
+
+<item>
+  include 03If/03-q.txt
+<\item>
+
+<item>
+  include 03If/1+2-q.txt
+<\item>
+
+<item>
+  include 05Invoke/01-q.txt
+<\item>
+
+<item>
+  include 05Invoke/02-q.txt
+<\item>
+
+<item>
+  include 06Scope/01-q.txt
+<\item>
+
+<item>
+  include 06Scope/02-q.txt
+<\item>
+
+
+
+<item>
+  include task1-q.txt
+<\item>

@@ -1,0 +1,30 @@
+echo
+echo =928_1.py 
+python3.10 ./928_1.py 
+echo
+echo =928_2.py 
+python3.10 ./928_2.py 
+echo
+echo =928_3.py 
+python3.10 ./928_3.py 
+echo
+echo =928_4.py 
+python3.10 ./928_4.py 
+echo
+echo =928_5.py 
+python3.10 ./928_5.py 
+echo
+echo =928_6.py 
+python3.10 ./928_6.py 
+echo
+echo =928_7.py 
+python3.10 ./928_7.py 
+echo
+echo =928_8.py 
+python3.10 ./928_8.py 
+echo
+echo =928_9.py 
+python3.10 ./928_9.py 
+echo
+echo =928_10.py 
+python3.10 ./928_10.py 

@@ -1,0 +1,16 @@
+ <fabric>
+     file answer
+     <fname>
+         20_list/s.txt
+     <\fname>
+<num>
+8
+<\num>
+<before>
+Що буде виведено за виконання?\par{ENDL} (повідомлення інтерпретатора про помилку позначати error){ENDL}
+%code{ENDL}
+<\before>
+<after>
+{ENDL}%code{ENDL}
+<\after>
+   <\fabric>

@@ -1,0 +1,12 @@
+  <fabric>
+  collate 
+  include q1/01-q.txt
+  include q1/02-q.txt
+      <n1>
+         9
+      <\n1>
+      <n2>
+         17
+      <\n2>
+  <\fabric>
+

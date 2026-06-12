@@ -1,0 +1,50 @@
+struct A{
+{SPACE}{SPACE}A(){cout<<#n#;}
+{SPACE}{SPACE}A(const A&){cout<<#n new#;}
+{SPACE}{SPACE}A(A&&){cout<<#n new#;}
+{SPACE}{SPACE}A& operator=(const A&){cout<<#n new#;return *this;}
+{SPACE}{SPACE}A& operator=(A&&){cout<<#n new#;return *this;}};
+void test(){A a, b(a), c(move(a));}
+
+
+struct A{ 
+{SPACE}{SPACE}A(){cout<<#n#;}
+{SPACE}{SPACE}A(const A&){cout<<#n new#;}
+{SPACE}{SPACE}A(A&&){cout<<#n new#;}
+{SPACE}{SPACE}A& operator=(const A&){cout<<#n new#;return *this;}
+{SPACE}{SPACE}A& operator=(A&&){cout<<#n new#;return *this;}};
+void test(){A a, b(a), c=move(a);}
+
+
+struct A{ 
+{SPACE}{SPACE}A(){cout<<#n#;}
+{SPACE}{SPACE}A(const A&){cout<<#n new#;}//#n new#
+{SPACE}{SPACE}A& operator=(const A&){cout<<#n new#;return *this;}
+{SPACE}{SPACE}A& operator=(A&&){cout<<#n new#;return *this;}};
+void test(){A a, b(a), c=move(a); c=move(a);}
+{ENDL}
+
+
+struct A{ 
+{SPACE}{SPACE}A(){cout<<#n#;}
+{SPACE}{SPACE}A(const A&){cout<<#n new#;}
+{SPACE}{SPACE}A(A&&){cout<<#n new#;}
+{SPACE}{SPACE}A& operator=(const A&){cout<<#n new#;return *this;}
+{SPACE}{SPACE}A& operator=(A&&){cout<<#n new#;return *this;}};
+void test(){A a, b=a, c=move(a); c=b;}
+
+struct A{ 
+{SPACE}{SPACE}A(){cout<<#n#;}
+{SPACE}{SPACE}A(const A&){cout<<#n new#;}
+{SPACE}{SPACE}A(A&&){cout<<#n new#;}
+{SPACE}{SPACE}A& operator=(const A&){cout<<#n new#;return *this;}
+{SPACE}{SPACE}A& operator=(A&&){cout<<#n new#;return *this;}};
+A f(){A a; return move(a);}{ENDL}void test(){A a, b=a, c; c=f();}
+
+struct A{ 
+{SPACE}{SPACE}A(){cout<<#n#;}
+{SPACE}{SPACE}A(const A&){cout<<#n new#;}
+{SPACE}{SPACE}A(A&&){cout<<#n new#;}
+{SPACE}{SPACE}A& operator=(const A&){cout<<#n new#;return *this;}
+{SPACE}{SPACE}A& operator=(A&&){cout<<#n new#;return *this;}};
+A f(){A a; return a;}{ENDL}void test(){A a, b=a, c; c=f();}

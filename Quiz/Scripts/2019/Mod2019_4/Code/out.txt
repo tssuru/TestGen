@@ -1,0 +1,1842 @@
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 59.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>59_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>59_2.py  
+(27, 1) (26, 4) (63, 7) (50, 6) (44, 9) 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>59_4.py  
+-7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>59_5.py  
+6 3 8 2 5 10 0 1 4 9 7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>59_6.py  
+1 7 9 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>59_7.py  
+4 0 2 1 3 6 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>59_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>59_9.py  
+1 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>59_10.py  
+4 2 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 60.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>60_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>60_2.py  
+77 65 30 50 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>60_4.py  
+9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>60_5.py  
+5 1 2 6 4 10 7 8 3 0 9 11
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>60_6.py  
+1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>60_7.py  
+2 3 4 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>60_8.py  
+14 1 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>60_9.py  
+1 2 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>60_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 61.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>61_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>61_2.py  
+(18, 0) (73, 2) (67, 2) (46, 9) 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>61_4.py  
+3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>61_5.py  
+8 4 9 3 5 7 2 10 1 0 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>61_6.py  
+2 3 4 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>61_7.py  
+2 3 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>61_8.py  
+17 2 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>61_9.py  
+0 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>61_10.py  
+4 2 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 62.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>62_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>62_2.py  
+1 9 3 1 4 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>62_4.py  
+-4
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>62_5.py  
+8 3 10 1 5 7 9 4 6 0 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>62_6.py  
+1 3 4 7 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>62_7.py  
+1 2 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>62_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>62_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>62_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 63.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>63_1.py  
+<class 'set'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>63_2.py  
+45 4 20 3 24 9 59 1 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>63_4.py  
+14
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>63_5.py  
+2 4 5 11 9 6 7 8 3 1 0 10
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>63_6.py  
+1 2 3 4 7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>63_7.py  
+1 2 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>63_8.py  
+4 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>63_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>63_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 64.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>64_1.py  
+<class 'tuple'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>64_2.py  
+81 72 48 55 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>64_4.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>64_5.py  
+8 2 5 4 3 9 0 10 11 6 1 7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>64_6.py  
+2 3 4 5 6 7 8 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>64_7.py  
+1 3 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>64_8.py  
+17 ERR 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>64_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>64_10.py  
+4 5 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 65.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>65_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>65_2.py  
+42 3 55 3 54 8 70 7 39 5 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>65_4.py  
+-1
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>65_5.py  
+3 11 5 8 1 10 0 6 4 7 9 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>65_6.py  
+4 6 7 8 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>65_7.py  
+3 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>65_8.py  
+12 ERR 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>65_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>65_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 66.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>66_1.py  
+<class 'tuple'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>66_2.py  
+30 55 79 88 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>66_4.py  
+-8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>66_5.py  
+10 4 1 5 9 3 2 7 0 6 11 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>66_6.py  
+2 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>66_7.py  
+2 3 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>66_8.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>66_9.py  
+0 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>66_10.py  
+4 5 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 67.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>67_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>67_2.py  
+28 2 83 1 71 9 45 8 72 4 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>67_4.py  
+-6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>67_5.py  
+7 10 4 3 1 0 5 2 8 6 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>67_6.py  
+4 5 6 7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>67_7.py  
+1 3 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>67_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>67_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>67_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 68.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>68_1.py  
+<class 'set'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>68_2.py  
+60 54 15 42 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>68_4.py  
+-5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>68_5.py  
+7 8 1 3 2 6 4 5 9 10 11 0
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>68_6.py  
+0 7 5 4 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>68_7.py  
+1 3 4 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>68_8.py  
+11 2 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>68_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>68_10.py  
+4 2 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 69.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>69_1.py  
+<class 'set'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>69_2.py  
+1 0 5 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>69_4.py  
+-6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>69_5.py  
+4 7 11 1 10 2 3 9 0 6 5 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>69_6.py  
+0 3 6 7 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>69_7.py  
+6 0 3 5 1 4 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>69_8.py  
+17 1 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>69_9.py  
+1 2 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>69_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 70.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>70_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>70_2.py  
+10 48 64 35 76 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>70_4.py  
+-5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>70_5.py  
+7 3 10 6 4 5 8 0 9 2 1
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>70_6.py  
+2 3 4 6 7 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>70_7.py  
+1 2 3 4 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>70_8.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>70_9.py  
+1 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>70_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 71.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>71_1.py  
+<class 'tuple'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>71_2.py  
+62 9 88 9 78 9 47 2 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>71_4.py  
+7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>71_5.py  
+3 4 6 1 7 9 10 11 2 0 5 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>71_6.py  
+1 2 4 6 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>71_7.py  
+2 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>71_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>71_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>71_10.py  
+4 2 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 72.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>72_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>72_2.py  
+(42, 6) (68, 2) (76, 0) (36, 1) 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>72_4.py  
+3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>72_5.py  
+10 1 3 0 8 5 9 6 4 7 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>72_6.py  
+1 2 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>72_7.py  
+1 2 3 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>72_8.py  
+14 ERR 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>72_9.py  
+0 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>72_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 73.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>73_1.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>73_2.py  
+39 7 74 0 47 8 18 9 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>73_4.py  
+-2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>73_5.py  
+0 8 1 4 5 9 7 6 3 10 11 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>73_6.py  
+1
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>73_7.py  
+4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>73_8.py  
+4 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>73_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>73_10.py  
+4 5 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 74.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>74_1.py  
+<class 'tuple'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>74_2.py  
+(42, 5) (87, 8) (34, 2) 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>74_4.py  
+-6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>74_5.py  
+2 7 4 1 0 8 10 9 3 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>74_6.py  
+0 1 3 4 5 6 7 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>74_7.py  
+1 2 4 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>74_8.py  
+12 1 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>74_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>74_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 75.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>75_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>75_2.py  
+23 0 71 2 17 3 18 0 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>75_4.py  
+4
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>75_5.py  
+4 8 3 9 2 10 6 5 1 0 7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>75_6.py  
+1 2 4 6 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>75_7.py  
+2 3 4 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>75_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>75_9.py  
+2 1 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>75_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 76.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>76_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>76_2.py  
+56 20 42 53 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>76_4.py  
+6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>76_5.py  
+7 11 10 3 0 2 5 6 1 9 4 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>76_6.py  
+1 7 9 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>76_7.py  
+2 3 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>76_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>76_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>76_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 77.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>77_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>77_2.py  
+75 56 63 47 64 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>77_4.py  
+3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>77_5.py  
+6 1 10 7 4 2 9 3 0 5 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>77_6.py  
+6 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>77_7.py  
+2 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>77_8.py  
+11 1 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>77_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>77_10.py  
+4 5 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 78.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>78_1.py  
+<class 'set'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>78_2.py  
+4 3 1 1 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>78_4.py  
+5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>78_5.py  
+10 1 6 5 8 3 4 11 2 9 0 7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>78_6.py  
+None
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>78_7.py  
+1 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>78_8.py  
+17 1 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>78_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>78_10.py  
+4 2 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 79.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>79_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>79_2.py  
+(81, 4) (20, 2) (80, 3) (28, 9) 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>79_4.py  
+-6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>79_5.py  
+6 0 4 9 2 5 10 1 3 8 7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>79_6.py  
+0 7 8 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>79_7.py  
+1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>79_8.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>79_9.py  
+0 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>79_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 80.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>80_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>80_2.py  
+76 56 67 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>80_4.py  
+-2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>80_5.py  
+4 0 2 5 8 7 10 6 9 3 1
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>80_6.py  
+2 3 5 6 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>80_7.py  
+5 0 2 3 4 6 1
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>80_8.py  
+14 ERR 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>80_9.py  
+1 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>80_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 81.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>81_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>81_2.py  
+64 0 50 3 62 3 14 8 76 9 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>81_4.py  
+-7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>81_5.py  
+9 1 4 8 2 7 10 5 6 0 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>81_6.py  
+1 2 7 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>81_7.py  
+1 2 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>81_8.py  
+14 ERR 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>81_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>81_10.py  
+4 2 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 82.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>82_1.py  
+<class 'set'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>82_2.py  
+68 39 89 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>82_4.py  
+4
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>82_5.py  
+2 9 1 8 10 7 5 11 4 3 6 0
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>82_6.py  
+6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>82_7.py  
+3 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>82_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>82_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>82_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 83.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>83_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>83_2.py  
+6 2 2 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>83_4.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>83_5.py  
+6 7 9 11 5 8 4 1 0 3 2 10
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>83_6.py  
+4 5 6 7 8 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>83_7.py  
+2 3 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>83_8.py  
+14 2 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>83_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>83_10.py  
+4 5 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 84.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>84_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>84_2.py  
+15 5 53 7 29 3 34 1 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>84_4.py  
+7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>84_5.py  
+8 7 2 3 0 6 9 10 5 1 4
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>84_6.py  
+None
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>84_7.py  
+0 1 5 2 3 6 4
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>84_8.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>84_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>84_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 85.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>85_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>85_2.py  
+89 9 82 5 86 2 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>85_4.py  
+-5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>85_5.py  
+4 2 6 9 10 11 8 1 7 3 5 0
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>85_6.py  
+3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>85_7.py  
+1 2 4 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>85_8.py  
+17 1 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>85_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>85_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 86.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>86_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>86_2.py  
+14 63 17 87 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>86_4.py  
+4
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>86_5.py  
+9 3 2 8 7 0 10 11 6 4 5 1
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>86_6.py  
+3 4
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>86_7.py  
+2 4 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>86_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>86_9.py  
+2 1 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>86_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 87.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>87_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>87_2.py  
+65 27 88 85 31 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>87_4.py  
+-10
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>87_5.py  
+5 11 8 0 7 4 1 3 2 6 10 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>87_6.py  
+0 1 3 4 5 6 7 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>87_7.py  
+5 1 0 4 2 3 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>87_8.py  
+4 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>87_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>87_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 88.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>88_1.py  
+<class 'set'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>88_2.py  
+(58, 5) (60, 3) (72, 4) (11, 7) 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>88_4.py  
+-5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>88_5.py  
+7 8 3 5 2 4 0 9 1 10 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>88_6.py  
+2 3 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>88_7.py  
+1 2 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>88_8.py  
+17 1 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>88_9.py  
+0 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>88_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 89.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>89_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>89_2.py  
+53 0 90 0 36 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>89_4.py  
+6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>89_5.py  
+5 10 7 6 4 9 3 1 2 0 11 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>89_6.py  
+2 3 4 5 6 7 8 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>89_7.py  
+1 2 4 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>89_8.py  
+4 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>89_9.py  
+1 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>89_10.py  
+4 5 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 90.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>90_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>90_2.py  
+1 1 8 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>90_4.py  
+-3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>90_5.py  
+0 11 6 5 7 10 1 8 4 2 9 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>90_6.py  
+0 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>90_7.py  
+1 2 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>90_8.py  
+14 ERR 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>90_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>90_10.py  
+4 2 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 91.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>91_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>91_2.py  
+87 9 26 1 34 9 59 5 46 8 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>91_4.py  
+4
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>91_5.py  
+8 2 0 4 9 7 6 10 3 1 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>91_6.py  
+1 2 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>91_7.py  
+2 4 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>91_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>91_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>91_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 92.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>92_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>92_2.py  
+14 34 84 31 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>92_4.py  
+8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>92_5.py  
+9 7 0 10 8 6 5 1 3 4 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>92_6.py  
+0 1 6 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>92_7.py  
+1 3 4
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>92_8.py  
+14 ERR 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>92_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>92_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 93.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>93_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>93_2.py  
+3 6 4 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>93_4.py  
+-8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>93_5.py  
+2 6 1 4 10 9 0 7 8 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>93_6.py  
+2 3 4 6 7 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>93_7.py  
+1 2 4 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>93_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>93_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>93_10.py  
+4 2 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 94.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>94_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>94_2.py  
+(23, 6) (89, 8) (55, 8) (21, 9) (54, 7) 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>94_4.py  
+5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>94_5.py  
+8 9 10 11 4 5 3 1 6 7 0 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>94_6.py  
+2 3 4 7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>94_7.py  
+1 2 3 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>94_8.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>94_9.py  
+1 2 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>94_10.py  
+4 5 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 95.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>95_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>95_2.py  
+63 82 48 58 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>95_4.py  
+1
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>95_5.py  
+2 0 4 10 6 3 1 11 8 5 9 7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>95_6.py  
+1 4 7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>95_7.py  
+1 3 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>95_8.py  
+17 2 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>95_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>95_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 96.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>96_1.py  
+<class 'tuple'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>96_2.py  
+38 6 26 4 74 4 13 7 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>96_4.py  
+-8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>96_5.py  
+1 9 0 10 5 2 4 8 6 7 3 11
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>96_6.py  
+1 2 3 4 7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>96_7.py  
+3 0 1 2 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>96_8.py  
+4 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>96_9.py  
+2 1 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>96_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 97.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>97_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>97_2.py  
+75 9 69 0 43 2 41 0 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>97_4.py  
+-9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>97_5.py  
+9 0 6 8 5 2 4 10 7 1 3 11
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>97_6.py  
+0 1 3 4 5 6 7 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>97_7.py  
+5 0 1 2 4 3 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>97_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>97_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>97_10.py  
+4 5 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 98.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>98_1.py  
+<class 'tuple'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>98_2.py  
+(23, 7) (82, 3) (77, 7) (43, 0) 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>98_4.py  
+9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>98_5.py  
+1 0 7 8 4 3 10 5 9 6 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>98_6.py  
+2 6 9 0 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>98_7.py  
+2 3 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>98_8.py  
+12 1 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>98_9.py  
+0 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>98_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 99.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>99_1.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>99_2.py  
+2 7 4 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>99_4.py  
+5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>99_5.py  
+11 4 10 6 9 8 2 1 7 3 5 0
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>99_6.py  
+2 3 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>99_7.py  
+2 3 4 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>99_8.py  
+14 ERR 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>99_9.py  
+0 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>99_10.py  
+4 2 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 100.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>100_1.py  
+<class 'set'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>100_2.py  
+12 6 78 4 55 2 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>100_4.py  
+6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>100_5.py  
+2 9 5 6 7 10 4 1 8 0 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>100_6.py  
+1 7 9 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>100_7.py  
+6 0 1 4 2 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>100_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>100_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>100_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 101.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>101_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>101_2.py  
+45 13 27 41 22 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>101_4.py  
+-4
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>101_5.py  
+2 3 6 10 4 8 7 9 0 1 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>101_6.py  
+8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>101_7.py  
+2 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>101_8.py  
+12 1 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>101_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>101_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 102.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>102_1.py  
+<class 'set'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>102_2.py  
+15 23 22 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>102_4.py  
+-7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>102_5.py  
+6 1 8 10 9 5 7 3 11 2 4 0
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>102_6.py  
+4 5 6 7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>102_7.py  
+3 1 4 0 2 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>102_8.py  
+4 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>102_9.py  
+1 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>102_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 103.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>103_1.py  
+<class 'tuple'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>103_2.py  
+90 82 72 46 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>103_4.py  
+5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>103_5.py  
+0 10 1 8 9 6 5 4 3 7 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>103_6.py  
+5 6 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>103_7.py  
+1 3 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>103_8.py  
+17 2 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>103_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>103_10.py  
+4 2 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 104.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>104_1.py  
+<class 'set'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>104_2.py  
+18 9 12 7 35 4 39 2 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>104_4.py  
+6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>104_5.py  
+3 6 9 0 1 10 8 7 4 5 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>104_6.py  
+2 3 6 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>104_7.py  
+0 1 2 3 5 4 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>104_8.py  
+12 1 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>104_9.py  
+1 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>104_10.py  
+4 5 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 105.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>105_1.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>105_2.py  
+41 63 40 65 60 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>105_4.py  
+9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>105_5.py  
+4 1 8 10 2 9 6 7 3 5 0
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>105_6.py  
+2 3 4 7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>105_7.py  
+1 3 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>105_8.py  
+11 1 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>105_9.py  
+0 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>105_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 106.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>106_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>106_2.py  
+3 4 2 2 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>106_4.py  
+-2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>106_5.py  
+5 9 10 4 0 1 7 6 2 3 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>106_6.py  
+2 6 7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>106_7.py  
+1 2 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>106_8.py  
+0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>106_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>106_10.py  
+4 2 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 107.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>107_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>107_2.py  
+(64, 4) (67, 8) (83, 5) (50, 8) (38, 7) 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>107_4.py  
+-5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>107_5.py  
+5 3 2 11 4 0 10 9 7 8 6 1
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>107_6.py  
+0 7 8 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>107_7.py  
+2 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>107_8.py  
+17 2 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>107_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>107_10.py  
+4 5 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 108.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>108_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>108_2.py  
+11 4 88 2 40 5 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>108_4.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>108_5.py  
+1 10 11 5 2 7 6 4 0 8 3 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>108_6.py  
+2 4 6 7 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>108_7.py  
+1 2 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>108_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>108_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>108_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 109.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>109_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>109_2.py  
+89 53 80 30 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>109_4.py  
+6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>109_5.py  
+11 1 8 3 0 10 6 7 4 2 5 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>109_6.py  
+7 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>109_7.py  
+0 3 1 2 6 4 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>109_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>109_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>109_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 110.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>110_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>110_2.py  
+4 6 5 7 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>110_4.py  
+2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>110_5.py  
+9 4 11 5 7 3 2 10 6 8 0 1
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>110_6.py  
+1 2 7 8 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>110_7.py  
+2 3 4 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>110_8.py  
+14 1 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>110_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>110_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 111.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>111_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>111_2.py  
+32 70 67 83 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>111_4.py  
+-10
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>111_5.py  
+5 4 1 3 11 7 10 6 8 9 2 0
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>111_6.py  
+4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>111_7.py  
+1 2 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>111_8.py  
+12 2 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>111_9.py  
+0 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>111_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 112.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>112_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>112_2.py  
+19 4 16 0 65 4 77 6 48 7 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>112_4.py  
+1
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>112_5.py  
+9 5 11 6 7 3 0 1 2 10 8 4
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>112_6.py  
+1 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>112_7.py  
+1 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>112_8.py  
+12 ERR 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>112_9.py  
+2 1 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>112_10.py  
+4 5 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 113.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>113_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>113_2.py  
+78 2 38 2 19 0 51 2 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>113_4.py  
+0
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>113_5.py  
+6 2 1 10 7 0 4 9 5 3 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>113_6.py  
+1 2 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>113_7.py  
+3 1 2 0 5 6 4
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>113_8.py  
+4 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>113_9.py  
+1 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>113_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 114.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>114_1.py  
+<class 'set'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>114_2.py  
+(25, 0) (37, 4) (69, 3) 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>114_4.py  
+-5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>114_5.py  
+8 6 7 5 11 9 1 2 0 4 10 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>114_6.py  
+2 6 9 0 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>114_7.py  
+1 2 3 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>114_8.py  
+14 1 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>114_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>114_10.py  
+4 2 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 115.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>115_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>115_2.py  
+15 5 53 9 16 0 80 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>115_4.py  
+-10
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>115_5.py  
+10 6 3 5 2 4 8 7 0 1 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>115_6.py  
+2 3 4 6 7 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>115_7.py  
+1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>115_8.py  
+11 1 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>115_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>115_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 116.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>116_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>116_2.py  
+(28, 0) (17, 0) (58, 3) (38, 2) 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>116_4.py  
+2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>116_5.py  
+4 3 5 7 1 6 10 8 2 9 0
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>116_6.py  
+0 3 6 7 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>116_7.py  
+1 3 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>116_8.py  
+4 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>116_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>116_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 117.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>117_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>117_2.py  
+8 3 9 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>117_4.py  
+3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>117_5.py  
+7 9 8 11 0 3 4 6 2 1 10 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>117_6.py  
+2 4 5 8 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>117_7.py  
+1 2 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>117_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>117_9.py  
+2 1 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>117_10.py  
+4 2 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 118.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>118_1.py  
+<class 'set'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>118_2.py  
+15 69 30 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>118_4.py  
+3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>118_5.py  
+10 7 0 2 8 9 11 3 1 6 5 4
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>118_6.py  
+1 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>118_7.py  
+2 3 4 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>118_8.py  
+4 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>118_9.py  
+1 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>118_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 119.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>119_1.py  
+<class 'tuple'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>119_2.py  
+84 9 50 0 22 1 88 1 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>119_4.py  
+8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>119_5.py  
+1 0 8 11 2 7 5 6 9 4 10 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>119_6.py  
+0 1 6 8 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>119_7.py  
+2 3 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>119_8.py  
+14 ERR 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>119_9.py  
+0 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>119_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 120.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>120_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>120_2.py  
+29 53 63 66 55 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>120_4.py  
+-9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>120_5.py  
+10 9 4 8 6 2 1 0 3 7 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>120_6.py  
+6 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>120_7.py  
+1 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>120_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>120_9.py  
+1 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>120_10.py  
+4 5 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 121.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>121_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>121_2.py  
+65 8 69 2 72 5 90 6 47 8 80 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>121_4.py  
+4
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>121_5.py  
+9 0 4 11 5 1 3 10 6 7 8 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>121_6.py  
+1 2 3 4 7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>121_7.py  
+3 2 0 1 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>121_8.py  
+4 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>121_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>121_10.py  
+4 2 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 122.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>122_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>122_2.py  
+(53, 2) (19, 8) (13, 8) 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>122_4.py  
+-6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>122_5.py  
+2 7 9 3 10 0 4 6 5 1 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>122_6.py  
+0 1 4 8 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>122_7.py  
+2 1 3 4 0 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>122_8.py  
+14 ERR 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>122_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>122_10.py  
+4 5 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 123.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>123_1.py  
+<class 'tuple'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>123_2.py  
+37 39 75 72 77 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>123_4.py  
+1
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>123_5.py  
+8 7 10 6 0 9 5 3 1 4 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>123_6.py  
+2 4 5 8 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>123_7.py  
+6 0 3 1 4 5 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>123_8.py  
+12 ERR 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>123_9.py  
+0 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>123_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 124.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>124_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>124_2.py  
+21 57 89 32 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>124_4.py  
+-2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>124_5.py  
+4 0 3 6 10 8 1 7 9 2 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>124_6.py  
+0 3 7 8 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>124_7.py  
+1 2 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>124_8.py  
+12 1 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>124_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>124_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 125.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>125_1.py  
+<class 'set'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>125_2.py  
+87 9 35 7 54 9 39 7 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>125_4.py  
+3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>125_5.py  
+10 3 0 1 4 9 7 6 2 5 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>125_6.py  
+2 4 6 7 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>125_7.py  
+2 4 0 1 6 3 5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>125_8.py  
+14 ERR 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>125_9.py  
+0 2 4 2 ERR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>125_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 126.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>126_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>126_2.py  
+2 6 8 1 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>126_4.py  
+-1
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>126_5.py  
+0 2 5 4 11 10 1 3 7 9 6 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>126_6.py  
+0 7 5 4 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>126_7.py  
+1 3 4 5 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>126_8.py  
+14 ERR 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>126_9.py  
+1 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>126_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 127.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>127_1.py  
+<class 'list'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>127_2.py  
+87 5 47 6 88 4 33 2 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>127_4.py  
+-2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>127_5.py  
+4 9 11 1 2 6 3 8 7 10 5 0
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>127_6.py  
+2 3 4 8
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>127_7.py  
+1 2 3 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>127_8.py  
+11 2 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>127_9.py  
+1 2 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>127_10.py  
+4 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 128.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>128_1.py  
+<class 'dict'>
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>128_2.py  
+7 5 6 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>128_4.py  
+5
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>128_5.py  
+9 10 5 4 8 0 2 3 1 6 7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>128_6.py  
+4 6 7 8 9
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>128_7.py  
+6 1 2 0 4 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>128_8.py  
+0 1 5 3
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>128_9.py  
+1 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>128_10.py  
+4 5 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>call 129.bat 
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>129_1.py  
+ERROR
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>129_2.py  
+10 9 51 0 55 3 33 5 85 2 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>129_4.py  
+2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>129_5.py  
+6 7 4 0 1 10 9 5 3 8 2
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>129_6.py  
+7
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>129_7.py  
+1 2 3 6
+
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>129_8.py  
+11 ERR 13 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>129_9.py  
+2 3 
+D:\Projects\Quiz\Scripts\Mod2019_4\Code>129_10.py  
+4 5 6 

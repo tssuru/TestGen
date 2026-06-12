@@ -1,0 +1,27 @@
+echo
+echo =8_1.py 
+python3.10 ./8_1.py 
+echo
+echo =8_2.py 
+python3.10 ./8_2.py 
+echo
+echo =8_3.py 
+python3.10 ./8_3.py 
+echo
+echo =8_4.py 
+python3.10 ./8_4.py 
+echo
+echo =8_5.py 
+python3.10 ./8_5.py 
+echo
+echo =8_6.py 
+python3.10 ./8_6.py 
+echo
+echo =8_7.py 
+python3.10 ./8_7.py 
+echo
+echo =8_8.py 
+python3.10 ./8_8.py 
+echo
+echo =8_9.py 
+python3.10 ./8_9.py 

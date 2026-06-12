@@ -1,0 +1,12 @@
+ <fabric>
+     file answer
+     <fname>
+         14_recursion/01-s.txt
+     <\fname>
+<before>
+Що буде виведено за виконання?\par{ENDL} (повідомлення інтерпретатора про помилку позначати error){ENDL}
+<\before>     
+<after>
+{ENDL}
+<\after>
+   <\fabric>

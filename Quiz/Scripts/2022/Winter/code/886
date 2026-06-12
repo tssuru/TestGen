@@ -1,0 +1,30 @@
+echo
+echo =886_1.py 
+python3.10 ./886_1.py 
+echo
+echo =886_2.py 
+python3.10 ./886_2.py 
+echo
+echo =886_3.py 
+python3.10 ./886_3.py 
+echo
+echo =886_4.py 
+python3.10 ./886_4.py 
+echo
+echo =886_5.py 
+python3.10 ./886_5.py 
+echo
+echo =886_6.py 
+python3.10 ./886_6.py 
+echo
+echo =886_7.py 
+python3.10 ./886_7.py 
+echo
+echo =886_8.py 
+python3.10 ./886_8.py 
+echo
+echo =886_9.py 
+python3.10 ./886_9.py 
+echo
+echo =886_10.py 
+python3.10 ./886_10.py 

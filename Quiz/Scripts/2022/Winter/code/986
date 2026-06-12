@@ -1,0 +1,30 @@
+echo
+echo =986_1.py 
+python3.10 ./986_1.py 
+echo
+echo =986_2.py 
+python3.10 ./986_2.py 
+echo
+echo =986_3.py 
+python3.10 ./986_3.py 
+echo
+echo =986_4.py 
+python3.10 ./986_4.py 
+echo
+echo =986_5.py 
+python3.10 ./986_5.py 
+echo
+echo =986_6.py 
+python3.10 ./986_6.py 
+echo
+echo =986_7.py 
+python3.10 ./986_7.py 
+echo
+echo =986_8.py 
+python3.10 ./986_8.py 
+echo
+echo =986_9.py 
+python3.10 ./986_9.py 
+echo
+echo =986_10.py 
+python3.10 ./986_10.py 

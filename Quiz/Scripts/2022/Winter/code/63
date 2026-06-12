@@ -1,0 +1,30 @@
+echo
+echo =63_1.py 
+python3.10 ./63_1.py 
+echo
+echo =63_2.py 
+python3.10 ./63_2.py 
+echo
+echo =63_3.py 
+python3.10 ./63_3.py 
+echo
+echo =63_4.py 
+python3.10 ./63_4.py 
+echo
+echo =63_5.py 
+python3.10 ./63_5.py 
+echo
+echo =63_6.py 
+python3.10 ./63_6.py 
+echo
+echo =63_7.py 
+python3.10 ./63_7.py 
+echo
+echo =63_8.py 
+python3.10 ./63_8.py 
+echo
+echo =63_9.py 
+python3.10 ./63_9.py 
+echo
+echo =63_10.py 
+python3.10 ./63_10.py 

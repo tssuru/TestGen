@@ -1,0 +1,1 @@
+/usr/bin/g++-13 -g CMakeFiles/p8.dir/all.cpp.o -o p8

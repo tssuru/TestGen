@@ -1,0 +1,23 @@
+{
+  "name": "@quiz/api",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/app/server.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/app/server.ts",
+    "start": "node dist/app/server.js",
+    "test:unit": "vitest run",
+    "test:unit:watch": "vitest",
+    "test:e2e": "tsx src/tests/e2e.test.ts",
+    "test": "npm run test:unit"
+  },
+  "dependencies": {
+    "@quiz/contracts": "*",
+    "better-sqlite3": "^11.3.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "vitest": "^2.1.9"
+  }
+}

@@ -1,0 +1,30 @@
+echo
+echo =545_1.py 
+python3.10 ./545_1.py 
+echo
+echo =545_2.py 
+python3.10 ./545_2.py 
+echo
+echo =545_3.py 
+python3.10 ./545_3.py 
+echo
+echo =545_4.py 
+python3.10 ./545_4.py 
+echo
+echo =545_5.py 
+python3.10 ./545_5.py 
+echo
+echo =545_6.py 
+python3.10 ./545_6.py 
+echo
+echo =545_7.py 
+python3.10 ./545_7.py 
+echo
+echo =545_8.py 
+python3.10 ./545_8.py 
+echo
+echo =545_9.py 
+python3.10 ./545_9.py 
+echo
+echo =545_10.py 
+python3.10 ./545_10.py 

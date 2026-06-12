@@ -1,0 +1,30 @@
+echo
+echo =295_1.py 
+python3.10 ./295_1.py 
+echo
+echo =295_2.py 
+python3.10 ./295_2.py 
+echo
+echo =295_3.py 
+python3.10 ./295_3.py 
+echo
+echo =295_4.py 
+python3.10 ./295_4.py 
+echo
+echo =295_5.py 
+python3.10 ./295_5.py 
+echo
+echo =295_6.py 
+python3.10 ./295_6.py 
+echo
+echo =295_7.py 
+python3.10 ./295_7.py 
+echo
+echo =295_8.py 
+python3.10 ./295_8.py 
+echo
+echo =295_9.py 
+python3.10 ./295_9.py 
+echo
+echo =295_10.py 
+python3.10 ./295_10.py 

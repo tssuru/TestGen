@@ -1,0 +1,133 @@
+<document>
+
+  <header>
+\documentclass[11pt, ukrainian]{article}{ENDL}
+\setlength\textwidth{170mm} \setlength\hoffset{-25mm}{ENDL}
+%\setlength\textheight{277mm} \setlength\voffset{-38mm}{ENDL}
+%\setlength\parindent{0mm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage{caption}{ENDL}
+\DeclareCaptionFormat{nocaption}{}{ENDL}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}{ENDL}
+\usepackage[Export]{adjustbox} {ENDL}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}
+\begin{document}{ENDL}
+
+  <\header>
+
+  <footer>
+\end{document}{ENDL}
+
+  <\footer>
+
+  <onNextVariant>
+
+{ENDL}{ENDL}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     150
+  <\to>
+
+  <onPage>
+    1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+//%begin
+//{ENDL}
+{17-19.11.2022 Модульна контрольна \No 1, варіант  \No \textbf { #No# }\par}{ENDL}
+{{ENDL}
+\begin {large}{ENDL}
+//{ENDL}Вказати значення виразу та його тип (за наявності помилок - error) (завдання 1-4){ENDL}{ENDL}
+//{ENDL}Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)? (завдання 5-10){ENDL}{ENDL}
+<\before>
+
+<after>
+\end {large}}{ENDL}
+%end{ENDL}
+<\after>
+
+<\variant>
+
+
+//Arithmetics
+<item>
+  include Ar/01-q.txt
+  <delim>
+//{SPACE}                       {SPACE}
+  <\delim>
+<\item>
+
+<item>
+  include Ar/02-q.txt
+<\item>
+
+//Logics and comparisons
+<item>
+  include Log/01-q.txt
+  <delim>
+//{SPACE}             {SPACE}
+  <\delim>
+<\item>
+
+<item>
+ include Log/02-q.txt
+<\item>
+
+//<item>
+ // include Log/03-q.txt
+
+//  <delim>
+//{ENDL}   
+// Що буде виведено за виконання (повідомлення про помилку позначати ERROR)(завдання 7-12):{ENDL}
+ // <\delim>
+
+//<\item>
+
+
+<item>
+  include Log/04-q.txt
+<\item>
+
+<item>
+  include 05-q.txt
+<\item>
+
+<item>
+  include If/1+2-q.txt
+<\item>
+
+<item>
+  include Scope/1+2-q.txt
+<\item>
+
+<item>
+  include 06-q.txt
+<\item>
+
+<item>
+  include Except/01-q.txt
+<\item>
+
+<item>
+  include task1-q.txt
+  <delim>
+  <\delim>
+<\item>

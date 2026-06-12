@@ -1,0 +1,1077 @@
+\documentclass[11pt, ukrainian]{article}
+\setlength\textwidth{170mm} \setlength\hoffset{-25mm}
+%\setlength\textheight{277mm} \setlength\voffset{-38mm}
+%\setlength\parindent{0mm}
+\pagestyle{empty}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\DeclareCaptionFormat{nocaption}{}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+\usepackage[Export]{adjustbox} 
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+\begin{document}
+%begin
+{XX.11.2021 Модульна контрольна \No 1-bis, варіант  \No \textbf { 1 }\par}
+{
+\begin {large}
+%beginitem
+1. Вказати значення виразу та його тип (за наявності помилок - error).
+%code
+"1"<"2" is "3"==False and 5+3**2<5**3+1
+%code
+
+%enditem
+
+%beginitem
+2. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+9**1.0*1
+%code
+
+%enditem
+
+%beginitem
+3. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+not 2.0!=False or 5<=4 and 6>9.0
+%code
+%enditem
+
+%beginitem
+4. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+"tion" in "ESPECIALLY"
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(6) or f(3))
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+x,y,z=4,2,5
+x,y,z,x=x,y,9,z
+print(x,y,z)
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(a,b):
+    c=83
+    if b!=5:
+        return 8
+    elif a>3:
+         c=0
+    else: 
+        c=3
+    return c
+
+print(h(-3,3))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=2,7,6
+def h(b):
+    a*=1
+    b=3
+    c=2
+    return a+b+c
+
+a,b,c=8,9,5
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+a,b,c=8,7,9
+def g(a,b=6,c=6):
+    print(a,b,c,end="")
+
+g(4,c=3,b=1)
+print(a,b,c)
+
+%code
+%enditem
+
+%beginitem
+10. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(0,end="")
+    print(int(7//0),end="")
+    print(2,end="")
+except BaseException: print(3,end="")
+except KeyboardInterrupt: print(4,end="")
+else: print(1,end="")
+finally: print(5,end="")
+
+%code
+%enditem
+
+%beginitem
+11. 
+Написати функцiю f, що отримує 2 числа і повертає ознаку того, що одне з них удвічі більше іншого. Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{XX.11.2021 Модульна контрольна \No 1-bis, варіант  \No \textbf { 2 }\par}
+{
+\begin {large}
+%beginitem
+1. Вказати значення виразу та його тип (за наявності помилок - error).
+%code
+"1"<"2" < "3"==True and 15.5/3.4+4.5-1.0
+%code
+
+%enditem
+
+%beginitem
+2. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+-1**True-False
+%code
+
+%enditem
+
+%beginitem
+3. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+not True>=2 and 5.0<7.0 or 9==7
+%code
+%enditem
+
+%beginitem
+4. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+"673" not in "123456789"
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+def f(n):
+    print("f", end="");
+    return n>=-2
+
+print(f(9) and f(-1))
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+x,y,z=0,3,1
+z,y,y,z=x,6,8,y
+print(x,y,z)
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(c):
+    u=78
+    if c: 
+        return 9
+    if c<-3:
+         u=3
+    else:
+         return 2
+    return u
+
+print(g(-9))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,3,1
+def f(a):
+    global c
+    a+=5
+    b=4
+    c=3
+    return a+b+c
+
+a,b,c=4,0,3
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+a,b,c=9,7,8
+def h(a,b=9,c):
+    print(a,b,c,end="")
+
+h(0,b=5)
+print(a,b,c)
+
+%code
+%enditem
+
+%beginitem
+10. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(8,end="")
+    print(6!=5,end="")
+    print(9,end="")
+except Exception: print(0,end="")
+except ValueError: print(1,end="")
+else: print(4,end="")
+finally: print(3,end="")
+
+%code
+%enditem
+
+%beginitem
+11. 
+Написати функцiю f, що отримує 2 числа і повертає ознаку того, що одне з них на 1 більше іншого. Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{XX.11.2021 Модульна контрольна \No 1-bis, варіант  \No \textbf { 3 }\par}
+{
+\begin {large}
+%beginitem
+1. Вказати значення виразу та його тип (за наявності помилок - error).
+%code
+"123" or 1 < 3 or 13.5**0.1<2.1
+%code
+
+%enditem
+
+%beginitem
+2. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+4**4+-1
+%code
+
+%enditem
+
+%beginitem
+3. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+8<=False or not 6.0<3 or 2==8.0
+%code
+%enditem
+
+%beginitem
+4. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+"98" in not "123456789"
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+def f(n):
+    print("f", end="");
+    return n==2
+
+print(f(-4) or f(-3))
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+x,y,z=0,1,3
+z,y,x,x=z,x,z,7
+print(x,y,z)
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(a,b):
+    c=93
+    if a:
+        return 7
+    if b>=1:
+         c=2
+    else: 
+        return 6
+    return c
+
+print(f(-2,7))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=5,6,7
+def g(b):
+    global c
+    a-=4
+    b=2
+    c=1
+    return a+b+c
+
+a,b,c=9,2,4
+print(g(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+a,b,c=6,7,8
+def f(a,b,c=8):
+    print(a,b,c,end="")
+
+f(2,4)
+print(a,b,c)
+
+%code
+%enditem
+
+%beginitem
+10. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(6,end="")
+    print(int("b8"),end="")
+    print(2,end="")
+except ZeroDivisionError: print(5,end="")
+except TypeError: print(7,end="")
+else: print(9,end="")
+finally: print(2,end="")
+
+%code
+%enditem
+
+%beginitem
+11. 
+Написати функцiю f, що отримує 2 числа і повертає ознаку того, що одне з них на 1 більше іншого. Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{XX.11.2021 Модульна контрольна \No 1-bis, варіант  \No \textbf { 4 }\par}
+{
+\begin {large}
+%beginitem
+1. Вказати значення виразу та його тип (за наявності помилок - error).
+%code
+not 5 == 1.0 and 3
+%code
+
+%enditem
+
+%beginitem
+2. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+4**-1.0*-2
+%code
+
+%enditem
+
+%beginitem
+3. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+not 9>3.0 and 4.0!=True and 6>=5
+%code
+%enditem
+
+%beginitem
+4. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+"IN" in "literal"
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(-5) and f(-7))
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+x,y,z=5,2,4
+z,z,y,y=y,x,6,y
+print(x,y,z)
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def f(a):
+    w=96
+    if a==5: 
+        w=6
+    elif a<=1:
+         return 5
+    else:
+         w=4
+    return w
+
+print(f(-2))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,7,4
+def f(b):
+    global c
+    a=4
+    b=2
+    c=3
+    return a+b+c
+
+a,b,c=3,6,1
+print(f(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+a,b,c=6,9,7
+def f(a,b,c):
+    print(a,b,c,end="")
+
+f(a=1,0,c=2)
+print(a,b,c)
+
+%code
+%enditem
+
+%beginitem
+10. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(0,end="")
+    print(int(5/1),end="")
+    print(1,end="")
+except ValueError: print(4,end="")
+except Exception: print(9,end="")
+else: print(3,end="")
+finally: print(8,end="")
+
+%code
+%enditem
+
+%beginitem
+11. 
+Написати функцiю f, що отримує 2 числа і повертає ознаку того, що вони рiвнi з точнiстю до 0.01. Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{XX.11.2021 Модульна контрольна \No 1-bis, варіант  \No \textbf { 5 }\par}
+{
+\begin {large}
+%beginitem
+1. Вказати значення виразу та його тип (за наявності помилок - error).
+%code
+'1' is "1" is """1""" and 2**2
+%code
+
+%enditem
+
+%beginitem
+2. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+1**0.5*2
+%code
+
+%enditem
+
+%beginitem
+3. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+not 3!=4.0 or 2.0>=True and 8==4
+%code
+%enditem
+
+%beginitem
+4. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+"ful" not in "repetitions"
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(8) or f(2))
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+x,y,z=3,0,5
+x,x,z,x=8,z,9,x
+print(x,y,z)
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(d):
+    z=44
+    if d!=4: 
+        z=8
+    elif d>=0:
+         return 7
+    else:
+         z=1
+    return z
+
+print(h(-5))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=8,1,5
+def h(a):
+    a=5
+    b+=2
+    c=1
+    return a+b+c
+
+a,b,c=1,2,7
+print(h(a),a,b,c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+a,b,c=7,9,8
+def g(a,b,c=6):
+    print(a,b,c,end="")
+
+g(3,5,1)
+print(a,b,c)
+
+%code
+%enditem
+
+%beginitem
+10. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(6,end="")
+    print(int("7"),end="")
+    print(2,end="")
+except ZeroDivisionError: print(6,end="")
+except BaseException: print(7,end="")
+else: print(1,end="")
+finally: print(3,end="")
+
+%code
+%enditem
+
+%beginitem
+11. 
+Написати функцiю f, що отримує 3 числа i повертає ознаку того, що серед них є рівно два рівних. Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{XX.11.2021 Модульна контрольна \No 1-bis, варіант  \No \textbf { 6 }\par}
+{
+\begin {large}
+%beginitem
+1. Вказати значення виразу та його тип (за наявності помилок - error).
+%code
+not 3 - 1 and 'N' < 'n'
+%code
+
+%enditem
+
+%beginitem
+2. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+1**-0.5*True
+%code
+
+%enditem
+
+%beginitem
+3. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+not False<7 and 4>7 or 5.0<=6.0
+%code
+%enditem
+
+%beginitem
+4. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+"56" in not "123456789"
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+def f(n):
+    print("f", end="");
+    return n!=-4
+
+print(f(-6) and f(-2))
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+x,y,z=2,4,1
+y,y,x,z=y,z,7,z
+print(x,y,z)
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(a,b):
+    c=97
+    if a<=4:
+        return 4
+    elif b==2:
+         c=5
+    else: 
+        c=9
+    return c
+
+print(g(0,-4))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=0,9,2
+def h(a):
+    a=5
+    b=1
+    c=1
+    return a+b+c
+
+a,b,c=5,9,2
+print(h(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+a,b,c=8,9,7
+def h(a,b=6,c=6):
+    print(a,b,c,end="")
+
+h(4,2,a=5)
+print(a,b,c)
+
+%code
+%enditem
+
+%beginitem
+10. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(0,end="")
+    print(int("c8"),end="")
+    print(4,end="")
+except TypeError: print(9,end="")
+except KeyboardInterrupt: print(5,end="")
+else: print(5,end="")
+finally: print(3,end="")
+
+%code
+%enditem
+
+%beginitem
+11. 
+Написати функцiю f, що отримує число і повертає ознаку того, що воно дійсного типу. Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{XX.11.2021 Модульна контрольна \No 1-bis, варіант  \No \textbf { 7 }\par}
+{
+\begin {large}
+%beginitem
+1. Вказати значення виразу та його тип (за наявності помилок - error).
+%code
+not 3 - 1 or 'N' > 'n' and 4**0.5
+%code
+
+%enditem
+
+%beginitem
+2. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+1**-2+-1
+%code
+
+%enditem
+
+%beginitem
+3. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+2<3 and not 3.0<=9 and 9.0>=False
+%code
+%enditem
+
+%beginitem
+4. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+"65" in not "123456789"
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+def f(n):
+    print("f", end="");
+    return n
+
+print(f(7) and f(-9))
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+x,y,z=1,5,2
+x,y,y,z=x,y,9,z
+print(x,y,z)
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def h(b):
+    x=18
+    if b: 
+        return 0
+    if b>-5:
+         return 6
+    else:
+         x=3
+    return x
+
+print(h(5))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=3,9,8
+def f(a):
+    a-=3
+    b=4
+    c=5
+    return a+b+c
+
+a,b,c=0,6,4
+print(f(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+a,b,c=7,9,8
+def g(a,b=7,c):
+    print(a,b,c,end="")
+
+g(b=0,c=3,1)
+print(a,b,c)
+
+%code
+%enditem
+
+%beginitem
+10. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(8,end="")
+    print(int("7"),end="")
+    print(4,end="")
+except TypeError: print(6,end="")
+except ZeroDivisionError: print(2,end="")
+else: print(9,end="")
+finally: print(0,end="")
+
+%code
+%enditem
+
+%beginitem
+11. 
+Написати функцiю f, що отримує 2 числа і повертає ознаку того, що вони відрізняються якнайменш на 10. Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+%begin
+{XX.11.2021 Модульна контрольна \No 1-bis, варіант  \No \textbf { 8 }\par}
+{
+\begin {large}
+%beginitem
+1. Вказати значення виразу та його тип (за наявності помилок - error).
+%code
+15.5 and (17 or 1 < 3)
+%code
+
+%enditem
+
+%beginitem
+2. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+3**-1--2
+%code
+
+%enditem
+
+%beginitem
+3. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+7.0>8.0 or not 8!=6 or 5==True
+%code
+%enditem
+
+%beginitem
+4. Вказати значення виразу та його тип (за наявності помилок - error).
+
+%code
+"OU" not in "ALTHOUGH"
+%code
+%enditem
+
+%beginitem
+5. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+def f(n):
+    print("f", end="");
+    return n<=4
+
+print(f(0) or f(-8))
+%code
+%enditem
+
+%beginitem
+6. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+x,y,z=4,0,3
+x,z,x,z=y,6,x,y
+print(x,y,z)
+%code
+%enditem
+
+%beginitem
+7. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+def g(a,b):
+    c=61
+    if a<0:
+        return 1
+    if b<-5:
+         c=1
+    else: 
+        return 3
+    return c
+
+print(g(1,6))
+%code
+%enditem
+
+%beginitem
+8. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+
+%code
+a,b,c=1,5,7
+def g(b):
+    global c
+    a*=4
+    b=1
+    c=2
+    return a+b+c
+
+a,b,c=6,4,3
+print(g(b),a,b,c)
+%code
+%enditem
+
+%beginitem
+9. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+a,b,c=9,8,6
+def f(a,b,c):
+    print(a,b,c,end="")
+
+f(c=3,a=5,b=4)
+print(a,b,c)
+
+%code
+%enditem
+
+%beginitem
+10. Що буде виведено за виконання (повідомлення інтерпретатора про помилку позначати error)?
+%code
+
+try:
+    print(1,end="")
+    print(int(5%0.0),end="")
+    print(3,end="")
+except ValueError: print(0,end="")
+except KeyboardInterrupt: print(1,end="")
+else: print(7,end="")
+finally: print(6,end="")
+
+%code
+%enditem
+
+%beginitem
+11. 
+Написати функцiю f, що отримує 2 числа і повертає ознаку того, що одне з них удвічі більше іншого. Стиль запису умови також оцінюється. 
+
+
+%enditem
+\end {large}}
+%end
+%end
+\end{document}
+

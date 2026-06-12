@@ -1,0 +1,10 @@
+ <fabric>
+     file answer
+     <fname>
+         07-s.txt
+     <\fname>
+<num>
+2
+<\num>
+
+   <\fabric>

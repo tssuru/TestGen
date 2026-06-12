@@ -1,0 +1,50 @@
+{Довести, що різниця $f_{1} \setminus f_{2}$ двох відображень $f_{1}$ і $f_{2}$ з $A$ в $B$ є відображенням з $A$ в $B$ тоді й тільки тоді, коли $f_{1} \cap f_{2} = \emptyset$.}
+
+{Довести, що скінченна частково впорядкована множина має найбільший елемент тоді й тільки тоді, коли вона містить рівно один максимальний елемент.}\par {Довести, що скінченна частково впорядкована множина має найменший елемент тоді й тільки тоді, коли вона містить рівно один мінімальний елемент.}
+
+{Довести, що відношення $C$ є ін'єктивним тоді й тільки тоді, коли для довільних множин $A$, $B$ має місце рівність $C\left(A \setminus B\right) = C\left(A\right) \setminus C\left(B\right)$.}
+
+{Довести, що відношення $C$ є функціональним тоді й тільки тоді, коли для довільних множин $A$, $B$ має місце рівність $C^{-1}\left(A\setminus B\right) = C^{-1} \left(A\right)\setminus C^{-1}\left(B\right)$.}
+
+{Довести, що відношення $C$ є функціональним тоді й тільки тоді, коли для довільної множини $B \subseteq Pr_{2}\left(C\right)$ має місце рівність $B = C\left(C^{-1}\left(B\right)\right)$.}
+
+{Довести, що відношення $C$ є ін'єктивним тоді й тільки тоді, коли для довільної множини $A\ \subseteq Pr_{1}\left(C\right)$ має місце рівність $A = C^{-1} \left(C \left(A\right)\right)$.}
+
+{Довести, що для довільного відношення $C$ та довільних множин $A$ і $B$ виконується $C \left( A \right) \cap B \subseteq C \left( A \cap C^{-1} \left( B \right)  \right)$.}
+
+{Довести, що для довільного відношення $C$ та довільних множин $A$ і $B$ виконується $A \cap C^{-1} \left( B \right) \subseteq C^{-1} \left( C \left( A \right) \cap B \right)$.}
+
+{Нехай $R_1$ і $R_2$ -- еквівалентності на множині $A$. Довести, що $ \left( R_{1} \cup R_{2} \right) ^*$ є найменшим відношенням еквівалентності на множині $A$, що включає $R_{1} \cup R_{2}$.}
+
+{Нехай $R_1$ і $R_2$ -- еквівалентності на множині $A$. Довести, що відношення $R_1 \circ_l R_2 \circ_l R_1$ є еквівалентністю на множині $A$ тоді й тільки тоді, коли $R_2 \circ_l R_1 \circ_l R_2 \subseteq R_1 \circ_l R_2 \circ_l R_1$.}
+
+{На множині $N^N$ задано відношення $R$: $f R g \Leftrightarrow \forall n \in N  \left( f \left( n \right) \le g \left( n \right) \right)$. Чи є відношення R відношенням часткового порядку?}
+
+{Для $I \not= \emptyset $ довести, що $( \bigcup \limits_{i \in I}A_i ) \div (\bigcup \limits_{i \in I} B_i ) \subseteq \bigcup \limits_{i \in I} ( A_i \div B_i )$.}
+
+{Для $I \not= \emptyset $ довести, що $( \bigcap \limits_{i \in I}A_i ) \div (\bigcap \limits_{i \in I} B_i ) \subseteq \bigcup \limits_{i \in I} ( A_i \div B_i )$.}
+
+{Довести, що для довільного відношення $C$ між множинами $A$ і $B$ та для довільної непорожньої сім'{\hspace{1pt}}ї множин $\{A_i\}_{i \in I}$ виконується співвідношення $C ( \bigcup \limits_{i \in I}A_i ) = \bigcup \limits_{i \in I}C \left( A_i \right)$ }
+
+{Довести, що для довільного відношення $C$ між множинами $A$ і $B$ та для довільної непорожньої сім'{\hspace{1pt}}ї множин $\{A_i\}_{i \in I}$ виконується співвідношення $C^{-1} ( \bigcup \limits_{i \in I}A_i ) = \bigcup \limits_{i \in I}C^{-1} \left( A_i \right)$ }
+
+{Довести, що для довільного відношення $C$ між множинами $A$ і $B$ та для довільної непорожньої сім'{\hspace{1pt}}ї множин $\{A_i\}_{i \in I}$ виконується співвідношення $C ( \bigcap \limits_{i \in I}A_i ) \subseteq \bigcap \limits_{i \in I}C \left( A_i \right)$ }
+
+{Довести, що для довільного відношення $C$ між множинами $A$ і $B$ та для довільної непорожньої сім'{\hspace{1pt}}ї множин $\{A_i\}_{i \in I}$ виконується співвідношення $C^{-1} ( \bigcap \limits_{i \in I}A_i ) \subseteq \bigcap \limits_{i \in I}C^{-1} \left( A_i \right)$ }
+
+{Довести, що для довільної сім'ї відношень $\{C_i\}_{i \in I}$  між множинами $A$ і $B$ та для довільної множини $D$ виконується співвідношення $ \Bigl(\bigcup \limits_{i \in I} {C_i} \Bigr) \left( D \right) = \bigcup \limits_{i \in I}\Bigl( {C_i} \left( D \Bigr)\right)$ }
+
+{Довести, що для довільної сім'{\hspace{1pt}}ї відношень $\{C_i\}_{i \in I}$ між множинами $A$ і $B$ та для довільної множини $D$ виконується співвідношення $ \Bigl(\bigcap \limits_{i \in I} {C_i} \Bigr) \left( D \right) \subseteq \bigcap \limits_{i \in I} \Bigl( {C_i} \left( D \right)\Bigr)$ }
+
+{Довести, що для довільної сім'{\hspace{1pt}}ї відношень $\{C_i\}_{i \in I}$ між множинами $A$ і $B$ та для довільної множини $D$ виконується співвідношення $ \Bigl(\bigcap \limits_{i \in I} {C_i}^{-1} \Bigr) \left( D \right) \subseteq \bigcap \limits_{i \in I} \Bigl( {C_i^{-1}} \left( D \right)\Bigr)$ }
+
+{Довести, що для довільної сім'{\hspace{1pt}}ї відношень $\{C_i\}_{i \in I}$  між множинами $A$ і $B$ та для довільного відношення $D \subseteq B \times G$ виконується співвідношення $(\bigcup \limits_{i \in I} {C_i}) {\circ_l} D = \bigcup \limits_{i \in I} \left( C_i{\circ_l}D \right) $.}
+
+{Довести, що для довільної сім'{\hspace{1pt}}ї відношень $\{C_i\}_{i \in I}$  між множинами $A$ і $B$ та для довільного відношення $D \subseteq H \times A$ виконується співвідношення $D{\circ_l}(\bigcup \limits_{i \in I} {C_i} ) = \bigcup \limits_{i \in I} \left(D{\circ_l}C_i \right) $.}
+
+{Довести, що для довільної сім'{\hspace{1pt}}ї відношень $\{C_i\}_{i \in I}$  між множинами $A$ і $B$ та для довільного відношення $D \subseteq B \times G$ виконується співвідношення $(\bigcap \limits_{i \in I} {C_i}) {\circ_l} D \subseteq \bigcap \limits_{i \in I} \left( C_i{\circ_l}D \right) $.}
+
+{Довести, що для довільної сім'{\hspace{1pt}}ї відношень $\{C_i\}_{i \in I}$ між множинами $A$ і $B$ та для довільного відношення $D \subseteq H \times A$ виконується співвідношення $D{\circ_l}(\bigcap \limits_{i \in I} {C_i} ) \subseteq \bigcap \limits_{i \in I} \left(D{\circ_l}C_i \right) $.}
+
+{Довести: відношення $f$ між множинами $A$ і $B$ є відображенням тоді й тільки тоді, коли $i_A \subseteq f{\circ_l}f^{-1}$ і $f^{ -1}{\circ_l}f \subseteq i_B$.}
+

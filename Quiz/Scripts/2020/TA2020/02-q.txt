@@ -1,0 +1,13 @@
+ <fabric>
+     file answer
+     <fname>
+         02-s.txt
+     <\fname>
+     <before>
+Побудувати автомат-розпізнавач з вхідним алфавітом X={0, 1, 2}, що допускає (=розпізнає) ті і тількі ті слова,{SPACE} 
+     <\before>
+<after>
+.
+<\after>
+
+   <\fabric>

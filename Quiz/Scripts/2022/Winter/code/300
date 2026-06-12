@@ -1,0 +1,30 @@
+echo
+echo =300_1.py 
+python3.10 ./300_1.py 
+echo
+echo =300_2.py 
+python3.10 ./300_2.py 
+echo
+echo =300_3.py 
+python3.10 ./300_3.py 
+echo
+echo =300_4.py 
+python3.10 ./300_4.py 
+echo
+echo =300_5.py 
+python3.10 ./300_5.py 
+echo
+echo =300_6.py 
+python3.10 ./300_6.py 
+echo
+echo =300_7.py 
+python3.10 ./300_7.py 
+echo
+echo =300_8.py 
+python3.10 ./300_8.py 
+echo
+echo =300_9.py 
+python3.10 ./300_9.py 
+echo
+echo =300_10.py 
+python3.10 ./300_10.py 

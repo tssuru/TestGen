@@ -1,0 +1,30 @@
+echo
+echo =705_1.py 
+python3.10 ./705_1.py 
+echo
+echo =705_2.py 
+python3.10 ./705_2.py 
+echo
+echo =705_3.py 
+python3.10 ./705_3.py 
+echo
+echo =705_4.py 
+python3.10 ./705_4.py 
+echo
+echo =705_5.py 
+python3.10 ./705_5.py 
+echo
+echo =705_6.py 
+python3.10 ./705_6.py 
+echo
+echo =705_7.py 
+python3.10 ./705_7.py 
+echo
+echo =705_8.py 
+python3.10 ./705_8.py 
+echo
+echo =705_9.py 
+python3.10 ./705_9.py 
+echo
+echo =705_10.py 
+python3.10 ./705_10.py 

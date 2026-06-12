@@ -1,0 +1,119 @@
+<document>
+
+  <header>
+\documentclass[12pt, ukrainian]{article}{ENDL}
+\usepackage[a4paper]{geometry}{ENDL}
+\setlength\parindent{0mm}{ENDL}
+\geometry{top=1.1cm,bottom=1.1cm,left=1.0cm,right=1.0cm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage{caption}{ENDL}
+
+\DeclareCaptionFormat{nocaption}{}{ENDL}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}{ENDL}
+\usepackage[Export]{adjustbox} {ENDL}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}
+\begin{document}{ENDL}
+
+  <\header>
+
+  <footer>
+\end{document}{ENDL}
+
+  <\footer>
+
+  <onNextVariant>
+\vspace{25mm}
+{ENDL}{ENDL}{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+\newpage{ENDL}
+  <\onNextPage>
+
+<from>
+1
+<\from>
+<to>
+40
+<\to>
+
+  <onPage>
+1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+%\begin {Huge}{ENDL}
+{{27.11.2025 Контрольна робота \No 2 (частина 2), варіант  \No \textbf { #No# }\par}}{ENDL}{ENDL}
+%\begin{center}Частина 2{ENDL}
+%\end{center}{ENDL}
+%\vspace{10mm}{ENDL}
+%\end {Huge}{ENDL}{ENDL}
+{{ENDL}
+\begin {large}{ENDL}
+Якість коду та економність обчислень оцінюється по всім завданням.{ENDL}{ENDL}
+%\vspace{5mm}{ENDL}{ENDL}
+<\before>
+
+<after>
+\end{large}
+{ENDL}
+//%end{ENDL}
+<\after>
+
+<\variant>
+
+<item>
+  <fabric>
+  collate 
+<fabric>
+     file answer
+     <fname>
+     task10.txt
+     <\fname>
+
+     <before>
+     <\before>
+     <after>
+{ENDL}{ENDL}
+     <\after>
+<\fabric>
+
+<fabric>
+     file answer
+     <fname>
+     task12.txt
+     <\fname>
+
+     <before>
+     <\before>
+     <after>
+{ENDL}{ENDL}
+     <\after>
+<\fabric>
+      <n1>
+         17
+      <\n1>
+      <n2>
+         17
+      <\n2>
+
+  <\fabric>
+<\item>  
+
+
+
+<item>
+  include task02-q.txt
+<\item>
+
+
+
+

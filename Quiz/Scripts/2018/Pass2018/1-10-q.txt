@@ -1,0 +1,15 @@
+ <fabric>
+     template answer
+     <fname>
+         1-10-f.txt
+     <\fname>
+
+     <before>
+//{SPACE}
+  //       Що буде надруковано за виконання:{ENDL}
+     <\before>
+
+     <after>
+       
+     <\after>
+   <\fabric>

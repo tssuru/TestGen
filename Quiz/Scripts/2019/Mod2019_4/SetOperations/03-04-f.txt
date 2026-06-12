@@ -1,0 +1,32 @@
+//source for question like
+// 44352 questions
+//Записати вираз :\n
+
+//comprehension
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+
+from={<int> 10 20}
+to={<int> 2000 2020}
+expr=квадрати;куби;квадратні корені{SPACE}
+//Restrict={#cond#}{#direction#}
+xnum=2;3;5;7
+cond={що не діляться на #xnum#}{що діляться на #xnum#}{що не діляться на жодне з чисел 2, 3}
+
+
+<\declarations>
+
+<template>
+Записати ВИРАЗ, значенням якого є словник, ключами якого є{SPACE}
+цілі числа від #from# до #to# (включно),{SPACE}
+#cond#, а ключам відповідають їх #expr#{SPACE}
+
+<\template>
+
+<restrictions>
+<\restrictions>

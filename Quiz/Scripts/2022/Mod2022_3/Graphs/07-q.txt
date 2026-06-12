@@ -1,0 +1,12 @@
+ <fabric>
+     template answer
+     <fname>
+         Graphs/07-f.txt
+     <\fname>
+
+     <before>
+     <\before>
+
+     <after>
+     <\after>
+   <\fabric>

@@ -1,0 +1,30 @@
+echo
+echo =260_1.py 
+python3.10 ./260_1.py 
+echo
+echo =260_2.py 
+python3.10 ./260_2.py 
+echo
+echo =260_3.py 
+python3.10 ./260_3.py 
+echo
+echo =260_4.py 
+python3.10 ./260_4.py 
+echo
+echo =260_5.py 
+python3.10 ./260_5.py 
+echo
+echo =260_6.py 
+python3.10 ./260_6.py 
+echo
+echo =260_7.py 
+python3.10 ./260_7.py 
+echo
+echo =260_8.py 
+python3.10 ./260_8.py 
+echo
+echo =260_9.py 
+python3.10 ./260_9.py 
+echo
+echo =260_10.py 
+python3.10 ./260_10.py 

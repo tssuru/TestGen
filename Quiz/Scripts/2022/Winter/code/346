@@ -1,0 +1,30 @@
+echo
+echo =346_1.py 
+python3.10 ./346_1.py 
+echo
+echo =346_2.py 
+python3.10 ./346_2.py 
+echo
+echo =346_3.py 
+python3.10 ./346_3.py 
+echo
+echo =346_4.py 
+python3.10 ./346_4.py 
+echo
+echo =346_5.py 
+python3.10 ./346_5.py 
+echo
+echo =346_6.py 
+python3.10 ./346_6.py 
+echo
+echo =346_7.py 
+python3.10 ./346_7.py 
+echo
+echo =346_8.py 
+python3.10 ./346_8.py 
+echo
+echo =346_9.py 
+python3.10 ./346_9.py 
+echo
+echo =346_10.py 
+python3.10 ./346_10.py 

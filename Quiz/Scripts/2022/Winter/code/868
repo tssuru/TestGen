@@ -1,0 +1,30 @@
+echo
+echo =868_1.py 
+python3.10 ./868_1.py 
+echo
+echo =868_2.py 
+python3.10 ./868_2.py 
+echo
+echo =868_3.py 
+python3.10 ./868_3.py 
+echo
+echo =868_4.py 
+python3.10 ./868_4.py 
+echo
+echo =868_5.py 
+python3.10 ./868_5.py 
+echo
+echo =868_6.py 
+python3.10 ./868_6.py 
+echo
+echo =868_7.py 
+python3.10 ./868_7.py 
+echo
+echo =868_8.py 
+python3.10 ./868_8.py 
+echo
+echo =868_9.py 
+python3.10 ./868_9.py 
+echo
+echo =868_10.py 
+python3.10 ./868_10.py 

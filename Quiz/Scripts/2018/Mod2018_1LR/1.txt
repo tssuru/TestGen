@@ -1,0 +1,11 @@
+\frac{x}{y}
+\frac{5}{7}
+\frac{4}{9}
+\frac{9}{4}
+\frac{1}{x}
+\sqrt x
+x^{\frac{5}{7}}
+x^{\frac{9}{4}}
+x^{\frac{4}{9}}
+x^{\frac{2}{3}}
+x^{\frac{3}{2}}

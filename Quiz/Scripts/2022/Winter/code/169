@@ -1,0 +1,30 @@
+echo
+echo =169_1.py 
+python3.10 ./169_1.py 
+echo
+echo =169_2.py 
+python3.10 ./169_2.py 
+echo
+echo =169_3.py 
+python3.10 ./169_3.py 
+echo
+echo =169_4.py 
+python3.10 ./169_4.py 
+echo
+echo =169_5.py 
+python3.10 ./169_5.py 
+echo
+echo =169_6.py 
+python3.10 ./169_6.py 
+echo
+echo =169_7.py 
+python3.10 ./169_7.py 
+echo
+echo =169_8.py 
+python3.10 ./169_8.py 
+echo
+echo =169_9.py 
+python3.10 ./169_9.py 
+echo
+echo =169_10.py 
+python3.10 ./169_10.py 

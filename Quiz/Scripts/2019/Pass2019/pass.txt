@@ -1,0 +1,91 @@
+<document>
+
+  <header>
+
+  <\header>
+
+  <footer>
+
+  <\footer>
+
+  <onNextVariant>
+{ENDL}
+  <\onNextVariant>
+
+  <onNextPage>
+NEWPAGE
+  <\onNextPage>
+
+  <from>
+     1
+  <\from>
+
+  <to>
+     130
+  <\to>
+
+  <onPage>
+    1
+  <\onPage>
+
+<\document>
+
+<variant>
+
+<before>
+12.2019 Залік Варіант № #No# К1_ ПІБ ________ {ENDL}
+Завдання 1: вказати значення виразу та його тип (за наявності помилок - error).{ENDL}
+<\before>
+
+<after>
+<\after>
+
+<\variant>
+
+<item>
+   include 1-q.txt
+<delim>
+{ENDL}Завдання 2-6: Що буде надруковано за виконання?{SPACE}
+Повідомлення про виняток позначати ERROR.{SPACE}
+Повідомлення про синтаксичну помилку позначати SYNTAX.{SPACE}
+Якщо нічого не буде виведено, то писати, що нічого не буде виведено.{ENDL}
+
+<\delim>
+<\item>
+
+<item>
+   include 2-q.txt
+<\item>
+
+<item>
+  include Scope/1+2-q.txt
+<\item>
+
+<item>
+  include Except/01-q.txt
+<\item>
+
+<item>
+   include Cycles/02-q.txt
+<\item>
+
+<item>
+   include 6-q.txt
+  <delim>
+{ENDL}{ENDL}
+  <\delim>
+<\item>
+
+<item> 
+include ListOperations/03-q.txt 
+  <delim>
+{ENDL}{ENDL}{ENDL}
+  <\delim>
+<\item>
+
+
+<item>
+  include task-q.txt
+  <delim>
+  <\delim>
+<\item>

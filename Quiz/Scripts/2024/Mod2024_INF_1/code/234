@@ -1,0 +1,30 @@
+echo
+echo =234_1.py 
+python3.11 -W "ignore" ./234_1.py 
+echo
+echo =234_2.py 
+python3.11 -W "ignore" ./234_2.py 
+echo
+echo =234_3.py 
+python3.11 -W "ignore" ./234_3.py 
+echo
+echo =234_4.py 
+python3.11 -W "ignore" ./234_4.py 
+echo
+echo =234_5.py 
+python3.11 -W "ignore" ./234_5.py 
+echo
+echo =234_6.py 
+python3.11 -W "ignore" ./234_6.py 
+echo
+echo =234_7.py 
+python3.11 -W "ignore" ./234_7.py 
+echo
+echo =234_8.py 
+python3.11 -W "ignore" ./234_8.py 
+echo
+echo =234_10.py 
+python3.11 -W "ignore" ./234_10.py 
+echo
+echo =234_11.py 
+python3.11 -W "ignore" ./234_11.py 

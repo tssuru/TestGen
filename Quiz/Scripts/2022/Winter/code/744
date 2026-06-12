@@ -1,0 +1,30 @@
+echo
+echo =744_1.py 
+python3.10 ./744_1.py 
+echo
+echo =744_2.py 
+python3.10 ./744_2.py 
+echo
+echo =744_3.py 
+python3.10 ./744_3.py 
+echo
+echo =744_4.py 
+python3.10 ./744_4.py 
+echo
+echo =744_5.py 
+python3.10 ./744_5.py 
+echo
+echo =744_6.py 
+python3.10 ./744_6.py 
+echo
+echo =744_7.py 
+python3.10 ./744_7.py 
+echo
+echo =744_8.py 
+python3.10 ./744_8.py 
+echo
+echo =744_9.py 
+python3.10 ./744_9.py 
+echo
+echo =744_10.py 
+python3.10 ./744_10.py 

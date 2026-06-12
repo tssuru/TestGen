@@ -1,0 +1,136 @@
+\documentclass[12pt, ukrainian]{article}
+\usepackage[a4paper]{geometry}
+\setlength\parindent{0mm}
+\geometry{top=1.5cm,bottom=1.5cm,left=1.3cm,right=1.5cm}
+\pagestyle{empty}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{caption}
+\DeclareCaptionFormat{nocaption}{}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+\usepackage[Export]{adjustbox}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+\usepackage{verbatim, listings, clrscode3e, fancyvrb}
+\def\code#1{\Verb!#1!}
+\begin{document}
+%begin
+\begin {large}
+
+\textbf{22.11.2024 Контрольна робота, варіант  \No { 87 }}\par
+
+
+{
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+По яких днях тижня відбувались лекції з предмету?
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+Як зовуть (ім'я, по батькові) викладача, що вів практичні заняття?
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+Нехай int var=13; Один потік збільшив змінну var на 3, а інший збільшив її в три рази.
+
+гонка даних (data race), стан гонки (race condition)
+
+Виберіть усі правильні твердження (якщо такі є).\par
+\vspace{2mm}
+(\,1\,) Тут може бути тільки стан гонки.%bad
+
+(\,2\,) Тут гарантовано нема ані гонки даних, ані стану гонки.%bad
+
+(\,3\,) Тут може не бути гонки даних.%good
+
+(\,4\,) Тут гарантовано нема гонки даних, але може бути стан гонки.%bad
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+Виберіть усі правильні твердження (якщо такі є).\par
+\vspace{2mm}
+
+(\,1\,) Клас thread має засоби, щоб повернути результат виконання запущеного потоку.%bad
+
+(\,2\,) Потік в активному очікуванні споживає ресурс процесора.%good
+
+(\,3\,) Значення, що є результатом виконання функції, запущеної через async, зберігається безпосередньо в об’єкті проміза (promise).%bad
+
+(\,4\,) Значення, що є результатом виконання функції, запущеної через async, зберігається безпосередньо в об’єкті ф’ючерса (future).%bad
+
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+Виберіть усі правильні твердження (якщо такі є).\par
+\vspace{2mm}
+
+(\,1\,) На операціях структури даних без блокувань взаємоблокувань потоків виникнути не може.%bad
+
+(\,2\,) Структура даних без блокувань може не бути вільною від блокувань.%good
+
+(\,3\,) Структура даних без блокувань гарантує завершення виконання довільної операції над цією структурою даних за обмежений час.%bad
+
+(\,4\,) За використання атомарних змінних структура даних є структурою даних без блокувань.%bad
+\newpage
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+Виберіть усі правильні твердження (якщо такі є).\par
+\vspace{2mm}
+
+(\,1\,) Потік мови С++ не може отримати доступ до автоматичних змінних іншого потоку.%bad
+
+(\,2\,) Кожен потік програми може мати доступ до динамічних даних програми.%good
+
+(\,3\,) Динамічні змінні не можуть розділятися між потоками.%bad
+
+(\,4\,) Потік може мати доступ до автоматичних змінних іншого потоку і це безпечно.%bad
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+У цьому фрагменті коду
+\begin{verbatim}
+template <class T> void f(T a){}
+
+void g(){
+    int i=5;
+    f(unique_ptr<int>(new int(i)))+(unique_ptr<int>(new int(++i)));
+\end{verbatim}
+(\,1\,) є стан гонки%bad
+
+(\,2\,) можливий виток ресурсів%good
+
+(\,3\,) є невизначена поведінка%good
+
+(\,4\,) є гонка даних%bad
+
+}
+\end {large}
+
+\vspace{4mm}
+%end
+\newpage
+\end{document}
+

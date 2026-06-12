@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="../strings/strings.cbp" />
+		<Project filename="LexStream/LexStream.cbp" />
+		<Project filename="Container/Container.cbp">
+			<Depends filename="../strings/strings.cbp" />
+			<Depends filename="LexStream/LexStream.cbp" />
+		</Project>
+		<Project filename="Quest/Quest.cbp">
+			<Depends filename="../strings/strings.cbp" />
+			<Depends filename="LexStream/LexStream.cbp" />
+			<Depends filename="Container/Container.cbp" />
+		</Project>
+		<Project filename="Check/Check.cbp">
+			<Depends filename="../strings/strings.cbp" />
+		</Project>
+		<Project filename="Mod/Mod.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

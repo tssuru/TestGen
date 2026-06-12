@@ -1,0 +1,23 @@
+    class A{ };
+    class B{ };
+    class C:public A{B b;};
+
+    class A{ };
+    class B{ };
+    class C:public A{B b;A a;};
+
+    class A{ };
+    class B{ };
+    class C{B b;A a;};
+
+    class A{ };
+    class B:public A{ };
+    class C:public B{ };
+
+    class A{ };
+    class B:public A{ };
+    class C:public A{B b;};
+
+    class A{ };
+    class B{ };
+    class C:public A{B b[2];};

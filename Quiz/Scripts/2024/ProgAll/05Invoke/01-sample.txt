@@ -1,0 +1,100 @@
+%code
+a, b, c = 7, 6, 9
+def h(a, b, c):
+    print(a, b, c, end=" ")
+
+h(0, 3, a=1)
+print(a, b, c)
+%code
+
+
+%code
+a, b, c = 8, 8, 7
+def f(a, b=9, c=6):
+    print(a, b, c, end=" ")
+
+f(c=2, b=4, b=5)
+print(a, b, c)
+%code
+
+
+%code
+a, b, c = 9, 7, 6
+def g(a, b, c=8):
+    print(a, b, c, end=" ")
+
+g(1, c=3)
+print(a, b, c)
+%code
+
+
+%code
+a, b, c = 7, 8, 6
+def h(a, b=9, c):
+    print(a, b, c, end=" ")
+
+h(0, 2, 5)
+print(a, b, c)
+%code
+
+
+%code
+a, b, c = 9, 6, 7
+def f(a, b, c):
+    print(a, b, c, end=" ")
+
+f(4, c=3, b=1)
+print(a, b, c)
+%code
+
+
+%code
+a, b, c = 8, 7, 8
+def g(a, b=9, c):
+    print(a, b, c, end=" ")
+
+g(b=5, c=4, 0)
+print(a, b, c)
+%code
+
+
+%code
+a, b, c = 6, 6, 7
+def h(a, b, c=8):
+    print(a, b, c, end=" ")
+
+h(a=2, 4, a=2)
+print(a, b, c)
+%code
+
+
+%code
+a, b, c = 9, 9, 6
+def g(a, b=8, c=7):
+    print(a, b, c, end=" ")
+
+g(3, 1)
+print(a, b, c)
+%code
+
+
+%code
+a, b, c = 8, 7, 6
+def f(a, b, c):
+    print(a, b, c, end=" ")
+
+f(0, 5)
+print(a, b, c)
+%code
+
+
+%code
+a, b, c = 9, 7, 8
+def g(a, b=9, c):
+    print(a, b, c, end=" ")
+
+g(4, c=5)
+print(a, b, c)
+%code
+
+

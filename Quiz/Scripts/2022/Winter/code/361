@@ -1,0 +1,30 @@
+echo
+echo =361_1.py 
+python3.10 ./361_1.py 
+echo
+echo =361_2.py 
+python3.10 ./361_2.py 
+echo
+echo =361_3.py 
+python3.10 ./361_3.py 
+echo
+echo =361_4.py 
+python3.10 ./361_4.py 
+echo
+echo =361_5.py 
+python3.10 ./361_5.py 
+echo
+echo =361_6.py 
+python3.10 ./361_6.py 
+echo
+echo =361_7.py 
+python3.10 ./361_7.py 
+echo
+echo =361_8.py 
+python3.10 ./361_8.py 
+echo
+echo =361_9.py 
+python3.10 ./361_9.py 
+echo
+echo =361_10.py 
+python3.10 ./361_10.py 

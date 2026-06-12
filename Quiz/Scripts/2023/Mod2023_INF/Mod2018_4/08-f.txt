@@ -1,0 +1,33 @@
+//source for question like
+
+<sample>
+
+
+<\sample>
+
+<declarations>
+n={<int> -70 -15}
+m={<int> 15 50}
+p={<int> -9 9}
+1=prev;next
+2=#1
+3=#1
+4=#1
+5=#1
+
+<\declarations>
+
+<template>
+Задано тип вузла списку{SPACE}
+struct Node {int n; Node *prev, *next;};{ENDL}
+У списку зберігаються послідовні цілі числа від #n# до #m#.{SPACE}
+Вказівник p встановлено на вузол, в якому зберігається число #p#.{ENDL}
+Чому дорівнює значення p->#1#->#2#->#3#->#4#->#5#->n ?
+
+
+
+
+<\template>
+
+<restrictions>
+<\restrictions>

@@ -1,0 +1,30 @@
+echo
+echo =90_1.py 
+python3.10 ./90_1.py 
+echo
+echo =90_2.py 
+python3.10 ./90_2.py 
+echo
+echo =90_3.py 
+python3.10 ./90_3.py 
+echo
+echo =90_4.py 
+python3.10 ./90_4.py 
+echo
+echo =90_5.py 
+python3.10 ./90_5.py 
+echo
+echo =90_6.py 
+python3.10 ./90_6.py 
+echo
+echo =90_7.py 
+python3.10 ./90_7.py 
+echo
+echo =90_8.py 
+python3.10 ./90_8.py 
+echo
+echo =90_9.py 
+python3.10 ./90_9.py 
+echo
+echo =90_10.py 
+python3.10 ./90_10.py 

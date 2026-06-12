@@ -1,0 +1,30 @@
+echo
+echo =816_1.py 
+python3.10 ./816_1.py 
+echo
+echo =816_2.py 
+python3.10 ./816_2.py 
+echo
+echo =816_3.py 
+python3.10 ./816_3.py 
+echo
+echo =816_4.py 
+python3.10 ./816_4.py 
+echo
+echo =816_5.py 
+python3.10 ./816_5.py 
+echo
+echo =816_6.py 
+python3.10 ./816_6.py 
+echo
+echo =816_7.py 
+python3.10 ./816_7.py 
+echo
+echo =816_8.py 
+python3.10 ./816_8.py 
+echo
+echo =816_9.py 
+python3.10 ./816_9.py 
+echo
+echo =816_10.py 
+python3.10 ./816_10.py 

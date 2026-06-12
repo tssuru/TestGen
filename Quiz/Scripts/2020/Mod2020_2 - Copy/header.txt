@@ -1,0 +1,16 @@
+\documentclass[10pt, ukrainian]{article}{ENDL}
+\setlength\textwidth{150mm} \setlength\textheight{250mm}{ENDL}
+%\setlength\textwidth{190mm} \setlength\textheight{277mm}{ENDL}
+%\setlength\voffset{-38mm} \setlength\hoffset{-38mm}{ENDL}
+%\setlength\parindent{0mm}{ENDL}
+\pagestyle{empty}{ENDL}
+\usepackage[T2A]{fontenc}{ENDL}
+\usepackage[utf8]{inputenc}{ENDL}
+%\usepackage[cp1251]{inputenc}{ENDL}
+\usepackage[ukrainian]{babel}{ENDL}
+\usepackage{graphicx}{ENDL}
+\usepackage{caption}{ENDL}
+\DeclareCaptionFormat{nocaption}{}{ENDL}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}{ENDL}
+\usepackage[Export]{adjustbox} {ENDL}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}{ENDL}

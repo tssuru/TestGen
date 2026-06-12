@@ -1,0 +1,30 @@
+echo
+echo =310_1.py 
+python3.10 ./310_1.py 
+echo
+echo =310_2.py 
+python3.10 ./310_2.py 
+echo
+echo =310_3.py 
+python3.10 ./310_3.py 
+echo
+echo =310_4.py 
+python3.10 ./310_4.py 
+echo
+echo =310_5.py 
+python3.10 ./310_5.py 
+echo
+echo =310_6.py 
+python3.10 ./310_6.py 
+echo
+echo =310_7.py 
+python3.10 ./310_7.py 
+echo
+echo =310_8.py 
+python3.10 ./310_8.py 
+echo
+echo =310_9.py 
+python3.10 ./310_9.py 
+echo
+echo =310_10.py 
+python3.10 ./310_10.py 

@@ -1,0 +1,16 @@
+//lab 2-1 script
+//138 variants
+//Алгоритми обробки масивів
+//TemplateAnswerQuestFabric
+
+<declarations>
+1={<file> LR2_1_1.txt}
+2={<file> LR2_1_2.txt}
+<\declarations>
+
+<template>
+З послідовності цілих вилучили всі числа, #2#. Знайти та вивести першу найдовшу підпослідовність залишку, що є #1#.
+
+<\template>
+<restrictions>
+<\restrictions>

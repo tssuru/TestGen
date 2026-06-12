@@ -1,0 +1,30 @@
+echo
+echo =844_1.py 
+python3.10 ./844_1.py 
+echo
+echo =844_2.py 
+python3.10 ./844_2.py 
+echo
+echo =844_3.py 
+python3.10 ./844_3.py 
+echo
+echo =844_4.py 
+python3.10 ./844_4.py 
+echo
+echo =844_5.py 
+python3.10 ./844_5.py 
+echo
+echo =844_6.py 
+python3.10 ./844_6.py 
+echo
+echo =844_7.py 
+python3.10 ./844_7.py 
+echo
+echo =844_8.py 
+python3.10 ./844_8.py 
+echo
+echo =844_9.py 
+python3.10 ./844_9.py 
+echo
+echo =844_10.py 
+python3.10 ./844_10.py 

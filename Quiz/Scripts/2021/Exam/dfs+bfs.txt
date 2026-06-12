@@ -1,0 +1,26 @@
+<fabric>
+       collate   
+        include 31_dfs/q.txt
+<fabric>
+       collate 
+        include 32_dfs/q.txt
+        include 33_dfs/q.txt
+        <n1>
+         50
+        <\n1>
+        <n2>
+         90
+        <\n2>
+  <\fabric>
+
+        <n1>
+         50
+        <\n1>
+        <n2>
+         140
+        <\n2>
+  <\fabric>
+
+
+
+

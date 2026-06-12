@@ -1,0 +1,30 @@
+echo
+echo =368_1.py 
+python3.10 ./368_1.py 
+echo
+echo =368_2.py 
+python3.10 ./368_2.py 
+echo
+echo =368_3.py 
+python3.10 ./368_3.py 
+echo
+echo =368_4.py 
+python3.10 ./368_4.py 
+echo
+echo =368_5.py 
+python3.10 ./368_5.py 
+echo
+echo =368_6.py 
+python3.10 ./368_6.py 
+echo
+echo =368_7.py 
+python3.10 ./368_7.py 
+echo
+echo =368_8.py 
+python3.10 ./368_8.py 
+echo
+echo =368_9.py 
+python3.10 ./368_9.py 
+echo
+echo =368_10.py 
+python3.10 ./368_10.py 

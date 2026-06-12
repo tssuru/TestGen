@@ -1,0 +1,30 @@
+echo
+echo =420_1.py 
+python3.10 ./420_1.py 
+echo
+echo =420_2.py 
+python3.10 ./420_2.py 
+echo
+echo =420_3.py 
+python3.10 ./420_3.py 
+echo
+echo =420_4.py 
+python3.10 ./420_4.py 
+echo
+echo =420_5.py 
+python3.10 ./420_5.py 
+echo
+echo =420_6.py 
+python3.10 ./420_6.py 
+echo
+echo =420_7.py 
+python3.10 ./420_7.py 
+echo
+echo =420_8.py 
+python3.10 ./420_8.py 
+echo
+echo =420_9.py 
+python3.10 ./420_9.py 
+echo
+echo =420_10.py 
+python3.10 ./420_10.py 

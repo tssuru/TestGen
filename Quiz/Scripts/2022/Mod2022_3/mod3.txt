@@ -1,0 +1,3973 @@
+\documentclass[12pt, ukrainian]{article}
+\setlength\textwidth{190mm} \setlength\hoffset{-25mm} 
+\setlength\textheight{277mm} \setlength\voffset{-28mm} 
+%\setlength\textwidth{190mm}%\setlength\voffset{-38mm} \setlength\hoffset{-38mm}
+%\setlength\parindent{0mm}
+\pagestyle{empty}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{verbatim, listings, clrscode3e}
+\usepackage{fancyvrb}
+\DeclareCaptionFormat{nocaption}{}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+\usepackage[Export]{adjustbox} 
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+\def\code#1{\Verb!#1!}
+\begin{document}
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 1 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+g = ('a','b','c','d','e',0,1,2,3)
+print(g[-10])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+b[-6:6]='11'
+print(b)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    d = {30:7, 55:0, 79:3, 88:3, 55:6}
+    d[55] = 8
+    for x in d.items():
+        print(x, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. 
+Записати ВИРАЗ, значенням якого є список, що складається з цілих чисел від 16 до 2015 (включно), причому спочатку за спаданням записано всі, що діляться на 7, а потім решту за спаданням.
+
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%Оригинал был утерян. Требует отладки!
+%code
+d = 0
+
+class B:
+    d = 1
+    
+    def __init__(self):
+        self.d = 2
+        d = 3
+        B.d = 4
+
+obj = B()
+B.d = 5
+try:
+    print(d, end=' ')
+    print(obj.d, end=' ')
+    print(B.d, end=' ')
+    print(obj.d, end=' ')
+    print(obj._B__d)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class A0:
+    def a(self): print(1, end=' ')
+    def h(self): print(2, end=' ')
+
+class A1(A0):
+    def a(self): print(3, end=' ')
+
+try:
+    A1().h()
+    A1().a()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    c = 1
+
+    def __init__(self):
+        a = 2
+        a = 3
+
+class B(A):
+    a = 4
+    b = 5
+
+    def __init__(self):
+        super().__init__()
+        self.b = 6
+
+try:
+    obj = B()
+    obj.c = obj.b + 10
+    B.c = 13
+except: print('EE', end=' ')
+
+try: print(obj.c, end= ' ')
+except: print('E1', end=' ')
+
+try: print(A.c, end= ' ')
+except: print('E2', end=' ')
+
+try: print(B.c, end= ' ')
+except: print('E3', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-52$ до~$49$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$-4$.
+Яке значення зберігається у вузлі \kw{p.next.prev.next.prev.prev} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/25.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:25 оберненому
+%enditem
+
+%beginitem
+10. Для графа на рисунку вказати послідовність, в якій алгоритм пошуку в глибину буде відмічати відвідані вершини, якщо списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин та вершини відмічаються на першому вход\-женні у вершину.\par
+Пошук розпочинається з вершини 3.\par
+
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/125.png}
+\end{center}
+%answer:3 0 1 6 4 2 5
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 5 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/265.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (0, 1)\par
+2) (1, 5)\par
+3) (2, 3)\par
+4) (3, 6)\par
+5) (0, 3)\par
+6) (4, 5)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:2 3 5 6
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $7{\times}3$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a[-1] += 2
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Файл \code{'1.txt'} містить журнал з рядками, в яких через двокрапку записано поряд\-ко\-вий номер запису в журналі (ціле), код події (ціле), тип події (ERROR,\\ WARNING, INFO, STATUS), ім'я користувача (складається з латиниці), час події (фор\-мат як у прикладі), опис події. 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад рядка файлу 
+
+
+
+\begin{verbatim}
+13:404:ERROR:username:2022-05-05 13:26:something happens
+\end{verbatim}
+
+
+Нижче наведено код, який має в кожному рядку файли переставити місцями код та тип події. 
+
+Рядок з прикладу має бути замінений на такий 
+
+
+
+\begin{verbatim}
+13:ERROR:404:username:2022-05-05 13:26:something happens
+\end{verbatim}
+
+
+
+
+Код: 
+
+
+
+\begin{verbatim}
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    lst = f.readlines()
+for i in range(len(lst)):
+    lst[i] = re.sub(regex, YYY, lst[i])
+with open('1.txt', 'w', encoding='utf8') as f:
+    f.writelines(lst)
+\end{verbatim}
+
+
+
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 2 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+f = '0123456789'
+print(f[-7::2])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+g.insert(4, [2,3])
+print(g)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    s = {58:2, 31:2, 90:2, 90:9}
+    s[58] = 9
+    for x in s :
+        print(x, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. Нехай змінна \kw{s} позначає дуже довгу послідовність цілих, по якій можна ітерувати. 
+
+Написати вираз-генератор, що задає підпослідовність її елементів, що менші за задане число num. 
+
+Обмеження: усі елементи шуканої підпослідовності одночасно в пам'яті розміщені бути не можуть. 
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%Оригинал был утерян. Требует отладки!
+%code
+_a = 0
+
+class C:
+    _a = 1
+    
+    def __init__(self):
+        self._a = 2
+        _a = 3
+        C._a = 4
+
+obj = C()
+obj._a = 5
+try:
+    print(_a, end=' ')
+    print(obj._a, end=' ')
+    print(C._a, end=' ')
+    print(obj._a, end=' ')
+    print(obj._C__a)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class B0:
+    def d(self): print(1, end=' ')
+    def g(self): print(2, end=' ')
+
+class B1(B0):
+    def g(self): print(3, end=' ')
+
+try:
+    B1().d()
+    B1().g()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    b = 1
+
+    def __init__(self):
+        a = 2
+        b = 3
+
+class B(A):
+    b = 4
+    c = 5
+
+    def __init__(self):
+        super().__init__()
+        self.c = 6
+
+try:
+    obj = B()
+    obj.a = obj.a + 10
+    B.a = 13
+except: print('EE', end=' ')
+
+try: print(obj.a, end= ' ')
+except: print('E1', end=' ')
+
+try: print(A.a, end= ' ')
+except: print('E2', end=' ')
+
+try: print(B.a, end= ' ')
+except: print('E3', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-31$ до~$29$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$-5$.
+Яке значення зберігається у вузлі \kw{p.prev.next.prev.next.next} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/19.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:19 прямому
+%enditem
+
+%beginitem
+10. Для графа на рисунку з вершини 1 запущено алгоритм пошуку в глибину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/195.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (3, 4)\par
+2) (0, 3)\par
+3) (1, 5)\par
+4) (2, 3)\par
+5) (0, 2)\par
+6) (1, 3)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 4 5
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 3 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/101.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (0, 1)\par
+2) (1, 5)\par
+3) (0, 5)\par
+4) (1, 3)\par
+5) (1, 4)\par
+6) (3, 5)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 4 5 6
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $6{\times}4$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a.T[1] += 3
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Файл \code{'1.txt'} містить відомість з рядками, в яких через двокрапку записа\-но назву предмету (знаків пунктуації не містить), прізвище студента, ім'я студента, номер залі\-ков\-ки, оцінку в балах за 100 бальною шкалою. 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад рядка файлу 
+
+
+
+\begin{verbatim}
+algebra:surname:name:123456:77
+\end{verbatim}
+
+
+Нижче наведено код, який має замінити у файлі усі номери заліковок на рядок \code{***}. 
+
+
+
+\begin{verbatim}
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    lst = f.readlines()
+for i in range(len(lst)):
+    lst[i] = re.sub(regex, YYY, lst[i])
+with open('1.txt', 'w', encoding='utf8') as f:
+    f.writelines(lst)
+\end{verbatim}
+
+
+
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 3 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+b = (0,1,2,3,4,5,6,7,8,9)
+print(b[-2:13:-3])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e+=15
+print(e)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    t = {58:0, 35:2, 76:9, 24:6, 24:5}
+    t[55] = 2
+    for x, y in t.items():
+        print(x, y, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. Нехай змінна \kw{s} позначає дуже довгу послідовність, по якій можна ітерувати. 
+
+Написати вираз-генератор, що задає підпослідовність її елементів, що є числами типу \kw{int}.
+
+Обмеження: усі елементи шуканої підпослідовності одночасно в пам'яті розміщені бути не можуть. 
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%Оригинал был утерян. Требует отладки!
+%code
+__b = 0
+
+class A:
+    __b = 1
+    
+    def __init__(self):
+        self.__b = 2
+        __b = 3
+        A.__b = 4
+
+obj = A()
+A.__b = 5
+try:
+    print(__b, end=' ')
+    print(obj.__b, end=' ')
+    print(A.__b, end=' ')
+    print(obj.__b, end=' ')
+    print(obj._A__b)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class C0:
+    def b(self): print(1, end=' ')
+    def f(self): print(2, end=' ')
+
+class C1(C0):
+    def f(self): print(3, end=' ')
+
+try:
+    C1().b()
+    C0().f()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    a = 1
+
+    def _g1(self): print(2, end=' ')
+    def __g2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.a, end=' ')
+        except: print('E1', end=' ')
+
+        try: self._g1()
+        except: print('E2', end=' ')
+
+        try: self.__g2()
+        except: print('E3', end=' ')
+
+
+class B(A):
+    a = 4
+
+    def _g1(self): print(5, end=' ')
+    def __g2(self): print(6, end=' ')
+
+try: B().main()
+except: print('E4', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-67$ до~$26$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$2$.
+Яке значення зберігається у вузлі \kw{p.prev.next.prev.next.prev} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/159.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:159 оберненому
+%enditem
+
+%beginitem
+10. Для графа на рисунку з вершини 5 запущено алгоритм пошуку в глибину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/32.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (5, 6)\par
+2) (1, 5)\par
+3) (1, 2)\par
+4) (0, 3)\par
+5) (3, 5)\par
+6) (0, 4)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 2
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 2 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/66.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (1, 2)\par
+2) (0, 6)\par
+3) (2, 5)\par
+4) (3, 5)\par
+5) (5, 6)\par
+6) (1, 5)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 2 3 5
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $5{\times}7$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a.T[-2] += 1
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Файл \code{'1.txt'} містить журнал з рядками, в яких через двокрапку записано поряд\-ко\-вий номер запису в журналі (ціле), тип події (ERROR, WARNING, INFO, STATUS), ім'я користувача (складається з латиниці), час події (фор\-мат як у прикладі), код події (ціле). 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад рядка файлу 
+
+
+
+\begin{verbatim}
+13:ERROR:username:2022-05-05 13-26:404
+\end{verbatim}
+
+
+Нижче наведено код, який шукає усі коди помилок (подія ERROR), що зустріча\-ють\-ся в журналі, та зберігає їх у змінній \kw{codes}. 
+
+
+
+\begin{verbatim}
+codes = set()
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    for s in f:
+        res = re.fullmatch(regex, s)
+        if not res: continue
+        s = ''
+        codes.add(YYY)
+\end{verbatim}
+
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 4 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+h = ['0','1','2','3','4','5','6','7','8','9']
+print(h[::-2])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+c.extend([1,0])
+print(c)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    d = {55:2, 71:2, 73:4, 12:4, 73:8}
+    d[18] = 8
+    for x in d.values():
+        print(x, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. Нехай змінна \kw{s} позначає дуже довгу послідовність, по якій можна ітерувати. 
+
+Написати вираз-генератор, що задає підпослідовність її елементів, що не є числами типу \kw{float}.
+
+Обмеження: усі елементи шуканої підпослідовності одночасно в пам'яті розміщені бути не можуть. 
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%code
+c = 0
+j = 1
+
+class C:
+    j = 2
+    
+    def __init__(self):
+        global j
+        self.j = 3
+        j = 4
+        C.j = 5
+
+obj = C()
+try:
+    print(c, end=' ')
+    print(j, end=' ')
+    print(C.j, end=' ')
+    print(obj.j)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class D0:
+    def c(self): print(1, end=' ')
+    def h(self): print(2, end=' ')
+
+class D1(D0):
+    def h(self): print(3, end=' ')
+
+try:
+    D0().c()
+    D1().h()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    d = 1
+
+    def _h1(self): print(2, end=' ')
+    def _h2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.d, end=' ')
+        except: print('E1', end=' ')
+
+        try: self._h1()
+        except: print('E2', end=' ')
+
+        try: self._h2()
+        except: print('E3', end=' ')
+
+
+class B(A):
+    d = 4
+
+    def _h1(self): print(5, end=' ')
+    def _h2(self): print(6, end=' ')
+
+try: B().main()
+except: print('E4', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-35$ до~$38$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$-8$.
+Яке значення зберігається у вузлі \kw{p.next.prev.next.prev.next} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/28.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:28 прямому
+%enditem
+
+%beginitem
+10. Для графа на рисунку з вершини 0 запущено алгоритм пошуку в глибину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/283.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (2, 4)\par
+2) (1, 4)\par
+3) (1, 5)\par
+4) (0, 4)\par
+5) (0, 2)\par
+6) (0, 1)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 6
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 1 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/26.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (2, 3)\par
+2) (2, 5)\par
+3) (1, 6)\par
+4) (0, 4)\par
+5) (2, 4)\par
+6) (0, 3)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 3 6
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $4{\times}5$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a[2] += 3
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Файл \code{'1.txt'} містить журнал з рядками, в яких через двокрапку записано поряд\-ко\-вий номер запису в журналі (ціле), тип події (ERROR, WARNING, INFO, STATUS), ім'я користувача (складається з латиниці), час події (фор\-мат як у прикладі), опис події. 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад рядка файлу 
+
+
+
+\begin{verbatim}
+13:ERROR:username:2022-05-05 13-26:something happens
+\end{verbatim}
+
+
+Нижче наведено код, який має залишити у файлі в кожному рядку тільки тип події та її опис. 
+
+Рядок з прикладу має бути замінений на такий 
+
+
+
+\begin{verbatim}
+ERROR:something happens
+\end{verbatim}
+
+
+
+
+Код: 
+
+
+
+\begin{verbatim}
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    lst = f.readlines()
+for i in range(len(lst)):
+    lst[i] = re.sub(regex, YYY, lst[i])
+with open('1.txt', 'w', encoding='utf8') as f:
+    f.writelines(lst)
+\end{verbatim}
+
+
+
+
+
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 5 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+c = ('a','b','c','d','e',0,1,2,4)
+print(c[-6])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+del e[7:-7]
+print(e)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    t = {41:2, 63:9, 40:9, 65:1, 40:0}
+    t[60] = 6
+    for x in t.items():
+        print(*x, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. Нехай змінна \kw{s} позначає дуже довгу послідовність, по якій можна ітерувати. 
+
+Написати вираз-генератор, що задає підпослідовність її елементів, що є числами типу \kw{float}.
+
+Обмеження: усі елементи шуканої підпослідовності одночасно в пам'яті розміщені бути не можуть. 
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%Оригинал был утерян. Требует отладки!
+%code
+__c = 0
+
+class D:
+    __c = 1
+    
+    def __init__(self):
+        self.__c = 2
+        __c = 3
+        D.__c = 4
+
+obj = D()
+obj.__c = 5
+try:
+    print(__c, end=' ')
+    print(obj.__c, end=' ')
+    print(D.__c, end=' ')
+    print(obj.__c, end=' ')
+    print(obj._D__c)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class D0:
+    def b(self): print(1, end=' ')
+    def g(self): print(2, end=' ')
+
+class D1(D0):
+    def g(self): print(3, end=' ')
+
+try:
+    D0().b()
+    D1().g()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    b = 1
+
+    def __f1(self): print(2, end=' ')
+    def _f2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.b, end=' ')
+        except: print('E1', end=' ')
+
+        try: self.__f1()
+        except: print('E2', end=' ')
+
+        try: self._f2()
+        except: print('E3', end=' ')
+
+
+class B(A):
+    b = 4
+
+    def __f1(self): print(5, end=' ')
+    def _f2(self): print(6, end=' ')
+
+try: B().main()
+except: print('E4', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-36$ до~$23$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$-7$.
+Яке значення зберігається у вузлі \kw{p.next.next.next.next.prev} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/6.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:6 прямому
+%enditem
+
+%beginitem
+10. Для графа на рисунку вказати послідовність, в якій алгоритм пошуку в глибину буде відмічати відвідані вершини, якщо списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин та вершини відмічаються на першому вход\-женні у вершину.\par
+Пошук розпочинається з вершини 1.\par
+
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/220.png}
+\end{center}
+%answer:1 0 3 2 4 5 6
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 1 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/64.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (1, 2)\par
+2) (5, 6)\par
+3) (0, 4)\par
+4) (1, 3)\par
+5) (1, 6)\par
+6) (0, 1)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 2 4 5 6
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $3{\times}6$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a += 2
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Файл \code{'1.txt'} містить відомість з рядками, в яких через двокрапку записано поряд\-ковий номер (ціле), назву предмету (знаків пунктуації не містить), прізвище студента, ім'я студента, номер заліковки, оцінку в балах за 100 бальною шкалою. 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад рядка файлу 
+
+
+
+\begin{verbatim}
+13:algebra:surname:name:123456:77
+\end{verbatim}
+
+
+Нижче наведено код, який має в кожному рядку файлу переставити місцями назву предмету та номер заліковки. 
+
+Рядок з прикладу має бути замінений на такий 
+
+
+
+\begin{verbatim}
+13:123456:surname:name:algebra:77
+\end{verbatim}
+
+
+
+
+Код: 
+
+
+
+\begin{verbatim}
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    lst = f.readlines()
+for i in range(len(lst)):
+    lst[i] = re.sub(regex, YYY, lst[i])
+with open('1.txt', 'w', encoding='utf8') as f:
+    f.writelines(lst)
+\end{verbatim}
+
+
+
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 6 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+g = [0,1,2,3,4,5,6,7,8,9]
+print(g[-6:5:3])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+print(a.index('3'), end=' ')
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    s = {42:0, 55:3, 54:8, 70:7, 42:3}
+    s[39] = 5
+    for x in s.keys():
+        print(x, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. Записати ВИРАЗ, значенням якого є множина, що складається з цілих чисел від 16 до 2010 (включно), що діляться на 5.
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%Оригинал был утерян. Требует отладки!
+%code
+c = 0
+
+class A:
+    c = 1
+    
+    def __init__(self):
+        self.c = 2
+        c = 3
+        A.c = 4
+
+obj = A()
+A.c = 5
+try:
+    print(c, end=' ')
+    print(obj.c, end=' ')
+    print(A.c, end=' ')
+    print(obj.c, end=' ')
+    print(obj._A__c)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class B0:
+    def d(self): print(1, end=' ')
+    def f(self): print(2, end=' ')
+
+class B1(B0):
+    def d(self): print(3, end=' ')
+
+try:
+    B1().f()
+    B0().d()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    a = 1
+
+    def __init__(self):
+        b = 2
+        b = 3
+
+class B(A):
+    b = 4
+    c = 5
+
+    def __init__(self):
+        super().__init__()
+        self.c = 6
+
+try:
+    obj = B()
+    obj.c = obj.b + 10
+    B.c = 13
+except: print('EE', end=' ')
+
+try: print(obj.c, end= ' ')
+except: print('E1', end=' ')
+
+try: print(A.c, end= ' ')
+except: print('E2', end=' ')
+
+try: print(B.c, end= ' ')
+except: print('E3', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-62$ до~$22$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$3$.
+Яке значення зберігається у вузлі \kw{p.prev.prev.prev.prev.next} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/74.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:74 оберненому
+%enditem
+
+%beginitem
+10. Для графа на рисунку вказати послідовність, в якій алгоритм пошуку в глибину буде відмічати відвідані вершини, якщо списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин та вершини відмічаються на першому вход\-женні у вершину.\par
+Пошук розпочинається з вершини 2.\par
+
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/349.png}
+\end{center}
+%answer:2 1 4 0 3 5 6
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 4 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/253.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (3, 5)\par
+2) (2, 5)\par
+3) (3, 4)\par
+4) (2, 3)\par
+5) (1, 6)\par
+6) (0, 6)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:3 4 5
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $3{\times}4$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a.T[-3] += 1
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Файл \code{'1.txt'} містить відомість з рядками, в яких через двокрапку записано поряд\-ковий номер (ціле), назву предмету (знаків пунктуації не містить), прізвище студента, ім'я студента, номер заліковки, оцінку в балах за 100 бальною шкалою. 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад рядка файлу 
+
+
+
+\begin{verbatim}
+13:algebra:surname:name:123456:77
+\end{verbatim}
+
+
+Нижче наведено код, який шукає усі предмети, який складав студент із заліковкою \code{777}, та зберігає їх типи в змінній \kw{codes}. 
+
+
+
+\begin{verbatim}
+codes = set()
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    for s in f:
+        res = re.fullmatch(regex, s)
+        if not res: continue
+        s = ''
+        codes.add(YYY)
+\end{verbatim}
+
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 7 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+h = ('a','b','c','d','e',0,1,2)
+print(h[-9])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h[-4:3]=[2,3]
+print(h)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    d = {26:3, 11:4, 17:6, 17:2}
+    d[63] = 1
+    for x in d.keys():
+        print(x, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. 
+Записати ВИРАЗ, значенням якого є список, що складається з квадратів цілих чисел від 17 до 2017 (включно), що діляться на 7.
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%Оригинал был утерян. Требует отладки!
+%code
+_a = 0
+
+class B:
+    _a = 1
+    
+    def __init__(self):
+        self._a = 2
+        _a = 3
+        B._a = 4
+
+obj = B()
+obj._a = 5
+try:
+    print(_a, end=' ')
+    print(obj._a, end=' ')
+    print(B._a, end=' ')
+    print(obj._a, end=' ')
+    print(obj._B__a)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class C0:
+    def c(self): print(1, end=' ')
+    def g(self): print(2, end=' ')
+
+class C1(C0):
+    def c(self): print(3, end=' ')
+
+try:
+    C1().g()
+    C1().c()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    a = 1
+
+    def __init__(self):
+        c = 2
+        a = 3
+
+class B(A):
+    a = 4
+    b = 5
+
+    def __init__(self):
+        super().__init__()
+        self.b = 6
+
+try:
+    obj = B()
+    obj.a = obj.b + 10
+    B.a = 13
+except: print('EE', end=' ')
+
+try: print(obj.a, end= ' ')
+except: print('E1', end=' ')
+
+try: print(A.a, end= ' ')
+except: print('E2', end=' ')
+
+try: print(B.a, end= ' ')
+except: print('E3', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-58$ до~$37$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$-2$.
+Яке значення зберігається у вузлі \kw{p.next.next.next.next.prev} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/169.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:169 оберненому
+%enditem
+
+%beginitem
+10. Для графа на рисунку вказати послідовність, в якій алгоритм пошуку в глибину буде відмічати відвідані вершини, якщо списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин та вершини відмічаються на першому вход\-женні у вершину.\par
+Пошук розпочинається з вершини 0.\par
+
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/148.png}
+\end{center}
+%answer:0 1 5 2 4 3 6
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 6 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/91.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (2, 4)\par
+2) (0, 2)\par
+3) (3, 5)\par
+4) (1, 4)\par
+5) (2, 5)\par
+6) (3, 4)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:2 3 5
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $6{\times}6$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a[0] += 3
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Файл \code{'1.txt'} містить відомість з рядками, в яких через двокрапку записано поряд\-ковий номер (ціле), назву предмету (знаків пунктуації не містить), прізвище студента, ім'я студента, номер заліковки, оцінку в балах за 100 бальною шкалою. 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад рядка файлу 
+
+
+
+\begin{verbatim}
+13:algebra:surname:name:123456:77
+\end{verbatim}
+
+
+Нижче наведено код, який має залишити у файлі в кожному рядку тільки номер заліковки та предмет. 
+
+Рядок з прикладу має бути замінений на такий 
+
+
+
+\begin{verbatim}
+123456:algebra
+\end{verbatim}
+
+
+
+
+Код: 
+
+
+
+\begin{verbatim}
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    lst = f.readlines()
+for i in range(len(lst)):
+    lst[i] = re.sub(regex, YYY, lst[i])
+with open('1.txt', 'w', encoding='utf8') as f:
+    f.writelines(lst)
+\end{verbatim}
+
+
+
+
+
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 8 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+e = ('a','b','c','d','e',0,1)
+print(e[0])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b.remove('7')
+print(b)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    s = {15:5, 53:7, 29:2, 29:3}
+    s[34] = 1
+    for x in s.items():
+        print(*x, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. Нехай змінна \kw{s} позначає послідовність цілих, по якій можна ітерувати.
+
+Написати вираз, що перевіряє, чи правда, що всі елементи послідовності є точними квадратами.
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%Оригинал был утерян. Требует отладки!
+%code
+_d = 0
+
+class C:
+    _d = 1
+    
+    def __init__(self):
+        self._d = 2
+        _d = 3
+        C._d = 4
+
+obj = C()
+obj._d = 5
+try:
+    print(_d, end=' ')
+    print(obj._d, end=' ')
+    print(C._d, end=' ')
+    print(obj._d, end=' ')
+    print(obj._C__d)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class A0:
+    def a(self): print(1, end=' ')
+    def h(self): print(2, end=' ')
+
+class A1(A0):
+    def a(self): print(3, end=' ')
+
+try:
+    A1().h()
+    A1().a()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    c = 1
+
+    def _h1(self): print(2, end=' ')
+    def h2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.c, end=' ')
+        except: print('E1', end=' ')
+
+        try: self._h1()
+        except: print('E2', end=' ')
+
+        try: self.h2()
+        except: print('E3', end=' ')
+
+
+class B(A):
+    c = 4
+
+    def _h1(self): print(5, end=' ')
+    def h2(self): print(6, end=' ')
+
+try: B().main()
+except: print('E4', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-61$ до~$17$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$0$.
+Яке значення зберігається у вузлі \kw{p.prev.prev.prev.prev.next} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/91.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:91 прямому
+%enditem
+
+%beginitem
+10. Для графа на рисунку з вершини 1 запущено алгоритм пошуку в глибину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/223.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (4, 6)\par
+2) (2, 5)\par
+3) (2, 3)\par
+4) (1, 4)\par
+5) (0, 6)\par
+6) (0, 5)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:2 3 4 5
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 4 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/225.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (0, 3)\par
+2) (0, 5)\par
+3) (3, 4)\par
+4) (1, 3)\par
+5) (3, 5)\par
+6) (1, 2)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 3 4
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $5{\times}3$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a.T[-3] += 1
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Файл \code{'1.txt'} містить журнал з рядками, в яких через двокрапку записано поряд\-ко\-вий номер запису (ціле), ім'я користувача (складається з латиниці), час події (фор\-мат як у прикладі), тип події (ERROR, WARNING, INFO, STATUS), код події (ціле). 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад рядка журналу 
+
+
+
+\begin{verbatim}
+12:username:2022-05-05 13-26:ERROR:404
+\end{verbatim}
+
+
+Нижче наведено код, який шукає усі попередження (подія WARNING), що зустрі\-ча\-ються в журналі і відбулися під час обідньої перерви деканату (з 13:00 по 13:59 включно), та зберігає їх коди в змінній \kw{codes}. 
+
+
+
+\begin{verbatim}
+codes = set()
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    for s in f:
+        res = re.fullmatch(regex, s)
+        if not res: continue
+        s = ''
+        codes.add(YYY)
+\end{verbatim}
+
+
+
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 9 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+b = ('a','b','c','d','e',0,1,2,3,4)
+print(b[-11])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+f[-3:8]='13'
+print(f)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    t = {16:7, 51:9, 41:8, 16:1}
+    t[51] = 1
+    for x in t :
+        print(x, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. Нехай змінна \kw{s} позначає послідовність цілих, по якій можна ітерувати. 
+
+Написати вираз, що перевіряє, чи правда, що послідовність  містить хоча б одне додатнє число.
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%Оригинал был утерян. Требует отладки!
+%code
+b = 0
+
+class D:
+    b = 1
+    
+    def __init__(self):
+        self.b = 2
+        b = 3
+        D.b = 4
+
+obj = D()
+D.b = 5
+try:
+    print(b, end=' ')
+    print(obj.b, end=' ')
+    print(D.b, end=' ')
+    print(obj.b, end=' ')
+    print(obj._D__b)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class B0:
+    def b(self): print(1, end=' ')
+    def f(self): print(2, end=' ')
+
+class B1(B0):
+    def f(self): print(3, end=' ')
+
+try:
+    B0().b()
+    B1().f()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    b = 1
+
+    def __init__(self):
+        c = 2
+        c = 3
+
+class B(A):
+    b = 4
+    a = 5
+
+    def __init__(self):
+        super().__init__()
+        self.a = 6
+
+try:
+    obj = B()
+    obj.c = obj.b + 10
+    B.c = 13
+except: print('EE', end=' ')
+
+try: print(obj.c, end= ' ')
+except: print('E1', end=' ')
+
+try: print(A.c, end= ' ')
+except: print('E2', end=' ')
+
+try: print(B.c, end= ' ')
+except: print('E3', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-47$ до~$47$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$8$.
+Яке значення зберігається у вузлі \kw{p.next.prev.prev.prev.next} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/117.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:117 прямому
+%enditem
+
+%beginitem
+10. Для графа на рисунку з вершини 6 запущено алгоритм пошуку в глибину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/96.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (3, 5)\par
+2) (0, 4)\par
+3) (5, 6)\par
+4) (2, 4)\par
+5) (3, 6)\par
+6) (1, 3)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 4 6
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 2 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/192.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (2, 5)\par
+2) (3, 6)\par
+3) (2, 3)\par
+4) (1, 4)\par
+5) (1, 2)\par
+6) (0, 1)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 3 4 5 6
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $7{\times}7$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a.T[2] += 2
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Рядки журналу через двокрапку містять тип події (ERROR, WARNING, INFO, STATUS), ім'я користувача (складається з латиниці), час події (фор\-мат як у прикладі), код події (ціле). 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад такого рядка присвоєно змінній \kw{s}. 
+
+
+
+\begin{verbatim}
+s = 'ERROR:username:2022-05-05 13-26:404'
+\end{verbatim}
+
+
+Нижче наведено код, за виконання якого значенням змінної \kw{out} має стати ім'я користувача. 
+
+Для наведеного прикладу значенням змінної \kw{out} має стати рядок \code{username} 
+
+
+
+\begin{verbatim}
+res = re.fullmatch(r'XXX', s)
+s = ''
+out = YYY
+\end{verbatim}
+
+
+Код має працювати не тільки для конкретного рядка з прикладу, але й для кожного рядка з журналу. 
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 10 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+a = ('a','b','c','d','e',0,1,2)
+print(a[7])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+print(f.pop(5), end=' ')
+print(f)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    d = {81:9, 42:5, 32:0, 81:1}
+    d[67] = 1
+    for x in d.values():
+        print(x, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. Нехай змінна \kw{s} позначає дуже довгу послідовність, по якій можна ітерувати. 
+
+Написати вираз-генератор, що задає підпослідовність її елементів, що не є рядками типу \kw{str}.
+
+Обмеження: усі елементи шуканої підпослідовності одночасно в пам'яті розміщені бути не можуть. 
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%Оригинал был утерян. Требует отладки!
+%code
+__c = 0
+
+class C:
+    __c = 1
+    
+    def __init__(self):
+        self.__c = 2
+        __c = 3
+        C.__c = 4
+
+obj = C()
+obj.__c = 5
+try:
+    print(__c, end=' ')
+    print(obj.__c, end=' ')
+    print(C.__c, end=' ')
+    print(obj.__c, end=' ')
+    print(obj._C__c)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class C0:
+    def d(self): print(1, end=' ')
+    def g(self): print(2, end=' ')
+
+class C1(C0):
+    def d(self): print(3, end=' ')
+
+try:
+    C1().g()
+    C1().d()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    a = 1
+
+    def f1(self): print(2, end=' ')
+    def _f2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.a, end=' ')
+        except: print('E1', end=' ')
+
+        try: self.f1()
+        except: print('E2', end=' ')
+
+        try: self._f2()
+        except: print('E3', end=' ')
+
+
+class B(A):
+    a = 4
+
+    def f1(self): print(5, end=' ')
+    def _f2(self): print(6, end=' ')
+
+try: B().main()
+except: print('E4', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-53$ до~$28$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$6$.
+Яке значення зберігається у вузлі \kw{p.prev.next.next.next.prev} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/137.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:137 оберненому
+%enditem
+
+%beginitem
+10. Для графа на рисунку вказати послідовність, в якій алгоритм пошуку в глибину буде відмічати відвідані вершини, якщо списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин та вершини відмічаються на першому вход\-женні у вершину.\par
+Пошук розпочинається з вершини 6.\par
+
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/124.png}
+\end{center}
+%answer:6 1 3 0 4 2 5
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 3 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/319.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (3, 5)\par
+2) (3, 6)\par
+3) (1, 4)\par
+4) (0, 6)\par
+5) (1, 2)\par
+6) (1, 6)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 2 3
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $4{\times}5$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a[0, 2] += 1
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Файл \code{'1.txt'} містить журнал з рядками, в яких через двокрапку записано поряд\-ко\-вий номер запису в журналі (ціле), код події (ціле), тип події (ERROR, \\WARNING, INFO, STATUS), ім'я користувача (складається з латиниці), час події (фор\-мат як у прикладі), опис події. 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад рядка файлу 
+
+
+
+\begin{verbatim}
+13:404:ERROR:username:2022-05-05 13-26:something happens
+\end{verbatim}
+
+
+Нижче наведено код, який має залишити у файлі в кожному рядку тільки код події та ім'я користувача. Рядок з прикладу має бути замінений на такий 
+
+
+
+\begin{verbatim}
+404:username
+\end{verbatim}
+
+
+
+
+Код: 
+
+
+
+\begin{verbatim}
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    lst = f.readlines()
+for i in range(len(lst)):
+    lst[i] = re.sub(regex, YYY, lst[i])
+with open('1.txt', 'w', encoding='utf8') as f:
+    f.writelines(lst)
+\end{verbatim}
+
+
+
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 11 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+d = ('0','1','2','3','4','5','6','7','8','9')
+print(d[-13:-15:-1])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+d[6:-1]=[13]
+print(d)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    s = {34:2, 13:9, 22:0, 34:8}
+    s[69] = 2
+    for x in s.items():
+        print(x, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. Нехай змінна \kw{s} позначає дуже довгу послідовність цілих, по якій можна ітерувати. 
+
+Написати вираз-генератор, що задає підпослідовність її елементів, що діляться на 3. 
+
+Обмеження: усі елементи шуканої підпослідовності одночасно в пам'яті розміщені бути не можуть. 
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%code
+b = 0
+h = 1
+
+class D:
+    b = 2
+    
+    def __init__(self):
+        self.b = 3
+        b = 4
+        D.b = 5
+
+obj = D()
+try:
+    print(b, end=' ')
+    print(h, end=' ')
+    print(D.b, end=' ')
+    print(obj.b)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class A0:
+    def a(self): print(1, end=' ')
+    def f(self): print(2, end=' ')
+
+class A1(A0):
+    def f(self): print(3, end=' ')
+
+try:
+    A1().a()
+    A0().f()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    d = 1
+
+    def _g1(self): print(2, end=' ')
+    def g2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.d, end=' ')
+        except: print('E1', end=' ')
+
+        try: self._g1()
+        except: print('E2', end=' ')
+
+        try: self.g2()
+        except: print('E3', end=' ')
+
+
+class B(A):
+    d = 4
+
+    def _g1(self): print(5, end=' ')
+    def g2(self): print(6, end=' ')
+
+try: B().main()
+except: print('E4', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-56$ до~$18$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$5$.
+Яке значення зберігається у вузлі \kw{p.next.prev.prev.prev.prev} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/128.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:128 прямому
+%enditem
+
+%beginitem
+10. Для графа на рисунку з вершини 0 запущено алгоритм пошуку в глибину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/77.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (2, 3)\par
+2) (0, 2)\par
+3) (0, 6)\par
+4) (0, 1)\par
+5) (0, 5)\par
+6) (1, 6)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 4 6
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 2 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/17.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (2, 5)\par
+2) (0, 3)\par
+3) (2, 4)\par
+4) (1, 6)\par
+5) (2, 3)\par
+6) (2, 6)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 2 3 5 6
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $6{\times}4$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a[1] += 2
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Файл \code{'1.txt'} містить журнал з рядками, в яких через двокрапку записано поряд\-ко\-вий номер запису в журналі (ціле), тип події (ERROR, WARNING, INFO, STATUS), ім'я користувача (складається з латиниці), час події (фор\-мат як у прикладі), код події (ціле). 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад рядка файлу 
+
+
+
+\begin{verbatim}
+13:ERROR:username:2022-05-05 13-26:404
+\end{verbatim}
+
+
+Нижче наведено код, який має замінити у файлі імена користувачів на рядок \code{unknown}. 
+
+
+
+\begin{verbatim}
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    lst = f.readlines()
+for i in range(len(lst)):
+    lst[i] = re.sub(regex, YYY, lst[i])
+with open('1.txt', 'w', encoding='utf8') as f:
+    f.writelines(lst)
+\end{verbatim}
+
+
+
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 12 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+f = ('a','b','c','d','e',0,1,2,4)
+print(f[3])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+del a[-9:]
+print(a)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    t = {54:1, 33:1, 69:5, 33:1}
+    t[33] = 0
+    for x, y in t.items():
+        print(x, y, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. Нехай змінна \kw{s} позначає послідовність цілих, по якій можна ітерувати. 
+
+Написати вираз, що перевіряє, чи правда, що послідовність  містить число 13.
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%code
+d = 0
+n = 1
+
+class B:
+    n = 2
+    
+    def __init__(self):
+        global n
+        self.n = 3
+        n = 4
+        B.n = 5
+
+obj = B()
+try:
+    print(d, end=' ')
+    print(n, end=' ')
+    print(B.n, end=' ')
+    print(obj.n)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class D0:
+    def c(self): print(1, end=' ')
+    def h(self): print(2, end=' ')
+
+class D1(D0):
+    def h(self): print(3, end=' ')
+
+try:
+    D1().c()
+    D1().h()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    c = 1
+
+    def __init__(self):
+        b = 2
+        c = 3
+
+class B(A):
+    b = 4
+    a = 5
+
+    def __init__(self):
+        super().__init__()
+        self.a = 6
+
+try:
+    obj = B()
+    obj.a = obj.c + 10
+    B.a = 13
+except: print('EE', end=' ')
+
+try: print(obj.a, end= ' ')
+except: print('E1', end=' ')
+
+try: print(A.a, end= ' ')
+except: print('E2', end=' ')
+
+try: print(B.a, end= ' ')
+except: print('E3', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-38$ до~$40$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$-9$.
+Яке значення зберігається у вузлі \kw{p.prev.next.next.next.next} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/45.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:45 оберненому
+%enditem
+
+%beginitem
+10. Для графа на рисунку з вершини 6 запущено алгоритм пошуку в глибину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/9.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (0, 2)\par
+2) (0, 6)\par
+3) (1, 5)\par
+4) (3, 4)\par
+5) (1, 4)\par
+6) (2, 6)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 2 3 5
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 6 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/67.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (1, 5)\par
+2) (0, 5)\par
+3) (3, 6)\par
+4) (3, 4)\par
+5) (1, 6)\par
+6) (1, 4)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:2 3 5
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $5{\times}6$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a.T[-2] += 3
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Рядки відомості через двокрапку містять порядковий номер (ціле), назву предмету (знаків пунктуації не містить), прізвище студента, ім'я студента, оцінку в балах за 100 бальною шкалою. 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад такого рядка присвоєно змінній \kw{s}. 
+
+
+
+\begin{verbatim}
+s = '13:algebra:surname:name:77'
+\end{verbatim}
+
+
+Нижче наведено код, за виконання якого значенням змінної \kw{out} має стати прізвище студента. 
+
+Для наведеного прикладу значенням змінної \kw{out} має стати рядок \code{surname} 
+
+
+
+\begin{verbatim}
+res = re.fullmatch(r'XXX', s)
+s = ''
+out = YYY
+\end{verbatim}
+
+
+Код має працювати не тільки для конкретного рядка з прикладу, але й для кожного рядка з відомості. 
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 13 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+c = [0,1,2,3,4,5,6,7,8,9]
+print(c[1:12:-2])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+del g[:5]
+print(g)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    t = {11:2, 88:2, 40:5, 11:5}
+    t[11] = 4
+    for x in t.items():
+        print(*x, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. Нехай змінна \kw{s} позначає дуже довгу послідовність цілих, по якій можна ітерувати. 
+
+Написати вираз-генератор, що задає підпослідовність її елементів, що є додатни\-ми. 
+
+Обмеження: усі елементи шуканої підпослідовності одночасно в пам'яті розміщені бути не можуть. 
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%code
+a = 0
+k = 1
+
+class A:
+    a = 2
+    
+    def __init__(self):
+        self.a = 3
+        a = 4
+        A.a = 5
+
+obj = A()
+try:
+    print(a, end=' ')
+    print(k, end=' ')
+    print(A.a, end=' ')
+    print(obj.a)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class C0:
+    def c(self): print(1, end=' ')
+    def g(self): print(2, end=' ')
+
+class C1(C0):
+    def c(self): print(3, end=' ')
+
+try:
+    C0().g()
+    C1().c()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    c = 1
+
+    def __init__(self):
+        a = 2
+        c = 3
+
+class B(A):
+    a = 4
+    b = 5
+
+    def __init__(self):
+        super().__init__()
+        self.b = 6
+
+try:
+    obj = B()
+    obj.b = obj.c + 10
+    B.b = 13
+except: print('EE', end=' ')
+
+try: print(obj.b, end= ' ')
+except: print('E1', end=' ')
+
+try: print(A.b, end= ' ')
+except: print('E2', end=' ')
+
+try: print(B.b, end= ' ')
+except: print('E3', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-40$ до~$24$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$7$.
+Яке значення зберігається у вузлі \kw{p.next.next.prev.prev.next} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/5.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:5 оберненому
+%enditem
+
+%beginitem
+10. Для графа на рисунку вказати послідовність, в якій алгоритм пошуку в глибину буде відмічати відвідані вершини, якщо списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин та вершини відмічаються на першому вход\-женні у вершину.\par
+Пошук розпочинається з вершини 1.\par
+
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/347.png}
+\end{center}
+%answer:1 3 5 0 6 2 4
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 3 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/55.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (3, 4)\par
+2) (2, 6)\par
+3) (4, 6)\par
+4) (4, 5)\par
+5) (1, 3)\par
+6) (2, 5)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 5
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $7{\times}7$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a[-1] += 2
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Файл \code{'1.txt'} містить відомість з рядками, в яких через двокрапку записано поряд\-ковий номер (ціле), назву предмету (знаків пунктуації не містить), прізвище студента, ім'я студента, номер заліковки, оцінку в балах за 100 бальною шкалою. 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад рядка файлу 
+
+
+
+\begin{verbatim}
+13:algebra:surname:name:123456:77
+\end{verbatim}
+
+
+Нижче наведено код, який шукає усі назви предметів, що зустрічаються у файлі, та зберігає їх у змінній \id{codes}. 
+
+
+
+\begin{verbatim}
+codes = set()
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    for s in f:
+        res = re.fullmatch(regex, s)
+        if not res: continue
+        s = ''
+        codes.add(YYY)
+\end{verbatim}
+
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 14 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+a = ['0','1','2','3','4','5','6','7','8','9']
+print(a[:-14:3])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.append('12')
+print(h)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    s = {72:9, 84:9, 73:7, 28:4, 84:1}
+    s[72] = 6
+    for x in s.items():
+        print(x, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. Нехай змінна \kw{s} позначає дуже довгу послідовність цілих, по якій можна ітерувати. 
+
+Написати вираз-генератор, що задає підпослідовність її елементів, що є від'єм\-ни\-ми. 
+
+Обмеження: усі елементи шуканої підпослідовності одночасно в пам'яті розміщені бути не можуть. 
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%Оригинал был утерян. Требует отладки!
+%code
+__a = 0
+
+class B:
+    __a = 1
+    
+    def __init__(self):
+        self.__a = 2
+        __a = 3
+        B.__a = 4
+
+obj = B()
+B.__a = 5
+try:
+    print(__a, end=' ')
+    print(obj.__a, end=' ')
+    print(B.__a, end=' ')
+    print(obj.__a, end=' ')
+    print(obj._B__a)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class D0:
+    def b(self): print(1, end=' ')
+    def h(self): print(2, end=' ')
+
+class D1(D0):
+    def b(self): print(3, end=' ')
+
+try:
+    D1().h()
+    D1().b()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    c = 1
+
+    def __g1(self): print(2, end=' ')
+    def _g2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.c, end=' ')
+        except: print('E1', end=' ')
+
+        try: self.__g1()
+        except: print('E2', end=' ')
+
+        try: self._g2()
+        except: print('E3', end=' ')
+
+
+class B(A):
+    c = 4
+
+    def __g1(self): print(5, end=' ')
+    def _g2(self): print(6, end=' ')
+
+try: B().main()
+except: print('E4', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-55$ до~$16$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$-6$.
+Яке значення зберігається у вузлі \kw{p.prev.prev.next.next.prev} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/22.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:22 прямому
+%enditem
+
+%beginitem
+10. Для графа на рисунку з вершини 1 запущено алгоритм пошуку в глибину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/7.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (1, 2)\par
+2) (0, 1)\par
+3) (3, 5)\par
+4) (4, 6)\par
+5) (1, 6)\par
+6) (0, 6)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:2 3 4
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 4 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/6.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (1, 2)\par
+2) (1, 4)\par
+3) (1, 3)\par
+4) (2, 6)\par
+5) (0, 1)\par
+6) (0, 6)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:2 3
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $3{\times}5$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a.T[0] += 1
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Файл \code{'1.txt'} містить відомість з рядками, в яких через двокрапку записа\-но поряд\-ковий номер (ціле), назву предмету (знаків пунктуації не містить), прізвище студента, ім'я студента, номер заліковки, оцінку в балах за 100 бальною шкалою. 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад рядка файлу 
+
+
+
+\begin{verbatim}
+13:algebra:surname:name:123456:77
+\end{verbatim}
+
+
+Нижче наведено код, який має залишити у файлі в кожному рядку тільки номер заліковки, назву предмету та оцінку в балах за 100-бальною шкалою (у заданій послі\-дов\-ності). 
+
+Рядок з прикладу має бути замінений на такий 
+
+
+
+\begin{verbatim}
+123456:algebra:77
+\end{verbatim}
+
+
+
+
+Код: 
+
+
+
+\begin{verbatim}
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    lst = f.readlines()
+for i in range(len(lst)):
+    lst[i] = re.sub(regex, YYY, lst[i])
+with open('1.txt', 'w', encoding='utf8') as f:
+    f.writelines(lst)
+\end{verbatim}
+
+
+
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 15 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+d = ('a','b','c','d','e',0,1,2,3,4)
+print(d[-7])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+d+=[4,5]
+print(d)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    d = {14:5, 34:3, 84:8, 31:2}
+    d[14] = 8
+    for x in d.keys():
+        print(x, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. Нехай змінна \kw{s} позначає дуже довгу послідовність цілих, по якій можна ітерувати. 
+
+Написати вираз-генератор, що задає підпослідовність її елементів, що більші за задане число num. 
+
+Обмеження: усі елементи шуканої підпослідовності одночасно в пам'яті розміщені бути не можуть. 
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%code
+c = 0
+m = 1
+
+class A:
+    c = 2
+    
+    def __init__(self):
+        global c
+        self.c = 3
+        c = 4
+        A.c = 5
+
+obj = A()
+try:
+    print(c, end=' ')
+    print(m, end=' ')
+    print(A.c, end=' ')
+    print(obj.c)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class A0:
+    def a(self): print(1, end=' ')
+    def f(self): print(2, end=' ')
+
+class A1(A0):
+    def f(self): print(3, end=' ')
+
+try:
+    A1().a()
+    A1().f()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    a = 1
+
+    def __init__(self):
+        b = 2
+        b = 3
+
+class B(A):
+    a = 4
+    c = 5
+
+    def __init__(self):
+        super().__init__()
+        self.c = 6
+
+try:
+    obj = B()
+    obj.a = obj.a + 10
+    B.a = 13
+except: print('EE', end=' ')
+
+try: print(obj.a, end= ' ')
+except: print('E1', end=' ')
+
+try: print(A.a, end= ' ')
+except: print('E2', end=' ')
+
+try: print(B.a, end= ' ')
+except: print('E3', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-34$ до~$46$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$-3$.
+Яке значення зберігається у вузлі \kw{p.next.next.prev.prev.prev} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/167.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в оберненому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:167 оберненому
+%enditem
+
+%beginitem
+10. Для графа на рисунку вказати послідовність, в якій алгоритм пошуку в глибину буде відмічати відвідані вершини, якщо списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин та вершини відмічаються на першому вход\-женні у вершину.\par
+Пошук розпочинається з вершини 0.\par
+
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/199.png}
+\end{center}
+%answer:0 2 1 3 4 5 6
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 5 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/32.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (5, 6)\par
+2) (1, 2)\par
+3) (0, 4)\par
+4) (0, 1)\par
+5) (1, 5)\par
+6) (4, 5)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 2 4 5 6
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $4{\times}3$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a.T[-2, -2] += 3
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Рядки відомості через двокрапку містять порядковий номер (ціле), пріз\-ви\-ще студен\-та, ім'я студента, номер заліковки, оцінку в балах за 100 бальною шкалою. 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад такого рядка присвоєно змінній \kw{s}. 
+
+
+
+\begin{verbatim}
+s = '13:surname:name:123456:77'
+\end{verbatim}
+
+
+Нижче наведено код, за виконання якого для рядка \kw{s} значенням змінної \kw{out} має стати номер заліковки. 
+
+Для наведеного прикладу значенням змінної \kw{out} має стати рядок \code{123456} . 
+
+
+
+\begin{verbatim}
+res = re.fullmatch(r'XXX', s)
+s = ''
+out = YYY
+\end{verbatim}
+
+
+Код має працювати не тільки для конкретного рядка з прикладу, але й для кожного рядка з відомості. 
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 16 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+e = (0,1,2,3,4,5,6,7,8,9)
+print(e[-15:-11:-3])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+a.append([1,2])
+print(a)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    t = {38:5, 41:5, 80:4, 46:4, 80:2}
+    t[80] = 5
+    for x, y in t.items():
+        print(x, y, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. Задано словник \kw{d} з цілими ключами та значеннями. Записати ВИРАЗ, значенням якого є множина, що складається  з тих значень, чиї ключі діляться на 4.
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%code
+b = 0
+k = 1
+
+class B:
+    k = 2
+    
+    def __init__(self):
+        self.k = 3
+        k = 4
+        B.k = 5
+
+obj = B()
+try:
+    print(b, end=' ')
+    print(k, end=' ')
+    print(B.k, end=' ')
+    print(obj.k)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class B0:
+    def d(self): print(1, end=' ')
+    def h(self): print(2, end=' ')
+
+class B1(B0):
+    def d(self): print(3, end=' ')
+
+try:
+    B1().h()
+    B0().d()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    b = 1
+
+    def f1(self): print(2, end=' ')
+    def _f2(self): print(3, end=' ')
+
+    def main(self):
+        try: print(self.b, end=' ')
+        except: print('E1', end=' ')
+
+        try: self.f1()
+        except: print('E2', end=' ')
+
+        try: self._f2()
+        except: print('E3', end=' ')
+
+
+class B(A):
+    b = 4
+
+    def f1(self): print(5, end=' ')
+    def _f2(self): print(6, end=' ')
+
+try: B().main()
+except: print('E4', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-33$ до~$44$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$-1$.
+Яке значення зберігається у вузлі \kw{p.prev.prev.next.next.next} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/75.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:75 прямому
+%enditem
+
+%beginitem
+10. Для графа на рисунку вказати послідовність, в якій алгоритм пошуку в глибину буде відмічати відвідані вершини, якщо списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин та вершини відмічаються на першому вход\-женні у вершину.\par
+Пошук розпочинається з вершини 4.\par
+
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/217.png}
+\end{center}
+%answer:4 0 1 3 5 2 6
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 5 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/28.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (1, 3)\par
+2) (2, 5)\par
+3) (1, 5)\par
+4) (4, 5)\par
+5) (0, 6)\par
+6) (0, 4)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:1 2 3 4 6
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $5{\times}5$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a[2] += 1
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Рядки журналу через двокрапку містять ім'я користувача (складається з латиниці), час події (фор\-мат як у прикладі), тип події (ERROR, WARNING, INFO, STATUS), код події (ціле). 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад такого рядка присвоєно змінній \kw{s}. 
+
+
+
+\begin{verbatim}
+s = 'username:2022-05-05 13-26:ERROR:404'
+\end{verbatim}
+
+
+Нижче наведено код, за виконання якого значенням змінної \kw{out} має стати код події. 
+
+Для наведеного прикладу значенням змінної \kw{out} має стати рядок \code{404} 
+
+
+
+\begin{verbatim}
+res = re.fullmatch(r'XXX', s)
+s = ''
+out = YYY
+\end{verbatim}
+
+
+Код має працювати не тільки для конкретного рядка з прикладу, але й для кожного рядка з журналу. 
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+%begin
+
+{{\begin {small}\par
+{ \center  Київський національний університет імені Тараса Шевченка \par}
+{\parbox {5 cm}{Освітня програма \hfill}{\parbox {8 cm}{Прикладна математика, Системний аналіз \hfill}}\parbox {5 cm}{\hfill Семестр 2}}\par
+{\parbox {5 cm} {Навчальний предмет \hfill}\parbox {7 cm}{Програмування \hfill}\parbox {6cm}{\hfill}\par}\vspace{-7pt} \end{small}}{\center Контрольна робота, варіант  \No \textbf 
+{ 17 }\par}}
+{
+\begin {large}
+%beginitem
+1. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+g = '0123456789'
+print(g[-9::2])
+%code
+
+%enditem
+
+%beginitem
+2. Що буде надруковано за виконання?
+
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+c[:0]='12'
+print(c)
+%code
+
+%enditem
+
+%beginitem
+3. Що буде надруковано за виконання?\par
+%code
+try:
+    d = {76:4, 56:0, 67:3, 56:0}
+    d[56] = 7
+    for x in d :
+        print(x, sep=' ', end=' ')
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+4. Нехай змінна \kw{s} позначає послідовність цілих, по якій можна ітерувати. 
+
+Написати вираз, що перевіряє, чи правда, що послідовність  містить від’ємні числа.
+%enditem
+
+%beginitem
+5. Що буде надруковано за виконання?
+%code
+d = 0
+j = 1
+
+class D:
+    j = 2
+    
+    def __init__(self):
+        self.j = 3
+        j = 4
+        D.j = 5
+
+obj = D()
+try:
+    print(d, end=' ')
+    print(j, end=' ')
+    print(D.j, end=' ')
+    print(obj.j)
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+6. Що буде надруковано за виконання?
+%code
+class D0:
+    def b(self): print(1, end=' ')
+    def g(self): print(2, end=' ')
+
+class D1(D0):
+    def b(self): print(3, end=' ')
+
+try:
+    D1().g()
+    D0().b()
+except:
+    print('ERR')
+%code
+%enditem
+
+%beginitem
+7. Що буде надруковано за виконання?
+%code
+class A:
+    b = 1
+
+    def __init__(self):
+        c = 2
+        b = 3
+
+class B(A):
+    b = 4
+    a = 5
+
+    def __init__(self):
+        super().__init__()
+        self.a = 6
+
+try:
+    obj = B()
+    obj.b = obj.c + 10
+    B.b = 13
+except: print('EE', end=' ')
+
+try: print(obj.b, end= ' ')
+except: print('E1', end=' ')
+
+try: print(A.b, end= ' ')
+except: print('E2', end=' ')
+
+try: print(B.b, end= ' ')
+except: print('E3', end=' ')
+%code
+%enditem
+
+%beginitem
+8. Змінні \kw{next} та \kw{prev} вузла списку позначають наступний та попередній за ним вузол відповідно. Починаючи з голови, у список записано послідовні цілі числа від~$-57$ до~$45$. Нехай змінна \kw{p} позначає вузол, що зберігає значення~$9$.
+Яке значення зберігається у вузлі \kw{p.next.next.prev.prev.next} ?
+%enditem
+
+%beginitem
+9. 
+\begin{center}
+	\adjustimage{max size={0.8\linewidth}{0.8\paperheight}}
+	{../BinTree/trees_exp/24.png}
+\end{center}
+Указати послідовність міток вершин дерева, зображеного на рис., що утвориться в результаті обходу дерева в прямому порядку. Мітки записувати через пробіл.\par Алгоритм починає роботу з кореня (на рис. це верхня вершина).
+%answer:24 прямому
+%enditem
+
+%beginitem
+10. Для графа на рисунку вказати послідовність, в якій алгоритм пошуку в глибину буде відмічати відвідані вершини, якщо списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин та вершини відмічаються на першому вход\-женні у вершину.\par
+Пошук розпочинається з вершини 0.\par
+
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/0.png}
+\end{center}
+%answer:0 1 5 2 6 3 4
+%enditem
+
+%beginitem
+11. Для графа на рисунку з вершини 0 запущено алгоритм пошуку в ширину, що будує кістякове дерево. Списки суміжності вершин переглядаються алгоритмом за зростанням міток вершин.\par
+\begin{center}
+	\adjustimage{max size={0.9\linewidth}{0.9\paperheight}}
+	{../Graphs/Traversals/47.png}
+\end{center}
+\par Які з наведених ребер входять до складу отриманого кістякового дерева?\par
+1) (3, 6)\par
+2) (3, 5)\par
+3) (2, 5)\par
+4) (0, 5)\par
+5) (0, 3)\par
+6) (4, 6)\par
+{\vskip 15pt} Номери відповідних ребер записати за зростанням через пробіл.
+
+%answer:4 5
+
+%enditem
+
+%beginitem
+12. Значенням змінної a є цілочисловий масив типу $numpy.ndarray$ розмірів $4{\times}3$. На скільки збільшиться сума елементів масиву a після виконання
+\begin{verbatim}
+a[1] += 3
+\end{verbatim}
+
+
+Якщо код некоректний, то в якості відповіді зазначити ERROR.
+
+
+%enditem
+
+%beginitem
+13. Файл \code{'1.txt'} містить журнал з рядками, в яких через двокрапку записано поряд\-ко\-вий номер запису (ціле), ім'я користувача (складається з латиниці), час події (фор\-мат як у прикладі), тип події (ERROR, WARNING, INFO, STATUS), код події (ціле). 
+
+Білі символи навколо роздільників не допускаються. 
+
+Приклад рядка журналу 
+
+
+
+\begin{verbatim}
+12:username:2022-05-05 13-26:ERROR:404
+\end{verbatim}
+
+
+Нижче наведено код, який шукає усі події, що відбулись\\ для користувача \code{anonymous}, та зберігає їх типи в змінній \kw{codes}. 
+
+
+
+\begin{verbatim}
+codes = set()
+regex = re.compile(r'XXX')
+with open('1.txt', encoding='utf8') as f:
+    for s in f:
+        res = re.fullmatch(regex, s)
+        if not res: continue
+        s = ''
+        codes.add(YYY)
+\end{verbatim}
+
+
+
+Який рядок треба записати на місце \kw{XXX} ?
+Який рядок треба записати на місце \kw{YYY} ?
+%enditem
+
+\end {large}}
+
+%end
+\end{document}

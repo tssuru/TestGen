@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1645224574 source:/media/tatiana/DATA/gits/Projects/Quiz/Container/BaseContainer.cpp
+	"BaseContainer.h"
+
+1645224574 /media/tatiana/DATA/gits/Projects/Quiz/Container/BaseContainer.h
+	<string>
+	<vector>
+	<ios>
+	<fstream>
+
+1645224576 source:/media/tatiana/DATA/gits/Projects/Quiz/Container/shuffle.cpp
+	"shuffle.h"
+	<algorithm>
+	<ctime>
+
+1645224576 /media/tatiana/DATA/gits/Projects/Quiz/Container/shuffle.h
+	"BaseContainer.h"
+	<random>
+
+1639945579 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Container/BaseContainer.cpp
+	"BaseContainer.h"
+
+1639945579 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Container/BaseContainer.h
+	<string>
+	<vector>
+	<ios>
+	<fstream>
+
+1639945579 source:/media/tatiana/Apacer PHD/gits/Projects/Quiz/Container/shuffle.cpp
+	"shuffle.h"
+	<algorithm>
+	<ctime>
+
+1639945579 /media/tatiana/Apacer PHD/gits/Projects/Quiz/Container/shuffle.h
+	"BaseContainer.h"
+	<random>
+

@@ -1,0 +1,30 @@
+echo
+echo =466_1.py 
+python3.10 ./466_1.py 
+echo
+echo =466_2.py 
+python3.10 ./466_2.py 
+echo
+echo =466_3.py 
+python3.10 ./466_3.py 
+echo
+echo =466_4.py 
+python3.10 ./466_4.py 
+echo
+echo =466_5.py 
+python3.10 ./466_5.py 
+echo
+echo =466_6.py 
+python3.10 ./466_6.py 
+echo
+echo =466_7.py 
+python3.10 ./466_7.py 
+echo
+echo =466_8.py 
+python3.10 ./466_8.py 
+echo
+echo =466_9.py 
+python3.10 ./466_9.py 
+echo
+echo =466_10.py 
+python3.10 ./466_10.py 

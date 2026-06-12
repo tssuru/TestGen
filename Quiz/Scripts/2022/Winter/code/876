@@ -1,0 +1,30 @@
+echo
+echo =876_1.py 
+python3.10 ./876_1.py 
+echo
+echo =876_2.py 
+python3.10 ./876_2.py 
+echo
+echo =876_3.py 
+python3.10 ./876_3.py 
+echo
+echo =876_4.py 
+python3.10 ./876_4.py 
+echo
+echo =876_5.py 
+python3.10 ./876_5.py 
+echo
+echo =876_6.py 
+python3.10 ./876_6.py 
+echo
+echo =876_7.py 
+python3.10 ./876_7.py 
+echo
+echo =876_8.py 
+python3.10 ./876_8.py 
+echo
+echo =876_9.py 
+python3.10 ./876_9.py 
+echo
+echo =876_10.py 
+python3.10 ./876_10.py 

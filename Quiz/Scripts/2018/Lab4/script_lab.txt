@@ -1,0 +1,16 @@
+//lab 1-4 script
+//138 variants
+//Алгоритми обробки масивів
+//TemplateAnswerQuestFabric1
+
+<declarations>
+Amain={<file> lab4_expr.txt}
+N={<int> 2 30}
+M={<int> 45 70}
+<\declarations>
+
+<template>
+#Amain#
+<\template>
+<restrictions>
+<\restrictions>

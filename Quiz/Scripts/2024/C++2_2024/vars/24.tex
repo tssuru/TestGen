@@ -1,0 +1,136 @@
+\documentclass[12pt, ukrainian]{article}
+\usepackage[a4paper]{geometry}
+\setlength\parindent{0mm}
+\geometry{top=1.5cm,bottom=1.5cm,left=1.3cm,right=1.5cm}
+\pagestyle{empty}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{caption}
+\DeclareCaptionFormat{nocaption}{}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+\usepackage[Export]{adjustbox}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+\usepackage{verbatim, listings, clrscode3e, fancyvrb}
+\def\code#1{\Verb!#1!}
+\begin{document}
+%begin
+\begin {large}
+
+\textbf{22.11.2024 Контрольна робота, варіант  \No { 24 }}\par
+
+
+{
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+
+По яких днях тижня відбувались лекції з предмету?
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+
+Як зовуть (ім'я, по батькові) викладача, що вів практичні заняття?
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+
+Нехай int var=13; Один потік збільшив змінну var на 3, а інший збільшив її в три рази.
+
+гонка даних (data race), стан гонки (race condition)
+
+Виберіть усі правильні твердження (якщо такі є).\par
+\vspace{2mm}
+(\,1\,) Тут може не бути ані гонки даних, ані стану гонки.%bad
+
+(\,2\,) Тут може бути тільки гонка даних.%bad
+
+(\,3\,) Тут гарантовано нема гонки даних, але може бути стан гонки.%bad
+
+(\,4\,) Тут може не бути гонки даних.%good
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+
+Виберіть усі правильні твердження (якщо такі є).\par
+\vspace{2mm}
+
+(\,1\,) Якщо два обчислення програми на С++ тільки читають одну ту саму ділянку пам'яті, то на них гонка даних  виникнути не може.%good
+
+(\,2\,) Досвічений програміст за однопотоковою програмою (текстом мовою С++) завжди може вказати послідовність виконуваних обчислень на конкретних вхідних даних.%bad
+
+(\,3\,) Щоб розблокувати заблокований м’ютекс \code{recursive\_mutex}, його завжди достатньо розблокувати один раз.%bad
+
+(\,4\,) Функція \code{sleep\_for} може змусити інший потік заснути.%bad
+
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+
+Виберіть усі правильні твердження (якщо такі є).\par
+\vspace{2mm}
+
+(\,1\,) Реалізація структури даних без блокувань не може використовувати м’ютекси.%good
+
+(\,2\,) Реалізації різних операцій над структурою даних повинні використовувати різні м’ютекси.%bad
+
+(\,3\,) Структура даних є структурою даних без блокувань, якщо її реалізація не використовує м’ютекси.%bad
+
+(\,4\,) Мова С++20 має стандартну бібліотеку вільних від блокувань структур даних.%bad
+\newpage
+
+
+\begin{center}
+\textbf{Завдання 6}
+\end{center}
+
+Виберіть усі правильні твердження (якщо такі є).\par
+\vspace{2mm}
+
+(\,1\,) Потік може мати доступ до автоматичних змінних іншого потоку, але це небезпечно.%good
+
+(\,2\,) Потік має доступ тільки до своїх власних даних та до глобальних статичних даних.%bad
+
+(\,3\,) Автоматичні змінні не можуть розділятися між потоками.%bad
+
+(\,4\,) Динамічні змінні не можуть розділятися між потоками.%bad
+
+
+\begin{center}
+\textbf{Завдання 7}
+\end{center}
+
+У цьому фрагменті коду
+\begin{verbatim}
+template <class T> void f(T a){}
+
+void g(){
+    int i=5;
+    f(unique_ptr<int>(new int(i)))+(unique_ptr<int>(new int(35)));
+\end{verbatim}
+(\,1\,) можливий виток ресурсів%good
+
+(\,2\,) є невизначена поведінка%bad
+
+(\,3\,) є гонка даних%bad
+
+(\,4\,) є стан гонки%bad
+
+}
+\end {large}
+
+\vspace{4mm}
+%end
+\newpage
+\end{document}
+

@@ -1,0 +1,120 @@
+\documentclass[12pt, ukrainian]{article}
+\usepackage[a4paper]{geometry}
+\setlength\parindent{0mm}
+\geometry{top=1.0cm,bottom=1.0cm,left=1.3cm,right=1.3cm}
+\pagestyle{empty}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{caption}
+\DeclareCaptionFormat{nocaption}{}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+\usepackage[Export]{adjustbox}
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+\usepackage{verbatim, listings, clrscode3e, fancyvrb}
+\def\code#1{\Verb!#1!}
+\begin{document}
+%begin
+\begin {large}
+
+\textbf{\_\_.11.2025 Контрольна робота, варіант  \No { 64 }}\par
+
+
+{
+
+\begin{center}
+\textbf{Завдання 1}
+\end{center}
+Нехай int var=13; Один потік збільшив змінну var на 3, а інший збільшив її в три рази.
+
+гонка даних (data race), стан гонки (race condition)
+
+Виберіть усі правильні твердження (якщо такі є).\par
+\vspace{2mm}
+(\,1\,) Тут може не бути стану гонки.%bad
+
+(\,2\,) Тут гарантовано є гонка даних.%bad
+
+(\,3\,) Тут гарантовано є і стан гонки, і гонка даних.%bad
+
+(\,4\,) Тут гарантовано є стан гонки.%good
+
+
+
+\begin{center}
+\textbf{Завдання 2}
+\end{center}
+Виберіть усі правильні твердження (якщо такі є).\par
+\vspace{2mm}
+
+(\,1\,) Значення, що є результатом виконання функції, запущеної через async, зберігається безпосередньо в об’єкті проміза (promise).%bad
+
+(\,2\,) Потік, запущений конструктором класу jthread, має обов’язково зупинитися, якщо пов’язаний об’єкт надішле команду зупинитися.%bad
+
+(\,3\,) Блокувати заблокований м’ютекс  \code{mutex} іноді можна.%good
+
+(\,4\,) Розблоковувати незаблокований м’ютекс можна.%bad
+
+
+
+\begin{center}
+\textbf{Завдання 3}
+\end{center}
+Виберіть усі правильні твердження (якщо такі є).\par
+\vspace{2mm}
+
+(\,1\,) Вільних від очікувань структур даних не існує.%bad
+
+(\,2\,) За використання структурою даних рівно одного м’ютексу, взаємоблокування на її операціях неможливі.%good
+
+(\,3\,) Для уникнення гонки даних структура даних може використовувати не більше одного м’ютекса.%bad
+
+(\,4\,) Операція над структурою даних без блокувань завжди виконається за обмежений час.%bad
+
+
+
+\begin{center}
+\textbf{Завдання 4}
+\end{center}
+Виберіть усі правильні твердження (якщо такі є).\par
+\vspace{2mm}
+
+(\,1\,) Потік має доступ тільки до своїх власних даних та до глобальних статичних даних.%bad
+
+(\,2\,) Кожен потік програми може мати доступ до динамічних даних програми.%good
+
+(\,3\,) Потік може мати доступ до автоматичних змінних іншого потоку і це безпечно.%bad
+
+(\,4\,) Автоматичні змінні не можуть розділятися між потоками.%bad
+
+
+
+\begin{center}
+\textbf{Завдання 5}
+\end{center}
+У цьому фрагменті коду
+\begin{verbatim}
+template <class T> void f(T a1, T a2){}
+
+void g(){
+    int i=5;
+    f(unique_ptr<int>(new int(i++)), unique_ptr<int>(new int(++i)));
+\end{verbatim}
+
+(\,1\,) можливий виток ресурсів%bad
+
+(\,2\,) є гонка даних%bad
+
+(\,3\,) є невизначена поведінка%good
+
+(\,4\,) є стан гонки%bad
+
+
+}
+\end {large}
+
+
+\end{document}
+

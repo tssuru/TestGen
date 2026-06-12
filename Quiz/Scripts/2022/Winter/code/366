@@ -1,0 +1,30 @@
+echo
+echo =366_1.py 
+python3.10 ./366_1.py 
+echo
+echo =366_2.py 
+python3.10 ./366_2.py 
+echo
+echo =366_3.py 
+python3.10 ./366_3.py 
+echo
+echo =366_4.py 
+python3.10 ./366_4.py 
+echo
+echo =366_5.py 
+python3.10 ./366_5.py 
+echo
+echo =366_6.py 
+python3.10 ./366_6.py 
+echo
+echo =366_7.py 
+python3.10 ./366_7.py 
+echo
+echo =366_8.py 
+python3.10 ./366_8.py 
+echo
+echo =366_9.py 
+python3.10 ./366_9.py 
+echo
+echo =366_10.py 
+python3.10 ./366_10.py 

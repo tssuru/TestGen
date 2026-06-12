@@ -1,0 +1,30 @@
+echo
+echo =458_1.py 
+python3.10 ./458_1.py 
+echo
+echo =458_2.py 
+python3.10 ./458_2.py 
+echo
+echo =458_3.py 
+python3.10 ./458_3.py 
+echo
+echo =458_4.py 
+python3.10 ./458_4.py 
+echo
+echo =458_5.py 
+python3.10 ./458_5.py 
+echo
+echo =458_6.py 
+python3.10 ./458_6.py 
+echo
+echo =458_7.py 
+python3.10 ./458_7.py 
+echo
+echo =458_8.py 
+python3.10 ./458_8.py 
+echo
+echo =458_9.py 
+python3.10 ./458_9.py 
+echo
+echo =458_10.py 
+python3.10 ./458_10.py 

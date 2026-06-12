@@ -1,0 +1,27 @@
+echo
+echo =126_1.py 
+python3.10 ./126_1.py 
+echo
+echo =126_2.py 
+python3.10 ./126_2.py 
+echo
+echo =126_3.py 
+python3.10 ./126_3.py 
+echo
+echo =126_4.py 
+python3.10 ./126_4.py 
+echo
+echo =126_5.py 
+python3.10 ./126_5.py 
+echo
+echo =126_6.py 
+python3.10 ./126_6.py 
+echo
+echo =126_7.py 
+python3.10 ./126_7.py 
+echo
+echo =126_8.py 
+python3.10 ./126_8.py 
+echo
+echo =126_9.py 
+python3.10 ./126_9.py 

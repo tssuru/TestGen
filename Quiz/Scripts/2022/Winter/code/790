@@ -1,0 +1,30 @@
+echo
+echo =790_1.py 
+python3.10 ./790_1.py 
+echo
+echo =790_2.py 
+python3.10 ./790_2.py 
+echo
+echo =790_3.py 
+python3.10 ./790_3.py 
+echo
+echo =790_4.py 
+python3.10 ./790_4.py 
+echo
+echo =790_5.py 
+python3.10 ./790_5.py 
+echo
+echo =790_6.py 
+python3.10 ./790_6.py 
+echo
+echo =790_7.py 
+python3.10 ./790_7.py 
+echo
+echo =790_8.py 
+python3.10 ./790_8.py 
+echo
+echo =790_9.py 
+python3.10 ./790_9.py 
+echo
+echo =790_10.py 
+python3.10 ./790_10.py 

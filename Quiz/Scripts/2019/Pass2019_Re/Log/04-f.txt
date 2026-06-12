@@ -1,0 +1,31 @@
+//source for question like
+//26127360 questions
+//¬каж≥ть значенн€ та його тип:\n
+
+//**
+
+<sample>
+
+
+
+<\sample>
+
+<declarations>
+x1={<int> -9 9}
+x2={<int> -4 4}
+
+op=and;or
+comp=<;<=;>;>=;==;!=
+Return=n;n#comp##x2#
+
+<\declarations>
+
+<template>
+
+def f(n): print("f", end=""); return #Return#{ENDL}
+{SPACE}{SPACE}{SPACE}print(f(#x1#) #op# f(#x1 new#))
+
+<\template>
+
+<restrictions>
+<\restrictions>

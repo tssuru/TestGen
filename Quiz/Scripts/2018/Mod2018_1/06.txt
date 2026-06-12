@@ -1,0 +1,114 @@
+int n=1; cout<<f(n); cout<<n;{SPACE}буде виведено 33
+int f(int &n){ n+=2; return n;}
+int f(int n){ n+=2; return n;}
+int f(int n){ return n+2;}
+int f(int n){ return n; n+=2;}
+
+int n=1; cout<<f(n); cout<<n;{SPACE}буде виведено 31
+int f(int &n){ n+=2; return n;}
+int f(int n){ n+=2; return n;}
+int f(int n){ return n+2;}
+int f(int n){ return n; n+=2;}
+
+
+int n=2; cout<<f(n); cout<<n;{SPACE}буде виведено 44
+int f(int &n){ n+=2; return n;}
+int f(int n){ n+=2; return n;}
+int f(int n){ return n+2;}
+int f(int n){ return n; n+=2;}
+
+int n=2; cout<<f(n); cout<<n;{SPACE}буде виведено 42
+int f(int &n){ n+=2; return n;}
+int f(int n){ n+=2; return n;}
+int f(int n){ return n+2;}
+int f(int n){ return n; n+=2;}
+
+int n=1, m=3; cout<<n<<m;{SPACE}буде виведено 31
+void f(int &a, int &b){ int t=a; a=b; b=a;}
+void f(int &a, int b){ int t=a; a=b; b=a;}
+void f(int &a, int &b){ a=b; b=a;}
+void f(int &a, int &b){ int t=b; a=b; b=a;}
+
+int n=1,m=3; cout<<f(n,m); cout<<n<<m;{SPACE}буде виведено 417
+int f(int a, int &b){ int t=a+b; b+=3; return t;}
+int f(int a, int b){ int t; t=a+b; b=b+3; return t;}
+int f(int a, int &b){ return a+b; b+=3;}
+int f(int a, int &b){ b+=3; return a+b;}
+
+int n=1,m=3; cout<<f(n,m); cout<<n<<m;{SPACE}буде виведено 413
+int f(int a, int &b){ int t=a+b; b+=3; return t;}
+int f(int a, int b){ int t; t=a+b; b=b+3; return t;}
+int f(int a, int &b){ return a+b; b+=3;}
+int f(int a, int &b){ b+=3; return a+b;}
+
+int n=2,m=1; cout<<f(n,m); cout<<n<<m;{SPACE}буде виведено 321
+int f(int a, int &b){ int t=a+b; b+=3; return t;}
+int f(int a, int b){ int t; t=a+b; b=b+3; return t;}
+int f(int a, int &b){ return a+b; b+=3;}
+int f(int a, int &b){ b+=3; return a+b;}
+
+int n=3,m=1; f(n,m); cout<<n<<m;{SPACE}буде виведено 13
+void f(int &a, int &b){ if (a>b) {int t=a; a=b; b=t;}}
+void f(int a, int &b){ if (a>b) {int t=a; a=b; b=t;}}
+void f(int &a, int &b){ if (a>b) {a=b; b=a;}}
+void f(int &a, int &b){ if (a>b) a=b;}
+
+int n=1,m=3; f(n,m); cout<<n<<m;{SPACE}буде виведено 31
+void f(int &a, int &b){ if (a<b) {int t=a; a=b; b=t;}}
+void f(int a, int &b){ if (a<b) {int t=a; a=b; b=t;}}
+void f(int &a, int &b){ if (a<b) a=b; else b=a;}
+void f(int &a, int &b){ if (a>b) a=b;}
+
+int n=3, m=-1; f(n);f(m); cout<<n<<m;{SPACE}буде виведено 30
+void f(int &n){if (n<0) n=0;}
+void f(int n){if (n<0) n=0;}
+void f(int &n){if (n<0) n=0; else n=0;}
+void f(int &n){if (n<0) n=-n;}
+
+int n=0, m=-1; f(n);f(m); cout<<n<<m;{SPACE}буде виведено 01
+void f(int &n){if (n>0) n=0; else n=-n;}
+void f(int n){if (n<0) n=-n;}
+void f(int &n){if (n>0) n=0; else n=0;}
+void f(int &n){if (n<0) n=-n;}
+
+int n=5; f(n); cout<<n;{SPACE}буде виведено 1
+void f(int &n){n-=4;}
+void f(int n){n-=4;}
+void f(int &n){n-4;}
+void f(int &n){int m=n-4;}
+
+int a=1,b=3; cout<<f(a,b); cout<<a<<b;{SPACE}буде виведено 433
+int f(int &a, int b){ int t=a+b; a+=2; return t;}
+int f(int a, int b){ int t; t=a+b; a=a+2; return t;}
+int f(int &a, int &b){ return a+b; a+=2;}
+int f(int &a, int b){ a+=2; return a+b;}
+
+int a=2,b=4; cout<<f(a,b); cout<<a<<b;{SPACE}буде виведено 653
+int f(int &a, int b){ int t=a+b; a+=2; return t;}
+int f(int a, int &b){ int t; t=a+b; a=a+2; return t;}
+int f(int &a, int &b){ return a+b; a+=2;}
+int f(int &a, int b){ a+=2; return a+b;}
+
+int a=1,b=2; cout<<f(a,b); cout<<a<<b;{SPACE}буде виведено 314
+int f(int a, int &b){ int t=a+b; b+=2; return t;}
+int f(int a, int b){ int t; t=a+b; b=b+2; return t;}
+int f(int &a, int &b){ return a+b; b+=2;}
+int f(int a, int &b){ b+=2; return a+b;}
+
+int a=1,b=3; cout<<f(a,b); cout<<a<<b;{SPACE}буде виведено 415
+int f(int a, int &b){ int t=a+b; b+=2; return t;}
+int f(int a, int b){ int t; t=a+b; b=b+2; return t;}
+int f(int &a, int &b){ return a+b; b+=2;}
+int f(int a, int &b){ b+=2; return a+b;}
+
+int a=1,b=3; cout<<f(a,b); cout<<a<<b;{SPACE}буде виведено 411
+int f(int a, int &b){ int t=a+b; b-=2; return t;}
+int f(int a, int b){ int t; t=a+b; b=b-2; return t;}
+int f(int &a, int &b){ return a+b; b-=2;}
+int f(int a, int &b){ b-=2; return a+b;}
+
+int a=1,b=3; cout<<f(a,b); cout<<a<<b;{SPACE}буде виведено 412
+int f(int a, int &b){ int t=a+b; b-=1; return t;}
+int f(int a, int b){ int t; t=a+b; b=b-1; return t;}
+int f(int &a, int &b){ return a+b; b-=1;}
+int f(int a, int &b){ b-=1; return a+b;}

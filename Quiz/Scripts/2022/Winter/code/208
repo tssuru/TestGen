@@ -1,0 +1,30 @@
+echo
+echo =208_1.py 
+python3.10 ./208_1.py 
+echo
+echo =208_2.py 
+python3.10 ./208_2.py 
+echo
+echo =208_3.py 
+python3.10 ./208_3.py 
+echo
+echo =208_4.py 
+python3.10 ./208_4.py 
+echo
+echo =208_5.py 
+python3.10 ./208_5.py 
+echo
+echo =208_6.py 
+python3.10 ./208_6.py 
+echo
+echo =208_7.py 
+python3.10 ./208_7.py 
+echo
+echo =208_8.py 
+python3.10 ./208_8.py 
+echo
+echo =208_9.py 
+python3.10 ./208_9.py 
+echo
+echo =208_10.py 
+python3.10 ./208_10.py 

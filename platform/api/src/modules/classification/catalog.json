@@ -1,0 +1,15 @@
+{
+  "disciplines": [
+    "informatics",
+    "programming"
+  ],
+  "languages": [
+    "cpp"
+  ],
+  "topics": [
+    "syntax",
+    "algorithms",
+    "data_structures",
+    "oop"
+  ]
+}

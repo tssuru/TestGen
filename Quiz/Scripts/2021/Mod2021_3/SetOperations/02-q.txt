@@ -1,0 +1,15 @@
+ <fabric>
+     template answer
+     <fname>
+         SetOperations/02-f.txt
+     <\fname>
+
+     <before>
+Що буде надруковано за виконання?\par{ENDL}
+%code{ENDL}
+     <\before>
+
+     <after>
+%code{ENDL}
+     <\after>
+   <\fabric>

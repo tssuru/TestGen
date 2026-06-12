@@ -1,0 +1,30 @@
+echo
+echo =899_1.py 
+python3.10 ./899_1.py 
+echo
+echo =899_2.py 
+python3.10 ./899_2.py 
+echo
+echo =899_3.py 
+python3.10 ./899_3.py 
+echo
+echo =899_4.py 
+python3.10 ./899_4.py 
+echo
+echo =899_5.py 
+python3.10 ./899_5.py 
+echo
+echo =899_6.py 
+python3.10 ./899_6.py 
+echo
+echo =899_7.py 
+python3.10 ./899_7.py 
+echo
+echo =899_8.py 
+python3.10 ./899_8.py 
+echo
+echo =899_9.py 
+python3.10 ./899_9.py 
+echo
+echo =899_10.py 
+python3.10 ./899_10.py 

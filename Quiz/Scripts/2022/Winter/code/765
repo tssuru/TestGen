@@ -1,0 +1,30 @@
+echo
+echo =765_1.py 
+python3.10 ./765_1.py 
+echo
+echo =765_2.py 
+python3.10 ./765_2.py 
+echo
+echo =765_3.py 
+python3.10 ./765_3.py 
+echo
+echo =765_4.py 
+python3.10 ./765_4.py 
+echo
+echo =765_5.py 
+python3.10 ./765_5.py 
+echo
+echo =765_6.py 
+python3.10 ./765_6.py 
+echo
+echo =765_7.py 
+python3.10 ./765_7.py 
+echo
+echo =765_8.py 
+python3.10 ./765_8.py 
+echo
+echo =765_9.py 
+python3.10 ./765_9.py 
+echo
+echo =765_10.py 
+python3.10 ./765_10.py 

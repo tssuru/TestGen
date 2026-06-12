@@ -1,0 +1,30 @@
+echo
+echo =82_1.py 
+python3.10 ./82_1.py 
+echo
+echo =82_2.py 
+python3.10 ./82_2.py 
+echo
+echo =82_3.py 
+python3.10 ./82_3.py 
+echo
+echo =82_4.py 
+python3.10 ./82_4.py 
+echo
+echo =82_5.py 
+python3.10 ./82_5.py 
+echo
+echo =82_6.py 
+python3.10 ./82_6.py 
+echo
+echo =82_7.py 
+python3.10 ./82_7.py 
+echo
+echo =82_8.py 
+python3.10 ./82_8.py 
+echo
+echo =82_9.py 
+python3.10 ./82_9.py 
+echo
+echo =82_10.py 
+python3.10 ./82_10.py 

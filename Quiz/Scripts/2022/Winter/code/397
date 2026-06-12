@@ -1,0 +1,30 @@
+echo
+echo =397_1.py 
+python3.10 ./397_1.py 
+echo
+echo =397_2.py 
+python3.10 ./397_2.py 
+echo
+echo =397_3.py 
+python3.10 ./397_3.py 
+echo
+echo =397_4.py 
+python3.10 ./397_4.py 
+echo
+echo =397_5.py 
+python3.10 ./397_5.py 
+echo
+echo =397_6.py 
+python3.10 ./397_6.py 
+echo
+echo =397_7.py 
+python3.10 ./397_7.py 
+echo
+echo =397_8.py 
+python3.10 ./397_8.py 
+echo
+echo =397_9.py 
+python3.10 ./397_9.py 
+echo
+echo =397_10.py 
+python3.10 ./397_10.py 

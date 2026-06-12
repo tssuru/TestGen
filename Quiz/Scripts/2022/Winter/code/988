@@ -1,0 +1,30 @@
+echo
+echo =988_1.py 
+python3.10 ./988_1.py 
+echo
+echo =988_2.py 
+python3.10 ./988_2.py 
+echo
+echo =988_3.py 
+python3.10 ./988_3.py 
+echo
+echo =988_4.py 
+python3.10 ./988_4.py 
+echo
+echo =988_5.py 
+python3.10 ./988_5.py 
+echo
+echo =988_6.py 
+python3.10 ./988_6.py 
+echo
+echo =988_7.py 
+python3.10 ./988_7.py 
+echo
+echo =988_8.py 
+python3.10 ./988_8.py 
+echo
+echo =988_9.py 
+python3.10 ./988_9.py 
+echo
+echo =988_10.py 
+python3.10 ./988_10.py 

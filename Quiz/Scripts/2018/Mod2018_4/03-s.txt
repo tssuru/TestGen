@@ -1,0 +1,44 @@
+class A{public: A(){cout<<#n#;}
+A(const A&){cout<<#n new#;}
+A(A&&){cout<<#n new#;}
+A& operator=(const A&){cout<<#n new#;return *this;}
+A& operator=(A&&){cout<<#n new#;return *this;}};
+void test(){A a, b(a), c(move(a));}
+
+
+class A{public: A(){cout<<#n#;}
+A(const A&){cout<<#n new#;}
+A(A&&){cout<<#n new#;}
+A& operator=(const A&){cout<<#n new#;return *this;}
+A& operator=(A&&){cout<<#n new#;return *this;}};
+void test(){A a, b(a), c=move(a);}
+
+
+class A{public: A(){cout<<#n#;}
+A(const A&){cout<<#n new#;}
+//#n new#
+A& operator=(const A&){cout<<#n new#;return *this;}
+A& operator=(A&&){cout<<#n new#;return *this;}};
+void test(){A a, b(a), c=move(a); c=move(a);}
+
+
+class A{public: A(){cout<<#n#;}
+A(const A&){cout<<#n new#;}
+A(A&&){cout<<#n new#;}
+A& operator=(const A&){cout<<#n new#;return *this;}
+A& operator=(A&&){cout<<#n new#;return *this;}};
+void test(){A a, b=a, c=move(a); c=b;}
+
+class A{public: A(){cout<<#n#;}
+A(const A&){cout<<#n new#;}
+A(A&&){cout<<#n new#;}
+A& operator=(const A&){cout<<#n new#;return *this;}
+A& operator=(A&&){cout<<#n new#;return *this;}};
+A f(){A a; return move(a);}{ENDL}{SPACE}{SPACE}{SPACE}void test(){A a, b=a, c; c=f();}
+
+class A{public: A(){cout<<#n#;}
+A(const A&){cout<<#n new#;}
+A(A&&){cout<<#n new#;}
+A& operator=(const A&){cout<<#n new#;return *this;}
+A& operator=(A&&){cout<<#n new#;return *this;}};
+A f(){A a; return a;}{ENDL}{SPACE}{SPACE}{SPACE}void test(){A a, b=a, c; c=f();}

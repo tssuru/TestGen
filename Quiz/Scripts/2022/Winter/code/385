@@ -1,0 +1,30 @@
+echo
+echo =385_1.py 
+python3.10 ./385_1.py 
+echo
+echo =385_2.py 
+python3.10 ./385_2.py 
+echo
+echo =385_3.py 
+python3.10 ./385_3.py 
+echo
+echo =385_4.py 
+python3.10 ./385_4.py 
+echo
+echo =385_5.py 
+python3.10 ./385_5.py 
+echo
+echo =385_6.py 
+python3.10 ./385_6.py 
+echo
+echo =385_7.py 
+python3.10 ./385_7.py 
+echo
+echo =385_8.py 
+python3.10 ./385_8.py 
+echo
+echo =385_9.py 
+python3.10 ./385_9.py 
+echo
+echo =385_10.py 
+python3.10 ./385_10.py 

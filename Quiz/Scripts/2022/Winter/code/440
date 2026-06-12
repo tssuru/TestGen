@@ -1,0 +1,30 @@
+echo
+echo =440_1.py 
+python3.10 ./440_1.py 
+echo
+echo =440_2.py 
+python3.10 ./440_2.py 
+echo
+echo =440_3.py 
+python3.10 ./440_3.py 
+echo
+echo =440_4.py 
+python3.10 ./440_4.py 
+echo
+echo =440_5.py 
+python3.10 ./440_5.py 
+echo
+echo =440_6.py 
+python3.10 ./440_6.py 
+echo
+echo =440_7.py 
+python3.10 ./440_7.py 
+echo
+echo =440_8.py 
+python3.10 ./440_8.py 
+echo
+echo =440_9.py 
+python3.10 ./440_9.py 
+echo
+echo =440_10.py 
+python3.10 ./440_10.py 

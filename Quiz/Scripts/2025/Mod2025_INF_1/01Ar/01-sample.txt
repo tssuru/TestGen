@@ -1,0 +1,60 @@
+
+%code
+cout << (9 / 7 * 5 * 4);
+%code
+
+
+
+%code
+cout << (6 % 8 / 14 % 7);
+%code
+
+
+
+%code
+cout << (7 * 15 % 8 / 12);
+%code
+
+
+
+%code
+cout << (14 * 9 * 3 / 10);
+%code
+
+
+
+%code
+cout << (15 % 5 / 4 % 8);
+%code
+
+
+
+%code
+cout << (8 / 4 % 6 * 3);
+%code
+
+
+
+%code
+cout << (4 * 12 / 15 % 6);
+%code
+
+
+
+%code
+cout << (3 / 6 % 12 / 15);
+%code
+
+
+
+%code
+cout << (12 % 10 * 7 * 14);
+%code
+
+
+
+%code
+cout << (10 % 14 / 9 * 9);
+%code
+
+

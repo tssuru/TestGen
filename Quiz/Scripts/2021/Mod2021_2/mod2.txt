@@ -1,0 +1,14861 @@
+\documentclass[10pt, ukrainian]{article}
+\setlength\textwidth{170mm} \setlength\hoffset{-25mm}
+%\setlength\textheight{277mm} \setlength\voffset{-38mm}
+%\setlength\parindent{0mm}
+\pagestyle{empty}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage[cp1251]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\DeclareCaptionFormat{nocaption}{}
+\captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+\usepackage[Export]{adjustbox} 
+\adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+\begin{document}
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 1 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=9
+while j<7:
+    j+=1
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(7,3,-2):
+    if c<=6:
+        break
+        print(c, end=' ')
+    if c>=4:
+        break
+    else:
+        print('end', end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2)
+print(h[-4])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a=(0,1,2,3,4,5,6,7,8,9)
+print(a[-9:-13:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+c.insert(-6, [1,0])
+print(c)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+del h[-9:-1]
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 2 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=10
+while n>=6:
+    n+=-2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(3,9,2):
+    if b<5:
+        continue
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,3,4)
+print(c[-10])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=[0,1,2,3,4,5,6,7,8,9]
+print(d[1:-5:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+print(g.index(16), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+d[2:-5]=[1,0]
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 3 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=2
+while k<=5:
+    k+=2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(6,5,-1):
+    if f>4:
+        continue
+        print(f, end=' ')
+        f=7
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 100)
+    
+
+
+print('R', end=' ')
+f(987654)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1)
+print(f[-6])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4','5','6','7','8','9']
+print(h[::-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b+=[4,5]
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+b[:5]=[1,2]
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 4 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=8
+while m<=13:
+    m+=1
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(-10,-8,3):
+    if a>=3:
+        break
+        print(a, end=' ')
+        a=6
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3)
+print(e[6])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e=('0','1','2','3','4','5','6','7','8','9')
+print(e[-7::2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e.remove('12')
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+e[:2]=[2,3]
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 5 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=14
+while i>0:
+    i+=-3
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(-3,4,-1):
+    if e>=7:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,4)
+print(b[-7])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f='0123456789'
+print(f[-5:-10:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+print(h.pop(2), end=' ')
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+del c[4:]
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 6 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=7
+while t>3:
+    t+=-3
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(10,8,2):
+    if d<8:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,3,4)
+print(g[1])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=(0,1,2,3,4,5,6,7,8,9)
+print(g[11::-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+d.extend('10')
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g[-5:-9]='10'
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 7 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=12
+while m>=5:
+    m+=-2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(5,-7,3):
+    if c<=3:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3)
+print(d[-13])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=[0,1,2,3,4,5,6,7,8,9]
+print(b[10:-15:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f.append('11')
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+f[-6:3]=(12)
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 8 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=3
+while t<8:
+    t+=2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(-2,-6,-2):
+    if b>6:
+        continue
+        print(b, end=' ')
+        b=5
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1)
+print(a[14])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=('0','1','2','3','4','5','6','7','8','9')
+print(c[-8:8:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+print(a.index('8'), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+del a[-3:]
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 9 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=0
+while n<=12:
+    n+=1
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(4,10,3):
+    if a<5:
+        break
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,4)
+print(d[3])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e=['0','1','2','3','4','5','6','7','8','9']
+print(e[:-1:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+b.remove(9)
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a[-2:-3]='11'
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 10 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=5
+while i<11:
+    i+=2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(-1,7,-1):
+    if f>7:
+        continue
+        print(f, end=' ')
+    if f<=6:
+        break
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2)
+print(g[9])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a='0123456789'
+print(a[:2:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+d+='13'
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e[6:1]='12'
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 11 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=4
+while t<6:
+    t+=1
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(9,-2,-2):
+    if d<=4:
+        continue
+        print(d, end=' ')
+    else:
+        print('end', end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 2:
+        f(n // 2)
+    else:
+        print(n % 2, end=' ')
+
+print('R', end=' ')
+f(16)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2)
+print(e[-9])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=[0,1,2,3,4,5,6,7,8,9]
+print(d[9:-4:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+print(e.pop(-6), end=' ')
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+f[-4:0]=[15]
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 12 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=6
+while i<=9:
+    i+=2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(8,1,2):
+    if e>=8:
+        break
+        print(e, end=' ')
+        e=-3
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,3)
+print(a[-1])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h='0123456789'
+print(h[15:0:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+c.insert(-2, 16)
+print(c)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+del b[7:-8]
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 13 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=7
+while j<=10:
+    j+=1
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(0,-3,2):
+    if f<3:
+        break
+        print(f, end=' ')
+        f=3
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3,4)
+print(b[-5])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4','5','6','7','8','9']
+print(f[::-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a.extend([2,3])
+print(a)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+del h[8:]
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 14 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=8
+while k>=1:
+    k+=-3
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(-9,-4,3):
+    if e>=6:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,4)
+print(f[5])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=(0,1,2,3,4,5,6,7,8,9)
+print(c[2:9:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f.append([1,2])
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+c[0:8]=()
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 15 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=9
+while j>9:
+    j+=-2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(-7,0,-1):
+    if a>8:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        return f(n // 100) + 1
+    else:
+        return 1
+
+print('R', end=' ')
+print(f(123456))
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1)
+print(c[-9])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=('0','1','2','3','4','5','6','7','8','9')
+print(b[6:6:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+print(g.pop(4), end=' ')
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g[5:]=[4,5]
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 16 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=13
+while t>=2:
+    t+=-3
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(2,-10,-2):
+    if c<=4:
+        continue
+        print(c, end=' ')
+    else:
+        print('end', end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3,4)
+print(h[-8])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=[0,1,2,3,4,5,6,7,8,9]
+print(g[-2::2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.remove(10)
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+d[-7:-4]='13'
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 17 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=1
+while n<5:
+    n+=2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(-6,-5,3):
+    if d<=7:
+        break
+        print(d, end=' ')
+        d=0
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1)
+print(g[-3])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=('0','1','2','3','4','5','6','7','8','9')
+print(c[:3:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f.append('12')
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[:6]='10'
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 18 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=15
+while i>7:
+    i+=-2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(1,2,-1):
+    if b>5:
+        continue
+        print(b, end=' ')
+    if b>5:
+        break
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,4)
+print(a[-12])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4','5','6','7','8','9']
+print(f[:4:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h+=[2,3]
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+del e[:4]
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 19 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=6
+while m<13:
+    m+=1
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(-5,-9,2):
+    if d>=7:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2)
+print(b[8])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=(0,1,2,3,4,5,6,7,8,9)
+print(b[5:-8:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+print(d.index('7'), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+c[1:]=()
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 20 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=7
+while k<=9:
+    k+=2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(-8,6,-2):
+    if a<6:
+        break
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,3)
+print(f[2])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e='0123456789'
+print(e[-13::-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g.extend('10')
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+del b[-8:-2]
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 21 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=3
+while n<12:
+    n+=1
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(-4,-1,-1):
+    if e>=5:
+        continue
+        print(e, end=' ')
+        e=-10
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1)
+print(c[4])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h=[0,1,2,3,4,5,6,7,8,9]
+print(h[-11::-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b.insert(6, '11')
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+d[3:]='13'
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 22 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=0
+while k<=11:
+    k+=2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(-10,3,3):
+    if b<=8:
+        continue
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+
+print('R', end=' ')
+f(543216)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,4)
+print(h[-2])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a=('0','1','2','3','4','5','6','7','8','9')
+print(a[0:1:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+print(e.pop(), end=' ')
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+del a[:-7]
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 23 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=5
+while j>=4:
+    j+=-3
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(8,8,2):
+    if c<3:
+        continue
+        print(c, end=' ')
+        c=-4
+    else:
+        print('end', end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+            f(n // 100)
+    print(n % 10, end=' ')
+    
+
+
+print('R', end=' ')
+f(987654)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3,4)
+print(d[-8])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=(0,1,2,3,4,5,6,7,8,9)
+print(d[-1::-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a.append(19)
+print(a)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+g[-1:-6]=(13)
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 24 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=6
+while n>8:
+    n+=-2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(7,6,-2):
+    if f>4:
+        break
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    print(n % 10, end=' ')
+    
+
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3)
+print(e[-11])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4','5','6','7','8','9']
+print(g[14:-9:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+print(c.index('10'), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[1:7]=[2,3]
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 25 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=2
+while j<=6:
+    j+=2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(3,4,-2):
+    if d>=4:
+        continue
+        print(d, end=' ')
+        d=-7
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2)
+print(e[-7])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e='0123456789'
+print(e[4:-14:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g.extend('13')
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+c[:-1]='11'
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 26 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=11
+while m>0:
+    m+=-3
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(6,2,2):
+    if e<3:
+        break
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+
+print('R', end=' ')
+f(543216)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2)
+print(g[0])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4','5','6','7','8','9']
+print(f[::-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a.remove(4)
+print(a)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+d[-7:-6]=[14]
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 27 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=8
+while k>=1:
+    k+=-2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(-2,-10,3):
+    if c<=8:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,4)
+print(c[-10])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a=[0,1,2,3,4,5,6,7,8,9]
+print(a[:-11:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+f+=[1,2]
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+del f[7:2]
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 28 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=1
+while i<7:
+    i+=1
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(10,-7,-1):
+    if f>7:
+        continue
+        print(f, end=' ')
+    else:
+        print('end', end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,3)
+print(a[-10])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=('0','1','2','3','4','5','6','7','8','9')
+print(c[-12:-6:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.insert(5, '12')
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+del b[-8:0]
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 29 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=12
+while t>=8:
+    t+=-3
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(-8,-4,3):
+    if a>=5:
+        break
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,3,4)
+print(f[2])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=(0,1,2,3,4,5,6,7,8,9)
+print(g[:14:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+print(b.index(17), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g[:-7]=[1,2]
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 30 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=13
+while i>2:
+    i+=-2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(-4,-6,-1):
+    if b>6:
+        continue
+        print(b, end=' ')
+        b=8
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1)
+print(d[-5])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b='0123456789'
+print(b[12:-7:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+print(d.pop(-4), end=' ')
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a[4:4]=[4,5]
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 31 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=15
+while k>=6:
+    k+=-3
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(-1,-1,2):
+    if d<7:
+        continue
+        print(d, end=' ')
+        d=4
+    if d<8:
+        break
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2)
+print(b[-12])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4','5','6','7','8','9']
+print(d[-15::-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.remove('4')
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h[2:]=[1,0]
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 32 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=7
+while j>9:
+    j+=-2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(4,-9,-2):
+    if e<=8:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3,4)
+print(h[7])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h=('0','1','2','3','4','5','6','7','8','9')
+print(h[7::2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+c.append([1,0])
+print(c)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+e[6:-8]='12'
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 33 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=5
+while m<=8:
+    m+=1
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(-9,9,-1):
+    if b<=3:
+        break
+        print(b, end=' ')
+    if b>7:
+        break
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1)
+print(d[-11])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h=[0,1,2,3,4,5,6,7,8,9]
+print(h[-10:-3:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g+=[4,5]
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+del d[-4:-4]
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 34 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=8
+while t<10:
+    t+=2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(2,0,3):
+    if a>=6:
+        continue
+        print(a, end=' ')
+        a=-8
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+print('R', end=' ')
+f(543216)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,3)
+print(a[-11])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c='0123456789'
+print(c[13:-2:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+d.extend(20)
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+b[-9:5]=[4,5]
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 35 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=10
+while n>5:
+    n+=-2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(-3,10,-2):
+    if c<5:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,4)
+print(h[6])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f=(0,1,2,3,4,5,6,7,8,9)
+print(f[-4:13:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h.insert(3, [1,2])
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g[-2:]='13'
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 36 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=6
+while m>=3:
+    m+=-3
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(0,5,2):
+    if f>4:
+        break
+        print(f, end=' ')
+    else:
+        print('end', end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3,4)
+print(e[-9])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=[0,1,2,3,4,5,6,7,8,9]
+print(b[8:-12:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+print(a.pop(0), end=' ')
+print(a)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+del a[:3]
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 37 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=14
+while n>=7:
+    n+=-3
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(-6,-8,-1):
+    if f>=6:
+        break
+        print(f, end=' ')
+        f=2
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,3)
+print(c[-7])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4','5','6','7','8','9']
+print(d[-14:7:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b.insert(-3, [4,5])
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+del c[-3:-5]
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 38 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=5
+while j>4:
+    j+=-2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(-7,-2,-2):
+    if d<=4:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2)
+print(g[0])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=('0','1','2','3','4','5','6','7','8','9')
+print(g[:5:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+c.remove(13)
+print(c)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h[-5:]='12'
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 39 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=9
+while n<=13:
+    n+=2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(9,7,3):
+    if a<3:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+print('R', end=' ')
+f(987651)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1)
+print(f[-4])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e=(0,1,2,3,4,5,6,7,8,9)
+print(e[:10:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e+='13'
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[3:8]=[14]
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 40 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=9
+while t>=2:
+    t+=-2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(1,1,2):
+    if b>7:
+        continue
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,4)
+print(b[12])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a='0123456789'
+print(a[::3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+f.append([1,0])
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+del e[:-9]
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 41 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=4
+while i<12:
+    i+=1
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(-5,-5,2):
+    if c<=5:
+        continue
+        print(c, end=' ')
+        c=-9
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1)
+print(c[-8])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h=[0,1,2,3,4,5,6,7,8,9]
+print(h[-3:11:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+print(h.index('5'), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+c[8:]=[2,3]
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 42 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=2
+while j<5:
+    j+=1
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(5,-3,-2):
+    if e<8:
+        break
+        print(e, end=' ')
+    else:
+        print('end', end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2)
+print(d[-13])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4','5','6','7','8','9']
+print(f[-6:12:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f.extend('11')
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[-1:1]='11'
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 43 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=7
+while t<=10:
+    t+=2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(4,9,3):
+    if a>=5:
+        break
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3,4)
+print(h[-13])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a='0123456789'
+print(a[:15:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+e+='12'
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+del e[5:6]
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 44 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=11
+while m>4:
+    m+=-3
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(6,-6,-1):
+    if c>6:
+        continue
+        print(c, end=' ')
+        c=-2
+    if c>=3:
+        break
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,4)
+print(a[4])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=(0,1,2,3,4,5,6,7,8,9)
+print(g[::-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+print(a.index('11'), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b[0:-2]='10'
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 45 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=8
+while m<=11:
+    m+=2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(-5,6,-1):
+    if b>=7:
+        continue
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,3)
+print(f[-3])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=('0','1','2','3','4','5','6','7','8','9')
+print(d[3::-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+c.append([2,3])
+print(c)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g[:-3]=(15)
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 46 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=7
+while i>5:
+    i+=-2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(5,-2,3):
+    if f<4:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,4)
+print(g[-2])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=('0','1','2','3','4','5','6','7','8','9')
+print(c[0::3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+print(b.pop(1), end=' ')
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a[-6:]=[1,0]
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 47 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=9
+while k<8:
+    k+=1
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(-8,-9,2):
+    if d>3:
+        break
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1)
+print(e[5])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e='0123456789'
+print(e[-4:-7:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+d.extend('10')
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[:7]=()
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 48 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=11
+while k>=9:
+    k+=-3
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(-7,-8,-2):
+    if e<=8:
+        continue
+        print(e, end=' ')
+        e=9
+    else:
+        print('end', end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3)
+print(b[10])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=[0,1,2,3,4,5,6,7,8,9]
+print(b[-2:-12:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+g.insert(1, '13')
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+del d[0:]
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 49 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=15
+while m>=6:
+    m+=-3
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(8,-10,-2):
+    if f<5:
+        continue
+        print(f, end=' ')
+        f=-6
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,3,4)
+print(f[-14])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4','5','6','7','8','9']
+print(f[:-11:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+c.remove(12)
+print(c)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+c[7:6]=[1,2]
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 50 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=14
+while k>0:
+    k+=-2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(-9,-4,2):
+    if e>4:
+        break
+        print(e, end=' ')
+    if e<6:
+        break
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        return f(n // 10) + 1
+    else:
+        return 1
+
+print('R', end=' ')
+print(f(123456))
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2)
+print(a[-6])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h=(0,1,2,3,4,5,6,7,8,9)
+print(h[-11:5:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+d.insert(-4, '11')
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+del e[-7:2]
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 51 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=1
+while n<=9:
+    n+=2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(-1,3,-1):
+    if a>=6:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+print('R', end=' ')
+f(987654)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,4)
+print(g[-1])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=('0','1','2','3','4','5','6','7','8','9')
+print(b[15:-4:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+print(b.pop(-3), end=' ')
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h[-2:3]='13'
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 52 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=6
+while k<6:
+    k+=1
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(10,-3,3):
+    if c<=3:
+        continue
+        print(c, end=' ')
+        c=-1
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+print('R', end=' ')
+f(543216)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3,4)
+print(e[1])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e=(0,1,2,3,4,5,6,7,8,9)
+print(e[-8:11:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+g.extend([1,2])
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b[-8:-1]=()
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 53 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=10
+while j>=7:
+    j+=-2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(-10,4,3):
+    if b<7:
+        continue
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1)
+print(c[-10])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g='0123456789'
+print(g[14:9:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+f.append([2,3])
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+del a[:-8]
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 54 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=4
+while i<=7:
+    i+=1
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(-2,-1,-1):
+    if d>=8:
+        break
+        print(d, end=' ')
+    else:
+        print('end', end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3)
+print(h[3])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4','5','6','7','8','9']
+print(d[:7:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+print(e.index(14), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+f[-3:4]=[1,0]
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 55 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=3
+while t<7:
+    t+=2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(0,2,2):
+    if d<=6:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2)
+print(d[-13])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a=[0,1,2,3,4,5,6,7,8,9]
+print(a[13:-15:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h+='12'
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+del d[3:-6]
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 56 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=6
+while i>3:
+    i+=-3
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(9,7,-2):
+    if a>7:
+        continue
+        print(a, end=' ')
+        a=1
+    else:
+        print('end', end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2)
+print(b[13])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=(0,1,2,3,4,5,6,7,8,9)
+print(c[5::-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a.remove(1)
+print(a)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g[-9:7]='10'
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 57 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=5
+while m<6:
+    m+=2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(-4,-7,-1):
+    if c>=4:
+        break
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 2:
+        f(n // 2)
+    print(n % 2, end=' ')
+    
+
+
+print('R', end=' ')
+f(16)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,3,4)
+print(a[2])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=[0,1,2,3,4,5,6,7,8,9]
+print(b[::2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+print(g.index('3'), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[:-2]=[2,3]
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 58 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=8
+while n>=8:
+    n+=-2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(3,5,3):
+    if f>5:
+        break
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3)
+print(h[-2])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h='0123456789'
+print(h[9::-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.insert(-5, [1,0])
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+del c[:-4]
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 59 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=0
+while j<=11:
+    j+=1
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(-6,0,2):
+    if e<3:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    print(n % 2, end=' ')
+    if n > 2:
+        f(n // 2)
+    
+
+
+print('R', end=' ')
+f(16)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,4)
+print(c[-3])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=('0','1','2','3','4','5','6','7','8','9')
+print(g[:-3:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a.append([4,5])
+print(a)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a[8:-7]='12'
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 60 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=12
+while t>1:
+    t+=-3
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(1,10,-2):
+    if b<=8:
+        continue
+        print(b, end=' ')
+        b=-5
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+           f(n // 100)
+    
+
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1)
+print(g[-12])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4','5','6','7','8','9']
+print(f[-5:4:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+b.extend(17)
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+d[-1:8]=[13]
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 61 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=5
+while t>=0:
+    t+=-2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(-3,-5,-2):
+    if a<4:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,4)
+print(b[11])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e='0123456789'
+print(e[2::-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+d+='10'
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+del h[-4:]
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 62 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=9
+while i>2:
+    i+=-3
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(7,1,3):
+    if c<=7:
+        break
+        print(c, end=' ')
+        c=10
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3)
+print(d[3])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4','5','6','7','8','9']
+print(d[-13::2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+c.remove(3)
+print(c)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+b[5:]='11'
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 63 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=7
+while t<5:
+    t+=1
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(2,8,2):
+    if d>=6:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3,4)
+print(e[-7])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a=('0','1','2','3','4','5','6','7','8','9')
+print(a[7:1:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+print(e.pop(3), end=' ')
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+g[6:-5]=(12)
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 64 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=13
+while k>=7:
+    k+=-2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(3,-8,-1):
+    if e>5:
+        continue
+        print(e, end=' ')
+    if e<=4:
+        break
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1)
+print(f[-5])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=[0,1,2,3,4,5,6,7,8,9]
+print(c[3:-10:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+print(f.pop(5), end=' ')
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e[4:]=[4,5]
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 65 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=12
+while j>4:
+    j+=-3
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(1,-5,-2):
+    if b>=3:
+        break
+        print(b, end=' ')
+    else:
+        print('end', end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2)
+print(g[-1])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=(0,1,2,3,4,5,6,7,8,9)
+print(d[::-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.insert(-7, [1,0])
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+del g[-6:-3]
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 66 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=13
+while m>=6:
+    m+=-3
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(-8,9,-1):
+    if f<=8:
+        continue
+        print(f, end=' ')
+        f=-4
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 2:
+        f(n // 2)
+    print(n % 2, end=' ')
+    
+
+
+print('R', end=' ')
+f(16)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,4)
+print(c[0])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4','5','6','7','8','9']
+print(c[-10:8:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+c+=18
+print(c)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+c[:5]=[1,2]
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 67 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=0
+while j<=10:
+    j+=2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(-5,-6,2):
+    if b<6:
+        continue
+        print(b, end=' ')
+    if b<7:
+        break
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3,4)
+print(e[-8])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e='0123456789'
+print(e[-14:12:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+d.append('13')
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a[1:1]=[1,2]
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 68 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=6
+while n<=13:
+    n+=1
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(6,-10,3):
+    if e>7:
+        break
+        print(e, end=' ')
+        e=10
+    else:
+        print('end', end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,3)
+print(f[-14])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f=(0,1,2,3,4,5,6,7,8,9)
+print(f[:13:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.extend([1,2])
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+del h[-5:-9]
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 69 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=6
+while n>1:
+    n+=-2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(2,2,-2):
+    if a<3:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2)
+print(h[1])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=[0,1,2,3,4,5,6,7,8,9]
+print(b[11:6:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+b.remove(15)
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b[2:0]=[1,0]
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 70 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=3
+while k<12:
+    k+=2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(-7,-2,-1):
+    if f>=8:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1)
+print(b[-11])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=('0','1','2','3','4','5','6','7','8','9')
+print(g[:-9:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+print(a.index('6'), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[7:7]='10'
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 71 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=4
+while m<=8:
+    m+=2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(-2,8,3):
+    if d>5:
+        break
+        print(d, end=' ')
+        d=-2
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1)
+print(a[10])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4','5','6','7','8','9']
+print(h[:-6:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+print(g.index(8), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e[:-7]='12'
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 72 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=1
+while i<9:
+    i+=1
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(0,6,2):
+    if c<=4:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2)
+print(d[-6])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a=[0,1,2,3,4,5,6,7,8,9]
+print(a[-9:15:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+f.insert(2, '10')
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+del d[1:]
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 73 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=9
+while j<13:
+    j+=2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(8,0,3):
+    if e<7:
+        continue
+        print(e, end=' ')
+    if e>=3:
+        break
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,4)
+print(h[-4])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f=(0,1,2,3,4,5,6,7,8,9)
+print(f[-15::-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b.remove(2)
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+del g[:-5]
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 74 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=5
+while m<=5:
+    m+=1
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(10,-4,2):
+    if d>4:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3,4)
+print(e[5])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h='0123456789'
+print(h[::2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+a+='12'
+print(a)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+c[-1:-1]=[12]
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 75 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=2
+while i<8:
+    i+=2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(7,1,-1):
+    if b<=5:
+        break
+        print(b, end=' ')
+        b=2
+    else:
+        print('end', end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,3)
+print(g[-8])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=('0','1','2','3','4','5','6','7','8','9')
+print(g[-6:-5:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+d.append('11')
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+f[-8:]='11'
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 76 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=8
+while t<=7:
+    t+=1
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(-4,-3,-2):
+    if c>=8:
+        continue
+        print(c, end=' ')
+        c=9
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+
+print('R', end=' ')
+f(543216)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,4)
+print(c[-12])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=('0','1','2','3','4','5','6','7','8','9')
+print(c[10:0:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h.extend([4,5])
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+del h[:6]
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 77 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=14
+while m>=9:
+    m+=-2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(5,4,2):
+    if f<=3:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3,4)
+print(d[12])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a=[0,1,2,3,4,5,6,7,8,9]
+print(a[:-13:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+print(c.pop(-1), end=' ')
+print(c)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+e[-3:0]=(15)
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 78 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=5
+while j>5:
+    j+=-3
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(4,10,-1):
+    if a>=6:
+        break
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,3)
+print(a[6])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d='0123456789'
+print(d[12::-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g.insert(4, [2,3])
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+d[0:]='13'
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 79 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=11
+while n>8:
+    n+=-2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(-6,3,3):
+    if c>5:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    print(n % 10, end=' ')
+    
+
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2)
+print(f[-9])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4','5','6','7','8','9']
+print(b[8:-14:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+f.remove('9')
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a[3:8]=[4,5]
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 80 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=5
+while k<=10:
+    k+=2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(-9,-1,-2):
+    if e<8:
+        break
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1)
+print(b[-1])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e=(0,1,2,3,4,5,6,7,8,9)
+print(e[4:-1:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+print(e.pop(-5), end=' ')
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+del b[-5:-9]
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 81 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=1
+while n<12:
+    n+=1
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(-10,-9,-1):
+    if a<7:
+        continue
+        print(a, end=' ')
+        a=7
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2)
+print(g[4])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4','5','6','7','8','9']
+print(d[-1::-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+d+='12'
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+a[-2:-2]=[2,3]
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 82 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=2
+while i<6:
+    i+=1
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(-1,5,2):
+    if b>=4:
+        break
+        print(b, end=' ')
+    else:
+        print('end', end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3,4)
+print(b[-12])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a=[0,1,2,3,4,5,6,7,8,9]
+print(a[-3:2:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+c.extend([4,5])
+print(c)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+del f[:-8]
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 83 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=0
+while m<=11:
+    m+=2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(-3,-7,-2):
+    if d<=6:
+        continue
+        print(d, end=' ')
+        d=-1
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1)
+print(f[11])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f='0123456789'
+print(f[::-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+print(a.index('2'), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[-9:5]=()
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 84 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=10
+while i>=3:
+    i+=-3
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(9,7,3):
+    if f>3:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,4)
+print(e[-13])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=(0,1,2,3,4,5,6,7,8,9)
+print(g[-12:3:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e.append([2,3])
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+d[:-4]='11'
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 85 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=7
+while t>5:
+    t+=-2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(6,2,-1):
+    if e<=6:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,3)
+print(a[-7])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h=('0','1','2','3','4','5','6','7','8','9')
+print(h[1:14:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+print(b.pop(-2), end=' ')
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b[5:-6]=[13]
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 86 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=15
+while k>=8:
+    k+=-3
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(-8,-7,-2):
+    if f>8:
+        break
+        print(f, end=' ')
+        f=1
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,4)
+print(h[-8])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=[0,1,2,3,4,5,6,7,8,9]
+print(c[-7:-2:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.insert(-1, 15)
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+del g[4:]
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 87 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=3
+while n<9:
+    n+=2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(-4,7,3):
+    if d<3:
+        continue
+        print(d, end=' ')
+    if d<=8:
+        break
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2)
+print(c[4])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4','5','6','7','8','9']
+print(b[6::2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+f+='13'
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+c[2:4]=[1,0]
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 88 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=7
+while j<=6:
+    j+=1
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(0,-2,2):
+    if c>=5:
+        continue
+        print(c, end=' ')
+        c=4
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3)
+print(d[-9])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e=('0','1','2','3','4','5','6','7','8','9')
+print(e[:10:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g.extend([1,2])
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+del e[-4:2]
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 89 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=8
+while m>=3:
+    m+=-2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(8,-10,-2):
+    if a>=4:
+        break
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 100)
+    
+
+
+print('R', end=' ')
+f(987654)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1)
+print(h[-11])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=(0,1,2,3,4,5,6,7,8,9)
+print(b[-2:-8:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+d.remove(11)
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+c[6:3]=[1,2]
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 90 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=9
+while t>0:
+    t+=-3
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(-10,8,2):
+    if b<7:
+        continue
+        print(b, end=' ')
+    else:
+        print('end', end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3,4)
+print(d[-10])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e='0123456789'
+print(e[:2:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+g.append('10')
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e[-6:]='13'
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 91 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=5
+while j>4:
+    j+=-3
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(7,-6,3):
+    if e<=7:
+        break
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,4)
+print(b[5])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=('0','1','2','3','4','5','6','7','8','9')
+print(g[-15:3:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+print(b.index(12), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+b[8:1]='10'
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 92 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=8
+while k<=5:
+    k+=1
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(-5,10,-1):
+    if b>5:
+        continue
+        print(b, end=' ')
+        b=-8
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1)
+print(c[-2])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a=[0,1,2,3,4,5,6,7,8,9]
+print(a[-5:-8:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.insert(7, '11')
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+del f[-7:-3]
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 93 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=15
+while n>=1:
+    n+=-2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(4,-9,-1):
+    if a<4:
+        continue
+        print(a, end=' ')
+    if a>5:
+        break
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3)
+print(e[13])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h=(0,1,2,3,4,5,6,7,8,9)
+print(h[1::-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f+=[1,0]
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g[0:-1]=[2,3]
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 94 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=6
+while t<11:
+    t+=2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(-7,5,3):
+    if c>6:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2)
+print(a[-5])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d='0123456789'
+print(d[2:9:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+print(h.index(0), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+del a[1:2]
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 95 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=8
+while i>=6:
+    i+=-3
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(-9,-3,2):
+    if d<=3:
+        continue
+        print(d, end=' ')
+    else:
+        print('end', end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+print('R', end=' ')
+f(987654)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,3,4)
+print(g[1])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4','5','6','7','8','9']
+print(c[6::-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+c.append('11')
+print(c)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+d[6:]='12'
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 96 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=12
+while k>9:
+    k+=-2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(-2,6,-2):
+    if f>=8:
+        break
+        print(f, end=' ')
+        f=5
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+print('R', end=' ')
+f(543216)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,3,4)
+print(f[-10])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f=('0','1','2','3','4','5','6','7','8','9')
+print(f[-6:1:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+a.remove('12')
+print(a)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h[:3]=()
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 97 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=6
+while i>=2:
+    i+=-2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(10,9,2):
+    if e<8:
+        continue
+        print(e, end=' ')
+    if e>=5:
+        break
+    else:
+        print('end', end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3)
+print(d[6])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4','5','6','7','8','9']
+print(g[13:-1:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h.extend('13')
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a[:-5]=[4,5]
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 98 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=9
+while t<=7:
+    t+=1
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(3,3,-2):
+    if b>=6:
+        break
+        print(b, end=' ')
+        b=-10
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,4)
+print(a[-4])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h=(0,1,2,3,4,5,6,7,8,9)
+print(h[:6:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+print(b.pop(0), end=' ')
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+c[-6:-4]=(14)
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 99 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=4
+while i<10:
+    i+=2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(2,-5,-1):
+    if a<=5:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1)
+print(c[-13])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b='0123456789'
+print(b[::-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+print(f.pop(-4), end=' ')
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+del d[5:]
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 100 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=11
+while n>7:
+    n+=-3
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(9,-8,3):
+    if f>4:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2)
+print(e[-3])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a=[0,1,2,3,4,5,6,7,8,9]
+print(a[:-10:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+print(d.index('1'), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+del e[-7:]
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 101 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=9
+while j<8:
+    j+=1
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(-6,-1,2):
+    if c>=3:
+        break
+        print(c, end=' ')
+        c=-5
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2)
+print(b[9])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4','5','6','7','8','9']
+print(c[-14::2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.remove('5')
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[8:5]='13'
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 102 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=4
+while k<=9:
+    k+=2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(-3,1,-2):
+    if d<7:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1)
+print(g[-6])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e=('0','1','2','3','4','5','6','7','8','9')
+print(e[::-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+c.append([1,0])
+print(c)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+g[-4:6]=[1,2]
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 103 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=2
+while m<=13:
+    m+=1
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(-1,0,-1):
+    if d<=3:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3)
+print(h[2])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f='0123456789'
+print(f[:-3:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g.extend([4,5])
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b[:-2]=(14)
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 104 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=6
+while n<12:
+    n+=2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(1,4,3):
+    if e>8:
+        break
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,4)
+print(f[-9])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=[0,1,2,3,4,5,6,7,8,9]
+print(d[15::3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a.insert(0, 16)
+print(a)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h[-3:1]=()
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 105 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=9
+while k>5:
+    k+=-2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(5,-4,2):
+    if f>=5:
+        continue
+        print(f, end=' ')
+        f=3
+    else:
+        print('end', end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3,4)
+print(h[14])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f=(0,1,2,3,4,5,6,7,8,9)
+print(f[-1:12:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b+=[2,3]
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+del c[:4]
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 106 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=8
+while j<7:
+    j+=2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(5,9,3):
+    if b>4:
+        continue
+        print(b, end=' ')
+        b=-9
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 2:
+        f(n // 2)
+    else:
+        print(n % 2, end=' ')
+
+print('R', end=' ')
+f(16)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3,4)
+print(e[-7])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4','5','6','7','8','9']
+print(d[:-13:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+d.extend([1,2])
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g[2:]=[2,3]
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 107 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=10
+while t>=2:
+    t+=-3
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(-8,-7,-2):
+    if c<6:
+        break
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+print('R', end=' ')
+f(543216)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,4)
+print(a[-3])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=(0,1,2,3,4,5,6,7,8,9)
+print(b[-12:8:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g.append('10')
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e[3:7]=[1,0]
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 108 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=13
+while j>=0:
+    j+=-3
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(3,7,-1):
+    if a<=7:
+        continue
+        print(a, end=' ')
+    if a<=3:
+        break
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2)
+print(f[3])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e=[0,1,2,3,4,5,6,7,8,9]
+print(e[9:15:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.insert(-4, '12')
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+del b[-1:-7]
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 109 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=14
+while m>9:
+    m+=-2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(-6,-10,-2):
+    if b>=3:
+        continue
+        print(b, end=' ')
+        b=-6
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,3)
+print(g[0])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=('0','1','2','3','4','5','6','7','8','9')
+print(c[-7:-12:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+a.remove(13)
+print(a)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+del d[-8:-8]
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 110 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=7
+while j>=8:
+    j+=-3
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(2,-3,2):
+    if c<6:
+        break
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1)
+print(c[-10])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g='0123456789'
+print(g[-13:-11:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+f+='10'
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+a[4:0]='12'
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 111 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=5
+while k<=13:
+    k+=1
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(1,8,3):
+    if f>8:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+           f(n // 100)
+    
+
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1)
+print(d[-7])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h=[0,1,2,3,4,5,6,7,8,9]
+print(h[-4:7:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+print(c.index(0), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h[:-3]=[4,5]
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 112 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=3
+while t<=6:
+    t+=1
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(6,-9,-1):
+    if d<=4:
+        continue
+        print(d, end=' ')
+    else:
+        print('end', end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+        f(n // 10)
+    
+
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3)
+print(b[-9])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a=(0,1,2,3,4,5,6,7,8,9)
+print(a[4::-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+print(h.pop(4), end=' ')
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+f[-9:]=[15]
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 113 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=11
+while k>3:
+    k+=-2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(-2,0,-2):
+    if e>=5:
+        break
+        print(e, end=' ')
+        e=6
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3,4)
+print(h[-13])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4','5','6','7','8','9']
+print(h[-9:-2:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h+=[1,0]
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+c[:8]='10'
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 114 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=1
+while n<9:
+    n+=2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(-1,3,-1):
+    if a<7:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2)
+print(g[-4])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=('0','1','2','3','4','5','6','7','8','9')
+print(c[5:-5:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+a.remove(8)
+print(a)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+del f[7:-9]
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 115 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=14
+while i>=4:
+    i+=-3
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(-5,5,2):
+    if a>6:
+        break
+        print(a, end=' ')
+    if a<4:
+        break
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,4)
+print(e[7])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a='0123456789'
+print(a[::2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b.extend('11')
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b[-2:]='11'
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 116 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=15
+while n>1:
+    n+=-2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(-7,6,3):
+    if f<=7:
+        continue
+        print(f, end=' ')
+        f=-3
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        return f(n // 10) + 1
+    else:
+        return 1
+
+print('R', end=' ')
+print(f(123456))
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3)
+print(b[1])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f=[0,1,2,3,4,5,6,7,8,9]
+print(f[10:4:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e.insert(6, '12')
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+del d[-5:-6]
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 117 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=0
+while m<=10:
+    m+=2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(0,-1,-1):
+    if c>5:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2)
+print(a[-5])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4','5','6','7','8','9']
+print(g[-11::3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+print(f.index(11), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[-2:1]=(12)
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 118 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=13
+while t>7:
+    t+=-3
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(9,-6,-2):
+    if d<=8:
+        continue
+        print(d, end=' ')
+    else:
+        print('end', end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1)
+print(c[6])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=('0','1','2','3','4','5','6','7','8','9')
+print(b[:0:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+g.append([1,2])
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g[2:-5]=[2,3]
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 119 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=7
+while i<11:
+    i+=1
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(10,4,2):
+    if e>=3:
+        break
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,4)
+print(d[-11])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=(0,1,2,3,4,5,6,7,8,9)
+print(d[11:14:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+print(c.pop(-5), end=' ')
+print(c)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+del a[-1:4]
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 120 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=5
+while m>=6:
+    m+=-2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(-4,-5,3):
+    if b<4:
+        continue
+        print(b, end=' ')
+        b=8
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,3,4)
+print(f[-6])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e='0123456789'
+print(e[:5:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+d.remove(15)
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e[7:-8]='10'
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 121 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=6
+while k<=5:
+    k+=1
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(-3,-2,-2):
+    if e>4:
+        break
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    print(n % 10, end=' ')
+    
+
+
+print('R', end=' ')
+f(543216)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2)
+print(h[2])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4','5','6','7','8','9']
+print(d[-10::-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+print(g.pop(-6), end=' ')
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[3:2]=[13]
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 122 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=7
+while m>=3:
+    m+=-2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(8,-4,2):
+    if b<=7:
+        continue
+        print(b, end=' ')
+        b=-7
+    else:
+        print('end', end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,4)
+print(a[-2])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c='0123456789'
+print(c[:-6:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+a.insert(2, [4,5])
+print(a)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+e[-4:]='13'
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 123 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=3
+while i<12:
+    i+=2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(7,2,-1):
+    if f<8:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3,4)
+print(e[8])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h=('0','1','2','3','4','5','6','7','8','9')
+print(h[3::-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+d+=19
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+del b[:-1]
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 124 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=8
+while t>9:
+    t+=-3
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(-10,-8,3):
+    if d>=5:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,3)
+print(f[-1])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a=[0,1,2,3,4,5,6,7,8,9]
+print(a[0:-9:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.extend('13')
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+del a[:-9]
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 125 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=12
+while j>=2:
+    j+=-3
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(-9,1,2):
+    if c<=3:
+        continue
+        print(c, end=' ')
+        c=0
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1)
+print(d[5])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f=(0,1,2,3,4,5,6,7,8,9)
+print(f[12:11:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+print(c.index('4'), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+d[8:8]=[1,2]
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 126 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=5
+while j<8:
+    j+=1
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(4,10,3):
+    if a>=6:
+        break
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3,4)
+print(b[-12])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b='0123456789'
+print(b[14:-14:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f.append([2,3])
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+c[-5:]=()
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 127 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=9
+while k>8:
+    k+=-2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(-8,2,-1):
+    if e<3:
+        break
+        print(e, end=' ')
+    if e>8:
+        break
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+print('R', end=' ')
+f(987651)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1)
+print(g[-12])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e=[0,1,2,3,4,5,6,7,8,9]
+print(e[8:10:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+b.extend([2,3])
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g[-7:-7]='12'
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 128 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=10
+while i>1:
+    i+=-2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(-1,-8,-2):
+    if c>6:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,3)
+print(c[-8])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=(0,1,2,3,4,5,6,7,8,9)
+print(g[:-15:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.append(20)
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+del h[-9:-4]
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 129 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=6
+while n>=4:
+    n+=-3
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(-2,5,-1):
+    if f<=5:
+        continue
+        print(f, end=' ')
+        f=0
+    else:
+        print('end', end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n <= 9:
+        print(n % 10, end=' ')
+    else:
+        f(n // 10)
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,4)
+print(f[-11])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=('0','1','2','3','4','5','6','7','8','9')
+print(g[7:-7:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h.remove('3')
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b[-3:]=[4,5]
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 130 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=2
+while t<=12:
+    t+=2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(7,6,-2):
+    if d>=8:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2)
+print(e[-5])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4','5','6','7','8','9']
+print(b[::3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+print(d.index(10), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+del e[:-3]
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 131 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=9
+while m>6:
+    m+=-2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(-10,3,3):
+    if a<4:
+        continue
+        print(a, end=' ')
+        a=7
+    if a<=7:
+        break
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2)
+print(a[-7])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h=[0,1,2,3,4,5,6,7,8,9]
+print(h[:-4:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=['0','1','2','3','4']
+e.insert(-1, [1,0])
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[-6:]='11'
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 132 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=15
+while t>=7:
+    t+=-3
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(3,-6,2):
+    if b>7:
+        break
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1)
+print(b[0])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f=('0','1','2','3','4','5','6','7','8','9')
+print(f[-3:13:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f+='13'
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+d[1:3]=[1,0]
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 133 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=9
+while m<13:
+    m+=1
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(5,-3,2):
+    if f>5:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,4)
+print(g[-9])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4','5','6','7','8','9']
+print(a[:7:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+print(c.pop(-2), end=' ')
+print(c)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g[4:6]=[4,5]
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 134 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=14
+while j>=5:
+    j+=-2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(-4,4,-2):
+    if d<=7:
+        break
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3)
+print(h[-2])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e=(0,1,2,3,4,5,6,7,8,9)
+print(e[-8:3:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+print(a.index(3), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a[:-6]=(15)
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 135 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=5
+while i>0:
+    i+=-3
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(-5,0,-1):
+    if c<4:
+        continue
+        print(c, end=' ')
+        c=-1
+    else:
+        print('end', end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        return f(n // 100) + 1
+    else:
+        return 1
+
+print('R', end=' ')
+print(f(123456))
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,3,4)
+print(d[10])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c='0123456789'
+print(c[-2::3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b+='10'
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+del f[6:-2]
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 136 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=1
+while n<=9:
+    n+=2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(0,8,3):
+    if a>=8:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1)
+print(c[3])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4','5','6','7','8','9']
+print(d[13:-1:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+g.remove(14)
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+c[5:7]='13'
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 137 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=7
+while k<10:
+    k+=2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(6,-2,3):
+    if e<=3:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2)
+print(d[-13])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e=('0','1','2','3','4','5','6','7','8','9')
+print(e[::-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+g.append([4,5])
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+del b[-8:5]
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 138 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=4
+while j<=5:
+    j+=1
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(8,7,-2):
+    if b>=6:
+        break
+        print(b, end=' ')
+        b=3
+    if b>=6:
+        break
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+            f(n // 100)
+    print(n % 10, end=' ')
+    
+
+
+print('R', end=' ')
+f(987654)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,3)
+print(f[4])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=[0,1,2,3,4,5,6,7,8,9]
+print(b[-4:-7:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e.extend('11')
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+h[:0]=[2,3]
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 139 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=8
+while k>1:
+    k+=-3
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(1,1,-1):
+    if b<4:
+        break
+        print(b, end=' ')
+        b=4
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,4)
+print(c[-12])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g='0123456789'
+print(g[0:11:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.insert(0, [1,2])
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+del c[0:]
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 140 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=13
+while n>=2:
+    n+=-2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(4,-7,2):
+    if e>8:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    print(n % 2, end=' ')
+    if n > 2:
+        f(n // 2)
+    
+
+
+print('R', end=' ')
+f(16)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,3,4)
+print(h[-7])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a=(0,1,2,3,4,5,6,7,8,9)
+print(a[15::3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+print(d.pop(1), end=' ')
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+a[5:-9]=[1,0]
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 141 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=0
+while t<7:
+    t+=2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(-9,-9,-2):
+    if a<=7:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1)
+print(e[0])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h=(0,1,2,3,4,5,6,7,8,9)
+print(h[-3::-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=[10,11,12,13,14]
+b+='12'
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e[-1:6]=[14]
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 142 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=12
+while n>7:
+    n+=-3
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(2,-10,2):
+    if f>=6:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 10)
+    else:
+        print(n % 10, end=' ')
+
+print('R', end=' ')
+f(543216)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,3,4)
+print(g[-4])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4','5','6','7','8','9']
+print(c[:13:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+print(c.index('2'), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+del g[-4:]
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 143 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=8
+while n<=6:
+    n+=1
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(-6,10,-1):
+    if c<5:
+        break
+        print(c, end=' ')
+        c=5
+    else:
+        print('end', end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,4)
+print(b[14])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f='0123456789'
+print(f[-7::2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a.remove('9')
+print(a)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+d[-8:-4]='10'
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 144 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=4
+while i<8:
+    i+=2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(-3,9,3):
+    if d>3:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2)
+print(a[-8])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=[0,1,2,3,4,5,6,7,8,9]
+print(d[7:-13:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+print(f.pop(5), end=' ')
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[:8]=[1,2]
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 145 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=2
+while m<=11:
+    m+=1
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(10,-1,-2):
+    if c>=8:
+        continue
+        print(c, end=' ')
+    else:
+        print(c, end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1,2,3)
+print(e[5])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e=('0','1','2','3','4','5','6','7','8','9')
+print(e[:9:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f.extend('13')
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=[10,11,12,13,14]
+f[6:0]='11'
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 146 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=1
+while k<=12:
+    k+=2
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(-7,-4,3):
+    if f>6:
+        break
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,3)
+print(c[-6])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a='0123456789'
+print(a[5:-11:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+g.append('12')
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=['0','1','2','3','4']
+del h[3:]
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 147 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=7
+while t>=6:
+    t+=-2
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(9,-5,2):
+    if b<4:
+        continue
+        print(b, end=' ')
+        b=-3
+    else:
+        print('end', end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+            f(n // 100)
+    print(n % 10, end=' ')
+    
+
+
+print('R', end=' ')
+f(987654)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2)
+print(b[12])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=('0','1','2','3','4','5','6','7','8','9')
+print(c[-5:-3:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=['0','1','2','3','4']
+c.insert(-3, [2,3])
+print(c)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+c[-5:]='12'
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 148 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=10
+while i>=0:
+    i+=-3
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(7,-6,-1):
+    if e<=3:
+        continue
+        print(e, end=' ')
+        e=-6
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1)
+print(a[-11])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d=(0,1,2,3,4,5,6,7,8,9)
+print(d[-10:15:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+a.append('11')
+print(a)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+g[1:-8]=()
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 149 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=3
+while j<11:
+    j+=1
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(8,-2,3):
+    if d>5:
+        break
+        print(d, end=' ')
+    if d>8:
+        break
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2,4)
+print(h[-13])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=[0,1,2,3,4,5,6,7,8,9]
+print(g[-9:-6:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+print(h.pop(-1), end=' ')
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+del d[0:-7]
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 150 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=0
+while i<=7:
+    i+=2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(-2,-7,-2):
+    if a>=7:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1,2,3,4)
+print(g[2])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4','5','6','7','8','9']
+print(b[::-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b.remove(2)
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e[:3]='12'
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 151 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+t=7
+while t<6:
+    t+=1
+print(t)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for b in range(-6,5,2):
+    if b<5:
+        continue
+        print(b, end=' ')
+    else:
+        print(b, end=' ')
+    print(b, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2)
+print(f[-10])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f=(0,1,2,3,4,5,6,7,8,9)
+print(f[-15::-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e.extend([1,2])
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+del b[7:-2]
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 152 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=6
+while m>3:
+    m+=-2
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for c in range(6,7,-1):
+    if c<=4:
+        break
+        print(c, end=' ')
+        c=-10
+    else:
+        print('end', end=' ')
+    print(c, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    print(n % 10, end=' ')
+    if n > 9:
+           f(n // 100)
+    
+
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,4)
+print(d[-10])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h='0123456789'
+print(h[-1:14:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+d+=[1,0]
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=[10,11,12,13,14]
+a[-2:4]=()
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 153 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=11
+while j>=9:
+    j+=-2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(-4,6,3):
+    if e<3:
+        continue
+        print(e, end=' ')
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+f=('a','b','c','d','e',0,1,2,3,4)
+print(f[-1])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+h=('0','1','2','3','4','5','6','7','8','9')
+print(h[::2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+print(c.index(17), end=' ')
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+d=['0','1','2','3','4']
+d[:-6]='11'
+print(d)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 154 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+k=14
+while k>5:
+    k+=-3
+print(k)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(-1,-4,-1):
+    if a>=7:
+        continue
+        print(a, end=' ')
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    print(n % 10, end=' ')
+    
+
+
+print('R', end=' ')
+f(123456)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+b=('a','b','c','d','e',0,1,2,3)
+print(b[4])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+g=[0,1,2,3,4,5,6,7,8,9]
+print(g[2:-4:-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a.insert(-7, 17)
+print(a)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+g=[10,11,12,13,14]
+del g[-3:-5]
+print(g)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 155 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=6
+while n<9:
+    n+=2
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(3,3,-2):
+    if d<=8:
+        continue
+        print(d, end=' ')
+    else:
+        print(d, end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(n):
+    if n > 9:
+        f(n // 100)
+    else:
+        print(n % 10, end=' ')
+
+print('R', end=' ')
+f(987654)
+%code
+
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+g=('a','b','c','d','e',0,1)
+print(g[-3])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4','5','6','7','8','9']
+print(f[11:10:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+d=[10,11,12,13,14]
+print(d.pop(3), end=' ')
+print(d)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e[:7]=[1,0]
+print(e)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 156 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+n=11
+while n>8:
+    n+=-3
+print(n)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(1,-1,2):
+    if f>6:
+        break
+        print(f, end=' ')
+        f=9
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for el in s:
+        el+=1
+    return s
+
+s=[1,2,3]
+s=f(s)
+print('R', end=' ')
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+c=('a','b','c','d','e',0,1,2,3)
+print(c[-11])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+e=[0,1,2,3,4,5,6,7,8,9]
+print(e[:8:3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b.remove('7')
+print(b)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4']
+a[-6:]=[12]
+print(a)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 157 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+m=9
+while m<=5:
+    m+=1
+print(m)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for d in range(5,1,-1):
+    if d>=8:
+        continue
+        print(d, end=' ')
+    else:
+        print('end', end=' ')
+    print(d, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+e=('a','b','c','d','e',0,1)
+print(e[-1])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+d='0123456789'
+print(d[-8:-10:2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+g=['0','1','2','3','4']
+g.append([4,5])
+print(g)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+b=['0','1','2','3','4']
+b[2:1]=[1,2]
+print(b)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 158 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=5
+while i<=13:
+    i+=2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for f in range(0,4,3):
+    if f>5:
+        continue
+        print(f, end=' ')
+    else:
+        print(f, end=' ')
+    print(f, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s1):
+    s=s1[:]
+    for i in range(len(s)):
+        s[i]+=1
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+h=('a','b','c','d','e',0,1,2)
+print(h[6])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+b=('0','1','2','3','4','5','6','7','8','9')
+print(b[-14:6:-1])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+h.insert(4, '10')
+print(h)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+c=[10,11,12,13,14]
+c[-9:5]=[2,3]
+print(c)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 159 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+j=12
+while j>=4:
+    j+=-2
+print(j)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for e in range(9,-3,-2):
+    if e<=7:
+        break
+        print(e, end=' ')
+        e=8
+    else:
+        print(e, end=' ')
+    print(e, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    s1=s
+    for i in range(len(s)):
+        s1[i]+=1
+    return s1
+
+s=[1,2,3]
+print('R', end=' ')
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+d=('a','b','c','d','e',0,1,2,4)
+print(d[11])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+c=(0,1,2,3,4,5,6,7,8,9)
+print(c[-13::-2])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+e=[10,11,12,13,14]
+e.extend('13')
+print(e)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+h=[10,11,12,13,14]
+del h[8:-3]
+print(h)
+%code
+
+%enditem
+\end {large}}
+%end
+%begin
+{25.11.2021 Модульна контрольна \No 2, частина \textbf { 1 }, варіант  \No \textbf { 160 }\par}
+{
+\begin {large}
+
+%beginitem
+1. 
+%code
+print('R', end=' ')
+i=8
+while i>=2:
+    i+=-2
+print(i)
+%code
+
+%enditem
+
+%beginitem
+2. 
+%code
+print('R', end=' ')
+for a in range(-8,8,2):
+    if a<3:
+        continue
+        print(a, end=' ')
+    if a<4:
+        break
+    else:
+        print(a, end=' ')
+    print(a, end=' ')
+%code
+%enditem
+
+%beginitem
+3. 
+%code
+def f(s):
+    for i in range(len(s)):
+        s[i]+=1
+    return
+
+print('R', end=' ')
+s=[1,2,3]
+f(s)
+print(s)
+%code
+
+%enditem
+
+%beginitem
+4. 
+%code
+print('R', end=' ')
+a=('a','b','c','d','e',0,1,2,3,4)
+print(a[-6])
+%code
+
+%enditem
+
+%beginitem
+5. 
+%code
+print('R', end=' ')
+a=['0','1','2','3','4','5','6','7','8','9']
+print(a[:12:-3])
+%code
+
+%enditem
+
+
+%beginitem
+6. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+f+=[1,0]
+print(f)
+%code
+
+%enditem
+
+
+%beginitem
+7. 
+%code
+print('R', end=' ')
+f=['0','1','2','3','4']
+f[:2]='10'
+print(f)
+%code
+
+%enditem
+\end {large}}
+%end
+\end{document}
+

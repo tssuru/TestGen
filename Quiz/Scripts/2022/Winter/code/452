@@ -1,0 +1,30 @@
+echo
+echo =452_1.py 
+python3.10 ./452_1.py 
+echo
+echo =452_2.py 
+python3.10 ./452_2.py 
+echo
+echo =452_3.py 
+python3.10 ./452_3.py 
+echo
+echo =452_4.py 
+python3.10 ./452_4.py 
+echo
+echo =452_5.py 
+python3.10 ./452_5.py 
+echo
+echo =452_6.py 
+python3.10 ./452_6.py 
+echo
+echo =452_7.py 
+python3.10 ./452_7.py 
+echo
+echo =452_8.py 
+python3.10 ./452_8.py 
+echo
+echo =452_9.py 
+python3.10 ./452_9.py 
+echo
+echo =452_10.py 
+python3.10 ./452_10.py 

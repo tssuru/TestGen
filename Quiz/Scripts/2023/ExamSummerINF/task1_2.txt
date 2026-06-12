@@ -1,0 +1,27 @@
+class A{
+{SPACE}{SPACE} ... 
+{SPACE}{SPACE} ~A();
+};
+
+class A{
+{SPACE}{SPACE} ... 
+ {SPACE}{SPACE} A();
+};
+
+
+class A{
+{SPACE}{SPACE} ... 
+{SPACE}{SPACE} A(const A&);
+};
+
+
+class A{
+{SPACE}{SPACE} ... 
+{SPACE}{SPACE} A(A&&);
+};
+
+class A{
+{SPACE}{SPACE} ... 
+{SPACE}{SPACE} A& operator =(A&&);
+};
+

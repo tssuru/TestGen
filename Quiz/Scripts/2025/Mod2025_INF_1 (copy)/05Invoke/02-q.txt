@@ -1,0 +1,16 @@
+  <fabric>
+     check
+     <fname>
+         05Invoke/02.txt
+     <\fname>
+     <ncase>
+	   4
+     <\ncase>
+//   <mode>
+//	   SpaceBetween
+//	<\mode>
+     <before>
+Виберіть версію функції \code{f}, за якої за виконання коду{ENDL}
+     <\before>
+
+   <\fabric>

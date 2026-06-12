@@ -1,0 +1,16 @@
+  <fabric>
+     check
+     <fname>
+         06.txt
+     <\fname>
+     <ncase>
+	   4
+     <\ncase>
+//   <mode>
+//	   SpaceBetween
+//	<\mode>
+     <before>
+Коли за виконання коду{SPACE}
+     <\before>
+
+   <\fabric>
